@@ -1,0 +1,15 @@
+/* static/css/style.css */
+
+.container.py-3 {
+    max-width: 960px;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('../fonts/figtree-regular.ttf') format('truetype');
+    /* Add additional font weights and styles if necessary */
+}
+
+body {
+    font-family: 'Figtree', Arial, sans-serif;
+}
