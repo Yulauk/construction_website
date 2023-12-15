@@ -13,3 +13,24 @@
 body {
     font-family: 'Figtree', Arial, sans-serif;
 }
+
+/* Navbar links styles */
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid transparent; /* Initial border color */
+    transition: border-bottom-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Border-bottom-color on hover */
+nav a:hover {
+    border-bottom-color: #f8f1e2; /* Gray line on hover */
+}
+
+/* Border-bottom-color for the active link */
+nav a:active,
+nav a.active {
+    border-bottom-color: rgb(251 185 51);; /* Purple line for the active link */
+}
+
