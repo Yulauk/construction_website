@@ -16,12 +16,12 @@
 
     <title>{% block title %}{% endblock %}Kulbachenko Design + Build</title>
 </head>
-<body class="bg-light p-4">
+<body class="bg-light">
     {% block body %}
-    <div class="container py-3">
+    <div class="container py-2">
         {% block header %}
         <header>
-            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-2 border-bottom">
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
                     <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="40" height="32" class="me-2">
                     <span class="fs-4">Kulbachenko Construction</span>
@@ -32,7 +32,11 @@
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="/portfolio">PORTFOLIO</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services-process' %}active{% endif %}" href="/services-process">SERVICES</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="/blog">BLOG</a>
+
                 </nav>
+                <div class="container-color">
+                        <a href="#" class="contact-link">CONTACT US</a>
+                    </div>
             </div>
         </header>
         {% endblock %}

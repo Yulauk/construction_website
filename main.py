@@ -14,6 +14,3 @@ def base():
 @app.errorhandler(404)
 def not_found(error):
     return render_template("error_pages/404.html"), 404
-
-
-# url_for('static', filename='style.css')

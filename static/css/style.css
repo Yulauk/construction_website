@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Figtree';
-    src: url('../fonts/figtree-regular.ttf') format('truetype');
+    src: url('../fonts/Figtree-Light.ttf') format('truetype');
     /* Add additional font weights and styles if necessary */
 }
 
@@ -15,26 +15,72 @@ body {
     margin: 0;
     padding: 0;
 }
-
 /* Navbar links styles */
+.d-flex.flex-column.flex-md-row.align-items-center.pb-2.mb-2.border-bottom {
+    height: 60px; /* Adjust the height as needed */
+}
+
+/* Navbar index links styles */
+.d-flex.flex-column.flex-md-row.align-items-center.pb-2.mb-2{
+    height: 59px; /* Adjust the height as needed */
+}
+
 nav a {
     position: relative;
     text-decoration: none;
     color: inherit;
     border-bottom: 1px solid transparent; /* Initial border color */
-    transition: border-bottom-color 0.3s ease; /* Add a smooth transition effect */
+    transition: border-bottom-color 0.3s ease, color 0.3s, background-color 0.3s; /* Add smooth transition effects */
 }
 
 /* Border-bottom-color on hover */
 nav a:hover {
-    border-bottom-color: #f8f1e2; /* Gray line on hover */
+    border-bottom-color: #3d4543; /* Gray line on hover */
+    color: #3d4543; /* Text color on hover */
 }
 
 /* Border-bottom-color for the active link */
 nav a:active,
 nav a.active {
-    border-bottom-color: rgb(251 185 51);; /* Purple line for the active link */
+    border-bottom-color: rgb(251 185 51); /* yellow line for the active link */
 }
+
+/* Container-color styles */
+.container-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-width: 1px;
+    border-color: #3d4543;
+    border-style: solid;
+}
+
+/* Contact link styles */
+.contact-link {
+    text-decoration: none;
+    display: flex;
+    padding: 10px 10px;
+    color: var(--fb-logo-text-color);
+    border: solid 1px var(--fb-logo-text-color);
+    margin: 5px 8px 5px 10px;
+    transition: background 0.15s, color 0.15s, border 0.15s;
+    line-height: 35px;
+}
+
+/* Hover effect for the contact link */
+.contact-link:hover {
+    color: var(--fb-color-1);
+    background: var(--fb-logo-text-color);
+}
+
+/* Hover effect for the container-color */
+.container-color:hover {
+    background-color: #3d4543;
+    color: #f8f9fa;
+
+}
+
 
 /* Hero Section Content for index.html */
 .full-screen-container {
@@ -81,6 +127,6 @@ nav a.active {
 }
 
 .content {
-    color: black;
+    color: #3d4543;
     font-size: 24px;
 }
