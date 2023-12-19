@@ -4,13 +4,11 @@
 
 {% block body %}
     <div class="container py-2">
-        <div class="full-screen-container">
-
+        <div class="full-screen-container d-flex flex-column align-items-space-around justify-content-flex-start">
             <header>
             <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-2">
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                    <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="40" height="32" class="me-2">
-                    <span class="fs-4">Kulbachenko Construction</span>
+                    <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="60" height="60" class="me-2">
                 </a>
 
                 <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -19,32 +17,43 @@
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services-process' %}active{% endif %}" href="/services-process">SERVICES</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="/blog">BLOG</a>
                 </nav>
+
                 <div class="container-color">
                         <a href="#" class="contact-link">CONTACT US</a>
                     </div>
             </div>
         </header>
+
+            <div class="main-middle-block text-center">
+                <div class="main-text-carousel">
+                    <h1>
+                        Kulbachenko & Co.<br>Construction
+                    </h1>
+                </div>
+            </div>
+             <div class="middle-block mt-3">
+                    <div class="container-bottom-corusel">
+                        <a href="#" class="contact-link">VIEW OUR PORTFOLIO</a>
+                    </div>
+                </div>
         </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-container" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
                     <img src="{{ url_for('static', filename='images/carousel/house-isolated-field.jpg') }}" class="d-block w-100" alt="Slide 1">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                        <h1>Your Carousel Title 1</h1>
                         <!-- Add additional text or elements as needed -->
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ url_for('static', filename='images/carousel/renovating-house.jpg') }}" class="d-block w-100" alt="Slide 2">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                        <h1>Your Carousel Title 2</h1>
                         <!-- Add additional text or elements as needed -->
                     </div>
                 </div>
                 <div class="carousel-item active">
                     <img src="{{ url_for('static', filename='images/carousel/renovation-apartment.jpg') }}" class="d-block w-100" alt="Slide 3">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                        <h1>Your Carousel Title 3</h1>
                         <!-- Add additional text or elements as needed -->
                     </div>
                 </div>

@@ -56,6 +56,21 @@ nav a.active {
     border-style: solid;
 }
 
+.container-bottom-corusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-color: #3d4543;
+    border-style: solid;
+}
+
+.container-bottom-corusel:hover {
+    background-color: #3d4543;
+    color: #f8f9fa;
+
+}
+
 /* Contact link styles */
 .contact-link {
     text-decoration: none;
@@ -80,6 +95,8 @@ nav a.active {
     color: #f8f9fa;
 
 }
+
+
 
 
 /* Hero Section Content for index.html */
@@ -129,4 +146,29 @@ nav a.active {
 .content {
     color: #3d4543;
     font-size: 24px;
+}
+
+.middle-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.main-middle-block{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 269px;
+}
+
+
+
+.main-text-carousel {
+    width: 400px;
+    height: 128px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
