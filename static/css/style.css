@@ -42,7 +42,7 @@ nav a:hover {
 /* Border-bottom-color for the active link */
 nav a:active,
 nav a.active {
-    border-bottom-color: rgb(251 185 51); /* yellow line for the active link */
+    border-bottom-color: #fbb933; /* yellow line for the active link */
 }
 
 /* Container-color styles */
@@ -61,15 +61,34 @@ nav a.active {
     justify-content: center;
     align-items: center;
     border-width: 1px;
-    border-color: #3d4543;
+    border-color: #f8f9fa;
     border-style: solid;
+    color: #f8f9fa
 }
 
 .container-bottom-corusel:hover {
-    background-color: #3d4543;
-    color: #f8f9fa;
+    background-color: #f8f9fa;
+    color: #3d4543;
 
 }
+
+#index-nav a {
+    color: #f8f9fa !important; /* Set the text color to white */
+}
+
+/* Add this rule to adjust text color on hover for the navbar */
+#index-nav a:hover {
+    color: white !important; /* Text color on hover */
+    border-bottom-color: #fbb933; /* Gray line on hover */
+
+}
+
+/* Add this rule to adjust text color for the active link in the navbar */
+#index-nav a:active,
+#index-nav a.active {
+    border-bottom-color: #fbb933 !important; /* yellow text color for the active link */
+}
+
 
 /* Contact link styles */
 .contact-link {
@@ -96,6 +115,23 @@ nav a.active {
 
 }
 
+/* Container-color styles */
+.container-color-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-width: 1px;
+    border-color: #f8f9fa;
+    border-style: solid;
+    color: #f8f9fa;
+}
+
+.container-color-index:hover {
+    background-color: #f8f9fa;
+    color: #3d4543;
+
+}
 
 
 
@@ -171,4 +207,17 @@ nav a.active {
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
+    color: #f8f9fa;
+}
+
+/* Add this to your CSS file */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Background color for darkening */
+    opacity: 0.15; /* Adjust the opacity as needed (0 to 1) */
+    z-index: 1; /* Make sure the overlay is above the carousel items */
 }

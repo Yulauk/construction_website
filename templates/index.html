@@ -11,14 +11,14 @@
                     <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="60" height="60" class="me-2">
                 </a>
 
-                <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <nav id="index-nav" class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="/about">ABOUT</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="/portfolio">PORTFOLIO</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services-process' %}active{% endif %}" href="/services-process">SERVICES</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="/blog">BLOG</a>
                 </nav>
 
-                <div class="container-color">
+                <div class="container-color-index">
                         <a href="#" class="contact-link text-nowrap">CONTACT US</a>
                     </div>
             </div>
@@ -58,6 +58,7 @@
                     </div>
                 </div>
             </div>
+            <div class="overlay"></div>
         </div>
 
         <div class="content">
