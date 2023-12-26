@@ -1,7 +1,7 @@
 /* static/css/style.css */
 
-.container.py-3 {
-    max-width: 960px;
+.container.py-2 {
+    max-width: 1160px;
 }
 
 @font-face {
@@ -14,6 +14,7 @@ body {
     font-family: 'Figtree', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: bg-light;
 }
 /* Navbar links styles */
 .d-flex.flex-column.flex-md-row.align-items-center.pb-2.mb-2.border-bottom {
@@ -115,7 +116,16 @@ nav a.active {
 
 }
 
-/* Container-color styles */
+
+/* Hero Section Content for index.html */
+.full-screen-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Container-color styles for index page*/
 .container-color-index {
     display: flex;
     justify-content: center;
@@ -131,16 +141,6 @@ nav a.active {
     background-color: #f8f9fa;
     color: #3d4543;
 
-}
-
-
-
-/* Hero Section Content for index.html */
-.full-screen-container {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
 }
 
 .carousel-container {
@@ -199,7 +199,6 @@ nav a.active {
 }
 
 
-
 .main-text-carousel {
     width: 400px;
     height: 128px;
@@ -220,4 +219,69 @@ nav a.active {
     background-color: #000; /* Background color for darkening */
     opacity: 0.15; /* Adjust the opacity as needed (0 to 1) */
     z-index: 1; /* Make sure the overlay is above the carousel items */
+}
+
+
+.portfolio_img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.portfolio_img img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+}
+
+.portfolio_img:hover img {
+    filter: brightness(50%);
+}
+
+.portfolio_img .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.portfolio_img:hover .description {
+    opacity: 1;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-red {
+    color: red;
+}
+
+
+/* Add the following styles to your CSS */
+
+.header-bg {
+    background-color: #your-form-color; /* Set your desired header background color */
+    width: 100%;
+}
+
+.body-bg {
+    background-color: #f0f0f0; /* Set your desired body background color */
+    width: 100%;
+}
+
+.form-bg {
+    background-color: #your-form-color; /* Set your desired form background color */
+    width: 100%;
+}
+
+.footer-bg {
+    background-color: #your-footer-color; /* Set your desired footer background color */
+    width: 100%;
 }

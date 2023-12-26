@@ -12,42 +12,183 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
 
 
     <title>{% block title %}{% endblock %}Kulbachenko Design + Build</title>
 </head>
 <body class="bg-light">
     {% block body %}
-    <div class="container py-2">
-        {% block header %}
         <header>
+            <div class="header-bg">
+                <div class="container py-2">
             <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-2 border-bottom">
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                    <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="60" height="60" class="me-2">
+                    <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="66" height="66" class="me-2">
                     <span class="fs-4">Kulbachenko Construction</span>
                 </a>
 
                 <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="/about">ABOUT</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="/portfolio">PORTFOLIO</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services-process' %}active{% endif %}" href="/services-process">SERVICES</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="/services">SERVICES</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="/blog">BLOG</a>
 
                 </nav>
                 <div class="container-color">
-                        <a href="#" class="contact-link text-nowrap">CONTACT US</a>
+                        <a href="#contact-form" class="contact-link text-nowrap">CONTACT US</a>
                     </div>
             </div>
+                    </div>
+                </div>
         </header>
-        {% endblock %}
 
+        {% block content %}{% endblock %}
+    {% endblock %}
+        <div class="body-bg">
+            <div class="container py-2">
+                <div class="album py-5">
         <main>
-            {% block content %}{% endblock %}
-        </main>
+            <div>
+            <div id="contact-form" class="row g-5">
 
+                <!--                      Get a Free Consultation-->
+
+                <div class="col-md-5 col-lg-4 order-md-last">
+        <div class="position-sticky" style="top: 2rem;">
+            <h4 id="fix-position" class="d-flex justify-content-between align-items-center mb-3">
+                <span class="fs-4">Get a Free Consultation</span>
+            </h4>
+
+            <form class="card p-4" id="consultationForm" onsubmit="return validateForm()">
+                <div class="mb-3">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                        <label for="username">First Name</label>
+                        <div class="error-message" id="username-error"></div>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="tel" class="form-control" id="phone" placeholder="1234567890">
+                        <label for="phone">Your Contact</label>
+                        <div class="error-message" id="phone-error"></div>
+                    </div>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
+                        <label for="comment">Comment</label>
+                        <div class="error-message" id="comment-error"></div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+                <!--form "Contact Us"-->
+                  <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Contact Us</h4>
+                    <form class="row g-3">
+
+                                                <div class="col-md-6">
+                            <label for="validationDefault01" class="form-label">First name <span class="text-red">*</span></label>
+                            <input type="text" class="form-control" id="validationDefault01" required>
+                          </div>
+
+                                                <div class="col-md-6">
+                            <label for="validationDefault02" class="form-label">Last name <span class="text-red">*</span></label>
+                            <input type="text" class="form-control" id="validationDefault02" required>
+                          </div>
+
+                                                <div class="col-md-6">
+                            <label for="validationDefault033" class="form-label">Email address <span class="text-red">*</span></label>
+                            <div class="input-group">
+                              <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                          <input type="email" class="form-control" id="validationDefault033" placeholder="name@example.com" required>
+                            </div>
+                          </div>
+
+                                                <div class="col-md-6">
+                            <label for="validationDefault33" class="form-label">Phone <span class="text-red">*</span></label>
+                            <input type="text" class="form-control" id="validationDefault33" required>
+                          </div>
+
+                                                <div class="col-md-6">
+                            <label for="FormControlTextarea1" class="form-label">City</label>
+                            <input type="text" class="form-control" id="FormControlTextarea1">
+                          </div>
+
+                                                <div class="col-md-3">
+                            <label for="Textarea_State" class="form-label">State</label>
+                            <select class="form-select" id="Textarea_State">
+                              <option selected disabled value="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+
+                                                <div class="col-md-3">
+                            <label for="ControlTextarea3" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="ControlTextarea3">
+                          </div>
+
+                                                <div class="col-md-6">
+                            <label for="ControlTextarea4" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="ControlTextarea4">
+                          </div>
+
+                                                <div class="col-md-3">
+                            <label for="validationbudget" class="form-label">Target budget <span class="text-red">*</span></label>
+                            <input type="text" class="form-control" id="validationbudget" required>
+                          </div>
+
+                                                <div class="col-md-3">
+                            <label for="validation_time_frame" class="form-label">Project time frame <span class="text-red">*</span></label>
+                            <input type="text" class="form-control" id="validation_time_frame" required>
+                          </div>
+
+                                                <div class="col-md-6">
+                            <label for="Textarea_about" class="form-label">How did you hear about us?</label>
+                            <input type="text" class="form-control" id="Textarea_about">
+                          </div>
+
+                                                <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Tell us about your project <span class="text-red">*</span></label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+
+                          <div class="col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                              <label class="form-check-label" for="invalidCheck2">
+                                Agree to terms and conditions
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                          </div>
+                    </form>
+
+                  </div>
+                </div>
+                </div>
+        </main>
+                    </div>
+                </div>
+                </div>
+
+
+        <div class="container py-2">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 col-12 d-flex align-items-center">
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Kulbachenko & Co. Construction</span>
+                <span class="mb-3 mb-md-0 text-body-secondary">© {{ year_on_site }} Kulbachenko & Co. Construction</span>
             </div>
 
             <ul class="nav col-md-4 col-12 justify-content-end list-unstyled d-flex">
@@ -74,8 +215,7 @@
                 </li>
             </ul>
         </footer>
-    </div>
+            </div>
 
-{% endblock %}
 </body>
 </html>
