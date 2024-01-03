@@ -23,11 +23,13 @@
         <header>
             <div class="header-bg">
                 <div class="container py-2">
-            <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-2 border-bottom">
-                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                    <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="66" height="66" class="me-2">
-                    <span class="fs-4">Kulbachenko Construction</span>
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+<!--            <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-2 border-bottom">-->
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px" height="70px">
+                    <span class="me-2 fs-4">Kulbachenko<br>Construction</span>
                 </a>
+
 
                 <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="/about">ABOUT</a>

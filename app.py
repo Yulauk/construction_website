@@ -1,5 +1,6 @@
 from flask import Flask, url_for, render_template, make_response
 import datetime
+import requests
 
 
 app = Flask(__name__)
@@ -34,3 +35,6 @@ def year_on_site():
     date_now = datetime.datetime.now()
     return date_now.year
 
+
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000)

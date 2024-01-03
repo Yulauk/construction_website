@@ -267,7 +267,7 @@ nav a.active {
 /* Add the following styles to your CSS */
 
 .header-bg {
-    background-color: #your-form-color; /* Set your desired header background color */
+    background-color: #ededed; /* Set your desired header background color */
     width: 100%;
 }
 
@@ -285,3 +285,4 @@ nav a.active {
     background-color: #your-footer-color; /* Set your desired footer background color */
     width: 100%;
 }
+
