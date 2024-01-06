@@ -63,22 +63,22 @@
                 <span class="fs-4">Get a Free Consultation</span>
             </h4>
 
-            <form class="card p-4" id="consultationForm" onsubmit="return validateForm()">
+            <form action="{{ url_for('submit_free_consultation') }}" class="card p-4" id="consultationForm" onsubmit="return validateForm()" method="post">
                 <div class="mb-3">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="username" placeholder="Username">
+                        <input type="text" class="form-control" name="name" id="username" placeholder="Username">
                         <label for="username">First Name</label>
                         <div class="error-message" id="username-error"></div>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="tel" class="form-control" id="phone" placeholder="1234567890">
+                        <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
                         <label for="phone">Your Contact</label>
                         <div class="error-message" id="phone-error"></div>
                     </div>
 
                     <div class="form-floating">
-                        <textarea class="form-control" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
+                        <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
                         <label for="comment">Comment</label>
                         <div class="error-message" id="comment-error"></div>
                     </div>
@@ -97,34 +97,34 @@
                 <!--form "Contact Us"-->
                   <div class="col-md-7 col-lg-8">
                     <h4 class="mb-3">Contact Us</h4>
-                    <form class="row g-3">
+                    <form class="row g-3" action="{{ url_for('submit_contact_us') }}" method="POST">
 
                                                 <div class="col-md-6">
                             <label for="validationDefault01" class="form-label">First name <span class="text-red">*</span></label>
-                            <input type="text" class="form-control" id="validationDefault01" required>
+                            <input type="text" name="name" class="form-control" id="validationDefault01" required>
                           </div>
 
                                                 <div class="col-md-6">
                             <label for="validationDefault02" class="form-label">Last name <span class="text-red">*</span></label>
-                            <input type="text" class="form-control" id="validationDefault02" required>
+                            <input type="text" name="surname" class="form-control" id="validationDefault02" required>
                           </div>
 
                                                 <div class="col-md-6">
                             <label for="validationDefault033" class="form-label">Email address <span class="text-red">*</span></label>
                             <div class="input-group">
                               <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                          <input type="email" class="form-control" id="validationDefault033" placeholder="name@example.com" required>
+                          <input type="email" name="email" class="form-control" id="validationDefault033" placeholder="name@example.com" required>
                             </div>
                           </div>
 
                                                 <div class="col-md-6">
                             <label for="validationDefault33" class="form-label">Phone <span class="text-red">*</span></label>
-                            <input type="text" class="form-control" id="validationDefault33" required>
+                            <input type="text" name="phone" class="form-control" id="validationDefault33" required>
                           </div>
 
                                                 <div class="col-md-6">
                             <label for="FormControlTextarea1" class="form-label">City</label>
-                            <input type="text" class="form-control" id="FormControlTextarea1">
+                            <input type="text" name="city" class="form-control" id="FormControlTextarea1">
                           </div>
 
                                                 <div class="col-md-3">
@@ -137,7 +137,7 @@
 
                                                 <div class="col-md-3">
                             <label for="ControlTextarea3" class="form-label">Zip</label>
-                            <input type="text" class="form-control" id="ControlTextarea3">
+                            <input type="text" name="zip" class="form-control" id="ControlTextarea3">
                           </div>
 
                                                 <div class="col-md-6">
@@ -147,22 +147,22 @@
 
                                                 <div class="col-md-3">
                             <label for="validationbudget" class="form-label">Target budget <span class="text-red">*</span></label>
-                            <input type="text" class="form-control" id="validationbudget" required>
+                            <input type="text" name="budget" class="form-control" id="validationbudget" required>
                           </div>
 
                                                 <div class="col-md-3">
                             <label for="validation_time_frame" class="form-label">Project time frame <span class="text-red">*</span></label>
-                            <input type="text" class="form-control" id="validation_time_frame" required>
+                            <input type="text" name="time" class="form-control" id="validation_time_frame" required>
                           </div>
 
                                                 <div class="col-md-6">
                             <label for="Textarea_about" class="form-label">How did you hear about us?</label>
-                            <input type="text" class="form-control" id="Textarea_about">
+                            <input type="text" name="source" class="form-control" id="Textarea_about">
                           </div>
 
                                                 <div class="mb-3">
                           <label for="exampleFormControlTextarea1" class="form-label">Tell us about your project <span class="text-red">*</span></label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                              <textarea class="form-control" name="project" id="exampleFormControlTextarea1" rows="3" required></textarea>
                         </div>
 
                           <div class="col-12">
