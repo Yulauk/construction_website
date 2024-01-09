@@ -63,6 +63,20 @@ def services():
     return render_template('services.html', year_on_site=year_on_site())
 
 
+# for portfolio projects
+@app.route('/project')
+def project():
+    return render_template('project.html', year_on_site=year_on_site())
+
+
+@app.route('/project/home-cinema-5-person')
+def project_home():
+    return render_template('home-cinema-5-person.html', year_on_site=year_on_site())
+
+# @app.route('/project/<project_name>/')
+# def project_temp(project_name):
+#     return render_template('project.html', project_name=project_name, year_on_site=year_on_site())
+
 @app.errorhandler(404)
 def not_found(error):
     return render_template("error_pages/404.html", year_on_site=year_on_site()), 404

@@ -286,3 +286,76 @@ nav a.active {
     width: 100%;
 }
 
+
+
+.responsive-image-container {
+    max-width: 545px;
+    width: 100%;
+     /* Центрируем блок по горизонтали */
+    overflow: hidden; /* Обрезаем изображение, если оно выходит за пределы блока */
+}
+
+.responsive-image-container img {
+    width: 100%;
+    height: auto;
+    display: block; /* Избегаем нежелательных отступов внизу изображения */
+}
+
+#about_row_1 {
+    display: flex;
+
+
+
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+/* Стили для модального окна */
+#exampleModal {
+    background-color: #f8f9fa; /* Замените цвет фона по вашему вкусу */
+}
+
+#carouselExampleControls .carousel-inner img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto; /* Центрируем изображение по горизонтали */
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    outline: 0;
+
+}
+
+#exampleModal .modal-content {
+        border: none; /* Удаляем границу */
+        border-radius: 0; /* Устанавливаем радиус скругления углов */
+    }
+
+
+.carousel-inner .carousel-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .portfolio_img:hover + #exampleModal .carousel-inner .carousel-item {
+            display: none;
+        }
+
+        .portfolio_img:hover + #exampleModal .carousel-inner .carousel-item:first-child,
+        .portfolio_img:hover + #exampleModal .carousel-inner .carousel-item.active {
+            display: block;
+        }
+
+
+

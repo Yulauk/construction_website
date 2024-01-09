@@ -38,3 +38,21 @@ function resetErrorMessages() {
 function displayError(field, message) {
     document.getElementById(field + "-error").innerHTML = message;
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.portfolio_img').forEach(function (thumbnail, index) {
+            thumbnail.addEventListener('click', function () {
+                document.querySelectorAll('#carouselExampleControls .carousel-inner .carousel-item').forEach(function (item) {
+                    item.classList.remove('active');
+                });
+
+                var carouselItem = document.querySelector('#carouselExampleControls .carousel-inner').children[index];
+                carouselItem.classList.add('active');
+            });
+        });
+    });
+
+
+
+
