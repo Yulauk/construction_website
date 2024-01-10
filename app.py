@@ -109,7 +109,7 @@ def submit_free_consultation():
             return redirect(url_for('index'))
         except mysql.connector.Error as err:
             get_db().rollback()
-            print(f"Error: {err}")
+            # print(f"Error: {err}")
             return "Error submitting form: {}".format(err)
         finally:
             cursor.close()
@@ -128,6 +128,7 @@ def submit_contact_us():
         city = request.form.get('city')
         state = request.form.get('state')
         zip_code = request.form.get('zip')
+        address = request.form.get('address')
         budget = request.form.get('budget')
         time = request.form.get('time')
         source = request.form.get('source')
@@ -136,14 +137,14 @@ def submit_contact_us():
         cursor = get_db().cursor()
         try:
             cursor.executemany(
-                "INSERT INTO contact (name, surname, email, phone, city, state, zip, budget, time, source, project) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
-                [(name, surname, email, phone, city, state, zip_code, budget, time, source, project)])
+                "INSERT INTO contact (name, surname, email, phone, city, state, zip, address, budget, time, source, project) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                [(name, surname, email, phone, city, state, zip_code, address, budget, time, source, project)])
 
             get_db().commit()
             return redirect(url_for('index'))
         except mysql.connector.Error as err:
             get_db().rollback()
-            print(f"Error: {err}")
+            # print(f"Error: {err}")
             return "Error submitting form: {}".format(err)
         finally:
             cursor.close()
