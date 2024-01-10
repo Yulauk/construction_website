@@ -63,6 +63,11 @@ def services():
     return render_template('services.html', year_on_site=year_on_site())
 
 
+@app.route('/blog')
+def blog():
+    return render_template('blog.html', year_on_site=year_on_site())
+
+
 # for portfolio projects
 @app.route('/project')
 def project():

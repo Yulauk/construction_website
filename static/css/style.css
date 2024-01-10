@@ -289,7 +289,6 @@ nav a.active {
 
 
 .responsive-image-container {
-    max-width: 545px;
     width: 100%;
      /* Центрируем блок по горизонтали */
     overflow: hidden; /* Обрезаем изображение, если оно выходит за пределы блока */
@@ -368,3 +367,6 @@ nav a.active {
 .our-process-left {
   text-align: center; /* Вирівнюємо текст по центру */
 }
+
+
+
