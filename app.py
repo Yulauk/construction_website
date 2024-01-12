@@ -13,8 +13,8 @@ babel = Babel(app)
 
 # Configuration for Babel
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
-app.config['BABEL_DEFAULT_LOCALE'] = 'en'
-app.config['LANGUAGES'] = ['en', 'ru']
+app.config['BABEL_DEFAULT_LOCALE'] = 'es'
+app.config['LANGUAGES'] = ['en', 'uk', 'ru', 'es']
 
 babel.init_app(app)
 

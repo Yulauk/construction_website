@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-12 03:54+0100\n"
+"POT-Creation-Date: 2024-01-12 05:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,10 +121,6 @@ msgstr ""
 msgid "Submit form"
 msgstr ""
 
-#: templates/blog.html:3
-msgid "Blog"
-msgstr ""
-
 #: templates/index.html:37
 msgid "VIEW OUR PORTFOLIO"
 msgstr ""
@@ -161,7 +157,7 @@ msgstr ""
 msgid "Consultation"
 msgstr ""
 
-#: templates/services.html:61 templates/services.html:177
+#: templates/services.html:61 templates/services.html:173
 msgid "COST: Free"
 msgstr ""
 
@@ -178,11 +174,11 @@ msgstr ""
 msgid "Construction"
 msgstr ""
 
-#: templates/services.html:141
+#: templates/services.html:137
 msgid "COST: by agreement"
 msgstr ""
 
-#: templates/services.html:158
+#: templates/services.html:154
 msgid "Closeout"
 msgstr ""
 
