@@ -344,7 +344,7 @@ nav a.active {
 
 .carousel-inner .carousel-item img {
             max-width: 100%;
-            height: auto;
+
         }
 
         .portfolio_img:hover + #exampleModal .carousel-inner .carousel-item {

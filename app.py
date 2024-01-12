@@ -1,15 +1,22 @@
 from flask import Flask, url_for, render_template, g, request, redirect
+from flask_babel import Babel, _
 import datetime
 import mysql.connector
-# MySQL Server Connection Details
-# import config
 import os
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 
 
-# load_dotenv()
+load_dotenv()
 app = Flask(__name__)
+babel = Babel(app)
+
+# Configuration for Babel
+app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
+app.config['BABEL_DEFAULT_LOCALE'] = 'en'
+app.config['LANGUAGES'] = ['en', 'ru']
+
+babel.init_app(app)
 
 
 def get_db():
@@ -34,7 +41,7 @@ def close_db(error):
 def indexsql():
     cursor = get_db().cursor()
     try:
-        cursor.execute("SELECT * FROM contact;")
+        cursor.execute("SELECT * FROM free_consult;")
         records = cursor.fetchall()
         return render_template('sql.html', data=records)
     except mysql.connector.Error as err:
@@ -118,7 +125,7 @@ def submit_free_consultation():
 
 #сontact is responsible for saving
 # the entered data in the Contact Us form
-@app.route('/submit_сontact_us', methods=['POST'])
+@app.route('/submit_contact_us', methods=['POST'])
 def submit_contact_us():
     if request.method == 'POST':
         name = request.form.get('name')

@@ -33,14 +33,14 @@
 
 
                 <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="/about">ABOUT</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="/portfolio">PORTFOLIO</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="/services">SERVICES</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="/blog">BLOG</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="/about">{{ _('ABOUT') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="/portfolio">{{ _('PORTFOLIO') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="/services">{{ _('SERVICES') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="/blog">{{ _('BLOG') }}</a>
 
                 </nav>
                 <div class="container-color">
-                        <a href="#contact-form" class="contact-link text-nowrap">CONTACT US</a>
+                        <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
                     </div>
             </div>
                     </div>
@@ -61,7 +61,7 @@
                 <div class="col-md-5 col-lg-4 order-md-last">
         <div class="position-sticky" style="top: 2rem;">
             <h4 id="fix-position" class="d-flex justify-content-between align-items-center mb-3">
-                <span class="fs-4">Get a Free Consultation</span>
+                <span class="fs-4">{{ _('Get a Free Consultation') }}</span>
             </h4>
 
             <form action="{{ url_for('submit_free_consultation') }}" class="card p-4" id="consultationForm" onsubmit="return validateForm()" method="post">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
 
-                <button class="btn btn-primary" type="submit">Submit</button>
+                <button class="btn btn-primary" type="submit">{{ _('Submit') }}</button>
             </form>
         </div>
     </div>
@@ -97,21 +97,21 @@
 
                 <!--form "Contact Us"-->
                   <div class="col-md-7 col-lg-8">
-                    <h4 class="mb-3">Contact Us</h4>
+                    <h4 class="mb-3">{{ _('Contact Us') }}</h4>
                     <form class="row g-3" action="{{ url_for('submit_contact_us') }}" method="POST">
 
                                                 <div class="col-md-6">
-                            <label for="validationDefault01" class="form-label">First name <span class="text-red">*</span></label>
+                            <label for="validationDefault01" class="form-label">{{ _('First name') }}<span class="text-red">*</span></label>
                             <input type="text" name="name" class="form-control" id="validationDefault01" required>
                           </div>
 
                                                 <div class="col-md-6">
-                            <label for="validationDefault02" class="form-label">Last name <span class="text-red">*</span></label>
+                            <label for="validationDefault02" class="form-label">{{ _('Last name') }}<span class="text-red">*</span></label>
                             <input type="text" name="surname" class="form-control" id="validationDefault02" required>
                           </div>
 
                                                 <div class="col-md-6">
-                            <label for="validationDefault033" class="form-label">Email address <span class="text-red">*</span></label>
+                            <label for="validationDefault033" class="form-label">{{ _('Email address') }}<span class="text-red">*</span></label>
                             <div class="input-group">
                               <span class="input-group-text" id="inputGroupPrepend2">@</span>
                           <input type="email" name="email" class="form-control" id="validationDefault033" placeholder="name@example.com" required>
@@ -119,17 +119,17 @@
                           </div>
 
                                                 <div class="col-md-6">
-                            <label for="validationDefault33" class="form-label">Phone <span class="text-red">*</span></label>
+                            <label for="validationDefault33" class="form-label">{{ _('Phone') }}<span class="text-red">*</span></label>
                             <input type="text" name="phone" class="form-control" id="validationDefault33" required>
                           </div>
 
                                                 <div class="col-md-6">
-                            <label for="FormControlTextarea1" class="form-label">City</label>
+                            <label for="FormControlTextarea1" class="form-label">{{ _('City') }}</label>
                             <input type="text" name="city" class="form-control" id="FormControlTextarea1">
                           </div>
 
                                                 <div class="col-md-3">
-                            <label for="Textarea_State" class="form-label">State</label>
+                            <label for="Textarea_State" class="form-label">{{ _('State') }}</label>
                             <select class="form-select" id="Textarea_State">
                               <option selected disabled value="">Choose...</option>
                               <option>...</option>
@@ -137,32 +137,32 @@
                           </div>
 
                                                 <div class="col-md-3">
-                            <label for="ControlTextarea3" class="form-label">Zip</label>
+                            <label for="ControlTextarea3" class="form-label">{{ _('Zip') }}</label>
                             <input type="text" name="zip" class="form-control" id="ControlTextarea3">
                           </div>
 
                                                 <div class="col-md-6">
-                            <label for="ControlTextarea4" class="form-label">Address</label>
+                            <label for="ControlTextarea4" class="form-label">{{ _('Address') }}</label>
                             <input type="text" name="address" class="form-control" id="ControlTextarea4">
                           </div>
 
                                                 <div class="col-md-3">
-                            <label for="validationbudget" class="form-label">Target budget <span class="text-red">*</span></label>
+                            <label for="validationbudget" class="form-label">{{ _('Target budget') }}<span class="text-red">*</span></label>
                             <input type="text" name="budget" class="form-control" id="validationbudget" required>
                           </div>
 
                                                 <div class="col-md-3">
-                            <label for="validation_time_frame" class="form-label">Project time frame <span class="text-red">*</span></label>
+                            <label for="validation_time_frame" class="form-label">{{ _('Project time frame') }}<span class="text-red">*</span></label>
                             <input type="text" name="time" class="form-control" id="validation_time_frame" required>
                           </div>
 
                                                 <div class="col-md-6">
-                            <label for="Textarea_about" class="form-label">How did you hear about us?</label>
+                            <label for="Textarea_about" class="form-label">{{ _('How did you hear about us?') }}</label>
                             <input type="text" name="source" class="form-control" id="Textarea_about">
                           </div>
 
                                                 <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label">Tell us about your project <span class="text-red">*</span></label>
+                          <label for="exampleFormControlTextarea1" class="form-label">{{ _('Tell us about your project') }}<span class="text-red">*</span></label>
                               <textarea class="form-control" name="project" id="exampleFormControlTextarea1" rows="3" required></textarea>
                         </div>
 
@@ -170,12 +170,12 @@
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
                               <label class="form-check-label" for="invalidCheck2">
-                                Agree to terms and conditions
+                                {{ _('Agree to terms and conditions') }}
                               </label>
                             </div>
                           </div>
                           <div class="col-12">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
+                            <button class="btn btn-primary" type="submit">{{ _('Submit form') }}</button>
                           </div>
                     </form>
 

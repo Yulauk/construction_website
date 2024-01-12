@@ -1,24 +1,24 @@
 {% extends "base.html" %}
 
-{% block title %}Services{% endblock %}
+{% block title %}{{ _('Services') }}{% endblock %}
 
 {% block content %}
 	<div class="container py-2">
     <div class="album py-5 bg-body-tertiary">
-		<h1>Servicess</h1>
+		<h1>{{ _('Servicess') }}</h1>
 	</div>
 
 
 		<div class="row align-items-md-stretch">
       <div class="col-md-12">
         <div id="service_1" class="h-100 bg-body-tertiary">
-          <h2>Our 4-Step Process</h2>
+          <h2>{{ _('Our 4-Step Process') }}</h2>
 				<p>
-					Be it a full home renovation, condo remodel, or kitchen redesign,
+					{{ _('Be it a full home renovation, condo remodel, or kitchen redesign,
 					our four-step process is straightforward and organized: an initial
 					consultation with one of our team leads; project design led by one
 					of our architects; construction by one of our in-house crews; and job
-					close out with the whole team.
+					close out with the whole team.') }}
 				</p>
         </div>
       </div>
@@ -35,7 +35,7 @@
 										<div class="step-counter-border step-counter-border-25">
 											<div class="step-counter-number"><span class="hide">Step: </span>1</div>
 										</div>
-										<h3>Consultation</h3>
+										<h3>{{ _('Consultation') }}</h3>
 									</div>
 								</div>
 <!--								<div class="our-process-right">-->
@@ -58,7 +58,7 @@
 			  a preliminary proposal that will include a ballpark cost estimate.
 			  <br>
 			  <br>
-			  <strong>COST: Free</strong>
+			  <strong>{{ _('COST: Free') }}</strong>
 		  </p>
         </div>
       </div>
@@ -75,7 +75,7 @@
 										<div class="step-counter-border step-counter-border-25">
 											<div class="step-counter-number"><span class="hide">Step: </span>2</div>
 										</div>
-										<h3>Design</h3>
+										<h3>{{ _('Design') }}</h3>
 									</div>
 								</div>
 <!--								<div class="our-process-right">-->
@@ -97,7 +97,9 @@
 			  the client, for your input. We expedite the process by creating a detailed design
 			  calendar in which tasks, responsible parties and projected milestones are outlined.
 			  <br><br>
-			  <strong>COST: typically 10 – 15% of estimated construction cost</strong>
+			  <strong>{{ _('COST: typically 10 – 15%% of estimated construction cost') }}</strong>
+
+
 		  </p>
         </div>
       </div>
@@ -114,13 +116,9 @@
 										<div class="step-counter-border step-counter-border-25">
 											<div class="step-counter-number"><span class="hide">Step: </span>3</div>
 										</div>
-										<h3>Construction</h3>
+										<h3>{{ _('Construction') }}</h3>
 									</div>
 								</div>
-<!--								<div class="our-process-right">-->
-<!--										<p></p>-->
-<!--									<p><strong>COST: Starting at $100,000</strong></p>-->
-<!--								</div>-->
 							</div>
         </div>
       </div>
@@ -136,7 +134,7 @@
 			  creating a detailed design calendar in which tasks, responsible parties and projected milestones
 			  are outlined.
 			  <br><br>
-			  <strong>COST: by agreement</strong>
+			  <strong>{{ _('COST: by agreement') }}</strong>
 		  </p>
         </div>
       </div>
@@ -153,7 +151,7 @@
 										<div class="step-counter-border step-counter-border-25">
 											<div class="step-counter-number"><span class="hide">Step: </span>4</div>
 										</div>
-										<h3>Closeout</h3>
+										<h3>{{ _('Closeout') }}</h3>
 									</div>
 								</div>
 								<div class="our-process-right">
@@ -172,7 +170,7 @@
 				our service from start to finish. We ask for your completely candid response. Your input
 				will shape our company as we move forward.
 				<br><br>
-				<strong>COST: Free</strong>
+				<strong>{{ _('COST: Free') }}</strong>
 			</p>
         </div>
       </div>
