@@ -41,6 +41,25 @@
             </div>
         </header>
 
+            {% block content %}
+            <div class="container py-2" style="z-index: 1;">
+                <div class="position-absolute top-4 end-0">
+
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        {% for category, message in messages %}
+                            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+        </div>
+    </div>
+{% endblock %}
+
             <div class="main-middle-block text-center">
                 <div class="main-text-carousel">
                     <h1>

@@ -54,14 +54,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-// Add this function to handle language change
-function changeLanguage(languageCode) {
+async function changeLanguage(languageCode) {
     // Set the language code in the Flask session
-    fetch(`/set_language/${languageCode}`, { method: 'POST' });
+    await fetch(`/set_language/${languageCode}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({}),
+    });
 
     // Modify the query parameter without reloading the entire page
     window.location.search = `?lang=${languageCode}`;
 }
+
+
+
 
 
 

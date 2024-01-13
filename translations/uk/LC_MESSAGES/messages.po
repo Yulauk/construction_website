@@ -1,0 +1,185 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-01-12 04:58+0100\n"
+"PO-Revision-Date: 2024-01-12 04:59+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/about.html:9 templates/base.html:36 templates/index.html:16
+msgid "ABOUT"
+msgstr "ПРО НАС"
+
+#: templates/about.html:17
+msgid ""
+"My name is Serhii Kulbachenko, and I have been working in the "
+"construction industry for a long time. It all started when I came to Kyiv"
+" and received education in the specialties of bricklayer-stove-setter, "
+"electric welder, and installer of reinforced concrete structures. My "
+"journey began as a laborer in a construction team, but I realized my "
+"potential and decided to start my own business. Over time, I formed my "
+"own construction team, attracting many satisfied customers due to years "
+"of experience and professionalism. Working in Europe, I became acquainted"
+" with new materials, technologies, and standards. With a constant "
+"commitment to improvement, I successfully organized and developed my "
+"business from scratch, continuing to provide high-quality services and "
+"earn your trust. I'll be happy to collaborate!"
+msgstr "Мене звати Сергій Кульбаченко, і я працюю в будівельній галузі вже довгий час. Все почалося, коли я приїхав до Києва і отримав освіту за спеціальностями каменяра-печника, електрозварника та монтажника залізобетонних конструкцій. Мій шлях розпочався як робітник у будівельній бригаді, але я розумів свій потенціал і вирішив заснувати свій власний бізнес. З часом я створив власну будівельну бригаду, привертаючи багатьох задоволених клієнтів завдяки рокам досвіду та професіоналізму. Працюючи в Європі, я ознайомився з новими матеріалами, технологіями та стандартами. З постійним прагненням до удосконалення я успішно організовував та розвивав свій бізнес з нуля, продовжуючи надавати високоякісні послуги та заслужити вашу довіру. Буду радий співпраці!"
+
+#: templates/base.html:37 templates/index.html:17 templates/portfolio.html:8
+msgid "PORTFOLIO"
+msgstr "ПОРТФОЛІО"
+
+#: templates/base.html:38 templates/index.html:18
+msgid "SERVICES"
+msgstr "ПОСЛУГИ"
+
+#: templates/base.html:39 templates/index.html:19
+msgid "BLOG"
+msgstr "БЛОГ"
+
+#: templates/base.html:43 templates/index.html:23
+msgid "CONTACT US"
+msgstr "ЗВ'ЯЖІТЬСЯ З НАМИ"
+
+#: templates/base.html:64
+msgid "Get a Free Consultation"
+msgstr "Безкоштовна консультація"
+
+#: templates/base.html:88
+msgid "Submit"
+msgstr "Надіслати"
+
+#: templates/base.html:100
+msgid "Contact Us"
+msgstr "Зв'яжіться з нами"
+
+#: templates/base.html:104
+msgid "First name"
+msgstr "Ім'я"
+
+#: templates/base.html:109
+msgid "Last name"
+msgstr "Прізвище"
+
+#: templates/base.html:114
+msgid "Email address"
+msgstr "Email"
+
+#: templates/base.html:122
+msgid "Phone"
+msgstr "Телефон"
+
+#: templates/base.html:127
+msgid "City"
+msgstr "Місто"
+
+#: templates/base.html:132
+msgid "State"
+msgstr "Область"
+
+#: templates/base.html:140
+msgid "Zip"
+msgstr "Поштовий індекс"
+
+#: templates/base.html:145
+msgid "Address"
+msgstr "Адреса"
+
+#: templates/base.html:150
+msgid "Target budget"
+msgstr "Цільовий бюджет"
+
+#: templates/base.html:155
+msgid "Project time frame"
+msgstr "Термін реалізації проекту"
+
+#: templates/base.html:160
+msgid "How did you hear about us?"
+msgstr "Як ви дізналися про нас?"
+
+#: templates/base.html:165
+msgid "Tell us about your project"
+msgstr "Розкажіть нам про свій проект"
+
+#: templates/base.html:173
+msgid "Agree to terms and conditions"
+msgstr "Погоджуюсь з умовами"
+
+#: templates/base.html:178
+msgid "Submit form"
+msgstr "Надіслати"
+
+#: templates/index.html:37
+msgid "VIEW OUR PORTFOLIO"
+msgstr "ПЕРЕГЛЯНУТИ ПОРТФОЛІО"
+
+#: templates/portfolio.html:3
+msgid "Portfolio"
+msgstr "Портфоліо"
+
+#: templates/services.html:3
+msgid "Services"
+msgstr "Послуги"
+
+#: templates/services.html:8
+msgid "Servicess"
+msgstr "Послуги"
+
+#: templates/services.html:15
+msgid "Our 4-Step Process"
+msgstr "Наш 4-х етапний процес"
+
+#: templates/services.html:17
+msgid ""
+"Be it a full home renovation, condo remodel, or kitchen redesign,\n"
+"\t\t\t\t\tour four-step process is straightforward and organized: an "
+"initial\n"
+"\t\t\t\t\tconsultation with one of our team leads; project design led by "
+"one\n"
+"\t\t\t\t\tof our architects; construction by one of our in-house crews; "
+"and job\n"
+"\t\t\t\t\tclose out with the whole team."
+msgstr ""
+
+#: templates/services.html:38
+msgid "Consultation"
+msgstr "Консультація"
+
+#: templates/services.html:61 templates/services.html:173
+msgid "COST: Free"
+msgstr "ВАРТІСТЬ: Безкоштовно"
+
+#: templates/services.html:78
+msgid "Design"
+msgstr "Дизайн"
+
+#: templates/services.html:100
+#, python-format
+msgid "COST: typically 10 – 15%% of estimated construction cost"
+msgstr "ВАРТІСТЬ: зазвичай 10 – 15%% від розрахункової вартості будівництва"
+
+#: templates/services.html:119
+msgid "Construction"
+msgstr "Будівництво"
+
+#: templates/services.html:137
+msgid "COST: by agreement"
+msgstr "ВАРТІСТЬ: за домовленістю"
+
+#: templates/services.html:154
+msgid "Closeout"
+msgstr "Завершення проекту"

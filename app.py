@@ -1,5 +1,6 @@
-from flask import Flask, url_for, render_template, g, request, redirect, session, jsonify
-from flask_babel import Babel, _
+from flask import (Flask, url_for, render_template, g,
+                   request, redirect, session, jsonify, flash)
+from flask_babel import Babel
 import datetime
 import mysql.connector
 import os
@@ -129,14 +130,16 @@ def submit_free_consultation():
             cursor.execute("INSERT INTO free_consult (name, contact, comment) VALUES (%s, %s, %s)",
                            (username, contact, comment))
             get_db().commit()
+            # Add a flash message
+            flash('Your application has been successfully sent', 'success')
+
             return redirect(url_for('index'))
         except mysql.connector.Error as err:
             get_db().rollback()
-            # print(f"Error: {err}")
-            return "Error submitting form: {}".format(err)
+            flash(f'Error submitting form: {err}', 'error')
+            return redirect(url_for('index'))
         finally:
             cursor.close()
-            return redirect(request.referrer or url_for('index'))
 
 
 #сontact is responsible for saving
@@ -164,12 +167,13 @@ def submit_contact_us():
                 [(name, surname, email, phone, city, state, zip_code, address, budget, time, source, project)])
 
             get_db().commit()
+            # Add a flash message
+            flash('Your application has been successfully sent', 'success')
             return redirect(url_for('index'))
-        except mysql.connector.Error as err:
+        except mysql.connector.IntegrityError as integrity_err:
             get_db().rollback()
-            # print(f"Error: {err}")
-            return "Error submitting form: {}".format(err)
+            flash(f'Error submitting form: {integrity_err}', 'error')
+            return redirect(url_for('index'))
         finally:
             cursor.close()
-            return redirect(request.referrer or url_for('index'))
 
