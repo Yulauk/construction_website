@@ -230,7 +230,7 @@ nav a.active {
 
 .portfolio_img img {
     width: 100%;
-    height: auto;
+    height: 275px;
     transition: filter 0.3s;
 }
 
@@ -396,6 +396,7 @@ nav a.active {
 .dropdown-menu {
     background-color: #f8f9fa; /* цвет фона при выпадении меню */
     border-radius: 0;
+    min-width: 100%;
 }
 
 .dropdown-item.dropdown-link-active-bg {
@@ -414,6 +415,57 @@ nav a.active {
 .dropdown-item {
     border: none;
     color: black; /* Цвет текста пунктов меню */
+    border-radius: 0;
+}
+
+#index_header .custom-btn {
+    border: none; /* убираем рамку */
+    background-color: transparent; /* прозрачный фон */
+    color: #ffffff; /* белый текст */
+    outline: none;
+    border-radius: 0;
+}
+
+#index_header .custom-btn:hover {
+    border: none; /* убираем рамку при наведении */
+    background-color: transparent; /* затемнение при наведении */
+    color: whi; /* белый текст при наведении */
+    outline: none;
+    border-radius: 0;
+}
+
+#index_header .custom-btn:active {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    /* не добавляем никаких эффектов при нажатии */
+}
+
+#index_header .dropdown-menu {
+    background-color: #f8f9fa; /* цвет фона при выпадении меню */
+    border-radius: 0;
+    background-color: transparent;
+    min-width: 100%;
+
+}
+
+#index_header .dropdown-item.dropdown-link-active-bg {
+    background-color: #3d4543 !important; /* цвет фона активного элемента */
+    border-radius: 0;
+}
+
+/* Цвет фона активного пункта меню */
+#index_header .dropdown-item:hover, .dropdown-item:active {
+    background-color: #3d4543;
+    color: white; /* Цвет текста активного пункта меню */
+    border: none;
+    border-radius: 0;
+}
+
+#index_header .dropdown-item {
+    border: none;
+    color: transparent; /* Цвет текста пунктов меню */
     border-radius: 0;
 }
 

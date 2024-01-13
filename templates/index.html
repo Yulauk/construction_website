@@ -9,10 +9,26 @@
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                    <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="66" height="66" class="me-2">
+                    <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px" height="70px">
                 </a>
 
                 <nav id="index-nav" class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
+
+                    <div id="index_header" class="me-3 py-2 link-body-emphasis text-decoration-none">
+                    <div id='base' class="dropdown">
+    <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+        {{ language.upper() }}
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
+        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
+        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+    </ul>
+</div>
+
+
+                        </div>
+
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="/about">{{ _('ABOUT') }}</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="/portfolio">{{ _('PORTFOLIO') }}</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="/services">{{ _('SERVICES') }}</a>
