@@ -1,10 +1,9 @@
-from flask import Flask, url_for, render_template, g, request, redirect
+from flask import Flask, url_for, render_template, g, request, redirect, session, jsonify
 from flask_babel import Babel, _
 import datetime
 import mysql.connector
 import os
 from dotenv import load_dotenv
-
 
 
 load_dotenv()
@@ -13,10 +12,16 @@ babel = Babel(app)
 
 # Configuration for Babel
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
-app.config['BABEL_DEFAULT_LOCALE'] = 'es'
+app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['LANGUAGES'] = ['en', 'uk', 'ru', 'es']
+app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY')
 
-babel.init_app(app)
+
+def get_locale():
+    return session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+
+
+babel.init_app(app, locale_selector=get_locale)
 
 
 def get_db():
@@ -49,41 +54,52 @@ def indexsql():
     finally:
         cursor.close()
 
+@app.route('/set_language/<language_code>', methods=['POST'])
+def set_language(language_code):
+    session['language'] = language_code
+    return jsonify({'status': 'success'})
+
 
 @app.route('/')
 def index():
-    return render_template('index.html', year_on_site=year_on_site())
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('index.html', year_on_site=year_on_site(), language=language)
 
 
 @app.route('/about')
 def base():
-    return render_template('about.html', year_on_site=year_on_site())
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('about.html', year_on_site=year_on_site(), language=language)
 
 
 @app.route('/portfolio')
 def portfolio():
-    return render_template('portfolio.html', year_on_site=year_on_site())
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('portfolio.html', year_on_site=year_on_site(), language=language)
 
 
 @app.route('/services')
 def services():
-    return render_template('services.html', year_on_site=year_on_site())
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('services.html', year_on_site=year_on_site(), language=language)
 
 
 @app.route('/blog')
 def blog():
-    return render_template('blog.html', year_on_site=year_on_site())
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('blog.html', year_on_site=year_on_site(), language=language)
 
 
 # for portfolio projects
 @app.route('/project')
 def project():
-    return render_template('project.html', year_on_site=year_on_site())
-
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('project.html', year_on_site=year_on_site(), language=language)
 
 @app.route('/project/home-cinema-5-person')
 def project_home():
-    return render_template('home-cinema-5-person.html', year_on_site=year_on_site())
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('home-cinema-5-person.html', year_on_site=year_on_site(), language=language)
 
 # @app.route('/project/<project_name>/')
 # def project_temp(project_name):

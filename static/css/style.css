@@ -5,13 +5,13 @@
 }
 
 @font-face {
-    font-family: 'Figtree';
-    src: url('../fonts/Figtree-Light.ttf') format('truetype');
+    font-family: 'NunitoSans_7pt_Condensed-Light';
+    src: url('../fonts/NunitoSans_7pt_Condensed-Light.ttf') format('truetype');
     /* Add additional font weights and styles if necessary */
 }
 
 body {
-    font-family: 'Figtree', Arial, sans-serif;
+    font-family: 'NunitoSans_7pt_Condensed-Light','Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: bg-light;
@@ -368,5 +368,53 @@ nav a.active {
   text-align: center; /* Вирівнюємо текст по центру */
 }
 
+
+.custom-btn {
+    border: none; /* убираем рамку */
+    background-color: transparent; /* прозрачный фон */
+    color: #212529; /* черный текст */
+    outline: none;
+    border-radius: 0;
+}
+
+.custom-btn:hover {
+    border: none; /* убираем рамку при наведении */
+    background-color: #3d4543; /* затемнение при наведении */
+    color: #f8f9fa; /* белый текст при наведении */
+    outline: none;
+    border-radius: 0;
+}
+
+.custom-btn:active {
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    /* не добавляем никаких эффектов при нажатии */
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa; /* цвет фона при выпадении меню */
+    border-radius: 0;
+}
+
+.dropdown-item.dropdown-link-active-bg {
+    background-color: #3d4543 !important; /* цвет фона активного элемента */
+    border-radius: 0;
+}
+
+/* Цвет фона активного пункта меню */
+.dropdown-item:hover, .dropdown-item:active {
+    background-color: #3d4543;
+    color: white; /* Цвет текста активного пункта меню */
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-item {
+    border: none;
+    color: black; /* Цвет текста пунктов меню */
+    border-radius: 0;
+}
 
 
