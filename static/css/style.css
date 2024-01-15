@@ -522,3 +522,62 @@ nav a.active {
         display: none; /* Hide the header on smaller screens */
     }
 }
+
+@media (max-width: 767px) {
+    #index-big {
+        display: none; /* Hide the header on smaller screens */
+    }
+}
+
+#index-nav a {
+    color: #f8f9fa !important; /* Set the text color to white */
+}
+
+/* Add this rule to adjust text color on hover for the navbar */
+#index-nav-middle a:hover {
+    color: white !important; /* Text color on hover */
+    border-bottom-color: #fbb933; /* Gray line on hover */
+
+}
+
+/* Add this rule to adjust text color for the active link in the navbar */
+#index-nav-middle a:active,
+#index-nav-middle a.active {
+    border-bottom-color: #fbb933 !important; /* yellow text color for the active link */
+}
+
+@media (max-width: 400px) {
+    #index-header-middle {
+        display: none; /* Hide the header on smaller screens */
+    }
+
+    #index-big {
+        display: none; /* Hide the header on smaller screens */
+    }
+
+    #index-header-mini .fs-4 {
+        display: none; /* Hide the specific span in the #header-mini */
+    }
+}
+
+#index-navbar-mini {
+    background-color: transparent !important;
+}
+
+#index-header-fluid-mini {
+    background-color: transparent;;
+}
+
+#index-header-mini-span {
+    color:  #f8f9fa;
+}
+
+#index-base-mini {
+    color:  #f8f9fa;
+}
+
+.navbar-toggler-icon {
+    border-radius: 0; /* Remove border radius */
+    background-size: cover; /* Adjust this based on how you want the image to be displayed */
+    background-color: transparent; /* Make background transparent to see the image */
+}
