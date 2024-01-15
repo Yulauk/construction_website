@@ -24,8 +24,8 @@
 </head>
 <body class="bg-light">
     {% block body %}
-        <header>
-            <div class="header-bg">
+        <header id="header-big" class="fixed-top">
+
                 <div class="container py-2">
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 <!--            <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-2 border-bottom">-->
@@ -39,19 +39,17 @@
 
 
                     <div class="me-3 py-2 link-body-emphasis text-decoration-none">
-                    <div id='base' class="dropdown">
-    <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-        {{ language.upper() }}
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
-        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
-        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
-    </ul>
-</div>
-
-
+                        <div id='base' class="dropdown">
+                            <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ language.upper() }}
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+                            </ul>
                         </div>
+                    </div>
 
 
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', lang=language) }}">{{ _('ABOUT') }}</a>
@@ -65,8 +63,117 @@
                     </div>
             </div>
                     </div>
-                </div>
+
         </header>
+
+
+
+        <!-- header for middle screens -->
+        <header id="header-middle" class="fixed-top">
+        <nav id="navbar-smaller" class="navbar bg-body-tertiary d-md-none">
+        <div id='header-fluid-middle' class="container-fluid">
+
+                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
+                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px" height="70px">
+                    <span class="me-2 fs-4">Kulbachenko<br>Construction</span>
+                </a>
+
+        <div class="tst">
+            <div class="me-3 py-2 link-body-emphasis text-decoration-none">
+                        <div id='base-smaller' class="dropdown">
+                            <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-smaller" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ language.upper() }}
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+        <!-- Offcanvas navigation -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarmini" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+<!--            <h5 class="offcanvas-title" id="offcanvasNavbarLabelmini">Offcanvas</h5>-->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+    </div>
+        </header>
+
+        <!--    mini header-->
+    <header id="header-mini" class="fixed-top">
+        <nav id="navbar-mini" class="navbar bg-body-tertiary d-md-none">
+        <div id="header-fluid-mini" class="container-fluid">
+
+                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
+                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px" height="70px">
+                    <span class="me-2 fs-4">Kulbachenko<br>Construction</span>
+                </a>
+
+        <div class="tst">
+            <div class="me-3 py-2 link-body-emphasis text-decoration-none">
+                        <div id='base-mini' class="dropdown">
+                            <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-mini" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ language.upper() }}
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+        <!-- Offcanvas navigation -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">{{ _('HOME') }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', lang=language) }}">{{ _('ABOUT') }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', lang=language) }}">{{ _('PORTFOLIO') }}</a>
+                </li>
+                <li class="nav-link nav-item">
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', lang=language) }}">{{ _('SERVICES') }}</a>
+                </li>
+                <li class="nav-link nav-item">
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', lang=language) }}">{{ _('BLOG') }}</a>
+                </li>
+
+            </ul>
+<!--            <form class="d-flex mt-3" role="search">-->
+<!--                <input class="form-control me-2" type="search" placeholder="{{ _('Search') }}" aria-label="{{ _('Search') }}">-->
+<!--                <button class="btn btn-outline-success" type="submit">{{ _('Search') }}</button>-->
+<!--            </form>-->
+        </div>
+    </div>
+        </header>
+
+    <div class="navbar_margin_80"></div>
 
         {% block content %}{% endblock %}
     {% endblock %}

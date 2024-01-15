@@ -470,3 +470,55 @@ nav a.active {
 }
 
 
+
+.navbar_margin_80 {
+    margin-top: 80px;
+}
+
+#header-big {
+    background-color: #ededed;
+}
+
+#header-big {
+    background-color: #ededed !important;
+}
+
+#header-fluid-middle {
+    background-color: #ededed;
+}
+
+#navbar-smaller {
+    background-color: #ededed !important;
+}
+
+#header-fluid-mini {
+    background-color: #ededed;
+}
+
+#navbar-mini {
+    background-color: #ededed !important;
+}
+
+.tst {
+    margin-left: auto;
+}
+
+@media (max-width: 370px) {
+    #header-middle {
+        display: none; /* Hide the header on smaller screens */
+    }
+
+    #header-big {
+        display: none; /* Hide the header on smaller screens */
+    }
+
+    #header-mini .fs-4 {
+        display: none; /* Hide the specific span in the #header-mini */
+    }
+}
+
+@media (max-width: 767px) {
+    #header-big {
+        display: none; /* Hide the header on smaller screens */
+    }
+}
