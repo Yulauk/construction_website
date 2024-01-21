@@ -98,9 +98,22 @@ def project():
     return render_template('project.html', year_on_site=year_on_site(), language=language)
 
 @app.route('/project/home-cinema-5-person')
-def project_home():
+def project_cinema_5():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
     return render_template('home-cinema-5-person.html', year_on_site=year_on_site(), language=language)
+
+
+@app.route('/project/renovation-in-the-varshavsky-residential-complex-in-kyiv')
+def project_varshavsky():
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html', year_on_site=year_on_site(), language=language)
+
+
+@app.route('/project/estonian-academy-of-music-and-theater-in-tallinn-estonia')
+def project_estonian_academy():
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html', year_on_site=year_on_site(), language=language)
+
 
 # @app.route('/project/<project_name>/')
 # def project_temp(project_name):
@@ -142,7 +155,7 @@ def submit_free_consultation():
             cursor.close()
 
 
-#сontact is responsible for saving
+# сontact is responsible for saving
 # the entered data in the Contact Us form
 @app.route('/submit_contact_us', methods=['POST'])
 def submit_contact_us():
@@ -158,13 +171,13 @@ def submit_contact_us():
         budget = request.form.get('budget')
         time = request.form.get('time')
         source = request.form.get('source')
-        project = request.form.get('project')
+        project_ = request.form.get('project')
 
         cursor = get_db().cursor()
         try:
             cursor.executemany(
                 "INSERT INTO contact (name, surname, email, phone, city, state, zip, address, budget, time, source, project) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
-                [(name, surname, email, phone, city, state, zip_code, address, budget, time, source, project)])
+                [(name, surname, email, phone, city, state, zip_code, address, budget, time, source, project_)])
 
             get_db().commit()
             # Add a flash message

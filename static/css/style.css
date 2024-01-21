@@ -253,6 +253,43 @@ nav a.active {
     opacity: 1;
 }
 
+.moda hover img {
+    filter: brightness(50%);
+}
+
+
+.moda {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.moda img {
+    width: 100%;
+    height: 275px;
+    transition: filter 0.3s;
+}
+
+.moda:hover img {
+    filter: brightness(120%);
+}
+
+.moda .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.moda:hover .description {
+    opacity: 1;
+}
+
+
 .clearfix::after {
     content: "";
     display: table;
