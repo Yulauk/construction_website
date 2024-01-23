@@ -195,7 +195,6 @@ nav a.active {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 269px;
 }
 
 
@@ -617,4 +616,13 @@ nav a.active {
     border-radius: 0; /* Remove border radius */
     background-size: cover; /* Adjust this based on how you want the image to be displayed */
     background-color: transparent; /* Make background transparent to see the image */
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+}
+
+#partners-block {
+    background-color: #fcb933;
 }

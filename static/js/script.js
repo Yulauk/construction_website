@@ -15,8 +15,8 @@ function validateForm() {
     }
 
     // Validate phone number
-    if (!/^\d{10}$/.test(phone)) {
-        displayError("phone", "Invalid phone number. Please enter 10 digits.");
+    if (!/^\+?\d{6,13}$/.test(phone)) {
+        displayError("phone", "Invalid phone number. Please enter 6 to 13 digits, optionally starting with a plus sign.");
         isValid = false;
     }
 
