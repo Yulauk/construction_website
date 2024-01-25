@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}{{ _('Building creation') }}{% endblock %}
+
+{% block content %}
+<div class="container py-2">
+    <div class="album py-5 bg-body-tertiary">
+    </div>
+    </div>
+
+<div class="container py-2">
+<div class="row g-5">
+    <div class="col-md-8">
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">{{ _('Building creation') }}</h2>
+        <p class="blog-post-meta">{{ _('January') }} 24, 2024</p>
+{{ _('
+        Rough construction works in the building industry represent the initial
+            stage of creating a building or structure. This stage includes the execution
+            of fundamental construction and engineering activities to ensure strength, stability,
+            and readiness for subsequent finishing stages. Here is a comprehensive description of rough
+            construction works:
+            <br>
+          <br>
+
+
+        1. Groundwork:
+          <ul>
+            <li>Leveling and clearing the site from vegetation and foreign objects.</li>
+            <li>Installing drainage systems if necessary.</li>
+            <li>Compacting the soil and creating a preparatory base for the foundation.</li>
+          </ul>
+
+
+
+          2. Foundation Works:
+          <ul>
+             <li>Constructing foundation walls and/or strip foundations according to the project documentation.
+             <li>Installing reinforcement and pouring concrete.
+          </ul>
+
+
+          3. Construction of Load-Bearing Walls:
+          <ul>
+            <li>Erecting load-bearing walls from brick, concrete, blocks, or other materials.
+            <li>Installing necessary steel elements for rigidity and strength.
+          </ul>
+
+          4. Installation of Floor Structures:
+            <ul>
+               <li>Placing concrete slabs, metal beams, or other structures to create floors between levels.
+            </ul>
+
+5. Roofing Works:
+        <ul>
+   <li>Constructing the roof framework.
+   <li>Installing the roof truss system and laying roofing materials.
+          </ul>
+
+6. Engineering Systems:
+          <ul>
+   <li>Installing water supply and sewage systems.
+   <li>Mounting electrical wiring, heating, and ventilation systems.
+            </ul>
+
+7. Facade Finishing:
+            <ul>
+   <li>Finishing external walls with materials providing thermal insulation and protection against atmospheric influences.
+              </ul>
+
+8. Final Interior Finishing Works:
+              <ul>
+   <li>Smoothing walls and ceilings.
+   <li>Preparing the floor for subsequent finishing.
+                </ul>
+
+9. Preparation for Networking Equipment:
+                <ul>
+   <li>Laying routes for electrical wiring, telephone, and internet cables.
+                  </ul>
+
+10. Inspection and Quality Control:
+                  <ul>
+    <li>Conducting inspections to identify possible defects and discrepancies from the project documentation.
+                    </ul>
+
+          Rough construction works create the foundation for further finishing works, ensuring the stability and functionality of the building. This stage is the cornerstone for the successful completion of a construction project.
+
+
+') }}
+</article>
+
+
+
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 6rem;">
+
+        <div>
+          <h4 class="fst-italic mt-1">{{ _('Recent posts') }}</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/articles/apartment-renovation">
+<img src="{{ url_for('static', filename='/images/carousel/kulbachenko_w_1.jpeg') }}" alt="Logo" width="99" height="96">                <div class="col-lg-8">
+                  <h6 class="mb-0">{{ _('Apartment renovation') }}</h6>
+                  <small class="text-body-secondary">{{ _('January') }} 24, 2024</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Latest Updates-->
+
+
+
+{% endblock %}

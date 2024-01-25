@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
+
 babel = Babel(app)
 
 # Configuration for Babel
@@ -97,6 +98,7 @@ def project():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
     return render_template('project.html', year_on_site=year_on_site(), language=language)
 
+
 @app.route('/project/home-cinema-5-person')
 def project_cinema_5():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
@@ -119,9 +121,22 @@ def project_estonian_academy():
 # def project_temp(project_name):
 #     return render_template('project.html', project_name=project_name, year_on_site=year_on_site())
 
+# BLOG
+@app.route('/articles/building-creation')
+def articles_building():
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('blog_templates/building-creation.html', year_on_site=year_on_site(), language=language)
+
+
+@app.route('/articles/apartment-renovation')
+def articles_renovation():
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('blog_templates/apartment-renovation.html', year_on_site=year_on_site(), language=language)
+
+
 @app.errorhandler(404)
 def not_found(error):
-    return render_template("error_pages/404.html", year_on_site=year_on_site()), 404
+    return render_template("error_pages/404.html", year_on_site=year_on_site()), 404, 500
 
 
 def year_on_site():

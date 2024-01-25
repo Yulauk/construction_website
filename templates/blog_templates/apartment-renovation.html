@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+
+{% block title %}{{ _('Building creation') }}{% endblock %}
+
+{% block content %}
+<div class="container py-2">
+    <div class="album py-5 bg-body-tertiary">
+    </div>
+    </div>
+
+<div class="container py-2">
+<div class="row g-5">
+    <div class="col-md-8">
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">{{ _('Apartment renovation') }}</h2>
+        <p class="blog-post-meta">{{ _('January') }} 24, 2024</p>
+        A major apartment renovation includes various stages, starting from preparatory work
+          and ending with finishing touches. Here is a detailed description of the rough construction works:
+
+
+            <br>
+          <br>
+
+
+        1. Demolition Works:
+          <ul>
+            <li>Removal of old wallpapers, floor coverings, and ceiling finishes.
+            <li>Demolition of old plumbing and wiring.
+            <li>Possible removal of partitions or layout changes.
+          </ul>
+
+
+
+          2. Priming Works:
+          <ul>
+             <li>Surface preparation for subsequent finishing materials.
+             <li>Application of primer on walls and ceilings.
+          </ul>
+
+
+          3. Construction Works:
+          <ul>
+            <li>Construction of new partitions or removal of old ones.
+            <li>Possible room layout changes.
+              <li>Replacement or reinforcement of floors.
+          </ul>
+
+          4. Electrical Works:
+            <ul>
+               <li>Installation of new wiring.
+                 <li>Installation of sockets, switches, and light fixtures.
+                 <li>Preparation for connecting household appliances.
+            </ul>
+
+5. Plumbing Works:
+        <ul>
+   <li>Replacement or updating of pipes and fittings.
+   <li>Installation of new plumbing fixtures (bathtub, toilet, sinks).
+            <li>Installation of plumbing devices.
+          </ul>
+
+6. Heating and Ventilation:
+          <ul>
+   <li>Installation of radiators and heating pipes.
+   <li>Installation of a ventilation system or reconstruction of an existing one.
+            </ul>
+
+7. Plastering and Painting Works:
+            <ul>
+   <li>Alignment of walls and ceilings.
+                <li>Puttying and sanding of surfaces.
+                <li>Painting or applying decorative coatings.
+              </ul>
+
+8. Flooring Works:
+              <ul>
+   <li>Installation of new floor coverings (laminate, parquet, tiles).
+   <li>Floor insulation if necessary.
+                </ul>
+
+9. Doors and Windows:
+                <ul>
+   <li>Installation of new doors and windows if necessary.
+                    <li>Treatment, painting, or cladding.
+                  </ul>
+
+10. General Works:
+                  <ul>
+    <li>Installation of baseboards, casings, and other finishing elements.
+                      <li>Preparation for subsequent finishing (if not included in rough construction works).
+                    </ul>
+
+          11. Cleanup:
+          <ul>
+          <li>Cleaning the premises from construction debris.
+          <li>Preparation for the final finishing.
+              </ul>
+
+        These stages represent the main tasks in a major apartment renovation. Each stage requires careful planning and coordination to achieve a successful outcome.
+
+</article>
+
+
+
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 6rem;">
+
+        <div>
+          <h4 class="fst-italic mt-1">{{ _('Recent posts') }}</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/articles/building-creation">
+<img src="{{ url_for('static', filename='/images/carousel/wood_house_kulbackenko_1.jpeg') }}" alt="Logo" width="99" height="96">
+                  <div class="col-lg-8">
+                  <h6 class="mb-0">{{ _('Building creation') }}</h6>
+                  <small class="text-body-secondary">{{ _('January') }} 24, 2024</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Latest Updates-->
+
+
+
+{% endblock %}
