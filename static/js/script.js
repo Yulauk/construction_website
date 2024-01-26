@@ -1,3 +1,11 @@
+function onSubmit(token) {
+    // Call validateForm to check if the form is valid
+    if (validateForm()) {
+        // If the form is valid, submit it
+        document.getElementById("consultationForm").submit();
+    }
+}
+
 function validateForm() {
     // Reset previous error messages
     resetErrorMessages();
@@ -38,6 +46,7 @@ function resetErrorMessages() {
 function displayError(field, message) {
     document.getElementById(field + "-error").innerHTML = message;
 }
+
 
 
 document.addEventListener('DOMContentLoaded', function() {

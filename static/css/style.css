@@ -626,3 +626,16 @@ nav a.active {
 #partners-block {
     background-color: #fcb933;
 }
+
+.alert-success {/* flash message in index page */
+
+    background-color:#d1e7dd;
+}
+
+.alert-error {/* flash message in index page */
+    background-color: #e53b3b;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+    }

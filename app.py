@@ -5,6 +5,7 @@ import datetime
 import mysql.connector
 import os
 from dotenv import load_dotenv
+import requests
 
 
 load_dotenv()
@@ -17,6 +18,11 @@ app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['LANGUAGES'] = ['en', 'uk', 'ru', 'es']
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY')
+
+RECAPTCHA_SITE_KEY = os.getenv('MY_RECAPTCHA_SITE_KEY')
+MY_RECAPTCHA_SECRET_KEY = os.getenv('MY_RECAPTCHA_SECRET_KEY')
+VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify'
+
 
 
 def get_locale():
@@ -65,56 +71,56 @@ def set_language(language_code):
 @app.route('/')
 def index():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('index.html', year_on_site=year_on_site(), language=language)
+    return render_template('index.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/about')
 def base():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('about.html', year_on_site=year_on_site(), language=language)
+    return render_template('about.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/portfolio')
 def portfolio():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('portfolio.html', year_on_site=year_on_site(), language=language)
+    return render_template('portfolio.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/services')
 def services():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('services.html', year_on_site=year_on_site(), language=language)
+    return render_template('services.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/blog')
 def blog():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('blog.html', year_on_site=year_on_site(), language=language)
+    return render_template('blog.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 # for portfolio projects
 @app.route('/project')
 def project():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('project.html', year_on_site=year_on_site(), language=language)
+    return render_template('project.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/project/home-cinema-5-person')
 def project_cinema_5():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('home-cinema-5-person.html', year_on_site=year_on_site(), language=language)
+    return render_template('home-cinema-5-person.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/project/renovation-in-the-varshavsky-residential-complex-in-kyiv')
 def project_varshavsky():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html', year_on_site=year_on_site(), language=language)
+    return render_template('portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/project/estonian-academy-of-music-and-theater-in-tallinn-estonia')
 def project_estonian_academy():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html', year_on_site=year_on_site(), language=language)
+    return render_template('portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 # @app.route('/project/<project_name>/')
@@ -125,13 +131,13 @@ def project_estonian_academy():
 @app.route('/articles/building-creation')
 def articles_building():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('blog_templates/building-creation.html', year_on_site=year_on_site(), language=language)
+    return render_template('blog_templates/building-creation.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.route('/articles/apartment-renovation')
 def articles_renovation():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    return render_template('blog_templates/apartment-renovation.html', year_on_site=year_on_site(), language=language)
+    return render_template('blog_templates/apartment-renovation.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
 @app.errorhandler(404)
@@ -149,25 +155,34 @@ def year_on_site():
 @app.route('/submit_free_consultation', methods=['POST'])
 def submit_free_consultation():
     if request.method == 'POST':
-        username = request.form.get('name')
-        contact = request.form.get('contact')
-        comment = request.form.get('comment')
+        secret_response = request.form['g-recaptcha-response']
+        # print(request.form)
+        verify_response = requests.post(url=f'{VERIFY_URL}?secret={MY_RECAPTCHA_SECRET_KEY}&response={secret_response}').json()
+        # print(verify_response)
 
-        cursor = get_db().cursor()
-        try:
-            cursor.execute("INSERT INTO free_consult (name, contact, comment) VALUES (%s, %s, %s)",
-                           (username, contact, comment))
-            get_db().commit()
-            # Add a flash message
-            flash('Your application has been successfully sent', 'success')
+        if verify_response['success'] == True and verify_response['score'] < 0.6:
+            username = request.form.get('name')
+            contact = request.form.get('contact')
+            comment = request.form.get('comment')
 
+            cursor = get_db().cursor()
+            try:
+                cursor.execute("INSERT INTO free_consult (name, contact, comment) VALUES (%s, %s, %s)",
+                               (username, contact, comment))
+                get_db().commit()
+                # Add a flash message
+                flash('Your application has been successfully sent', 'success')
+
+                return redirect(url_for('index'))
+            except mysql.connector.Error as err:
+                get_db().rollback()
+                flash(f'Error submitting form: {err}', 'error')
+                return redirect(url_for('index'))
+            finally:
+                cursor.close()
+        else:
+            flash(f'Error submitting form: capcha no verify', 'error')
             return redirect(url_for('index'))
-        except mysql.connector.Error as err:
-            get_db().rollback()
-            flash(f'Error submitting form: {err}', 'error')
-            return redirect(url_for('index'))
-        finally:
-            cursor.close()
 
 
 # сontact is responsible for saving
