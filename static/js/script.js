@@ -78,6 +78,136 @@ async function changeLanguage(languageCode) {
 }
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Select the form
+    var form = document.getElementById('contactForm');
+
+    // Add event listener to the form on submission
+    form.addEventListener('submit', function (event) {
+        // Check each field before submitting the form
+        var isValid = true;
+
+        // Validate Name (should not be empty)
+        var nameInput = document.getElementById('validationContactName');
+        var nameError = document.getElementById('nameError');
+
+        if (!nameInput.value.trim() || nameInput.value.trim().length < 2 || /\d/.test(nameInput.value.trim())) {
+            nameError.textContent = 'Invalid first name. Please enter at least two letters and no numbers.';
+            isValid = false;
+        } else {
+            nameError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate Last Name (should not be empty)
+        var lastNameInput = document.getElementById('validationContactLastName');
+        var lastNameError = document.getElementById('lastNameError');
+
+        if (!lastNameInput.value.trim()) {
+            lastNameError.textContent = 'Please enter your last name.';
+            isValid = false;
+        } else {
+            lastNameError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate Email (should match email format)
+        var emailInput = document.getElementById('validationContactEmail');
+        var emailError = document.getElementById('emailError');
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!emailRegex.test(emailInput.value.trim())) {
+            emailError.textContent = 'Please enter a valid email address.';
+            isValid = false;
+        } else {
+            emailError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate Phone (should contain only numbers)
+        var phoneInput = document.getElementById('validationContactPhone');
+        var phoneError = document.getElementById('phoneError');
+        var phoneRegex = /^\d+$/;
+
+        if (!phoneRegex.test(phoneInput.value.trim())) {
+            phoneError.textContent = 'Please enter a valid phone number.';
+            isValid = false;
+        } else {
+            phoneError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate City (should not be empty)
+        var cityInput = document.getElementById('validationContactCity');
+        var cityError = document.getElementById('cityError');
+//if (!cityInput.value.trim() || cityInput.value.trim().length < 3 || /\d/.test(cityInput.value.trim())) {
+//            nameError.textContent = 'Invalid first name. Please enter at least two letters and no numbers.';
+//            isValid = false;
+//        } else {
+//            nameError.textContent = ''; // Clear any previous error message
+//        }
+        if (!cityInput.value.trim() || cityInput.value.trim().length < 3 || /\d/.test(cityInput.value.trim())) {
+            cityError.textContent = 'Invalid city. Please enter at least three letters and no numbers.';
+            isValid = false;
+        } else {
+            cityError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate State (optional, no specific validation)
+        var stateInput = document.getElementById('validationContactState');
+
+        // Validate Zip (optional, should contain only numbers)
+        var zipInput = document.getElementById('validationContactZip');
+        var zipError = document.getElementById('zipError');
+
+        if (zipInput.value.trim() !== '' && !phoneRegex.test(zipInput.value.trim())) {
+            zipError.textContent = 'Please enter a valid zip code or leave it empty.';
+            isValid = false;
+        } else {
+            zipError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate Address (optional, no specific validation)
+        var addressInput = document.getElementById('validationContactAddres');
+
+        // Validate Budget (should not be the default value)
+        var budgetSelect = document.getElementById('validationContactBudget');
+        var budgetError = document.getElementById('budgetError');
+
+        if (budgetSelect.value === '') {
+            budgetError.textContent = 'Please select a budget range.';
+            isValid = false;
+        } else {
+            budgetError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate Project Time (should not be the default value)
+        var timeSelect = document.getElementById('validationContactTime');
+        var timeError = document.getElementById('timeError');
+
+        if (timeSelect.value === '') {
+            timeError.textContent = 'Please select a project time frame.';
+            isValid = false;
+        } else {
+            timeError.textContent = ''; // Clear any previous error message
+        }
+
+        // Validate How did you hear about us? (optional, no specific validation)
+        var sourceSelect = document.getElementById('validationContactAbout');
+
+        // Validate Project (should not be empty)
+        var projectTextarea = document.getElementById('validationContactProject');
+        var projectError = document.getElementById('projectError');
+
+        if (!projectTextarea.value.trim()) {
+            projectError.textContent = 'Please provide information about your project.';
+            isValid = false;
+        } else {
+            projectError.textContent = ''; // Clear any previous error message
+        }
+
+        // If any validation fails, prevent form submission
+        if (!isValid) {
+            event.preventDefault();
+        }
+    });
+});
 
 
 

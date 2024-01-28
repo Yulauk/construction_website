@@ -235,114 +235,132 @@
     </div>
 
 
+                  <!-- Form "Contact Us" -->
+<div class="col-md-7 col-lg-8">
+    <h4 class="mb-3">{{ _('Contact Us') }}</h4>
+    <form class="row g-3" action="{{ url_for('submit_contact_us') }}" id="contactForm" method="POST">
 
+        <div class="col-md-6">
+            <label for="validationContactName" class="form-label">{{ _('First name') }}<span class="text-red">*</span></label>
+            <input type="text" name="name" class="form-control" id="validationContactName" required>
+            <div id="nameError" class="error-message text-red"></div>
+        </div>
 
+        <div class="col-md-6">
+            <label for="validationContactLastName" class="form-label">{{ _('Last name') }}<span class="text-red">*</span></label>
+            <input type="text" name="surname" class="form-control" id="validationContactLastName" required>
+            <div id="lastNameError" class="error-message text-red"></div>
+        </div>
 
+        <div class="col-md-6">
+            <label for="validationContactEmail" class="form-label">{{ _('Email address') }}<span class="text-red">*</span></label>
+            <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="email" name="email" class="form-control" id="validationContactEmail" placeholder="name@example.com" required>
+            </div>
+            <div id="emailError" class="error-message text-red"></div>
+        </div>
 
-                <!--form "Contact Us"-->
-                  <div class="col-md-7 col-lg-8">
-                    <h4 class="mb-3">{{ _('Contact Us') }}</h4>
-                    <form class="row g-3" action="{{ url_for('submit_contact_us') }}" method="POST">
+        <div class="col-md-6">
+            <label for="validationContactPhone" class="form-label">{{ _('Phone') }}<span class="text-red">*</span></label>
+            <input type="text" name="phone" class="form-control" id="validationContactPhone" required>
+            <div id="phoneError" class="error-message text-red"></div>
+        </div>
 
-                                                <div class="col-md-6">
-                            <label for="validationDefault01" class="form-label">{{ _('First name') }}<span class="text-red">*</span></label>
-                            <input type="text" name="name" class="form-control" id="validationDefault01" required>
-                          </div>
+        <div class="col-md-6">
+            <label for="validationContactCity" class="form-label">{{ _('City') }}<span class="text-red">*</span></label>
+            <input type="text" name="city" class="form-control" id="validationContactCity" required>
+            <div id="cityError" class="error-message text-red"></div>
+        </div>
 
-                                                <div class="col-md-6">
-                            <label for="validationDefault02" class="form-label">{{ _('Last name') }}<span class="text-red">*</span></label>
-                            <input type="text" name="surname" class="form-control" id="validationDefault02" required>
-                          </div>
+        <div class="col-md-3">
+            <label for="validationContactState" class="form-label">{{ _('State') }}</label>
+            <input type="text" name="state" class="form-control" id="validationContactState">
+        </div>
 
-                                                <div class="col-md-6">
-                            <label for="validationDefault033" class="form-label">{{ _('Email address') }}<span class="text-red">*</span></label>
-                            <div class="input-group">
-                              <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                          <input type="email" name="email" class="form-control" id="validationDefault033" placeholder="name@example.com" required>
-                            </div>
-                          </div>
+        <div class="col-md-3">
+            <label for="validationContactZip" class="form-label">{{ _('Zip') }}</label>
+            <input type="text" name="zip" class="form-control" id="validationContactZip">
+            <div id="zipError" class="error-message text-red"></div>
+        </div>
 
-                                                <div class="col-md-6">
-                            <label for="validationDefault33" class="form-label">{{ _('Phone') }}<span class="text-red">*</span></label>
-                            <input type="text" name="phone" class="form-control" id="validationDefault33" required>
-                          </div>
+        <div class="col-md-6">
+            <label for="validationContactAddress" class="form-label">{{ _('Address') }}</label>
+            <input type="text" name="address" class="form-control" id="validationContactAddress">
+        </div>
 
-                                                <div class="col-md-6">
-                            <label for="FormControlTextarea1" class="form-label">{{ _('City') }}</label>
-                            <input type="text" name="city" class="form-control" id="FormControlTextarea1">
-                          </div>
+        <div class="col-md-6">
+            <label for="validationContactBudget" class="form-label">{{ _('Target budget') }}<span class="text-red">*</span></label>
+            <select name="budget" class="form-select" id="validationContactBudget" required>
+                <option value="" selected disabled>{{ _('Select budget range') }}</option>
+                <option value="$100-$999">{{ _('$100-$999') }}</option>
+                <option value="$1000-$4999">{{ _('$1000-$4999') }}</option>
+                <option value="$5000-$9999">{{ _('$5000-$9999') }}</option>
+                <option value="$10,000-$19,999">{{ _('$10,000-$19,999') }}</option>
+                <option value="$20,000-$49,999">{{ _('$20,000-$49,999') }}</option>
+                <option value="$50,000-$99,999">{{ _('$50,000-$99,999') }}</option>
+                <option value="$100,000+">{{ _('$100,000+') }}</option>
+            </select>
+            <div id="budgetError" class="error-message text-red"></div>
+        </div>
 
-                                                <div class="col-md-3">
-                            <label for="Textarea_State" class="form-label">{{ _('State') }}</label>
-                                <input type="text" name="city" class="form-control" id="Textarea_State">
-                                                </div>
+        <div class="col-md-6">
+            <label for="validationContactTime" class="form-label">{{ _('Project time frame') }}<span class="text-red">*</span></label>
+            <select name="time" class="form-select" id="validationContactTime" required>
+                <option value="" selected disabled>{{ _('Select time frame') }}</option>
+                <option value="hot">{{ _('As soon as possible') }}</option>
+                <option value="3-months">{{ _('Starting within 3 months') }}</option>
+                <option value="6-months">{{ _('Starting within 6 months') }}</option>
+                <option value="1-year">{{ _('Starting within a year') }}</option>
+            </select>
+            <div id="timeError" class="error-message text-red"></div>
+        </div>
 
-                                                <div class="col-md-3">
-                            <label for="ControlTextarea3" class="form-label">{{ _('Zip') }}</label>
-                            <input type="text" name="zip" class="form-control" id="ControlTextarea3">
-                          </div>
+        <div class="col-md-6">
+            <label for="validationContactAbout" class="form-label">{{ _('How did you hear about us?') }}</label>
+            <select name="source" class="form-select" id="validationContactAbout">
+                <option value="" selected disabled>{{ _('Select source') }}</option>
+                <option value="online">{{ _('Online Advertisement') }}</option>
+                <option value="friend">{{ _('Friend or Colleague') }}</option>
+                <option value="social">{{ _('Social networks') }}</option>
+                <option value="google">{{ _('Google') }}</option>
+                <option value="other">{{ _('Other') }}</option>
+            </select>
+            <div id="sourceError" class="error-message text-red"></div>
+        </div>
 
-                                                <div class="col-md-6">
-                            <label for="ControlTextarea4" class="form-label">{{ _('Address') }}</label>
-                            <input type="text" name="address" class="form-control" id="ControlTextarea4">
-                          </div>
+        <div class="mb-3">
+            <label for="validationContactProject" class="form-label">{{ _('Tell us about your project') }}<span class="text-red">*</span></label>
+            <textarea class="form-control" name="project" id="validationContactProject" rows="3" required></textarea>
+            <div id="projectError" class="error-message text-red"></div>
+        </div>
 
-                                                <div class="col-md-6">
-    <label for="validationbudget" class="form-label">{{ _('Target budget') }}<span class="text-red">*</span></label>
-    <select name="budget" class="form-select" id="validationbudget" required>
-        <option value="" selected disabled>{{ _('Select budget range') }}</option>
-        <option value="$100-$999">{{ _('$100-$999') }}</option>
-        <option value="$1000-$4999">{{ _('$1000-$4999') }}</option>
-        <option value="$5000-$9999">{{ _('$5000-$9999') }}</option>
-        <option value="$10,000-$19,999">{{ _('$10,000-$19,999') }}</option>
-        <option value="$20,000-$49,999">{{ _('$20,000-$49,999') }}</option>
-        <option value="$50,000-$99,999">{{ _('$50,000-$99,999') }}</option>
-        <option value="$100,000+">{{ _('$100,000+') }}</option>
-    </select>
+        <!-- Additional checkbox (if needed) -->
+        <!--
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                    {{ _('Agree to terms and conditions') }}
+                </label>
+            </div>
+        </div>
+        -->
+
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">{{ _('Submit form') }}</button>
+        </div>
+
+        <br>
+        <small>This site is protected by reCAPTCHA and the Google
+            <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+            <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+        </small>
+    </form>
 </div>
 
-                                                <div class="col-md-6">
-    <label for="validation_time_frame" class="form-label">{{ _('Project time frame') }}<span class="text-red">*</span></label>
-    <select name="time" class="form-select" id="validation_time_frame" required>
-        <option value="" selected disabled>{{ _('Select time frame') }}</option>
-        <option value="hot">{{ _('As soon as possible') }}</option>
-        <option value="3-months">{{ _('Starting within 3 months') }}</option>
-        <option value="6-months">{{ _('Starting within 6 months') }}</option>
-        <option value="1-year">{{ _('Starting within a year') }}</option>
-    </select>
-</div>
 
-                                                <div class="col-md-6">
-    <label for="Textarea_about" class="form-label">{{ _('How did you hear about us?') }}</label>
-    <select name="source" class="form-select" id="Textarea_about">
-        <option value="" selected disabled>{{ _('Select source') }}</option>
-        <option value="online">{{ _('Online Advertisement') }}</option>
-        <option value="friend">{{ _('Friend or Colleague') }}</option>
-        <option value="social">{{ _('Social networks') }}</option>
-        <option value="google">{{ _('Google') }}</option>social networks
-        <option value="other">{{ _('Other') }}</option>
-    </select>
-</div>
 
-                                                <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label">{{ _('Tell us about your project') }}<span class="text-red">*</span></label>
-                              <textarea class="form-control" name="project" id="exampleFormControlTextarea1" rows="3" required></textarea>
-                        </div>
-
-<!--                          <div class="col-12">-->
-<!--                            <div class="form-check">-->
-<!--                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>-->
-<!--                              <label class="form-check-label" for="invalidCheck2">-->
-<!--                                {{ _('Agree to terms and conditions') }}-->
-<!--                              </label>-->
-<!--                            </div>-->
-<!--                          </div>-->
-                          <div class="col-12">
-                            <button class="btn btn-primary" type="submit">{{ _('Submit form') }}</button>
-                          </div>
-                    </form>
-
-                  </div>
                 </div>
                 </div>
         </main>
