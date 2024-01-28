@@ -13,19 +13,62 @@
     <div class="container py-2">
         <div class="row" style="display: flex; justify-content: center;">
 
-            <!-- Blog Post 1 -->
+
+            <!-- Blog Post 4 -->
             <div class="col-lg-4">
                 <div class="position-relative">
-                    <img src="/static/images/carousel/wood_house_kulbackenko_1.jpeg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
+
+                    <!--article image-->
+                    <img src="/static/images/blog_images/plumbing_kulbachenko.jpg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
                     <div class="overlay"></div>
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success-emphasis">Building</strong>
-                        <h3 class="mb-0">Building creation</h3>
-                        <div class="mb-1 text-body-secondary">Jan 24</div>
-                        <p class="mb-auto">Rough construction works in the building industry represent the initial stage of constructing a building</p>
-                        <a href="/articles/building-creation" class="icon-link gap-1 icon-link-hover stretched-link">
+
+                        <!--tag-->
+                        <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-blue">{{ _('Plumbing') }}</span></strong>
+
+                        <!--article title-->
+                        <h3 class="mb-0">{{ _('Stages of Plumbing Work in Apartment Renovation') }}</h3>
+
+                        <!--publish date-->
+                        <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
+
+                        <!--short description-->
+                        <p class="mb-auto">{{ _('Discover the comprehensive steps involved in plumbing during a major apartment renovation. From initial assessment to final documentation, each stage ensures the installation of reliable and safe plumbing systems, encompassing everything from demolition to testing and connection of appliances.') }}</p>
+
+                        <!--link to article page-->
+                        <a href="/articles/stages-of-plumbing-work" class="icon-link gap-1 icon-link-hover stretched-link">
                             {{ _('Continue reading') }}
-                            <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
+                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="col-lg-4">
+                <div class="position-relative">
+
+                    <!--article image-->
+                    <img src="/static/images/carousel/drywall_kulbachenko.jpeg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
+                    <div class="overlay"></div>
+                    <div class="col p-4 d-flex flex-column position-static">
+
+                        <!--tag-->
+                        <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-yellow">{{ _('Electrical') }}</span></strong>
+
+                        <!--article title-->
+                        <h3 class="mb-0">{{ _('Key Steps in Electrical Installation for Apartment Renovation') }}</h3>
+
+                        <!--publish date-->
+                        <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
+
+                        <!--short description-->
+                        <p class="mb-auto">{{ _('Comprehensive Electrical Installation for Apartment Renovation') }}</p>
+
+                        <!--link to article page-->
+                        <a href="/articles/electrical-installation-for-apartment-renovation" class="icon-link gap-1 icon-link-hover stretched-link">
+                            {{ _('Continue reading') }}
+                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                         </a>
                     </div>
                 </div>
@@ -48,28 +91,95 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Blog Post 1 -->
+            <div class="col-lg-4">
+                <div class="position-relative">
+                    <img src="/static/images/carousel/wood_house_kulbackenko_1.jpeg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
+                    <div class="overlay"></div>
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success-emphasis">Building</strong>
+                        <h3 class="mb-0">Building creation</h3>
+                        <div class="mb-1 text-body-secondary">Jan 24</div>
+                        <p class="mb-auto">Rough construction works in the building industry represent the initial stage of constructing a building</p>
+                        <a href="/articles/building-creation" class="icon-link gap-1 icon-link-hover stretched-link">
+                            {{ _('Continue reading') }}
+                            <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
         </div>
     </div>
+
 
     <!-- Latest Updates Section -->
     <div class="container py-2">
         <p>{{ _('Latest Updates') }}</p>
 
-        <!-- Blog Post 3 (Latest Update) -->
+        <!-- Blog Post Stages of Plumbing Work (Latest Update) -->
         <div class="blog-div">
             <hr class="featurette-divider">
             <div class="row align-items-md-stretch" style="display: flex; justify-content: center;">
                 <div class="col-md-6">
                     <div class="row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
                         <div class="col-auto d-none d-lg-block">
-                            <img src="{{ url_for('static', filename='/images/carousel/wood_house_kulbackenko_1.jpeg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
+
+                            <!--article image-->
+                            <img src="{{ url_for('static', filename='/images/blog_images/plumbing_kulbachenko.jpg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Building') }}</strong>
-                            <h3 class="mb-0">{{ _('Building creation') }}</h3>
-                            <div class="mb-1 text-body-secondary">{{ _('Jan 24') }}</div>
-                            <p class="mb-auto">{{ _('Rough construction works in the building industry represent the initial stage of constructing a building') }}</p>
-                            <a href="articles/building-creation" class="icon-link gap-1 icon-link-hover stretched-link">
+                            <!--tag-->
+                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-blue">{{ _('Plumbing') }}</span></strong>
+
+
+                            <!--article title-->
+                            <h3 class="mb-0">{{ _('Key Steps in Electrical Installation for Apartment Renovation') }}</h3>
+
+                            <!--publish date-->
+                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
+
+                            <!--short description-->
+                            <p class="mb-auto">{{ _('Stages of Plumbing Work in Apartment Renovation') }}</p>
+                            <a href="articles/electrical-installation-for-apartment-renovation" class="icon-link gap-1 icon-link-hover stretched-link">
+                                {{ _('Continue reading') }}
+                                <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Post Electrical (Latest Update) -->
+        <div class="blog-div">
+            <hr class="featurette-divider">
+            <div class="row align-items-md-stretch" style="display: flex; justify-content: center;">
+                <div class="col-md-6">
+                    <div class="row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+
+                            <!--article image-->
+                            <img src="{{ url_for('static', filename='/images/carousel/drywall_kulbachenko.jpeg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <!--tag-->
+                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-yellow">{{ _('Electrical') }}</span></strong>
+
+                            <!--article title-->
+                            <h3 class="mb-0">{{ _('Key Steps in Electrical Installation for Apartment Renovation') }}</h3>
+
+                            <!--publish date-->
+                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
+
+                            <!--short description-->
+                            <p class="mb-auto">{{ _('Comprehensive Electrical Installation for Apartment Renovation') }}</p>
+                            <a href="articles/electrical-installation-for-apartment-renovation" class="icon-link gap-1 icon-link-hover stretched-link">
                                 {{ _('Continue reading') }}
                                 <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
                             </a>
@@ -91,7 +201,7 @@
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }}</strong>
                             <h3 class="mb-0">{{ _('Apartment renovation') }}</h3>
-                            <div class="mb-1 text-body-secondary">{{ _('Jan 24') }}</div>
+                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 24</div>
                             <p class="mb-auto">{{ _('A comprehensive apartment renovation includes various stages') }}</p>
                             <a href="/articles/apartment-renovation" class="icon-link gap-1 icon-link-hover stretched-link">
                                 {{ _('Continue reading') }}
@@ -102,6 +212,41 @@
                 </div>
             </div>
         </div>
+
+        <!-- Blog Post 3 (Latest Update) -->
+        <div class="blog-div">
+            <hr class="featurette-divider">
+            <div class="row align-items-md-stretch" style="display: flex; justify-content: center;">
+                <div class="col-md-6">
+                    <div class="row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+
+                            <!--article image-->
+                            <img src="{{ url_for('static', filename='/images/carousel/wood_house_kulbackenko_1.jpeg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <!--tag-->
+                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Building') }}</strong>
+
+                            <!--article title-->
+                            <h3 class="mb-0">{{ _('Building creation') }}</h3>
+
+                            <!--publish date-->
+                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 24</div>
+
+                            <!--short description-->
+                            <p class="mb-auto">{{ _('Rough construction works in the building industry represent the initial stage of constructing a building') }}</p>
+                            <a href="articles/building-creation" class="icon-link gap-1 icon-link-hover stretched-link">
+                                {{ _('Continue reading') }}
+                                <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
 

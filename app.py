@@ -128,6 +128,12 @@ def project_estonian_academy():
 #     return render_template('project.html', project_name=project_name, year_on_site=year_on_site())
 
 # BLOG
+@app.route('/articles')
+def articles():
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('blog_templates/articles.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+
+
 @app.route('/articles/building-creation')
 def articles_building():
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
@@ -140,9 +146,20 @@ def articles_renovation():
     return render_template('blog_templates/apartment-renovation.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 
-@app.errorhandler(404)
-def not_found(error):
-    return render_template("error_pages/404.html", year_on_site=year_on_site()), 404, 500
+@app.route('/articles/electrical-installation-for-apartment-renovation')
+def electrical_installation():
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('blog_templates/electrical-installation-for-apartment-renovation.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+
+
+@app.route('/articles/stages-of-plumbing-work')
+def plumbing_work():
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    return render_template('blog_templates/stages-of-plumbing-work.html', year_on_site=year_on_site(), language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+
+# @app.errorhandler(404)
+# def not_found(error):
+#     return render_template("error_pages/404.html", year_on_site=year_on_site()), 404, 500
 
 
 def year_on_site():

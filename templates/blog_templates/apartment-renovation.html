@@ -111,6 +111,25 @@
         <div>
           <h4 class="fst-italic mt-1">{{ _('Recent posts') }}</h4>
           <ul class="list-unstyled">
+              <li>
+            <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+               href="/articles/stages-of-plumbing-work">
+            <img src="{{ url_for('static', filename='/images/blog_images/plumbing_kulbachenko.jpg') }}" alt="Logo" width="99" height="96">
+                <div class="col-lg-8">
+            <h6 class="mb-0">{{ _('Stages of Plumbing Work in Apartment Renovation') }}</h6>
+            <small class="text-body-secondary">{{ _('January') }} 28, 2024</small>
+            </div>
+            </a>
+            </li>
+              <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/articles/electrical-installation-for-apartment-renovation">
+<img src="{{ url_for('static', filename='/images/carousel/drywall_kulbachenko.jpeg') }}" alt="Logo" width="99" height="96">
+                  <div class="col-lg-8">
+                  <h6 class="mb-0">{{ _('Key Steps in Electrical Installation for Apartment Renovation') }}</h6>
+                  <small class="text-body-secondary">{{ _('January') }} 28, 2024</small>
+                </div>
+              </a>
+            </li>
             <li>
               <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/articles/building-creation">
 <img src="{{ url_for('static', filename='/images/carousel/wood_house_kulbackenko_1.jpeg') }}" alt="Logo" width="99" height="96">
@@ -120,6 +139,7 @@
                 </div>
               </a>
             </li>
+
           </ul>
         </div>
 
