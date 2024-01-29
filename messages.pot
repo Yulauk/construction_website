@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-12 05:53+0100\n"
+"POT-Creation-Date: 2024-01-29 14:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/about.html:9 templates/base.html:36 templates/index.html:16
+#: templates/about.html:9 templates/base.html:61 templates/base.html:161
+#: templates/index.html:32 templates/index.html:87
 msgid "ABOUT"
 msgstr ""
 
@@ -37,92 +38,283 @@ msgid ""
 "earn your trust. I'll be happy to collaborate!"
 msgstr ""
 
-#: templates/base.html:37 templates/index.html:17 templates/portfolio.html:8
+#: templates/base.html:62 templates/base.html:164 templates/index.html:33
+#: templates/index.html:90 templates/portfolio.html:8
 msgid "PORTFOLIO"
 msgstr ""
 
-#: templates/base.html:38 templates/index.html:18
+#: templates/base.html:63 templates/base.html:167 templates/index.html:34
+#: templates/index.html:93 templates/services.html:8
 msgid "SERVICES"
 msgstr ""
 
-#: templates/base.html:39 templates/index.html:19
+#: templates/base.html:64 templates/base.html:170 templates/blog.html:8
+#: templates/index.html:35 templates/index.html:96
 msgid "BLOG"
 msgstr ""
 
-#: templates/base.html:43 templates/index.html:23
+#: templates/base.html:68 templates/index.html:39
 msgid "CONTACT US"
 msgstr ""
 
-#: templates/base.html:64
+#: templates/base.html:158
+msgid "HOME"
+msgstr ""
+
+#: templates/base.html:175 templates/base.html:176 templates/index.html:101
+#: templates/index.html:102
+msgid "Search"
+msgstr ""
+
+#: templates/base.html:198
 msgid "Get a Free Consultation"
 msgstr ""
 
-#: templates/base.html:88
-msgid "Submit"
+#: templates/base.html:226
+msgid "Verify Submit"
 msgstr ""
 
-#: templates/base.html:100
+#: templates/base.html:241
 msgid "Contact Us"
 msgstr ""
 
-#: templates/base.html:104
+#: templates/base.html:245
 msgid "First name"
 msgstr ""
 
-#: templates/base.html:109
+#: templates/base.html:251
 msgid "Last name"
 msgstr ""
 
-#: templates/base.html:114
+#: templates/base.html:257
 msgid "Email address"
 msgstr ""
 
-#: templates/base.html:122
+#: templates/base.html:266
 msgid "Phone"
 msgstr ""
 
-#: templates/base.html:127
+#: templates/base.html:272
 msgid "City"
 msgstr ""
 
-#: templates/base.html:132
+#: templates/base.html:278
 msgid "State"
 msgstr ""
 
-#: templates/base.html:140
+#: templates/base.html:283
 msgid "Zip"
 msgstr ""
 
-#: templates/base.html:145
+#: templates/base.html:289
 msgid "Address"
 msgstr ""
 
-#: templates/base.html:150
+#: templates/base.html:294
 msgid "Target budget"
 msgstr ""
 
-#: templates/base.html:155
+#: templates/base.html:296
+msgid "Select budget range"
+msgstr ""
+
+#: templates/base.html:297
+msgid "$100-$999"
+msgstr ""
+
+#: templates/base.html:298
+msgid "$1000-$4999"
+msgstr ""
+
+#: templates/base.html:299
+msgid "$5000-$9999"
+msgstr ""
+
+#: templates/base.html:300
+msgid "$10,000-$19,999"
+msgstr ""
+
+#: templates/base.html:301
+msgid "$20,000-$49,999"
+msgstr ""
+
+#: templates/base.html:302
+msgid "$50,000-$99,999"
+msgstr ""
+
+#: templates/base.html:303
+msgid "$100,000+"
+msgstr ""
+
+#: templates/base.html:309
 msgid "Project time frame"
 msgstr ""
 
-#: templates/base.html:160
+#: templates/base.html:311
+msgid "Select time frame"
+msgstr ""
+
+#: templates/base.html:312
+msgid "As soon as possible"
+msgstr ""
+
+#: templates/base.html:313
+msgid "Starting within 3 months"
+msgstr ""
+
+#: templates/base.html:314
+msgid "Starting within 6 months"
+msgstr ""
+
+#: templates/base.html:315
+msgid "Starting within a year"
+msgstr ""
+
+#: templates/base.html:321
 msgid "How did you hear about us?"
 msgstr ""
 
-#: templates/base.html:165
+#: templates/base.html:323
+msgid "Select an option"
+msgstr ""
+
+#: templates/base.html:324
+msgid "Online Advertisement"
+msgstr ""
+
+#: templates/base.html:325
+msgid "Friend or Colleague"
+msgstr ""
+
+#: templates/base.html:326
+msgid "Social networks"
+msgstr ""
+
+#: templates/base.html:327
+msgid "Google"
+msgstr ""
+
+#: templates/base.html:328
+msgid "Other"
+msgstr ""
+
+#: templates/base.html:334
 msgid "Tell us about your project"
 msgstr ""
 
-#: templates/base.html:173
+#: templates/base.html:345
 msgid "Agree to terms and conditions"
 msgstr ""
 
-#: templates/base.html:178
+#: templates/base.html:352
 msgid "Submit form"
 msgstr ""
 
-#: templates/index.html:37
+#: templates/blog.html:27 templates/blog.html:57 templates/blog.html:83
+#: templates/blog.html:139 templates/blog.html:173 templates/blog.html:203
+msgid "Renovation"
+msgstr ""
+
+#: templates/blog.html:27 templates/blog.html:139
+msgid "Plumbing"
+msgstr ""
+
+#: templates/blog.html:30 templates/blog.html:149
+#: templates/blog_templates/apartment-renovation.html:120
+#: templates/blog_templates/building-creation.html:109
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:99
+#: templates/blog_templates/stages-of-plumbing-work.html:17
+msgid "Stages of Plumbing Work in Apartment Renovation"
+msgstr ""
+
+#: templates/blog.html:33 templates/blog.html:63 templates/blog.html:103
+#: templates/blog.html:146 templates/blog.html:179 templates/blog.html:205
+#: templates/blog.html:236
+msgid "Jan"
+msgstr ""
+
+#: templates/blog.html:36
+msgid ""
+"Discover the comprehensive steps involved in plumbing during a major "
+"apartment renovation. From initial assessment to final documentation, "
+"each stage ensures the installation of reliable and safe plumbing "
+"systems, encompassing everything from demolition to testing and "
+"connection of appliances."
+msgstr ""
+
+#: templates/blog.html:40 templates/blog.html:70 templates/blog.html:88
+#: templates/blog.html:107 templates/blog.html:151 templates/blog.html:184
+#: templates/blog.html:208 templates/blog.html:241
+msgid "Continue reading"
+msgstr ""
+
+#: templates/blog.html:57 templates/blog.html:173
+msgid "Electrics"
+msgstr ""
+
+#: templates/blog.html:60 templates/blog.html:143 templates/blog.html:176
+#: templates/blog_templates/apartment-renovation.html:129
+#: templates/blog_templates/building-creation.html:118
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:17
+#: templates/blog_templates/stages-of-plumbing-work.html:110
+msgid "Key Steps in Electrical Installation for Apartment Renovation"
+msgstr ""
+
+#: templates/blog.html:66 templates/blog.html:182
+msgid "Comprehensive Electrical Installation for Apartment Renovation"
+msgstr ""
+
+#: templates/blog.html:84 templates/blog.html:204
+#: templates/blog_templates/apartment-renovation.html:15
+#: templates/blog_templates/building-creation.html:126
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:107
+#: templates/blog_templates/stages-of-plumbing-work.html:119
+msgid "Apartment renovation"
+msgstr ""
+
+#: templates/blog.html:85
+msgid "Jan 24"
+msgstr ""
+
+#: templates/blog.html:86 templates/blog.html:206
+msgid "A comprehensive apartment renovation includes various stages"
+msgstr ""
+
+#: templates/blog.html:101 templates/blog.html:230 templates/services.html:108
+msgid "Construction"
+msgstr ""
+
+#: templates/blog.html:102 templates/blog.html:233
+#: templates/blog_templates/apartment-renovation.html:3
+#: templates/blog_templates/apartment-renovation.html:138
+#: templates/blog_templates/building-creation.html:3
+#: templates/blog_templates/building-creation.html:15
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:116
+#: templates/blog_templates/stages-of-plumbing-work.html:129
+msgid "Building creation"
+msgstr ""
+
+#: templates/blog.html:104 templates/blog.html:239
+msgid ""
+"Rough construction works in the building industry represent the initial "
+"stage of constructing a building"
+msgstr ""
+
+#: templates/blog.html:124
+msgid "Latest Updates"
+msgstr ""
+
+#: templates/index.html:84
+msgid "MAIN"
+msgstr ""
+
+#: templates/index.html:139
 msgid "VIEW OUR PORTFOLIO"
+msgstr ""
+
+#: templates/index.html:176
+msgid "OUR PARTNERS"
 msgstr ""
 
 #: templates/portfolio.html:3
@@ -133,11 +325,7 @@ msgstr ""
 msgid "Services"
 msgstr ""
 
-#: templates/services.html:8
-msgid "Servicess"
-msgstr ""
-
-#: templates/services.html:15
+#: templates/services.html:16
 msgid "Our 4-Step Process"
 msgstr ""
 
@@ -153,296 +341,534 @@ msgid ""
 "\t\t\t\t\tclose out with the whole team."
 msgstr ""
 
-#: templates/services.html:38
+#: templates/services.html:33 templates/services.html:72
+#: templates/services.html:107 templates/services.html:141
+msgid "Step"
+msgstr ""
+
+#: templates/services.html:34
 msgid "Consultation"
 msgstr ""
 
-#: templates/services.html:61 templates/services.html:173
+#: templates/services.html:42
+msgid ""
+"\n"
+"\t\t\t  I take pride in providing a high level of personalized service, "
+"starting from the first day\n"
+"\t\t\t  in your home. We aim to understand your living space and you "
+"better. We want to learn about\n"
+"\t\t\t  your ideas and project vision, as well as address any specific "
+"needs. We welcome any photos\n"
+"\t\t\t  or sketches you've created. Incorporating the client's personal "
+"preferences into the design\n"
+"\t\t\t  allows us to create a unique and functional space. We also keep "
+"an eye on the latest trends\n"
+"\t\t\t  in design and construction, offering innovative solutions.\n"
+"\t\t\t  <br>\n"
+"\t\t\t  <br>\n"
+"\t\t\t  In our approach, we implement project management systems for "
+"transparency,\n"
+"\t\t\t  efficiency, and adherence to deadlines. Demonstrating an interest"
+" in sustainable\n"
+"\t\t\t  design and using environmentally friendly materials is an "
+"integral part of our philosophy.\n"
+"\t\t\t  Personal involvement in the project and a willingness to work "
+"closely with clients ensure\n"
+"\t\t\t  the successful realization of their dreams. Within seven days, we"
+" will provide you with a preliminary\n"
+"\t\t\t  proposal, including an approximate cost estimate.\n"
+"\t\t\t  "
+msgstr ""
+
+#: templates/services.html:60
 msgid "COST: Free"
 msgstr ""
 
-#: templates/services.html:78
+#: templates/services.html:73
 msgid "Design"
 msgstr ""
 
-#: templates/services.html:100
+#: templates/services.html:81
+msgid ""
+"\n"
+"\t\t\t  After the approval of the cost estimate, we proceed to the design"
+" and pre-construction phase.\n"
+"\t\t\t  Our architect-designers will strive to align your project program"
+" with your construction budget.\n"
+"\t\t\t  At this stage, we research and select materials, as well as "
+"create conceptual, permitting, and\n"
+"\t\t\t  construction drawings. We also generate three-dimensional "
+"renderings to help you visualize the\n"
+"\t\t\t  new space. This critical phase of the project typically takes "
+"more time than the actual construction\n"
+"\t\t\t  and requires close coordination with you, the client. We "
+"streamline the process by creating a detailed\n"
+"\t\t\t  design schedule that outlines tasks, responsible parties, and "
+"anticipated stages.\n"
+"\t\t\t  "
+msgstr ""
+
+#: templates/services.html:91
 #, python-format
 msgid "COST: typically 10 – 15%% of estimated construction cost"
 msgstr ""
 
-#: templates/services.html:119
-msgid "Construction"
+#: templates/services.html:116
+msgid ""
+"\n"
+"\t\t\t  Once the project is completed, and you sign the construction "
+"contract, we will obtain permits and commence work on-site. Readiness to "
+"address unforeseen challenges or make adjustments in case of changing "
+"circumstances is a crucial aspect of our approach. In the event of "
+"unexpected situations, we take measures to minimize potential delays, "
+"ensuring the smooth progression of the project.\n"
+"\t\t\t  <br><br>\n"
+"\t\t\t  Specific stages will be implemented at the construction site "
+"every week or month, and we will provide you with a detailed schedule so "
+"that you are always informed about our progress.\n"
+"\t\t\t  <br><br>\n"
+"\t\t\t  As the client, you have the opportunity to provide your comments "
+"or suggestions during the construction process. We are open to "
+"interaction through regular meetings, online platforms, or other "
+"communication means. Your feedback is important to us, and we strive to "
+"facilitate effective communication by providing regular updates and "
+"promptly responding to questions or concerns.\n"
+"\t\t\t  <br><br>\n"
+"\t\t\t  We offer 24/7 access via phone and email, even on weekends, to "
+"promptly address any questions or changes that may arise during "
+"construction. Your construction phase coordinator will provide you with "
+"daily updates on our progress and be ready to answer all your inquiries."
+"\n"
+"\t\t\t  "
 msgstr ""
 
-#: templates/services.html:137
+#: templates/services.html:126 templates/services.html:172
 msgid "COST: by agreement"
 msgstr ""
 
-#: templates/services.html:154
+#: templates/services.html:143
 msgid "Closeout"
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/_termui_impl.py:518
-msgid "{editor}: Editing failed"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/_termui_impl.py:522
-msgid "{editor}: Editing failed: {e}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1120
-msgid "Aborted!"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1309
-#: venv/lib/python3.10/site-packages/click/decorators.py:559
-msgid "Show this message and exit."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1340
-#: venv/lib/python3.10/site-packages/click/core.py:1370
-msgid "(Deprecated) {text}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1387
-msgid "Options"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1415
-msgid "Got unexpected extra argument ({args})"
-msgid_plural "Got unexpected extra arguments ({args})"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1428
-msgid "DeprecationWarning: The command {name!r} is deprecated."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1636
-msgid "Commands"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1668
-msgid "Missing command."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:1746
-msgid "No such command {name!r}."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:2310
-msgid "Value must be an iterable."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:2333
-msgid "Takes {nargs} values but 1 was given."
-msgid_plural "Takes {nargs} values but {len} were given."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:2778
-msgid "env var: {var}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:2808
-msgid "(dynamic)"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:2821
-msgid "default: {default}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/core.py:2834
-msgid "required"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/decorators.py:465
-#, python-format
-msgid "%(prog)s, version %(version)s"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/decorators.py:528
-msgid "Show the version and exit."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:44
-#: venv/lib/python3.10/site-packages/click/exceptions.py:80
-msgid "Error: {message}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:72
-msgid "Try '{command} {option}' for help."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:121
-msgid "Invalid value: {message}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:123
-msgid "Invalid value for {param_hint}: {message}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:179
-msgid "Missing argument"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:181
-msgid "Missing option"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:183
-msgid "Missing parameter"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:185
-msgid "Missing {param_type}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:192
-msgid "Missing parameter: {param_name}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:212
-msgid "No such option: {name}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:226
-msgid "Did you mean {possibility}?"
-msgid_plural "(Possible options: {possibilities})"
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:262
-msgid "unknown error"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/exceptions.py:269
-msgid "Could not open file {filename!r}: {message}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/parser.py:231
-msgid "Argument {name!r} takes {nargs} values."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/parser.py:413
-msgid "Option {name!r} does not take a value."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/parser.py:473
-msgid "Option {name!r} requires an argument."
-msgid_plural "Option {name!r} requires {nargs} arguments."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.10/site-packages/click/shell_completion.py:318
-msgid "Shell completion is not supported for Bash versions older than 4.4."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/shell_completion.py:326
-msgid "Couldn't detect Bash version, shell completion is not supported."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/termui.py:158
-msgid "Repeat for confirmation"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/termui.py:174
-msgid "Error: The value you entered was invalid."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/termui.py:176
-msgid "Error: {e.message}"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/termui.py:187
-msgid "Error: The two entered values do not match."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/termui.py:243
-msgid "Error: invalid input"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/termui.py:773
-msgid "Press any key to continue..."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:266
+#: templates/services.html:156
 msgid ""
-"Choose from:\n"
-"\t{choices}"
+"\n"
+"\t\t\t\tWhen our team completes the construction:\n"
+"\t\t\t\t<br><br>\n"
+"\t\t\t\tAfter a thorough cleanup of the construction site, we will "
+"conduct a final review with you\n"
+"\t\t\t\tto ensure that every detail meets your expectations. We value "
+"your feedback, and your input\n"
+"\t\t\t\tin the form of an evaluation will be a crucial component of our "
+"commitment to continuous\n"
+"\t\t\t\tservice improvement.\n"
+"\t\t\t\t<br><br>\n"
+"\t\t\t\tIf, after completing the main stages of the project, you wish to "
+"add additional finishing\n"
+"\t\t\t\tworks, we are ready to provide additional services. Your "
+"satisfaction is our top priority.\n"
+"\t\t\t\t<br><br>\n"
+"\t\t\t\tAfter the project is completed, we will stay in touch, ready to "
+"address any questions or issues that may arise after inhabiting the "
+"updated space. Our team is ready to provide additional services if future"
+" support is needed.\n"
+"\t\t\t\t<br><br>\n"
+"\t\t\t\tIn the case of any suggestions or desires to make changes, we are"
+" open to personal discussions and adjustments to ensure that your home "
+"fully meets all your requirements. Your comfort and satisfaction are our "
+"primary concerns.\n"
+"\t\t\t\t"
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/types.py:300
-msgid "{value!r} is not {choice}."
-msgid_plural "{value!r} is not one of {choices}."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:394
-msgid "{value!r} does not match the format {format}."
-msgid_plural "{value!r} does not match the formats {formats}."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:414
-msgid "{value!r} is not a valid {number_type}."
+#: templates/blog_templates/apartment-renovation.html:16
+#: templates/blog_templates/apartment-renovation.html:121
+#: templates/blog_templates/apartment-renovation.html:130
+#: templates/blog_templates/apartment-renovation.html:139
+#: templates/blog_templates/building-creation.html:16
+#: templates/blog_templates/building-creation.html:110
+#: templates/blog_templates/building-creation.html:119
+#: templates/blog_templates/building-creation.html:127
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:20
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:100
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:108
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:117
+#: templates/blog_templates/stages-of-plumbing-work.html:20
+#: templates/blog_templates/stages-of-plumbing-work.html:111
+#: templates/blog_templates/stages-of-plumbing-work.html:120
+#: templates/blog_templates/stages-of-plumbing-work.html:130
+msgid "January"
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/types.py:470
-msgid "{value} is not in the range {range}."
+#: templates/blog_templates/apartment-renovation.html:17
+msgid ""
+"\n"
+"          A major apartment renovation includes various stages, starting "
+"from preparatory work\n"
+"          and ending with finishing touches. Here is a detailed "
+"description of the rough construction works:\n"
+"\n"
+"\n"
+"            <br>\n"
+"          <br>\n"
+"\n"
+"\n"
+"        1. Demolition Works:\n"
+"          <ul>\n"
+"            <li>Removal of old wallpapers, floor coverings, and ceiling "
+"finishes.\n"
+"            <li>Demolition of old plumbing and wiring.\n"
+"            <li>Possible removal of partitions or layout changes.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"\n"
+"          2. Priming Works:\n"
+"          <ul>\n"
+"             <li>Surface preparation for subsequent finishing materials.\n"
+"             <li>Application of primer on walls and ceilings.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"          3. Construction Works:\n"
+"          <ul>\n"
+"            <li>Construction of new partitions or removal of old ones.\n"
+"            <li>Possible room layout changes.\n"
+"              <li>Replacement or reinforcement of floors.\n"
+"          </ul>\n"
+"\n"
+"          4. Electrical Works:\n"
+"            <ul>\n"
+"               <li>Installation of new wiring.\n"
+"                 <li>Installation of sockets, switches, and light "
+"fixtures.\n"
+"                 <li>Preparation for connecting household appliances.\n"
+"            </ul>\n"
+"\n"
+"            5. Plumbing Works:\n"
+"                <ul>\n"
+"            <li>Replacement or updating of pipes and fittings.\n"
+"            <li>Installation of new plumbing fixtures (bathtub, toilet, "
+"sinks).\n"
+"                    <li>Installation of plumbing devices.\n"
+"                  </ul>\n"
+"\n"
+"            6. Heating and Ventilation:\n"
+"                  <ul>\n"
+"            <li>Installation of radiators and heating pipes.\n"
+"            <li>Installation of a ventilation system or reconstruction of"
+" an existing one.\n"
+"                    </ul>\n"
+"\n"
+"            7. Plastering and Painting Works:\n"
+"                    <ul>\n"
+"            <li>Alignment of walls and ceilings.\n"
+"                        <li>Puttying and sanding of surfaces.\n"
+"                        <li>Painting or applying decorative coatings.\n"
+"                      </ul>\n"
+"\n"
+"            8. Flooring Works:\n"
+"                      <ul>\n"
+"            <li>Installation of new floor coverings (laminate, parquet, "
+"tiles).\n"
+"            <li>Floor insulation if necessary.\n"
+"                        </ul>\n"
+"\n"
+"            9. Doors and Windows:\n"
+"                        <ul>\n"
+"            <li>Installation of new doors and windows if necessary.\n"
+"                            <li>Treatment, painting, or cladding.\n"
+"                          </ul>\n"
+"\n"
+"            10. General Works:\n"
+"                          <ul>\n"
+"            <li>Installation of baseboards, casings, and other finishing "
+"elements.\n"
+"                              <li>Preparation for subsequent finishing "
+"(if not included in rough construction works).\n"
+"                            </ul>\n"
+"\n"
+"          11. Cleanup:\n"
+"          <ul>\n"
+"          <li>Cleaning the premises from construction debris.\n"
+"          <li>Preparation for the final finishing.\n"
+"              </ul>\n"
+"\n"
+"        These stages represent the main tasks in a major apartment "
+"renovation. Each stage requires careful planning and coordination to "
+"achieve a successful outcome.\n"
+"        "
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/types.py:611
-msgid "{value!r} is not a valid boolean."
+#: templates/blog_templates/apartment-renovation.html:113
+#: templates/blog_templates/building-creation.html:102
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:93
+#: templates/blog_templates/stages-of-plumbing-work.html:104
+msgid "Recent posts"
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/types.py:635
-msgid "{value!r} is not a valid UUID."
+#: templates/blog_templates/building-creation.html:17
+msgid ""
+"\n"
+"        Rough construction works in the building industry represent the "
+"initial\n"
+"            stage of creating a building or structure. This stage "
+"includes the execution\n"
+"            of fundamental construction and engineering activities to "
+"ensure strength, stability,\n"
+"            and readiness for subsequent finishing stages. Here is a "
+"comprehensive description of rough\n"
+"            construction works:\n"
+"            <br>\n"
+"          <br>\n"
+"\n"
+"\n"
+"        1. Groundwork:\n"
+"          <ul>\n"
+"            <li>Leveling and clearing the site from vegetation and "
+"foreign objects.</li>\n"
+"            <li>Installing drainage systems if necessary.</li>\n"
+"            <li>Compacting the soil and creating a preparatory base for "
+"the foundation.</li>\n"
+"          </ul>\n"
+"\n"
+"\n"
+"\n"
+"          2. Foundation Works:\n"
+"          <ul>\n"
+"             <li>Constructing foundation walls and/or strip foundations "
+"according to the project documentation.\n"
+"             <li>Installing reinforcement and pouring concrete.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"          3. Construction of Load-Bearing Walls:\n"
+"          <ul>\n"
+"            <li>Erecting load-bearing walls from brick, concrete, blocks,"
+" or other materials.\n"
+"            <li>Installing necessary steel elements for rigidity and "
+"strength.\n"
+"          </ul>\n"
+"\n"
+"          4. Installation of Floor Structures:\n"
+"            <ul>\n"
+"               <li>Placing concrete slabs, metal beams, or other "
+"structures to create floors between levels.\n"
+"            </ul>\n"
+"\n"
+"5. Roofing Works:\n"
+"        <ul>\n"
+"   <li>Constructing the roof framework.\n"
+"   <li>Installing the roof truss system and laying roofing materials.\n"
+"          </ul>\n"
+"\n"
+"6. Engineering Systems:\n"
+"          <ul>\n"
+"   <li>Installing water supply and sewage systems.\n"
+"   <li>Mounting electrical wiring, heating, and ventilation systems.\n"
+"            </ul>\n"
+"\n"
+"7. Facade Finishing:\n"
+"            <ul>\n"
+"   <li>Finishing external walls with materials providing thermal "
+"insulation and protection against atmospheric influences.\n"
+"              </ul>\n"
+"\n"
+"8. Final Interior Finishing Works:\n"
+"              <ul>\n"
+"   <li>Smoothing walls and ceilings.\n"
+"   <li>Preparing the floor for subsequent finishing.\n"
+"                </ul>\n"
+"\n"
+"9. Preparation for Networking Equipment:\n"
+"                <ul>\n"
+"   <li>Laying routes for electrical wiring, telephone, and internet "
+"cables.\n"
+"                  </ul>\n"
+"\n"
+"10. Inspection and Quality Control:\n"
+"                  <ul>\n"
+"    <li>Conducting inspections to identify possible defects and "
+"discrepancies from the project documentation.\n"
+"                    </ul>\n"
+"\n"
+"          Rough construction works create the foundation for further "
+"finishing works, ensuring the stability and functionality of the "
+"building. This stage is the cornerstone for the successful completion of "
+"a construction project.\n"
+"\n"
+"\n"
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/types.py:822
-msgid "file"
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:22
+msgid ""
+"\n"
+"        Electrical installation work during a major apartment renovation "
+"includes the following stages:\n"
+"            <br>\n"
+"          <br>\n"
+"\n"
+"\n"
+"        1. Preliminary work:\n"
+"          <ul>\n"
+"            <li>Assessment of the condition of electrical wiring and "
+"equipment.</li>\n"
+"            <li>Development of an electrical installation project, taking"
+" into account modern standards and safety requirements.</li>\n"
+"            <li>Obtaining necessary permits and approvals for the work if"
+" required.</li>\n"
+"          </ul>\n"
+"\n"
+"\n"
+"\n"
+"          2. Installation of the distribution board and wiring:\n"
+"          <ul>\n"
+"             <li>Installation of a new or upgrade of an existing "
+"distribution board.\n"
+"             <li>Routing new electrical wiring along walls and ceilings, "
+"considering the apartment layout and the placement of outlets, switches, "
+"and light fixtures.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"          3. Installation of outlets, switches, and light fixtures:\n"
+"          <ul>\n"
+"            <li>Installation of outlets and switches according to the "
+"project.\n"
+"            <li>Connection of lighting fixtures and lamps.\n"
+"          </ul>\n"
+"\n"
+"          4. Installation of grounding system:\n"
+"            <ul>\n"
+"               <li>Installation of grounding wire along the walls and its"
+" connection to the grounding device or ground bus.\n"
+"            </ul>\n"
+"\n"
+"5. Installation of protection against electric shock:\n"
+"        <ul>\n"
+"   <li>Installation of differential circuit breakers (RCDs) or "
+"differential current relays (DCRs) to provide protection against electric"
+" shock.\n"
+"          </ul>\n"
+"\n"
+"6. Connection of electrical appliances and systems:\n"
+"          <ul>\n"
+"   <li>Connection of kitchen and household appliances, water heaters, air"
+" conditioners, and other electrical appliances.\n"
+"            </ul>\n"
+"\n"
+"7. Testing and system setup:\n"
+"            <ul>\n"
+"    <li>Conducting tests on electrical equipment to ensure compliance "
+"with safety standards.\n"
+"    <li>Calibration and verification of the electrical installations.\n"
+"              </ul>\n"
+"\n"
+"8. Documentation and completion of work:\n"
+"              <ul>\n"
+"   <li>Compilation of a acceptance report for the electrical installation"
+" work by the client.\n"
+"   <li>Providing technical documentation and warranty commitments for the"
+" completed work.\n"
+"                </ul>\n"
+"\n"
+"\n"
+"          It is crucial to adhere to all safety requirements when "
+"performing electrical\n"
+"          installation work and trust the execution of such tasks to "
+"experienced professionals.\n"
+"\n"
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/types.py:824
-msgid "directory"
+#: templates/blog_templates/stages-of-plumbing-work.html:3
+msgid "Stages of Plumbing Work"
 msgstr ""
 
-#: venv/lib/python3.10/site-packages/click/types.py:826
-msgid "path"
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:877
-msgid "{name} {filename!r} does not exist."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:886
-msgid "{name} {filename!r} is a file."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:894
-msgid "{name} '{filename}' is a directory."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:903
-msgid "{name} {filename!r} is not readable."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:912
-msgid "{name} {filename!r} is not writable."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:921
-msgid "{name} {filename!r} is not executable."
-msgstr ""
-
-#: venv/lib/python3.10/site-packages/click/types.py:987
-msgid "{len_type} values are required, but {len_value} was given."
-msgid_plural "{len_type} values are required, but {len_value} were given."
-msgstr[0] ""
-msgstr[1] ""
-
-#: venv/lib/python3.10/site-packages/flask_script/__init__.py:43
-msgid "show this help message and exit"
+#: templates/blog_templates/stages-of-plumbing-work.html:22
+msgid ""
+"\n"
+"        Stages of Plumbing Works in Comprehensive Apartment Renovation\n"
+"            <br>\n"
+"          <br>\n"
+"\n"
+"\n"
+"        1. Preliminary work:\n"
+"          <ul>\n"
+"            <li>Assessment of the existing plumbing and utilities.\n"
+"            <li>Development of a plumbing project considering the "
+"apartment layout and client's requirements.\n"
+"            <li>If necessary, obtaining permits and approvals for the "
+"works.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"\n"
+"          2. Demolition of Existing Plumbing:\n"
+"          <ul>\n"
+"             <li>Dismantling old plumbing fixtures (baths, toilets, "
+"sinks, shower cabins, etc.).\n"
+"             <li>Removal of old pipes and utilities.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"          3. Installation of New Pipes and Utilities:\n"
+"          <ul>\n"
+"            <li>Lay new water supply and sewage pipes according to the "
+"project.\n"
+"            <li>Installation of drainage cisterns, valves, and other "
+"elements of the sewage system.\n"
+"          </ul>\n"
+"\n"
+"          4. Installation of Plumbing Equipment:\n"
+"            <ul>\n"
+"               <li>Installing new plumbing fixtures (baths, toilets, "
+"sinks, shower cabins, etc.).\n"
+"                <li>Connecting plumbing devices to water supply and "
+"sewage pipes.\n"
+"            </ul>\n"
+"\n"
+"            5. Heating System Installation:\n"
+"                <ul>\n"
+"                    <li>Installing heating radiators.\n"
+"                    <li>Laying heating pipes and connecting them to the "
+"boiler or another heat source.\n"
+"                </ul>\n"
+"\n"
+"            6. Installation of Ventilation and Air Conditioning Systems:\n"
+"                <ul>\n"
+"                    <li>Installing ventilation grilles and exhaust fans.\n"
+"                    <li>Laying ventilation ducts and connecting them to "
+"the overall house ventilation system.\n"
+"                </ul>\n"
+"\n"
+"            7. Connection of Kitchen and Household Appliances:\n"
+"                <ul>\n"
+"                    <li>Connecting the kitchen sink, dishwasher, washing "
+"machine, and other household appliances to water supply and sewage "
+"systems.\n"
+"                </ul>\n"
+"\n"
+"            8. Conducting Tests and System Calibration:\n"
+"                <ul>\n"
+"                   <li>Checking the tightness of plumbing systems.\n"
+"                   <li>Calibration and verification of the functioning of"
+" plumbing equipment.\n"
+"                </ul>\n"
+"\n"
+"            9. Documentation and Completion of Works:\n"
+"                <ul>\n"
+"                   <li>Compilation of an acceptance report by the client "
+"for the plumbing works.\n"
+"                   <li>Providing technical documentation and warranty "
+"commitments for the completed works.\n"
+"                </ul>\n"
+"\n"
+"\n"
+"          Each stage demands careful supervision and high-quality "
+"execution to ensure the reliable\n"
+"          and safe operation of the apartment's plumbing systems.\n"
+"\n"
+"\n"
+"\n"
+"\n"
 msgstr ""
 
