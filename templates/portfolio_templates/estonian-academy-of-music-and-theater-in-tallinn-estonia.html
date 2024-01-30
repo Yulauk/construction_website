@@ -1,15 +1,14 @@
 {% extends 'base.html' %}
 
-{% block title %}{{ _('Estonian academy of music and theater in tallinn, Estonia') }}{% endblock %}
+{% block title %}{{ _('Estonian academy of music and theater in Tallinn, Estonia') }}{% endblock %}
 
 {% block content %}
     <div class="container py-2">
         <div class="album py-5 bg-body-tertiary">
-            <span>
-                <h2>{{ _('ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA') }}</h2>
-            </span>
-        </div>
 
+                <h2>{{ _('ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA') }}</h2>
+
+        </div>
 
         <div class="album py-5 bg-body-tertiary">
 
@@ -18,7 +17,8 @@
 <!--                    фото на странице с Modal-->
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="0">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_1.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_1.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
@@ -26,49 +26,56 @@
 
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="1">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_2.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_2.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
 
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="2">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_3.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_3.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
 
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="3">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_4.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_4.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
 
                     <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="4">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_5.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_5.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
 
                     <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="5">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_6.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_6.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
 
                     <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="5">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_7.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_7.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
 
                     <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="5">
-                <img class="" src="/static/images/portfolio/estonian_academy/estonian academy_8.jpeg" alt="Portfolio Image">
+                <img class="" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_8.jpeg') }}"
+                     alt="Portfolio Image">
 
             </a>
         </div>
@@ -96,28 +103,28 @@
                 <div class="carousel-inner overflow-hidden">
                     <!-- фотографии для слайдов Modal -->
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_1.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_1.jpeg') }}" alt="Portfolio Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_2.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_2.jpeg') }}" alt="Portfolio Image">
                     </div>
                     <div class="carousel-item active">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_3.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_3.jpeg') }}" alt="Portfolio Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_4.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_4.jpeg') }}" alt="Portfolio Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_5.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_5.jpeg') }}" alt="Portfolio Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_6.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_6.jpeg') }}" alt="Portfolio Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_7.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_7.jpeg') }}" alt="Portfolio Image">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/estonian_academy/estonian academy_8.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_8.jpeg') }}" alt="Portfolio Image">
                     </div>
 
                 </div>
