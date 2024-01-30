@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-29 14:26+0100\n"
+"POT-Creation-Date: 2024-01-30 13:45+0100\n"
 "PO-Revision-Date: 2024-01-29 20:04+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: et\n"
@@ -18,8 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/about.html:9 templates/base.html:61 templates/base.html:161
-#: templates/index.html:32 templates/index.html:87
+#: templates/about.html:3
+msgid "About"
+msgstr "Meist"
+
+#: templates/about.html:9 templates/base.html:62 templates/base.html:164
+#: templates/index.html:33 templates/index.html:89
 msgid "ABOUT"
 msgstr "MEIST"
 
@@ -38,180 +42,209 @@ msgid ""
 "business from scratch, continuing to provide high-quality services and "
 "earn your trust. I'll be happy to collaborate!"
 msgstr ""
-"Minu nimi on Serhii Kulbatšenko, ja ma olen pikka aega töötanud ehitustööstuses. Kõik algas siis, kui ma jõudsin Kiievisse ja sain hariduse tellise-ahi-seadja, elektrikeevitaja ja raudbetoonkonstruktsioonide paigaldaja erialadel. Minu tee algas ehitustiimi abitöölise rollist, kuid ma mõistsin oma potentsiaali ja otsustasin alustada oma äriga. Aja jooksul moodustasin oma ehitustiimi, kaasates palju rahulolevaid kliente aastatepikkuse kogemuse ja professionaalsuse tõttu. Töötades Euroopas, tutvusin uute materjalide, tehnoloogiate ja standarditega. Pidevalt täiustamisele pühendununa korraldasin ja arendasin edukalt oma äri algusest peale, jätkates kvaliteetsete teenuste pakkumist ja teie usalduse teenimist. Oleksin õnnelik koostööks!"
+"Minu nimi on Serhii Kulbatšenko, ja ma olen pikka aega töötanud "
+"ehitustööstuses. Kõik algas siis, kui ma jõudsin Kiievisse ja sain "
+"hariduse tellise-ahi-seadja, elektrikeevitaja ja "
+"raudbetoonkonstruktsioonide paigaldaja erialadel. Minu tee algas "
+"ehitustiimi abitöölise rollist, kuid ma mõistsin oma potentsiaali ja "
+"otsustasin alustada oma äriga. Aja jooksul moodustasin oma ehitustiimi, "
+"kaasates palju rahulolevaid kliente aastatepikkuse kogemuse ja "
+"professionaalsuse tõttu. Töötades Euroopas, tutvusin uute materjalide, "
+"tehnoloogiate ja standarditega. Pidevalt täiustamisele pühendununa "
+"korraldasin ja arendasin edukalt oma äri algusest peale, jätkates "
+"kvaliteetsete teenuste pakkumist ja teie usalduse teenimist. Oleksin "
+"õnnelik koostööks!"
 
+#: templates/base.html:28
+msgid "Kulbachenko Construction + Design"
+msgstr "Kulbachenko Ehitus + projekteerimine"
 
-#: templates/base.html:62 templates/base.html:164 templates/index.html:33
-#: templates/index.html:90 templates/portfolio.html:8
+#: templates/base.html:40 templates/base.html:85 templates/base.html:127
+#: templates/index.html:52 templates/index.html:135
+msgid "Kulbachenko"
+msgstr ""
+
+#: templates/base.html:40 templates/base.html:85 templates/base.html:127
+#: templates/blog.html:101 templates/blog.html:230 templates/index.html:52
+#: templates/index.html:135 templates/services.html:108
+msgid "Construction"
+msgstr "Ehitus"
+
+#: templates/base.html:63 templates/base.html:167 templates/index.html:34
+#: templates/index.html:92 templates/portfolio.html:8
 msgid "PORTFOLIO"
 msgstr "PORTFOOL"
 
-#: templates/base.html:63 templates/base.html:167 templates/index.html:34
-#: templates/index.html:93 templates/services.html:8
+#: templates/base.html:64 templates/base.html:170 templates/index.html:35
+#: templates/index.html:95 templates/services.html:8
 msgid "SERVICES"
 msgstr "TEENUSED"
 
-#: templates/base.html:64 templates/base.html:170 templates/blog.html:8
-#: templates/index.html:35 templates/index.html:96
+#: templates/base.html:65 templates/base.html:173 templates/blog.html:8
+#: templates/index.html:36 templates/index.html:98
 msgid "BLOG"
 msgstr "BLOGI"
 
-#: templates/base.html:68 templates/index.html:39
+#: templates/base.html:69 templates/index.html:40
 msgid "CONTACT US"
 msgstr "VÕTA MEIEGA ÜHENDUST"
 
-#: templates/base.html:158
+#: templates/base.html:161
 msgid "HOME"
 msgstr "KODULEHT"
 
-#: templates/base.html:175 templates/base.html:176 templates/index.html:101
-#: templates/index.html:102
+#: templates/base.html:178 templates/base.html:179 templates/index.html:103
+#: templates/index.html:104
 msgid "Search"
 msgstr "Otsing"
 
-#: templates/base.html:198
+#: templates/base.html:201
 msgid "Get a Free Consultation"
 msgstr "Hankige tasuta konsultatsioon"
 
-#: templates/base.html:226
+#: templates/base.html:229
 msgid "Verify Submit"
 msgstr "Esita"
 
-#: templates/base.html:241
+#: templates/base.html:244
 msgid "Contact Us"
 msgstr "Võta meiega ühendust"
 
-#: templates/base.html:245
+#: templates/base.html:248
 msgid "First name"
 msgstr "Eesnimi"
 
-#: templates/base.html:251
+#: templates/base.html:254
 msgid "Last name"
 msgstr "Perekonnanimi"
 
-#: templates/base.html:257
+#: templates/base.html:260
 msgid "Email address"
 msgstr "Email"
 
-#: templates/base.html:266
+#: templates/base.html:269
 msgid "Phone"
 msgstr "Telefon"
 
-#: templates/base.html:272
+#: templates/base.html:275
 msgid "City"
 msgstr "Linn"
 
-#: templates/base.html:278
+#: templates/base.html:281
 msgid "State"
 msgstr "Maakond"
 
-#: templates/base.html:283
+#: templates/base.html:286
 msgid "Zip"
 msgstr "Postiindeks"
 
-#: templates/base.html:289
+#: templates/base.html:292
 msgid "Address"
 msgstr "Aadress"
 
-#: templates/base.html:294
+#: templates/base.html:297
 msgid "Target budget"
 msgstr "Sihteelarve"
 
-#: templates/base.html:296
+#: templates/base.html:299
 msgid "Select budget range"
 msgstr "Valige eelarvevahemik"
 
-#: templates/base.html:297
+#: templates/base.html:300
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:298
+#: templates/base.html:301
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:299
+#: templates/base.html:302
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:300
+#: templates/base.html:303
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:301
+#: templates/base.html:304
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:302
+#: templates/base.html:305
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:303
+#: templates/base.html:306
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:309
+#: templates/base.html:312
 msgid "Project time frame"
 msgstr "Projekti ajakava"
 
-#: templates/base.html:311
+#: templates/base.html:314
 msgid "Select time frame"
 msgstr "Valige ajaraam"
 
-#: templates/base.html:312
+#: templates/base.html:315
 msgid "As soon as possible"
 msgstr "Niipea kui võimalik"
 
-#: templates/base.html:313
+#: templates/base.html:316
 msgid "Starting within 3 months"
 msgstr "Algus 3 kuu jooksul"
 
-#: templates/base.html:314
+#: templates/base.html:317
 msgid "Starting within 6 months"
 msgstr "Algus 6 kuu jooksul"
 
-#: templates/base.html:315
+#: templates/base.html:318
 msgid "Starting within a year"
 msgstr "Alustades aasta jooksul"
 
-#: templates/base.html:321
+#: templates/base.html:324
 msgid "How did you hear about us?"
 msgstr "Kuidas sa meist kuulsid?"
 
-#: templates/base.html:323
+#: templates/base.html:326
 msgid "Select an option"
 msgstr "Valige suvand"
 
-#: templates/base.html:324
+#: templates/base.html:327
 msgid "Online Advertisement"
 msgstr "Online reklaam"
 
-#: templates/base.html:325
+#: templates/base.html:328
 msgid "Friend or Colleague"
 msgstr "Sõber või kolleeg"
 
-#: templates/base.html:326
+#: templates/base.html:329
 msgid "Social networks"
 msgstr "Sotsiaalsed võrgustikud"
 
-#: templates/base.html:327
+#: templates/base.html:330
 msgid "Google"
 msgstr "Google"
 
-#: templates/base.html:328
+#: templates/base.html:331
 msgid "Other"
 msgstr "Muud"
 
-#: templates/base.html:334
+#: templates/base.html:337
 msgid "Tell us about your project"
 msgstr "Rääkige meile oma projektist"
 
-#: templates/base.html:345
+#: templates/base.html:348
 msgid "Agree to terms and conditions"
 msgstr "Nõustuge tingimustega"
 
-#: templates/base.html:352
+#: templates/base.html:355
 msgid "Submit form"
 msgstr "Esita"
+
+#: templates/blog.html:3
+msgid "Blog"
+msgstr "Blogi"
 
 #: templates/blog.html:27 templates/blog.html:57 templates/blog.html:83
 #: templates/blog.html:139 templates/blog.html:173 templates/blog.html:203
@@ -222,10 +255,11 @@ msgstr "Renoveerimine"
 msgid "Plumbing"
 msgstr "Sanitaartehnilised tööd"
 
-#: templates/blog.html:30 templates/blog.html:149
+#: templates/blog.html:30 templates/blog.html:143
 #: templates/blog_templates/apartment-renovation.html:120
 #: templates/blog_templates/building-creation.html:109
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:99
+#: templates/blog_templates/stages-of-plumbing-work.html:3
 #: templates/blog_templates/stages-of-plumbing-work.html:17
 msgid "Stages of Plumbing Work in Apartment Renovation"
 msgstr "Korteri renoveerimise torutööde etapid"
@@ -236,7 +270,7 @@ msgstr "Korteri renoveerimise torutööde etapid"
 msgid "Jan"
 msgstr "Jaanuar"
 
-#: templates/blog.html:36
+#: templates/blog.html:36 templates/blog.html:149
 msgid ""
 "Discover the comprehensive steps involved in plumbing during a major "
 "apartment renovation. From initial assessment to final documentation, "
@@ -244,10 +278,10 @@ msgid ""
 "systems, encompassing everything from demolition to testing and "
 "connection of appliances."
 msgstr ""
-"Avastage põhjalikud sammud torustiku osas suure korteri renoveerimise käigus. "
-"Esialgsest hindamisest lõplike dokumentideni tagab iga etapp usaldusväärsete ja "
-"ohutute torustikusüsteemide paigaldamise, hõlmates kõike lammutamisest testimise "
-"ja seadmete ühendamiseni."
+"Avastage põhjalikud sammud torustiku osas suure korteri renoveerimise "
+"käigus. Esialgsest hindamisest lõplike dokumentideni tagab iga etapp "
+"usaldusväärsete ja ohutute torustikusüsteemide paigaldamise, hõlmates "
+"kõike lammutamisest testimise ja seadmete ühendamiseni."
 
 #: templates/blog.html:40 templates/blog.html:70 templates/blog.html:88
 #: templates/blog.html:107 templates/blog.html:151 templates/blog.html:184
@@ -259,9 +293,10 @@ msgstr "Jätka lugemist"
 msgid "Electrics"
 msgstr "Elekter"
 
-#: templates/blog.html:60 templates/blog.html:143 templates/blog.html:176
+#: templates/blog.html:60 templates/blog.html:176
 #: templates/blog_templates/apartment-renovation.html:129
 #: templates/blog_templates/building-creation.html:118
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:17
 #: templates/blog_templates/stages-of-plumbing-work.html:110
 msgid "Key Steps in Electrical Installation for Apartment Renovation"
@@ -272,6 +307,7 @@ msgid "Comprehensive Electrical Installation for Apartment Renovation"
 msgstr "Põhjalik elektripaigaldus korteri renoveerimiseks"
 
 #: templates/blog.html:84 templates/blog.html:204
+#: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:15
 #: templates/blog_templates/building-creation.html:126
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:107
@@ -287,16 +323,10 @@ msgstr "Jaanuaril 24"
 msgid "A comprehensive apartment renovation includes various stages"
 msgstr "Korteri terviklik renoveerimine hõlmab erinevaid etappe"
 
-#: templates/blog.html:101 templates/blog.html:230 templates/services.html:108
-msgid "Construction"
-msgstr "Ehitus"
-
 #: templates/blog.html:102 templates/blog.html:233
-#: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:138
 #: templates/blog_templates/building-creation.html:3
 #: templates/blog_templates/building-creation.html:15
-#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:116
 #: templates/blog_templates/stages-of-plumbing-work.html:129
 msgid "Building creation"
@@ -306,29 +336,44 @@ msgstr "Hoone loomine"
 msgid ""
 "Rough construction works in the building industry represent the initial "
 "stage of constructing a building"
-msgstr ""
-"Ehitustööd hoonete tööstuses kujutavad endast hoone ehitamise algstaadiumi"
-
+msgstr "Ehitustööd hoonete tööstuses kujutavad endast hoone ehitamise algstaadiumi"
 
 #: templates/blog.html:124
 msgid "Latest Updates"
 msgstr "Viimased värskendused"
 
-#: templates/index.html:84
+#: templates/home-cinema-5-person.html:3
+msgid "Professional home cinema in private house in Ukraine"
+msgstr "Professionaalne kodukino eramajas Ukrainas"
+
+#: templates/home-cinema-5-person.html:10 templates/portfolio.html:20
+msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
+msgstr "PROFESSIONAALNE KODUKINO UKRAINAS ERAMAJAS"
+
+#: templates/index.html:86
 msgid "MAIN"
 msgstr "AVALEHT"
 
-#: templates/index.html:139
+#: templates/index.html:141
 msgid "VIEW OUR PORTFOLIO"
 msgstr "VAATA TEHTUD TÖÖD"
 
-#: templates/index.html:176
+#: templates/index.html:178
 msgid "OUR PARTNERS"
 msgstr "MEIE PARTNERID"
 
 #: templates/portfolio.html:3
 msgid "Portfolio"
 msgstr "Tehtud tööd"
+
+#: templates/portfolio.html:29
+msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+msgstr "KIIEVIS VARSHAVSKI ELAMUKOMPLEKSIS TERVIK RENOVEERIMINE"
+
+#: templates/portfolio.html:40
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:9
+msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
+msgstr "EESTI MUUSIKA- JA TEATRIAKADEEMIA TALLINNAS, EESTI"
 
 #: templates/services.html:3
 msgid "Services"
@@ -358,7 +403,6 @@ msgstr ""
 "\t\t\t\t\tnende arhitektide juhtimisel; ehitamine ühe meie sisebrigaadi "
 "poolt; ja töö\n"
 "\t\t\t\t\tlõpetamine kogu meeskonnaga."
-
 
 #: templates/services.html:33 templates/services.html:72
 #: templates/services.html:107 templates/services.html:141
@@ -399,22 +443,33 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 "\n"
-"\t\t\t  Mul on uhkus pakkuda kõrgel tasemel isikupärastatud teenust, alustades esimesest päevast\n"
-"\t\t\t  sinu kodus. Me püüame paremini mõista sinu eluruumi ja sind ennast. Soovime teada saada\n"
-"\t\t\t  sinu ideedest ja projekti visioonist, samuti käsitleda konkreetseid vajadusi. Tervitame\n"
-"\t\t\t  kõiki fotosid või visandeid, mille oled loonud. Kliendi isiklike eelistuste kaasamine\n"
-"\t\t\t  disaini võimaldab meil luua ainulaadse ja funktsionaalse ruumi. Hoiame ka silma peal\n"
-"\t\t\t  viimastel disaini- ja ehitustrendidel, pakkudes uuenduslikke lahendusi.\n"
+"\t\t\t  Mul on uhkus pakkuda kõrgel tasemel isikupärastatud teenust, "
+"alustades esimesest päevast\n"
+"\t\t\t  sinu kodus. Me püüame paremini mõista sinu eluruumi ja sind "
+"ennast. Soovime teada saada\n"
+"\t\t\t  sinu ideedest ja projekti visioonist, samuti käsitleda "
+"konkreetseid vajadusi. Tervitame\n"
+"\t\t\t  kõiki fotosid või visandeid, mille oled loonud. Kliendi isiklike "
+"eelistuste kaasamine\n"
+"\t\t\t  disaini võimaldab meil luua ainulaadse ja funktsionaalse ruumi. "
+"Hoiame ka silma peal\n"
+"\t\t\t  viimastel disaini- ja ehitustrendidel, pakkudes uuenduslikke "
+"lahendusi.\n"
 "\t\t\t  <br>\n"
 "\t\t\t  <br>\n"
-"\t\t\t  Meie lähenemises rakendame projektijuhtimissüsteeme läbipaistvuse,\n"
-"\t\t\t  efektiivsuse ja tähtaegadest kinnipidamise tagamiseks. Huvi tundmine\n"
-"\t\t\t  säästva disaini vastu ja keskkonnasõbralike materjalide kasutamine on\n"
-"\t\t\t  meie filosoofia oluline osa. Isiklik osalus projektis ja valmidus tihedaks koostööks\n"
-"\t\t\t  klientidega tagavad nende unistuste eduka teostumise. Seitsme päeva jooksul esitame\n"
-"\t\t\t  sulle esialgse ettepaneku, sealhulgas ligikaudse hinnangu maksumusele.\n"
+"\t\t\t  Meie lähenemises rakendame projektijuhtimissüsteeme "
+"läbipaistvuse,\n"
+"\t\t\t  efektiivsuse ja tähtaegadest kinnipidamise tagamiseks. Huvi "
+"tundmine\n"
+"\t\t\t  säästva disaini vastu ja keskkonnasõbralike materjalide "
+"kasutamine on\n"
+"\t\t\t  meie filosoofia oluline osa. Isiklik osalus projektis ja valmidus"
+" tihedaks koostööks\n"
+"\t\t\t  klientidega tagavad nende unistuste eduka teostumise. Seitsme "
+"päeva jooksul esitame\n"
+"\t\t\t  sulle esialgse ettepaneku, sealhulgas ligikaudse hinnangu "
+"maksumusele.\n"
 "\t\t\t  "
-
 
 #: templates/services.html:60
 msgid "COST: Free"
@@ -444,23 +499,29 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 "\n"
-"\t\t\t  Pärast maksumuse kinnitamist liigume disaini ja eelhitusetapi juurde.\n"
-"\t\t\t  Meie arhitekti-disainerid püüavad häälestada sinu projekti programmi\n"
-"\t\t\t  sinu eelarvega eelnevalt. Selles etapis uurime ja valime materjale,\n"
-"\t\t\t  loome kontseptuaalseid, lubade saamiseks vajalikke ja ehitusjooniseid.\n"
-"\t\t\t  Genereerime ka kolmemõõtmelisi renderdusi, et aidata sul visualiseerida\n"
-"\t\t\t  uut ruumi. Projekti kriitiline faas võtab tavaliselt rohkem aega kui\n"
-"\t\t\t  tegelik ehitus ja nõuab tihedat koordineerimist sinuga, kliendiga.\n"
+"\t\t\t  Pärast maksumuse kinnitamist liigume disaini ja eelhitusetapi "
+"juurde.\n"
+"\t\t\t  Meie arhitekti-disainerid püüavad häälestada sinu projekti "
+"programmi\n"
+"\t\t\t  sinu eelarvega eelnevalt. Selles etapis uurime ja valime "
+"materjale,\n"
+"\t\t\t  loome kontseptuaalseid, lubade saamiseks vajalikke ja "
+"ehitusjooniseid.\n"
+"\t\t\t  Genereerime ka kolmemõõtmelisi renderdusi, et aidata sul "
+"visualiseerida\n"
+"\t\t\t  uut ruumi. Projekti kriitiline faas võtab tavaliselt rohkem aega "
+"kui\n"
+"\t\t\t  tegelik ehitus ja nõuab tihedat koordineerimist sinuga, "
+"kliendiga.\n"
 "\t\t\t  Optimeerime protsessi, koostades üksikasjaliku disainigraafiku,\n"
-"\t\t\t  kus on välja toodud ülesanded, vastutavad osapooled ja eeldatavad etapid.\n"
+"\t\t\t  kus on välja toodud ülesanded, vastutavad osapooled ja eeldatavad"
+" etapid.\n"
 "\t\t\t  "
-
 
 #: templates/services.html:91
 #, python-format
 msgid "COST: typically 10 – 15%% of estimated construction cost"
-msgstr ""
-"Maksumus: tavaliselt 10–15%% hinnangulisest ehituskulust"
+msgstr "Maksumus: tavaliselt 10–15%% hinnangulisest ehituskulust"
 
 #: templates/services.html:116
 msgid ""
@@ -491,27 +552,29 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 "\n"
-"\t\t\t  Kui projekt on lõpetatud ja allkirjastatakse ehitusleping, hankime "
-"lubadused ja alustame tööd kohapeal. Valmidus reageerida ootamatutele "
-"väljakutsetele või teha kohandusi muutuvates oludes on meie lähenemise "
-"oluline aspekt. Ootamatute olukordade korral võtame meetmeid võimalike "
-"viivituste minimeerimiseks, tagades projekti sujuva kulgemise.\n"
+"\t\t\t  Kui projekt on lõpetatud ja allkirjastatakse ehitusleping, "
+"hankime lubadused ja alustame tööd kohapeal. Valmidus reageerida "
+"ootamatutele väljakutsetele või teha kohandusi muutuvates oludes on meie "
+"lähenemise oluline aspekt. Ootamatute olukordade korral võtame meetmeid "
+"võimalike viivituste minimeerimiseks, tagades projekti sujuva kulgemise."
+"\n"
 "\t\t\t  <br><br>\n"
 "\t\t\t  Ehitusplatsil viiakse läbi konkreetseid etappe igal nädalal või "
 "kuul, ning anname teile üksikasjaliku ajakava, et oleksite alati kursis "
 "meie edusammudega.\n"
 "\t\t\t  <br><br>\n"
-"\t\t\t  Kliendina on teil võimalus esitada oma kommentaare või ettepanekuid "
-"ehitusprotsessi käigus. Oleme avatud suhtlusele tavapäraste kohtumiste, "
-"veebiplatvormide või muude suhtlusvahendite kaudu. Teie tagasiside on meile "
-"oluline, ja püüame hõlbustada tõhusat suhtlust, pakkudes regulaarseid uuendusi "
-"ja kiiret reageerimist küsimustele või muredele.\n"
+"\t\t\t  Kliendina on teil võimalus esitada oma kommentaare või "
+"ettepanekuid ehitusprotsessi käigus. Oleme avatud suhtlusele tavapäraste "
+"kohtumiste, veebiplatvormide või muude suhtlusvahendite kaudu. Teie "
+"tagasiside on meile oluline, ja püüame hõlbustada tõhusat suhtlust, "
+"pakkudes regulaarseid uuendusi ja kiiret reageerimist küsimustele või "
+"muredele.\n"
 "\t\t\t  <br><br>\n"
-"\t\t\t  Pakume teile juurdepääsu telefonitsi ja e-posti teel ööpäevaringselt, "
-"isegi nädalavahetustel, et kiiresti lahendada kõik küsimused või muudatused, "
-"mis võivad ehituse käigus tekkida. Teie ehitusetapi koordinaator annab teile "
-"igapäevaseid värskendusi meie edusammudest ja on valmis vastama kõigile teie "
-"küsimustele.\n"
+"\t\t\t  Pakume teile juurdepääsu telefonitsi ja e-posti teel "
+"ööpäevaringselt, isegi nädalavahetustel, et kiiresti lahendada kõik "
+"küsimused või muudatused, mis võivad ehituse käigus tekkida. Teie "
+"ehitusetapi koordinaator annab teile igapäevaseid värskendusi meie "
+"edusammudest ja on valmis vastama kõigile teie küsimustele.\n"
 "\t\t\t  "
 
 #: templates/services.html:126 templates/services.html:172
@@ -554,10 +617,12 @@ msgstr ""
 "\n"
 "\t\t\t\tKui meie meeskond ehituse lõpetab:\n"
 "\t\t\t\t<br><br>\n"
-"\t\t\t\tPärast ehitusplatsi põhjalikku koristust viime teiega läbi lõpliku "
-"ülevaatuse,\n"
-"\t\t\t\tet tagada, et iga detail vastab teie ootustele. Hindame teie tagasisidet\n"
-"\t\t\t\tja teie hinnanguline tagasiside on oluline osa meie pühendumusest\n"
+"\t\t\t\tPärast ehitusplatsi põhjalikku koristust viime teiega läbi "
+"lõpliku ülevaatuse,\n"
+"\t\t\t\tet tagada, et iga detail vastab teie ootustele. Hindame teie "
+"tagasisidet\n"
+"\t\t\t\tja teie hinnanguline tagasiside on oluline osa meie pühendumusest"
+"\n"
 "\t\t\t\tpidevale teenuste parendamisele.\n"
 "\t\t\t\t<br><br>\n"
 "\t\t\t\tKui soovite peamiste projektietappide lõpetamise järel lisada\n"
@@ -565,15 +630,18 @@ msgstr ""
 "\t\t\t\trahulolu on meie peamine prioriteet.\n"
 "\t\t\t\t<br><br>\n"
 "\t\t\t\tPärast projekti lõppu oleme valmis ühendust võtma, et lahendada\n"
-"\t\t\t\tkõik küsimused või probleemid, mis võivad tekkida pärast uuendatud\n"
-"\t\t\t\truumi kasutuselevõttu. Meie meeskond on valmis pakkuma täiendavaid\n"
+"\t\t\t\tkõik küsimused või probleemid, mis võivad tekkida pärast "
+"uuendatud\n"
+"\t\t\t\truumi kasutuselevõttu. Meie meeskond on valmis pakkuma "
+"täiendavaid\n"
 "\t\t\t\tteenuseid, kui tulevikus tuge vajate.\n"
 "\t\t\t\t<br><br>\n"
-"\t\t\t\tIga soovi või muudatuse korral oleme avatud isiklikele vestlustele\n"
-"\t\t\t\tja kohandustele, tagamaks, et teie kodu vastaks täielikult kõigile\n"
+"\t\t\t\tIga soovi või muudatuse korral oleme avatud isiklikele "
+"vestlustele\n"
+"\t\t\t\tja kohandustele, tagamaks, et teie kodu vastaks täielikult "
+"kõigile\n"
 "\t\t\t\tteie nõuetele. Teie mugavus ja rahulolu on meie peamised mured.\n"
 "\t\t\t\t"
-
 
 #: templates/blog_templates/apartment-renovation.html:16
 #: templates/blog_templates/apartment-renovation.html:121
@@ -694,10 +762,10 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          Ulatuslik korteri renoveerimine hõlmab mitmeid etappe, alustades "
-"ettevalmistustöödest\n"
-"          ja lõpetades viimistlusdetailidega. Siin on üksikasjalik kirjeldus "
-"töödest järgmistes ehitusetappides:\n"
+"          Ulatuslik korteri renoveerimine hõlmab mitmeid etappe, "
+"alustades ettevalmistustöödest\n"
+"          ja lõpetades viimistlusdetailidega. Siin on üksikasjalik "
+"kirjeldus töödest järgmistes ehitusetappides:\n"
 "\n"
 "\n"
 "            <br>\n"
@@ -706,16 +774,19 @@ msgstr ""
 "\n"
 "        1. Lammutustööd:\n"
 "          <ul>\n"
-"            <li>Vanade tapeetide, põrandakatete ja lae viimistluste eemaldamine.\n"
+"            <li>Vanade tapeetide, põrandakatete ja lae viimistluste "
+"eemaldamine.\n"
 "            <li>Vanade torude ja juhtmestiku lammutamine.\n"
-"            <li>Võimalikud vaheseinte eemaldamised või planeeringumuudatused.\n"
+"            <li>Võimalikud vaheseinte eemaldamised või "
+"planeeringumuudatused.\n"
 "          </ul>\n"
 "\n"
 "\n"
 "\n"
 "          2. Kruntimistööd:\n"
 "          <ul>\n"
-"             <li"Pinna ettevalmistamine järgnevate viimistlusmaterjalide jaoks.\n"
+"             <li\"Pinna ettevalmistamine järgnevate viimistlusmaterjalide"
+" jaoks.\n"
 "             <li>Primeri kandmine seintele ja lagedele.\n"
 "          </ul>\n"
 "\n"
@@ -730,59 +801,63 @@ msgstr ""
 "          4. Elektritööd:\n"
 "            <ul>\n"
 "               <li>Uue juhtmestiku paigaldamine.\n"
-"                 <li"Pistikute, lülitite ja valgustite paigaldamine.\n"
-"                 <li"Ettevalmistused kodumasinate ühendamiseks.\n"
+"                 <li\"Pistikute, lülitite ja valgustite paigaldamine.\n"
+"                 <li\"Ettevalmistused kodumasinate ühendamiseks.\n"
 "            </ul>\n"
 "\n"
 "            5. Sanitaartehnilised tööd:\n"
 "                <ul>\n"
 "            <li>Torude ja liitmike väljavahetamine või uuendamine.\n"
-"            <li>Uute sanitaarseadmete paigaldamine (vann, WC, kraanikausid).\n"
+"            <li>Uute sanitaarseadmete paigaldamine (vann, WC, "
+"kraanikausid).\n"
 "                    <li>Sanitaarseadmete paigaldamine.\n"
 "                  </ul>\n"
 "\n"
 "            6. Küte ja ventilatsioon:\n"
 "                  <ul>\n"
 "            <li>Radiaatorite ja kütte torude paigaldamine.\n"
-"            <li"Ventilatsioonisüsteemi paigaldamine või olemasoleva "
+"            <li\"Ventilatsioonisüsteemi paigaldamine või olemasoleva "
 "rekonstrueerimine.\n"
 "                    </ul>\n"
 "\n"
 "            7. Krohvimis- ja värvimistööd:\n"
 "                    <ul>\n"
-"            <li"Seinte ja lagede korrastamine.\n"
-"                        <li"Putitamine ja pindade lihvimine.\n"
-"                        <li"Värvimine või dekoratiivsete katete kandmine.\n"
+"            <li\"Seinte ja lagede korrastamine.\n"
+"                        <li\"Putitamine ja pindade lihvimine.\n"
+"                        <li\"Värvimine või dekoratiivsete katete "
+"kandmine.\n"
 "                      </ul>\n"
 "\n"
 "            8. Põrandatööd:\n"
 "                      <ul>\n"
-"            <li"Uute põrandakatete paigaldamine (laminaat, parkett, plaadid).\n"
-"            <li"Põrandate soojustamine vajaduse korral.\n"
+"            <li\"Uute põrandakatete paigaldamine (laminaat, parkett, "
+"plaadid).\n"
+"            <li\"Põrandate soojustamine vajaduse korral.\n"
 "                        </ul>\n"
 "\n"
 "            9. Uksed ja aknad:\n"
 "                        <ul>\n"
-"            <li"Vajadusel uute uste ja akende paigaldamine.\n"
-"                            <li"Töötlemine, värvimine või katmine.\n"
+"            <li\"Vajadusel uute uste ja akende paigaldamine.\n"
+"                            <li\"Töötlemine, värvimine või katmine.\n"
 "                          </ul>\n"
 "\n"
 "            10. Üldtööd:\n"
 "                          <ul>\n"
-"            <li"Liistude, ümbriste ja muude viimistluselementide paigaldamine.\n"
-"                              <li"Ettevalmistus järgnevaks viimistluseks (kui see ei kuulu "
-"esmaste ehitustööde hulka).\n"
+"            <li\"Liistude, ümbriste ja muude viimistluselementide "
+"paigaldamine.\n"
+"                              <li\"Ettevalmistus järgnevaks viimistluseks"
+" (kui see ei kuulu esmaste ehitustööde hulka).\n"
 "                            </ul>\n"
 "\n"
 "          11. Koristamine:\n"
 "          <ul>\n"
-"          <li"Ruume puhastamine ehitusprügist.\n"
-"          <li"Ettevalmistus lõplikuks viimistluseks.\n"
+"          <li\"Ruume puhastamine ehitusprügist.\n"
+"          <li\"Ettevalmistus lõplikuks viimistluseks.\n"
 "              </ul>\n"
 "\n"
 "        Need etapid esindavad peamisi ülesandeid ulatuslikus korteri "
-"renoveerimises. Iga etapp nõuab hoolikat planeerimist ja koordineerimist, "
-"et saavutada edukas tulemus.\n"
+"renoveerimises. Iga etapp nõuab hoolikat planeerimist ja koordineerimist,"
+" et saavutada edukas tulemus.\n"
 "        "
 
 #: templates/blog_templates/apartment-renovation.html:113
@@ -885,10 +960,14 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"        Ehitustööde algusjärgus ehitustööd esindavad hoonete või rajatiste\n"
-"            loomise esimest etappi. Selles etapis tehakse põhilisi ehitus- ja\n"
-"            inseneritegevusi, et tagada tugevus, stabiilsus ja valmidus järgnevate\n"
-"            viimistlustööde jaoks. Siin on üksikasjalik kirjeldus esialgsetest\n"
+"        Ehitustööde algusjärgus ehitustööd esindavad hoonete või "
+"rajatiste\n"
+"            loomise esimest etappi. Selles etapis tehakse põhilisi "
+"ehitus- ja\n"
+"            inseneritegevusi, et tagada tugevus, stabiilsus ja valmidus "
+"järgnevate\n"
+"            viimistlustööde jaoks. Siin on üksikasjalik kirjeldus "
+"esialgsetest\n"
 "            ehitustöödest:\n"
 "            <br>\n"
 "          <br>\n"
@@ -896,68 +975,81 @@ msgstr ""
 "\n"
 "        1. Alustamine:\n"
 "          <ul>\n"
-"            <li"Krundi tasandamine ja puhastamine taimestikust ja võõrkehadest.</li>\n"
-"            <li"Drenaažisüsteemide paigaldamine vajaduse korral.</li>\n"
-"            <li"Mulda tihendamine ja ettevalmistav aluspõhi vundamendi jaoks.</li>\n"
+"            <li\"Krundi tasandamine ja puhastamine taimestikust ja "
+"võõrkehadest.</li>\n"
+"            <li\"Drenaažisüsteemide paigaldamine vajaduse korral.</li>\n"
+"            <li\"Mulda tihendamine ja ettevalmistav aluspõhi vundamendi "
+"jaoks.</li>\n"
 "          </ul>\n"
 "\n"
 "\n"
 "\n"
 "          2. Vundamenditööd:\n"
 "          <ul>\n"
-"             <li"Vundamendi seinte ja/või ribavundamentide ehitamine projektdokumentatsiooni kohaselt.</li>\n"
-"             <li"Armatuuri paigaldamine ja betooni valamine.</li>\n"
+"             <li\"Vundamendi seinte ja/või ribavundamentide ehitamine "
+"projektdokumentatsiooni kohaselt.</li>\n"
+"             <li\"Armatuuri paigaldamine ja betooni valamine.</li>\n"
 "          </ul>\n"
 "\n"
 "\n"
 "          3. Kandvate seinte ehitus:\n"
 "          <ul>\n"
-"            <li"Kandvate seinte püstitamine telliste, betooni, plokkide või muude materjalide abil.</li>\n"
-"            <li"Vajalike teraselementide paigaldamine jäikuse ja tugevuse tagamiseks.</li>\n"
+"            <li\"Kandvate seinte püstitamine telliste, betooni, plokkide "
+"või muude materjalide abil.</li>\n"
+"            <li\"Vajalike teraselementide paigaldamine jäikuse ja "
+"tugevuse tagamiseks.</li>\n"
 "          </ul>\n"
 "\n"
 "          4. Põrandakonstruktsioonide paigaldamine:\n"
 "            <ul>\n"
-"               <li"Betoonsõlmede, metalltalade või muude konstruktsioonide paigaldamine korruste vaheliste põrandate loomiseks.</li>\n"
+"               <li\"Betoonsõlmede, metalltalade või muude "
+"konstruktsioonide paigaldamine korruste vaheliste põrandate "
+"loomiseks.</li>\n"
 "            </ul>\n"
 "\n"
 "5. Katusetööd:\n"
 "        <ul>\n"
-"   <li"Katuse raamistiku ehitamine.</li>\n"
-"   <li"Katusevõre süsteemi paigaldamine ja katusematerjalide paigaldamine.</li>\n"
+"   <li\"Katuse raamistiku ehitamine.</li>\n"
+"   <li\"Katusevõre süsteemi paigaldamine ja katusematerjalide "
+"paigaldamine.</li>\n"
 "          </ul>\n"
 "\n"
 "6. Tehnilised süsteemid:\n"
 "          <ul>\n"
-"   <li"Veetorustike ja kanalisatsioonisüsteemide paigaldamine.</li>\n"
-"   <li"Elektrijuhtmestiku, küte- ja ventilatsioonisüsteemide paigaldamine.</li>\n"
+"   <li\"Veetorustike ja kanalisatsioonisüsteemide paigaldamine.</li>\n"
+"   <li\"Elektrijuhtmestiku, küte- ja ventilatsioonisüsteemide "
+"paigaldamine.</li>\n"
 "            </ul>\n"
 "\n"
 "7. Fassaadi viimistlus:\n"
 "            <ul>\n"
-"   <li"Välisseinte viimistlus materjalidega, mis tagavad soojusisolatsiooni ja kaitse atmosfääriliste mõjude eest.</li>\n"
+"   <li\"Välisseinte viimistlus materjalidega, mis tagavad "
+"soojusisolatsiooni ja kaitse atmosfääriliste mõjude eest.</li>\n"
 "              </ul>\n"
 "\n"
 "8. Lõplikud siseviimistlustööd:\n"
 "              <ul>\n"
-"   <li"Seinte ja lagede silumine.</li>\n"
-"   <li"Põranda ettevalmistamine järgnevaks viimistluseks.</li>\n"
+"   <li\"Seinte ja lagede silumine.</li>\n"
+"   <li\"Põranda ettevalmistamine järgnevaks viimistluseks.</li>\n"
 "                </ul>\n"
 "\n"
 "9. Võrgustiku seadistamine:\n"
 "                <ul>\n"
-"   <li"Teede loomine elektrijuhtmestiku, telefoni ja internetikaablite jaoks.</li>\n"
+"   <li\"Teede loomine elektrijuhtmestiku, telefoni ja internetikaablite "
+"jaoks.</li>\n"
 "                  </ul>\n"
 "\n"
 "10. Kontroll ja kvaliteedikontroll:\n"
 "                  <ul>\n"
-"    <li"Inspekteerimised võimalike defektide ja kõrvalekallete tuvastamiseks projektdokumentatsioonist.</li>\n"
+"    <li\"Inspekteerimised võimalike defektide ja kõrvalekallete "
+"tuvastamiseks projektdokumentatsioonist.</li>\n"
 "                    </ul>\n"
 "\n"
-"          Esialgsed ehitustööd loovad aluse järgnevatele viimistlustöödele, tagades hoone stabiilsuse ja funktsionaalsuse. See etapp on ehitusprojekti eduka lõpuleviimise nurgakivi.\n"
+"          Esialgsed ehitustööd loovad aluse järgnevatele "
+"viimistlustöödele, tagades hoone stabiilsuse ja funktsionaalsuse. See "
+"etapp on ehitusprojekti eduka lõpuleviimise nurgakivi.\n"
 "\n"
 "\n"
-
 
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:22
 msgid ""
@@ -1039,68 +1131,78 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"        Suure korteriuuenduse käigus teostatavad elektritööd hõlmavad järgmisi etappe:\n"
+"        Suure korteriuuenduse käigus teostatavad elektritööd hõlmavad "
+"järgmisi etappe:\n"
 "            <br>\n"
 "          <br>\n"
 "\n"
 "\n"
 "        1. Eeltööd:\n"
 "          <ul>\n"
-"            <li>Elektrijuhtmestiku ja seadmete seisukorra hindamine.</li>\n"
-"            <li>Elektriinstallatsiooni projekti väljatöötamine, võttes arvesse kaasaegseid standardeid ja ohutusnõudeid.</li>\n"
-"            <li>Vajalike lubade ja heakskiitude hankimine vajaduse korral.</li>\n"
+"            <li>Elektrijuhtmestiku ja seadmete seisukorra hindamine.</li>"
+"\n"
+"            <li>Elektriinstallatsiooni projekti väljatöötamine, võttes "
+"arvesse kaasaegseid standardeid ja ohutusnõudeid.</li>\n"
+"            <li>Vajalike lubade ja heakskiitude hankimine vajaduse "
+"korral.</li>\n"
 "          </ul>\n"
 "\n"
 "\n"
 "\n"
 "          2. Jagamispaneeli ja juhtmestiku paigaldamine:\n"
 "          <ul>\n"
-"             <li>Uue jagamispaneeli paigaldamine või olemasoleva uuendamine.</li>\n"
-"             <li>Uue elektrijuhtmestiku paigaldamine mööda seinu ja lagesid, arvestades korteri planeeringut ja pistikupesade, lülitite ja valgustite paigutust.</li>\n"
+"             <li>Uue jagamispaneeli paigaldamine või olemasoleva "
+"uuendamine.</li>\n"
+"             <li>Uue elektrijuhtmestiku paigaldamine mööda seinu ja "
+"lagesid, arvestades korteri planeeringut ja pistikupesade, lülitite ja "
+"valgustite paigutust.</li>\n"
 "          </ul>\n"
 "\n"
 "\n"
 "          3. Pistikupesade, lülitite ja valgustite paigaldamine:\n"
 "          <ul>\n"
-"            <li>Pistikupesade ja lülitite paigaldamine vastavalt projektile.</li>\n"
+"            <li>Pistikupesade ja lülitite paigaldamine vastavalt "
+"projektile.</li>\n"
 "            <li>Valgustite ja lampide ühendamine.</li>\n"
 "          </ul>\n"
 "\n"
 "          4. Maandussüsteemi paigaldamine:\n"
 "            <ul>\n"
-"               <li>Maandusjuhtme paigaldamine mööda seinu ja selle ühendamine maandusseadme või maandusbussiga.</li>\n"
+"               <li>Maandusjuhtme paigaldamine mööda seinu ja selle "
+"ühendamine maandusseadme või maandusbussiga.</li>\n"
 "            </ul>\n"
 "\n"
 "5. Kaitse elektrilöögi vastu:\n"
 "        <ul>\n"
-"   <li>Diferentsiaalkaitseautomaatide (RCD) või diferentsiaalvoolureleede (DCR) paigaldamine elektrilöögi vastu kaitseks.</li>\n"
+"   <li>Diferentsiaalkaitseautomaatide (RCD) või diferentsiaalvoolureleede"
+" (DCR) paigaldamine elektrilöögi vastu kaitseks.</li>\n"
 "          </ul>\n"
 "\n"
 "6. Elektriseadmete ja -süsteemide ühendamine:\n"
 "          <ul>\n"
-"   <li>Köögiseadmete ja majapidamisseadmete, veeboilerite, konditsioneeride ja muude elektriseadmete ühendamine.</li>\n"
+"   <li>Köögiseadmete ja majapidamisseadmete, veeboilerite, "
+"konditsioneeride ja muude elektriseadmete ühendamine.</li>\n"
 "            </ul>\n"
 "\n"
 "7. Testimine ja süsteemi seadistamine:\n"
 "            <ul>\n"
-"    <li>Elektriseadmete testimine ohutusstandarditele vastavuse tagamiseks.</li>\n"
+"    <li>Elektriseadmete testimine ohutusstandarditele vastavuse "
+"tagamiseks.</li>\n"
 "    <li>Elektriinstallatsioonide kalibreerimine ja kontrollimine.</li>\n"
 "              </ul>\n"
 "\n"
 "8. Dokumentatsioon ja töö lõpetamine:\n"
 "              <ul>\n"
-"   <li>Kliendi poolt aktsepteerimisraporti koostamine elektriinstallatsioonitööde kohta.</li>\n"
-"   <li>Tehnilise dokumentatsiooni ja garantii kohustuste esitamine lõpetatud tööde kohta.</li>\n"
+"   <li>Kliendi poolt aktsepteerimisraporti koostamine "
+"elektriinstallatsioonitööde kohta.</li>\n"
+"   <li>Tehnilise dokumentatsiooni ja garantii kohustuste esitamine "
+"lõpetatud tööde kohta.</li>\n"
 "                </ul>\n"
 "\n"
 "\n"
-"          On äärmiselt oluline järgida kõiki ohutusnõudeid elektritööde teostamisel ning usaldada sellised ülesanded kogenud spetsialistidele.\n"
+"          On äärmiselt oluline järgida kõiki ohutusnõudeid elektritööde "
+"teostamisel ning usaldada sellised ülesanded kogenud spetsialistidele.\n"
 "\n"
-
-
-#: templates/blog_templates/stages-of-plumbing-work.html:3
-msgid "Stages of Plumbing Work"
-msgstr "Sanitaartehniliste tööde etapid"
 
 #: templates/blog_templates/stages-of-plumbing-work.html:22
 msgid ""
@@ -1199,7 +1301,8 @@ msgstr ""
 "        1. Eeltööd:\n"
 "          <ul>\n"
 "            <li>Olemasoleva torustiku ja kommunikatsioonide hindamine.\n"
-"            <li>Torustikuprojekti väljatöötamine, arvestades korteri planeeringut ja kliendi nõudmisi.\n"
+"            <li>Torustikuprojekti väljatöötamine, arvestades korteri "
+"planeeringut ja kliendi nõudmisi.\n"
 "            <li>Vajadusel lubade ja heakskiitude hankimine töödeks.\n"
 "          </ul>\n"
 "\n"
@@ -1207,57 +1310,352 @@ msgstr ""
 "\n"
 "          2. Olemasoleva torustiku lammutamine:\n"
 "          <ul>\n"
-"             <li>Vanade sanitaartehniliste seadmete (vannid, tualetid, kraanikausid, dušikabiinid jne) lammutamine.\n"
+"             <li>Vanade sanitaartehniliste seadmete (vannid, tualetid, "
+"kraanikausid, dušikabiinid jne) lammutamine.\n"
 "             <li>Vana torustiku ja kommunikatsioonide eemaldamine.\n"
 "          </ul>\n"
 "\n"
 "\n"
 "          3. Uute torude ja kommunikatsioonide paigaldamine:\n"
 "          <ul>\n"
-"            <li>Uute veetorustike ja kanalisatsioonitorude paigaldamine vastavalt projektile.\n"
-"            <li>Drenaaži- ja ventiilikaevude, ventiilide ja muude kanalisatsioonisüsteemi elementide paigaldamine.\n"
+"            <li>Uute veetorustike ja kanalisatsioonitorude paigaldamine "
+"vastavalt projektile.\n"
+"            <li>Drenaaži- ja ventiilikaevude, ventiilide ja muude "
+"kanalisatsioonisüsteemi elementide paigaldamine.\n"
 "          </ul>\n"
 "\n"
 "          4. Sanitaartehniliste seadmete paigaldamine:\n"
 "            <ul>\n"
-"               <li>Uute sanitaartehniliste seadmete (vannid, tualetid, kraanikausid, dušikabiinid jne) paigaldamine.\n"
-"                <li>Sanitaarseadmete ühendamine veetorustiku ja kanalisatsioonitorudega.\n"
+"               <li>Uute sanitaartehniliste seadmete (vannid, tualetid, "
+"kraanikausid, dušikabiinid jne) paigaldamine.\n"
+"                <li>Sanitaarseadmete ühendamine veetorustiku ja "
+"kanalisatsioonitorudega.\n"
 "            </ul>\n"
 "\n"
 "            5. Küttetorustiku paigaldamine:\n"
 "                <ul>\n"
 "                    <li>Kütteradiaatorite paigaldamine.\n"
-"                    <li>Kütetorude paigaldamine ja nende ühendamine katla või muu soojusallikaga.\n"
+"                    <li>Kütetorude paigaldamine ja nende ühendamine katla"
+" või muu soojusallikaga.\n"
 "                </ul>\n"
 "\n"
 "            6. Ventilatsiooni- ja kliimaseadmete paigaldamine:\n"
 "                <ul>\n"
-"                    <li>Ventilatsiooniavadega ja väljatõmbetuulekodade paigaldamine.\n"
-"                    <li>Ventilatsioonikanalite paigaldamine ja nende ühendamine üldise maja ventilatsioonisüsteemiga.\n"
+"                    <li>Ventilatsiooniavadega ja väljatõmbetuulekodade "
+"paigaldamine.\n"
+"                    <li>Ventilatsioonikanalite paigaldamine ja nende "
+"ühendamine üldise maja ventilatsioonisüsteemiga.\n"
 "                </ul>\n"
 "\n"
 "            7. Köögi- ja majapidamisseadmete ühendamine:\n"
 "                <ul>\n"
-"                    <li>Köögivalamu, nõudepesumasina, pesumasina ja muude majapidamisseadmete ühendamine veetorustiku ja kanalisatsioonisüsteemiga.\n"
+"                    <li>Köögivalamu, nõudepesumasina, pesumasina ja muude"
+" majapidamisseadmete ühendamine veetorustiku ja "
+"kanalisatsioonisüsteemiga.\n"
 "                </ul>\n"
 "\n"
 "            8. Testide läbiviimine ja süsteemi kalibreerimine:\n"
 "                <ul>\n"
 "                   <li>Torustikusüsteemide tiheduse kontrollimine.\n"
-"                   <li>Torustikuseadmete toimimise kalibreerimine ja kontrollimine.\n"
+"                   <li>Torustikuseadmete toimimise kalibreerimine ja "
+"kontrollimine.\n"
 "                </ul>\n"
 "\n"
 "            9. Dokumentatsioon ja tööde lõpetamine:\n"
 "                <ul>\n"
-"                   <li>Kliendi poolt aktsepteerimisraporti koostamine torutööde kohta.\n"
-"                   <li>Tehnilise dokumentatsiooni ja garantii kohustuste esitamine lõpetatud tööde kohta.\n"
+"                   <li>Kliendi poolt aktsepteerimisraporti koostamine "
+"torutööde kohta.\n"
+"                   <li>Tehnilise dokumentatsiooni ja garantii kohustuste "
+"esitamine lõpetatud tööde kohta.\n"
 "                </ul>\n"
 "\n"
 "\n"
-"          Iga etapp nõuab hoolikat jälgimist ja kvaliteetset teostust, et tagada korteri torustikusüsteemide usaldusväärne ja ohutu toimimine.\n"
+"          Iga etapp nõuab hoolikat jälgimist ja kvaliteetset teostust, et"
+" tagada korteri torustikusüsteemide usaldusväärne ja ohutu toimimine.\n"
 "\n"
 "\n"
 "\n"
 "\n"
 
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:3
+msgid "Estonian academy of music and theater in tallinn, Estonia"
+msgstr "Eesti Muusika- ja Teatriakadeemia Tallinnas"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:3
+msgid "Renovation in the varshavsky residential complex in kyiv"
+msgstr "Renoveerimine varshavski elamukompleksis Kiievis"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:10
+msgid "RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+msgstr "RENOVEERIMINE VARSHAVSKI ELAMUKOMPLEKSIS KIIEVIS"
+
+#: venv/lib/python3.10/site-packages/click/_termui_impl.py:518
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/_termui_impl.py:522
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1120
+#, fuzzy
+msgid "Aborted!"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1309
+#: venv/lib/python3.10/site-packages/click/decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1340
+#: venv/lib/python3.10/site-packages/click/core.py:1370
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1387
+msgid "Options"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1415
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1428
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1636
+msgid "Commands"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1668
+msgid "Missing command."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2333
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2778
+msgid "env var: {var}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2808
+msgid "(dynamic)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2821
+msgid "default: {default}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2834
+msgid "required"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:44
+#: venv/lib/python3.10/site-packages/click/exceptions.py:80
+msgid "Error: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:72
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:121
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:123
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:179
+msgid "Missing argument"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:181
+#, fuzzy
+msgid "Missing option"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:183
+msgid "Missing parameter"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:185
+msgid "Missing {param_type}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:192
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:212
+msgid "No such option: {name}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:226
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:473
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/shell_completion.py:318
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/shell_completion.py:326
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:158
+#, fuzzy
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:176
+msgid "Error: {e.message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:266
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:300
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:394
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:470
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:822
+msgid "file"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:824
+msgid "directory"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:826
+msgid "path"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:894
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:987
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/flask_script/__init__.py:43
+msgid "show this help message and exit"
+msgstr ""
+
+#~ msgid "Stages of Plumbing Work"
+#~ msgstr "Sanitaartehniliste tööde etapid"
 

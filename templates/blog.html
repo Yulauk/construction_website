@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}'Blog'{% endblock %}
+{% block title %}{{ _('Blog') }}{% endblock %}
 
 {% block content %}
     <div class="container py-2">
@@ -140,16 +140,16 @@
 
 
                             <!--article title-->
-                            <h3 class="mb-0">{{ _('Key Steps in Electrical Installation for Apartment Renovation') }}</h3>
+                            <h3 class="mb-0">{{ _('Stages of Plumbing Work in Apartment Renovation') }}</h3>
 
                             <!--publish date-->
                             <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
 
                             <!--short description-->
-                            <p class="mb-auto">{{ _('Stages of Plumbing Work in Apartment Renovation') }}</p>
-                            <a href="articles/electrical-installation-for-apartment-renovation" class="icon-link gap-1 icon-link-hover stretched-link">
+                            <p class="mb-auto">{{ _('Discover the comprehensive steps involved in plumbing during a major apartment renovation. From initial assessment to final documentation, each stage ensures the installation of reliable and safe plumbing systems, encompassing everything from demolition to testing and connection of appliances.') }}</p>
+                            <a href="articles/stages-of-plumbing-work" class="icon-link gap-1 icon-link-hover stretched-link">
                                 {{ _('Continue reading') }}
-                                <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
+                                <svg class="bi"><use xlink:href="/articles/stages-of-plumbing-work"></use></svg>
                             </a>
                         </div>
                     </div>

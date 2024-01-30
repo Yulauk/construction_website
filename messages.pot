@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-29 14:26+0100\n"
+"POT-Creation-Date: 2024-01-30 13:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/about.html:9 templates/base.html:61 templates/base.html:161
-#: templates/index.html:32 templates/index.html:87
+#: templates/about.html:3
+msgid "About"
+msgstr ""
+
+#: templates/about.html:9 templates/base.html:62 templates/base.html:164
+#: templates/index.html:33 templates/index.html:89
 msgid "ABOUT"
 msgstr ""
 
@@ -38,176 +42,195 @@ msgid ""
 "earn your trust. I'll be happy to collaborate!"
 msgstr ""
 
-#: templates/base.html:62 templates/base.html:164 templates/index.html:33
-#: templates/index.html:90 templates/portfolio.html:8
-msgid "PORTFOLIO"
+#: templates/base.html:28
+msgid "Kulbachenko Construction + Design"
+msgstr ""
+
+#: templates/base.html:40 templates/base.html:85 templates/base.html:127
+#: templates/index.html:52 templates/index.html:135
+msgid "Kulbachenko"
+msgstr ""
+
+#: templates/base.html:40 templates/base.html:85 templates/base.html:127
+#: templates/blog.html:101 templates/blog.html:230 templates/index.html:52
+#: templates/index.html:135 templates/services.html:108
+msgid "Construction"
 msgstr ""
 
 #: templates/base.html:63 templates/base.html:167 templates/index.html:34
-#: templates/index.html:93 templates/services.html:8
+#: templates/index.html:92 templates/portfolio.html:8
+msgid "PORTFOLIO"
+msgstr ""
+
+#: templates/base.html:64 templates/base.html:170 templates/index.html:35
+#: templates/index.html:95 templates/services.html:8
 msgid "SERVICES"
 msgstr ""
 
-#: templates/base.html:64 templates/base.html:170 templates/blog.html:8
-#: templates/index.html:35 templates/index.html:96
+#: templates/base.html:65 templates/base.html:173 templates/blog.html:8
+#: templates/index.html:36 templates/index.html:98
 msgid "BLOG"
 msgstr ""
 
-#: templates/base.html:68 templates/index.html:39
+#: templates/base.html:69 templates/index.html:40
 msgid "CONTACT US"
 msgstr ""
 
-#: templates/base.html:158
+#: templates/base.html:161
 msgid "HOME"
 msgstr ""
 
-#: templates/base.html:175 templates/base.html:176 templates/index.html:101
-#: templates/index.html:102
+#: templates/base.html:178 templates/base.html:179 templates/index.html:103
+#: templates/index.html:104
 msgid "Search"
 msgstr ""
 
-#: templates/base.html:198
+#: templates/base.html:201
 msgid "Get a Free Consultation"
 msgstr ""
 
-#: templates/base.html:226
+#: templates/base.html:229
 msgid "Verify Submit"
 msgstr ""
 
-#: templates/base.html:241
+#: templates/base.html:244
 msgid "Contact Us"
 msgstr ""
 
-#: templates/base.html:245
+#: templates/base.html:248
 msgid "First name"
 msgstr ""
 
-#: templates/base.html:251
+#: templates/base.html:254
 msgid "Last name"
 msgstr ""
 
-#: templates/base.html:257
+#: templates/base.html:260
 msgid "Email address"
 msgstr ""
 
-#: templates/base.html:266
+#: templates/base.html:269
 msgid "Phone"
 msgstr ""
 
-#: templates/base.html:272
+#: templates/base.html:275
 msgid "City"
 msgstr ""
 
-#: templates/base.html:278
+#: templates/base.html:281
 msgid "State"
 msgstr ""
 
-#: templates/base.html:283
+#: templates/base.html:286
 msgid "Zip"
 msgstr ""
 
-#: templates/base.html:289
+#: templates/base.html:292
 msgid "Address"
 msgstr ""
 
-#: templates/base.html:294
+#: templates/base.html:297
 msgid "Target budget"
 msgstr ""
 
-#: templates/base.html:296
+#: templates/base.html:299
 msgid "Select budget range"
 msgstr ""
 
-#: templates/base.html:297
+#: templates/base.html:300
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:298
+#: templates/base.html:301
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:299
+#: templates/base.html:302
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:300
+#: templates/base.html:303
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:301
+#: templates/base.html:304
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:302
+#: templates/base.html:305
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:303
+#: templates/base.html:306
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:309
+#: templates/base.html:312
 msgid "Project time frame"
 msgstr ""
 
-#: templates/base.html:311
+#: templates/base.html:314
 msgid "Select time frame"
 msgstr ""
 
-#: templates/base.html:312
+#: templates/base.html:315
 msgid "As soon as possible"
 msgstr ""
 
-#: templates/base.html:313
+#: templates/base.html:316
 msgid "Starting within 3 months"
 msgstr ""
 
-#: templates/base.html:314
+#: templates/base.html:317
 msgid "Starting within 6 months"
 msgstr ""
 
-#: templates/base.html:315
+#: templates/base.html:318
 msgid "Starting within a year"
 msgstr ""
 
-#: templates/base.html:321
+#: templates/base.html:324
 msgid "How did you hear about us?"
 msgstr ""
 
-#: templates/base.html:323
+#: templates/base.html:326
 msgid "Select an option"
 msgstr ""
 
-#: templates/base.html:324
+#: templates/base.html:327
 msgid "Online Advertisement"
 msgstr ""
 
-#: templates/base.html:325
+#: templates/base.html:328
 msgid "Friend or Colleague"
 msgstr ""
 
-#: templates/base.html:326
+#: templates/base.html:329
 msgid "Social networks"
 msgstr ""
 
-#: templates/base.html:327
+#: templates/base.html:330
 msgid "Google"
 msgstr ""
 
-#: templates/base.html:328
+#: templates/base.html:331
 msgid "Other"
 msgstr ""
 
-#: templates/base.html:334
+#: templates/base.html:337
 msgid "Tell us about your project"
 msgstr ""
 
-#: templates/base.html:345
+#: templates/base.html:348
 msgid "Agree to terms and conditions"
 msgstr ""
 
-#: templates/base.html:352
+#: templates/base.html:355
 msgid "Submit form"
+msgstr ""
+
+#: templates/blog.html:3
+msgid "Blog"
 msgstr ""
 
 #: templates/blog.html:27 templates/blog.html:57 templates/blog.html:83
@@ -219,10 +242,11 @@ msgstr ""
 msgid "Plumbing"
 msgstr ""
 
-#: templates/blog.html:30 templates/blog.html:149
+#: templates/blog.html:30 templates/blog.html:143
 #: templates/blog_templates/apartment-renovation.html:120
 #: templates/blog_templates/building-creation.html:109
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:99
+#: templates/blog_templates/stages-of-plumbing-work.html:3
 #: templates/blog_templates/stages-of-plumbing-work.html:17
 msgid "Stages of Plumbing Work in Apartment Renovation"
 msgstr ""
@@ -233,7 +257,7 @@ msgstr ""
 msgid "Jan"
 msgstr ""
 
-#: templates/blog.html:36
+#: templates/blog.html:36 templates/blog.html:149
 msgid ""
 "Discover the comprehensive steps involved in plumbing during a major "
 "apartment renovation. From initial assessment to final documentation, "
@@ -252,9 +276,10 @@ msgstr ""
 msgid "Electrics"
 msgstr ""
 
-#: templates/blog.html:60 templates/blog.html:143 templates/blog.html:176
+#: templates/blog.html:60 templates/blog.html:176
 #: templates/blog_templates/apartment-renovation.html:129
 #: templates/blog_templates/building-creation.html:118
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:17
 #: templates/blog_templates/stages-of-plumbing-work.html:110
 msgid "Key Steps in Electrical Installation for Apartment Renovation"
@@ -265,6 +290,7 @@ msgid "Comprehensive Electrical Installation for Apartment Renovation"
 msgstr ""
 
 #: templates/blog.html:84 templates/blog.html:204
+#: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:15
 #: templates/blog_templates/building-creation.html:126
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:107
@@ -280,16 +306,10 @@ msgstr ""
 msgid "A comprehensive apartment renovation includes various stages"
 msgstr ""
 
-#: templates/blog.html:101 templates/blog.html:230 templates/services.html:108
-msgid "Construction"
-msgstr ""
-
 #: templates/blog.html:102 templates/blog.html:233
-#: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:138
 #: templates/blog_templates/building-creation.html:3
 #: templates/blog_templates/building-creation.html:15
-#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:116
 #: templates/blog_templates/stages-of-plumbing-work.html:129
 msgid "Building creation"
@@ -305,20 +325,37 @@ msgstr ""
 msgid "Latest Updates"
 msgstr ""
 
-#: templates/index.html:84
+#: templates/home-cinema-5-person.html:3
+msgid "Professional home cinema in private house in Ukraine"
+msgstr ""
+
+#: templates/home-cinema-5-person.html:10 templates/portfolio.html:20
+msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
+msgstr ""
+
+#: templates/index.html:86
 msgid "MAIN"
 msgstr ""
 
-#: templates/index.html:139
+#: templates/index.html:141
 msgid "VIEW OUR PORTFOLIO"
 msgstr ""
 
-#: templates/index.html:176
+#: templates/index.html:178
 msgid "OUR PARTNERS"
 msgstr ""
 
 #: templates/portfolio.html:3
 msgid "Portfolio"
+msgstr ""
+
+#: templates/portfolio.html:29
+msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+msgstr ""
+
+#: templates/portfolio.html:40
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:9
+msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
 msgstr ""
 
 #: templates/services.html:3
@@ -779,10 +816,6 @@ msgid ""
 "\n"
 msgstr ""
 
-#: templates/blog_templates/stages-of-plumbing-work.html:3
-msgid "Stages of Plumbing Work"
-msgstr ""
-
 #: templates/blog_templates/stages-of-plumbing-work.html:22
 msgid ""
 "\n"
@@ -870,5 +903,281 @@ msgid ""
 "\n"
 "\n"
 "\n"
+msgstr ""
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:3
+msgid "Estonian academy of music and theater in tallinn, Estonia"
+msgstr ""
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:3
+msgid "Renovation in the varshavsky residential complex in kyiv"
+msgstr ""
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:10
+msgid "RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/_termui_impl.py:518
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/_termui_impl.py:522
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1120
+msgid "Aborted!"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1309
+#: venv/lib/python3.10/site-packages/click/decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1340
+#: venv/lib/python3.10/site-packages/click/core.py:1370
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1387
+msgid "Options"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1415
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1428
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1636
+msgid "Commands"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1668
+msgid "Missing command."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2333
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2778
+msgid "env var: {var}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2808
+msgid "(dynamic)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2821
+msgid "default: {default}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2834
+msgid "required"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:44
+#: venv/lib/python3.10/site-packages/click/exceptions.py:80
+msgid "Error: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:72
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:121
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:123
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:179
+msgid "Missing argument"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:181
+msgid "Missing option"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:183
+msgid "Missing parameter"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:185
+msgid "Missing {param_type}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:192
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:212
+msgid "No such option: {name}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:226
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:473
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/shell_completion.py:318
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/shell_completion.py:326
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:158
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:176
+msgid "Error: {e.message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:266
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:300
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:394
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:470
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:822
+msgid "file"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:824
+msgid "directory"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:826
+msgid "path"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:894
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:987
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.10/site-packages/flask_script/__init__.py:43
+msgid "show this help message and exit"
 msgstr ""
 
