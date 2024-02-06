@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-30 13:45+0100\n"
+"POT-Creation-Date: 2024-02-02 14:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +17,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/about.html:3
+#: templates/about.html:7
+msgid ""
+"My name is Sergey Kulbachenko, I have been working in the construction "
+"industry for a long time. It all started when I came to Kyiv in 2005 and "
+"got an education..."
+msgstr ""
+
+#: templates/about.html:9
+msgid ""
+"Мене звати Сергій Кульбаченко, і я працюю в галузі будівництва вже довгий"
+" час. Все почалося, коли я приїхав до Києва у 2005 та отримав освіту"
+msgstr ""
+
+#: templates/about.html:11
+msgid ""
+"Меня зовут Сергей Кульбаченко, и я работаю в строительной отрасли уже "
+"долгое время. Все началось, когда я приехал в Киев в 2005 и получил "
+"образование"
+msgstr ""
+
+#: templates/about.html:13
+msgid ""
+"Minu nimi on Serhii Kulbachenko ja olen pikka aega töötanud ehituses. "
+"Kõik sai alguse sellest, et tulin 2005. aastal Kiievisse ja sain hariduse"
+msgstr ""
+
+#: templates/about.html:17
 msgid "About"
 msgstr ""
 
-#: templates/about.html:9 templates/base.html:62 templates/base.html:164
+#: templates/about.html:23 templates/base.html:63 templates/base.html:165
 #: templates/index.html:33 templates/index.html:89
 msgid "ABOUT"
 msgstr ""
 
-#: templates/about.html:17
+#: templates/about.html:31
 msgid ""
 "My name is Serhii Kulbachenko, and I have been working in the "
 "construction industry for a long time. It all started when I came to Kyiv"
@@ -42,190 +68,202 @@ msgid ""
 "earn your trust. I'll be happy to collaborate!"
 msgstr ""
 
-#: templates/base.html:28
+#: templates/base.html:29
 msgid "Kulbachenko Construction + Design"
 msgstr ""
 
-#: templates/base.html:40 templates/base.html:85 templates/base.html:127
+#: templates/base.html:41 templates/base.html:86 templates/base.html:128
 #: templates/index.html:52 templates/index.html:135
 msgid "Kulbachenko"
 msgstr ""
 
-#: templates/base.html:40 templates/base.html:85 templates/base.html:127
+#: templates/base.html:41 templates/base.html:86 templates/base.html:128
 #: templates/blog.html:101 templates/blog.html:230 templates/index.html:52
 #: templates/index.html:135 templates/services.html:108
 msgid "Construction"
 msgstr ""
 
-#: templates/base.html:63 templates/base.html:167 templates/index.html:34
+#: templates/base.html:64 templates/base.html:168 templates/index.html:34
 #: templates/index.html:92 templates/portfolio.html:8
 msgid "PORTFOLIO"
 msgstr ""
 
-#: templates/base.html:64 templates/base.html:170 templates/index.html:35
+#: templates/base.html:65 templates/base.html:171 templates/index.html:35
 #: templates/index.html:95 templates/services.html:8
 msgid "SERVICES"
 msgstr ""
 
-#: templates/base.html:65 templates/base.html:173 templates/blog.html:8
+#: templates/base.html:66 templates/base.html:174 templates/blog.html:8
 #: templates/index.html:36 templates/index.html:98
 msgid "BLOG"
 msgstr ""
 
-#: templates/base.html:69 templates/index.html:40
+#: templates/base.html:70 templates/index.html:40
 msgid "CONTACT US"
 msgstr ""
 
-#: templates/base.html:161
+#: templates/base.html:162
 msgid "HOME"
 msgstr ""
 
-#: templates/base.html:178 templates/base.html:179 templates/index.html:103
+#: templates/base.html:179 templates/base.html:180 templates/index.html:103
 #: templates/index.html:104
 msgid "Search"
 msgstr ""
 
-#: templates/base.html:201
+#: templates/base.html:202
 msgid "Get a Free Consultation"
 msgstr ""
 
-#: templates/base.html:229
+#: templates/base.html:209
+msgid "First Name"
+msgstr ""
+
+#: templates/base.html:215
+msgid "Your Contact"
+msgstr ""
+
+#: templates/base.html:221
+msgid "Comment"
+msgstr ""
+
+#: templates/base.html:230
 msgid "Verify Submit"
 msgstr ""
 
-#: templates/base.html:244
+#: templates/base.html:245
 msgid "Contact Us"
 msgstr ""
 
-#: templates/base.html:248
+#: templates/base.html:249
 msgid "First name"
 msgstr ""
 
-#: templates/base.html:254
+#: templates/base.html:255
 msgid "Last name"
 msgstr ""
 
-#: templates/base.html:260
+#: templates/base.html:261
 msgid "Email address"
 msgstr ""
 
-#: templates/base.html:269
+#: templates/base.html:270
 msgid "Phone"
 msgstr ""
 
-#: templates/base.html:275
+#: templates/base.html:276
 msgid "City"
 msgstr ""
 
-#: templates/base.html:281
+#: templates/base.html:282
 msgid "State"
 msgstr ""
 
-#: templates/base.html:286
+#: templates/base.html:287
 msgid "Zip"
 msgstr ""
 
-#: templates/base.html:292
+#: templates/base.html:293
 msgid "Address"
 msgstr ""
 
-#: templates/base.html:297
+#: templates/base.html:298
 msgid "Target budget"
 msgstr ""
 
-#: templates/base.html:299
+#: templates/base.html:300
 msgid "Select budget range"
 msgstr ""
 
-#: templates/base.html:300
+#: templates/base.html:301
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:301
+#: templates/base.html:302
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:302
+#: templates/base.html:303
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:303
+#: templates/base.html:304
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:304
+#: templates/base.html:305
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:305
+#: templates/base.html:306
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:306
+#: templates/base.html:307
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:312
+#: templates/base.html:313
 msgid "Project time frame"
 msgstr ""
 
-#: templates/base.html:314
+#: templates/base.html:315
 msgid "Select time frame"
 msgstr ""
 
-#: templates/base.html:315
+#: templates/base.html:316
 msgid "As soon as possible"
 msgstr ""
 
-#: templates/base.html:316
+#: templates/base.html:317
 msgid "Starting within 3 months"
 msgstr ""
 
-#: templates/base.html:317
+#: templates/base.html:318
 msgid "Starting within 6 months"
 msgstr ""
 
-#: templates/base.html:318
+#: templates/base.html:319
 msgid "Starting within a year"
 msgstr ""
 
-#: templates/base.html:324
+#: templates/base.html:325
 msgid "How did you hear about us?"
 msgstr ""
 
-#: templates/base.html:326
+#: templates/base.html:327
 msgid "Select an option"
 msgstr ""
 
-#: templates/base.html:327
+#: templates/base.html:328
 msgid "Online Advertisement"
 msgstr ""
 
-#: templates/base.html:328
+#: templates/base.html:329
 msgid "Friend or Colleague"
 msgstr ""
 
-#: templates/base.html:329
+#: templates/base.html:330
 msgid "Social networks"
 msgstr ""
 
-#: templates/base.html:330
+#: templates/base.html:331
 msgid "Google"
 msgstr ""
 
-#: templates/base.html:331
+#: templates/base.html:332
 msgid "Other"
 msgstr ""
 
-#: templates/base.html:337
+#: templates/base.html:338
 msgid "Tell us about your project"
 msgstr ""
 
-#: templates/base.html:348
+#: templates/base.html:349
 msgid "Agree to terms and conditions"
 msgstr ""
 
-#: templates/base.html:355
+#: templates/base.html:356
 msgid "Submit form"
 msgstr ""
 
@@ -906,7 +944,7 @@ msgid ""
 msgstr ""
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:3
-msgid "Estonian academy of music and theater in tallinn, Estonia"
+msgid "Estonian academy of music and theater in Tallinn, Estonia"
 msgstr ""
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:3

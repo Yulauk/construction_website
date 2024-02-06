@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: project.html, articles.html
+Allow: /
+
+Sitemap: https://www.kulbachenko.com/sitemap.xml

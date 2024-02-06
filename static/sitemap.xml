@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Home Page -->
+    <url>
+        <loc>{{ url_for('index') }}</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About Page in Different Languages -->
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('base', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.9</priority>
+        </url>
+    {% endfor %}
+
+    <!-- Portfolio Page in Different Languages -->
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('portfolio', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    <!-- Services Page in Different Languages -->
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('services', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    <!-- Blog Page in Different Languages -->
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('blog', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('project_cinema_5', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('project_varshavsky', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('project_estonian_academy', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('articles_building', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('articles_renovation', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('electrical_installation', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+    {% for language in ['en', 'uk', 'ru', 'et'] %}
+        <url>
+            <loc>{{ url_for('plumbing_work', setting_language=language) }}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+
+</urlset>

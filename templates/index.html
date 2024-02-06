@@ -1,5 +1,336 @@
 {% extends 'base.html' %}
 
+
+{% block meta %}
+    {% if language == 'en' %}
+        <meta name="description" content="{{ _('Construction and repair services for apartments and offices in various sizes. Professional construction work aimed at private houses.') }}">
+        <meta name="keywords" content="{{ _('construction, Serhii Kulbachenko, bricklayer, electric welder,
+        reinforced concrete structures, business development, Europe, high-quality services, Professional apartment
+         renovation of any complexity with a warranty in Estonia,
+High-quality facade works with a warranty in Tallinn,
+High-quality facade works with a warranty in Estonia,
+Apartment renovation and finishing with a warranty in Tallinn,
+Apartment renovation and finishing with a warranty in Estonia,
+Construction services with a warranty in Tallinn,
+Construction services with a warranty in Estonia,
+Professional tile laying with a warranty in Tallinn,
+Professional tile laying with a warranty in Estonia,
+Wallpapering with a warranty in Tallinn,
+Wallpapering with a warranty in Estonia,
+Professional plumbing installation with a warranty in Tallinn,
+Professional plumbing installation with a warranty in Estonia,
+Efficient underfloor heating with a warranty in Tallinn,
+Efficient underfloor heating with a warranty in Estonia,
+Professional apartment renovation of any complexity with a warranty in Tallinn,
+Professional apartment renovation of any complexity with a warranty in Estonia,
+High-quality facade works with a warranty in Tallinn,
+High-quality facade works with a warranty in Estonia,
+Apartment renovation and finishing with a warranty in Tallinn,
+Apartment renovation and finishing with a warranty in Estonia,
+Construction services with a warranty in Tallinn,
+Construction services with a warranty in Estonia,
+Professional tile laying with a warranty in Tallinn,
+Professional tile laying with a warranty in Estonia,
+Wallpapering with a warranty in Tallinn,
+Wallpapering with a warranty in Estonia,
+Professional plumbing installation with a warranty in Tallinn,
+Professional plumbing installation with a warranty in Estonia,
+Efficient underfloor heating with a warranty in Tallinn, tallinn ehitus kulbachenko
+Efficient underfloor heating with a warranty in Estonia,
+Professional apartment renovation of any complexity with a warranty in Tallinn,
+Professional apartment renovation of any complexity with a warranty in Estonia') }}">
+    {% elif language == 'uk' %}
+        <meta name="description" content="{{ _('Послуги з будівництва та ремонту квартир та офісів різної площі. Професійні будівельні роботи для приватних будинків.') }}">
+        <meta name="keywords" content="{{ _('будівництво, Сергій Кульбаченко, каменяр, електрозварник, армованобетонні конструкції, розвиток бізнесу, Європа, високоякісні послуги, Професійний ремонт квартир будь-якої складності з гарантією в Естонії,
+Якісні фасадні роботи з гарантією в Таллінні,
+Якісні фасадні роботи з гарантією в Естонії,
+Ремонт і обробка квартир з гарантією в Таллінні,
+Ремонт і обробка квартир з гарантією в Естонії,
+Послуги з будівництва з гарантією в Таллінні,
+Послуги з будівництва з гарантією в Естонії,
+Професійне кладання плитки з гарантією в Таллінні,
+Професійне кладання плитки з гарантією в Естонії,
+Поклейка шпалер з гарантією в Таллінні,
+Поклейка шпалер з гарантією в Естонії,
+Професійна установка сантехніки з гарантією в Таллінні,
+Професійна установка сантехніки з гарантією в Естонії,
+Ефективні теплі підлоги з гарантією в Таллінні,
+Ефективні теплі підлоги з гарантією в Естонії,
+Професійний ремонт квартир будь-якої складності з гарантією в Таллінні,
+Професійний ремонт квартир будь-якої складності з гарантією в Естонії,
+Якісні фасадні роботи з гарантією в Таллінні,
+Якісні фасадні роботи з гарантією в Естонії,
+Ремонт і обробка квартир з гарантією в Таллінні,
+Ремонт і обробка квартир з гарантією в Естонії,
+Послуги з будівництва з гарантією в Таллінні,
+Послуги з будівництва з гарантією в Естонії,
+Професійне кладання плитки з гарантією в Таллінні,
+Професійне кладання плитки з гарантією в Естонії,
+Поклейка шпалер з гарантією в Таллінні,
+Поклейка шпалер з гарантією в Естонії,
+Професійна установка сантехніки з гарантією в Таллінні,
+Професійна установка сантехніки з гарантією в Естонії,
+Ефективні теплі підлоги з гарантією в Таллінні,
+Ефективні теплі підлоги з гарантією в Естонії,
+Професійний ремонт квартир будь-якої складності з гарантією в Таллінні,
+Професійний ремонт квартир будь-якої складності з гарантією в Естонії') }}">
+    {% elif language == 'ru' %}
+        <meta name="description" content="{{ _('Услуги строительства и ремонта квартир и офисов различной площади. Профессиональные строительные работы, направленные на частные дома.') }}">
+        <meta name="keywords" content="{{ _('строительство, Сергей Кульбаченко, каменщик, электросварщик, железобетонные конструкции, развитие бизнеса, Европа, высококачественные услуги, Профессиональный ремонт квартир любой сложности с гарантией в Естонии,
+Качественные фасадные работы с гарантией в Таллине, строительство домов, поклейка обоев цена, сборные дома,
+Качественные фасадные работы с гарантией в Естонии, ремонт домов под ключ, ремонт квартир цены,ремонт квартир цены,
+дом построить,
+найти ремонт квартир,
+ремонт сантехник,
+строительство дома под ключ цена,
+ремонт квартир под ключ,
+дом под ключ,
+дом из сип панелей,
+быстровозводимые здания,
+ремонт квартиры,
+домов,
+ремонт под ключ,
+каркасные дома,
+каркасный дом,
+проекты одноэтажных домов,
+дома из сип панелей,
+каркасный дом под ключ,
+дизайн квартир,
+построить дом,
+строительство ангаров,
+строительство домов,
+поклейка обоев цена,
+строительная компания,
+перепланировка квартир,
+быстровозводимые дома,
+каркасные дома под ключ,
+строительство складов,
+заливка фундамента цена,
+каркасный дом цена,
+дизайн однокомнатной квартиры,
+строительство дома под ключ цена,
+дом из бруса,
+дом из сип панелей цена,
+быстровозводимые ангары,
+евроремонт,
+расценки на строительные работы,
+построить дом под ключ,
+строительство домов под ключ,
+проектирование домов,
+построить дом цена,
+дом из сэндвич панелей,
+стоимость ремонта квартиры,
+проекты двухэтажных домов,
+косметический ремонт,
+ремонт квартиры под ключ цена,
+дом из клееного бруса,
+дизайнерский ремонт,
+строим дом,
+дом под ключ цена,
+сборные дома,
+построить дом под ключ цена,
+здание из сэндвич панелей,
+ангар из сэндвич панелей,
+постройка дома,
+ремонт однокомнатной квартиры,
+поклеить обои цена,
+прайс на строительные работы,
+постройка дома под ключ,
+Ремонт и отделка квартир с гарантией в Таллине,
+Ремонт и отделка квартир с гарантией в Естонии,
+Услуги по строительству с гарантией в Таллине,
+Услуги по строительству с гарантией в Естонии,
+Профессиональная укладка плитки с гарантией в Таллине,
+Профессиональная укладка плитки с гарантией в Естонии,
+Поклейка обоев с гарантией в Таллине,
+Поклейка обоев с гарантией в Естонии,
+Профессиональная установка сантехники с гарантией в Таллине,
+Профессиональная установка сантехники с гарантией в Естонии,
+Эффективные теплые полы с гарантией в Таллине,
+Эффективные теплые полы с гарантией в Естонии,
+Профессиональный ремонт квартир любой сложности с гарантией в Таллине,
+Профессиональный ремонт квартир любой сложности с гарантией в Естонии,
+Качественные фасадные работы с гарантией в Таллине,
+Качественные фасадные работы с гарантией в Естонии,
+Ремонт и отделка квартир с гарантией в Таллине,
+Ремонт и отделка квартир с гарантией в Естонии,
+Услуги по строительству с гарантией в Таллине,
+Услуги по строительству с гарантией в Естонии,
+Профессиональная укладка плитки с гарантией в Таллине,
+Профессиональная укладка плитки с гарантией в Естонии,
+Поклейка обоев с гарантией в Таллине,
+Поклейка обоев с гарантией в Естонии,
+Профессиональная установка сантехники с гарантией в Таллине,
+Профессиональная установка сантехники с гарантией в Естонии,
+Эффективные теплые полы с гарантией в Таллине,
+Эффективные теплые полы с гарантией в Естонии,
+Профессиональный ремонт квартир любой сложности с гарантией в Таллине,
+Профессиональный ремонт квартир любой сложности с гарантией в Естонии,
+Строительство, Ремонт, Таллин, Естония, Укладка плитки, Кульбаченко Сергей,
+ Кульбаченко строительство, Кульбаченко ремонт Таллин, Дизайн интерьера, Электромонтаж,
+  Сантехнические работы, Отделка помещений, Строительные услуги, Реконструкция,
+   Капитальный ремонт, Мастер по ремонту, Генеральная уборка, Ландшафтный дизайн, Кухонный ремонт,
+    Окна и двери, Покраска стен, Ванная комната, Декоративные работы, Конструкционные работы,
+     Плотницкие услуги, Установка сантехники, Облицовка стен, Реставрация, Монтаж отопления,
+      Водопроводные работы, Ремонт фасада, Утепление дома, Плиточные работы, Электрика в доме,
+       Обустройство кухни, Мебельный ремонт, Покраска потолков, Ремонт под ключ, Паркетные работы,
+        Кульбаченко стройка, Дизайн квартир, Остекление балкона, Малярные работы, Резка стекла,
+         Металлоконструкции, Укладка ламината, Сайдинговые работы, Ремонт бани, Внутренняя отделка,
+          Плитка на пол, Монтаж вентиляции, Гипсокартонные работы, Столярные услуги,
+           Ремонт коммерческих помещений, Облицовка фасада, Кульбаченко реставрация, Прокладка труб,
+            Электромонтажные работы, Монтаж кондиционера, Ремонт офисов, Декоративная штукатурка,
+             Устройство фундамента, Благоустройство территории, Установка камина, Кульбаченко отделка,
+              Водосточные системы, Ограждения и заборы, Сайдинг на дом, Монтаж дымохода, Укладка паркета,
+               Ремонт подсобных помещений, Внутренний ремонт, Ламинирование пола, Кульбаченко мастер,
+                Дизайн экстерьера, Монтаж дверей, Укладка керамической плитки, Живая изгородь,
+                 Кульбаченко строитель, Облицовка кирпичом, Плиточные работы в ванной, Строительство коттеджей,
+                  Ремонт подсобных помещений, Монтаж полов, Устройство кровли, Полимерное покрытие пола,
+                   Монтаж кухни, Электроустановочные работы, Кульбаченко отделочник, Строительство гаражей,
+                    Плитка в ванной, Укладка кафельной плитки, Обустройство подвала, Монтаж кровли,
+                     Кульбаченко ремонт помещений, Плиточные работы на кухне, Ремонт балкона,
+                      Установка счетчиков, Облицовка кафелем, Кульбаченко стройматер,
+                       Кульбаченко строительные услуги, Дизайн и строительство, Эксперт по ремонту,
+                        Укладка ламината в Таллине, Мастер по укладке плитки, Ремонт офисных помещений,
+                         Реконструкция зданий, Обновление интерьера, Профессиональные стройки,
+                          Плиточные работы в офисе, Кульбаченко стройплощадка, Установка дверных блоков,
+                           Малярные работы в Таллине, Декоративная отделка, Экологичные стройматериалы,
+                            Ремонт под ключ Таллин, Услуги по ремонту квартир, Кульбаченко ремонтные работы,
+                             Укладка паркета в офисе, Внутренний ремонт Таллин, Специалист по дизайну интерьера,
+                              Монтаж потолков, Строительство и ремонт Таллин, Мастер по плиточным работам,
+                               Оформление фасадов, Кульбаченко дизайн и строительство,
+                                Обновление кухонного пространства, Работы по благоустройству,
+                                 Реставрация домов, Укладка ламината в квартире, Эффективный ремонт,
+                                  Строительство и реконструкция, Кульбаченко профессиональный строитель,
+                                   Элитный ремонт, Ремонт ванных комнат, Монтаж систем отопления,
+                                    Дизайнерский ремонт, Кульбаченко экологичные стройматериалы,
+                                     Проекты по реконструкции, Установка сантехники в Таллине, Ремонт крыш,
+                                      Устройство полов, Кульбаченко эстетичный дизайн,
+                                       Строительство загородных домов, Планировка офисных помещений,
+                                        Ремонтные услуги Таллин, Декоративная плитка,
+                                         Монтаж сантехнических систем, Кульбаченко реконструкция зданий,
+                                          Эксперт по ремонту в Таллине, Ремонт коммерческих помещений Таллин,
+                                           Укладка плитки в ванной, Профессиональный ремонт Таллин,
+                                            Кульбаченко реставрация домов, Офисные строительные работы,
+                                             Дизайнерский ремонт интерьера, Эффективные строительные услуги,
+                                              Монтаж электрики, Ремонт квартир под ключ,
+                                               Кульбаченко монтаж потолков, Строительство загородных дач,
+                                                Облицовка стен в Таллине, Укладка ламината в квартире,
+                                                 Ремонт офисов и магазинов, Кульбаченко декоративная отделка,
+                                                  Специалист по реконструкции, Дизайн и ремонт интерьера,
+                                                   Установка окон и дверей, Строительство и отделка,
+                                                    Кульбаченко профессиональные стройки, Эстетика в строительстве,
+                                                     Укладка плитки в квартире, Ремонтные услуги в Таллине,
+                                                      Экологически чистые стройматериалы, Кульбаченко ремонт офисов,
+                                                       Монтаж систем кондиционирования, Реконструкция зданий в Таллине,
+                                                        Установка каминов, Специалист по ванной комнате,
+                                                         Кульбаченко отделочные работы, Дизайн офисных помещений,
+                                                          Эффективное благоустройство, Ремонт и строительство в Таллине,
+                                                           Укладка кафельной плитки в ванной,
+                                                            Профессиональная отделка интерьера,
+                                                             Кульбаченко строительство загородных домов,
+                                                              Ремонт под ключ в Таллине, Эстетическое оформление фасадов,
+                                                               Монтаж современных систем отопления,
+                                                                Кульбаченко реставрация и реконструкция,
+                                                                 Обновление коммерческих помещений,
+                                                                  Работы по утеплению фасадов,
+                                                                   Декорирование офисных интерьеров,
+                                                                   Кульбаченко укладка керамической плитки,
+                                                                   Энергоэффективные стройматериалы,
+                                                                   Ремонтные услуги для бизнеса,
+                                                                    Профессиональные отделочные работы,
+                                                                     Кульбаченко ремонт квартир в Таллине,
+                                                                      Экологически чистые материалы для строительства,
+                                                                       Установка современных окон и дверей в Таллине,
+                                                                        кульбаченко ком
+') }}">
+
+    {% elif language == 'et' %}
+        <meta name="description" content="{{ _('Korterite ja büroode ehitus- ja remonditeenused erinevates mahus. Eramutele suunatud professionaalne ehitustöö.') }}">
+        <meta name="keywords" content="{{ _('ehitus, Serhii Kulbachenko, telliskivi, elektrikeevitaja, armeeritud betoonkonstruktsioonid, äritegevuse arendamine, Euroopa, kvaliteetsed teenused, Professionaalne korteriremont igas keerukusastmes garantiiga Eestis,
+Kvaliteetsed fassaaditööd garantiiga Tallinnas,
+Kvaliteetsed fassaaditööd garantiiga Eestis,
+Korteriremont ja viimistlus garantiiga Tallinnas,
+Korteriremont ja viimistlus garantiiga Eestis,
+Ehitusteenused garantiiga Tallinnas,
+Ehitusteenused garantiiga Eestis,
+Professionaalne plaaditöö garantiiga Tallinnas,
+Professionaalne plaaditöö garantiiga Eestis,
+Tapeetimine garantiiga Tallinnas,
+Tapeetimine garantiiga Eestis,
+Professionaalne sanitaartehnika paigaldus garantiiga Tallinnas,
+Professionaalne sanitaartehnika paigaldus garantiiga Eestis,
+Efektiivsed sooja põrandad garantiiga Tallinnas,
+Efektiivsed sooja põrandad garantiiga Eestis,
+Professionaalne korteriremont igas keerukusastmes garantiiga Tallinnas,
+Professionaalne korteriremont igas keerukusastmes garantiiga Eestis,
+Kvaliteetsed fassaaditööd garantiiga Tallinnas,
+Kvaliteetsed fassaaditööd garantiiga Eestis,
+Korteriremont ja viimistlus garantiiga Tallinnas,
+Korteriremont ja viimistlus garantiiga Eestis,
+Ehitusteenused garantiiga Tallinnas,
+Ehitusteenused garantiiga Eestis,
+Professionaalne plaaditöö garantiiga Tallinnas,
+Professionaalne plaaditöö garantiiga Eestis,
+Tapeetimine garantiiga Tallinnas,
+Tapeetimine garantiiga Eestis,
+Professionaalne sanitaartehnika paigaldus garantiiga Tallinnas,
+Professionaalne sanitaartehnika paigaldus garantiiga Eestis,
+Efektiivsed sooja põrandad garantiiga Tallinnas,
+Efektiivsed sooja põrandad garantiiga Eestis,
+Professionaalne korteriremont igas keerukusastmes garantiiga Tallinnas,
+Professionaalne korteriremont igas keerukusastmes garantiiga Eestis, Kulbachenko Ehitus, KulbachenkoEhitus, Kulba Ehitus,
+кульбаченко ehitus, kulbachenko, ehitus, ehitus estonia, ehitus tallin, remont Eesti, ehitus Eesti,
+EhitusKulbachenko, tööriistad ja -tarvikud, Telli korteri remont või renoveerimine Tallinnas, krohvimine, veevarustus,
+plaatimine, elektritööd, Korteri remont, vannitubade remont Tallinnas ja Harjumaal, Erinevad ehitus- ja remonditööd,
+korterites ja büroodes, Kõik ehitustööd korterite ja eramute,Ventilatsiooni paigaldus, Kipskartonitööd, Puusepatööd, Äripindade remont, Fassaadi viimistlus, Külbatchenko restaureerimine, Torude paigaldus, Elektritööd, Konditsioneeride paigaldus, Bürooremont, Dekoratiivkrohvimine, Vundamendi ehitus, Territooriumi haljastamine, Kamina paigaldus, Külbatchenko viimistlus, Veetorustike süsteemid, Piirdeaiad ja väravad, Fassaadikate, Korstna paigaldus, Parketi paigaldus, Abiruumide remont, Sisemine remont, Põranda laminaatimine, Külbatchenko meister, Välisdisain, Uste paigaldus, Keraamiliste plaatide paigaldus, Elav piirde, Külbatchenko ehitus, Kivi viimistlus, Vannitoa plaatimine, Eramute ehitus, Abiruumide remont, Põrandate paigaldus, Katuse ehitus, Polümeerkatte paigaldus, Köögi paigaldus, Elektri paigaldustööd, Külbatchenko viimistleja, Garaažide ehitus, Vannitoa plaatimine, Keraamiliste plaatide paigaldus, Keldri sisustamine, Katuse paigaldus, Külbatchenko ruumide remont, Köögi plaatimine, Rõdu remont, Arvestite paigaldus, Keraamika paigaldamine, Külbatchenko ehitusmaterjalid, Külbatchenko ehitusteenused, Disain ja ehitus, Remondiekspert, Laminaadi paigaldus Tallinnas, Plaatimismeister, Bürooruumide remont, Hoone renoveerimine, Interjööri uuendamine, Professionaalsed ehitustööd, Büroo plaatimine, Külbatchenko ehitusplats, Uste blokeerimise paigaldus, Maalritööd Tallinnas, Dekoratiivne viimistlus, Ökoloogilised ehitusmaterjalid, Võtmed kätte remont Tallinnas, Teenused korteri remondiks, Külbatchenko remonditööd, Parketi paigaldus büroos, Sisekujundus Tallinnas, Plaatide paigaldamine, Külbatchenko ehitus ja disain, Köögi ala uuendamine, Haljastustööd, Maja renoveerimine, Külbatchenko professionaalne ehitaja, Elitaarne remont, Vannitubade remont, Küte paigaldamine, Disainiremont, Külbatchenko ökoloogilised ehitusmaterjalid, Renoveerimisprojektid, Sanitaartehnika paigaldus Tallinnas, Katuse remont, Põrandate ehitus, Külbatchenko esteetiline disain, Eramute ehitus, Kontoriruumide planeerimine, Remonditööd Tallinnas, Dekoratiivne plaatimine, Sanitaartehniliste süsteemide paigaldus, Külbatchenko hoonete renoveerimine, Ekspert remondis Tallinnas, Äripindade remont Tallinnas, Plaatide paigaldamine vannitoas, Professionaalne remont Tallinnas, Külbatchenko maja restaureerimine, Fassaadi remont, Konditsioneeride süsteemide paigaldus, Büroode ehitustööd, Disainremont interjööris, Efektiivsed ehitusteenused, Elektritööde paigaldus, Korteri remont võtmed kätte, Külbatchenko lae paigaldamine, Suvekodude ehitus, Kontoriruumide planeerimine, Remonditeenused Tallinnas, Dekoratiivkivi paigaldus, Sanitaartehniliste süsteemide paigaldamine, Külbatchenko hoonete renoveerimine, Ekspert remondis Tallinnas, Äripindade remont Tallinnas, Plaatide paigaldamine vannitoas, Professionaalne remont Tallinnas, Külbatchenko maja restaureerimine, Fassaadi remont, Konditsioneeride süsteemide paigaldus, Büroode ehitustööd, Disainremont interjööris, Efektiivsed ehitusteenused, Elektritööde paigaldus, Korteri remont võtmed kätte, Külbatchenko lae paigaldamine, Suvekodude ehitus, Kontoriruumide planeerimine, Remonditeenused Tallinnas, Dekoratiivkivi paigaldus, Sanitaartehniliste süsteemide paigaldamine, Külbatchenko ökoloogilised ehitusmaterjalid, Projekteerimistööd renoveerimiseks, Torustiku paigaldus Tallinnas, Katuse remont, Põrandate ehitus, Külbatchenko esteetiline disain, Eramute ehitus, Kontoriruumide planeerimine, Remonditööd Tallinnas, Dekoratiivne plaatimine, Sanitaartehniliste süsteemide paigaldus, Külbatchenko hoonete renoveerimine, Ekspert remondis Tallinnas, Äripindade remont Tallinnas, Plaatide paigaldamine vannitoas, Professionaalne remont Tallinnas, Külbatchenko maja restaureerimine, Fassaadi remont, Konditsioneeride süsteemide paigaldus, Büroode ehitustööd, Disainremont interjööris, Efektiivsed ehitusteenused, Elektritööde paigaldus, Korteri remont võtmed kätte, Külbatchenko lae paigaldamine, Suvekodude ehitus, Kontoriruumide planeerimine, Remonditeenused Tallinnas, Dekoratiivkivi paigaldus, Sanitaartehniliste süsteemide paigaldamine, Külbatchenko ökoloogilised ehitusmaterjalid, Projekteerimistööd renoveerimiseks, Torustiku paigaldus Tallinnas,
+Ehitus, Sergei Kulbatsenko, kivirajaja, elektrikeevitaja, raudbetoonkonstruktsioonid, äriarendus, Euroopa, kvaliteetsed teenused, Professionaalne korteriremont igal raskusastmel koos garantii Tallinnas,
+Kvaliteetsed fassaaditööd garantiiga Tallinnas, korterite renoveerimine
+
+Kvaliteetsed fassaaditööd garantiiga Eestis,
+Korteriremont ja viimistlus garantiiga Tallinnas,
+Korteriremont ja viimistlus garantiiga Eestis,
+Ehitusteenused garantiiga Tallinnas,
+Ehitusteenused garantiiga Eestis,
+Professionaalne plaatimistöö garantiiga Tallinnas,
+Professionaalne plaatimistöö garantiiga Eestis,
+Tapeetimine garantiiga Tallinnas,
+Tapeetimine garantiiga Eestis,
+Professionaalne sanitaartehnika paigaldus garantiiga Tallinnas,
+Professionaalne sanitaartehnika paigaldus garantiiga Eestis,
+Efektiivsed põrandaküttesüsteemid garantiiga Tallinnas,
+Efektiivsed põrandaküttesüsteemid garantiiga Eestis,
+Professionaalne korteriremont igal raskusastmel garantiiga Tallinnas,
+Professionaalne korteriremont igal raskusastmel garantiiga Eestis,
+Kvaliteetsed fassaaditööd garantiiga Tallinnas,
+Kvaliteetsed fassaaditööd garantiiga Eestis,
+Korteriremont ja viimistlus garantiiga Tallinnas,
+Korteriremont ja viimistlus garantiiga Eestis,
+Ehitusteenused garantiiga Tallinnas,
+Ehitusteenused garantiiga Eestis,
+Professionaalne plaatimistöö garantiiga Tallinnas,
+Professionaalne plaatimistöö garantiiga Eestis,
+Tapeetimine garantiiga Tallinnas,
+Tapeetimine garantiiga Eestis,
+Professionaalne sanitaartehnika paigaldus garantiiga Tallinnas,
+Professionaalne sanitaartehnika paigaldus garantiiga Eestis,
+Efektiivsed põrandaküttesüsteemid garantiiga Tallinnas,
+Efektiivsed põrandaküttesüsteemid garantiiga Eestis,
+Professionaalne korteriremont igal raskusastmel garantiiga Tallinnas,
+Professionaalne korteriremont igal raskusastmel garantiiga Eestis,
+Ehitus, Remont, Tallinn, Eesti, Plaatimistööd, Kulbatsenko Sergei,
+Kulbatsenko ehitus, Kulbatsenko remont Tallinn, Sisearhitektuur, Elektrimontaaž,
+Sanitaartehnilised tööd, Siseviimistlus, Ehitustööd, Rekonstrueerimine,
+Kapitaalremont, Remondimeister, Üldpuhastus, Maastikukujundus, Köögi remont,
+Aknad ja uksed, Seinte värvimine, Vannituba, Dekoratiivtööd, Konstruktsioonitööd,
+Puusepatööd, Sanitaartehnika paigaldus, Seinte viimistlus, Restaureerimine, Küte paigaldamine,
+Veetorustik, Fassaadiremont, Maja soojustamine, Plaatimistööd, Elektritööd majas,
+Köögi ehitus, Mööbliremont, Lae värvimine, Võtmed kätte remont, Parketi paigaldus,
+Kulbatsenko ehitus, Korteri disain, Rõdu klaasimine, Maalritööd, Klaasi lõikamine,
+Metallkonstruktsioonid, Laminaadi paigaldus, Sidingutööd, Saunaremont, Sisemine viimistlus,
+') }}">
+    {% endif %}
+{% endblock %}
+
 {% block title %}{% endblock %}
 
 {% block body %}
@@ -9,10 +340,14 @@
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="/static/images/lines-80.png" alt="Logo" width="70px" height="70px" style="object-fit: none;">
+                        <img src="/static/images/lines-80.png" alt="Logo" width="70px" height="70px"
+                             style="object-fit: none;">
                 </a>
 
                 <nav id="index-nav" class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
+
+
+
 
                     <div id="index_header" class="me-3 py-2 link-body-emphasis text-decoration-none">
                     <div id='base' class="dropdown">
@@ -20,21 +355,22 @@
         {{ language.upper() }}
     </button>
     <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('et')">Eesti</a></li>
-        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
-        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
-        <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
-    </ul>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et', path=request.path, _external=True) }}">Eesti</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk', path=request.path, _external=True) }}">Українська</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en', path=request.path, _external=True) }}">English</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru', path=request.path, _external=True) }}">Русский</a></li>
+
+                            </ul>
 </div>
 
 
                         </div>
 
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="/about">{{ _('ABOUT') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="/portfolio">{{ _('PORTFOLIO') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="/services">{{ _('SERVICES') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="/blog">{{ _('BLOG') }}</a>
-                </nav>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
+                    </nav>
 
                 <div class="container-color-index">
                         <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
@@ -59,10 +395,11 @@
                                 {{ language.upper() }}
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('et')">Eesti</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et', path=request.path, _external=True) }}">Eesti</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk', path=request.path, _external=True) }}">Українська</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en', path=request.path, _external=True) }}">English</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru', path=request.path, _external=True) }}">Русский</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -86,16 +423,16 @@
                     <a class="nav-link" href="/">{{ _('MAIN') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', lang=language) }}">{{ _('ABOUT') }}</a>
+                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', lang=language) }}">{{ _('PORTFOLIO') }}</a>
+                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
                 </li>
                 <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', lang=language) }}">{{ _('SERVICES') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
                 </li>
                 <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', lang=language) }}">{{ _('BLOG') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
                 </li>
 
             </ul>
@@ -152,13 +489,15 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ url_for('static', filename='images/carousel/bass_p.jpeg') }}" class="d-block w-100" alt="Slide 2">
+                    <img src="{{ url_for('static', filename='images/carousel/bass_p.jpeg') }}" class="d-block w-100"
+                         alt="Slide 2">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
                         <!-- Add additional text or elements as needed -->
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img src="{{ url_for('static', filename='images/image_07_01/cinema_1.jpg') }}" class="d-block w-100" alt="Slide 3">
+                    <img src="{{ url_for('static', filename='images/image_07_01/cinema_1.jpg') }}" class="d-block w-100"
+                         alt="Slide 3">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
                         <!-- Add additional text or elements as needed -->
                     </div>
@@ -195,7 +534,7 @@
         <div class="partners mt-5 mb-5">
             <!-- Your content goes here -->
             <a class="tn-atom" href="https://bass.ua/">
-                <img class="tn-atom__img t-img loaded"
+                <img class="tn-atom__img t-img loaded" alt="partners-bass"
                      data-original="https://static.tildacdn.com/tild3931-6534-4563-b464-326633623736/logo_B.svg"
                      src="https://static.tildacdn.com/tild3931-6534-4563-b464-326633623736/logo_B.svg">
             </a>
@@ -213,5 +552,3 @@
         </div>
     </div>
 {% endblock %}
-
-

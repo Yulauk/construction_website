@@ -5,10 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="alternate" hreflang="et" href="{{ url_for('index', setting_language='et') }}">
+    <link rel="alternate" hreflang="uk" href="{{ url_for('index', setting_language='uk') }}">
+    <link rel="alternate" hreflang="en" href="{{ url_for('index', setting_language='en') }}">
+    <link rel="alternate" hreflang="ru" href="{{ url_for('index', setting_language='ru') }}">
+    <meta name="robots" content="index, follow">
+
+    {% block meta %}{% endblock %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="icon"  href="{{ url_for('static', filename='/images/icons8-lines-96.png') }}"  class="me-2"
-          type="image/x-icon">
+          type="image/x-icon" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -17,10 +24,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
-
-
-
-
 
 
 
@@ -35,7 +38,7 @@
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 <!--            <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-2 border-bottom">-->
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px"
+                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px"
                              height="70px" style="object-fit: none;">
                     <span class="me-2 fs-4">{{ _('Kulbachenko') }}<br>{{ _('Construction') }}</span>
                 </a>
@@ -44,25 +47,29 @@
                 <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
 
 
+
+
                     <div class="me-3 py-2 link-body-emphasis text-decoration-none">
                         <div id='base' class="dropdown">
                             <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                                 {{ language.upper() }}
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('et')">Eesti</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+
                             </ul>
                         </div>
                     </div>
 
 
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', lang=language) }}">{{ _('ABOUT') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', lang=language) }}">{{ _('PORTFOLIO') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', lang=language) }}">{{ _('SERVICES') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', lang=language) }}">{{ _('BLOG') }}</a>
+
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
 
                 </nav>
                 <div class="container-color">
@@ -70,6 +77,9 @@
                     </div>
             </div>
                     </div>
+
+
+
 
         </header>
 
@@ -81,7 +91,7 @@
         <div id='header-fluid-middle' class="container-fluid">
 
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px" height="70px">
+                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px">
                     <span class="me-2 fs-4">{{ _('Kulbachenko') }}<br>{{ _('Construction') }}</span>
                 </a>
 
@@ -92,10 +102,11 @@
                                 {{ language.upper() }}
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('et')">Eesti</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -123,7 +134,7 @@
         <div id="header-fluid-mini" class="container-fluid">
 
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px" height="70px">
+                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px">
                     <span class="me-2 fs-4">{{ _('Kulbachenko') }}<br>{{ _('Construction') }}</span>
                 </a>
 
@@ -134,10 +145,11 @@
                                 {{ language.upper() }}
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('et')">Eesti</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('uk')">Українська</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('en')">English</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeLanguage('ru')">Русский</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -161,16 +173,16 @@
                     <a class="nav-link" href="/">{{ _('HOME') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', lang=language) }}">{{ _('ABOUT') }}</a>
+                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language, path=request.path) }}">{{ _('ABOUT') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', lang=language) }}">{{ _('PORTFOLIO') }}</a>
+                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language, path=request.path) }}">{{ _('PORTFOLIO') }}</a>
                 </li>
                 <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', lang=language) }}">{{ _('SERVICES') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
                 </li>
                 <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', lang=language) }}">{{ _('BLOG') }}</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
                 </li>
 
             </ul>
@@ -205,19 +217,19 @@
                 <div class="mb-3">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="name" id="username" placeholder="Username">
-                        <label for="username">First Name</label>
+                        <label for="username">{{ _('First Name') }}</label>
                         <div class="error-message" id="username-error"></div>
                     </div>
 
                     <div class="form-floating mb-3">
                         <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
-                        <label for="phone">Your Contact</label>
+                        <label for="phone">{{ _('Your Contact') }}</label>
                         <div class="error-message" id="phone-error"></div>
                     </div>
 
                     <div class="form-floating">
                         <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
-                        <label for="comment">Comment</label>
+                        <label for="comment">{{ _('Comment') }}</label>
                         <div class="error-message" id="comment-error"></div>
                     </div>
                 </div>

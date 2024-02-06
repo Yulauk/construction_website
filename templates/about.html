@@ -1,5 +1,156 @@
 {% extends 'base.html' %}
 
+
+
+{% block meta %}
+    {% if language == 'en' %}
+        <meta name="description" content="{{ _('My name is Sergey Kulbachenko, I have been working in the construction industry for a long time. It all started when I came to Kyiv in 2005 and got an education...') }}">
+        <meta name="keywords" content="{{ _('construction, Serhii Kulbachenko, bricklayer, electric welder, reinforced concrete structures, business development, Europe, high-quality services, Professional apartment renovation of any complexity with a warranty in Estonia,
+High-quality facade works with a warranty in Tallinn,
+High-quality facade works with a warranty in Estonia,
+Apartment renovation and finishing with a warranty in Tallinn,
+Apartment renovation and finishing with a warranty in Estonia,
+Construction services with a warranty in Tallinn,
+Construction services with a warranty in Estonia,
+Professional tile laying with a warranty in Tallinn,
+Professional tile laying with a warranty in Estonia,
+Wallpapering with a warranty in Tallinn,
+Wallpapering with a warranty in Estonia,
+Professional plumbing installation with a warranty in Tallinn,
+Professional plumbing installation with a warranty in Estonia,
+Efficient underfloor heating with a warranty in Tallinn,
+Efficient underfloor heating with a warranty in Estonia,
+Professional apartment renovation of any complexity with a warranty in Tallinn,
+Professional apartment renovation of any complexity with a warranty in Estonia,
+High-quality facade works with a warranty in Tallinn,
+High-quality facade works with a warranty in Estonia,
+Apartment renovation and finishing with a warranty in Tallinn,
+Apartment renovation and finishing with a warranty in Estonia,
+Construction services with a warranty in Tallinn,
+Construction services with a warranty in Estonia,
+Professional tile laying with a warranty in Tallinn,
+Professional tile laying with a warranty in Estonia,
+Wallpapering with a warranty in Tallinn,
+Wallpapering with a warranty in Estonia,
+Professional plumbing installation with a warranty in Tallinn,
+Professional plumbing installation with a warranty in Estonia,
+Efficient underfloor heating with a warranty in Tallinn,
+Efficient underfloor heating with a warranty in Estonia,
+Professional apartment renovation of any complexity with a warranty in Tallinn,
+Professional apartment renovation of any complexity with a warranty in Estonia') }}">
+    {% elif language == 'uk' %}
+        <meta name="description" content="{{ _('Мене звати Сергій Кульбаченко, і я працюю в галузі будівництва вже довгий час. Все почалося, коли я приїхав до Києва у 2005 та отримав освіту') }}">
+        <meta name="keywords" content="{{ _('будівництво, Сергій Кульбаченко, каменяр, електрозварник, армованобетонні конструкції, розвиток бізнесу, Європа, високоякісні послуги, Професійний ремонт квартир будь-якої складності з гарантією в Естонії,
+Якісні фасадні роботи з гарантією в Таллінні,
+Якісні фасадні роботи з гарантією в Естонії,
+Ремонт і обробка квартир з гарантією в Таллінні,
+Ремонт і обробка квартир з гарантією в Естонії,
+Послуги з будівництва з гарантією в Таллінні,
+Послуги з будівництва з гарантією в Естонії,
+Професійне кладання плитки з гарантією в Таллінні,
+Професійне кладання плитки з гарантією в Естонії,
+Поклейка шпалер з гарантією в Таллінні,
+Поклейка шпалер з гарантією в Естонії,
+Професійна установка сантехніки з гарантією в Таллінні,
+Професійна установка сантехніки з гарантією в Естонії,
+Ефективні теплі підлоги з гарантією в Таллінні,
+Ефективні теплі підлоги з гарантією в Естонії,
+Професійний ремонт квартир будь-якої складності з гарантією в Таллінні,
+Професійний ремонт квартир будь-якої складності з гарантією в Естонії,
+Якісні фасадні роботи з гарантією в Таллінні,
+Якісні фасадні роботи з гарантією в Естонії,
+Ремонт і обробка квартир з гарантією в Таллінні,
+Ремонт і обробка квартир з гарантією в Естонії,
+Послуги з будівництва з гарантією в Таллінні,
+Послуги з будівництва з гарантією в Естонії,
+Професійне кладання плитки з гарантією в Таллінні,
+Професійне кладання плитки з гарантією в Естонії,
+Поклейка шпалер з гарантією в Таллінні,
+Поклейка шпалер з гарантією в Естонії,
+Професійна установка сантехніки з гарантією в Таллінні,
+Професійна установка сантехніки з гарантією в Естонії,
+Ефективні теплі підлоги з гарантією в Таллінні,
+Ефективні теплі підлоги з гарантією в Естонії,
+Професійний ремонт квартир будь-якої складності з гарантією в Таллінні,
+Професійний ремонт квартир будь-якої складності з гарантією в Естонії') }}">
+    {% elif language == 'ru' %}
+        <meta name="description" content="{{ _('Меня зовут Сергей Кульбаченко, и я работаю в строительной отрасли уже долгое время. Все началось, когда я приехал в Киев в 2005 и получил образование') }}">
+        <meta name="keywords" content="{{ _('строительство, Сергей Кульбаченко, каменщик, электросварщик, железобетонные конструкции, развитие бизнеса, Европа, высококачественные услуги, Профессиональный ремонт квартир любой сложности с гарантией в Естонии,
+Качественные фасадные работы с гарантией в Таллине,
+Качественные фасадные работы с гарантией в Естонии,
+Ремонт и отделка квартир с гарантией в Таллине,
+Ремонт и отделка квартир с гарантией в Естонии,
+Услуги по строительству с гарантией в Таллине,
+Услуги по строительству с гарантией в Естонии,
+Профессиональная укладка плитки с гарантией в Таллине,
+Профессиональная укладка плитки с гарантией в Естонии,
+Поклейка обоев с гарантией в Таллине,
+Поклейка обоев с гарантией в Естонии,
+Профессиональная установка сантехники с гарантией в Таллине,
+Профессиональная установка сантехники с гарантией в Естонии,
+Эффективные теплые полы с гарантией в Таллине,
+Эффективные теплые полы с гарантией в Естонии,
+Профессиональный ремонт квартир любой сложности с гарантией в Таллине,
+Профессиональный ремонт квартир любой сложности с гарантией в Естонии,
+Качественные фасадные работы с гарантией в Таллине,
+Качественные фасадные работы с гарантией в Естонии,
+Ремонт и отделка квартир с гарантией в Таллине,
+Ремонт и отделка квартир с гарантией в Естонии,
+Услуги по строительству с гарантией в Таллине,
+Услуги по строительству с гарантией в Естонии,
+Профессиональная укладка плитки с гарантией в Таллине,
+Профессиональная укладка плитки с гарантией в Естонии,
+Поклейка обоев с гарантией в Таллине,
+Поклейка обоев с гарантией в Естонии,
+Профессиональная установка сантехники с гарантией в Таллине,
+Профессиональная установка сантехники с гарантией в Естонии,
+Эффективные теплые полы с гарантией в Таллине,
+Эффективные теплые полы с гарантией в Естонии,
+Профессиональный ремонт квартир любой сложности с гарантией в Таллине,
+Профессиональный ремонт квартир любой сложности с гарантией в Естонии') }}">
+    {% elif language == 'et' %}
+        <meta name="description" content="{{ _('Minu nimi on Serhii Kulbachenko ja olen pikka aega töötanud ehituses. Kõik sai alguse sellest, et tulin 2005. aastal Kiievisse ja sain hariduse') }}">
+        <meta name="keywords" content="{{ _('ehitus, Serhii Kulbachenko, telliskivi, elektrikeevitaja, armeeritud betoonkonstruktsioonid, äritegevuse arendamine, Euroopa, kvaliteetsed teenused, Professionaalne korteriremont igas keerukusastmes garantiiga Eestis,
+Kvaliteetsed fassaaditööd garantiiga Tallinnas,
+Kvaliteetsed fassaaditööd garantiiga Eestis,
+Korteriremont ja viimistlus garantiiga Tallinnas,
+Korteriremont ja viimistlus garantiiga Eestis,
+Ehitusteenused garantiiga Tallinnas,
+Ehitusteenused garantiiga Eestis,
+Professionaalne plaaditöö garantiiga Tallinnas,
+Professionaalne plaaditöö garantiiga Eestis,
+Tapeetimine garantiiga Tallinnas,
+Tapeetimine garantiiga Eestis,
+Professionaalne sanitaartehnika paigaldus garantiiga Tallinnas,
+Professionaalne sanitaartehnika paigaldus garantiiga Eestis,
+Efektiivsed sooja põrandad garantiiga Tallinnas,
+Efektiivsed sooja põrandad garantiiga Eestis,
+Professionaalne korteriremont igas keerukusastmes garantiiga Tallinnas,
+Professionaalne korteriremont igas keerukusastmes garantiiga Eestis,
+Kvaliteetsed fassaaditööd garantiiga Tallinnas,
+Kvaliteetsed fassaaditööd garantiiga Eestis,
+Korteriremont ja viimistlus garantiiga Tallinnas,
+Korteriremont ja viimistlus garantiiga Eestis,
+Ehitusteenused garantiiga Tallinnas,
+Ehitusteenused garantiiga Eestis,
+Professionaalne plaaditöö garantiiga Tallinnas,
+Professionaalne plaaditöö garantiiga Eestis,
+Tapeetimine garantiiga Tallinnas,
+Tapeetimine garantiiga Eestis,
+Professionaalne sanitaartehnika paigaldus garantiiga Tallinnas,
+Professionaalne sanitaartehnika paigaldus garantiiga Eestis,
+Efektiivsed sooja põrandad garantiiga Tallinnas,
+Efektiivsed sooja põrandad garantiiga Eestis,
+Professionaalne korteriremont igas keerukusastmes garantiiga Tallinnas,
+Professionaalne korteriremont igas keerukusastmes garantiiga Eestis, Kulbachenko Ehitus, KulbachenkoEhitus, Kulba Ehitus,
+кульбаченко ehitus, kulbachenko, ehitus, ehitus estonia, ehitus tallin, remont Eesti, ehitus Eesti,
+EhitusKulbachenko, tööriistad ja -tarvikud, Telli korteri remont või renoveerimine Tallinnas, krohvimine, veevarustus,
+plaatimine, elektritööd, Korteri remont, vannitubade remont Tallinnas ja Harjumaal, Erinevad ehitus- ja remonditööd,
+korterites ja büroodes, Kõik ehitustööd korterite ja eramute,
+') }}">
+    {% endif %}
+{% endblock %}
+
 {% block title %}{{ _('About') }}{% endblock %}
 
 {% block content %}
@@ -26,7 +177,7 @@
       <div class="col-md-5">
         <div class="h-100 bg-body-tertiary">
           <div class="responsive-image-container">
-            <img src="static/images/image_07_01/kulbachenko_main.jpg" alt="Responsive Image">
+            <img src="{{ url_for('static', filename='images/image_07_01/kulbachenko_main.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}">
           </div>
         </div>
       </div>

@@ -62,22 +62,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-
-async function changeLanguage(languageCode) {
-    // Set the language code in the Flask session
-    await fetch(`/set_language/${languageCode}`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({}),
-    });
-
-    // Modify the query parameter without reloading the entire page
-    window.location.search = `?lang=${languageCode}`;
-}
-
-
 document.addEventListener('DOMContentLoaded', function () {
     // Select the form
     var form = document.getElementById('contactForm');
