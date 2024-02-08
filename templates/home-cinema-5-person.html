@@ -1,17 +1,41 @@
 {% extends 'base.html' %}
 
-{% block title %}{{ _('Professional home cinema in private house in Ukraine') }}{% endblock %}
+{% block title %}
+    {{ _('Professional home cinema in private house in Ukraine') }}
+{% endblock %}
+
+
+{% block meta %}
+    <meta name="description" content="{{ _('Discover the ultimate cinematic experience with our professional
+                home theater installation in a private residence in Ukraine. Designed for
+                up to five people ..') }}">
+{% endblock %}
 
 {% block content %}
     <div class="container py-2">
-        <div class="album py-5 bg-body-tertiary">
-            <span>
-                <h2>
+        <div class="album page-set bg-body-tertiary">
+
+                <h1>
                     {{ _('PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE') }}
-                </h2>
-            </span>
+                </h1>
+            </div>
+
+            <hr class="featurette-divider">
+
+
+        <div class="album py-5 bg-body-tertiary section_portfolio_description">
+            <p>
+                {{ _('Discover the ultimate cinematic experience with our professional
+                home theater installation in a private residence in Ukraine. Designed for
+                up to five people, this bespoke home cinema delivers immersive audio and
+                visual entertainment right in the comfort of your own home. Explore our
+                gallery to see the exquisite craftsmanship and attention to detail that
+                went into creating this luxurious
+                entertainment space.') }}
+            </p>
         </div>
 
+        <hr class="featurette-divider">
 
         <div class="album py-5 bg-body-tertiary">
 
@@ -20,7 +44,8 @@
 <!--                    фото на странице с Modal-->
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="0">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_1.jpeg" alt="Portfolio Image">
+                <img class="" src="/static/images/portfolio/cinema_5/cinema_1.jpeg"
+                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 1">
 
             </a>
         </div>
@@ -28,47 +53,45 @@
 
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="1">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_2.jpeg" alt="Portfolio Image">
+                <img class="" src="/static/images/portfolio/cinema_5/cinema_2.jpeg"
+                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 2">
 
             </a>
         </div>
 
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="2">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_3.jpeg" alt="Portfolio Image">
+                <img class="" src="/static/images/portfolio/cinema_5/cinema_3.jpeg"
+                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 3">
 
             </a>
         </div>
 
         <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="3">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_4.jpeg" alt="Portfolio Image">
+                <img class="" src="/static/images/portfolio/cinema_5/cinema_4.jpeg"
+                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 4">
 
             </a>
         </div>
 
                     <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="4">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_5.jpeg" alt="Portfolio Image">
+                <img class="" src="/static/images/portfolio/cinema_5/cinema_5.jpeg"
+                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 5">
 
             </a>
         </div>
 
                     <div class="col-sm-6 col-md-3 my-1">
             <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="5">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_6.jpeg" alt="Portfolio Image">
+                <img class="" src="/static/images/portfolio/cinema_5/cinema_6.jpeg"
+                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 6">
 
             </a>
         </div>
 
-
-
-
-
-
     </div>
-
-
 
 
 
@@ -84,32 +107,40 @@
                 <div class="carousel-inner overflow-hidden">
                     <!-- фотографии для слайдов Modal -->
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_1.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_1.jpeg"
+                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 1">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_2.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_2.jpeg"
+                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 2">
                     </div>
                     <div class="carousel-item active">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_3.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_3.jpeg"
+                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 3">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_4.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_4.jpeg"
+                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 4">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_5.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_5.jpeg"
+                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 5">
                     </div>
                     <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_6.jpeg" alt="Portfolio Image">
+                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_6.jpeg"
+                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 6">
                     </div>
 
                 </div>
                 <!-- кнопка назад -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <!-- кнопка вперед -->
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>

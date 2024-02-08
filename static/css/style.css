@@ -651,19 +651,37 @@ nav a.active {
 
 .border-service {
     border: 3px solid #7cbb93;
+    background-color: #7cbb93;
 }
 
 .border-service-consult {
     border: 3px solid #7cbb93;
+    background-color: #7cbb93;
 
 }
 
 .border-service-design {
     border: 3px solid #7cbb93;
+    background-color: #7cbb93;
 
 }
 
 .border-service-construction {
     border: 3px solid #fed472;
+    background-color: #fed472;
 
+}
+
+.section_portfolio_description{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px !important;
+    text-align: center;
+    padding: 0px 30px 30px 30px;
+}
+
+
+.page-set{
+padding-bottom: 1rem !important;
+padding-top: 3rem !important;
 }

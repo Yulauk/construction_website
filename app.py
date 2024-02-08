@@ -149,6 +149,8 @@ def base(setting_language=None):
 # set_language/ru/
 @app.route('/<setting_language>/portfolio', methods=['GET', 'POST'])
 @app.route('/<setting_language>/portfolio/', methods=['GET', 'POST'])
+@app.route('/portfolio/', methods=['GET', 'POST'])
+@app.route('/portfolio', methods=['GET', 'POST'])
 def portfolio(setting_language=None):
     if setting_language is not None and setting_language in app.config['LANGUAGES']:
         session['language'] = setting_language
@@ -445,7 +447,7 @@ def submit_free_consultation():
         verify_response = requests.post(url=f'{VERIFY_URL}?secret={MY_RECAPTCHA_SECRET_KEY}&response={secret_response}').json()
         # print(verify_response)
 
-        if verify_response['success'] == True and verify_response['score'] < 0.6:
+        if verify_response['success'] == True and verify_response['score'] < 0.4:
             username = request.form.get('name')
             contact = request.form.get('contact')
             comment = request.form.get('comment')

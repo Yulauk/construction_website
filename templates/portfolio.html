@@ -1,15 +1,31 @@
 {% extends 'base.html' %}
 
+{% block meta %}
+    <meta name="description" content="{{ _('Explore our portfolio showcasing our professional home cinema,
+     comprehensive renovation projects, and more. Discover the quality and expertise we bring to
+      every project we undertake.') }}">
+{% endblock %}
+
 {% block title %}{{ _('Portfolio') }}{% endblock %}
 
 {% block content %}
     <div class="container py-2">
-    <div class="album py-5 bg-body-tertiary">
+    <div class="album page-set bg-body-tertiary">
         <h1>{{ _('PORTFOLIO') }}</h1>
     </div>
 
+        <hr class="featurette-divider">
 
-    <div class="album py-5 bg-body-tertiary">
+        <div class="album page-set bg-body-tertiary section_portfolio_description">
+            <p>{{ _('Explore our portfolio showcasing our professional home cinema,
+                 comprehensive renovation projects, and more. Discover the quality and expertise we bring to
+                  every project we undertake.') }}
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+            <div class="album py-5 bg-body-tertiary">
 
       <div class="row g-2 clearfix">
 

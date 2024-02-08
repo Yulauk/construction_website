@@ -1,19 +1,27 @@
 {% extends "base.html" %}
 
+{% block meta %}
+    <meta name="description" content="{{ _('Learn about our comprehensive four-step process for home renovation,
+     condo remodel, or kitchen redesign. From initial consultation to project closeout, we ensure transparency,
+      efficiency, and client satisfaction.') }}">
+{% endblock %}
+
 {% block title %}{{ _('Services') }}{% endblock %}
 
 {% block content %}
 	<div class="container py-2">
-    <div class="album py-5 bg-body-tertiary">
+    <div class="album page-set bg-body-tertiary">
 		<h1>{{ _('SERVICES') }}</h1>
 	</div>
 
+		<hr class="featurette-divider">
 
-		<div class="row align-items-md-stretch">
+
+		<div class="row align-items-md-stretch py-5 bg-body-tertiary">
       <div class="col-md-12">
-		  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+		  <div class="p-4 p-md-5 rounded text-body-emphasis bg-body-secondary">
     <div class="col-lg-6 px-0">
-      <h2 class="display-4 fst-italic">{{ _('Our 4-Step Process') }}</h2>
+      <h2 class="display-4">{{ _('Our 4-Step Process') }}</h2>
       <p class="lead my-3">{{ _('Be it a full home renovation, condo remodel, or kitchen redesign,
 					our four-step process is straightforward and organized: an initial
 					consultation with one of our team leads; project design led by one
@@ -26,9 +34,9 @@
 
 		<hr class="featurette-divider">
 
-		<div class="row align-items-md-stretch">
+		<div class="row align-items-md-stretch bg-body-tertiary">
 		<div class="col-md-4">
-			<div class="section border-service-consult">
+			<div class="section border-service-consult rounded">
 				<div class="our-process-left " >
 					<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">1</span>
 					<h3>{{ _('Consultation') }}</h3>
@@ -37,7 +45,7 @@
 		</div>
 
       <div class="col-md-8">
-        <div class="bg-body-tertiary">
+        <div class="bg-body-tertiary ">
           <p>
 			  {{ _("
 			  I take pride in providing a high level of personalized service, starting from the first day
@@ -67,7 +75,7 @@
 
 		<div class="row align-items-md-stretch">
       <div class="col-md-4">
-          <div class="section border-service-design">
+          <div class="section border-service-design rounded">
 			<div class="our-process-left">
 				<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">2</span>
 				<h3>{{ _('Design') }}</h3>
@@ -102,7 +110,7 @@
 		<div class="row align-items-md-stretch">
       <div class="col-md-4">
 
-          <div class="section border-service-construction">
+          <div class="section border-service-construction rounded">
 								<div class="our-process-left">
 											<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">3</span>
 										<h3>{{ _('Construction') }}</h3>
@@ -134,7 +142,7 @@
 	<div class="row align-items-md-stretch">
       <div class="col-md-4">
 
-          <div class="section border-service">
+          <div class="section border-service rounded">
 								<div class="our-process-left">
 									<div class="step-counter-wrapper">
 										<div class="step-counter-border step-counter-border-25">
