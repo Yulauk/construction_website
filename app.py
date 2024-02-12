@@ -447,26 +447,30 @@ def submit_free_consultation():
         verify_response = requests.post(url=f'{VERIFY_URL}?secret={MY_RECAPTCHA_SECRET_KEY}&response={secret_response}').json()
         # print(verify_response)
 
-        if verify_response['success'] == True and verify_response['score'] < 0.4:
-            username = request.form.get('name')
-            contact = request.form.get('contact')
-            comment = request.form.get('comment')
+        if verify_response['success']:
+            if verify_response['score'] > 0.4:
+                username = request.form.get('name')
+                contact = request.form.get('contact')
+                comment = request.form.get('comment')
 
-            cursor = get_db().cursor()
-            try:
-                cursor.execute("INSERT INTO free_consult (name, contact, comment) VALUES (%s, %s, %s)",
-                               (username, contact, comment))
-                get_db().commit()
-                # Add a flash message
-                flash('Your application has been successfully sent', 'success')
+                cursor = get_db().cursor()
+                try:
+                    cursor.execute("INSERT INTO free_consult (name, contact, comment) VALUES (%s, %s, %s)",
+                                   (username, contact, comment))
+                    get_db().commit()
+                    # Add a flash message
+                    flash('Your application has been successfully sent', 'success')
 
+                    return redirect(url_for('index'))
+                except mysql.connector.Error as err:
+                    get_db().rollback()
+                    flash(f'Error submitting form: {err}', 'error')
+                    return redirect(url_for('index'))
+                finally:
+                    cursor.close()
+            else:
+                flash(f'Error submitting form: CAPTCHA score too low', 'error')
                 return redirect(url_for('index'))
-            except mysql.connector.Error as err:
-                get_db().rollback()
-                flash(f'Error submitting form: {err}', 'error')
-                return redirect(url_for('index'))
-            finally:
-                cursor.close()
         else:
             flash(f'Error submitting form: capcha no verify', 'error')
             return redirect(url_for('index'))

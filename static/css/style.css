@@ -683,5 +683,21 @@ nav a.active {
 
 .page-set{
 padding-bottom: 1rem !important;
-padding-top: 3rem !important;
+padding-top: 6rem !important;
+}
+
+.text-center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures the container takes up the full height */
+}
+
+icon-background {
+    position: absolute;
+    top: -15%;
+    right: -10%;
+    opacity: .1;
+    font-size: 12.5rem;
 }
