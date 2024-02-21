@@ -1,5 +1,10 @@
 User-agent: *
-Disallow: project.html, articles.html
+Disallow: /project.html
+Disallow: /articles.html
+Disallow: /set_language/et
+Disallow: /set_language/uk
+Disallow: /set_language/en
+Disallow: /set_language/ru
 Allow: /
 
 Sitemap: https://www.kulbachenko.com/sitemap.xml

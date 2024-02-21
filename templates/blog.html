@@ -41,7 +41,7 @@
                         <p class="mb-auto">{{ _('Discover the comprehensive steps involved in plumbing during a major apartment renovation. From initial assessment to final documentation, each stage ensures the installation of reliable and safe plumbing systems, encompassing everything from demolition to testing and connection of appliances.') }}</p>
 
                         <!--link to article page-->
-                        <a href="{{ url_for('plumbing_work', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link">
+                        <a href="{{ url_for('plumbing_work', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link stages-of-plumbing-work">
                             {{ _('Continue reading') }}
                             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                         </a>
@@ -71,7 +71,7 @@
                         <p class="mb-auto">{{ _('Comprehensive Electrical Installation for Apartment Renovation') }}</p>
 
                         <!--link to article page-->
-                        <a href="{{ url_for('electrical_installation', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link">
+                        <a href="{{ url_for('electrical_installation', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link comprehensive-electrical-installation-for-apartment-renovation key-steps-in-electrical-installation">
                             {{ _('Continue reading') }}
                             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                         </a>
@@ -92,7 +92,7 @@
 
                         <a href="{{ url_for('articles_renovation', setting_language=language) }}"
 
-                           class="icon-link gap-1 icon-link-hover stretched-link">
+                           class="icon-link gap-1 icon-link-hover stretched-link apartment-renovation">
                             {{ _('Continue reading') }}
                             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                         </a>
@@ -111,7 +111,7 @@
                         <div class="mb-1 text-body-secondary">{{ _('Jan') }} 24</div>
                         <p class="mb-auto">{{ _('Rough construction works in the building industry represent the initial stage of constructing a building') }}
                         </p>
-                        <a href="{{ url_for('articles_building', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link">
+                        <a href="{{ url_for('articles_building', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link building-creation">
                             {{ _('Continue reading') }}
                             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                         </a>
@@ -140,7 +140,8 @@
                         <div class="col-auto d-none d-lg-block">
 
                             <!--article image-->
-                            <img src="{{ url_for('static', filename='/images/blog_images/plumbing_kulbachenko.jpg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
+                            <img src="{{ url_for('static', filename='/images/blog_images/plumbing_kulbachenko.jpg') }}"
+                                 alt="Logo" width="200" height="250" style="object-fit: cover;">
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">
                             <!--tag-->

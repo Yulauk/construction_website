@@ -449,9 +449,9 @@ def submit_free_consultation():
 
         if verify_response['success']:
             if verify_response['score'] > 0.4:
-                username = request.form.get('name')
-                contact = request.form.get('contact')
-                comment = request.form.get('comment')
+                username = request.form.get('name-free-consult')
+                contact = request.form.get('contact-free-consult')
+                comment = request.form.get('comment-free-consult')
 
                 cursor = get_db().cursor()
                 try:
@@ -476,23 +476,37 @@ def submit_free_consultation():
             return redirect(url_for('index'))
 
 
+def delete_selenium_tst_free_consult():
+    cursor = get_db().cursor()
+    cursor.execute('DELETE FROM free_consult WHERE name="Selenium_tst"')
+    get_db().commit()
+    cursor.close()
+
+def delete_selenium_tst_contact():
+    cursor = get_db().cursor()
+    cursor.execute('DELETE FROM contact WHERE name="aa"')
+    get_db().commit()
+    cursor.close()
+
+
+
 # сontact is responsible for saving
 # the entered data in the Contact Us form
 @app.route('/submit_contact_us', methods=['POST'])
 def submit_contact_us():
     if request.method == 'POST':
-        name = request.form.get('name')
-        surname = request.form.get('surname')
-        email = request.form.get('email')
-        phone = request.form.get('phone')
-        city = request.form.get('city')
-        state = request.form.get('state')
-        zip_code = request.form.get('zip')
-        address = request.form.get('address')
-        budget = request.form.get('budget')
-        time = request.form.get('time')
-        source = request.form.get('source')
-        project_ = request.form.get('project')
+        name = request.form.get('name-contact-us')
+        surname = request.form.get('surname-contact-us')
+        email = request.form.get('email-contact-us')
+        phone = request.form.get('phone-contact-us')
+        city = request.form.get('city-contact-us')
+        state = request.form.get('state-contact-us')
+        zip_code = request.form.get('zip-contact-us')
+        address = request.form.get('address-contact-us')
+        budget = request.form.get('budget-contact-us')
+        time = request.form.get('time-contact-us')
+        source = request.form.get('source-contact-us')
+        project_ = request.form.get('project-contact-us')
 
         cursor = get_db().cursor()
         try:
