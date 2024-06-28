@@ -562,13 +562,13 @@ nav a.active {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 780px) {
     #header-big {
         display: none; /* Hide the header on smaller screens */
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 780px) {
     #index-big {
         display: none; /* Hide the header on smaller screens */
     }
@@ -625,6 +625,22 @@ nav a.active {
     border-radius: 0; /* Remove border radius */
     background-size: cover; /* Adjust this based on how you want the image to be displayed */
     background-color: transparent; /* Make background transparent to see the image */
+
+}
+
+.navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: #f8f9fa;
+    background-color: transparent;
+    border: var(--bs-border-width) solid rgb(248 249 250);
+    /* border-radius: var(--bs-navbar-toggler-border-radius); */
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgb(127 127 127);
 }
 
 .partners {
@@ -648,29 +664,6 @@ nav a.active {
 .grecaptcha-badge {
     visibility: hidden;
     }
-
-.border-service {
-    border: 3px solid #7cbb93;
-    background-color: #7cbb93;
-}
-
-.border-service-consult {
-    border: 3px solid #7cbb93;
-    background-color: #7cbb93;
-
-}
-
-.border-service-design {
-    border: 3px solid #7cbb93;
-    background-color: #7cbb93;
-
-}
-
-.border-service-construction {
-    border: 3px solid #fed472;
-    background-color: #fed472;
-
-}
 
 .section_portfolio_description{
     margin-top: 0;
@@ -700,4 +693,66 @@ icon-background {
     right: -10%;
     opacity: .1;
     font-size: 12.5rem;
+}
+
+.bg-image-service-consult {
+    background-image: url('/static/images/services_image/step1.png');
+    /*background-size: cover; чтобы изображение полностью покрывало блок */
+    background-position: center; /* чтобы изображение было выровнено по центру */
+    background-repeat: no-repeat; /* чтобы изображение не повторялось */
+    position: relative; /* чтобы добавить абсолютно позиционированный элемент поверх изображения */
+}
+
+.border-service-design {
+    background-image: url('/static/images/services_image/step2.png');
+    /*background-size: cover;  чтобы изображение полностью покрывало блок */
+    background-position: center; /* чтобы изображение было выровнено по центру */
+    background-repeat: no-repeat; /* чтобы изображение не повторялось */
+    position: relative; /* чтобы добавить абсолютно позиционированный элемент поверх изображения */
+
+}
+
+.border-service-construction {
+    background-image: url('/static/images/services_image/step3.png');
+    /*background-size: cover;  чтобы изображение полностью покрывало блок */
+    background-position: center; /* чтобы изображение было выровнено по центру */
+    background-repeat: no-repeat; /* чтобы изображение не повторялось */
+    position: relative; /* чтобы добавить абсолютно позиционированный элемент поверх изображения */
+}
+
+.border-service-closeout {
+    background-image: url('/static/images/services_image/Kulbachenko_gif.gif');
+    /*background-size: cover; чтобы изображение полностью покрывало блок */
+    background-position: center; /* чтобы изображение было выровнено по центру */
+    background-repeat: no-repeat; /* чтобы изображение не повторялось */
+    position: relative; /* чтобы добавить абсолютно позиционированный элемент поверх изображения */
+}
+
+/* contacts-div */
+#contacts-div {
+    font-size: calc(1.275rem + .3vw);
+    text-align: left;
+    background-color: None;
+    padding-top: 3rem !important;
+    padding-bottom: 1.5rem !important;
+    font-weight: 500;
+}
+
+.logo-image {
+    width: 244px;
+    height: 70px; /* Assuming this is the desired height */
+    object-fit: cover;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-lg-start {
+    justify-content: flex-start;
 }

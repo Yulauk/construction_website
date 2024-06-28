@@ -32,9 +32,9 @@
             <header id="index-big">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="/static/images/lines-80.png" alt="Logo" width="70px" height="70px"
-                             style="object-fit: none;">
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none about-index {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">
+                        <img src="/static/images/logo/Kulbachenko_orange_blocks.png" alt="Logo" width="70px" height="70px"
+                             style="object-fit: contain;">
                 </a>
 
                 <nav id="index-nav" class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -77,8 +77,8 @@
         <div id="index-header-fluid-mini" class="container-fluid">
 
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="{{ url_for('static', filename='images/lines-80.png') }}" alt="Logo" width="70px" height="70px">
-                    <span id="index-header-mini-span" class="me-2 fs-4">{{ _('Kulbachenko') }}<br>{{ _('Construction') }}</span>
+                        <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_blocks.png') }}" alt="Logo" width="70px" height="70px" style="object-fit: contain;">
+<!--                    <span id="index-header-mini-span" class="me-2 fs-4">{{ _('KULBACHENKO') }}<br>{{ _('CONSTRUCTION') }}</span>-->
                 </a>
 
         <div class="tst">
@@ -99,7 +99,8 @@
             </div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <img src="{{ url_for('static', filename='images/icons8-menu.svg') }}" alt="Menu Icon" style="width: 50px; height: 50px;">
+<!--                <img src="{{ url_for('static', filename='images/icons8-menu.svg') }}" alt="Menu Icon" style="width: 50px; height: 50px;">-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px"><g fill="#f8f9fa" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,9v2h50v-2zM0,24v2h50v-2zM0,39v2h50v-2z"></path></g></g></svg>
             </button>
         </div>
     </nav>
@@ -159,10 +160,17 @@
 {% endblock %}
 <div class="text-center-container">
             <div class="main-middle-block text-center">
-                <div class="main-text-carousel">
-                    <h1>
-                        {{ _('Kulbachenko') }}<br>{{ _('Construction') }}
-                    </h1>
+                <div class="main-text-carousel" style="
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+">
+<!--                    <h1>-->
+<!--                        {{ _('KULBACHENKO') }}<br>{{ _('CONSTRUCTION') }}-->
+<!--                    </h1>-->
+                    <img src="/static/images/logo/logo_white_letters_tools_index_page.png" alt="Logo" width="385" height="385px" style="object-fit: contain;display: flex;">
                 </div>
             </div>
 
@@ -179,21 +187,28 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-container" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
-                    <img src="{{ url_for('static', filename='images/image_07_01/bathroom_index.jpg') }}" class="d-block w-100" alt="Slide 1">
+                    <img src="{{ url_for('static', filename='images/image_07_01/bathroom_index.png') }}" class="d-block w-100" alt="Slide 1">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
                         <!-- Add additional text or elements as needed -->
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ url_for('static', filename='images/carousel/bass_p.jpeg') }}" class="d-block w-100"
+                    <img src="{{ url_for('static', filename='images/carousel/bass_p.png') }}" class="d-block w-100"
                          alt="Slide 2">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
                         <!-- Add additional text or elements as needed -->
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img src="{{ url_for('static', filename='images/image_07_01/cinema_1.jpg') }}" class="d-block w-100"
+                    <img src="{{ url_for('static', filename='images/image_07_01/cinema_1.png') }}" class="d-block w-100"
                          alt="Slide 3">
+                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                        <!-- Add additional text or elements as needed -->
+                    </div>
+                </div>
+                <div class="carousel-item new1">
+                    <img src="{{ url_for('static', filename='images/image_07_01/shower_warsaw.png') }}" class="d-block w-100"
+                         alt="Slide 4">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
                         <!-- Add additional text or elements as needed -->
                     </div>
@@ -208,15 +223,14 @@
 <div class="container py-2">
         <div class="intro" style="padding:40px 30px 30px 30px; text-align:center; font-size: 20px !important" >
         <p>
-            {{ _('We specialize in providing professional construction, renovation, and interior
-            design services in Estonia and Ukraine. Our company has extensive experience in executing various
-            projects, from large-scale constructions to small finishing works.
+            {{ _('We specialize professionally in providing services for construction, renovation, and interior design.
+            Our company has extensive experience in implementing various projects: from large-scale construction works
+            to small finishing works.
             &nbsp;<br>&nbsp;
             &nbsp;<br>&nbsp;
-            We strive for the highest quality in every project, ensuring clients receive individual
-            attention and meticulous detail. Whether you need an apartment renovation, construction
-            of a country house, or creation of a unique interior design, we are ready
-            to exceed your expectations.') }}
+            We strive to achieve the highest quality in every project, ensuring individual approach and meticulous
+            attention to details for our clients. If you need to renovate an apartment, build a country house, or
+            create a unique interior design, we are ready to exceed your expectations.') }}
         </p>
             </div>
 </div>

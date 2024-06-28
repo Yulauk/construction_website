@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-07 16:30+0100\n"
+"POT-Creation-Date: 2024-06-27 22:41+0200\n"
 "PO-Revision-Date: 2024-01-12 04:59+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
@@ -33,8 +33,8 @@ msgstr ""
 msgid "About"
 msgstr "ПРО НАС"
 
-#: templates/about.html:16 templates/base.html:84 templates/base.html:191
-#: templates/index.html:62 templates/index.html:119
+#: templates/about.html:16 templates/base.html:82 templates/base.html:191
+#: templates/index.html:62 templates/index.html:120
 msgid "ABOUT"
 msgstr "ПРО НАС"
 
@@ -70,202 +70,203 @@ msgstr ""
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction + Design"
 msgstr "Кульбаченко Будівництво + Дизайн"
 
-#: templates/base.html:46
+#: templates/base.html:44
 msgid "Kulbachenko Construction + Design"
 msgstr "Кульбаченко Будівництво + Дизайн"
 
-#: templates/base.html:58 templates/base.html:110 templates/base.html:153
-#: templates/index.html:81 templates/index.html:165
-msgid "Kulbachenko"
-msgstr "Кульбаченко"
-
-#: templates/base.html:58 templates/base.html:110 templates/base.html:153
-#: templates/blog.html:109 templates/blog.html:239 templates/index.html:81
-#: templates/index.html:165 templates/services.html:116
-msgid "Construction"
-msgstr "Будівництво"
-
-#: templates/base.html:85 templates/base.html:194 templates/index.html:63
-#: templates/index.html:122 templates/portfolio.html:14
+#: templates/base.html:83 templates/base.html:194 templates/index.html:63
+#: templates/index.html:123 templates/portfolio.html:14
 msgid "PORTFOLIO"
 msgstr "ПОРТФОЛІО"
 
-#: templates/base.html:86 templates/base.html:197 templates/index.html:64
-#: templates/index.html:125 templates/services.html:14
+#: templates/base.html:84 templates/base.html:197 templates/index.html:64
+#: templates/index.html:126 templates/services.html:14
 msgid "SERVICES"
 msgstr "ПОСЛУГИ"
 
-#: templates/base.html:87 templates/base.html:200 templates/blog.html:8
-#: templates/index.html:65 templates/index.html:128
+#: templates/base.html:85 templates/base.html:200 templates/blog.html:8
+#: templates/index.html:65 templates/index.html:129
 msgid "BLOG"
 msgstr "БЛОГ"
 
-#: templates/base.html:91 templates/index.html:69
+#: templates/base.html:89 templates/index.html:69
 msgid "CONTACT US"
 msgstr "ЗВ'ЯЗАТИСЬ З НАМИ"
+
+#: templates/base.html:108 templates/base.html:153 templates/index.html:81
+#: templates/index.html:171
+#, fuzzy
+msgid "KULBACHENKO"
+msgstr "Кульбаченко"
+
+#: templates/base.html:108 templates/base.html:153 templates/index.html:81
+#: templates/index.html:171
+#, fuzzy
+msgid "CONSTRUCTION"
+msgstr "Будівництво"
 
 #: templates/base.html:188
 msgid "HOME"
 msgstr "ГОЛОВНА"
 
-#: templates/base.html:205 templates/base.html:206 templates/index.html:133
-#: templates/index.html:134
+#: templates/base.html:205 templates/base.html:206 templates/index.html:134
+#: templates/index.html:135
 msgid "Search"
 msgstr "Пошук"
 
-#: templates/base.html:228
+#: templates/base.html:229
 msgid "Get a Free Consultation"
 msgstr "Безкоштовна консультація"
 
-#: templates/base.html:235
+#: templates/base.html:236
 msgid "First Name"
 msgstr "Ім'я"
 
-#: templates/base.html:241
+#: templates/base.html:242
 msgid "Your Contact"
 msgstr "Ваш контакт"
 
-#: templates/base.html:247
+#: templates/base.html:248
 msgid "Comment"
 msgstr "Коментар"
 
-#: templates/base.html:256
+#: templates/base.html:257
 msgid "Verify Submit"
 msgstr "Надіслати"
 
-#: templates/base.html:271
+#: templates/base.html:272
 msgid "Contact Us"
 msgstr "Зв'язатись з нами"
 
-#: templates/base.html:275
+#: templates/base.html:276
 msgid "First name"
 msgstr "Ім'я"
 
-#: templates/base.html:281
+#: templates/base.html:282
 msgid "Last name"
 msgstr "Прізвище"
 
-#: templates/base.html:287
+#: templates/base.html:288
 msgid "Email address"
 msgstr "Email"
 
-#: templates/base.html:296
+#: templates/base.html:297
 msgid "Phone"
 msgstr "Телефон"
 
-#: templates/base.html:302
+#: templates/base.html:303
 msgid "City"
 msgstr "Місто"
 
-#: templates/base.html:308
+#: templates/base.html:309
 msgid "State"
 msgstr "Область"
 
-#: templates/base.html:313
+#: templates/base.html:314
 msgid "Zip"
 msgstr "Поштовий індекс"
 
-#: templates/base.html:319
+#: templates/base.html:320
 msgid "Address"
 msgstr "Адреса"
 
-#: templates/base.html:324
+#: templates/base.html:325
 msgid "Target budget"
 msgstr "Цільовий бюджет"
 
-#: templates/base.html:326
+#: templates/base.html:327
 msgid "Select budget range"
 msgstr "Виберіть діапазон бюджету"
 
-#: templates/base.html:327
+#: templates/base.html:328
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:328
+#: templates/base.html:329
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:329
+#: templates/base.html:330
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:330
+#: templates/base.html:331
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:331
+#: templates/base.html:332
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:332
+#: templates/base.html:333
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:333
+#: templates/base.html:334
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:339
+#: templates/base.html:340
 msgid "Project time frame"
 msgstr "Термін реалізації проекту"
 
-#: templates/base.html:341
+#: templates/base.html:342
 msgid "Select time frame"
 msgstr "Оберіть проміжок часу"
 
-#: templates/base.html:342
+#: templates/base.html:343
 msgid "As soon as possible"
 msgstr "Як тільки це можливо"
 
-#: templates/base.html:343
+#: templates/base.html:344
 msgid "Starting within 3 months"
 msgstr "Початок впродовж 3 місяців"
 
-#: templates/base.html:344
+#: templates/base.html:345
 msgid "Starting within 6 months"
 msgstr "Початок впродовж 6 місяців"
 
-#: templates/base.html:345
+#: templates/base.html:346
 msgid "Starting within a year"
 msgstr "Початок впродовж 1 року"
 
-#: templates/base.html:351
+#: templates/base.html:352
 msgid "How did you hear about us?"
 msgstr "Як ви дізналися про нас?"
 
-#: templates/base.html:353
+#: templates/base.html:354
 msgid "Select an option"
 msgstr "Оберіть варіант"
 
-#: templates/base.html:354
+#: templates/base.html:355
 msgid "Online Advertisement"
 msgstr "Онлайн Реклама"
 
-#: templates/base.html:355
+#: templates/base.html:356
 msgid "Friend or Colleague"
 msgstr "Друг чи Колега"
 
-#: templates/base.html:356
+#: templates/base.html:357
 msgid "Social networks"
 msgstr "Соціальні мережі"
 
-#: templates/base.html:357
+#: templates/base.html:358
 msgid "Google"
 msgstr "Google"
 
-#: templates/base.html:358
+#: templates/base.html:359
 msgid "Other"
 msgstr "Інше"
 
-#: templates/base.html:364
+#: templates/base.html:365
 msgid "Tell us about your project"
 msgstr "Розкажіть нам про свій проект"
 
-#: templates/base.html:375
+#: templates/base.html:376
 msgid "Agree to terms and conditions"
 msgstr "Погоджуюсь з умовами"
 
-#: templates/base.html:382
+#: templates/base.html:383
 msgid "Submit form"
 msgstr "Надіслати"
 
@@ -273,16 +274,50 @@ msgstr "Надіслати"
 msgid "Blog"
 msgstr "Блог"
 
-#: templates/blog.html:32 templates/blog.html:62 templates/blog.html:88
-#: templates/blog.html:147 templates/blog.html:182 templates/blog.html:212
+#: templates/blog.html:32 templates/blog.html:64 templates/blog.html:94
+#: templates/blog.html:120 templates/blog.html:180 templates/blog.html:215
+#: templates/blog.html:245
 msgid "Renovation"
 msgstr "Ремонт"
 
-#: templates/blog.html:32 templates/blog.html:147
+#: templates/blog.html:32 templates/blog.html:64 templates/blog.html:180
 msgid "Plumbing"
 msgstr "Сантехніка"
 
-#: templates/blog.html:35 templates/blog.html:151
+#: templates/blog.html:35
+msgid "Shower without tray: Useful properties and advantages"
+msgstr "Душ без піддону: корисні властивості та переваги"
+
+#: templates/blog.html:38
+msgid "Jun"
+msgstr "Січень"
+
+#: templates/blog.html:41
+msgid ""
+"A walk-in shower, also known as a floor-level shower, offers a modern and"
+" practical solution for bathrooms. Without a raised base or traditional "
+"tray, it provides a sleek, minimalist look, ease of use, and improved "
+"hygiene. Ideal for all ages and abilities, it is easy to clean and can "
+"increase property value. Consider this stylish option for your next "
+"bathroom renovation.\n"
+"\n"
+msgstr ""
+"Душ-кабіна без піддону, також відома як душ на рівні підлоги, пропонує "
+"сучасне і практичне рішення для ванних кімнат. Без піднятої основи або "
+"традиційного піддону вона має стильний, мінімалістичний вигляд, що "
+"спрощує експлуатацію і покращує гігієну. Ідеально підходить для осіб усіх "
+"вікових категорій та здібностей, легко чиститься і може збільшити вартість "
+"нерухомості. Розгляньте цей стильний варіант для вашого наступного "
+"ремонту ванної кімнати.\n"
+"\n"
+
+#: templates/blog.html:47 templates/blog.html:77 templates/blog.html:107
+#: templates/blog.html:128 templates/blog.html:147 templates/blog.html:192
+#: templates/blog.html:226 templates/blog.html:250 templates/blog.html:283
+msgid "Continue reading"
+msgstr "Продовжити читання"
+
+#: templates/blog.html:67 templates/blog.html:184
 #: templates/blog_templates/apartment-renovation.html:123
 #: templates/blog_templates/building-creation.html:112
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:102
@@ -291,13 +326,13 @@ msgstr "Сантехніка"
 msgid "Stages of Plumbing Work in Apartment Renovation"
 msgstr "Етапи водопостачання в ремонті квартири."
 
-#: templates/blog.html:38 templates/blog.html:68 templates/blog.html:111
-#: templates/blog.html:154 templates/blog.html:188 templates/blog.html:214
-#: templates/blog.html:245
+#: templates/blog.html:70 templates/blog.html:100 templates/blog.html:143
+#: templates/blog.html:187 templates/blog.html:221 templates/blog.html:247
+#: templates/blog.html:278
 msgid "Jan"
 msgstr "Січень"
 
-#: templates/blog.html:41 templates/blog.html:157
+#: templates/blog.html:73 templates/blog.html:190
 msgid ""
 "Discover the comprehensive steps involved in plumbing during a major "
 "apartment renovation. From initial assessment to final documentation, "
@@ -311,56 +346,57 @@ msgstr ""
 "систем, охоплюючи все від демонтажу до випробувань та підключення "
 "приладів."
 
-#: templates/blog.html:45 templates/blog.html:75 templates/blog.html:96
-#: templates/blog.html:115 templates/blog.html:159 templates/blog.html:193
-#: templates/blog.html:217 templates/blog.html:250
-msgid "Continue reading"
-msgstr "Продовжити читання"
-
-#: templates/blog.html:62 templates/blog.html:182
+#: templates/blog.html:94 templates/blog.html:215
 msgid "Electrics"
 msgstr "Електрика"
 
-#: templates/blog.html:65 templates/blog.html:185
-#: templates/blog_templates/apartment-renovation.html:136
+#: templates/blog.html:97 templates/blog.html:218
+#: templates/blog_templates/apartment-renovation.html:137
 #: templates/blog_templates/building-creation.html:125
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:17
-#: templates/blog_templates/stages-of-plumbing-work.html:114
+#: templates/blog_templates/shower-without-tray.html:190
+#: templates/blog_templates/stages-of-plumbing-work.html:115
 msgid "Key Steps in Electrical Installation for Apartment Renovation"
 msgstr "Основні етапи електромонтажу для ремонту квартири"
 
-#: templates/blog.html:71 templates/blog.html:191
+#: templates/blog.html:103 templates/blog.html:224
 msgid "Comprehensive Electrical Installation for Apartment Renovation"
 msgstr "Комплексний електромонтаж для ремонту квартири"
 
-#: templates/blog.html:89 templates/blog.html:213
+#: templates/blog.html:121 templates/blog.html:246
 #: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:15
 #: templates/blog_templates/building-creation.html:137
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:114
-#: templates/blog_templates/stages-of-plumbing-work.html:127
+#: templates/blog_templates/shower-without-tray.html:203
+#: templates/blog_templates/stages-of-plumbing-work.html:128
 msgid "Apartment renovation"
 msgstr "Ремонт квартири"
 
-#: templates/blog.html:90
+#: templates/blog.html:122
 msgid "Jan 24"
 msgstr "Січень 24"
 
-#: templates/blog.html:91 templates/blog.html:215
+#: templates/blog.html:123 templates/blog.html:248
 msgid "A comprehensive apartment renovation includes various stages"
 msgstr "Ремонт квартири включає кілька послідовних етапів."
 
-#: templates/blog.html:110 templates/blog.html:242
-#: templates/blog_templates/apartment-renovation.html:149
+#: templates/blog.html:141 templates/blog.html:272 templates/services.html:129
+msgid "Construction"
+msgstr "Будівництво"
+
+#: templates/blog.html:142 templates/blog.html:275
+#: templates/blog_templates/apartment-renovation.html:150
 #: templates/blog_templates/building-creation.html:3
 #: templates/blog_templates/building-creation.html:15
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:127
-#: templates/blog_templates/stages-of-plumbing-work.html:141
+#: templates/blog_templates/shower-without-tray.html:217
+#: templates/blog_templates/stages-of-plumbing-work.html:142
 msgid "Building creation"
 msgstr "Будівництво об'єкта"
 
-#: templates/blog.html:112 templates/blog.html:248
+#: templates/blog.html:144 templates/blog.html:281
 msgid ""
 "Rough construction works in the building industry represent the initial "
 "stage of constructing a building"
@@ -368,7 +404,7 @@ msgstr ""
 "Чорнові будівельні роботи в будівельній галузі є початковим етапом "
 "будівництва будівлі"
 
-#: templates/blog.html:132
+#: templates/blog.html:164
 msgid "Latest Updates"
 msgstr "Останні оновлення"
 
@@ -440,31 +476,29 @@ msgstr ""
 "Будівництво та ремонтні послуги для квартир та офісів різних розмірів. "
 "Професійні будівельні роботи спрямовані на приватні будинки."
 
-#: templates/index.html:116
+#: templates/index.html:117
 msgid "MAIN"
 msgstr "ГОЛОВНА"
 
-#: templates/index.html:171
+#: templates/index.html:180
 msgid "VIEW OUR PORTFOLIO"
 msgstr "ПЕРЕГЛЯНУТИ ПОРТФОЛІО"
 
-#: templates/index.html:208
+#: templates/index.html:226
 msgid ""
-"We specialize in providing professional construction, renovation, and "
-"interior\n"
-"            design services in Estonia and Ukraine. Our company has "
-"extensive experience in executing various\n"
-"            projects, from large-scale constructions to small finishing "
-"works.\n"
+"We specialize professionally in providing services for construction, "
+"renovation, and interior design.\n"
+"            Our company has extensive experience in implementing various "
+"projects: from large-scale construction works\n"
+"            to small finishing works.\n"
 "            &nbsp;<br>&nbsp;\n"
 "            &nbsp;<br>&nbsp;\n"
-"            We strive for the highest quality in every project, ensuring "
-"clients receive individual\n"
-"            attention and meticulous detail. Whether you need an "
-"apartment renovation, construction\n"
-"            of a country house, or creation of a unique interior design, "
-"we are ready\n"
-"            to exceed your expectations."
+"            We strive to achieve the highest quality in every project, "
+"ensuring individual approach and meticulous\n"
+"            attention to details for our clients. If you need to renovate"
+" an apartment, build a country house, or\n"
+"            create a unique interior design, we are ready to exceed your "
+"expectations."
 msgstr ""
 "Ми спеціалізуємося на наданні професійних будівельних, ремонтних та "
 "інтер'єрних\n"
@@ -482,7 +516,7 @@ msgstr ""
 "інтер'єру, ми готові\n"
 "            перевищити ваші очікування."
 
-#: templates/index.html:254
+#: templates/index.html:271
 msgid "OUR PARTNERS"
 msgstr "НАШІ ПАРТНЕРИ"
 
@@ -542,11 +576,11 @@ msgstr ""
 msgid "Services"
 msgstr "Послуги"
 
-#: templates/services.html:24
+#: templates/services.html:29
 msgid "Our 4-Step Process"
 msgstr "Наш 4-х етапний процес"
 
-#: templates/services.html:25
+#: templates/services.html:30
 msgid ""
 "Be it a full home renovation, condo remodel, or kitchen redesign,\n"
 "\t\t\t\t\tour four-step process is straightforward and organized: an "
@@ -566,16 +600,16 @@ msgstr ""
 "нашою\n"
 "\t\t\t\t\tвласною командою; та завершення робіт з участю всієї команди."
 
-#: templates/services.html:41 templates/services.html:80
-#: templates/services.html:115 templates/services.html:149
+#: templates/services.html:52 templates/services.html:91
+#: templates/services.html:128
 msgid "Step"
 msgstr "Етап"
 
-#: templates/services.html:42
+#: templates/services.html:53
 msgid "Consultation"
 msgstr "Консультація"
 
-#: templates/services.html:50
+#: templates/services.html:56
 msgid ""
 "\n"
 "\t\t\t  I take pride in providing a high level of personalized service, "
@@ -629,15 +663,15 @@ msgstr ""
 "\t\t\t пропозицію, включаючи приблизну оцінку вартості.\n"
 "\t\t\t "
 
-#: templates/services.html:68
+#: templates/services.html:74
 msgid "COST: Free"
 msgstr "ВАРТІСТЬ: Безкоштовно"
 
-#: templates/services.html:81
+#: templates/services.html:92
 msgid "Design"
 msgstr "Дизайн"
 
-#: templates/services.html:89
+#: templates/services.html:96
 msgid ""
 "\n"
 "\t\t\t  After the approval of the cost estimate, we proceed to the design"
@@ -673,12 +707,12 @@ msgstr ""
 "передбачувані етапи.\n"
 "\t\t\t "
 
-#: templates/services.html:99
+#: templates/services.html:106
 #, python-format
 msgid "COST: typically 10 – 15%% of estimated construction cost"
 msgstr "ВАРТІСТЬ: зазвичай 10 – 15%% від розрахункової вартості будівництва"
 
-#: templates/services.html:124
+#: templates/services.html:132
 msgid ""
 "\n"
 "\t\t\t  Once the project is completed, and you sign the construction "
@@ -731,15 +765,15 @@ msgstr ""
 "готовий відповісти на всі ваші запитання.\n"
 "\t\t\t "
 
-#: templates/services.html:134 templates/services.html:180
+#: templates/services.html:142 templates/services.html:186
 msgid "COST: by agreement"
 msgstr "ВАРТІСТЬ: за домовленістю"
 
-#: templates/services.html:151
+#: templates/services.html:166
 msgid "Closeout"
 msgstr "Завершення проекту"
 
-#: templates/services.html:164
+#: templates/services.html:170
 msgid ""
 "\n"
 "\t\t\t\tWhen our team completes the construction:\n"
@@ -797,8 +831,8 @@ msgstr ""
 
 #: templates/blog_templates/apartment-renovation.html:16
 #: templates/blog_templates/apartment-renovation.html:124
-#: templates/blog_templates/apartment-renovation.html:137
-#: templates/blog_templates/apartment-renovation.html:150
+#: templates/blog_templates/apartment-renovation.html:138
+#: templates/blog_templates/apartment-renovation.html:151
 #: templates/blog_templates/building-creation.html:16
 #: templates/blog_templates/building-creation.html:113
 #: templates/blog_templates/building-creation.html:126
@@ -807,10 +841,13 @@ msgstr ""
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:103
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:115
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:128
+#: templates/blog_templates/shower-without-tray.html:191
+#: templates/blog_templates/shower-without-tray.html:204
+#: templates/blog_templates/shower-without-tray.html:218
 #: templates/blog_templates/stages-of-plumbing-work.html:20
-#: templates/blog_templates/stages-of-plumbing-work.html:115
-#: templates/blog_templates/stages-of-plumbing-work.html:128
-#: templates/blog_templates/stages-of-plumbing-work.html:142
+#: templates/blog_templates/stages-of-plumbing-work.html:116
+#: templates/blog_templates/stages-of-plumbing-work.html:129
+#: templates/blog_templates/stages-of-plumbing-work.html:143
 msgid "January"
 msgstr "Січень"
 
@@ -1007,6 +1044,7 @@ msgstr ""
 #: templates/blog_templates/apartment-renovation.html:113
 #: templates/blog_templates/building-creation.html:102
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:93
+#: templates/blog_templates/shower-without-tray.html:179
 #: templates/blog_templates/stages-of-plumbing-work.html:104
 msgid "Recent posts"
 msgstr "Нещодавні Пости"
@@ -1340,6 +1378,282 @@ msgstr ""
 "          Надзвичайно важливо дотримуватися всіх вимог безпеки при "
 "виконанні електромонтажних робіт та довіряти виконання таких завдань "
 "досвідченим фахівцям.\n"
+"\n"
+
+#: templates/blog_templates/shower-without-tray.html:3
+#: templates/blog_templates/shower-without-tray.html:16
+msgid "Shower without Tray: Useful Properties and Advantages"
+msgstr "Душ без піддону: корисні властивості та переваги"
+
+#: templates/blog_templates/shower-without-tray.html:19
+msgid "June"
+msgstr "Січень"
+
+#: templates/blog_templates/shower-without-tray.html:24
+msgid ""
+"A walk-in shower, also known as a floor-level shower, offers a modern\n"
+"                and practical solution for bathrooms. Without a raised "
+"base or traditional tray,\n"
+"                it provides a sleek, minimalist look, ease of use, and "
+"improved hygiene.\n"
+"                Ideal for all ages and abilities, it is easy to clean and"
+" can increase property value.\n"
+"                Consider this stylish option for your next bathroom "
+"renovation."
+msgstr ""
+"Душ з відкритим входом, також відомий як душ на рівні підлоги, пропонує сучасне та практичне рішення для ванних кімнат. Без підвищеної основи або традиційного піддону він забезпечує стильний, мінімалістичний вигляд, зручність в експлуатації та покращену гігієну. Ідеально підходить для всіх вікових груп і можливостей, його легко чистити і може збільшити вартість нерухомості. Розгляньте цей стильний варіант для вашого наступного ремонту ванної кімнати."
+
+#: templates/blog_templates/shower-without-tray.html:37
+msgid ""
+"\n"
+"          <br>\n"
+"\n"
+"          <h3>Advantages of a Walk-In Shower:</h3>\n"
+"\n"
+"\n"
+"                <h4>Aesthetic Appeal:</h4>\n"
+"                <ul>\n"
+"                    <li>A seamless, minimalist design that enhances the "
+"overall look of your bathroom.</li>\n"
+"                    <li>Creates a sense of spaciousness and "
+"modernity.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Ease of Access:</h4>\n"
+"                <ul>\n"
+"                    <li>No barriers, making it ideal for people with "
+"mobility issues.</li>\n"
+"                    <li>Suitable for all ages, from children to the "
+"elderly.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Hygiene and Cleanliness:</h4>\n"
+"                <ul>\n"
+"                    <li>Easier to clean due to the lack of crevices and "
+"joints.</li>\n"
+"                    <li>Reduces the risk of mold and mildew build-"
+"up.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Increased Property Value:</h4>\n"
+"                <ul>\n"
+"                    <li>A stylish and modern bathroom feature that can "
+"appeal to potential buyers.</li>\n"
+"                    <li>An investment that can enhance the overall value "
+"of your home.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Customization Options:</h4>\n"
+"                <ul>\n"
+"                    <li>Can be designed to fit any space, regardless of "
+"size or shape.</li>\n"
+"                    <li>Wide range of materials and finishes to choose "
+"from.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Safety Features:</h4>\n"
+"                <ul>\n"
+"                    <li>Slip-resistant flooring options for added "
+"safety.</li>\n"
+"                    <li>Can be equipped with grab bars and seating for "
+"additional support.</li>\n"
+"                </ul>\n"
+"                "
+msgstr ""
+"Переваги душу без піддону:\n"
+"\n"
+"\n"
+" Естетична привабливість:\n"
+" \n"
+" Пошиття, мінімалістичний дизайн, який покращує зовнішній вигляд вашої ванної кімнати.\n"
+" Створює відчуття простору і сучасності.\n"
+" \n"
+"\n"
+" \n"
+"\n"
+" Зручність використання:\n"
+" \n"
+" Без бар'єрів, ідеально підходить для людей із проблемами з мобільністю.\n"
+" Підходить для всіх вікових груп, від дітей до літніх людей.\n"
+" \n"
+"\n"
+" \n"
+"\n"
+" Гігієна та чистота:\n"
+" \n"
+" Легше прибирати завдяки відсутності щілин і сполучень.\n"
+" Зменшує ризик утворення плісняви та цвілі.\n"
+" \n"
+"\n"
+" \n"
+"\n"
+" Підвищення вартості власності:\n"
+" \n"
+" Стильна і сучасна ванна кімната, яка може привернути потенційних покупців.\n"
+" Інвестиція, яка може підвищити загальну вартість вашого дому.\n"
+" \n"
+"\n"
+" \n"
+"\n"
+" Варіанти налаштування:\n"
+" \n"
+" Може бути спроектована для будь-якого простору, незалежно від розміру чи форми.\n"
+" Широкий вибір матеріалів та обробок на вибір.\n"
+" \n"
+"\n"
+" \n"
+"\n"
+" Функції безпеки:\n"
+" \n"
+" Підлогові опції, що забезпечують безпеку.\n"
+" Може бути обладнана поручнями та сидінням для додаткової підтримки.\n"
+" "
+
+#: templates/blog_templates/shower-without-tray.html:94
+msgid ""
+"\n"
+"                <h3>Installation Considerations:</h3>\n"
+"                "
+msgstr ""
+"\n"
+"                <h3>Питання монтажу:</h3>\n"
+
+#: templates/blog_templates/shower-without-tray.html:108
+msgid ""
+"\n"
+"                <h4>Drainage:</h4>\n"
+"                <ul>\n"
+"                    <li>Ensure proper slope for effective water "
+"drainage.</li>\n"
+"                    <li>Choose a suitable drainage system to prevent "
+"water pooling.</li>\n"
+"                </ul>\n"
+"\n"
+"                <h4>Waterproofing:</h4>\n"
+"                <ul>\n"
+"                    <li>Proper waterproofing to prevent leaks and water "
+"damage.</li>\n"
+"                    <li>Use high-quality materials for long-lasting "
+"protection.</li>\n"
+"                </ul>\n"
+"\n"
+"                <h4>Professional Installation:</h4>\n"
+"                <ul>\n"
+"                    <li>Hiring a professional ensures the job is done "
+"correctly and safely.</li>\n"
+"                    <li>A professional can provide valuable advice on "
+"design and functionality.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"                "
+msgstr ""
+"\n"
+"                <h4>Дренаж:</h4>\n"
+"                <ul>\n"
+"                    <li>Забезпечте належний нахил для ефективного відведення води.</li>\n"
+"                    <li>Виберіть відповідну систему дренажу, щоб уникнути утворення заторів.</li>\n"
+"                </ul>\n"
+"\n"
+"                <h4>Гідроізоляція:</h4>\n"
+"                <ul>\n"
+"                    <li>Належна гідроізоляція для запобігання витокам і пошкодженням від води.</li>\n"
+"                    <li>Використовуйте матеріали високої якості для довготривалої захисту.</li>\n"
+"                </ul>\n"
+"\n"
+"                <h4>Професійний монтаж:</h4>\n"
+"                <ul>\n"
+"                    <li>Наймання професіонала гарантує правильне та безпечне виконання робіт.</li>\n"
+"                    <li>Професіонал може надати цінні поради з дизайну та функціональності.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"                "
+
+#: templates/blog_templates/shower-without-tray.html:137
+msgid ""
+"\n"
+"\n"
+"                <h3>Maintenance Tips:</h3>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Regular Cleaning:</h4>\n"
+"                <ul>\n"
+"                    <li>Use mild, non-abrasive cleaners to maintain the "
+"finish.</li>\n"
+"                    <li>Regularly check for and address any signs of wear"
+" or damage.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Inspection:</h4>\n"
+"                <ul>\n"
+"                    <li>Periodically inspect the waterproofing and "
+"drainage system.</li>\n"
+"                    <li>Promptly repair any issues to prevent further "
+"damage.</li>\n"
+"                </ul>\n"
+"          <br>\n"
+"                "
+msgstr ""
+"\n"
+"\n"
+"                <h3>Поради щодо обслуговування:</h3>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Регулярне прибирання:</h4>\n"
+"                <ul>\n"
+"                    <li>Використовуйте м'які, неабразивні засоби для збереження вигляду.</li>\n"
+"                    <li>Регулярно перевіряйте стан і вчасно виправляйте будь-які ознаки зношення або пошкодження.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Інспекція:</h4>\n"
+"                <ul>\n"
+"                    <li>Періодично перевіряйте гідроізоляцію та систему дренажу.</li>\n"
+"                    <li>Негайно виправляйте будь-які проблеми для запобігання подальших пошкоджень.</li>\n"
+"                </ul>\n"
+"          <br>\n"
+"                "
+
+#: templates/blog_templates/shower-without-tray.html:160
+msgid ""
+"\n"
+"                <p><strong>Conclusion:</strong> A walk-in shower is not "
+"just a bathroom feature; it's an upgrade that combines style, "
+"functionality, and convenience. Whether you are renovating an existing "
+"bathroom or designing a new one, consider the numerous benefits a walk-in"
+" shower can offer. Its elegant design, ease of use, and potential to "
+"increase your property value make it a worthy investment for any "
+"home.</p>\n"
+"            <p>Continue reading for an in-depth guide on installation, "
+"design ideas, and maintenance tips to ensure your walk-in shower meets "
+"all your expectations and needs.</p>\n"
+"\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"\n"
+"                <p><strong>Висновок:</strong> Душова кабіна без піддону — це не просто елемент ванної кімнати; це оновлення, яке поєднує стиль, функціональність та зручність. Незалежно від того, чи ремонтуєте ви існуючу ванну кімнату, чи проектуєте зовсім нову, варто врахувати безліч переваг, які може запропонувати душова кабіна без піддону. Її елегантний дизайн, зручність у використанні та потенціал підвищити вартість вашого майбутнього житла роблять її вигідним вкладенням для будь-якого дому.</p>\n"
+"            <p>Продовжуйте читати, щоб дізнатися більше про встановлення, ідеї дизайну та поради з обслуговування, які допоможуть забезпечити, що ваша душова кабіна без піддону відповідає всім вашим очікуванням і потребам.</p>\n"
+"\n"
+"\n"
+"\n"
 "\n"
 
 #: templates/blog_templates/stages-of-plumbing-work.html:22
@@ -2053,5 +2367,23 @@ msgstr ""
 #~ "creation of a unique interior design,"
 #~ " we are ready\n"
 #~ "            to exceed your expectations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "                    <p>A walk-in shower, "
+#~ "also known as a floor-level "
+#~ "shower, offers a modern and practical"
+#~ " solution for bathrooms. Without a "
+#~ "raised base or traditional tray, it "
+#~ "provides a sleek, minimalist look, ease"
+#~ " of use, and improved hygiene. Ideal"
+#~ " for all ages and abilities, it "
+#~ "is easy to clean and can increase"
+#~ " property value. Consider this stylish "
+#~ "option for your next bathroom "
+#~ "renovation.</p>\n"
+#~ "\n"
+#~ "                "
 #~ msgstr ""
 

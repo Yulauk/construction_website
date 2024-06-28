@@ -19,7 +19,12 @@
 
 		<div class="row align-items-md-stretch py-5 bg-body-tertiary">
       <div class="col-md-12">
-		  <div class="p-4 p-md-5 rounded text-body-emphasis bg-body-secondary">
+
+	<div class="p-4 p-md-5 rounded text-body-emphasis"
+		 style="background-image: url('{{ url_for('static',
+		 filename='images/services_image/Kulbachenko_services_house.png') }}');">
+<!--			  <img src="{{ url_for('static', filename='images/tst_img.jpeg') }}">-->
+
     <div class="col-lg-6 px-0">
       <h2 class="display-4">{{ _('Our 4-Step Process') }}</h2>
       <p class="lead my-3">{{ _('Be it a full home renovation, condo remodel, or kitchen redesign,
@@ -36,16 +41,17 @@
 
 		<div class="row align-items-md-stretch bg-body-tertiary">
 		<div class="col-md-4">
-			<div class="section border-service-consult rounded">
-				<div class="our-process-left step-one">
-					<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">1</span>
-					<h3>{{ _('Consultation') }}</h3>
-				</div>
-			</div>
-		</div>
+        <div class="section bg-image-service-consult rounded">
+
+        </div>
+    </div>
 
       <div class="col-md-8">
         <div class="bg-body-tertiary step-one-text">
+			<div class="our-process-left step-one" style="text-align: start;">
+<!--                <span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }} </span><span style="font-size: -webkit-xxx-large;">1</span>-->
+                <h3>{{ _('Consultation') }}</h3>
+            </div>
           <p>
 			  {{ _("
 			  I take pride in providing a high level of personalized service, starting from the first day
@@ -76,15 +82,16 @@
 		<div class="row align-items-md-stretch">
       <div class="col-md-4">
           <div class="section border-service-design rounded">
-			<div class="our-process-left step-two">
-				<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">2</span>
-				<h3>{{ _('Design') }}</h3>
 
-			</div>
 							</div>
       </div>
       <div class="col-md-8">
         <div class="bg-body-tertiary step-two-text">
+			<div class="our-process-left step-two" style="text-align: start;">
+<!--				<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">2</span>-->
+				<h3>{{ _('Design') }}</h3>
+
+			</div>
           <p>
 			  {{ _('
 			  After the approval of the cost estimate, we proceed to the design and pre-construction phase.
@@ -111,15 +118,16 @@
       <div class="col-md-4">
 
           <div class="section border-service-construction rounded">
-								<div class="our-process-left step-three">
-											<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">3</span>
-										<h3>{{ _('Construction') }}</h3>
-								</div>
+
 							</div>
 
       </div>
       <div class="col-md-8">
         <div class="bg-body-tertiary step-three-text">
+			<div class="our-process-left step-three" style="text-align: start;">
+<!--				<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">3</span>-->
+										<h3>{{ _('Construction') }}</h3>
+								</div>
           <p>
 			  {{ _('
 			  Once the project is completed, and you sign the construction contract, we will obtain permits and commence work on-site. Readiness to address unforeseen challenges or make adjustments in case of changing circumstances is a crucial aspect of our approach. In the event of unexpected situations, we take measures to minimize potential delays, ensuring the smooth progression of the project.
@@ -142,24 +150,22 @@
 	<div class="row align-items-md-stretch">
       <div class="col-md-4">
 
-          <div class="section border-service rounded">
-								<div class="our-process-left step-four">
-									<div class="step-counter-wrapper">
+          <div class="section border-service-closeout rounded">
 
-											<span style="color: black; font-weight: bold; font-size: larger;">{{ _('Step') }}: </span><span style="font-size: -webkit-xxx-large;">4</span>
+    <div class="our-process-right">
+    </div>
+</div>
 
-										<h3>{{ _('Closeout') }}</h3>
-									</div>
-								</div>
-								<div class="our-process-right">
-										<p></p>
-
-								</div>
-							</div>
 
       </div>
       <div class="col-md-8">
         <div class="bg-body-tertiary step-four-text">
+			<div class="our-process-left step-four" style="text-align: start;">
+        <div class="step-counter-wrapper">
+<!--            <span style="color: black; font-weight: bold; font-size: larger;">Step: </span><span style="font-size: -webkit-xxx-large;">4</span>-->
+            <h3>{{ _('Closeout') }}</h3>
+        </div>
+    </div>
 			<p>
 				{{ _('
 				When our team completes the construction:

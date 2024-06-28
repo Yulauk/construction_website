@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-07 16:30+0100\n"
+"POT-Creation-Date: 2024-06-27 22:41+0200\n"
 "PO-Revision-Date: 2024-01-12 05:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -30,8 +30,8 @@ msgstr ""
 msgid "About"
 msgstr "ACERCA DE"
 
-#: templates/about.html:16 templates/base.html:84 templates/base.html:191
-#: templates/index.html:62 templates/index.html:119
+#: templates/about.html:16 templates/base.html:82 templates/base.html:191
+#: templates/index.html:62 templates/index.html:120
 msgid "ABOUT"
 msgstr "ACERCA DE"
 
@@ -55,207 +55,207 @@ msgstr ""
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction + Design"
 msgstr ""
 
-#: templates/base.html:46
+#: templates/base.html:44
 msgid "Kulbachenko Construction + Design"
 msgstr ""
 
-#: templates/base.html:58 templates/base.html:110 templates/base.html:153
-#: templates/index.html:81 templates/index.html:165
-msgid "Kulbachenko"
-msgstr ""
-
-#: templates/base.html:58 templates/base.html:110 templates/base.html:153
-#: templates/blog.html:109 templates/blog.html:239 templates/index.html:81
-#: templates/index.html:165 templates/services.html:116
-msgid "Construction"
-msgstr "Construcción"
-
-#: templates/base.html:85 templates/base.html:194 templates/index.html:63
-#: templates/index.html:122 templates/portfolio.html:14
+#: templates/base.html:83 templates/base.html:194 templates/index.html:63
+#: templates/index.html:123 templates/portfolio.html:14
 msgid "PORTFOLIO"
 msgstr "PORTAFOLIO"
 
-#: templates/base.html:86 templates/base.html:197 templates/index.html:64
-#: templates/index.html:125 templates/services.html:14
+#: templates/base.html:84 templates/base.html:197 templates/index.html:64
+#: templates/index.html:126 templates/services.html:14
 msgid "SERVICES"
 msgstr "SERVICIOS"
 
-#: templates/base.html:87 templates/base.html:200 templates/blog.html:8
-#: templates/index.html:65 templates/index.html:128
+#: templates/base.html:85 templates/base.html:200 templates/blog.html:8
+#: templates/index.html:65 templates/index.html:129
 msgid "BLOG"
 msgstr "BLOG"
 
-#: templates/base.html:91 templates/index.html:69
+#: templates/base.html:89 templates/index.html:69
 msgid "CONTACT US"
 msgstr "CONTÁCTANOS"
+
+#: templates/base.html:108 templates/base.html:153 templates/index.html:81
+#: templates/index.html:171
+msgid "KULBACHENKO"
+msgstr ""
+
+#: templates/base.html:108 templates/base.html:153 templates/index.html:81
+#: templates/index.html:171
+#, fuzzy
+msgid "CONSTRUCTION"
+msgstr "Construcción"
 
 #: templates/base.html:188
 #, fuzzy
 msgid "HOME"
 msgstr "Teléfono"
 
-#: templates/base.html:205 templates/base.html:206 templates/index.html:133
-#: templates/index.html:134
+#: templates/base.html:205 templates/base.html:206 templates/index.html:134
+#: templates/index.html:135
 msgid "Search"
 msgstr ""
 
-#: templates/base.html:228
+#: templates/base.html:229
 msgid "Get a Free Consultation"
 msgstr "Obtén una Consulta Gratuita"
 
-#: templates/base.html:235
+#: templates/base.html:236
 #, fuzzy
 msgid "First Name"
 msgstr "Nombre"
 
-#: templates/base.html:241
+#: templates/base.html:242
 #, fuzzy
 msgid "Your Contact"
 msgstr "Contáctanos"
 
-#: templates/base.html:247
+#: templates/base.html:248
 msgid "Comment"
 msgstr ""
 
-#: templates/base.html:256
+#: templates/base.html:257
 #, fuzzy
 msgid "Verify Submit"
 msgstr "Enviar"
 
-#: templates/base.html:271
+#: templates/base.html:272
 msgid "Contact Us"
 msgstr "Contáctanos"
 
-#: templates/base.html:275
+#: templates/base.html:276
 msgid "First name"
 msgstr "Nombre"
 
-#: templates/base.html:281
+#: templates/base.html:282
 msgid "Last name"
 msgstr "Apellido"
 
-#: templates/base.html:287
+#: templates/base.html:288
 msgid "Email address"
 msgstr "Email"
 
-#: templates/base.html:296
+#: templates/base.html:297
 msgid "Phone"
 msgstr "Teléfono"
 
-#: templates/base.html:302
+#: templates/base.html:303
 msgid "City"
 msgstr "Ciudad"
 
-#: templates/base.html:308
+#: templates/base.html:309
 msgid "State"
 msgstr "Estado"
 
-#: templates/base.html:313
+#: templates/base.html:314
 msgid "Zip"
 msgstr "Código postal"
 
-#: templates/base.html:319
+#: templates/base.html:320
 msgid "Address"
 msgstr "Dirección"
 
-#: templates/base.html:324
+#: templates/base.html:325
 msgid "Target budget"
 msgstr "Presupuesto objetivo"
 
-#: templates/base.html:326
+#: templates/base.html:327
 msgid "Select budget range"
 msgstr ""
 
-#: templates/base.html:327
+#: templates/base.html:328
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:328
+#: templates/base.html:329
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:329
+#: templates/base.html:330
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:330
+#: templates/base.html:331
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:331
+#: templates/base.html:332
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:332
+#: templates/base.html:333
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:333
+#: templates/base.html:334
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:339
+#: templates/base.html:340
 msgid "Project time frame"
 msgstr "Plazo del proyecto"
 
-#: templates/base.html:341
+#: templates/base.html:342
 #, fuzzy
 msgid "Select time frame"
 msgstr "Plazo del proyecto"
 
-#: templates/base.html:342
+#: templates/base.html:343
 msgid "As soon as possible"
 msgstr ""
 
-#: templates/base.html:343
+#: templates/base.html:344
 msgid "Starting within 3 months"
 msgstr ""
 
-#: templates/base.html:344
+#: templates/base.html:345
 msgid "Starting within 6 months"
 msgstr ""
 
-#: templates/base.html:345
+#: templates/base.html:346
 msgid "Starting within a year"
 msgstr ""
 
-#: templates/base.html:351
+#: templates/base.html:352
 msgid "How did you hear about us?"
 msgstr "¿Cómo nos conociste?"
 
-#: templates/base.html:353
+#: templates/base.html:354
 msgid "Select an option"
 msgstr ""
 
-#: templates/base.html:354
+#: templates/base.html:355
 msgid "Online Advertisement"
 msgstr ""
 
-#: templates/base.html:355
+#: templates/base.html:356
 msgid "Friend or Colleague"
 msgstr ""
 
-#: templates/base.html:356
+#: templates/base.html:357
 msgid "Social networks"
 msgstr ""
 
-#: templates/base.html:357
+#: templates/base.html:358
 msgid "Google"
 msgstr ""
 
-#: templates/base.html:358
+#: templates/base.html:359
 msgid "Other"
 msgstr ""
 
-#: templates/base.html:364
+#: templates/base.html:365
 msgid "Tell us about your project"
 msgstr "Cuéntanos acerca de tu proyecto"
 
-#: templates/base.html:375
+#: templates/base.html:376
 msgid "Agree to terms and conditions"
 msgstr "Aceptar términos y condiciones"
 
-#: templates/base.html:382
+#: templates/base.html:383
 msgid "Submit form"
 msgstr "Enviar"
 
@@ -264,16 +264,42 @@ msgstr "Enviar"
 msgid "Blog"
 msgstr "BLOG"
 
-#: templates/blog.html:32 templates/blog.html:62 templates/blog.html:88
-#: templates/blog.html:147 templates/blog.html:182 templates/blog.html:212
+#: templates/blog.html:32 templates/blog.html:64 templates/blog.html:94
+#: templates/blog.html:120 templates/blog.html:180 templates/blog.html:215
+#: templates/blog.html:245
 msgid "Renovation"
 msgstr ""
 
-#: templates/blog.html:32 templates/blog.html:147
+#: templates/blog.html:32 templates/blog.html:64 templates/blog.html:180
 msgid "Plumbing"
 msgstr ""
 
-#: templates/blog.html:35 templates/blog.html:151
+#: templates/blog.html:35
+msgid "Shower without tray: Useful properties and advantages"
+msgstr ""
+
+#: templates/blog.html:38
+msgid "Jun"
+msgstr ""
+
+#: templates/blog.html:41
+msgid ""
+"A walk-in shower, also known as a floor-level shower, offers a modern and"
+" practical solution for bathrooms. Without a raised base or traditional "
+"tray, it provides a sleek, minimalist look, ease of use, and improved "
+"hygiene. Ideal for all ages and abilities, it is easy to clean and can "
+"increase property value. Consider this stylish option for your next "
+"bathroom renovation.\n"
+"\n"
+msgstr ""
+
+#: templates/blog.html:47 templates/blog.html:77 templates/blog.html:107
+#: templates/blog.html:128 templates/blog.html:147 templates/blog.html:192
+#: templates/blog.html:226 templates/blog.html:250 templates/blog.html:283
+msgid "Continue reading"
+msgstr ""
+
+#: templates/blog.html:67 templates/blog.html:184
 #: templates/blog_templates/apartment-renovation.html:123
 #: templates/blog_templates/building-creation.html:112
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:102
@@ -282,13 +308,13 @@ msgstr ""
 msgid "Stages of Plumbing Work in Apartment Renovation"
 msgstr ""
 
-#: templates/blog.html:38 templates/blog.html:68 templates/blog.html:111
-#: templates/blog.html:154 templates/blog.html:188 templates/blog.html:214
-#: templates/blog.html:245
+#: templates/blog.html:70 templates/blog.html:100 templates/blog.html:143
+#: templates/blog.html:187 templates/blog.html:221 templates/blog.html:247
+#: templates/blog.html:278
 msgid "Jan"
 msgstr ""
 
-#: templates/blog.html:41 templates/blog.html:157
+#: templates/blog.html:73 templates/blog.html:190
 msgid ""
 "Discover the comprehensive steps involved in plumbing during a major "
 "apartment renovation. From initial assessment to final documentation, "
@@ -297,62 +323,63 @@ msgid ""
 "connection of appliances."
 msgstr ""
 
-#: templates/blog.html:45 templates/blog.html:75 templates/blog.html:96
-#: templates/blog.html:115 templates/blog.html:159 templates/blog.html:193
-#: templates/blog.html:217 templates/blog.html:250
-msgid "Continue reading"
-msgstr ""
-
-#: templates/blog.html:62 templates/blog.html:182
+#: templates/blog.html:94 templates/blog.html:215
 msgid "Electrics"
 msgstr ""
 
-#: templates/blog.html:65 templates/blog.html:185
-#: templates/blog_templates/apartment-renovation.html:136
+#: templates/blog.html:97 templates/blog.html:218
+#: templates/blog_templates/apartment-renovation.html:137
 #: templates/blog_templates/building-creation.html:125
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:17
-#: templates/blog_templates/stages-of-plumbing-work.html:114
+#: templates/blog_templates/shower-without-tray.html:190
+#: templates/blog_templates/stages-of-plumbing-work.html:115
 msgid "Key Steps in Electrical Installation for Apartment Renovation"
 msgstr ""
 
-#: templates/blog.html:71 templates/blog.html:191
+#: templates/blog.html:103 templates/blog.html:224
 msgid "Comprehensive Electrical Installation for Apartment Renovation"
 msgstr ""
 
-#: templates/blog.html:89 templates/blog.html:213
+#: templates/blog.html:121 templates/blog.html:246
 #: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:15
 #: templates/blog_templates/building-creation.html:137
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:114
-#: templates/blog_templates/stages-of-plumbing-work.html:127
+#: templates/blog_templates/shower-without-tray.html:203
+#: templates/blog_templates/stages-of-plumbing-work.html:128
 msgid "Apartment renovation"
 msgstr ""
 
-#: templates/blog.html:90
+#: templates/blog.html:122
 msgid "Jan 24"
 msgstr ""
 
-#: templates/blog.html:91 templates/blog.html:215
+#: templates/blog.html:123 templates/blog.html:248
 msgid "A comprehensive apartment renovation includes various stages"
 msgstr ""
 
-#: templates/blog.html:110 templates/blog.html:242
-#: templates/blog_templates/apartment-renovation.html:149
+#: templates/blog.html:141 templates/blog.html:272 templates/services.html:129
+msgid "Construction"
+msgstr "Construcción"
+
+#: templates/blog.html:142 templates/blog.html:275
+#: templates/blog_templates/apartment-renovation.html:150
 #: templates/blog_templates/building-creation.html:3
 #: templates/blog_templates/building-creation.html:15
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:127
-#: templates/blog_templates/stages-of-plumbing-work.html:141
+#: templates/blog_templates/shower-without-tray.html:217
+#: templates/blog_templates/stages-of-plumbing-work.html:142
 msgid "Building creation"
 msgstr ""
 
-#: templates/blog.html:112 templates/blog.html:248
+#: templates/blog.html:144 templates/blog.html:281
 msgid ""
 "Rough construction works in the building industry represent the initial "
 "stage of constructing a building"
 msgstr ""
 
-#: templates/blog.html:132
+#: templates/blog.html:164
 #, fuzzy
 msgid "Latest Updates"
 msgstr "Apellido"
@@ -405,34 +432,32 @@ msgid ""
 "sizes. Professional construction work aimed at private houses."
 msgstr ""
 
-#: templates/index.html:116
+#: templates/index.html:117
 msgid "MAIN"
 msgstr ""
 
-#: templates/index.html:171
+#: templates/index.html:180
 msgid "VIEW OUR PORTFOLIO"
 msgstr "VER NUESTRO PORTAFOLIO"
 
-#: templates/index.html:208
+#: templates/index.html:226
 msgid ""
-"We specialize in providing professional construction, renovation, and "
-"interior\n"
-"            design services in Estonia and Ukraine. Our company has "
-"extensive experience in executing various\n"
-"            projects, from large-scale constructions to small finishing "
-"works.\n"
+"We specialize professionally in providing services for construction, "
+"renovation, and interior design.\n"
+"            Our company has extensive experience in implementing various "
+"projects: from large-scale construction works\n"
+"            to small finishing works.\n"
 "            &nbsp;<br>&nbsp;\n"
 "            &nbsp;<br>&nbsp;\n"
-"            We strive for the highest quality in every project, ensuring "
-"clients receive individual\n"
-"            attention and meticulous detail. Whether you need an "
-"apartment renovation, construction\n"
-"            of a country house, or creation of a unique interior design, "
-"we are ready\n"
-"            to exceed your expectations."
+"            We strive to achieve the highest quality in every project, "
+"ensuring individual approach and meticulous\n"
+"            attention to details for our clients. If you need to renovate"
+" an apartment, build a country house, or\n"
+"            create a unique interior design, we are ready to exceed your "
+"expectations."
 msgstr ""
 
-#: templates/index.html:254
+#: templates/index.html:271
 msgid "OUR PARTNERS"
 msgstr ""
 
@@ -477,11 +502,11 @@ msgstr ""
 msgid "Services"
 msgstr "Servicios"
 
-#: templates/services.html:24
+#: templates/services.html:29
 msgid "Our 4-Step Process"
 msgstr "Nuestro Proceso de 4 Pasos"
 
-#: templates/services.html:25
+#: templates/services.html:30
 msgid ""
 "Be it a full home renovation, condo remodel, or kitchen redesign,\n"
 "\t\t\t\t\tour four-step process is straightforward and organized: an "
@@ -505,17 +530,17 @@ msgstr ""
 "negocio desde cero, continuando proporcionando servicios de alta calidad "
 "y ganándome su confianza. ¡Estaré encantado de colaborar!"
 
-#: templates/services.html:41 templates/services.html:80
-#: templates/services.html:115 templates/services.html:149
+#: templates/services.html:52 templates/services.html:91
+#: templates/services.html:128
 #, fuzzy
 msgid "Step"
 msgstr "Estado"
 
-#: templates/services.html:42
+#: templates/services.html:53
 msgid "Consultation"
 msgstr "Consulta"
 
-#: templates/services.html:50
+#: templates/services.html:56
 msgid ""
 "\n"
 "\t\t\t  I take pride in providing a high level of personalized service, "
@@ -545,15 +570,15 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 
-#: templates/services.html:68
+#: templates/services.html:74
 msgid "COST: Free"
 msgstr "COSTO: Gratis"
 
-#: templates/services.html:81
+#: templates/services.html:92
 msgid "Design"
 msgstr "Diseño"
 
-#: templates/services.html:89
+#: templates/services.html:96
 msgid ""
 "\n"
 "\t\t\t  After the approval of the cost estimate, we proceed to the design"
@@ -573,12 +598,12 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 
-#: templates/services.html:99
+#: templates/services.html:106
 #, python-format
 msgid "COST: typically 10 – 15%% of estimated construction cost"
 msgstr "COSTO: típicamente 10 – 15%% del costo estimado de construcción"
 
-#: templates/services.html:124
+#: templates/services.html:132
 msgid ""
 "\n"
 "\t\t\t  Once the project is completed, and you sign the construction "
@@ -607,15 +632,15 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 
-#: templates/services.html:134 templates/services.html:180
+#: templates/services.html:142 templates/services.html:186
 msgid "COST: by agreement"
 msgstr "COSTO: por acuerdo"
 
-#: templates/services.html:151
+#: templates/services.html:166
 msgid "Closeout"
 msgstr "Conclusión"
 
-#: templates/services.html:164
+#: templates/services.html:170
 msgid ""
 "\n"
 "\t\t\t\tWhen our team completes the construction:\n"
@@ -647,8 +672,8 @@ msgstr ""
 
 #: templates/blog_templates/apartment-renovation.html:16
 #: templates/blog_templates/apartment-renovation.html:124
-#: templates/blog_templates/apartment-renovation.html:137
-#: templates/blog_templates/apartment-renovation.html:150
+#: templates/blog_templates/apartment-renovation.html:138
+#: templates/blog_templates/apartment-renovation.html:151
 #: templates/blog_templates/building-creation.html:16
 #: templates/blog_templates/building-creation.html:113
 #: templates/blog_templates/building-creation.html:126
@@ -657,10 +682,13 @@ msgstr ""
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:103
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:115
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:128
+#: templates/blog_templates/shower-without-tray.html:191
+#: templates/blog_templates/shower-without-tray.html:204
+#: templates/blog_templates/shower-without-tray.html:218
 #: templates/blog_templates/stages-of-plumbing-work.html:20
-#: templates/blog_templates/stages-of-plumbing-work.html:115
-#: templates/blog_templates/stages-of-plumbing-work.html:128
-#: templates/blog_templates/stages-of-plumbing-work.html:142
+#: templates/blog_templates/stages-of-plumbing-work.html:116
+#: templates/blog_templates/stages-of-plumbing-work.html:129
+#: templates/blog_templates/stages-of-plumbing-work.html:143
 msgid "January"
 msgstr ""
 
@@ -767,6 +795,7 @@ msgstr ""
 #: templates/blog_templates/apartment-renovation.html:113
 #: templates/blog_templates/building-creation.html:102
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:93
+#: templates/blog_templates/shower-without-tray.html:179
 #: templates/blog_templates/stages-of-plumbing-work.html:104
 msgid "Recent posts"
 msgstr ""
@@ -941,6 +970,182 @@ msgid ""
 "performing electrical\n"
 "          installation work and trust the execution of such tasks to "
 "experienced professionals.\n"
+"\n"
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:3
+#: templates/blog_templates/shower-without-tray.html:16
+msgid "Shower without Tray: Useful Properties and Advantages"
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:19
+msgid "June"
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:24
+msgid ""
+"A walk-in shower, also known as a floor-level shower, offers a modern\n"
+"                and practical solution for bathrooms. Without a raised "
+"base or traditional tray,\n"
+"                it provides a sleek, minimalist look, ease of use, and "
+"improved hygiene.\n"
+"                Ideal for all ages and abilities, it is easy to clean and"
+" can increase property value.\n"
+"                Consider this stylish option for your next bathroom "
+"renovation."
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:37
+msgid ""
+"\n"
+"          <br>\n"
+"\n"
+"          <h3>Advantages of a Walk-In Shower:</h3>\n"
+"\n"
+"\n"
+"                <h4>Aesthetic Appeal:</h4>\n"
+"                <ul>\n"
+"                    <li>A seamless, minimalist design that enhances the "
+"overall look of your bathroom.</li>\n"
+"                    <li>Creates a sense of spaciousness and "
+"modernity.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Ease of Access:</h4>\n"
+"                <ul>\n"
+"                    <li>No barriers, making it ideal for people with "
+"mobility issues.</li>\n"
+"                    <li>Suitable for all ages, from children to the "
+"elderly.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Hygiene and Cleanliness:</h4>\n"
+"                <ul>\n"
+"                    <li>Easier to clean due to the lack of crevices and "
+"joints.</li>\n"
+"                    <li>Reduces the risk of mold and mildew build-"
+"up.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Increased Property Value:</h4>\n"
+"                <ul>\n"
+"                    <li>A stylish and modern bathroom feature that can "
+"appeal to potential buyers.</li>\n"
+"                    <li>An investment that can enhance the overall value "
+"of your home.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Customization Options:</h4>\n"
+"                <ul>\n"
+"                    <li>Can be designed to fit any space, regardless of "
+"size or shape.</li>\n"
+"                    <li>Wide range of materials and finishes to choose "
+"from.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Safety Features:</h4>\n"
+"                <ul>\n"
+"                    <li>Slip-resistant flooring options for added "
+"safety.</li>\n"
+"                    <li>Can be equipped with grab bars and seating for "
+"additional support.</li>\n"
+"                </ul>\n"
+"                "
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:94
+msgid ""
+"\n"
+"                <h3>Installation Considerations:</h3>\n"
+"                "
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:108
+msgid ""
+"\n"
+"                <h4>Drainage:</h4>\n"
+"                <ul>\n"
+"                    <li>Ensure proper slope for effective water "
+"drainage.</li>\n"
+"                    <li>Choose a suitable drainage system to prevent "
+"water pooling.</li>\n"
+"                </ul>\n"
+"\n"
+"                <h4>Waterproofing:</h4>\n"
+"                <ul>\n"
+"                    <li>Proper waterproofing to prevent leaks and water "
+"damage.</li>\n"
+"                    <li>Use high-quality materials for long-lasting "
+"protection.</li>\n"
+"                </ul>\n"
+"\n"
+"                <h4>Professional Installation:</h4>\n"
+"                <ul>\n"
+"                    <li>Hiring a professional ensures the job is done "
+"correctly and safely.</li>\n"
+"                    <li>A professional can provide valuable advice on "
+"design and functionality.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"                "
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:137
+msgid ""
+"\n"
+"\n"
+"                <h3>Maintenance Tips:</h3>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Regular Cleaning:</h4>\n"
+"                <ul>\n"
+"                    <li>Use mild, non-abrasive cleaners to maintain the "
+"finish.</li>\n"
+"                    <li>Regularly check for and address any signs of wear"
+" or damage.</li>\n"
+"                </ul>\n"
+"\n"
+"          <br>\n"
+"\n"
+"                <h4>Inspection:</h4>\n"
+"                <ul>\n"
+"                    <li>Periodically inspect the waterproofing and "
+"drainage system.</li>\n"
+"                    <li>Promptly repair any issues to prevent further "
+"damage.</li>\n"
+"                </ul>\n"
+"          <br>\n"
+"                "
+msgstr ""
+
+#: templates/blog_templates/shower-without-tray.html:160
+msgid ""
+"\n"
+"                <p><strong>Conclusion:</strong> A walk-in shower is not "
+"just a bathroom feature; it's an upgrade that combines style, "
+"functionality, and convenience. Whether you are renovating an existing "
+"bathroom or designing a new one, consider the numerous benefits a walk-in"
+" shower can offer. Its elegant design, ease of use, and potential to "
+"increase your property value make it a worthy investment for any "
+"home.</p>\n"
+"            <p>Continue reading for an in-depth guide on installation, "
+"design ideas, and maintenance tips to ensure your walk-in shower meets "
+"all your expectations and needs.</p>\n"
+"\n"
+"\n"
+"\n"
 "\n"
 msgstr ""
 
@@ -1512,5 +1717,49 @@ msgstr ""
 #~ "creation of a unique interior design,"
 #~ " we are ready\n"
 #~ "            to exceed your expectations."
+#~ msgstr ""
+
+#~ msgid "Kulbachenko"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We specialize in providing professional "
+#~ "construction, renovation, and interior\n"
+#~ "            design services in Estonia "
+#~ "and Ukraine. Our company has extensive"
+#~ " experience in executing various\n"
+#~ "            projects, from large-scale "
+#~ "constructions to small finishing works.\n"
+#~ ""
+#~ "            &nbsp;<br>&nbsp;\n"
+#~ "            &nbsp;<br>&nbsp;\n"
+#~ "            We strive for the highest"
+#~ " quality in every project, ensuring "
+#~ "clients receive individual\n"
+#~ "            attention and meticulous detail."
+#~ " Whether you need an apartment "
+#~ "renovation, construction\n"
+#~ "            of a country house, or "
+#~ "creation of a unique interior design,"
+#~ " we are ready\n"
+#~ "            to exceed your expectations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "                    <p>A walk-in shower, "
+#~ "also known as a floor-level "
+#~ "shower, offers a modern and practical"
+#~ " solution for bathrooms. Without a "
+#~ "raised base or traditional tray, it "
+#~ "provides a sleek, minimalist look, ease"
+#~ " of use, and improved hygiene. Ideal"
+#~ " for all ages and abilities, it "
+#~ "is easy to clean and can increase"
+#~ " property value. Consider this stylish "
+#~ "option for your next bathroom "
+#~ "renovation.</p>\n"
+#~ "\n"
+#~ "                "
 #~ msgstr ""
 
