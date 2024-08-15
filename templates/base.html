@@ -54,14 +54,7 @@
                  alt="Kulbachenko Construction + Design Logo"
                  class="logo-image">
         </a>
-
-
-
                 <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
-
-
-
-
                     <div class="me-3 py-2 link-body-emphasis text-decoration-none">
                         <div id='base' class="dropdown">
                             <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
@@ -72,41 +65,33 @@
                                 <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
                                 <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
                                 <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
-
                             </ul>
                         </div>
                     </div>
-
-
-
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
-
                 </nav>
                 <div class="container-color">
                         <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
                     </div>
             </div>
                     </div>
-
-
-
-
         </header>
 
 
 <div class="container py-2">
         <!-- header for middle screens -->
         <header id="header-middle" class="fixed-top">
-        <nav id="navbar-smaller" class="navbar bg-body-tertiary d-md-none">
+        <nav id="navbar-smaller" class="navbar bg-body-tertiary">
         <div id='header-fluid-middle' class="container-fluid">
 
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_white_base.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px" style="object-fit: contain;">
-                    <span class="mx-2 fs-4">{{ _('KULBACHENKO') }}<br>{{ _('CONSTRUCTION') }}</span>
-                </a>
+            <img src="/static/images/logo/Kulbachenko_logo_base.svg"
+                 alt="Kulbachenko Construction + Design Logo"
+                 class="logo-image">
+        </a>
 
         <div class="tst">
             <div class="me-3 py-2 link-body-emphasis text-decoration-none">
@@ -145,12 +130,11 @@
     <div class="container py-2">
         <!--    mini header-->
     <header id="header-mini" class="fixed-top">
-        <nav id="navbar-mini" class="navbar bg-body-tertiary d-md-none">
+        <nav id="navbar-mini" class="navbar bg-body-tertiary">
         <div id="header-fluid-mini" class="container-fluid">
 
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
                         <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_white_base.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px" style="object-fit: contain;">
-                    <span class="mx-2 fs-4">{{ _('KULBACHENKO') }}<br>{{ _('CONSTRUCTION') }}</span>
                 </a>
 
         <div class="tst">
@@ -404,11 +388,13 @@
     <span style="padding-left: 14px;">Contacts<br></span>
 
     <br>
+        <span style="padding-left: 17px;">+372 5617 7079</span>
+    <br>
         <img src="/static/images/icons/phone.svg" alt="Phone icon" width="50px" height="50px" style="object-fit: contain;">
 
     <img src="/static/images/icons/whatsapp_b.svg" alt="whatsapp icon" width="50px" height="50px" style="object-fit: contain;">
     <img src="/static/images/icons/viber_b.svg" alt="viber icon" width="50px" height="50px" style="object-fit: contain;">
-    <span style="padding-left: 17px;">+372 5617 7079</span>
+
     <br>
     <img src="/static/images/icons/mail_2.svg" alt="mail icon" width="50px" height="50px" style="object-fit: contain;">
     <span style="padding-left: 13px;">contact@kulbachenko.com</span>

@@ -548,29 +548,40 @@ nav a.active {
     margin-left: auto;
 }
 
-@media (max-width: 440px) {
-    #header-middle {
-        display: none; /* Hide the header on smaller screens */
+/* Малый размер экрана до 440px */
+@media (max-width: 439px) {
+    #header-middle, #header-big {
+        display: none; /* Скрыть средний и большой хедеры на малых экранах */
     }
 
-    #header-big {
-        display: none; /* Hide the header on smaller screens */
+    #header-mini {
+        display: block; /* Показать только мини-хедер */
     }
 
     #header-mini .fs-4 {
-        display: none; /* Hide the specific span in the #header-mini */
+        display: none; /* Скрыть определенный span в #header-mini */
     }
 }
 
-@media (max-width: 780px) {
+/* Средний размер экрана от 440px до 839px */
+@media (min-width: 440px) and (max-width: 839px) {
+    #header-mini, #header-big {
+        display: none; /* Скрыть мини и большой хедеры на средних экранах */
+    }
+
+    #header-middle {
+        display: block !important; /* Показать только средний хедер */
+    }
+}
+
+/* Большой размер экрана от 840px и выше */
+@media (min-width: 840px) {
+    #header-mini, #header-middle {
+        display: none; /* Скрыть мини и средние хедеры на больших экранах */
+    }
+
     #header-big {
-        display: none; /* Hide the header on smaller screens */
-    }
-}
-
-@media (max-width: 780px) {
-    #index-big {
-        display: none; /* Hide the header on smaller screens */
+        display: block; /* Показать только большой хедер */
     }
 }
 
@@ -591,19 +602,36 @@ nav a.active {
     border-bottom-color: #fbb933 !important; /* yellow text color for the active link */
 }
 
-@media (max-width: 440px) {
-    #index-header-middle {
-        display: none; /* Hide the header on smaller screens */
-    }
-
+/* Большой экран: отображаем основной хедер */
+@media (min-width: 801px) {
     #index-big {
-        display: none; /* Hide the header on smaller screens */
+        display: block;
     }
-
-    #index-header-mini .fs-4 {
-        display: none; /* Hide the specific span in the #header-mini */
+    #index-header-mini {
+        display: none;
     }
 }
+
+/* Средний экран: отображаем мини-версию хедера */
+@media (min-width: 441px) and (max-width: 800px) {
+    #index-big {
+        display: none;
+    }
+    #index-header-mini {
+        display: block;
+    }
+}
+
+/* Малый экран: отображаем минимизированную версию хедера */
+@media (max-width: 440px) {
+    #index-big {
+        display: none;
+    }
+    #index-header-mini {
+        display: block;
+    }
+}
+
 
 #index-navbar-mini {
     background-color: transparent !important;
@@ -755,4 +783,8 @@ icon-background {
 
 .justify-content-lg-start {
     justify-content: flex-start;
+}
+
+.row.g-5 {
+    --bs-gutter-x: 0;
 }
