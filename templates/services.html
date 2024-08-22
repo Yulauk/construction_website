@@ -21,18 +21,21 @@
       <div class="col-md-12">
 
 	<div class="p-4 p-md-5 rounded text-body-emphasis"
-		 style="background-image: url('{{ url_for('static',
-		 filename='images/services_image/Kulbachenko_services_house.png') }}');">
+		 style="background: linear-gradient(to right, #32d09a, #feb933);">
 <!--			  <img src="{{ url_for('static', filename='images/tst_img.jpeg') }}">-->
 
-    <div class="col-lg-6 px-0">
-      <h2 class="display-4">{{ _('Our 4-Step Process') }}</h2>
-      <p class="lead my-3">{{ _('Be it a full home renovation, condo remodel, or kitchen redesign,
-					our four-step process is straightforward and organized: an initial
-					consultation with one of our team leads; project design led by one
-					of our architects; construction by one of our in-house crews; and job
-					close out with the whole team.') }}</p>
-    </div>
+    <div class="col-lg-6 px-0" style="color: #f8f9fa;">
+    <h2 class="display-4 mb-4">{{ _('OUR 4-STEP PROCESS') }}</h2>
+    <p class="lead my-3" style="font-size: 28px; line-height: 1.6;">
+        {{ _('Be it a full home renovation, condo remodel, or kitchen redesign,') }}<br><br>
+        {{ _('our four-step process is straightforward and organized:') }}<br><br>
+        <span style="font-weight: bold;">{{ _('1. Initial consultation with one of our team leads;') }}</span><br><br>
+        <span style="font-weight: bold;">{{ _('2. Project design led by one of our architects;') }}</span><br><br>
+        <span style="font-weight: bold;">{{ _('3. Construction by one of our in-house crews;') }}</span><br><br>
+        <span style="font-weight: bold;">{{ _('4. Job close out with the whole team.') }}</span>
+    </p>
+</div>
+
   </div>
       </div>
     </div>

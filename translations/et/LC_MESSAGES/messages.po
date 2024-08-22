@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-27 22:41+0200\n"
+"POT-Creation-Date: 2024-08-22 14:56+0200\n"
 "PO-Revision-Date: 2024-06-23 16:35+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: et\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: templates/about.html:6
 msgid ""
@@ -32,8 +32,8 @@ msgstr ""
 msgid "About"
 msgstr "Meist"
 
-#: templates/about.html:16 templates/base.html:82 templates/base.html:191
-#: templates/index.html:62 templates/index.html:120
+#: templates/about.html:16 templates/base.html:71 templates/base.html:175
+#: templates/index.html:63 templates/index.html:128
 msgid "ABOUT"
 msgstr "MEIST"
 
@@ -72,197 +72,187 @@ msgstr "Serhii Kulbachenko - Kulbachenko Construction + Design'i asutaja"
 msgid "Kulbachenko Construction + Design"
 msgstr "Kulbachenko Ehitus + projekteerimine"
 
-#: templates/base.html:83 templates/base.html:194 templates/index.html:63
-#: templates/index.html:123 templates/portfolio.html:14
+#: templates/base.html:72 templates/base.html:178 templates/index.html:64
+#: templates/index.html:131 templates/portfolio.html:14
 msgid "PORTFOLIO"
 msgstr "PORTFELL"
 
-#: templates/base.html:84 templates/base.html:197 templates/index.html:64
-#: templates/index.html:126 templates/services.html:14
+#: templates/base.html:73 templates/base.html:181 templates/index.html:65
+#: templates/index.html:134 templates/services.html:14
 msgid "SERVICES"
 msgstr "TEENUSED"
 
-#: templates/base.html:85 templates/base.html:200 templates/blog.html:8
-#: templates/index.html:65 templates/index.html:129
+#: templates/base.html:74 templates/base.html:184 templates/blog.html:8
+#: templates/index.html:66 templates/index.html:137
 msgid "BLOG"
 msgstr "BLOGI"
 
-#: templates/base.html:89 templates/index.html:69
+#: templates/base.html:77 templates/index.html:70
 msgid "CONTACT US"
 msgstr "KONTAKT"
 
-#: templates/base.html:108 templates/base.html:153 templates/index.html:81
-#: templates/index.html:171
-msgid "KULBACHENKO"
-msgstr ""
-
-#: templates/base.html:108 templates/base.html:153 templates/index.html:81
-#: templates/index.html:171
-msgid "CONSTRUCTION"
-msgstr ""
-
-#: templates/base.html:188
+#: templates/base.html:172
 msgid "HOME"
 msgstr "KODULEHT"
 
-#: templates/base.html:205 templates/base.html:206 templates/index.html:134
-#: templates/index.html:135
+#: templates/base.html:189 templates/base.html:190 templates/index.html:142
+#: templates/index.html:143
 msgid "Search"
 msgstr "Otsing"
 
-#: templates/base.html:229
+#: templates/base.html:213
 msgid "Get a Free Consultation"
 msgstr "Hankige tasuta konsultatsioon"
 
-#: templates/base.html:236
+#: templates/base.html:220
 msgid "First Name"
 msgstr "Eesnimi"
 
-#: templates/base.html:242
+#: templates/base.html:226
 msgid "Your Contact"
 msgstr "Teie kontakt"
 
-#: templates/base.html:248
+#: templates/base.html:232
 msgid "Comment"
 msgstr "Kommenteeri"
 
-#: templates/base.html:257
+#: templates/base.html:241
 msgid "Verify Submit"
 msgstr "Esita"
 
-#: templates/base.html:272
+#: templates/base.html:256
 msgid "Contact Us"
 msgstr "Võta meiega ühendust"
 
-#: templates/base.html:276
+#: templates/base.html:260
 msgid "First name"
 msgstr "Eesnimi"
 
-#: templates/base.html:282
+#: templates/base.html:266
 msgid "Last name"
 msgstr "Perekonnanimi"
 
-#: templates/base.html:288
+#: templates/base.html:272
 msgid "Email address"
 msgstr "Email"
 
-#: templates/base.html:297
+#: templates/base.html:281
 msgid "Phone"
 msgstr "Telefon"
 
-#: templates/base.html:303
+#: templates/base.html:287
 msgid "City"
 msgstr "Linn"
 
-#: templates/base.html:309
+#: templates/base.html:293
 msgid "State"
 msgstr "Maakond"
 
-#: templates/base.html:314
+#: templates/base.html:298
 msgid "Zip"
 msgstr "Postiindeks"
 
-#: templates/base.html:320
+#: templates/base.html:304
 msgid "Address"
 msgstr "Aadress"
 
-#: templates/base.html:325
+#: templates/base.html:309
 msgid "Target budget"
 msgstr "Sihteelarve"
 
-#: templates/base.html:327
+#: templates/base.html:311
 msgid "Select budget range"
 msgstr "Valige eelarvevahemik"
 
-#: templates/base.html:328
+#: templates/base.html:312
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:329
+#: templates/base.html:313
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:330
+#: templates/base.html:314
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:331
+#: templates/base.html:315
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:332
+#: templates/base.html:316
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:333
+#: templates/base.html:317
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:334
+#: templates/base.html:318
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:340
+#: templates/base.html:324
 msgid "Project time frame"
 msgstr "Projekti ajakava"
 
-#: templates/base.html:342
+#: templates/base.html:326
 msgid "Select time frame"
 msgstr "Valige ajaraam"
 
-#: templates/base.html:343
+#: templates/base.html:327
 msgid "As soon as possible"
 msgstr "Niipea kui võimalik"
 
-#: templates/base.html:344
+#: templates/base.html:328
 msgid "Starting within 3 months"
 msgstr "Algus 3 kuu jooksul"
 
-#: templates/base.html:345
+#: templates/base.html:329
 msgid "Starting within 6 months"
 msgstr "Algus 6 kuu jooksul"
 
-#: templates/base.html:346
+#: templates/base.html:330
 msgid "Starting within a year"
 msgstr "Alustades aasta jooksul"
 
-#: templates/base.html:352
+#: templates/base.html:336
 msgid "How did you hear about us?"
 msgstr "Kuidas sa meist kuulsid?"
 
-#: templates/base.html:354
+#: templates/base.html:338
 msgid "Select an option"
 msgstr "Valige suvand"
 
-#: templates/base.html:355
+#: templates/base.html:339
 msgid "Online Advertisement"
 msgstr "Online reklaam"
 
-#: templates/base.html:356
+#: templates/base.html:340
 msgid "Friend or Colleague"
 msgstr "Sõber või kolleeg"
 
-#: templates/base.html:357
+#: templates/base.html:341
 msgid "Social networks"
 msgstr "Sotsiaalsed võrgustikud"
 
-#: templates/base.html:358
+#: templates/base.html:342
 msgid "Google"
 msgstr "Google"
 
-#: templates/base.html:359
+#: templates/base.html:343
 msgid "Other"
 msgstr "Muud"
 
-#: templates/base.html:365
+#: templates/base.html:349
 msgid "Tell us about your project"
 msgstr "Rääkige meile oma projektist"
 
-#: templates/base.html:376
+#: templates/base.html:360
 msgid "Agree to terms and conditions"
 msgstr "Nõustuge tingimustega"
 
-#: templates/base.html:383
+#: templates/base.html:367
 msgid "Submit form"
 msgstr "Esita"
 
@@ -377,7 +367,7 @@ msgstr "Jaanuaril 24"
 msgid "A comprehensive apartment renovation includes various stages"
 msgstr "Korteri terviklik renoveerimine hõlmab erinevaid etappe"
 
-#: templates/blog.html:141 templates/blog.html:272 templates/services.html:129
+#: templates/blog.html:141 templates/blog.html:272 templates/services.html:132
 msgid "Construction"
 msgstr "Ehitus"
 
@@ -464,15 +454,23 @@ msgstr ""
 "Ehitus- ja remonditeenused korteritele ja büroodele erineva suurusega. "
 "Eramajadele suunatud professionaalne ehitustöö."
 
-#: templates/index.html:117
+#: templates/index.html:82
+msgid "KULBACHENKO"
+msgstr ""
+
+#: templates/index.html:82
+msgid "CONSTRUCTION"
+msgstr ""
+
+#: templates/index.html:125
 msgid "MAIN"
 msgstr "AVALEHT"
 
-#: templates/index.html:180
+#: templates/index.html:185
 msgid "VIEW OUR PORTFOLIO"
 msgstr "VAATA TEHTUD TÖÖD"
 
-#: templates/index.html:226
+#: templates/index.html:225
 msgid ""
 "We specialize professionally in providing services for construction, "
 "renovation, and interior design.\n"
@@ -502,7 +500,7 @@ msgstr ""
 " korter, ehitada maakodu või\n"
 " luua ainulaadne sisekujundus, oleme valmis ületama teie ootusi."
 
-#: templates/index.html:271
+#: templates/index.html:270
 msgid "OUR PARTNERS"
 msgstr "MEIE PARTNERID"
 
@@ -557,41 +555,45 @@ msgstr ""
 msgid "Services"
 msgstr "Teenused"
 
-#: templates/services.html:29
-msgid "Our 4-Step Process"
-msgstr "Meie 4-etapiline protsess"
+#: templates/services.html:28
+
+msgid "OUR 4-STEP PROCESS"
+msgstr "MEIE 4-ETAPILINE PROTSESS"
 
 #: templates/services.html:30
-msgid ""
-"Be it a full home renovation, condo remodel, or kitchen redesign,\n"
-"\t\t\t\t\tour four-step process is straightforward and organized: an "
-"initial\n"
-"\t\t\t\t\tconsultation with one of our team leads; project design led by "
-"one\n"
-"\t\t\t\t\tof our architects; construction by one of our in-house crews; "
-"and job\n"
-"\t\t\t\t\tclose out with the whole team."
-msgstr ""
-"Kas tegemist on täieliku koduremonti, korteri ümberkujundamise või köögi "
-"ümberehitamisega,\n"
-"\t\t\t\t\tsiis meie neljast sammust koosnev protsess on lihtne ja "
-"korraldatud: algne\n"
-"\t\t\t\t\tkonsultatsioon ühe meie tiimi juhtidega; projekti kujundamine "
-"ühe\n"
-"\t\t\t\t\tnende arhitektide juhtimisel; ehitamine ühe meie sisebrigaadi "
-"poolt; ja töö\n"
-"\t\t\t\t\tlõpetamine kogu meeskonnaga."
+msgid "Be it a full home renovation, condo remodel, or kitchen redesign,"
+msgstr "Olgu selleks siis täielik kodu renoveerimine, korteri ümberehitamine või köögi ümberkujundus,"
 
-#: templates/services.html:52 templates/services.html:91
-#: templates/services.html:128
+#: templates/services.html:31
+msgid "our four-step process is straightforward and organized:"
+msgstr "meie neljaetapiline protsess on lihtne ja organiseeritud:"
+
+#: templates/services.html:32
+msgid "1. Initial consultation with one of our team leads;"
+msgstr "1. Esmane konsultatsioon ühe meie meeskonnajuhiga;"
+
+#: templates/services.html:33
+msgid "2. Project design led by one of our architects;"
+msgstr "2. Projekti projekteerimine, mida juhib üks meie arhitektidest;"
+
+#: templates/services.html:34
+msgid "3. Construction by one of our in-house crews;"
+msgstr "3. Ehitus ühe meie sisemise meeskonna poolt;"
+
+#: templates/services.html:35
+msgid "4. Job close out with the whole team."
+msgstr "4. Lõpetage töö kogu meeskonnaga."
+
+#: templates/services.html:55 templates/services.html:94
+#: templates/services.html:131
 msgid "Step"
 msgstr "Samm"
 
-#: templates/services.html:53
+#: templates/services.html:56
 msgid "Consultation"
 msgstr "Konsultatsioon"
 
-#: templates/services.html:56
+#: templates/services.html:59
 msgid ""
 "\n"
 "\t\t\t  I take pride in providing a high level of personalized service, "
@@ -649,15 +651,15 @@ msgstr ""
 "maksumusele.\n"
 "\t\t\t  "
 
-#: templates/services.html:74
+#: templates/services.html:77
 msgid "COST: Free"
 msgstr "Maksumus: tasuta"
 
-#: templates/services.html:92
+#: templates/services.html:95
 msgid "Design"
 msgstr "Disain"
 
-#: templates/services.html:96
+#: templates/services.html:99
 msgid ""
 "\n"
 "\t\t\t  After the approval of the cost estimate, we proceed to the design"
@@ -696,12 +698,12 @@ msgstr ""
 " etapid.\n"
 "\t\t\t  "
 
-#: templates/services.html:106
+#: templates/services.html:109
 #, python-format
 msgid "COST: typically 10 – 15%% of estimated construction cost"
 msgstr "Maksumus: tavaliselt 10–15%% hinnangulisest ehituskulust"
 
-#: templates/services.html:132
+#: templates/services.html:135
 msgid ""
 "\n"
 "\t\t\t  Once the project is completed, and you sign the construction "
@@ -755,15 +757,15 @@ msgstr ""
 "edusammudest ja on valmis vastama kõigile teie küsimustele.\n"
 "\t\t\t  "
 
-#: templates/services.html:142 templates/services.html:186
+#: templates/services.html:145 templates/services.html:189
 msgid "COST: by agreement"
 msgstr "Maksumus: kokkuleppel"
 
-#: templates/services.html:166
+#: templates/services.html:169
 msgid "Closeout"
 msgstr "Lõpetamine"
 
-#: templates/services.html:170
+#: templates/services.html:173
 msgid ""
 "\n"
 "\t\t\t\tWhen our team completes the construction:\n"
@@ -1489,7 +1491,8 @@ msgstr ""
 "\n"
 "                <h4>Esteetiline välimus:</h4>\n"
 "                <ul>\n"
-"                    <li>Sile, minimalistlik disain, mis täiustab teie vannitoa üldilmet.</li>\n"
+"                    <li>Sile, minimalistlik disain, mis täiustab teie "
+"vannitoa üldilmet.</li>\n"
 "                    <li>Loo ruumikuse ja modernsuse tunde.</li>\n"
 "                </ul>\n"
 "\n"
@@ -1497,15 +1500,18 @@ msgstr ""
 "\n"
 "                <h4>Juurdepääsetavus:</h4>\n"
 "                <ul>\n"
-"                    <li>Ilma takistusteta, ideaalne inimestele, kellel on liikumisprobleeme.</li>\n"
-"                    <li>Sobib igas vanuses inimestele, lastest eakateni.</li>\n"
+"                    <li>Ilma takistusteta, ideaalne inimestele, kellel on"
+" liikumisprobleeme.</li>\n"
+"                    <li>Sobib igas vanuses inimestele, lastest "
+"eakateni.</li>\n"
 "                </ul>\n"
 "\n"
 "          <br>\n"
 "\n"
 "                <h4>Hügieen ja puhtus:</h4>\n"
 "                <ul>\n"
-"                    <li>Kergem puhastada, kuna puuduvad praod ja liitekohad.</li>\n"
+"                    <li>Kergem puhastada, kuna puuduvad praod ja "
+"liitekohad.</li>\n"
 "                    <li>Vähendab hallituse ja seenekasvu riski.</li>\n"
 "                </ul>\n"
 "\n"
@@ -1513,24 +1519,30 @@ msgstr ""
 "\n"
 "                <h4>Kinnisvara väärtuse tõus:</h4>\n"
 "                <ul>\n"
-"                    <li>Stiilne ja modernne vannitoa omadus, mis võib potentsiaalsetele ostjatele meeldida.</li>\n"
-"                    <li>Investeering, mis võib tõsta teie kodu üldist väärtust.</li>\n"
+"                    <li>Stiilne ja modernne vannitoa omadus, mis võib "
+"potentsiaalsetele ostjatele meeldida.</li>\n"
+"                    <li>Investeering, mis võib tõsta teie kodu üldist "
+"väärtust.</li>\n"
 "                </ul>\n"
 "\n"
 "          <br>\n"
 "\n"
 "                <h4>Kohandamisvõimalused:</h4>\n"
 "                <ul>\n"
-"                    <li>Võib kujundada igasse ruumi, olenemata suurusest või kujust.</li>\n"
-"                    <li>Lai valik materjale ja viimistlusi, mille vahel valida.</li>\n"
+"                    <li>Võib kujundada igasse ruumi, olenemata suurusest "
+"või kujust.</li>\n"
+"                    <li>Lai valik materjale ja viimistlusi, mille vahel "
+"valida.</li>\n"
 "                </ul>\n"
 "\n"
 "          <br>\n"
 "\n"
 "                <h4>Ohutusfunktsioonid:</h4>\n"
 "                <ul>\n"
-"                    <li>Libisemiskindlad põrandakatte valikud suurema ohutuse tagamiseks.</li>\n"
-"                    <li>Võib varustada haaramisvarraste ja istmetega täiendava toe jaoks.</li>\n"
+"                    <li>Libisemiskindlad põrandakatte valikud suurema "
+"ohutuse tagamiseks.</li>\n"
+"                    <li>Võib varustada haaramisvarraste ja istmetega "
+"täiendava toe jaoks.</li>\n"
 "                </ul>\n"
 "                "
 
@@ -1638,16 +1650,20 @@ msgstr ""
 "\n"
 "                <h4>Regulaarne puhastamine:</h4>\n"
 "                <ul>\n"
-"                    <li>Kasutage õrna, mitte-abrasiivset puhastusvahendit, et säilitada viimistlus.</li>\n"
-"                    <li>Kontrollige regulaarselt kulumise või kahjustuse märke ning võtke vajadusel meetmeid.</li>\n"
+"                    <li>Kasutage õrna, mitte-abrasiivset "
+"puhastusvahendit, et säilitada viimistlus.</li>\n"
+"                    <li>Kontrollige regulaarselt kulumise või kahjustuse "
+"märke ning võtke vajadusel meetmeid.</li>\n"
 "                </ul>\n"
 "\n"
 "          <br>\n"
 "\n"
 "                <h4>Ülevaatus:</h4>\n"
 "                <ul>\n"
-"                    <li>Tehke perioodiliselt veekindluse ja äravoolusüsteemi kontroll.</li>\n"
-"                    <li>Parandage kiiresti kõik probleemid, et vältida edasisi kahjustusi.</li>\n"
+"                    <li>Tehke perioodiliselt veekindluse ja "
+"äravoolusüsteemi kontroll.</li>\n"
+"                    <li>Parandage kiiresti kõik probleemid, et vältida "
+"edasisi kahjustusi.</li>\n"
 "                </ul>\n"
 "          <br>\n"
 "                "
@@ -1676,16 +1692,15 @@ msgstr ""
 "funktsionaalsuse ja mugavuse. Olenemata sellest, kas te renoveerite "
 "olemasolevat vannituba või kujundate uut, kaaluge jalutuskäigu-duši "
 "pakutavaid arvukaid eeliseid. Selle elegantne disain, kasutusmugavus ja "
-"potentsiaal suurendada teie kinnisvara väärtust muudavad selle igas "
-"kodus väärt investeeringuks.</p>\n"
+"potentsiaal suurendada teie kinnisvara väärtust muudavad selle igas kodus"
+" väärt investeeringuks.</p>\n"
 "            <p>Jätkake lugemist põhjalikuks juhendiks paigalduse, "
-"disainiideede ja hooldusnõuannete kohta, et tagada teie jalutuskäigu-duši "
-"vastavus kõigile teie ootustele ja vajadustele.</p>\n"
+"disainiideede ja hooldusnõuannete kohta, et tagada teie jalutuskäigu-duši"
+" vastavus kõigile teie ootustele ja vajadustele.</p>\n"
 "\n"
 "\n"
 "\n"
 "\n"
-
 
 #: templates/blog_templates/stages-of-plumbing-work.html:22
 msgid ""
@@ -2279,4 +2294,30 @@ msgstr ""
 #~ "Kaaluge seda stiilset valikut oma "
 #~ "järgmise vannitoa renoveerimise jaoks.\n"
 #~ "\n"
+
+#~ msgid ""
+#~ "Be it a full home renovation, condo remodel, or kitchen redesign,\n"
+#~ "\t\t\t\t\tour four-step process is "
+#~ "straightforward and organized: an initial\n"
+#~ ""
+#~ "\t\t\t\t\tconsultation with one of our"
+#~ " team leads; project design led by"
+#~ " one\n"
+#~ "\t\t\t\t\tof our architects; construction "
+#~ "by one of our in-house crews; "
+#~ "and job\n"
+#~ "\t\t\t\t\tclose out with the whole team."
+#~ msgstr ""
+#~ "Kas tegemist on täieliku koduremonti, "
+#~ "korteri ümberkujundamise või köögi "
+#~ "ümberehitamisega,\n"
+#~ "\t\t\t\t\tsiis meie neljast sammust "
+#~ "koosnev protsess on lihtne ja "
+#~ "korraldatud: algne\n"
+#~ "\t\t\t\t\tkonsultatsioon ühe meie tiimi "
+#~ "juhtidega; projekti kujundamine ühe\n"
+#~ "\t\t\t\t\tnende arhitektide juhtimisel; "
+#~ "ehitamine ühe meie sisebrigaadi poolt; "
+#~ "ja töö\n"
+#~ "\t\t\t\t\tlõpetamine kogu meeskonnaga."
 

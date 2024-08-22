@@ -29,14 +29,14 @@
 {% block body %}
     <div class="container py-2">
         <div class="full-screen-container d-flex flex-column align-items-space-around justify-content-flex-start">
-            <div class="container py-2">
+<!--            <div class="container py-2">-->
+            <div>
             <header id="index-big">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-                <a class="me-3 py-2 link-body-emphasis text-decoration-none about-index {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">
-                        <img src="/static/images/logo/Kulbachenko_orange_blocks.png" alt="Logo" width="70px" height="70px"
-                             style="object-fit: contain;">
-                </a>
+                <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">
+            <img src="/static/images/logo/index_logo.svg" alt="Kulbachenko Construction + Design Logo" class="logo-image">
+        </a>
 
                 <nav id="index-nav" class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
 
@@ -78,8 +78,7 @@
         <nav id="index-navbar-mini" class="navbar bg-body-tertiary">
         <div id="index-header-fluid-mini" class="container-fluid">
 
-                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_blocks.png') }}" alt="Logo" width="70px" height="70px" style="object-fit: contain;">
+                <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">                        <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_blocks.png') }}" alt="Logo" width="70px" height="70px" style="object-fit: contain;">
 <!--                    <span id="index-header-mini-span" class="me-2 fs-4">{{ _('KULBACHENKO') }}<br>{{ _('CONSTRUCTION') }}</span>-->
                 </a>
 
@@ -102,7 +101,14 @@
 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
 <!--                <img src="{{ url_for('static', filename='images/icons8-menu.svg') }}" alt="Menu Icon" style="width: 50px; height: 50px;">-->
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px"><g fill="#f8f9fa" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,9v2h50v-2zM0,24v2h50v-2zM0,39v2h50v-2z"></path></g></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     viewBox="0,0,256,256" width="50px" height="50px"><g fill="#f8f9fa" fill-rule="nonzero"
+                                                                         stroke="none" stroke-width="1"
+                                                                         stroke-linecap="butt" stroke-linejoin="miter"
+                                                                         stroke-miterlimit="10" stroke-dasharray=""
+                                                                         stroke-dashoffset="0" font-family="none"
+                                                                         font-weight="none" font-size="none"
+                                                                         text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,9v2h50v-2zM0,24v2h50v-2zM0,39v2h50v-2z"></path></g></g></svg>
             </button>
         </div>
     </nav>
@@ -169,7 +175,7 @@
     align-items: center;
     height: 100%;
 ">
-                    <img src="/static/images/logo/logo_white_letters_tools_index_page.png" alt="Logo" width="285" height="285px" style="object-fit: contain;display: flex;">
+                    <img src="/static/images/logo/Index_Kulbachenko_full_block.svg" alt="Logo" width="195px" height="195px" style="object-fit: contain;display: flex;">
                 </div>
             </div>
 

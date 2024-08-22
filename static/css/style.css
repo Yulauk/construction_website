@@ -565,9 +565,13 @@ nav a.active {
 
 /* Средний размер экрана от 440px до 839px */
 @media (min-width: 440px) and (max-width: 839px) {
-    #header-mini, #header-big {
-        display: none; /* Скрыть мини и большой хедеры на средних экранах */
+    #header-mini, {
+        display: block; /* Скрыть мини и большой хедеры на средних экранах */
     }
+
+     #header-big{
+        display: none;
+     }
 
     #header-middle {
         display: block !important; /* Показать только средний хедер */
@@ -638,7 +642,7 @@ nav a.active {
 }
 
 #index-header-fluid-mini {
-    background-color: transparent;;
+    background-color: transparent;
 }
 
 #index-header-mini-span {
@@ -786,5 +790,15 @@ icon-background {
 }
 
 .row.g-5 {
-    --bs-gutter-x: 0;
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+.btn-primary {
+    --bs-btn-bg: #708875 !important;
+    --bs-btn-border-color: #708875!important;
+}
+
+.text-bg-primary {
+    background-color: #f8f9fa !important;
 }

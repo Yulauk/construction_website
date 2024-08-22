@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-27 22:41+0200\n"
+"POT-Creation-Date: 2024-08-22 14:56+0200\n"
 "PO-Revision-Date: 2024-01-12 04:59+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: templates/about.html:6
 msgid ""
@@ -33,8 +33,8 @@ msgstr ""
 msgid "About"
 msgstr "ПРО НАС"
 
-#: templates/about.html:16 templates/base.html:82 templates/base.html:191
-#: templates/index.html:62 templates/index.html:120
+#: templates/about.html:16 templates/base.html:71 templates/base.html:175
+#: templates/index.html:63 templates/index.html:128
 msgid "ABOUT"
 msgstr "ПРО НАС"
 
@@ -74,199 +74,187 @@ msgstr "Кульбаченко Будівництво + Дизайн"
 msgid "Kulbachenko Construction + Design"
 msgstr "Кульбаченко Будівництво + Дизайн"
 
-#: templates/base.html:83 templates/base.html:194 templates/index.html:63
-#: templates/index.html:123 templates/portfolio.html:14
+#: templates/base.html:72 templates/base.html:178 templates/index.html:64
+#: templates/index.html:131 templates/portfolio.html:14
 msgid "PORTFOLIO"
 msgstr "ПОРТФОЛІО"
 
-#: templates/base.html:84 templates/base.html:197 templates/index.html:64
-#: templates/index.html:126 templates/services.html:14
+#: templates/base.html:73 templates/base.html:181 templates/index.html:65
+#: templates/index.html:134 templates/services.html:14
 msgid "SERVICES"
 msgstr "ПОСЛУГИ"
 
-#: templates/base.html:85 templates/base.html:200 templates/blog.html:8
-#: templates/index.html:65 templates/index.html:129
+#: templates/base.html:74 templates/base.html:184 templates/blog.html:8
+#: templates/index.html:66 templates/index.html:137
 msgid "BLOG"
 msgstr "БЛОГ"
 
-#: templates/base.html:89 templates/index.html:69
+#: templates/base.html:77 templates/index.html:70
 msgid "CONTACT US"
 msgstr "ЗВ'ЯЗАТИСЬ З НАМИ"
 
-#: templates/base.html:108 templates/base.html:153 templates/index.html:81
-#: templates/index.html:171
-#, fuzzy
-msgid "KULBACHENKO"
-msgstr "Кульбаченко"
-
-#: templates/base.html:108 templates/base.html:153 templates/index.html:81
-#: templates/index.html:171
-#, fuzzy
-msgid "CONSTRUCTION"
-msgstr "Будівництво"
-
-#: templates/base.html:188
+#: templates/base.html:172
 msgid "HOME"
 msgstr "ГОЛОВНА"
 
-#: templates/base.html:205 templates/base.html:206 templates/index.html:134
-#: templates/index.html:135
+#: templates/base.html:189 templates/base.html:190 templates/index.html:142
+#: templates/index.html:143
 msgid "Search"
 msgstr "Пошук"
 
-#: templates/base.html:229
+#: templates/base.html:213
 msgid "Get a Free Consultation"
 msgstr "Безкоштовна консультація"
 
-#: templates/base.html:236
+#: templates/base.html:220
 msgid "First Name"
 msgstr "Ім'я"
 
-#: templates/base.html:242
+#: templates/base.html:226
 msgid "Your Contact"
 msgstr "Ваш контакт"
 
-#: templates/base.html:248
+#: templates/base.html:232
 msgid "Comment"
 msgstr "Коментар"
 
-#: templates/base.html:257
+#: templates/base.html:241
 msgid "Verify Submit"
 msgstr "Надіслати"
 
-#: templates/base.html:272
+#: templates/base.html:256
 msgid "Contact Us"
 msgstr "Зв'язатись з нами"
 
-#: templates/base.html:276
+#: templates/base.html:260
 msgid "First name"
 msgstr "Ім'я"
 
-#: templates/base.html:282
+#: templates/base.html:266
 msgid "Last name"
 msgstr "Прізвище"
 
-#: templates/base.html:288
+#: templates/base.html:272
 msgid "Email address"
 msgstr "Email"
 
-#: templates/base.html:297
+#: templates/base.html:281
 msgid "Phone"
 msgstr "Телефон"
 
-#: templates/base.html:303
+#: templates/base.html:287
 msgid "City"
 msgstr "Місто"
 
-#: templates/base.html:309
+#: templates/base.html:293
 msgid "State"
 msgstr "Область"
 
-#: templates/base.html:314
+#: templates/base.html:298
 msgid "Zip"
 msgstr "Поштовий індекс"
 
-#: templates/base.html:320
+#: templates/base.html:304
 msgid "Address"
 msgstr "Адреса"
 
-#: templates/base.html:325
+#: templates/base.html:309
 msgid "Target budget"
 msgstr "Цільовий бюджет"
 
-#: templates/base.html:327
+#: templates/base.html:311
 msgid "Select budget range"
 msgstr "Виберіть діапазон бюджету"
 
-#: templates/base.html:328
+#: templates/base.html:312
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:329
+#: templates/base.html:313
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:330
+#: templates/base.html:314
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:331
+#: templates/base.html:315
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:332
+#: templates/base.html:316
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:333
+#: templates/base.html:317
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:334
+#: templates/base.html:318
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:340
+#: templates/base.html:324
 msgid "Project time frame"
 msgstr "Термін реалізації проекту"
 
-#: templates/base.html:342
+#: templates/base.html:326
 msgid "Select time frame"
 msgstr "Оберіть проміжок часу"
 
-#: templates/base.html:343
+#: templates/base.html:327
 msgid "As soon as possible"
 msgstr "Як тільки це можливо"
 
-#: templates/base.html:344
+#: templates/base.html:328
 msgid "Starting within 3 months"
 msgstr "Початок впродовж 3 місяців"
 
-#: templates/base.html:345
+#: templates/base.html:329
 msgid "Starting within 6 months"
 msgstr "Початок впродовж 6 місяців"
 
-#: templates/base.html:346
+#: templates/base.html:330
 msgid "Starting within a year"
 msgstr "Початок впродовж 1 року"
 
-#: templates/base.html:352
+#: templates/base.html:336
 msgid "How did you hear about us?"
 msgstr "Як ви дізналися про нас?"
 
-#: templates/base.html:354
+#: templates/base.html:338
 msgid "Select an option"
 msgstr "Оберіть варіант"
 
-#: templates/base.html:355
+#: templates/base.html:339
 msgid "Online Advertisement"
 msgstr "Онлайн Реклама"
 
-#: templates/base.html:356
+#: templates/base.html:340
 msgid "Friend or Colleague"
 msgstr "Друг чи Колега"
 
-#: templates/base.html:357
+#: templates/base.html:341
 msgid "Social networks"
 msgstr "Соціальні мережі"
 
-#: templates/base.html:358
+#: templates/base.html:342
 msgid "Google"
 msgstr "Google"
 
-#: templates/base.html:359
+#: templates/base.html:343
 msgid "Other"
 msgstr "Інше"
 
-#: templates/base.html:365
+#: templates/base.html:349
 msgid "Tell us about your project"
 msgstr "Розкажіть нам про свій проект"
 
-#: templates/base.html:376
+#: templates/base.html:360
 msgid "Agree to terms and conditions"
 msgstr "Погоджуюсь з умовами"
 
-#: templates/base.html:383
+#: templates/base.html:367
 msgid "Submit form"
 msgstr "Надіслати"
 
@@ -305,10 +293,10 @@ msgstr ""
 "Душ-кабіна без піддону, також відома як душ на рівні підлоги, пропонує "
 "сучасне і практичне рішення для ванних кімнат. Без піднятої основи або "
 "традиційного піддону вона має стильний, мінімалістичний вигляд, що "
-"спрощує експлуатацію і покращує гігієну. Ідеально підходить для осіб усіх "
-"вікових категорій та здібностей, легко чиститься і може збільшити вартість "
-"нерухомості. Розгляньте цей стильний варіант для вашого наступного "
-"ремонту ванної кімнати.\n"
+"спрощує експлуатацію і покращує гігієну. Ідеально підходить для осіб усіх"
+" вікових категорій та здібностей, легко чиститься і може збільшити "
+"вартість нерухомості. Розгляньте цей стильний варіант для вашого "
+"наступного ремонту ванної кімнати.\n"
 "\n"
 
 #: templates/blog.html:47 templates/blog.html:77 templates/blog.html:107
@@ -382,7 +370,7 @@ msgstr "Січень 24"
 msgid "A comprehensive apartment renovation includes various stages"
 msgstr "Ремонт квартири включає кілька послідовних етапів."
 
-#: templates/blog.html:141 templates/blog.html:272 templates/services.html:129
+#: templates/blog.html:141 templates/blog.html:272 templates/services.html:132
 msgid "Construction"
 msgstr "Будівництво"
 
@@ -476,15 +464,23 @@ msgstr ""
 "Будівництво та ремонтні послуги для квартир та офісів різних розмірів. "
 "Професійні будівельні роботи спрямовані на приватні будинки."
 
-#: templates/index.html:117
+#: templates/index.html:82
+msgid "KULBACHENKO"
+msgstr "Кульбаченко"
+
+#: templates/index.html:82
+msgid "CONSTRUCTION"
+msgstr "Будівництво"
+
+#: templates/index.html:125
 msgid "MAIN"
 msgstr "ГОЛОВНА"
 
-#: templates/index.html:180
+#: templates/index.html:185
 msgid "VIEW OUR PORTFOLIO"
 msgstr "ПЕРЕГЛЯНУТИ ПОРТФОЛІО"
 
-#: templates/index.html:226
+#: templates/index.html:225
 msgid ""
 "We specialize professionally in providing services for construction, "
 "renovation, and interior design.\n"
@@ -516,7 +512,7 @@ msgstr ""
 "інтер'єру, ми готові\n"
 "            перевищити ваші очікування."
 
-#: templates/index.html:271
+#: templates/index.html:270
 msgid "OUR PARTNERS"
 msgstr "НАШІ ПАРТНЕРИ"
 
@@ -576,40 +572,44 @@ msgstr ""
 msgid "Services"
 msgstr "Послуги"
 
-#: templates/services.html:29
-msgid "Our 4-Step Process"
-msgstr "Наш 4-х етапний процес"
+#: templates/services.html:28
+msgid "OUR 4-STEP PROCESS"
+msgstr "НАШ 4-КРОКОВИЙ ПРОЦЕС"
 
 #: templates/services.html:30
-msgid ""
-"Be it a full home renovation, condo remodel, or kitchen redesign,\n"
-"\t\t\t\t\tour four-step process is straightforward and organized: an "
-"initial\n"
-"\t\t\t\t\tconsultation with one of our team leads; project design led by "
-"one\n"
-"\t\t\t\t\tof our architects; construction by one of our in-house crews; "
-"and job\n"
-"\t\t\t\t\tclose out with the whole team."
-msgstr ""
-"Чи то повний ремонт будинку, перепланування квартири або редизайн кухні, "
-"наш\n"
-"\t\t\t\t\tчетвероетапний процес простий та організований: початкова\n"
-"\t\t\t\t\tконсультація з одним з наших лідерів команди; дизайн проекту, "
-"який\n"
-"\t\t\t\t\tвиконується одним із наших архітекторів; будівництво, виконане "
-"нашою\n"
-"\t\t\t\t\tвласною командою; та завершення робіт з участю всієї команди."
+msgid "Be it a full home renovation, condo remodel, or kitchen redesign,"
+msgstr "Будь то повний ремонт будинку, реконструкція квартири чи перепланування кухні,"
 
-#: templates/services.html:52 templates/services.html:91
-#: templates/services.html:128
+#: templates/services.html:31
+msgid "our four-step process is straightforward and organized:"
+msgstr "наш чотириетапний процес простий і організований:"
+
+#: templates/services.html:32
+msgid "1. Initial consultation with one of our team leads;"
+msgstr "1. Початкова консультація з одним із керівників нашої команди;"
+
+#: templates/services.html:33
+msgid "2. Project design led by one of our architects;"
+msgstr "2. Розробка проекту під керівництвом одного з наших архітекторів;"
+
+#: templates/services.html:34
+msgid "3. Construction by one of our in-house crews;"
+msgstr "3. Будівництво однією з наших власних бригад;"
+
+#: templates/services.html:35
+msgid "4. Job close out with the whole team."
+msgstr "4. Закриття роботи з усією командою."
+
+#: templates/services.html:55 templates/services.html:94
+#: templates/services.html:131
 msgid "Step"
 msgstr "Етап"
 
-#: templates/services.html:53
+#: templates/services.html:56
 msgid "Consultation"
 msgstr "Консультація"
 
-#: templates/services.html:56
+#: templates/services.html:59
 msgid ""
 "\n"
 "\t\t\t  I take pride in providing a high level of personalized service, "
@@ -663,15 +663,15 @@ msgstr ""
 "\t\t\t пропозицію, включаючи приблизну оцінку вартості.\n"
 "\t\t\t "
 
-#: templates/services.html:74
+#: templates/services.html:77
 msgid "COST: Free"
 msgstr "ВАРТІСТЬ: Безкоштовно"
 
-#: templates/services.html:92
+#: templates/services.html:95
 msgid "Design"
 msgstr "Дизайн"
 
-#: templates/services.html:96
+#: templates/services.html:99
 msgid ""
 "\n"
 "\t\t\t  After the approval of the cost estimate, we proceed to the design"
@@ -707,12 +707,12 @@ msgstr ""
 "передбачувані етапи.\n"
 "\t\t\t "
 
-#: templates/services.html:106
+#: templates/services.html:109
 #, python-format
 msgid "COST: typically 10 – 15%% of estimated construction cost"
 msgstr "ВАРТІСТЬ: зазвичай 10 – 15%% від розрахункової вартості будівництва"
 
-#: templates/services.html:132
+#: templates/services.html:135
 msgid ""
 "\n"
 "\t\t\t  Once the project is completed, and you sign the construction "
@@ -765,15 +765,15 @@ msgstr ""
 "готовий відповісти на всі ваші запитання.\n"
 "\t\t\t "
 
-#: templates/services.html:142 templates/services.html:186
+#: templates/services.html:145 templates/services.html:189
 msgid "COST: by agreement"
 msgstr "ВАРТІСТЬ: за домовленістю"
 
-#: templates/services.html:166
+#: templates/services.html:169
 msgid "Closeout"
 msgstr "Завершення проекту"
 
-#: templates/services.html:170
+#: templates/services.html:173
 msgid ""
 "\n"
 "\t\t\t\tWhen our team completes the construction:\n"
@@ -1401,7 +1401,13 @@ msgid ""
 "                Consider this stylish option for your next bathroom "
 "renovation."
 msgstr ""
-"Душ з відкритим входом, також відомий як душ на рівні підлоги, пропонує сучасне та практичне рішення для ванних кімнат. Без підвищеної основи або традиційного піддону він забезпечує стильний, мінімалістичний вигляд, зручність в експлуатації та покращену гігієну. Ідеально підходить для всіх вікових груп і можливостей, його легко чистити і може збільшити вартість нерухомості. Розгляньте цей стильний варіант для вашого наступного ремонту ванної кімнати."
+"Душ з відкритим входом, також відомий як душ на рівні підлоги, пропонує "
+"сучасне та практичне рішення для ванних кімнат. Без підвищеної основи або"
+" традиційного піддону він забезпечує стильний, мінімалістичний вигляд, "
+"зручність в експлуатації та покращену гігієну. Ідеально підходить для "
+"всіх вікових груп і можливостей, його легко чистити і може збільшити "
+"вартість нерухомості. Розгляньте цей стильний варіант для вашого "
+"наступного ремонту ванної кімнати."
 
 #: templates/blog_templates/shower-without-tray.html:37
 msgid ""
@@ -1475,7 +1481,8 @@ msgstr ""
 "\n"
 " Естетична привабливість:\n"
 " \n"
-" Пошиття, мінімалістичний дизайн, який покращує зовнішній вигляд вашої ванної кімнати.\n"
+" Пошиття, мінімалістичний дизайн, який покращує зовнішній вигляд вашої "
+"ванної кімнати.\n"
 " Створює відчуття простору і сучасності.\n"
 " \n"
 "\n"
@@ -1499,7 +1506,8 @@ msgstr ""
 "\n"
 " Підвищення вартості власності:\n"
 " \n"
-" Стильна і сучасна ванна кімната, яка може привернути потенційних покупців.\n"
+" Стильна і сучасна ванна кімната, яка може привернути потенційних "
+"покупців.\n"
 " Інвестиція, яка може підвищити загальну вартість вашого дому.\n"
 " \n"
 "\n"
@@ -1507,7 +1515,8 @@ msgstr ""
 "\n"
 " Варіанти налаштування:\n"
 " \n"
-" Може бути спроектована для будь-якого простору, незалежно від розміру чи форми.\n"
+" Може бути спроектована для будь-якого простору, незалежно від розміру чи"
+" форми.\n"
 " Широкий вибір матеріалів та обробок на вибір.\n"
 " \n"
 "\n"
@@ -1561,20 +1570,26 @@ msgstr ""
 "\n"
 "                <h4>Дренаж:</h4>\n"
 "                <ul>\n"
-"                    <li>Забезпечте належний нахил для ефективного відведення води.</li>\n"
-"                    <li>Виберіть відповідну систему дренажу, щоб уникнути утворення заторів.</li>\n"
+"                    <li>Забезпечте належний нахил для ефективного "
+"відведення води.</li>\n"
+"                    <li>Виберіть відповідну систему дренажу, щоб уникнути"
+" утворення заторів.</li>\n"
 "                </ul>\n"
 "\n"
 "                <h4>Гідроізоляція:</h4>\n"
 "                <ul>\n"
-"                    <li>Належна гідроізоляція для запобігання витокам і пошкодженням від води.</li>\n"
-"                    <li>Використовуйте матеріали високої якості для довготривалої захисту.</li>\n"
+"                    <li>Належна гідроізоляція для запобігання витокам і "
+"пошкодженням від води.</li>\n"
+"                    <li>Використовуйте матеріали високої якості для "
+"довготривалої захисту.</li>\n"
 "                </ul>\n"
 "\n"
 "                <h4>Професійний монтаж:</h4>\n"
 "                <ul>\n"
-"                    <li>Наймання професіонала гарантує правильне та безпечне виконання робіт.</li>\n"
-"                    <li>Професіонал може надати цінні поради з дизайну та функціональності.</li>\n"
+"                    <li>Наймання професіонала гарантує правильне та "
+"безпечне виконання робіт.</li>\n"
+"                    <li>Професіонал може надати цінні поради з дизайну та"
+" функціональності.</li>\n"
 "                </ul>\n"
 "\n"
 "          <br>\n"
@@ -1616,16 +1631,20 @@ msgstr ""
 "\n"
 "                <h4>Регулярне прибирання:</h4>\n"
 "                <ul>\n"
-"                    <li>Використовуйте м'які, неабразивні засоби для збереження вигляду.</li>\n"
-"                    <li>Регулярно перевіряйте стан і вчасно виправляйте будь-які ознаки зношення або пошкодження.</li>\n"
+"                    <li>Використовуйте м'які, неабразивні засоби для "
+"збереження вигляду.</li>\n"
+"                    <li>Регулярно перевіряйте стан і вчасно виправляйте "
+"будь-які ознаки зношення або пошкодження.</li>\n"
 "                </ul>\n"
 "\n"
 "          <br>\n"
 "\n"
 "                <h4>Інспекція:</h4>\n"
 "                <ul>\n"
-"                    <li>Періодично перевіряйте гідроізоляцію та систему дренажу.</li>\n"
-"                    <li>Негайно виправляйте будь-які проблеми для запобігання подальших пошкоджень.</li>\n"
+"                    <li>Періодично перевіряйте гідроізоляцію та систему "
+"дренажу.</li>\n"
+"                    <li>Негайно виправляйте будь-які проблеми для "
+"запобігання подальших пошкоджень.</li>\n"
 "                </ul>\n"
 "          <br>\n"
 "                "
@@ -1649,8 +1668,18 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"                <p><strong>Висновок:</strong> Душова кабіна без піддону — це не просто елемент ванної кімнати; це оновлення, яке поєднує стиль, функціональність та зручність. Незалежно від того, чи ремонтуєте ви існуючу ванну кімнату, чи проектуєте зовсім нову, варто врахувати безліч переваг, які може запропонувати душова кабіна без піддону. Її елегантний дизайн, зручність у використанні та потенціал підвищити вартість вашого майбутнього житла роблять її вигідним вкладенням для будь-якого дому.</p>\n"
-"            <p>Продовжуйте читати, щоб дізнатися більше про встановлення, ідеї дизайну та поради з обслуговування, які допоможуть забезпечити, що ваша душова кабіна без піддону відповідає всім вашим очікуванням і потребам.</p>\n"
+"                <p><strong>Висновок:</strong> Душова кабіна без піддону —"
+" це не просто елемент ванної кімнати; це оновлення, яке поєднує стиль, "
+"функціональність та зручність. Незалежно від того, чи ремонтуєте ви "
+"існуючу ванну кімнату, чи проектуєте зовсім нову, варто врахувати безліч "
+"переваг, які може запропонувати душова кабіна без піддону. Її елегантний "
+"дизайн, зручність у використанні та потенціал підвищити вартість вашого "
+"майбутнього житла роблять її вигідним вкладенням для будь-якого дому.</p>"
+"\n"
+"            <p>Продовжуйте читати, щоб дізнатися більше про встановлення,"
+" ідеї дизайну та поради з обслуговування, які допоможуть забезпечити, що "
+"ваша душова кабіна без піддону відповідає всім вашим очікуванням і "
+"потребам.</p>\n"
 "\n"
 "\n"
 "\n"
@@ -2386,4 +2415,28 @@ msgstr ""
 #~ "\n"
 #~ "                "
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Be it a full home renovation, condo remodel, or kitchen redesign,\n"
+#~ "\t\t\t\t\tour four-step process is "
+#~ "straightforward and organized: an initial\n"
+#~ ""
+#~ "\t\t\t\t\tconsultation with one of our"
+#~ " team leads; project design led by"
+#~ " one\n"
+#~ "\t\t\t\t\tof our architects; construction "
+#~ "by one of our in-house crews; "
+#~ "and job\n"
+#~ "\t\t\t\t\tclose out with the whole team."
+#~ msgstr ""
+#~ "Чи то повний ремонт будинку, "
+#~ "перепланування квартири або редизайн кухні,"
+#~ " наш\n"
+#~ "\t\t\t\t\tчетвероетапний процес простий та організований: початкова\n"
+#~ "\t\t\t\t\tконсультація з одним з наших"
+#~ " лідерів команди; дизайн проекту, який\n"
+#~ ""
+#~ "\t\t\t\t\tвиконується одним із наших "
+#~ "архітекторів; будівництво, виконане нашою\n"
+#~ "\t\t\t\t\tвласною командою; та завершення робіт з участю всієї команди."
 
