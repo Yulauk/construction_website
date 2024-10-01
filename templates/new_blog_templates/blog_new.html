@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+
+{% block title %}{{ _('Blog') }}{% endblock %}
+
+{% block content %}
+<div style="margin-top: 3rem"></div>
+<div class="container py-2">
+
+    <div class="container_blog">
+    <div class="hero_blog_page">
+        <div class="three_column">
+
+            <!-- main blog -->
+
+            <div class="main_three"
+     onclick="window.location.href='/about'">
+                <img id="blog_main_img" src="/static/blog_template/images/796 × 448.png"></a>
+
+            <div class="box__text">
+                {% if blog_posts|length > 0 %}
+                <span id="uppercase">{{ blog_posts[0] }}</span>
+                <br>
+                <h3 class="h3__blog">{{ blog_posts[1] }}</h3>
+                <div class="box__text">
+                    <p>
+                        {{ blog_posts[2] }}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+            </div>
+
+
+<!--            two last video blog containet-->
+            <div class="three_column">
+
+
+
+            <!-- side blog 1 -->
+            <div class="side_three">
+                <div class="box__33__1">
+                    <a href="/" title="box1" class="box_side_33_1"></a>
+                    <img id="blog_img" src="/static/blog_template/images/444x250.png" alt="second">
+
+                    <div class="box__text__second">
+                        <span class="uppercase">Cast &amp; Crew</span>
+                        <h3 class="h3__blog_side">Lorem ipsum dolor sit, amet consectetur</h3>
+                    </div>
+                </div>
+
+            <!-- side blog 2 -->
+                <div class="box__33__1">
+                    <a href="/" title="box1" class="box_side_33_1"></a>
+                    <img id="blog_img_1" src="/static/blog_template/images/444x250.png" alt="second">
+
+                    <div class="box__text__second">
+                        <span id="uppercase">Cast &amp; Crew</span>
+                        <h3 class="h3__blog_side">Lorem ipsum dolor sit, amet consectetur</h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </div>
+    </div>
+
+
+
+ </div>
+        <div class="video_blog_container">
+        <div class="video_1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BlbFOKA82Ck?si=r00PmqNgDGDIYKQF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="video_2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hpOwDi0i3VM?si=5Fj0PU4bvZAu83lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>
+                </div>
+
+<div class="blog-new">
+<div class="container_blog">
+    <div class="hero_blog_page">
+        <div class="three_column_new">
+
+            <!-- main blog -->
+
+            <div class="main_three"
+     onclick="window.location.href='/about'">
+                <img id="blog_main_img" src="/static/blog_template/images/796 × 448.png">
+
+            <div class="box__text">
+                {% if blog_posts|length > 0 %}
+                <span id="uppercase">{{ blog_posts[0] }}</span>
+                <br>
+                <h3 class="h3__blog">{{ blog_posts[1] }}</h3>
+                <div class="box__text">
+                    <p>
+                        {{ blog_posts[2] }}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+            </div>
+
+
+
+
+
+    </div>
+    </div>
+
+ </div>
+
+</div>
+
+<div class="blog-new">
+<div class="container_blog">
+    <div class="hero_blog_page">
+        <div class="three_column_new">
+            <!-- main blog -->
+
+            <div class="main_three"
+                onclick="window.location.href='/about'">
+                <img id="blog_main_img" src="/static/blog_template/images/796 × 448.png">
+
+            <div class="box__text">
+                {% if blog_posts|length > 0 %}
+                <span id="uppercase">{{ blog_posts[0] }}</span>
+                <br>
+                <h3 class="h3__blog">{{ blog_posts[1] }}</h3>
+                <div class="box__text">
+                    <p>
+                        {{ blog_posts[2] }}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+ </div>
+
+</div>
+
+</div>
+
+{% endblock %}

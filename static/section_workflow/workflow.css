@@ -1,0 +1,89 @@
+/*workflow section*/
+.workflow {
+    text-align: center;
+    padding: 3rem 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.workflow h2{
+    max-width: 1200px;
+    margin-bottom: 3rem;
+}
+
+.workflow-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.workflow-steps-mobile{
+    display: none;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(25% - 2rem);
+}
+
+.step-icon {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.step-text p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.workflow_img {
+    max-width: 50px;
+}
+
+/* Адаптация для экранов менее 768px */
+@media (max-width: 768px) {
+    .workflow-steps {
+        display: none;
+
+    }
+
+    .workflow-steps-mobile{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Адаптация для экранов менее 500px */
+@media (max-width: 500px) {
+    .workflow h2 {
+        font-size: 1.5rem;
+    }
+
+    .step-text h3 {
+        font-size: 1rem;
+    }
+
+    .step-text p {
+        font-size: 0.9rem;
+    }
+
+
+}

@@ -27,12 +27,15 @@
 {% block title %}{% endblock %}
 
 {% block body %}
-    <div class="container py-2">
-        <div class="full-screen-container d-flex flex-column align-items-space-around justify-content-flex-start">
+
+<body>
+    <div class="container_index">
+
+                <div class="index_header_menu">
 <!--            <div class="container py-2">-->
-            <div>
+            <div class="index_header_padding">
             <header id="index-big">
-                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start nunito-sans-heavy">
 
                 <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">
             <img src="/static/images/logo/index_logo.svg" alt="Kulbachenko Construction + Design Logo" class="logo-image">
@@ -66,7 +69,7 @@
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none about-blog {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
                     </nav>
 
-                <div class="container-color-index">
+                <div class=" container-color-index nunito-sans-heavy">
                         <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
                     </div>
             </div>
@@ -78,7 +81,8 @@
         <nav id="index-navbar-mini" class="navbar bg-body-tertiary">
         <div id="index-header-fluid-mini" class="container-fluid">
 
-                <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">                        <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_blocks.png') }}" alt="Logo" width="70px" height="70px" style="object-fit: contain;">
+                <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">
+                    <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_blocks.png') }}" alt="Logo" width="70px" height="70px" style="object-fit: contain;">
 <!--                    <span id="index-header-mini-span" class="me-2 fs-4">{{ _('KULBACHENKO') }}<br>{{ _('CONSTRUCTION') }}</span>-->
                 </a>
 
@@ -138,58 +142,25 @@
                 </li>
 
             </ul>
-<!--            <form class="d-flex mt-3" role="search">-->
-<!--                <input class="form-control me-2" type="search" placeholder="{{ _('Search') }}" aria-label="{{ _('Search') }}">-->
-<!--                <button class="btn btn-outline-success" type="submit">{{ _('Search') }}</button>-->
-<!--            </form>-->
+
         </div>
     </div>
         </header>
 
 
 
-            {% block content %}
-            <div class="container py-2" style="z-index: 1;">
-                <div class="position-absolute top-4 end-0">
 
 
-                {% with messages = get_flashed_messages(with_categories=true) %}
-                    {% if messages %}
-                        {% for category, message in messages %}
-                            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
-                                {{ message }}
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        {% endfor %}
-                    {% endif %}
-                {% endwith %}
-        </div>
-    </div>
-{% endblock %}
-<div class="text-center-container">
-            <div class="main-middle-block text-center">
-                <div class="main-text-carousel" style="
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-">
-                    <img src="/static/images/logo/Index_Kulbachenko_full_block.svg" alt="Logo" width="195px" height="195px" style="object-fit: contain;display: flex;">
-                </div>
-            </div>
 
-             <div class="middle-block">
-                    <div class="container-bottom-corusel">
-                        <a href="{{ url_for('portfolio', setting_language=language) }}"
-                           class="contact-link">{{ _('VIEW OUR PORTFOLIO') }}</a>
-                    </div>
-                </div>
-    </div>
+
+
+
 
             </div>
-        </div>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-container" data-bs-ride="carousel">
+
+
+
+                <div id="carousel_background" class="carousel slide carousel-fade carousel-container" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
                     <img src="{{ url_for('static', filename='images/carousel/bass_p.png') }}" class="d-block w-100"
@@ -206,50 +177,511 @@
                     </div>
                 </div>
                 <div class="carousel-item new1">
-                    <img src="{{ url_for('static', filename='images/image_07_01/shower_warsaw.png') }}" class="d-block w-100"
+                    <img src="{{ url_for('static', filename='images/tile_blk.jpg') }}" class="d-block w-100"
                          alt="Slide 4">
                     <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
                         <!-- Add additional text or elements as needed -->
                     </div>
                 </div>
+                <div class="blur_container_filter_wrapper">
+                        <div class="blurred-background"></div>
+            <div class="blur_container">
+
+
+                    <section class="accounting-service">
+    <div class="text-content">
+        <h1 style="display: none;">KULBACHENKO CONSTRUCTION</h1>
+        <br>
+        <h2>Будівництво та ремонт</h2>
+        <p class="index_p">Надаємо повний спектр ремонтних послуг: від косметичного до капітального ремонту. Ремонт квартир, будинків, котеджів, а також будівництво приватних будинків із блоків, цегли та газобетону.</p>
+        <br>
+        <p class="index_p">Юридично та практично гарантуємо якість, сучасний підхід та оптимальні терміни!</p>
+        <div class="price-btn">
+            <a href="#pricing"><button> від €500 за м²</button></a>
+        </div>
+
+    </div>
+    <div class="image-content_services">
+        <img src="/static/images/logo/Index_Kulbachenko_full_block.svg" alt="Accounting image">
+    </div>
+</section>
+                <div class="stats_services">
+            <div class="stat-item">
+                <h2>15+</h2>
+                <p class="index_p">РОКІВ НА РИНКУ</p>
             </div>
-            <div class="overlay"></div>
+            <div class="stat-item">
+                <h2>300+</h2>
+                <p class="index_p">УСПІШНИХ ПРОЕКТІВ</p>
+            </div>
+            <div class="stat-item">
+                <h2>1,500+</h2>
+                <p class="index_p">ЗАДОВОЛЕНИХ КЛІЄНТІВ</p>
+            </div>
         </div>
 
 
 
-<!--partners block-->
-<div class="container py-2">
-        <div class="intro" style="padding:40px 30px 30px 30px; text-align:center; font-size: 20px !important" >
-        <p>
-            {{ _('We specialize professionally in providing services for construction, renovation, and interior design.
-            Our company has extensive experience in implementing various projects: from large-scale construction works
-            to small finishing works.
-            &nbsp;<br>&nbsp;
-            &nbsp;<br>&nbsp;
-            We strive to achieve the highest quality in every project, ensuring individual approach and meticulous
-            attention to details for our clients. If you need to renovate an apartment, build a country house, or
-            create a unique interior design, we are ready to exceed your expectations.') }}
-        </p>
+
+    </div>
+                        </div>
             </div>
+            <div class="overlay"></div>
+        </div>
+        </div>
+</body>
+
+
+
+<section class="pricing" id="pricing">
+    <h2>Що входить до наших послуг</h2>
+    <div class="pricing-cards">
+        <div class="card">
+            <h3>Економ</h3>
+            <p class="card_month_operations">Базові послуги</p>
+            <p class="price">Від 25 000₴ <span class="card_month">/Проект</span></p>
+            <ul>
+                <li>Демонтаж старих покриттів</li>
+                <li>Шпаклювання та вирівнювання стін і стелі</li>
+                <li>Фарбування стін і стелі</li>
+                <li>Укладання ламінату або лінолеуму</li>
+                <li>Заміна плінтусів</li>
+                <li>Монтаж освітлення (1-2 точки)</li>
+                <li>Частковий ремонт електропроводки</li>
+                <li>Установка сантехнічних приладів</li>
+                <li>Монтаж розеток та вимикачів</li>
+                <li>Чистка та реставрація існуючої сантехніки</li>
+            </ul>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="card featured">
+            <h3>Стандарт</h3>
+            <p class="card_month_operations">Базові + додаткові опції</p>
+            <p class="price">Від 60 000₴ <span class="card_month">/Проект</span></p>
+            <ul>
+                <li>Всі послуги з пакету "Економ"</li>
+                <li>Повна заміна електропроводки</li>
+                <li>Заміна міжкімнатних дверей</li>
+                <li>Монтаж натяжної або гіпсокартонної стелі</li>
+                <li>Часткова заміна системи опалення</li>
+                <li>Установка водонагрівача</li>
+                <li>Оновлення віконних конструкцій</li>
+                <li>Вирівнювання підлоги та встановлення підлогового покриття</li>
+                <li>Монтаж підвісних стель з освітленням</li>
+                <li>Поклейка шпалер або інші декоративні покриття</li>
+            </ul>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="card">
+            <h3>Преміум</h3>
+            <p class="card_month_operations">Базові + комплексний ремонт</p>
+            <p class="price">Від 120 000₴ <span class="card_month">/Проект</span></p>
+            <ul>
+                <li>Всі послуги з пакету "Стандарт"</li>
+                <li>Повна заміна сантехніки</li>
+                <li>Заміна опалювальної системи</li>
+                <li>Монтаж систем кондиціонування</li>
+                <li>Звуко- та теплоізоляція стін</li>
+                <li>Встановлення системи «тепла підлога»</li>
+                <li>Монтаж прихованих розеток та освітлення</li>
+                <li>Установка вбудованої кухні та техніки</li>
+                <li>Заміна та утеплення вікон</li>
+                <li>Встановлення нових меблів під замовлення</li>
+            </ul>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="card">
+            <h3>Еліт</h3>
+            <p class="card_month_operations">Базові + елітні матеріали та послуги</p>
+            <p class="price">Від 300 000₴ <span class="card_month">/Проект</span></p>
+            <ul>
+                <li>Всі послуги з пакету "Преміум"</li>
+                <li>Індивідуальний дизайн-проект від топ-дизайнерів</li>
+                <li>Використання преміальних матеріалів</li>
+                <li>Декорування інтер'єру під ключ</li>
+                <li>Авторський нагляд за кожним етапом робіт</li>
+                <li>Установка систем «розумний дім»</li>
+                <li>Елітна сантехніка та обладнання</li>
+                <li>Встановлення системи відеонагляду та безпеки</li>
+                <li>Розробка індивідуальних меблів</li>
+                <li>Післяремонтний технічний супровід</li>
+            </ul>
+            <button class="btn">Замовити</button>
+        </div>
+    </div>
+</section>
+
+<section class="workflow">
+    <h2>Сфери, з якими ми працюємо</h2>
+    <div class="workflow-steps">
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/contact-form-1-1.png" alt="Житлові приміщення">
+            </div>
+            <div class="step-text">
+                <h3>1. Житлові приміщення</h3>
+                <p>Комплексний ремонт квартир, будинків, та котеджів з будь-якими рівнями складності.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/discussion-1.png" alt="Комерційна нерухомість">
+            </div>
+            <div class="step-text">
+                <h3>2. Комерційна нерухомість</h3>
+                <p>Ремонт офісів, магазинів, торговельних центрів, готелів та інших об'єктів бізнес-призначення.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/chat-1.png" alt="Ремонт новобудов">
+            </div>
+            <div class="step-text">
+                <h3>3. Культурно-мистецькі об'єкти</h3>
+                    <p>Ремонт і облаштування театрів, філармоній, концертних залів та інших культурних об'єктів з урахуванням специфіки їх використання.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/accountant-1.png" alt="Оздоблення фасадів">
+            </div>
+            <div class="step-text">
+                <h3>4. Оздоблення фасадів</h3>
+                <p>Професійне оздоблення фасадів будівель із використанням сучасних матеріалів.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/customer-service-1.png" alt="Ландшафтний дизайн">
+            </div>
+            <div class="step-text">
+                <h3>5. Створення баз відпочинку</h3>
+                    <p>Проектування та будівництво сучасних баз відпочинку з урахуванням комфортності та екологічності.</p>
+            </div>
+
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/file-1.png" alt="Ремонт промислових об'єктів">
+            </div>
+            <div class="step-text">
+                <h3>6. Промислові об'єкти</h3>
+                <p>Ремонт та модернізація виробничих цехів, складів, заводів, і технічних приміщень.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="workflow-steps-mobile">
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/contact-form-1-1.png" alt="Житлові приміщення">
+            </div>
+            <div class="step-text">
+                <h3>1. Житлові приміщення</h3>
+                <p>Комплексний ремонт квартир, будинків, та котеджів з будь-якими рівнями складності.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/customer-service-1.png" alt="Комерційна нерухомість">
+            </div>
+            <div class="step-text">
+                <h3>2. Комерційна нерухомість</h3>
+                <p>Ремонт офісів, магазинів, торговельних центрів, готелів та інших об'єктів бізнес-призначення.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/discussion-1.png" alt="Новобудови">
+            </div>
+            <div class="step-text">
+                <h3>3. Новобудови</h3>
+                <p>Ремонт та облаштування житлових і комерційних приміщень у новобудовах.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/file-1.png" alt="Оздоблення фасадів">
+            </div>
+            <div class="step-text">
+                <h3>4. Оздоблення фасадів</h3>
+                <p>Професійне оздоблення фасадів будівель із використанням сучасних матеріалів.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/chat-1.png" alt="Ландшафтний дизайн">
+            </div>
+            <div class="step-text">
+                <h3>5. Ландшафтний дизайн</h3>
+                <p>Проектування та втілення дизайну навколишньої території з використанням найновіших технологій.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-icon">
+                <img class="workflow_img" src="http://fin24-dev.site/wp-content/uploads/2024/09/agreement-1.png" alt="Промислові об'єкти">
+            </div>
+            <div class="step-text">
+                <h3>6. Промислові об'єкти</h3>
+                <p>Ремонт та модернізація виробничих цехів, складів, заводів, і технічних приміщень.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_steps">
+    <!-- Our Mission Section -->
+<div class="background_figures">
+    <div class="yellow-circle_1"></div>
+    <div class="yellow-circle_2"></div>
+    <div class="yellow-circle_3"></div>
+    <div class="yellow-circle_4"></div>
+    <div class="yellow-circle_5"></div>
+    <div class="yellow-circle_6"></div>
+    <div class="yellow-circle_7"></div>
+    <div class="">
+        <!-- Left Column with Background Image -->
+        <div class="mission-bg css-selector">
+            <h1>Building Made Simple</h1>
+            <h3 class="mb-3">Curious how we work?</h3>
+
+                            <p>Discover the 6 steps to transforming your space with precision and care.</p>
+<button class="btn btn-primary mt-3" id="learnMoreBtn">Discover</button>
+            <!-- Hidden Content Block -->
+                <div id="moreContent" class="hidden-content" style="display: none;">
+                    <!-- Additional hidden content here -->
+                </div>
+        </div>
+
+
+    </div>
+
+    <!-- Full Width Hidden Block -->
+    <div id="fullWidthContent" class="full-width-content" style="display: none;">
+        <!-- List Section with Steps -->
+        <div class="cloused_text">
+            <ul>
+                <li>
+                    <span class="number_lists">1</span>
+                    <p>
+                        <span class="caption_text">КОНТАКТ</span>
+                        Спочатку вам потрібно зв'язатися з нами та поставити всі запитання, які вас цікавлять. Ви можете написати нам електронного листа, скористатися будь-яким зручним месенджером, зателефонувати або заповнити форму заявки на нашому сайті, щоб менеджер з вами зв'язався. Під час телефонної розмови ви зможете обговорити деталі вашого проекту (чи будівництва), описати об'єкт і визначити з нами обсяг робіт. На цьому етапі ми надамо вам попередню інформацію про вартість, порядок робіт і можливі терміни.
+                    </p>
+                </li>
+                <li class="cloused_text_reverse">
+                    <span class="number_lists">2</span>
+                    <p>
+                        <span class="caption_text">ВИМІРЮВАННЯ</span>
+                        Наш виконроб безкоштовно приїде на ваш об'єкт для точних вимірювань і оцінки обсягів робіт. Якщо у вас є дизайн-проект або будівельний план, дані будуть уточнені. У разі відсутності такого плану, разом із замовником та виконробом буде складено детальний опис необхідних робіт. На основі цих даних кошторисник розпочне розрахунок бюджету.
+                    </p>
+                </li>
+                <li>
+                    <span class="number_lists">3</span>
+                    <p>
+                        <span class="caption_text">КОШТОРИС ТА ДОГОВІР</span>
+                        Кошторисник у найкоротші строки безкоштовно складе детальний попередній кошторис. Всі умови щодо вартості, термінів та процесу виконання робіт будуть зафіксовані в договорі, який ми обов’язково підписуємо з замовником. Кошторис стане невід'ємною частиною договору як Додаток №1.
+                    </p>
+                </li>
+                <li class="cloused_text_reverse">
+                    <span class="number_lists">4</span>
+                    <p>
+                        <span class="caption_text">ПОЧАТОК РОБІТ</span>
+                        Розпочинаємо ремонтні чи будівельні роботи під керівництвом досвідченого виконроба. Всі роботи виконуються за графіком і відповідно до затвердженого кошторису. Додаткові роботи здійснюються тільки після їх обґрунтування виконробом і узгодження з замовником.
+                    </p>
+                </li>
+                <li>
+                    <span class="number_lists">5</span>
+                    <p>
+                        <span class="caption_text">ЗАВЕРШЕННЯ РОБІТ</span>
+                        Після завершення робіт та вивезення будівельного сміття, ви приймаєте нашу роботу.
+                    </p>
+                </li>
+                <li class="cloused_text_reverse">
+                    <span class="number_lists">6</span>
+                    <p>
+                        <span class="caption_text">ГАРАНТІЯ ТА ОБСЛУГОВУВАННЯ</span>
+                        Під час остаточного розрахунку директор компанії і замовник підписують акт виконаних робіт, що надає гарантію на всі роботи на строк мінімум 12 місяців, а також гарантує нашу підтримку в разі виникнення будь-яких питань у майбутньому.
+                    </p>
+                </li>
+            </ul>
+            <div class="button_hide">
+            <button class="btn btn-primary mt-3" id="hideContentBtn">Hide</button>
+                </div>
+        </div>
+    </div>
+</div>
+    <script>
+document.getElementById("learnMoreBtn").addEventListener("click", function() {
+    var content = document.getElementById("moreContent");
+    var fullWidthContent = document.getElementById("fullWidthContent");
+
+    if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block"; // Show inline content
+        fullWidthContent.style.display = "block"; // Show full-width content
+        this.innerText = "Show Less"; // Change button text
+    } else {
+        content.style.display = "none"; // Hide inline content
+        fullWidthContent.style.display = "none"; // Hide full-width content
+        this.innerText = "Discover"; // Reset button text
+    }
+});
+
+// Hide the full-width content and scroll to "Learn More" when "Hide" button is clicked
+document.getElementById('hideContentBtn').addEventListener('click', function() {
+    document.getElementById('fullWidthContent').style.display = 'none'; // Hide full-width content
+    document.getElementById('learnMoreBtn').innerText = 'Discover'; // Reset button text
+
+    // Scroll back to the "Learn More" button
+    document.getElementById('learnMoreBtn').scrollIntoView({
+        behavior: 'smooth' // Smooth scroll to the "Discover" button
+    });
+});
+
+</script>
+</section>
+
+
+    <!-- container 1 -->
+<div class="container_blog">
+    <!-- main blog -->
+            <hr class="line-separator">
+
+            <!-- Latest Videos Title -->
+            <h2 class="latest-videos-title">Latest news</h2>
+    <div class="hero_blog_page">
+        <div class="three_column">
+
+
+
+            <div class="main_three"
+     onclick="window.location.href='/about'">
+                <img id="blog_main_img" src="static/blog_template/images/796 × 448.png"></a>
+
+            <div class="box__text">
+                {% if blog_posts|length > 0 %}
+                <span id="uppercase">{{ blog_posts[0] }}</span>
+                <br>
+                <h3 class="h3__blog">{{ blog_posts[1] }}</h3>
+                <div class="box__text">
+                    <p>
+                        {{ blog_posts[2] }}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+            </div>
+
+
+            <!-- side blog 1 -->
+            <div class="side_three">
+                <div class="box__33__1">
+                    <a href="/" title="box1" class="box_side_33_1"></a>
+                    <img id="blog_img" src="static/blog_template/images/444x250.png" alt="second">
+
+                    <div class="box__text__second">
+                        <span class="uppercase">Cast &amp; Crew</span>
+                        <h3 class="h3__blog_side">Lorem ipsum dolor sit, amet consectetur</h3>
+                    </div>
+                </div>
+
+            <!-- side blog 2 -->
+                <div class="box__33__1">
+                    <a href="/" title="box1" class="box_side_33_1"></a>
+                    <img id="blog_img_1" src="static/blog_template/images/444x250.png" alt="second">
+
+                    <div class="box__text__second">
+                        <span id="uppercase">Cast &amp; Crew</span>
+                        <h3 class="h3__blog_side">Lorem ipsum dolor sit, amet consectetur</h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+
+
+        <!--video_blog_container-->
+        <hr class="line-separator">
+
+        <!-- Latest Videos Title -->
+        <h2 class="latest-videos-title">Latest videos</h2>
+
+        <div class="video_blog_container">
+    <div class="video_blog_youtube video_blog_youtube">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/BlbFOKA82Ck?si=r00PmqNgDGDIYKQF"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+               web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+
+      </iframe>
+    </div>
+
+    <div class="video_blog_youtube">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/hpOwDi0i3VM?si=5Fj0PU4bvZAu83lE"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+               picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen="">
+      </iframe>
+    </div>
+  </div>
+
+
+
+<!-- Our Mission Section -->
+    <hr class="line-separator">
+
+<!-- Latest Videos Title -->
+    <h2 class="latest-videos-title separator_margin_top">Our work process</h2>
+
+<!-- Our Mission Section -->
+
+</div>
+
+
+<!--photo_blog_container-->
+<div class="container_blog">
+        <hr class="line-separator" id="separator_margin_top">
+
+        <!-- Latest Videos Title -->
+        <h2 class="latest-videos-title">Latest Portfolio</h2>
+
+        <div class="video_blog_container">
+    <div class="video_blog_youtube video_blog_youtube">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/BlbFOKA82Ck?si=r00PmqNgDGDIYKQF"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+               web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" style="border-radius: 22px;">
+
+      </iframe>
+    </div>
+
+    <div class="video_blog_youtube">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/hpOwDi0i3VM?si=5Fj0PU4bvZAu83lE"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+               picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen="" style="border-radius: 22px;">
+      </iframe>
+    </div>
+  </div>
 </div>
 
 
 
-
-
+<!--partners block-->
 <div id="partners-block" class="body-bg">
+
 <div class="container py-2">
 
-
-
-<div class="row g-5">
+<div class="row">
 
 
                 <div class="col-lg-12 order-md-last">
         <div>
             <div class="container">
-                <div class="row g-5" style="
+                <div class="row" style="
             display: flex;
             justify-content: center;">
 
@@ -259,7 +691,7 @@
             </div>
                 </div></div>
             <div class="container">
-                <div class="row g-5" style="
+                <div class="row" style="
             display: flex;
             justify-content: center;">
 
@@ -282,7 +714,7 @@
         </div>
             </div>
             <div class="container">
-                <div class="row g-5" style="
+                <div class="row" style="
             display: flex;
             justify-content: center;">
 
@@ -298,4 +730,132 @@
                 </div>
         </div>
     </div>
+
+<section class="faq_section">
+            <div class="faq_h2">
+                <h2>Відповіді на<br>поширені питання</h2>
+            </div>
+
+            <div class="faq">
+        <!-- Питання про ремонт -->
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Які види ремонтних робіт ви виконуєте?</h3>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" style="display: none;">
+                <p>Ми спеціалізуємося на ремонтах театрів, філармоній, культурно-мистецьких об'єктів, а також житлових і комерційних приміщень. Наша компанія виконує як капітальні ремонти, так і косметичні, враховуючи всі деталі проекту.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Чи потрібно отримувати дозвіл на ремонт у вашому випадку?</h3>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" style="display: none;">
+                <p>Це залежить від масштабу робіт і країни, в якій проводиться ремонт. У більшості випадків ми беремо на себе усі необхідні дозволи, щоб клієнт не переймався бюрократією. Конкретні вимоги варіюються залежно від об’єкта, наприклад, театри чи історичні будівлі мають свої правила.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Як формується вартість ремонту?</h3>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" style="display: none;">
+                <p>Вартість ремонту залежить від складності проекту, площі об'єкта та обсягу необхідних робіт. Ми складаємо детальний кошторис після оцінки проекту, а також обговорюємо можливі варіанти економії, якщо це необхідно.</p>
+            </div>
+        </div>
+
+        <!-- Питання про договір -->
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Як виглядає договір на надання ремонтних послуг?</h3>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" style="display: none;">
+                <p>Договір містить чітко визначені умови співпраці, включаючи строки виконання робіт, вартість, гарантійні зобов’язання та права обох сторін. Після підписання договору, ми починаємо роботу згідно з узгодженим планом.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Чи надаєте ви гарантію на виконані роботи?</h3>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" style="display: none;">
+                <p>Так, ми надаємо гарантію на всі виконані роботи. Гарантійний термін залежить від типу ремонту, але зазвичай він становить від 1 до 5 років. Усі умови гарантії прописуються в договорі.</p>
+            </div>
+        </div>
+
+        <!-- Інформація про компанію -->
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Де зареєстрована ваша компанія?</h3>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" style="display: none;">
+                <p>Наша компанія зареєстрована в <a href="https://ariregister.rik.ee/eng/company/17070625/Kulbachenko-Construction-O%C3%9C">Естонії</a>, але ми надаємо послуги по всій Європі, зокрема в Естонії та Нідерландах. Ми орієнтовані на забезпечення високого рівня якості та надійності в кожній країні, де працюємо.</p>
+
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Які країни ви обслуговуєте?</h3>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer" style="display: none;">
+                <p>Ми надаємо ремонтні послуги переважно в Естонії та Нідерландах, але можемо виконувати проекти по всій Європі. Завдяки нашому досвіду роботи в різних країнах, ми знайомі з місцевими нормами та вимогами.</p>
+            </div>
+        </div>
+    </div>
+
+        <script>
+            document.querySelectorAll('.faq-question').forEach(item => {
+                item.addEventListener('click', function () {
+                    let answer = this.nextElementSibling;
+                    let icon = this.querySelector('.faq-icon');
+
+                    if (answer.style.display === "none" || answer.style.display === "") {
+                        answer.style.display = "block";
+                        icon.textContent = '−';
+                    } else {
+                        answer.style.display = "none";
+                        icon.textContent = '+';
+                    }
+                });
+            });
+
+            document.querySelectorAll('.faq-question').forEach(item => {
+                item.addEventListener('click', function () {
+                    let parent = this.parentElement;
+                    let answer = parent.querySelector('.faq-answer');
+
+                    if (parent.classList.contains('open')) {
+                        answer.style.maxHeight = '0';
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                    }
+
+                    parent.classList.toggle('open');
+                });
+            });
+
+
+
+            document.querySelector('.header_menu_button').addEventListener('click', () => {
+                document.querySelector('.mobile_menu').classList.toggle('active');
+            });
+
+
+
+
+
+
+
+        </script>
+
+    </section>
 {% endblock %}

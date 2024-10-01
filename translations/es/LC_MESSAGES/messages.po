@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-27 22:41+0200\n"
+"POT-Creation-Date: 2024-08-22 14:56+0200\n"
 "PO-Revision-Date: 2024-01-12 05:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: templates/about.html:6
 msgid ""
@@ -30,8 +30,8 @@ msgstr ""
 msgid "About"
 msgstr "ACERCA DE"
 
-#: templates/about.html:16 templates/base.html:82 templates/base.html:191
-#: templates/index.html:62 templates/index.html:120
+#: templates/about.html:16 templates/base.html:71 templates/base.html:175
+#: templates/index.html:63 templates/index.html:128
 msgid "ABOUT"
 msgstr "ACERCA DE"
 
@@ -59,203 +59,192 @@ msgstr ""
 msgid "Kulbachenko Construction + Design"
 msgstr ""
 
-#: templates/base.html:83 templates/base.html:194 templates/index.html:63
-#: templates/index.html:123 templates/portfolio.html:14
+#: templates/base.html:72 templates/base.html:178 templates/index.html:64
+#: templates/index.html:131 templates/portfolio.html:14
 msgid "PORTFOLIO"
 msgstr "PORTAFOLIO"
 
-#: templates/base.html:84 templates/base.html:197 templates/index.html:64
-#: templates/index.html:126 templates/services.html:14
+#: templates/base.html:73 templates/base.html:181 templates/index.html:65
+#: templates/index.html:134 templates/services.html:14
 msgid "SERVICES"
 msgstr "SERVICIOS"
 
-#: templates/base.html:85 templates/base.html:200 templates/blog.html:8
-#: templates/index.html:65 templates/index.html:129
+#: templates/base.html:74 templates/base.html:184 templates/blog.html:8
+#: templates/index.html:66 templates/index.html:137
 msgid "BLOG"
 msgstr "BLOG"
 
-#: templates/base.html:89 templates/index.html:69
+#: templates/base.html:77 templates/index.html:70
 msgid "CONTACT US"
 msgstr "CONTÁCTANOS"
 
-#: templates/base.html:108 templates/base.html:153 templates/index.html:81
-#: templates/index.html:171
-msgid "KULBACHENKO"
-msgstr ""
-
-#: templates/base.html:108 templates/base.html:153 templates/index.html:81
-#: templates/index.html:171
-#, fuzzy
-msgid "CONSTRUCTION"
-msgstr "Construcción"
-
-#: templates/base.html:188
+#: templates/base.html:172
 #, fuzzy
 msgid "HOME"
 msgstr "Teléfono"
 
-#: templates/base.html:205 templates/base.html:206 templates/index.html:134
-#: templates/index.html:135
+#: templates/base.html:189 templates/base.html:190 templates/index.html:142
+#: templates/index.html:143
 msgid "Search"
 msgstr ""
 
-#: templates/base.html:229
+#: templates/base.html:213
 msgid "Get a Free Consultation"
 msgstr "Obtén una Consulta Gratuita"
 
-#: templates/base.html:236
+#: templates/base.html:220
 #, fuzzy
 msgid "First Name"
 msgstr "Nombre"
 
-#: templates/base.html:242
+#: templates/base.html:226
 #, fuzzy
 msgid "Your Contact"
 msgstr "Contáctanos"
 
-#: templates/base.html:248
+#: templates/base.html:232
 msgid "Comment"
 msgstr ""
 
-#: templates/base.html:257
+#: templates/base.html:241
 #, fuzzy
 msgid "Verify Submit"
 msgstr "Enviar"
 
-#: templates/base.html:272
+#: templates/base.html:256
 msgid "Contact Us"
 msgstr "Contáctanos"
 
-#: templates/base.html:276
+#: templates/base.html:260
 msgid "First name"
 msgstr "Nombre"
 
-#: templates/base.html:282
+#: templates/base.html:266
 msgid "Last name"
 msgstr "Apellido"
 
-#: templates/base.html:288
+#: templates/base.html:272
 msgid "Email address"
 msgstr "Email"
 
-#: templates/base.html:297
+#: templates/base.html:281
 msgid "Phone"
 msgstr "Teléfono"
 
-#: templates/base.html:303
+#: templates/base.html:287
 msgid "City"
 msgstr "Ciudad"
 
-#: templates/base.html:309
+#: templates/base.html:293
 msgid "State"
 msgstr "Estado"
 
-#: templates/base.html:314
+#: templates/base.html:298
 msgid "Zip"
 msgstr "Código postal"
 
-#: templates/base.html:320
+#: templates/base.html:304
 msgid "Address"
 msgstr "Dirección"
 
-#: templates/base.html:325
+#: templates/base.html:309
 msgid "Target budget"
 msgstr "Presupuesto objetivo"
 
-#: templates/base.html:327
+#: templates/base.html:311
 msgid "Select budget range"
 msgstr ""
 
-#: templates/base.html:328
+#: templates/base.html:312
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:329
+#: templates/base.html:313
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:330
+#: templates/base.html:314
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:331
+#: templates/base.html:315
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:332
+#: templates/base.html:316
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:333
+#: templates/base.html:317
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:334
+#: templates/base.html:318
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:340
+#: templates/base.html:324
 msgid "Project time frame"
 msgstr "Plazo del proyecto"
 
-#: templates/base.html:342
+#: templates/base.html:326
 #, fuzzy
 msgid "Select time frame"
 msgstr "Plazo del proyecto"
 
-#: templates/base.html:343
+#: templates/base.html:327
 msgid "As soon as possible"
 msgstr ""
 
-#: templates/base.html:344
+#: templates/base.html:328
 msgid "Starting within 3 months"
 msgstr ""
 
-#: templates/base.html:345
+#: templates/base.html:329
 msgid "Starting within 6 months"
 msgstr ""
 
-#: templates/base.html:346
+#: templates/base.html:330
 msgid "Starting within a year"
 msgstr ""
 
-#: templates/base.html:352
+#: templates/base.html:336
 msgid "How did you hear about us?"
 msgstr "¿Cómo nos conociste?"
 
-#: templates/base.html:354
+#: templates/base.html:338
 msgid "Select an option"
 msgstr ""
 
-#: templates/base.html:355
+#: templates/base.html:339
 msgid "Online Advertisement"
 msgstr ""
 
-#: templates/base.html:356
+#: templates/base.html:340
 msgid "Friend or Colleague"
 msgstr ""
 
-#: templates/base.html:357
+#: templates/base.html:341
 msgid "Social networks"
 msgstr ""
 
-#: templates/base.html:358
+#: templates/base.html:342
 msgid "Google"
 msgstr ""
 
-#: templates/base.html:359
+#: templates/base.html:343
 msgid "Other"
 msgstr ""
 
-#: templates/base.html:365
+#: templates/base.html:349
 msgid "Tell us about your project"
 msgstr "Cuéntanos acerca de tu proyecto"
 
-#: templates/base.html:376
+#: templates/base.html:360
 msgid "Agree to terms and conditions"
 msgstr "Aceptar términos y condiciones"
 
-#: templates/base.html:383
+#: templates/base.html:367
 msgid "Submit form"
 msgstr "Enviar"
 
@@ -359,7 +348,7 @@ msgstr ""
 msgid "A comprehensive apartment renovation includes various stages"
 msgstr ""
 
-#: templates/blog.html:141 templates/blog.html:272 templates/services.html:129
+#: templates/blog.html:141 templates/blog.html:272 templates/services.html:132
 msgid "Construction"
 msgstr "Construcción"
 
@@ -432,15 +421,24 @@ msgid ""
 "sizes. Professional construction work aimed at private houses."
 msgstr ""
 
-#: templates/index.html:117
+#: templates/index.html:82
+msgid "KULBACHENKO"
+msgstr ""
+
+#: templates/index.html:82
+#, fuzzy
+msgid "CONSTRUCTION"
+msgstr "Construcción"
+
+#: templates/index.html:125
 msgid "MAIN"
 msgstr ""
 
-#: templates/index.html:180
+#: templates/index.html:185
 msgid "VIEW OUR PORTFOLIO"
 msgstr "VER NUESTRO PORTAFOLIO"
 
-#: templates/index.html:226
+#: templates/index.html:225
 msgid ""
 "We specialize professionally in providing services for construction, "
 "renovation, and interior design.\n"
@@ -457,7 +455,7 @@ msgid ""
 "expectations."
 msgstr ""
 
-#: templates/index.html:271
+#: templates/index.html:270
 msgid "OUR PARTNERS"
 msgstr ""
 
@@ -502,45 +500,46 @@ msgstr ""
 msgid "Services"
 msgstr "Servicios"
 
-#: templates/services.html:29
-msgid "Our 4-Step Process"
+#: templates/services.html:28
+#, fuzzy
+msgid "OUR 4-STEP PROCESS"
 msgstr "Nuestro Proceso de 4 Pasos"
 
 #: templates/services.html:30
-msgid ""
-"Be it a full home renovation, condo remodel, or kitchen redesign,\n"
-"\t\t\t\t\tour four-step process is straightforward and organized: an "
-"initial\n"
-"\t\t\t\t\tconsultation with one of our team leads; project design led by "
-"one\n"
-"\t\t\t\t\tof our architects; construction by one of our in-house crews; "
-"and job\n"
-"\t\t\t\t\tclose out with the whole team."
+msgid "Be it a full home renovation, condo remodel, or kitchen redesign,"
 msgstr ""
-"Mi nombre es Serhii Kulchenko, y he estado trabajando en la industria de "
-"la construcción durante mucho tiempo. todo comenzó cuando llegué a Kyiv y"
-" obtuve educación en las especialidades de albañil-hornillero, soldador "
-"eléctrico e instalador de estructuras de hormigón armado. Mi trayectoria "
-"comenzó como peón en un equipo de construcción, pero me di cuenta de mi "
-"potencial y decidí comenzar mi propio negocio. Con el tiempo, formé mi "
-"propio equipo de construcción, atrayendo a muchos clientes satisfechos "
-"debido a años de experiencia y profesionalismo. Trabajando en Europa, me "
-"familiaricé con nuevos materiales, tecnologías y estándares. Con un "
-"compromiso constante con la mejora, organicé y desarrollé con éxito mi "
-"negocio desde cero, continuando proporcionando servicios de alta calidad "
-"y ganándome su confianza. ¡Estaré encantado de colaborar!"
 
-#: templates/services.html:52 templates/services.html:91
-#: templates/services.html:128
+#: templates/services.html:31
+msgid "our four-step process is straightforward and organized:"
+msgstr ""
+
+#: templates/services.html:32
+msgid "1. Initial consultation with one of our team leads;"
+msgstr ""
+
+#: templates/services.html:33
+msgid "2. Project design led by one of our architects;"
+msgstr ""
+
+#: templates/services.html:34
+msgid "3. Construction by one of our in-house crews;"
+msgstr ""
+
+#: templates/services.html:35
+msgid "4. Job close out with the whole team."
+msgstr ""
+
+#: templates/services.html:55 templates/services.html:94
+#: templates/services.html:131
 #, fuzzy
 msgid "Step"
 msgstr "Estado"
 
-#: templates/services.html:53
+#: templates/services.html:56
 msgid "Consultation"
 msgstr "Consulta"
 
-#: templates/services.html:56
+#: templates/services.html:59
 msgid ""
 "\n"
 "\t\t\t  I take pride in providing a high level of personalized service, "
@@ -570,15 +569,15 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 
-#: templates/services.html:74
+#: templates/services.html:77
 msgid "COST: Free"
 msgstr "COSTO: Gratis"
 
-#: templates/services.html:92
+#: templates/services.html:95
 msgid "Design"
 msgstr "Diseño"
 
-#: templates/services.html:96
+#: templates/services.html:99
 msgid ""
 "\n"
 "\t\t\t  After the approval of the cost estimate, we proceed to the design"
@@ -598,12 +597,12 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 
-#: templates/services.html:106
+#: templates/services.html:109
 #, python-format
 msgid "COST: typically 10 – 15%% of estimated construction cost"
 msgstr "COSTO: típicamente 10 – 15%% del costo estimado de construcción"
 
-#: templates/services.html:132
+#: templates/services.html:135
 msgid ""
 "\n"
 "\t\t\t  Once the project is completed, and you sign the construction "
@@ -632,15 +631,15 @@ msgid ""
 "\t\t\t  "
 msgstr ""
 
-#: templates/services.html:142 templates/services.html:186
+#: templates/services.html:145 templates/services.html:189
 msgid "COST: by agreement"
 msgstr "COSTO: por acuerdo"
 
-#: templates/services.html:166
+#: templates/services.html:169
 msgid "Closeout"
 msgstr "Conclusión"
 
-#: templates/services.html:170
+#: templates/services.html:173
 msgid ""
 "\n"
 "\t\t\t\tWhen our team completes the construction:\n"
@@ -1762,4 +1761,41 @@ msgstr ""
 #~ "\n"
 #~ "                "
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Be it a full home renovation, condo remodel, or kitchen redesign,\n"
+#~ "\t\t\t\t\tour four-step process is "
+#~ "straightforward and organized: an initial\n"
+#~ ""
+#~ "\t\t\t\t\tconsultation with one of our"
+#~ " team leads; project design led by"
+#~ " one\n"
+#~ "\t\t\t\t\tof our architects; construction "
+#~ "by one of our in-house crews; "
+#~ "and job\n"
+#~ "\t\t\t\t\tclose out with the whole team."
+#~ msgstr ""
+#~ "Mi nombre es Serhii Kulchenko, y "
+#~ "he estado trabajando en la industria "
+#~ "de la construcción durante mucho tiempo."
+#~ " todo comenzó cuando llegué a Kyiv"
+#~ " y obtuve educación en las "
+#~ "especialidades de albañil-hornillero, soldador"
+#~ " eléctrico e instalador de estructuras "
+#~ "de hormigón armado. Mi trayectoria "
+#~ "comenzó como peón en un equipo de"
+#~ " construcción, pero me di cuenta de"
+#~ " mi potencial y decidí comenzar mi"
+#~ " propio negocio. Con el tiempo, formé"
+#~ " mi propio equipo de construcción, "
+#~ "atrayendo a muchos clientes satisfechos "
+#~ "debido a años de experiencia y "
+#~ "profesionalismo. Trabajando en Europa, me "
+#~ "familiaricé con nuevos materiales, tecnologías"
+#~ " y estándares. Con un compromiso "
+#~ "constante con la mejora, organicé y "
+#~ "desarrollé con éxito mi negocio desde"
+#~ " cero, continuando proporcionando servicios "
+#~ "de alta calidad y ganándome su "
+#~ "confianza. ¡Estaré encantado de colaborar!"
 

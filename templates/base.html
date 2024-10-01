@@ -1,470 +1,494 @@
-<!DOCTYPE html>
-<html lang="{{ language }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="robots" content="index, follow">
+    <!DOCTYPE html>
+    <html lang="{{ language }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="robots" content="index, follow">
 
-    {% block meta %}{% endblock %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel="icon"  href="{{ url_for('static', filename='/images/logo/Kulbachenko_classic.png') }}"  class="me-2"
-          type="image/x-icon" >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "name": "Kulbachenko Construction + Design",
-          "url": "https://kulbachenko.com/",
-          "logo": "{{ url_for('static', filename='/images/logo/Kulbachenko_orange_white_base.png') }}",
-          "sameAs": [
-            "https://www.facebook.com/serhii.kulbachenko?mibextid=ZbWKwL",
-            "https://twitter.com/SKulbachenko?t=xSAFLKTbCX5F36LYGwNZrA&s=35",
-            "https://www.instagram.com/kulbachenko.construction",
-            "https://www.youtube.com/@kulbachenkoconstruction",
-            "https://www.tiktok.com/@serhiikulbachenko?_t=8hvsTMeY8nN&_r="
-          ]
-        }
-</script>
+        {% block meta %}{% endblock %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <link rel="icon"  href="{{ url_for('static', filename='/images/logo/Kulbachenko_classic.png') }}"  class="me-2"
+              type="image/x-icon" >
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='section-contact/section-contact.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='section_pricing/pricing.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='section_workflow/workflow.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='section_faq/faq.css') }}" />
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-    <!--strange but it only works with two identical links-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/blog.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/style_blog_template.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/media.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/our_mission_blog.css') }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+        </style>
+        <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "name": "Kulbachenko Construction + Design",
+              "url": "https://kulbachenko.com/",
+              "logo": "{{ url_for('static', filename='/images/logo/Kulbachenko_orange_white_base.png') }}",
+              "sameAs": [
+                "https://www.facebook.com/serhii.kulbachenko?mibextid=ZbWKwL",
+                "https://twitter.com/SKulbachenko?t=xSAFLKTbCX5F36LYGwNZrA&s=35",
+                "https://www.instagram.com/kulbachenko.construction",
+                "https://www.youtube.com/@kulbachenkoconstruction",
+                "https://www.tiktok.com/@serhiikulbachenko?_t=8hvsTMeY8nN&_r="
+              ]
+            }
+    </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+        <!--strange but it only works with two identical links-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        <script src="{{ url_for('static', filename='/blog_template/js/blog_template.js') }}"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 
 
 
 
-    <title>{% block title %}{% endblock %} {{ _('Kulbachenko Construction + Design') }}</title>
-</head>
-<body class="bg-light">
-    {% block body %}
-        <header id="header-big" class="fixed-top">
+        <title>{% block title %}{% endblock %} {{ _('Kulbachenko Construction + Design') }}</title>
+    </head>
+        {% block body %}
+            <header id="header-big" class="fixed-top">
 
-                <div class="container py-2">
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-            <img src="/static/images/logo/Kulbachenko_logo_base.svg"
-                 alt="Kulbachenko Construction + Design Logo"
-                 class="logo-image">
-        </a>
-                <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                    <div class="me-3 py-2 link-body-emphasis text-decoration-none">
-                        <div id='base' class="dropdown">
-                            <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                                {{ language.upper() }}
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
-                            </ul>
+                    <div class="container py-2">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start nunito-sans-heavy">
+            <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
+                <img src="/static/images/logo/Kulbachenko_logo_base.svg"
+                     alt="Kulbachenko Construction + Design Logo"
+                     class="logo-image">
+            </a>
+                    <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                        <div class="me-3 py-2 link-body-emphasis text-decoration-none">
+                            <div id='base' class="dropdown">
+                                <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {{ language.upper() }}
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
-                </nav>
-                <div class="container-color">
-                        <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
-                    </div>
-            </div>
-                    </div>
-        </header>
-
-
-<div class="container py-2">
-        <!-- header for middle screens -->
-        <header id="header-middle" class="fixed-top">
-        <nav id="navbar-smaller" class="navbar bg-body-tertiary">
-        <div id='header-fluid-middle' class="container-fluid">
-
-                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-            <img src="/static/images/logo/Kulbachenko_logo_base.svg"
-                 alt="Kulbachenko Construction + Design Logo"
-                 class="logo-image">
-        </a>
-
-        <div class="tst">
-            <div class="me-3 py-2 link-body-emphasis text-decoration-none">
-                        <div id='base-smaller' class="dropdown">
-                            <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-smaller" data-bs-toggle="dropdown" aria-expanded="false">
-                                {{ language.upper() }}
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
-
-                            </ul>
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
+                    </nav>
+                    <div class="container-color">
+                            <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
                         </div>
-                    </div>
-            </div>
+                </div>
+                        </div>
+            </header>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </nav>
-
-        <!-- Offcanvas navigation -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarmini" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-<!--            <h5 class="offcanvas-title" id="offcanvasNavbarLabelmini">Offcanvas</h5>-->
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-
-    </div>
-        </header>
-</div>
 
     <div class="container py-2">
-        <!--    mini header-->
-    <header id="header-mini" class="fixed-top">
-        <nav id="navbar-mini" class="navbar bg-body-tertiary">
-        <div id="header-fluid-mini" class="container-fluid">
+            <!-- header for middle screens -->
+            <header id="header-middle" class="fixed-top">
+            <nav id="navbar-smaller" class="navbar bg-body-tertiary">
+            <div id='header-fluid-middle' class="container-fluid">
 
-                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                        <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_white_base.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px" style="object-fit: contain;">
-                </a>
+                    <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
+                <img src="/static/images/logo/Kulbachenko_logo_base.svg"
+                     alt="Kulbachenko Construction + Design Logo"
+                     class="logo-image">
+            </a>
 
-        <div class="tst">
-            <div class="me-3 py-2 link-body-emphasis text-decoration-none">
-                        <div id='base-mini' class="dropdown">
-                            <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-mini" data-bs-toggle="dropdown" aria-expanded="false">
-                                {{ language.upper() }}
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+            <div class="tst">
+                <div class="me-3 py-2 link-body-emphasis text-decoration-none">
+                            <div id='base-smaller' class="dropdown">
+                                <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-smaller" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {{ language.upper() }}
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-            </div>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </nav>
-
-        <!-- Offcanvas navigation -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">{{ _('HOME') }}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language, path=request.path) }}">{{ _('ABOUT') }}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language, path=request.path) }}">{{ _('PORTFOLIO') }}</a>
-                </li>
-                <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
-                </li>
-                <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
-                </li>
-
-            </ul>
-<!--            <form class="d-flex mt-3" role="search">-->
-<!--                <input class="form-control me-2" type="search" placeholder="{{ _('Search') }}" aria-label="{{ _('Search') }}">-->
-<!--                <button class="btn btn-outline-success" type="submit">{{ _('Search') }}</button>-->
-<!--            </form>-->
-        </div>
-    </div>
-        </header>
-    </div>
-
-<!--    <div class="navbar_margin_80"></div>-->
-
-        {% block content %}{% endblock %}
-    {% endblock %}
-        <div class="body-bg">
-            <div class="container py-2">
-                <div class="album py-5">
-        <main>
-            <div>
-            <div id="contact-form" class="row g-5">
-
-                <!--                      Get a Free Consultation-->
-
-                <div class="col-md-5 col-lg-4 order-md-last">
-        <div class="position-sticky" style="top: 6rem;">
-            <h4 id="fix-position" class="d-flex justify-content-between align-items-center mb-3">
-                <span class="free-consult">{{ _('Get a Free Consultation') }}</span>
-            </h4>
-
-            <form action="{{ url_for('submit_free_consultation') }}" class="card p-4" id="consultationForm" onsubmit="return validateForm()" method="post">
-                <div class="mb-3">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="name-free-consult" id="username" placeholder="Username">
-                        <label for="username">{{ _('First Name') }}</label>
-                        <div class="error-message" id="username-error"></div>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
-                        <label for="phone">{{ _('Your Contact') }}</label>
-                        <div class="error-message" id="phone-error"></div>
-                    </div>
-
-                    <div class="form-floating">
-                        <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
-                        <label for="comment">{{ _('Comment') }}</label>
-                        <div class="error-message" id="comment-error"></div>
-                    </div>
                 </div>
 
-
-                <button class="g-recaptcha btn btn-primary"
-                    data-sitekey="{{ RECAPTCHA_SITE_KEY }}"
-                    data-callback='onSubmit'
-                    data-action='submit' type="submit">{{ _('Verify Submit') }}
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
+            </div>
+        </nav>
 
-<br>
-<small>This site is protected by reCAPTCHA and the Google
-    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-</small>
-            </form>
+            <!-- Offcanvas navigation -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarmini" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+    <!--            <h5 class="offcanvas-title" id="offcanvasNavbarLabelmini">Offcanvas</h5>-->
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
         </div>
+            </header>
     </div>
-
-
-                  <!-- Form "Contact Us" -->
-<div class="col-md-7 col-lg-8">
-    <h4 class="mb-3">{{ _('Contact Us') }}</h4>
-    <form class="row g-3" action="{{ url_for('submit_contact_us') }}" id="contactForm" method="POST">
-
-        <div class="col-md-6">
-            <label for="validationContactName" class="form-label">{{ _('First name') }}<span class="text-red">*</span></label>
-            <input type="text" name="name-contact-us" class="form-control" id="validationContactName" required>
-            <div id="nameError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactLastName" class="form-label">{{ _('Last name') }}<span class="text-red">*</span></label>
-            <input type="text" name="surname-contact-us" class="form-control" id="validationContactLastName" required>
-            <div id="lastNameError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactEmail" class="form-label">{{ _('Email address') }}<span class="text-red">*</span></label>
-            <div class="input-group">
-                <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                <input type="email" name="email-contact-us" class="form-control" id="validationContactEmail" placeholder="name@example.com" required>
-            </div>
-            <div id="emailError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactPhone" class="form-label">{{ _('Phone') }}<span class="text-red">*</span></label>
-            <input type="text" name="phone-contact-us" class="form-control" id="validationContactPhone" required>
-            <div id="phoneError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactCity" class="form-label">{{ _('City') }}<span class="text-red">*</span></label>
-            <input type="text" name="city-contact-us" class="form-control" id="validationContactCity" required>
-            <div id="cityError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-3">
-            <label for="validationContactState" class="form-label">{{ _('State') }}</label>
-            <input type="text" name="state-contact-us" class="form-control" id="validationContactState">
-        </div>
-
-        <div class="col-md-3">
-            <label for="validationContactZip" class="form-label">{{ _('Zip') }}</label>
-            <input type="text" name="zip-contact-us" class="form-control" id="validationContactZip">
-            <div id="zipError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactAddress" class="form-label">{{ _('Address') }}</label>
-            <input type="text" name="address-contact-us" class="form-control" id="validationContactAddress">
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactBudget" class="form-label">{{ _('Target budget') }}<span class="text-red">*</span></label>
-            <select name="budget-contact-us" class="form-select" id="validationContactBudget" required>
-                <option value="" selected disabled>{{ _('Select budget range') }}</option>
-                <option value="$100-$999">{{ _('$100-$999') }}</option>
-                <option value="$1000-$4999">{{ _('$1000-$4999') }}</option>
-                <option value="$5000-$9999">{{ _('$5000-$9999') }}</option>
-                <option value="$10,000-$19,999">{{ _('$10,000-$19,999') }}</option>
-                <option value="$20,000-$49,999">{{ _('$20,000-$49,999') }}</option>
-                <option value="$50,000-$99,999">{{ _('$50,000-$99,999') }}</option>
-                <option value="$100,000+">{{ _('$100,000+') }}</option>
-            </select>
-            <div id="budgetError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactTime" class="form-label">{{ _('Project time frame') }}<span class="text-red">*</span></label>
-            <select name="time-contact-us" class="form-select" id="validationContactTime" required>
-                <option value="" selected disabled>{{ _('Select time frame') }}</option>
-                <option value="hot">{{ _('As soon as possible') }}</option>
-                <option value="3-months">{{ _('Starting within 3 months') }}</option>
-                <option value="6-months">{{ _('Starting within 6 months') }}</option>
-                <option value="1-year">{{ _('Starting within a year') }}</option>
-            </select>
-            <div id="timeError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactAbout" class="form-label">{{ _('How did you hear about us?') }}</label>
-            <select name="source-contact-us" class="form-select" id="validationContactAbout">
-                <option value="" selected disabled>{{ _('Select an option') }}</option>
-                <option value="online">{{ _('Online Advertisement') }}</option>
-                <option value="friend">{{ _('Friend or Colleague') }}</option>
-                <option value="social">{{ _('Social networks') }}</option>
-                <option value="google">{{ _('Google') }}</option>
-                <option value="other">{{ _('Other') }}</option>
-            </select>
-            <div id="sourceError" class="error-message text-red"></div>
-        </div>
-
-        <div class="mb-3">
-            <label for="validationContactProject" class="form-label">{{ _('Tell us about your project') }}<span class="text-red">*</span></label>
-            <textarea class="form-control" name="project-contact-us" id="validationContactProject" rows="3" required></textarea>
-            <div id="projectError" class="error-message text-red"></div>
-        </div>
-
-        <!-- Additional checkbox (if needed) -->
-        <!--
-        <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">
-                    {{ _('Agree to terms and conditions') }}
-                </label>
-            </div>
-        </div>
-        -->
-
-        <div class="col-12">
-            <button class="btn btn-primary button-contact-us" type="submit">{{ _('Submit form') }}</button>
-        </div>
-
-        <br>
-        <small>This site is protected by reCAPTCHA and the Google
-            <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-            <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-        </small>
-    </form>
-</div>
-
-
-
-                </div>
-                </div>
-        </main>
-                    </div>
-                </div>
-                </div>
-
-
-
-
-    <div class="container py-2" id="contacts-div">
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-
-        <div class="feature col d-flex flex-column align-items-center text-center">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient mb-3" style="width: 120px; height: 120px;">
-                <img src="/static/images/icons/whatsapp_b.svg" alt="whatsapp icon" width="100px" height="100px" style="object-fit: contain;">
-            </div>
-            <h3 class="text-body-emphasis">+372 5617 7079</h3>
-        </div>
-
-        <div class="feature col d-flex flex-column align-items-center text-center">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient mb-3" style="width: 120px; height: 120px;">
-                <img src="/static/images/icons/mail_2.svg" alt="mail icon" width="100px" height="100px" style="object-fit: contain;">
-            </div>
-            <h3 class="text-body-emphasis"><span>contact@kulbachenko.com</span></h3>
-        </div>
-
-        <div class="feature col d-flex flex-column align-items-center text-center">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient mb-3" style="width: 120px; height: 120px;">
-                <img src="/static/images/icons/telegram_b.svg" alt="telegram icon" width="100px" height="100px" style="object-fit: contain;">
-            </div>
-            <h3 class="text-body-emphasis">
-                <a href="https://t.me/kulbachenko_construction" target="_blank" style="word-wrap: break-word; white-space: normal;">
-                    @kulbachenko_construction
-                </a>
-            </h3>
-        </div>
-
-    </div>
-</div>
-
 
         <div class="container py-2">
+            <!--    mini header-->
+        <header id="header-mini" class="fixed-top">
+            <nav id="navbar-mini" class="navbar bg-body-tertiary">
+            <div id="header-fluid-mini" class="container-fluid">
 
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 col-12 d-flex align-items-center">
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2005-{{ year_on_site }} Kulbachenko & Co. Construction</span>
+                    <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
+                            <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_white_base.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px" style="object-fit: contain;">
+                    </a>
+
+            <div class="tst">
+                <div class="me-3 py-2 link-body-emphasis text-decoration-none">
+                            <div id='base-mini' class="dropdown">
+                                <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-mini" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {{ language.upper() }}
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+            <!-- Offcanvas navigation -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">{{ _('HOME') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language, path=request.path) }}">{{ _('ABOUT') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language, path=request.path) }}">{{ _('PORTFOLIO') }}</a>
+                    </li>
+                    <li class="nav-link nav-item">
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                    </li>
+                    <li class="nav-link nav-item">
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
+                    </li>
+
+                </ul>
+    <!--            <form class="d-flex mt-3" role="search">-->
+    <!--                <input class="form-control me-2" type="search" placeholder="{{ _('Search') }}" aria-label="{{ _('Search') }}">-->
+    <!--                <button class="btn btn-outline-success" type="submit">{{ _('Search') }}</button>-->
+    <!--            </form>-->
+            </div>
+        </div>
+            </header>
+        </div>
+
+    <!--    <div class="navbar_margin_80"></div>-->
+
+            {% block content %}{% endblock %}
+        {% endblock %}
+            <div class="body-bg">
+                <div class="container py-2">
+                    <div class="album py-5">
+            <main>
+                <div>
+                <div id="contact-form" class="row">
+
+                    <!--                      Get a Free Consultation-->
+
+                    <div class="col-md-5 col-lg-4 order-md-last">
+            <div class="position-sticky" style="top: 6rem;">
+                <h4 id="fix-position" class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="free-consult">{{ _('Get a Free Consultation') }}</span>
+                </h4>
+
+                <form action="{{ url_for('submit_free_consultation') }}" class="card p-4" id="consultationForm" onsubmit="return validateForm()" method="post">
+                    <div class="mb-3">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="name-free-consult" id="username" placeholder="Username">
+                            <label for="username">{{ _('First Name') }}</label>
+                            <div class="error-message" id="username-error"></div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
+                            <label for="phone">{{ _('Your Contact') }}</label>
+                            <div class="error-message" id="phone-error"></div>
+                        </div>
+
+                        <div class="form-floating">
+                            <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
+                            <label for="comment">{{ _('Comment') }}</label>
+                            <div class="error-message" id="comment-error"></div>
+                        </div>
+                    </div>
+
+
+                    <button class="g-recaptcha btn btn-primary"
+                        data-sitekey="{{ RECAPTCHA_SITE_KEY }}"
+                        data-callback='onSubmit'
+                        data-action='submit' type="submit">{{ _('Verify Submit') }}
+                    </button>
+
+    <br>
+    <small>This site is protected by reCAPTCHA and the Google
+        <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+        <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+    </small>
+                </form>
+            </div>
+        </div>
+
+
+                      <!-- Form "Contact Us" -->
+    <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">{{ _('Contact Us') }}</h4>
+        <form class="row g-3" action="{{ url_for('submit_contact_us') }}" id="contactForm" method="POST">
+
+            <div class="col-md-6">
+                <label for="validationContactName" class="form-label">{{ _('First name') }}<span class="text-red">*</span></label>
+                <input type="text" name="name-contact-us" class="form-control" id="validationContactName" required>
+                <div id="nameError" class="error-message text-red"></div>
             </div>
 
-            <ul class="nav col-md-4 col-12 justify-content-end list-unstyled d-flex">
-                <li class="ms-3">
-                    <a class="text-body-secondary" href="https://www.tiktok.com/@serhiikulbachenko?_t=8hvsTMeY8nN&_r=">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
-                            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary" href="https://www.instagram.com/kulbachenko.construction">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary" href="https://www.facebook.com/KulbachenkoSerhii">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary" href="https://twitter.com/SKulbachenko?t=xSAFLKTbCX5F36LYGwNZrA&s=35">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary" href="https://www.youtube.com/@kulbachenkoconstruction">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-                        </svg>
-                    </a>
-                </li>
+            <div class="col-md-6">
+                <label for="validationContactLastName" class="form-label">{{ _('Last name') }}<span class="text-red">*</span></label>
+                <input type="text" name="surname-contact-us" class="form-control" id="validationContactLastName" required>
+                <div id="lastNameError" class="error-message text-red"></div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationContactEmail" class="form-label">{{ _('Email address') }}<span class="text-red">*</span></label>
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                    <input type="email" name="email-contact-us" class="form-control" id="validationContactEmail" placeholder="name@example.com" required>
+                </div>
+                <div id="emailError" class="error-message text-red"></div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationContactPhone" class="form-label">{{ _('Phone') }}<span class="text-red">*</span></label>
+                <input type="text" name="phone-contact-us" class="form-control" id="validationContactPhone" required>
+                <div id="phoneError" class="error-message text-red"></div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationContactCity" class="form-label">{{ _('City') }}<span class="text-red">*</span></label>
+                <input type="text" name="city-contact-us" class="form-control" id="validationContactCity" required>
+                <div id="cityError" class="error-message text-red"></div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationContactState" class="form-label">{{ _('State') }}</label>
+                <input type="text" name="state-contact-us" class="form-control" id="validationContactState">
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationContactZip" class="form-label">{{ _('Zip') }}</label>
+                <input type="text" name="zip-contact-us" class="form-control" id="validationContactZip">
+                <div id="zipError" class="error-message text-red"></div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationContactAddress" class="form-label">{{ _('Address') }}</label>
+                <input type="text" name="address-contact-us" class="form-control" id="validationContactAddress">
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationContactBudget" class="form-label">{{ _('Target budget') }}<span class="text-red">*</span></label>
+                <select name="budget-contact-us" class="form-select" id="validationContactBudget" required>
+                    <option value="" selected disabled>{{ _('Select budget range') }}</option>
+                    <option value="$100-$999">{{ _('$100-$999') }}</option>
+                    <option value="$1000-$4999">{{ _('$1000-$4999') }}</option>
+                    <option value="$5000-$9999">{{ _('$5000-$9999') }}</option>
+                    <option value="$10,000-$19,999">{{ _('$10,000-$19,999') }}</option>
+                    <option value="$20,000-$49,999">{{ _('$20,000-$49,999') }}</option>
+                    <option value="$50,000-$99,999">{{ _('$50,000-$99,999') }}</option>
+                    <option value="$100,000+">{{ _('$100,000+') }}</option>
+                </select>
+                <div id="budgetError" class="error-message text-red"></div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationContactTime" class="form-label">{{ _('Project time frame') }}<span class="text-red">*</span></label>
+                <select name="time-contact-us" class="form-select" id="validationContactTime" required>
+                    <option value="" selected disabled>{{ _('Select time frame') }}</option>
+                    <option value="hot">{{ _('As soon as possible') }}</option>
+                    <option value="3-months">{{ _('Starting within 3 months') }}</option>
+                    <option value="6-months">{{ _('Starting within 6 months') }}</option>
+                    <option value="1-year">{{ _('Starting within a year') }}</option>
+                </select>
+                <div id="timeError" class="error-message text-red"></div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationContactAbout" class="form-label">{{ _('How did you hear about us?') }}</label>
+                <select name="source-contact-us" class="form-select" id="validationContactAbout">
+                    <option value="" selected disabled>{{ _('Select an option') }}</option>
+                    <option value="online">{{ _('Online Advertisement') }}</option>
+                    <option value="friend">{{ _('Friend or Colleague') }}</option>
+                    <option value="social">{{ _('Social networks') }}</option>
+                    <option value="google">{{ _('Google') }}</option>
+                    <option value="other">{{ _('Other') }}</option>
+                </select>
+                <div id="sourceError" class="error-message text-red"></div>
+            </div>
+
+            <div class="mb-3">
+                <label for="validationContactProject" class="form-label">{{ _('Tell us about your project') }}<span class="text-red">*</span></label>
+                <textarea class="form-control" name="project-contact-us" id="validationContactProject" rows="3" required></textarea>
+                <div id="projectError" class="error-message text-red"></div>
+            </div>
+
+            <!-- Additional checkbox (if needed) -->
+            <!--
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                        {{ _('Agree to terms and conditions') }}
+                    </label>
+                </div>
+            </div>
+            -->
+
+            <div class="col-12">
+                <button class="btn btn-primary button-contact-us" type="submit">{{ _('Submit form') }}</button>
+            </div>
+
+            <br>
+            <small>This site is protected by reCAPTCHA and the Google
+                <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </small>
+        </form>
+    </div>
+
+
+
+                    </div>
+                    </div>
+            </main>
+                        </div>
+                    </div>
+                    </div>
+
+
+<section id="contacts">
+    <div class="contacts_section">
+        <div class="contacts_info">
+            <h2>Контактна інформація</h2>
+            <ul>
+                <li><a href=""><img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check"></a> <h4>Тел. +372 5617 7079</h4></li>
+                <li><a href=""><img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check"></a> <h4>Графік роботи, пн-пт 8:00-20:00</h4></li>
+                <li><a href=""><img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check"></a> <h4>contact@kulbachenko.com</h4></li>
+                <li><a href=""><img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check"></a> <h4>Наші соціальні мережі</h4></li>
             </ul>
-        </footer>
+            <div class="social_icons">
+                <a class="text-body-secondary" href="https://www.tiktok.com/@serhiikulbachenko?_t=8hvsTMeY8nN&_r=" alt="tiktok">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                            </svg>
+                        </a>
+                <a class="text-body-secondary" href="https://twitter.com/SKulbachenko?t=xSAFLKTbCX5F36LYGwNZrA&s=35" alt="twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                            </svg>
+                        </a>
+                <a class="text-body-secondary" href="https://www.facebook.com/KulbachenkoSerhii" alt="facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                        </a>
+                <a class="text-body-secondary" href="https://www.instagram.com/kulbachenko.construction" alt="instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>
+                <a class="text-body-secondary" href="https://www.youtube.com/@kulbachenkoconstruction" alt="youtube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                            </svg>
+                        </a>
             </div>
+        </div>
+        <div class="contacts_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2041.6195074347766!2d23.680804!3d59.22237499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTnCsDEzJzIwLjYiTiAyM8KwNDAnNTAuOSJF!5e0!3m2!1suk!2ses!4v1727025683290!5m2!1suk!2ses" width="444" height="454" style="border: 1px solid #1c9528;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-</body>
-</html>
+        </div>
+    </div>
+</section>
+
+
+
+
+            <div class="container py-2">
+
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 col-12 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2005-{{ year_on_site }} Kulbachenko & Co. Construction</span>
+                </div>
+
+                <ul class="nav col-md-4 col-12 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.tiktok.com/@serhiikulbachenko?_t=8hvsTMeY8nN&_r=">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.instagram.com/kulbachenko.construction">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.facebook.com/KulbachenkoSerhii">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://twitter.com/SKulbachenko?t=xSAFLKTbCX5F36LYGwNZrA&s=35">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.youtube.com/@kulbachenkoconstruction">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+                </div>
+    </html>

@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import requests
 from urllib.parse import urlparse
 
-
+from drafts import sql_tst
 
 
 load_dotenv()
@@ -122,8 +122,10 @@ def index(set_language=None):
         session['language'] = set_language
 
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+    blog_posts = sql_tst.get_text_for_blog()
+
     return render_template('index.html', year_on_site=year_on_site(), language=language,
-                           RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+                           RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, blog_posts=blog_posts)
 
 @app.route('/<setting_language>/about/', methods=['GET', 'POST'])
 @app.route('/<setting_language>/about', methods=['GET', 'POST'])
@@ -392,8 +394,9 @@ def articles_renovation(setting_language=None):
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
 
     try:
-        return render_template('blog_templates/apartment-renovation.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+        blog_posts = sql_tst.get_text_for_blog()
+        return render_template('new_blog_templates/Complete-Renovation-Services-in-Amsterdam-and-The-Hague.html', year_on_site=year_on_site(), language=language,
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, blog_posts=blog_posts)
     except Exception as e:
         # Log or handle the 404 error here
         app.logger.error(f"404 Not Found: {request.url}")
@@ -415,9 +418,9 @@ def electrical_installation(setting_language=None):
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
 
     try:
-        return render_template('blog_templates/electrical-installation-for'
-                               '-apartment-renovation.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+        blog_posts = sql_tst.get_text_for_blog()
+        return render_template('new_blog_templates/blog_new.html', year_on_site=year_on_site(), language=language,
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, blog_posts=blog_posts)
     except Exception as e:
         # Log or handle the 404 error here
         app.logger.error(f"404 Not Found: {request.url}")

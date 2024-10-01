@@ -1,0 +1,70 @@
+.blog_container {
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top: 4.5rem;
+}
+
+.blog_template_img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.blog_text_container {
+    margin-bottom: 1rem;
+}
+
+.blog_category_text_container {
+    margin: 1rem 0 1rem 0;
+    border-style: solid;
+    border: solid 1px black; /* Попробуйте задать чёрный цвет */
+    outline: 0;
+    padding: 0;
+}
+
+.goBack {
+    margin-bottom: 1.5rem;
+}
+
+
+.video_container {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main_three {
+    cursor: pointer;
+}
+
+.main_three_t {
+    display: flex; /* Выстраиваем содержимое в ряд (горизонтально) */
+    justify-content: space-between; /* Добавляем пространство между текстом и изображением */
+    cursor: pointer; /* Меняем курсор при наведении на блок */
+}
+
+.text_column {
+    flex: 1; /* Текстовая колонка занимает оставшееся пространство */
+    padding-right: 20px; /* Добавляем отступ справа для разделения с изображением */
+}
+
+.image_column {
+    flex-shrink: 0; /* Изображение не будет уменьшаться */
+    max-width: 50%; /* Устанавливаем максимальную ширину для изображения, чтобы ограничить его размер */
+    display: flex;
+    align-items: center; /* Центрируем изображение по вертикали, если необходимо */
+}
+
+.image_column img {
+    width: 100%; /* Устанавливаем ширину изображения на всю доступную ширину */
+    height: auto; /* Сохраняем пропорции изображения */
+}

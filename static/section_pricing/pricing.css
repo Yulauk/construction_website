@@ -1,0 +1,135 @@
+/*pricing section*/
+.pricing {
+    text-align: center;
+    padding: 3rem 20px 3rem;
+    /*background-color: #f8f9fa;*/
+    /*max-width: 1200px;*/
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+.pricing h2 {
+    margin-bottom: 2rem;
+}
+
+.pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    /*max-width: 1200px;*/
+}
+
+.card {
+        background: white;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 300px;
+        padding: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.card_pricing {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: calc(25% - 2rem);
+    text-align: left;
+    position: relative;
+    /*max-width: 260px;*/
+}
+
+.card.featured {
+    border-color: #28a745;
+    background-color: #e9f8ec;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card .price {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.card_month{
+    font-size: 0.8rem;
+}
+
+.card_month_operations{
+    font-size: 0.9rem;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.card ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.card ul li::before {
+    content: '✔';
+    margin-right: 10px;
+    color: #28a745;
+}
+
+.card .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.card .btn:hover {
+    background-color: #218838;
+}
+
+/* Адаптация для экранов менее 768px */
+@media (max-width: 768px) {
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Адаптация для экранов менее 500px */
+@media (max-width: 500px) {
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card .price {
+        font-size: 1.5rem;
+    }
+
+    .card ul li {
+        font-size: 0.9rem;
+    }
+}

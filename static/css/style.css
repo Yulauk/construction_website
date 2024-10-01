@@ -1,20 +1,104 @@
 /* static/css/style.css */
 
-.container.py-2 {
-    max-width: 1160px;
+/* Основні стилі для десктопів з використанням clamp() */
+h1 {
+    font-weight: 600;
+    font-size: clamp(27px, 5vw + 1rem, 43px); /* мінімум 30px, динамічно збільшується до 43px */
+    line-height: 120%;
 }
 
-@font-face {
-    font-family: 'NunitoSans_7pt_Condensed-Light';
-    src: url('../fonts/NunitoSans_7pt_Condensed-Light.ttf') format('truetype');
-    /* Add additional font weights and styles if necessary */
+h2 {
+    font-weight: 600;
+    font-size: clamp(23px, 4vw + 1rem, 38px); /* мінімум 26px, динамічно збільшується до 38px */
+    line-height: 120%;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: clamp(19px, 3vw + 1rem, 32px); /* мінімум 22px, динамічно збільшується до 32px */
+    line-height: 120%;
+}
+
+h4 {
+    font-size: clamp(1.25rem, 2.5vw + 1rem, 1.7rem); /* мінімум 1.4rem (22.4px), до максимуму 1.7rem (27.2px) */
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: clamp(0.85rem, 1.5vw + 0.7rem, 1.2rem); /* мінімум 1rem (16px), до максимуму 1.2rem (19.2px) */
+    line-height: 1.6; /* додатковий міжрядковий інтервал для поліпшення читабельності */
+    margin-bottom: 1.5rem; /* відступ між параграфами */
+    color: #333; /* помірний темний колір для кращої читабельності */
+}
+
+
+
+.container_index{
+    position: relative;
+}
+
+.index_header_menu{
+    max-width: 1296px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    row-gap: 5rem;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch
+
+
+}
+
+#carousel_background{
+    height: 50rem;
+
+}
+
+
+:root {
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-heavy: 900;
+
+}
+
+.nunito-sans-normal {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: var(--font-weight-normal);
+}
+
+.nunito-sans-bold {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: var(--font-weight-bold);
+}
+
+.nunito-sans-heavy {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: var(--font-weight-bold);
+}
+
+.nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
 }
 
 body {
-    font-family: 'NunitoSans_7pt_Condensed-Light','Arial', sans-serif;
-    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
     padding: 0;
-    background-color: bg-light;
+    background-color: #f8f9fa;
+    scroll-behavior: smooth;
 }
 /* Navbar links styles */
 .d-flex.flex-column.flex-md-row.align-items-center.pb-2.mb-2.border-bottom {
@@ -55,6 +139,7 @@ nav a.active {
     border-width: 1px;
     border-color: #3d4543;
     border-style: solid;
+    border-radius: 4px;
 }
 
 .container-bottom-corusel {
@@ -62,6 +147,7 @@ nav a.active {
     justify-content: center;
     align-items: center;
     border-width: 1px;
+    border-radius: 4px;
     border-color: #f8f9fa;
     border-style: solid;
     color: #f8f9fa
@@ -113,16 +199,18 @@ nav a.active {
 .container-color:hover {
     background-color: #3d4543;
     color: #f8f9fa;
+    border-radius: 4px;
+
 
 }
 
 
 /* Hero Section Content for index.html */
 .full-screen-container {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
 }
 
 /* Container-color styles for index page*/
@@ -135,21 +223,32 @@ nav a.active {
     border-color: #f8f9fa;
     border-style: solid;
     color: #f8f9fa;
+    border-radius: 4px;
 }
 
 .container-color-index:hover {
     background-color: #f8f9fa;
     color: #3d4543;
+    border-radius: 4px;
 
 }
 
+.blur_container_filter_wrapper {
+    position: relative;
+    background: rgb(255 255 255 / 0%); /* Полупрозрачный фон */
+    backdrop-filter: blur(50px); /* Размытие фона за элементом */
+    border-radius: 0 0 22px 22px;
+    z-index: 1;
+    margin: auto;
+    margin-top: 10rem;
+    max-width: 1020px;
+    z-index: 1;
+}
+
+
+
 .carousel-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    position: relative;
 }
 
 .carousel-inner {
@@ -165,9 +264,9 @@ nav a.active {
 }
 
 .carousel-item img {
-    object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 100%; /* Или задайте фиксированную высоту, если нужно */
+    object-fit: cover; /* Изображение обрезается, чтобы заполнить блок */
 }
 
 .carousel-caption {
@@ -217,7 +316,7 @@ nav a.active {
     height: 100%;
     background-color: #000; /* Background color for darkening */
     opacity: 0.15; /* Adjust the opacity as needed (0 to 1) */
-    z-index: 1; /* Make sure the overlay is above the carousel items */
+    z-index: 0; /* Make sure the overlay is above the carousel items */
 }
 
 
@@ -318,6 +417,7 @@ nav a.active {
 .body-bg {
     background-color: #f0f0f0; /* Set your desired body background color */
     width: 100%;
+
 }
 
 .form-bg {
@@ -362,9 +462,9 @@ nav a.active {
 }
 
 #carouselExampleControls .carousel-inner img {
+    object-fit: cover;
     width: 100%;
-    height: auto;
-    margin: 0 auto; /* Центрируем изображение по горизонтали */
+    height: 100%;
 }
 
 .modal-content {
@@ -442,6 +542,7 @@ nav a.active {
     background-color: #f8f9fa; /* цвет фона при выпадении меню */
     border-radius: 0;
     min-width: 100%;
+    z-index: auto;
 }
 
 .dropdown-item.dropdown-link-active-bg {
@@ -610,6 +711,7 @@ nav a.active {
 @media (min-width: 801px) {
     #index-big {
         display: block;
+
     }
     #index-header-mini {
         display: none;
@@ -797,8 +899,182 @@ icon-background {
 .btn-primary {
     --bs-btn-bg: #708875 !important;
     --bs-btn-border-color: #708875!important;
+
+    --bs-btn-hover-bg: #fdb933;
+    --bs-btn-hover-border-color: #fdb933;
+    --bs-btn-active-bg: #fdb933;
 }
 
 .text-bg-primary {
     background-color: #f8f9fa !important;
 }
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.text-body-emphasis a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid {
+    --bs-gutter-x: 3.5rem;
+}
+
+.g-5, .gx-5 {
+    --bs-gutter-x: 0;
+}
+
+.index_header_padding{
+    padding: 0.5rem 20px 0.5rem;
+}
+
+
+
+
+
+
+
+
+/*accounting-service*/
+.accounting-service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 2rem;
+
+    padding: 1rem 20px 1rem 3rem;
+    max-width: 1200px;
+    border-radius: 22px 22px 0 0;
+}
+
+.text-content {
+    max-width: 600px;
+    color: #fff
+
+
+}
+
+.index_p {
+    color: #e5e6e7;
+}
+
+.advantages_wrapper_h1 {
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0 3rem;
+}
+
+
+
+.price-btn button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.price-btn button:hover {
+    background-color: #45a049;
+}
+
+.stats_services {
+    display: flex;
+    padding: 2rem 2rem 2rem 3rem;
+    gap: 2rem;
+
+    background: #00000080;
+    border-radius: 0 0 22px 22px;
+}
+
+.stat-item {
+    color: #f8f9fa;
+    text-align: center;
+    display: inline-flex;
+    gap: 1rem;
+
+}
+
+
+.blur_container{
+    position: relative;
+    z-index: 2; /* Убедитесь, что карусель находится за этим блоком */
+
+}
+
+.image-content_services img {
+    width: 100%; /* Заполнение контейнера по ширине */
+    max-width: 320px; /* Максимальная ширина */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    max-height: 320px; /* Максимальная высота */
+    object-fit: cover; /* Изображение будет заполнять контейнер с сохранением пропорций */
+    border-radius: 0 20px 20px 0;
+}
+
+
+/* Адаптация для экранов менее 800px */
+@media (max-width: 800px) {
+    .accounting-service {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 1rem 1rem;
+    }
+
+    .image-content_services{
+        display:none;
+    }
+
+    .stats_services {
+        flex-direction: column;
+        gap: 0.2rem;
+        margin: 0 auto;
+    }
+
+    .blur_container_filter_wrapper{
+        margin: 6rem 3rem 3rem 3rem;
+    }
+
+    .index_header_menu{
+        row-gap: 0;
+    }
+
+    .index_header_padding{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .stats_services{
+        padding: 1rem 0 0 0.5rem;
+    }
+
+    .stat-item{
+        gap: 0.5rem;
+    }
+
+}
+
+/* Адаптация для экранов менее 500px */
+@media (max-width: 500px) {
+    .price-btn button {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .stat-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .stat-item p {
+        font-size: 0.9rem;
+    }
+}
+

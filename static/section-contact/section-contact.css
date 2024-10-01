@@ -1,0 +1,93 @@
+/*contacts_section*/
+.contacts_section {
+    gap: 2rem;
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 5rem 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacts_info {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 20px;
+}
+
+.contacts_info h2 {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    color: #000;
+    letter-spacing: -0.02em;
+    padding: 1rem 0 3rem;
+}
+
+.contacts_info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts_info ul li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+
+    column-gap: 1rem;
+
+}
+
+.contacts_info ul li i {
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+.social_icons {
+    display: flex;
+    column-gap: 1.2rem;
+    margin-left: 2.95rem;
+}
+
+.social_icons a {
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+.contacts_map {
+    min-width: 444px;
+    max-width: 454px;
+}
+
+.contacts_map iframe {
+    border: 1px solid #1c9528;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .contacts_section {
+        flex-direction: column;
+        padding: 2rem 15px;
+        text-align: center;
+    }
+
+    .contacts_info, .contacts_map {
+        padding: 0;
+        margin-bottom: 20px;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contacts_info h2 {
+        font-size: 32px; /* уменьшенный размер шрифта */
+        line-height: 42px; /* уменьшенная высота строки */
+        padding: 0.5rem 0 2rem; /* уменьшенные отступы */
+    }
+
+}
