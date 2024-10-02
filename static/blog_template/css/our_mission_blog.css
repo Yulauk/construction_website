@@ -101,20 +101,25 @@ ul {
 
 
 /*text animation*/
-.css-selector {
-    animation: pulseText 3s ease-in-out infinite;
+@keyframes slowSwing {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(2deg);
+  }
+  60% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-@keyframes pulseText {
-    0% {
-        color: #000; /* Черный */
-    }
-    50% {
-        color: #282828; /* Серый оттенок для пульсации */
-    }
-    100% {
-        color: #000; /* Возвращение к черному */
-    }
+.css-selector h3 {
+  display: inline-block;
+  transform-origin: top center;
+  animation: slowSwing 7s ease-out infinite;
 }
 
 /* Yellow circle */
