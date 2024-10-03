@@ -547,7 +547,7 @@ nav a.active {
     background-color: #f8f9fa; /* цвет фона при выпадении меню */
     border-radius: 0;
     min-width: 100%;
-    z-index: auto;
+    z-index: 1;
 }
 
 .dropdown-item.dropdown-link-active-bg {
@@ -671,8 +671,8 @@ nav a.active {
 
 /* Средний размер экрана от 440px до 839px */
 @media (min-width: 440px) and (max-width: 839px) {
-    #header-mini, {
-        display: block; /* Скрыть мини и большой хедеры на средних экранах */
+    #header-mini {
+        display: none; /* Скрыть мини и большой хедеры на средних экранах */
     }
 
      #header-big{
@@ -1181,6 +1181,7 @@ icon-background {
 
 .about_text_1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about_photo_wrapper{
@@ -1191,3 +1192,164 @@ icon-background {
 .shadow_about {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@media (max-width: 648px) {
+    .about_blog {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 15px;
+    }
+
+}
+
+.container_base {
+    width: 100%;
+    padding: .5rem 15px;
+
+}
+
+
+
+/*servises*/
+.apartment_renovation {
+    display: flex;
+    max-width: 1400px;
+    height: 610px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.apartment_renovation_text {
+    margin: 3rem 1rem 3rem 2rem;
+}
+
+.apart_photo_wrapper {
+    position: relative;
+    height: 490px;
+}
+
+.shadow_services_apart {
+    width: 700px;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: -1;
+    display: block;
+    /*margin-top: -90px;*/
+    position: relative;
+    top: -90px;
+}
+
+
+.shadow_services {
+    width: 670px;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block;
+}
+
+.сonstruction_works {
+    display: none;
+    /*display: flex;*/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.text_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Відцентровує текст горизонтально та вертикально */
+    text-align: center;
+    z-index: 1;
+}
+
+.text_wrap h3 {
+    color: white;
+}
+
+.block_2 {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-right: 19px;
+    padding-left: 14px;
+
+}
+
+
+.block_2_left{
+    width: 49%;
+    background: forestgreen;
+    overflow: hidden;
+
+}
+
+.block_2_right{
+    width: 51%;
+    padding: 0 4rem 0 0;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.block_2_left_text {
+    margin: 0 3rem 0 4rem;
+    height: 180px;
+}
+
+.block_2_1_left_photo{
+    margin-left: 4rem;
+}
+
+.block_2_right_text {
+
+    margin: 0 0 0 4rem;
+    height: 180px;
+}
+
+.shadow_block_2 {
+    width: 610px;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block;
+}
+
+.block_2_1 {
+    background: #cee5f2;
+    height: 610px;
+    width: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.block_2_2 {
+    background: #cee5f2;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin-left: 4rem;
+    width: 610px;
+
+}
+.shadow_services_apart_block_2_1 {
+    width: 700px;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: -1;
+    display: block;
+    /*margin-top: -90px;*/
+    position: relative;
+}
+
+.apart_photo_2_1 {
+    position: absolute;
+}
+
+
+
+
