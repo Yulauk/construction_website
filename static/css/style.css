@@ -1082,6 +1082,12 @@ icon-background {
     .stat-item p {
         font-size: 0.9rem;
     }
+
+    .index_p {
+        line-height: 1.5;
+        margin-bottom: 0;
+        margin-bottom: 0;
+    }
 }
 
 
@@ -1235,6 +1241,7 @@ icon-background {
 .apart_photo_wrapper {
     position: relative;
     height: 490px;
+    z-index: -1;
 }
 
 .shadow_services_apart {
@@ -1270,6 +1277,7 @@ icon-background {
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
+    padding: 20px;
 }
 
 .text_wrap h3 {
@@ -1290,10 +1298,6 @@ icon-background {
     filter: blur(15px); /* Ефект розмиття */
     z-index: 1; /* Псевдоелемент під текстом */
     border-radius: 10px; /* Закруглення країв, якщо потрібно */
-}
-
-.text_wrap {
-    padding: 20px; /* Відступи навколо тексту */
 }
 
 .block_2 {
@@ -1382,7 +1386,7 @@ icon-background {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 4rem;
+    padding: 4rem 4rem 4rem 0;
     text-align: center;
     margin-left: 4rem;
     margin-top: 0;
@@ -1395,7 +1399,7 @@ icon-background {
     top: 0px;
     z-index: -1;
     display: block;
-    /*margin-top: -90px;*/
+    margin-top: -90px;
     position: relative;
 }
 
@@ -1440,10 +1444,6 @@ icon-background {
     gap: 0;
 }
 
-.services {
-    margin-top: 0;
-}
-
 .position_sticky_small_form {
     text-align: center;
     display: flex;
@@ -1464,6 +1464,7 @@ icon-background {
         overflow: hidden;
         width: 100%;
         order: 1;
+        z-index: -1;
     }
 
     .apart_photo img {
@@ -1578,6 +1579,7 @@ icon-background {
     .block_2_left, .block_2_right {
         width: 50%;
         padding: 0;
+        overflow: hidden;
     }
 
     .block_2_left_text, .block_2_right_text {
@@ -1597,12 +1599,7 @@ icon-background {
         margin-left: 0;
     }
 
-    .block_2_1_left_photo img, .block_2_2_right_photo img {
-        width: 100%;
-        max-width: 450px;
-        height: auto;
-        margin-left: 0;
-    }
+
 
     .block_2_1, .block_2_2 {
         width: 100%;
@@ -1629,7 +1626,7 @@ icon-background {
     }
 
     .arrow-circle {
-        margin-left: 10px;
+        .apart_photo_wrapper
     }
 
     .apart_photo_2_1{
@@ -1642,21 +1639,31 @@ icon-background {
         height: auto;
     }
 
-    /* Add some responsiveness for images */
-    .shadow_block_2, .shadow_services_apart_block_2_1 {
-        width: 100%;
-        max-width: 450px;
-        height: auto;
-    }
+
 }
 
- @media (max-width: 515px) {
+@media (max-width: 700px) {
     .block_2{
         flex-direction: column;
 
+    }
     .block_2_left, .block_2_right {
         width: 100%;
     }
+
+    .block_2_1_left_photo, .block_2_2_right_photo{
+        display: none;
+
+    }
+
+    .block_2_1 {
+        height: auto;
+        width: auto;
+    }
+
+    .block_2_2{
+        height: auto;
+        width: auto;
     }
 
 
