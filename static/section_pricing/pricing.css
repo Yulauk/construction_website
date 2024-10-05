@@ -46,7 +46,7 @@
 }
 
 .card.featured {
-    border-color: #28a745;
+    border-color: #1d9529;
     background-color: #e9f8ec;
 }
 
@@ -57,7 +57,7 @@
 
 .card .price {
     font-size: 2rem;
-    color: #28a745;
+    color: #1d9529;
     margin-bottom: 1rem;
     font-weight: 700;
 }
@@ -87,14 +87,14 @@
 .card ul li::before {
     content: '✔';
     margin-right: 10px;
-    color: #28a745;
+    color: #1d9529;
 }
 
 .card .btn {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background-color: #28a745;
+    background-color: #1d9529;
     color: #fff;
     border: none;
     border-radius: 8px;

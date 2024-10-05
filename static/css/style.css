@@ -903,8 +903,8 @@ icon-background {
 }
 
 .btn-primary {
-    --bs-btn-bg: #708875 !important;
-    --bs-btn-border-color: #708875!important;
+    --bs-btn-bg: #1d9529;
+    --bs-btn-border-color: 1d9529;
 
     --bs-btn-hover-bg: #fdb933;
     --bs-btn-hover-border-color: #fdb933;
@@ -1219,10 +1219,17 @@ icon-background {
     height: 610px;
     margin: 0 auto;
     padding: 0 1rem;
+    flex-direction: row-reverse;
 }
 
 .apartment_renovation_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
     margin: 3rem 1rem 3rem 2rem;
+    gap: 1rem;
 }
 
 .apart_photo_wrapper {
@@ -1233,10 +1240,9 @@ icon-background {
 .shadow_services_apart {
     width: 700px;
     top: 0px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: -1;
     display: block;
-    /*margin-top: -90px;*/
+    margin-top: -90px;
     position: relative;
     top: -90px;
 }
@@ -1261,13 +1267,33 @@ icon-background {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Відцентровує текст горизонтально та вертикально */
+    transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
 }
 
 .text_wrap h3 {
+    position: relative;
+    font-size: 32px;
     color: white;
+    z-index: 2; /* Текст завжди буде над розмитим фоном */
+}
+
+.text_wrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Напівпрозорий фон */
+    filter: blur(15px); /* Ефект розмиття */
+    z-index: 1; /* Псевдоелемент під текстом */
+    border-radius: 10px; /* Закруглення країв, якщо потрібно */
+}
+
+.text_wrap {
+    padding: 20px; /* Відступи навколо тексту */
 }
 
 .block_2 {
@@ -1282,7 +1308,7 @@ icon-background {
 
 .block_2_left{
     width: 49%;
-    background: #cfe84e;
+    /*background: #f9e5c1;*/
     overflow: hidden;
 
 }
@@ -1296,56 +1322,77 @@ icon-background {
 
 .block_2_left_text {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0rem 3rem 0 4rem;
-    align-content: center;
-    /*height: 180px;*/
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4rem;
 }
+
+.line_top, .line_bottom {
+    width: 50%;
+    height: 2px;
+    background-color: #888;
+    margin: 10px 0;
+}
+
+.block_2_left_text h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+}
+
 
 .block_2_1_left_photo{
     margin-left: 4rem;
 }
 
 .block_2_right_text {
-
+    display: flex;
+    align-items: center;
+    text-align: center;
     margin: 0 0 0 4rem;
-    height: 180px;
+    height: 240px;
 }
 
 .shadow_block_2 {
     width: 610px;
     top: 0px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: block;
 }
 
 .block_2_1 {
-    background: #cee84d;
+    background: #f9e5c1;
     height: 610px;
     width: 610px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     padding: 4rem;
+    text-align: center;
 }
 
 .block_2_2 {
-    background: #cfe84e;
+    background: #f9e5c1;
     height: 610px;
-    width: 610px;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    align-content: stretch;
+    flex-direction: column;
+    justify-content: center;
     padding: 4rem;
+    text-align: center;
     margin-left: 4rem;
-
-
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+
 .shadow_services_apart_block_2_1 {
     width: 700px;
     top: 0px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: -1;
     display: block;
     /*margin-top: -90px;*/
@@ -1368,13 +1415,14 @@ icon-background {
         font-size: 16px;
         line-height: 1.5;
         color: #f9fafb;
-        background: #1c9528;
+        background: #1d9529;
         border-radius: 44px;
         padding: 16px 24px;
-        border: 1px solid #1c9528;
+        border: 1px solid #1d9529;
         display: inline-block;
         position: relative;
         overflow: visible;
+        text-decoration: none;
     }
 
 .arrow-circle {
@@ -1391,3 +1439,226 @@ icon-background {
     align-items: center;
     gap: 0;
 }
+
+.services {
+    margin-top: 0;
+}
+
+.position_sticky_small_form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Адаптація для екранів менше 1200px */
+@media (max-width: 1200px) {
+    .apartment_renovation {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+
+    .apart_photo_wrapper {
+        overflow: hidden;
+        width: 100%;
+        order: 1;
+    }
+
+    .apart_photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .apartment_renovation_text {
+        width: 780px;
+        padding: 2rem 1rem;
+        text-align: center;
+        order: 2;
+        margin: 0;
+    }
+
+    .cards_button_wrapper {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .card_link-button {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .arrow-circle {
+        width: 50px;
+        height: 50px;
+        right: -35px;
+    }
+}
+
+/* Адаптація для екранів менше 900px */
+@media (max-width: 900px) {
+    .apartment_renovation {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .apart_photo_wrapper {
+        overflow: hidden;
+        width: 100%;
+        order: 1;
+    }
+
+    .shadow_services_apart{
+        top: 0;
+    }
+
+    .apart_photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .apartment_renovation_text {
+        width: 100%;
+        text-align: center;
+        order: 2;
+        margin: 0;
+    }
+
+    .cards_button_wrapper {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .card_link-button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    .arrow-circle {
+        width: 45px;
+        height: 45px;
+        right: -30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .apart_photo_wrapper{
+        position: relative;
+        height: auto;
+    }
+
+    .apartment_renovation_text {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        order: 2;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .apart_photo_2_1{
+        display:none;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .block_2 {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .block_2_left, .block_2_right {
+        width: 50%;
+        padding: 0;
+    }
+
+    .block_2_left_text, .block_2_right_text {
+        text-align: center;
+        padding: 0 1rem;
+        margin-left: 0;
+    }
+
+    .line_top, .line_bottom {
+        width: 50%;
+        margin: 0.5rem auto;
+    }
+
+    .block_2_1_left_photo, .block_2_2_right_photo {
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+
+    .block_2_1_left_photo img, .block_2_2_right_photo img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .block_2_1, .block_2_2 {
+        width: 100%;
+        padding: 1rem;
+        background: #f9e5c1;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .block_2_1, .block_2_2, .cards_button_wrapper {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        overflow: visible;
+    }
+
+    .cards_button_wrapper {
+        margin: 1rem 0;
+    }
+
+    .card_link-button {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .arrow-circle {
+        margin-left: 10px;
+    }
+
+    .apart_photo_2_1{
+        display: block;
+    }
+
+    .apart_photo_2_1 img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+
+    /* Add some responsiveness for images */
+    .shadow_block_2, .shadow_services_apart_block_2_1 {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+}
+
+ @media (max-width: 515px) {
+    .block_2{
+        flex-direction: column;
+
+    .block_2_left, .block_2_right {
+        width: 100%;
+    }
+    }
+
+
+
+ }
