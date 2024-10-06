@@ -3,309 +3,210 @@
 {% block title %}{{ _('Blog') }}{% endblock %}
 
 {% block content %}
-    <div class="container py-2">
-        <div class="album page-set bg-body-tertiary">
-            <h1>{{ _('BLOG') }}</h1>
-        </div>
+<div class="container_blog_page">
 
-        <hr class="featurette-divider">
 
+    <div class="blog_title">
+        <h1>Blog</h1>
     </div>
 
 
-
-    <!-- First Row of Blog Posts -->
-    <div class="container py-2">
-        <div class="row py-5" style="display: flex; justify-content: center;">
-
-
-            <!-- Blog Post 5 -->
-            <div class="col-lg-4">
-                <div class="position-relative">
-
-                    <!--article image-->
-                    <img src="/static/images/blog_images/shover_oddesa/shower_odd_01.png" alt="Logo" width="100%" height="360" style="object-fit: cover;">
-                    <div class="overlay"></div>
-                    <div class="col p-4 d-flex flex-column position-static">
-
-                        <!--tag-->
-                        <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-blue">{{ _('Plumbing') }}</span></strong>
-
-                        <!--article title-->
-                        <h3 class="mb-0">{{ _('Shower without tray: Useful properties and advantages') }}</h3>
-
-                        <!--publish date-->
-                        <div class="mb-1 text-body-secondary">{{ _('Jun') }} 06</div>
-
-                        <!--short description-->
-                        <p class="mb-auto">{{ _('A walk-in shower, also known as a floor-level shower, offers a modern and practical solution for bathrooms. Without a raised base or traditional tray, it provides a sleek, minimalist look, ease of use, and improved hygiene. Ideal for all ages and abilities, it is easy to clean and can increase property value. Consider this stylish option for your next bathroom renovation.
-
-') }}</p>
-
-                        <!--link to article page-->
-                        <a href="{{ url_for('articles_shower', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link stages-of-plumbing-work">
-                            {{ _('Continue reading') }}
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog Post 4 -->
-            <div class="col-lg-4">
-                <div class="position-relative">
-
-                    <!--article image-->
-                    <img src="/static/images/blog_images/plumbing_kulbachenko.jpg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
-                    <div class="overlay"></div>
-                    <div class="col p-4 d-flex flex-column position-static">
-
-                        <!--tag-->
-                        <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-blue">{{ _('Plumbing') }}</span></strong>
-
-                        <!--article title-->
-                        <h3 class="mb-0">{{ _('Stages of Plumbing Work in Apartment Renovation') }}</h3>
-
-                        <!--publish date-->
-                        <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
-
-                        <!--short description-->
-                        <p class="mb-auto">{{ _('Discover the comprehensive steps involved in plumbing during a major apartment renovation. From initial assessment to final documentation, each stage ensures the installation of reliable and safe plumbing systems, encompassing everything from demolition to testing and connection of appliances.') }}</p>
-
-                        <!--link to article page-->
-                        <a href="{{ url_for('plumbing_work', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link stages-of-plumbing-work">
-                            {{ _('Continue reading') }}
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog Post 3 -->
-            <div class="col-lg-4">
-                <div class="position-relative">
-
-                    <!--article image-->
-                    <img src="/static/images/carousel/drywall_kulbachenko.jpeg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
-                    <div class="overlay"></div>
-                    <div class="col p-4 d-flex flex-column position-static">
-
-                        <!--tag-->
-                        <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-yellow">{{ _('Electrics') }}</span></strong>
-
-                        <!--article title-->
-                        <h3 class="mb-0">{{ _('Key Steps in Electrical Installation for Apartment Renovation') }}</h3>
-
-                        <!--publish date-->
-                        <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
-
-                        <!--short description-->
-                        <p class="mb-auto">{{ _('Comprehensive Electrical Installation for Apartment Renovation') }}</p>
-
-                        <!--link to article page-->
-                        <a href="{{ url_for('electrical_installation', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link comprehensive-electrical-installation-for-apartment-renovation key-steps-in-electrical-installation">
-                            {{ _('Continue reading') }}
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog Post 2 -->
-            <div class="col-lg-4">
-                <div class="position-relative">
-                    <img src="/static/images/carousel/kulbachenko_w_1.jpeg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
-                    <div class="overlay"></div>
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }}</strong>
-                        <h3 class="mb-0">{{ _('Apartment renovation') }}</h3>
-                        <div class="mb-1 text-body-secondary">{{ _('Jan 24') }}</div>
-                        <p class="mb-auto">{{ _('A comprehensive apartment renovation includes various stages') }}</p>
-
-                        <a href="{{ url_for('articles_renovation', setting_language=language) }}"
-
-                           class="icon-link gap-1 icon-link-hover stretched-link apartment-renovation">
-                            {{ _('Continue reading') }}
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog Post 1 -->
-            <div class="col-lg-4">
-                <div class="position-relative">
-                    <img src="/static/images/carousel/wood_house_kulbackenko_1.jpeg" alt="Logo" width="100%" height="360" style="object-fit: cover;">
-                    <div class="overlay"></div>
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Construction') }}</strong>
-                        <h3 class="mb-0">{{ _('Building creation') }}</h3>
-                        <div class="mb-1 text-body-secondary">{{ _('Jan') }} 24</div>
-                        <p class="mb-auto">{{ _('Rough construction works in the building industry represent the initial stage of constructing a building') }}
-                        </p>
-                        <a href="{{ url_for('articles_building', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link building-creation">
-                            {{ _('Continue reading') }}
-                            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-
+    <div class="blog_tags">
+        <p>Пошук за:</p>
+        <div class="post_tags">
+            <a href="#" class="post_tag">Ремонт</a>
+            <a href="#" class="post_tag">Будівництво</a>
+            <a href="#" class="post_tag">Сантехніка</a>
+            <a href="#" class="post_tag">Електрика</a>
+            <a href="#" class="post_tag">Landscaping and fencing</a>
 
 
         </div>
     </div>
 
-
-    <!-- Latest Updates Section -->
-    <div class="container py-2">
-        <p>{{ _('Latest Updates') }}</p>
-
-        <!-- Blog Post Stages of Plumbing Work (Latest Update) -->
-        <div class="blog-div">
-            <hr class="featurette-divider">
-            <div class="row align-items-md-stretch" style="display: flex; justify-content: center;">
-                <div class="col-md-6">
-                    <div class="row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-                        <div class="col-auto d-none d-lg-block">
-
-                            <!--article image-->
-                            <img src="{{ url_for('static', filename='/images/blog_images/plumbing_kulbachenko.jpg') }}"
-                                 alt="Logo" width="200" height="250" style="object-fit: cover;">
+    <div class="posts">
+        <article class="post">
+            <div class="inner">
+                <a class="post-image-link">
+                    <img class="post-image" src="" alt="">
+                </a>
+                <div class="content_block">
+                    <div class="content_post">
+                        <div class="post_tag_time">
+                            <time class="date" datetime="2024-09-26">Вер</time>
+                            <time class="date" datetime="2024-09-26">26, 2024</time>
                         </div>
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <!--tag-->
-                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-blue">{{ _('Plumbing') }}</span></strong>
-
-
-                            <!--article title-->
-                            <h3 class="mb-0">{{ _('Stages of Plumbing Work in Apartment Renovation') }}</h3>
-
-                            <!--publish date-->
-                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
-
-                            <!--short description-->
-                            <p class="mb-auto">{{ _('Discover the comprehensive steps involved in plumbing during a major apartment renovation. From initial assessment to final documentation, each stage ensures the installation of reliable and safe plumbing systems, encompassing everything from demolition to testing and connection of appliances.') }}</p>
-                            <a href="{{ url_for('plumbing_work', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link">
-                                {{ _('Continue reading') }}
-                                <svg class="bi"><use xlink:href="{{ url_for('plumbing_work', setting_language=language) }}"></use></svg>
-
-                            </a>
+                            <a href="#">
+					            <h4>Привіт, світ!</h4>
+				            </a>
+                        <div class="blogpost_description">
+                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
                         </div>
+
+                        <div class="post_tags">
+                            <a href="#" class="post_tag">Ремонт</a>
+                            <a href="#" class="post_tag">Будівництво</a>
+                            <a href="#" class="post_tag">Сантехніка</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Blog Post Electrical (Latest Update) -->
-        <div class="blog-div">
-            <hr class="featurette-divider">
-            <div class="row align-items-md-stretch" style="display: flex; justify-content: center;">
-                <div class="col-md-6">
-                    <div class="row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-                        <div class="col-auto d-none d-lg-block">
-
-                            <!--article image-->
-                            <img src="{{ url_for('static', filename='/images/carousel/drywall_kulbachenko.jpeg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
+        </article>
+        <article class="post">
+            <div class="inner">
+                <a class="post-image-link">
+                    <img class="post-image" src="" alt="">
+                </a>
+                <div class="content_block">
+                    <div class="content_post">
+                        <div class="post_tag_time">
+                            <time class="date" datetime="2024-09-26">Вер</time>
+                            <time class="date" datetime="2024-09-26">26, 2024</time>
                         </div>
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <!--tag-->
-                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }} <span class="text-yellow">{{ _('Electrics') }}</span></strong>
-
-                            <!--article title-->
-                            <h3 class="mb-0">{{ _('Key Steps in Electrical Installation for Apartment Renovation') }}</h3>
-
-                            <!--publish date-->
-                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 28</div>
-
-                            <!--short description-->
-                            <p class="mb-auto">{{ _('Comprehensive Electrical Installation for Apartment Renovation') }}</p>
-                            <a href="{{ url_for('electrical_installation', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link">
-                                {{ _('Continue reading') }}
-                                <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
-                            </a>
+                            <a href="#">
+					            <h4>Привіт, світ!</h4>
+				            </a>
+                        <div class="blogpost_description">
+                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
                         </div>
+
+                        <div class="post_tags">
+                            <a href="#" class="post_tag">Ремонт</a>
+                            <a href="#" class="post_tag">Будівництво</a>
+                            <a href="#" class="post_tag">Сантехніка</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
+        <article class="post">
+            <div class="inner">
+                <a class="post-image-link">
+                    <img class="post-image" src="" alt="">
+                </a>
+                <div class="content_block">
+                    <div class="content_post">
+                        <div class="post_tag_time">
+                            <time class="date" datetime="2024-09-26">Вер</time>
+                            <time class="date" datetime="2024-09-26">26, 2024</time>
+                        </div>
+                            <a href="#">
+					            <h4>Привіт, світ!</h4>
+				            </a>
+                        <div class="blogpost_description">
+                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
+                        </div>
 
-        <!-- Blog Post 4 (Latest Update) -->
-        <div class="blog-div">
-            <hr class="featurette-divider">
-            <div class="row align-items-md-stretch" style="display: flex; justify-content: center;">
-                <div class="col-md-6">
-                    <div class="row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-                        <div class="col-auto d-none d-lg-block">
-                            <img src="{{ url_for('static', filename='/images/carousel/kulbachenko_w_1.jpeg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
+                        <div class="post_tags">
+                            <a href="#" class="post_tag">Ремонт</a>
+                            <a href="#" class="post_tag">Будівництво</a>
+                            <a href="#" class="post_tag">Сантехніка</a>
                         </div>
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Renovation') }}</strong>
-                            <h3 class="mb-0">{{ _('Apartment renovation') }}</h3>
-                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 24</div>
-                            <p class="mb-auto">{{ _('A comprehensive apartment renovation includes various stages') }}</p>
-                            <a href="{{ url_for('articles_renovation', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link">
-                                {{ _('Continue reading') }}
-                                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                            </a>
-                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Blog Post 3 (Latest Update) -->
-        <div class="blog-div">
-            <hr class="featurette-divider">
-            <div class="row align-items-md-stretch" style="display: flex; justify-content: center;">
-                <div class="col-md-6">
-                    <div class="row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-                        <div class="col-auto d-none d-lg-block">
-
-                            <!--article image-->
-                            <img src="{{ url_for('static', filename='/images/carousel/wood_house_kulbackenko_1.jpeg') }}" alt="Logo" width="200" height="250" style="object-fit: cover;">
+        </article>
+        <article class="post">
+            <div class="inner">
+                <a class="post-image-link">
+                    <img class="post-image" src="" alt="">
+                </a>
+                <div class="content_block">
+                    <div class="content_post">
+                        <div class="post_tag_time">
+                            <time class="date" datetime="2024-09-26">Вер</time>
+                            <time class="date" datetime="2024-09-26">26, 2024</time>
                         </div>
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <!--tag-->
-                            <strong class="d-inline-block mb-2 text-success-emphasis">{{ _('Construction') }}</strong>
-
-                            <!--article title-->
-                            <h3 class="mb-0">{{ _('Building creation') }}</h3>
-
-                            <!--publish date-->
-                            <div class="mb-1 text-body-secondary">{{ _('Jan') }} 24</div>
-
-                            <!--short description-->
-                            <p class="mb-auto">{{ _('Rough construction works in the building industry represent the initial stage of constructing a building') }}</p>
-                            <a href="{{ url_for('articles_building', setting_language=language) }}" class="icon-link gap-1 icon-link-hover stretched-link">
-                                {{ _('Continue reading') }}
-                                <svg class="bi"><use xlink:href="/articles/building-creation"></use></svg>
-                            </a>
+                            <a href="#">
+					            <h4>Привіт, світ!</h4>
+				            </a>
+                        <div class="blogpost_description">
+                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
                         </div>
+
+                        <div class="post_tags">
+                            <a href="#" class="post_tag">Ремонт</a>
+                            <a href="#" class="post_tag">Будівництво</a>
+                            <a href="#" class="post_tag">Сантехніка</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
+        <article class="post">
+            <div class="inner">
+                <a class="post-image-link">
+                    <img class="post-image" src="" alt="">
+                </a>
+                <div class="content_block">
+                    <div class="content_post">
+                        <div class="post_tag_time">
+                            <time class="date" datetime="2024-09-26">Вер</time>
+                            <time class="date" datetime="2024-09-26">26, 2024</time>
+                        </div>
+                            <a href="#">
+					            <h4>Привіт, світ!</h4>
+				            </a>
+                        <div class="blogpost_description">
+                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
+                        </div>
 
+                        <div class="post_tags">
+                            <a href="#" class="post_tag">Ремонт</a>
+                            <a href="#" class="post_tag">Будівництво</a>
+                            <a href="#" class="post_tag">Сантехніка</a>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="post">
+            <div class="inner">
+                <a class="post-image-link">
+                    <img class="post-image" src="" alt="">
+                </a>
+                <div class="content_block">
+                    <div class="content_post">
+                        <div class="post_tag_time">
+                            <time class="date" datetime="2024-09-26">Вер</time>
+                            <time class="date" datetime="2024-09-26">26, 2024</time>
+                        </div>
+                            <a href="#">
+					            <h4>Привіт, світ!</h4>
+				            </a>
+                        <div class="blogpost_description">
+                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
+                        </div>
+
+                        <div class="post_tags">
+                            <a href="#" class="post_tag">Ремонт</a>
+                            <a href="#" class="post_tag">Будівництво</a>
+                            <a href="#" class="post_tag">Сантехніка</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
     </div>
 
 
-<style>
-        .position-relative {
-            position: relative;
-        }
+    <div class="nav-links">
+        <span aria-current="page" class="page-numbers current">1</span>
+        <a class="page-numbers" href="#">2</a>
+        <a class="page-numbers" href="#">3</a>
+        <a class="page-numbers" href="#">4</a>
+        <a class="next page-numbers" href="#">
+            <i class="fas fa-angle-right"></i>
 
-        .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: transparent;
-            z-index: 1;
-        }
-    </style>
+        </a>
+    </div>
+
+
+</div>
 {% endblock %}

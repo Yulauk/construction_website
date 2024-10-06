@@ -99,7 +99,6 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    text-transform: uppercase;
 }
 
 .card .btn:hover {

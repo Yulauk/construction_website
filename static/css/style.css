@@ -1669,3 +1669,148 @@ icon-background {
 
 
  }
+
+
+
+ /*BLOG PAGE*/
+.container_blog_page{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 1rem;
+ }
+
+.blog_title {
+    text-align: center;
+ }
+
+.blog_tags {
+    margin-bottom: 30px;
+ }
+
+.post_tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+ }
+
+.post_tag {
+    color: #027A48;
+    background: #ECFDF3;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-weight: 600;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 33.333%;
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+
+.inner{
+
+}
+
+.post-image-link{
+
+}
+
+.post-image{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.content_block {
+
+}
+
+.content_post{
+
+}
+
+.post_tag_time {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.date {
+
+}
+
+.blogpost_description {
+
+}
+
+.post_tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.navigation.pagination {
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.screen-reader-text{
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.page-numbers {
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.page-numbers.current {
+    background-color: #1d9529;
+    color: #fff;
+    border-color: #1d9529;
+}
+
+.page-numbers:hover {
+    background-color: #f0f0f0;
+    color: #1d9529;
+    border-color: #1d9529;
+}
+
+.next .fal {
+    font-size: 16px;
+    color: #333;
+}
+
+.next:hover .fal {
+    color: #1d9529;
+}
