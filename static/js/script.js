@@ -194,6 +194,41 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+//MODAL
+// Wait for the DOM to fully load before attaching event listeners
+document.addEventListener("DOMContentLoaded", function() {
+
+    // Get the modal element
+    var modal = document.getElementById("consultationModal");
+
+    // Get all buttons with the class 'openModalButton'
+    var buttons = document.querySelectorAll(".openModalButton");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementById("closeModal");
+
+    // Loop through all buttons and add event listener to each
+    buttons.forEach(function(btn) {
+        btn.onclick = function(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            modal.style.display = "flex"; // Use 'flex' to center the modal
+        }
+    });
+
+    // Close the modal when the user clicks on <span> (x)
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Close the modal if the user clicks outside the modal content
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});
+
+
 
 
 

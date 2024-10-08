@@ -10,21 +10,17 @@
         {% block meta %}{% endblock %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-        <link rel="icon"  href="{{ url_for('static', filename='/images/logo/Kulbachenko_classic.png') }}"  class="me-2"
+        <link rel="icon"  href="{{ url_for('static', filename='images/Kulbachenko_classic.png') }}"  class="me-2"
               type="image/x-icon" >
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
-        <link rel="stylesheet" href="{{ url_for('static', filename='section-contact/section-contact.css') }}" />
-        <link rel="stylesheet" href="{{ url_for('static', filename='section_pricing/pricing.css') }}" />
-        <link rel="stylesheet" href="{{ url_for('static', filename='section_workflow/workflow.css') }}" />
-        <link rel="stylesheet" href="{{ url_for('static', filename='section_faq/faq.css') }}" />
-
-        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/blog.css') }}" />
-        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/style_blog_template.css') }}" />
-        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/media.css') }}" />
-        <link rel="stylesheet" href="{{ url_for('static', filename='blog_template/css/our_mission_blog.css') }}" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="building, renovation, construction, home renovation, building steps">
+        <meta property="og:title" content="KULBACHENKO CONSTRUCTION and Renovation Services">
+        <meta property="og:description" content="Full renovation services from cosmetic to major. Apartment and house renovations. 📞 +380 44 593-32-22">
+        <meta property="og:image" content="https://kulbachenko.com/static/images/logo_white_letters_tools_index_page.png">
+        <meta property="og:type" content="website">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
         </style>
@@ -64,7 +60,7 @@
                     <div class="container py-2">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start nunito-sans-heavy">
             <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                <img src="/static/images/logo/Kulbachenko_logo_base.svg"
+                <img src="/static/images/Kulbachenko_logo_base.svg"
                      alt="Kulbachenko Construction + Design Logo"
                      class="logo-image">
             </a>
@@ -100,7 +96,7 @@
             <div id='header-fluid-middle' class="container-fluid">
 
                     <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                <img src="/static/images/logo/Kulbachenko_logo_base.svg"
+                <img src="/static/images/Kulbachenko_logo_base.svg"
                      alt="Kulbachenko Construction + Design Logo"
                      class="logo-image">
             </a>
@@ -143,7 +139,7 @@
             <div id="header-fluid-mini" class="container-fluid">
 
                     <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                            <img src="{{ url_for('static', filename='images/logo/Kulbachenko_orange_white_base.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px" style="object-fit: contain;">
+                            <img src="{{ url_for('static', filename='images/Kulbachenko_orange_white_base.png') }}" alt="Kulbachenko Construction + Design Logo" width="70px" height="70px" style="object-fit: contain;">
                     </a>
 
             <div class="tst">
@@ -209,63 +205,23 @@
     <!--    <div class="navbar_margin_80"></div>-->
 
             {% block content %}{% endblock %}
+
+
+
         {% endblock %}
-            <div class="body-bg">
+            <div class="body-bg" id="contact-form">
                 <div class="container py-2">
                     <div class="album py-5">
             <main>
                 <div>
-                <div id="contact-form" class="row">
-
-                    <!--                      Get a Free Consultation-->
-
-                    <div class="col-md-5 col-lg-4 order-md-last">
-            <div class="position_sticky_small_form">
-                <h4 id="fix-position" class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="free-consult">{{ _('Get a Free Consultation') }}</span>
-                </h4>
-
-                <form action="{{ url_for('submit_free_consultation') }}" class="card p-4" id="consultationForm" onsubmit="return validateForm()" method="post">
-                    <div class="mb-3">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" name="name-free-consult" id="username" placeholder="Username">
-                            <label for="username">{{ _('First Name') }}</label>
-                            <div class="error-message" id="username-error"></div>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
-                            <label for="phone">{{ _('Your Contact') }}</label>
-                            <div class="error-message" id="phone-error"></div>
-                        </div>
-
-                        <div class="form-floating">
-                            <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
-                            <label for="comment">{{ _('Comment') }}</label>
-                            <div class="error-message" id="comment-error"></div>
-                        </div>
-                    </div>
-
-
-                    <button class="g-recaptcha btn btn-primary"
-                        data-sitekey="{{ RECAPTCHA_SITE_KEY }}"
-                        data-callback='onSubmit'
-                        data-action='submit' type="submit">{{ _('Verify Submit') }}
-                    </button>
-
-    <br>
-    <small>This site is protected by reCAPTCHA and the Google
-        <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-        <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-    </small>
-                </form>
-            </div>
-        </div>
+                <div class="row">
 
 
                       <!-- Form "Contact Us" -->
     <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">{{ _('Contact Us') }}</h4>
+        <h4 class="mb-4" style="text-align: center;">
+            {{ _('Contact Us') }}
+        </h4>
         <form class="row g-3" action="{{ url_for('submit_contact_us') }}" id="contactForm" method="POST">
 
             <div class="col-md-6">
@@ -491,4 +447,48 @@
                 </ul>
             </footer>
                 </div>
+        <!-- Modal structure -->
+<div id="consultationModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <div class="position_sticky_small_form">
+            <h4 id="fix-position" class="d-flex justify-content-between align-items-center mb-3">
+                <span class="free-consult">GET A FREE</span>
+            </h4>
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                Kulbachenko Consultation
+            </h4>
+
+
+            <form action="/submit_free_consultation" class="card_modal" id="consultationForm" onsubmit="return validateForm()" method="post">
+                <div class="mb-3" style="
+    filter: drop-shadow(0px 0px 7px #1d952913);
+    column-gap: 1rem;
+">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="name-free-consult" id="username" placeholder="Username">
+                        <label for="username">First Name</label>
+                        <div class="error-message" id="username-error"></div>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
+                        <label for="phone">Your Contact</label>
+                        <div class="error-message" id="phone-error"></div>
+                    </div>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
+                        <label for="comment">Comment</label>
+                        <div class="error-message" id="comment-error"></div>
+                    </div>
+                </div>
+                <button class="g-recaptcha btn btn-primary" type="submit">Submit</button>
+
+                <br>
+                <small>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</small>
+            </form>
+        </div>
+    </div>
+</div>
     </html>

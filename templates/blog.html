@@ -5,26 +5,25 @@
 {% block content %}
 <div class="container_blog_page">
 
-
     <div class="blog_title">
         <h1>Blog</h1>
     </div>
 
-
-    <div class="blog_tags">
-        <p>Пошук за:</p>
-        <div class="post_tags">
-            <a href="#" class="post_tag">Ремонт</a>
-            <a href="#" class="post_tag">Будівництво</a>
-            <a href="#" class="post_tag">Сантехніка</a>
-            <a href="#" class="post_tag">Електрика</a>
-            <a href="#" class="post_tag">Landscaping and fencing</a>
-
-
-        </div>
+    <!-- Сортування за тегами -->
+<div class="blog_tags">
+    <p>Пошук за тегами:</p>
+    <div class="post_tags">
+        <a href="{{ url_for('blog', tag=current_tags['renovation']) }}" class="post_tag renovation_tag">{{ current_tags['renovation'] }}</a>
+        <a href="{{ url_for('blog', tag=current_tags['construction']) }}" class="post_tag construction_tag">{{ current_tags['construction'] }}</a>
+        <a href="{{ url_for('blog', tag=current_tags['plumbing']) }}" class="post_tag plumbing_tag">{{ current_tags['plumbing'] }}</a>
+        <a href="{{ url_for('blog', tag=current_tags['electrical']) }}" class="post_tag electrical_tag">{{ current_tags['electrical'] }}</a>
+        <a href="{{ url_for('blog', tag=current_tags['landscaping']) }}" class="post_tag landscaping_tag">{{ current_tags['landscaping'] }}</a>
+        <a href="{{ url_for('blog', tag=current_tags['news']) }}" class="post_tag news_tag">{{ current_tags['news'] }}</a>
     </div>
+</div>
 
     <div class="posts">
+        {% for post in posts %}
         <article class="post">
             <div class="inner">
                 <a class="post-image-link">
@@ -33,180 +32,38 @@
                 <div class="content_block">
                     <div class="content_post">
                         <div class="post_tag_time">
-                            <time class="date" datetime="2024-09-26">Вер</time>
-                            <time class="date" datetime="2024-09-26">26, 2024</time>
+                            <span class="created_at">{{ post[5] }}</span>
                         </div>
                             <a href="#">
-					            <h4>Привіт, світ!</h4>
-				            </a>
+                                <h4>{{ post[2] }}</h4> <!-- Назва поста -->
+                            </a>
                         <div class="blogpost_description">
-                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
+                            <p>{{ post[3] }}</p> <!-- Короткий опис -->
                         </div>
 
+                        <!-- Виведення тегів для кожного поста -->
                         <div class="post_tags">
-                            <a href="#" class="post_tag">Ремонт</a>
-                            <a href="#" class="post_tag">Будівництво</a>
-                            <a href="#" class="post_tag">Сантехніка</a>
+                            {% for tag in post[1].split(" ") %}
+        <a href="{{ url_for('blog', tag=tag) }}" class="post_tag {{ tag|lower }}_tag">{{ tag }}</a>
+                            {% endfor %}
                         </div>
 
                     </div>
                 </div>
             </div>
         </article>
-        <article class="post">
-            <div class="inner">
-                <a class="post-image-link">
-                    <img class="post-image" src="" alt="">
-                </a>
-                <div class="content_block">
-                    <div class="content_post">
-                        <div class="post_tag_time">
-                            <time class="date" datetime="2024-09-26">Вер</time>
-                            <time class="date" datetime="2024-09-26">26, 2024</time>
-                        </div>
-                            <a href="#">
-					            <h4>Привіт, світ!</h4>
-				            </a>
-                        <div class="blogpost_description">
-                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
-                        </div>
-
-                        <div class="post_tags">
-                            <a href="#" class="post_tag">Ремонт</a>
-                            <a href="#" class="post_tag">Будівництво</a>
-                            <a href="#" class="post_tag">Сантехніка</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article class="post">
-            <div class="inner">
-                <a class="post-image-link">
-                    <img class="post-image" src="" alt="">
-                </a>
-                <div class="content_block">
-                    <div class="content_post">
-                        <div class="post_tag_time">
-                            <time class="date" datetime="2024-09-26">Вер</time>
-                            <time class="date" datetime="2024-09-26">26, 2024</time>
-                        </div>
-                            <a href="#">
-					            <h4>Привіт, світ!</h4>
-				            </a>
-                        <div class="blogpost_description">
-                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
-                        </div>
-
-                        <div class="post_tags">
-                            <a href="#" class="post_tag">Ремонт</a>
-                            <a href="#" class="post_tag">Будівництво</a>
-                            <a href="#" class="post_tag">Сантехніка</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article class="post">
-            <div class="inner">
-                <a class="post-image-link">
-                    <img class="post-image" src="" alt="">
-                </a>
-                <div class="content_block">
-                    <div class="content_post">
-                        <div class="post_tag_time">
-                            <time class="date" datetime="2024-09-26">Вер</time>
-                            <time class="date" datetime="2024-09-26">26, 2024</time>
-                        </div>
-                            <a href="#">
-					            <h4>Привіт, світ!</h4>
-				            </a>
-                        <div class="blogpost_description">
-                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
-                        </div>
-
-                        <div class="post_tags">
-                            <a href="#" class="post_tag">Ремонт</a>
-                            <a href="#" class="post_tag">Будівництво</a>
-                            <a href="#" class="post_tag">Сантехніка</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article class="post">
-            <div class="inner">
-                <a class="post-image-link">
-                    <img class="post-image" src="" alt="">
-                </a>
-                <div class="content_block">
-                    <div class="content_post">
-                        <div class="post_tag_time">
-                            <time class="date" datetime="2024-09-26">Вер</time>
-                            <time class="date" datetime="2024-09-26">26, 2024</time>
-                        </div>
-                            <a href="#">
-					            <h4>Привіт, світ!</h4>
-				            </a>
-                        <div class="blogpost_description">
-                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
-                        </div>
-
-                        <div class="post_tags">
-                            <a href="#" class="post_tag">Ремонт</a>
-                            <a href="#" class="post_tag">Будівництво</a>
-                            <a href="#" class="post_tag">Сантехніка</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article class="post">
-            <div class="inner">
-                <a class="post-image-link">
-                    <img class="post-image" src="" alt="">
-                </a>
-                <div class="content_block">
-                    <div class="content_post">
-                        <div class="post_tag_time">
-                            <time class="date" datetime="2024-09-26">Вер</time>
-                            <time class="date" datetime="2024-09-26">26, 2024</time>
-                        </div>
-                            <a href="#">
-					            <h4>Привіт, світ!</h4>
-				            </a>
-                        <div class="blogpost_description">
-                            "Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!"
-                        </div>
-
-                        <div class="post_tags">
-                            <a href="#" class="post_tag">Ремонт</a>
-                            <a href="#" class="post_tag">Будівництво</a>
-                            <a href="#" class="post_tag">Сантехніка</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </article>
+        {% endfor %}
     </div>
-
 
     <div class="nav-links">
-        <span aria-current="page" class="page-numbers current">1</span>
-        <a class="page-numbers" href="#">2</a>
-        <a class="page-numbers" href="#">3</a>
-        <a class="page-numbers" href="#">4</a>
-        <a class="next page-numbers" href="#">
-            <i class="fas fa-angle-right"></i>
+    {% if prev_url %}
+        <a class="prev page-numbers" href="{{ prev_url }}">← Назад</a>
+    {% endif %}
 
-        </a>
+    {% if next_url %}
+        <a class="next page-numbers" href="{{ next_url }}">Вперед →</a>
+    {% endif %}
     </div>
-
 
 </div>
 {% endblock %}

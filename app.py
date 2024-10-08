@@ -8,15 +8,11 @@ from dotenv import load_dotenv
 import requests
 from urllib.parse import urlparse
 
-from drafts import sql_tst
+from blog_settings import get_blog_posts, get_total_posts
 
 
 load_dotenv()
 app = Flask(__name__)
-
-# Set your desired URI prefix here (e.g., http://192.168.18.9:5000/ru)
-# URI_PREFIX = os.getenv('URI_PREFIX', 'http://192.168.18.9:5000')
-# app.config['BASE_URI'] = URI_PREFIX
 
 
 babel = Babel(app)
@@ -122,10 +118,10 @@ def index(set_language=None):
         session['language'] = set_language
 
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-    blog_posts = sql_tst.get_text_for_blog()
+
 
     return render_template('index.html', year_on_site=year_on_site(), language=language,
-                           RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, blog_posts=blog_posts)
+                           RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
 
 @app.route('/<setting_language>/about/', methods=['GET', 'POST'])
 @app.route('/<setting_language>/about', methods=['GET', 'POST'])
@@ -202,22 +198,85 @@ def services(setting_language=None):
 @app.route('/blog/')
 @app.route('/blog')
 def blog(setting_language=None):
+    # Якщо мова передана в URL, використовуємо її, інакше залишаємо попередню мову з сесії
     if setting_language is not None and setting_language in app.config['LANGUAGES']:
         session['language'] = setting_language
     else:
-        # If setting_language is None or invalid, set default language
-        default_language = app.config['BABEL_DEFAULT_LOCALE']
-        session['language'] = default_language
+        # Якщо мова не передана, перевіряємо, чи вже була встановлена мова в сесії
+        if 'language' not in session:
+            default_language = app.config['BABEL_DEFAULT_LOCALE']
+            session['language'] = default_language
 
+    # Отримуємо мову з сесії (вона повинна бути встановлена або з параметра URL, або залишатися незмінною)
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
 
-    try:
-        return render_template('blog.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
-    except Exception as e:
-        # Log or handle the 404 error here
-        app.logger.error(f"404 Not Found: {request.url}")
-        raise e
+    # Визначаємо назву таблиці на основі вибраної мови
+    table_map = {
+        'en': 'blog_posts_en',
+        'et': 'blog_posts_et',
+        'uk': 'blog_posts_uk',
+        'ru': 'blog_posts_ru'
+    }
+
+    # Вибираємо таблицю відповідно до поточної мови
+    table_name = table_map.get(language, 'blog_posts_en')  # За замовчуванням англійська таблиця
+
+    # Визначаємо теги для поточної мови
+    tags = {
+        'en': {
+            'renovation': 'Renovation',
+            'construction': 'Construction',
+            'plumbing': 'Plumbing',
+            'electrical': 'Electrical',
+            'landscaping': 'Landscaping',
+            'news': 'News',
+        },
+        'et': {
+            'renovation': 'Renoveerimine',
+            'construction': 'Ehitus',
+            'plumbing': 'Torusüsteemid',
+            'electrical': 'Elektritööd',
+            'landscaping': 'Maastikukujundus',
+            'news': 'Uudised',
+        },
+        'uk': {
+            'renovation': 'Реновація',
+            'construction': 'Будівництво',
+            'plumbing': 'Водопостачання',
+            'electrical': 'Електрика',
+            'landscaping': 'Ландшафтний дизайн',
+            'news': 'Новини',
+        },
+        'ru': {
+            'renovation': 'Ремонт',
+            'construction': 'Строительство',
+            'plumbing': 'Сантехника',
+            'electrical': 'Электромонтаж',
+            'landscaping': 'Благоустройство',
+            'news': 'Новости',
+        }
+    }
+
+    # Отримуємо теги для поточної мови
+    current_tags = tags.get(language, tags['en'])
+
+    page = request.args.get('page', 1, type=int)  # Отримуємо номер сторінки з параметрів URL
+    per_page = 9  # Кількість постів на одній сторінці
+    tag = request.args.get('tag')
+
+    # Отримуємо пости і загальну кількість постів із відповідної таблиці
+    posts = get_blog_posts(table_name, page, per_page, tag)
+    total_posts = get_total_posts(table_name, tag)
+    total_pages = (total_posts + per_page - 1) // per_page  # Округлення в більшу сторону
+
+    # Генеруємо URL для наступної та попередньої сторінок
+    next_url = url_for('blog', tag=tag, page=page + 1) if page < total_pages else None
+    prev_url = url_for('blog', tag=tag, page=page - 1) if page > 1 else None
+
+    return render_template('blog.html', year_on_site=year_on_site(), language=language,
+                           RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, posts=posts, tag=tag,
+                           page=page, total_pages=total_pages, next_url=next_url, prev_url=prev_url,
+                           current_tags=current_tags)
 
 
 
@@ -394,9 +453,8 @@ def articles_renovation(setting_language=None):
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
 
     try:
-        blog_posts = sql_tst.get_text_for_blog()
         return render_template('new_blog_templates/Complete-Renovation-Services-in-Amsterdam-and-The-Hague.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, blog_posts=blog_posts)
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
     except Exception as e:
         # Log or handle the 404 error here
         app.logger.error(f"404 Not Found: {request.url}")
@@ -418,9 +476,8 @@ def electrical_installation(setting_language=None):
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
 
     try:
-        blog_posts = sql_tst.get_text_for_blog()
         return render_template('new_blog_templates/blog_new.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, blog_posts=blog_posts)
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
     except Exception as e:
         # Log or handle the 404 error here
         app.logger.error(f"404 Not Found: {request.url}")
