@@ -230,5 +230,40 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const dropdownButton = document.getElementById("languageDropdown");
+    const dropdownMenu = document.getElementById("languageMenu");
+
+    // Показать/скрыть меню при нажатии на кнопку
+    dropdownButton.addEventListener("click", function(event) {
+        event.stopPropagation(); // Остановить всплытие события
+        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+    });
+
+    // Закрыть меню, если кликнули вне его
+    window.addEventListener("click", function(event) {
+        if (!event.target.closest('#index_header')) {
+            dropdownMenu.style.display = "none"; // Скрыть меню
+        }
+    });
+});
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const dropdownButton = document.getElementById("customDropdownButton");
+    const dropdownMenu = document.getElementById("customDropdownMenu");
+
+    // Показать/скрыть меню при нажатии на кнопку
+    dropdownButton.addEventListener("click", function(event) {
+        event.stopPropagation(); // Останавливает всплытие события
+        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+    });
+
+    // Закрыть меню, если кликнули вне его
+    window.addEventListener("click", function(event) {
+        if (!event.target.closest('.custom-dropdown')) {
+            dropdownMenu.style.display = "none"; // Скрыть меню
+        }
+    });
+});

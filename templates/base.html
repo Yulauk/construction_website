@@ -18,7 +18,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="building, renovation, construction, home renovation, building steps">
         <meta property="og:title" content="KULBACHENKO CONSTRUCTION and Renovation Services">
-        <meta property="og:description" content="Full renovation services from cosmetic to major. Apartment and house renovations. 📞 +380 44 593-32-22">
+        <meta property="og:description" content="Full renovation services from cosmetic to major. Apartment and house renovations. 📞 +372 5617 7079">
         <meta property="og:image" content="https://kulbachenko.com/static/images/logo_white_letters_tools_index_page.png">
         <meta property="og:type" content="website">
         <style>
@@ -56,39 +56,37 @@
     </head>
         {% block body %}
             <header id="header-big">
-
-                    <div class="container py-2">
+    <div class="container py-2">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start nunito-sans-heavy">
             <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo">
-                <img src="/static/images/Kulbachenko_logo_base.svg"
-                     alt="Kulbachenko Construction + Design Logo"
-                     class="logo-image">
+                <img src="/static/images/Kulbachenko_logo_base.svg" alt="Kulbachenko Construction + Design Logo" class="logo-image">
             </a>
-                    <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                        <div class="me-3 py-2 link-body-emphasis text-decoration-none">
-                            <div id='base' class="dropdown">
-                                <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {{ language.upper() }}
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
-                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
-                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
-                                    <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
-                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
-                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
-                        <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
-                    </nav>
-                    <div class="container-color">
-                            <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
-                        </div>
+            <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <div id="index_header" class="header">
+                    <div id="base" class="dropdown">
+                        <button class="custom-btn" id="languageDropdown">
+                            {{ language.upper() }}
+                        </button>
+                        <ul class="dropdown-menu" id="languageMenu">
+                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+                        </ul>
+                    </div>
                 </div>
-                        </div>
-            </header>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
+            </nav>
+            <div class="container-color">
+                <a href="#contact-form" class="contact-link text-nowrap">{{ _('CONTACT US') }}</a>
+            </div>
+        </div>
+    </div>
+</header>
+
 
             <!-- header for middle screens -->
             <header id="header-middle">
@@ -458,6 +456,10 @@
             <h4 class="d-flex justify-content-between align-items-center mb-3">
                 Kulbachenko Consultation
             </h4>
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                📞 +372 5617 7079
+            </h4>
+            <p>or we call back:</p>
 
 
             <form action="/submit_free_consultation" class="card_modal" id="consultationForm" onsubmit="return validateForm()" method="post">

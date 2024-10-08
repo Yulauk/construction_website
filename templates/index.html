@@ -45,23 +45,36 @@
 
 
 
-
-                    <div id="index_header" class="me-3 py-2 link-body-emphasis text-decoration-none">
-                    <div id='base' class="dropdown">
-    <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-        {{ language.upper() }}
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et', path=request.path, _external=True) }}">Eesti</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk', path=request.path, _external=True) }}">Українська</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en', path=request.path, _external=True) }}">English</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru', path=request.path, _external=True) }}">Русский</a></li>
-
-                            </ul>
+                    <div id="custom_header" class="custom-header">
+    <div id="custom_dropdown_wrapper" class="custom-dropdown">
+        <button class="custom-dropdown-btn" type="button" id="customDropdownButton">
+            {{ language.upper() }}
+        </button>
+        <ul class="custom-dropdown-menu" id="customDropdownMenu">
+            <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
+            <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
+            <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
+            <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+        </ul>
+    </div>
 </div>
 
+<!--                    <div id="index_header" class="me-3 py-2 link-body-emphasis text-decoration-none">-->
+<!--                    <div id='base' class="dropdown">-->
+<!--    <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">-->
+<!--        {{ language.upper() }}-->
+<!--    </button>-->
+<!--    <ul class="dropdown-menu" aria-labelledby="languageDropdown">-->
+<!--                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et', path=request.path, _external=True) }}">Eesti</a></li>-->
+<!--                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk', path=request.path, _external=True) }}">Українська</a></li>-->
+<!--                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en', path=request.path, _external=True) }}">English</a></li>-->
+<!--                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru', path=request.path, _external=True) }}">Русский</a></li>-->
 
-                        </div>
+<!--                            </ul>-->
+<!--</div>-->
+
+
+<!--                        </div>-->
 
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none about-index {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
                     <a class="me-3 py-2 link-body-emphasis text-decoration-none about-portfolio {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
