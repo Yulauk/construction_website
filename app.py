@@ -279,6 +279,28 @@ def blog(setting_language=None):
                            current_tags=current_tags)
 
 
+@app.route('/<setting_language>/roofing-works/')
+@app.route('/<setting_language>/roofing-works')
+@app.route('/roofing-works/')
+@app.route('/roofing-works')
+def roofing_works(setting_language=None):
+    if setting_language is not None and setting_language in app.config['LANGUAGES']:
+        session['language'] = setting_language
+    else:
+        # If setting_language is None or invalid, set default language
+        default_language = app.config['BABEL_DEFAULT_LOCALE']
+        session['language'] = default_language
+
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+
+    try:
+        return render_template('new_blog_pages/roofing-works.html', year_on_site=year_on_site(), language=language,
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+    except Exception as e:
+        # Log or handle the 404 error here
+        app.logger.error(f"404 Not Found: {request.url}")
+        raise e
+
 
 # for portfolio projects
 @app.route('/<setting_language>/project/')

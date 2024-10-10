@@ -26,8 +26,8 @@
         {% for post in posts %}
         <article class="post">
             <div class="inner">
-                <a class="post-image-link">
-                    <img class="post-image" src="" alt="">
+                <a href="{{ post[8] }}" class="post-image-link">
+                    <img class="post-image" src="{{ post[6] }}" alt="{{ post[7] }}">
                 </a>
                 <div class="content_block">
                     <div class="content_post">
@@ -43,10 +43,26 @@
 
                         <!-- Виведення тегів для кожного поста -->
                         <div class="post_tags">
-                            {% for tag in post[1].split(" ") %}
-        <a href="{{ url_for('blog', tag=tag) }}" class="post_tag {{ tag|lower }}_tag">{{ tag }}</a>
-                            {% endfor %}
-                        </div>
+    {% for tag in post[1].split(" ") %}
+        {% if tag in ['Ремонт', 'Renovation', 'Реновація', 'Renoveerimine'] %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag renovation_tag">{{ tag }}</a>
+        {% elif tag in ['Строительство', 'Construction', 'Будівництво', 'Ehitus'] %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag construction_tag">{{ tag }}</a>
+        {% elif tag in ['Сантехника', 'Plumbing', 'Водопостачання', 'Torusüsteemid'] %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag plumbing_tag">{{ tag }}</a>
+        {% elif tag in ['Электромонтаж', 'Electrical', 'Електрика', 'Elektritööd'] %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag electrical_tag">{{ tag }}</a>
+        {% elif tag in ['Благоустройство', 'Landscaping', 'Ландшафтний дизайн', 'Maastikukujundus'] %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag landscaping_tag">{{ tag }}</a>
+        {% elif tag in ['Новости', 'News', 'Новини', 'Uudised'] %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag news_tag">{{ tag }}</a>
+        {% else %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag">{{ tag }}</a> <!-- fallback для других тегов -->
+        {% endif %}
+    {% endfor %}
+</div>
+
+
 
                     </div>
                 </div>

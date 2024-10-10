@@ -578,16 +578,15 @@ nav a.active {
 
 /* Средний размер экрана от 440px до 839px */
 @media (min-width: 440px) and (max-width: 839px) {
-    #header-mini {
-        display: none; /* Скрыть мини и большой хедеры на средних экранах */
+    #header-mini, #header-big {
+        display: none;
     }
 
-     #header-big{
-        display: none;
-     }
-
     #header-middle {
-        display: block !important; /* Показать только средний хедер */
+        display: block !important;
+        background-color: yellow; /* Для наглядности */
+        z-index: 10; /* Убедитесь, что он выше других элементов */
+        height: auto; /* Убедитесь, что высота динамична */
     }
 }
 
@@ -667,6 +666,24 @@ nav a.active {
     color:  #f8f9fa;
 }
 
+.offcanvas-header{
+    justify-content: flex-end;
+    padding: 2rem 2rem 0;
+}
+
+.navbar_toggler_lines {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: #f8f9fa;
+    background-color: transparent;
+    border: var(--bs-border-width) solid rgb(248 249 250);
+    /* border-radius: var(--bs-navbar-toggler-border-radius); */
+    transition: var(--bs-navbar-toggler-transition);
+
+}
+
+
 .navbar-toggler-icon {
     border-radius: 0; /* Remove border radius */
     background-size: cover; /* Adjust this based on how you want the image to be displayed */
@@ -675,7 +692,7 @@ nav a.active {
 }
 
 .navbar-toggler {
-        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
     font-size: var(--bs-navbar-toggler-font-size);
     line-height: 1;
     color: #f8f9fa;
@@ -831,7 +848,7 @@ icon-background {
 }
 
 .container-fluid {
-    --bs-gutter-x: 3.5rem;
+    /*--bs-gutter-x: 3.5rem;*/
 }
 
 .g-5, .gx-5 {
@@ -843,7 +860,9 @@ icon-background {
 }
 
 
-
+.offcanvas.show:not(.hiding), .offcanvas.showing{
+        width: 50%;
+}
 
 
 
@@ -1102,9 +1121,7 @@ icon-background {
     width: 50%;
 }
 
-.shadow_about {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+
 
 @media (max-width: 900px) {
     .about_blog {
@@ -1639,8 +1656,9 @@ icon-background {
 .post-image{
     width: 100%;
     object-fit: cover;
-    height: 250px;
+    height: 300px;
     margin-bottom: 20px;
+    border-radius: 9px;
 }
 
 .content_block {
@@ -1733,6 +1751,7 @@ icon-background {
     color: #027A48;
     background-color: #ECFDF3;
     padding: 5px 10px;
+    border: 3px solid transparent;
     border-radius: 16px;
     font-weight: 600;
     font-size: 14px;
@@ -1771,6 +1790,12 @@ icon-background {
     color: #4338CA;
 }
 
+.post_tag.blog_article {
+    background-color: #4c86bc;
+    color: #ffffff;
+}
+
+
 /* Стили для блоку тегів */
 .post_tags {
     display: flex;
@@ -1782,7 +1807,7 @@ icon-background {
 
 /* Стиль при наведенні */
 .post_tag:hover {
-    filter: invert(1);
+    border: 3px solid;
 }
 
 
@@ -2622,6 +2647,165 @@ ul {
     z-index: -1;
 }
 
+
+/* Blue circle */
+.blue-circle_1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 77%;
+    left: 7%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_2 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 24%;
+    left: 84%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 80%;
+    left: 61%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 72%;
+    left: 73%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 7%;
+    left: 54%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_6 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 17%;
+    left: 12%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_7 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 56%;
+    left: 32%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_8 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 136%;
+    left: 52%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_9 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 132%;
+    left: 67%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+.blue-circle_10 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 176%;
+    left: 82%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_11 {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 155%;
+    left: 8%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_12 {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 175%;
+    left: 23%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.blue-circle_13 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: #4c86bc;
+    border-radius: 50%;
+    top: 115%;
+    left: 73%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
 .button_hide{
     text-align: center;
 }
@@ -2717,6 +2901,7 @@ ul {
 }
 
 .custom-btn {
+    margin-bottom: 4px;
     background-color: #6c757d; /* Цвет кнопки */
     color: white; /* Цвет текста */
     padding: 10px 15px; /* Отступы кнопки */
@@ -2762,6 +2947,7 @@ ul {
 .custom-dropdown-btn {
     background-color: #6c757d; /* Цвет кнопки */
     color: white; /* Цвет текста */
+    margin-bottom: 4px;
     padding: 10px 15px; /* Отступы */
     border: none; /* Убираем границу */
     cursor: pointer; /* Курсор при наведении */
@@ -2794,4 +2980,187 @@ ul {
 
 #custom_header {
     margin-right: 1rem;
+}
+
+.green_tag {
+    background-color: green;
+    color: white;
+}
+
+.blue_tag {
+    background-color: blue;
+    color: white;
+}
+
+.blog_container{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 1rem 0 3rem;
+    display: flex;
+}
+
+.blog_text_container{
+    /*display: flex;*/
+    padding: 2rem 0;
+}
+
+.div_block_conteiner_1{
+    padding: 3rem 2rem 3rem 0;
+    width: 65%;
+}
+
+.div_block_conteiner_2{
+    padding: 3rem 0;
+    width: 35%;
+}
+
+.shadow_img_photo {
+    margin-top: 3rem;
+    border-radius: 18px;
+    width: 100%;
+    height: auto;
+    display: block;
+    rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.blog_container_image {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 1rem 1rem 3rem;
+    display: flex;
+    height: 370px;
+
+}
+
+.shadow_img_photo_blog_container {
+    border-radius: 18px;
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+/* Block article container */
+.block_article {
+    padding: 2rem;
+    text-align: center; /* Center the content */
+}
+
+.block_article_for_articles{
+    padding: 0 2rem 3rem;
+
+}
+
+.post_tags_for_articles{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Center the article title */
+.article-title {
+    margin-bottom: 1rem; /* Add space below the title */
+}
+
+/* Container for horizontal link row */
+.link-row {
+    display: flex; /* Use flexbox to align the items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    gap: 1rem; /* Add space between each link */
+    flex-wrap: wrap; /* Ensure wrapping for smaller screens */
+}
+
+/* Styles for the links */
+.link-row a {
+    color: #333; /* Set the text color */
+    text-decoration: none; /* Remove underline */
+    position: relative; /* For positioning the bottom border */
+    padding-bottom: 5px; /* Add some space below the text */
+    border-bottom: 2px solid transparent; /* Transparent bottom border by default */
+    transition: border-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect: change the border-bottom color without moving the page */
+.link-row a:hover {
+    border-bottom-color: #fbb933; /* Yellow bottom border on hover */
+}
+
+/* Ensure the link remains clickable */
+.custom-dropdown-item {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: block;
+}
+
+.about_photo {
+    display: flex;
+    position: relative; /* Position the caption relative to the image */
+}
+
+
+.shadow_about {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain image aspect ratio */
+}
+
+/* Overlay caption container */
+.caption-overlay {
+    position: absolute;
+    bottom: 0; /* Stick to the bottom of the image */
+    width: 100%; /* Make the caption span the entire image width */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 0px 0px 28px 28px;
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Add padding for the caption */
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the name and title */
+.caption-overlay .name {
+    color: white;
+}
+
+.caption-overlay .title {
+    color: white;
+}
+
+
+/*bottom for articles pages*/
+.nav-links-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.page-numbers-article {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid transparent;
+    background: #1d9529;
+    color: white;
+    border-radius: 5px;
+}
+
+.page-numbers-article.current {
+    background-color: #1d9529;
+    color: #fff;
+    border-color: #1d9529;
+}
+
+.page-numbers-article:hover {
+    background-color: #f0f0f0;
+    color: #1d9529;
+    border-color: #1d9529;
 }

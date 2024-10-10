@@ -50,10 +50,19 @@
 <div class="about_blog">
     <div class="about_photo_wrapper">
     <div class="about_photo">
-                    <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}">
+        <img class="shadow_about" src="/static/images/Kulbachenko.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
 
+        <!-- Overlay text container -->
+        <div class="caption-overlay">
+            <p></p>
+            <p class="name">Serhii Kulbachenko</p>
+            <p class="title">FOUNDER AND LEADER</p>
+        </div>
     </div>
-    </div>
+</div>
+
+
+
     <div class="about_text_1">
         <h1>{{ _("Сергій Кульбаченко — Ваш надійний партнер у будівництві та ремонті") }}</h1>
         <p>{{ _("Мене звуть Сергій Кульбаченко, і я керую будівельною компанією, яка спеціалізується на ремонті та будівництві приватних будинків. Ми пропонуємо комплексні рішення для тих, хто шукає надійного підрядника з багаторічним досвідом, що гарантує високу якість робіт і дотримання сучасних стандартів.") }}</p>
