@@ -13,11 +13,13 @@
 <div class="blog_tags">
     <p>Пошук за тегами:</p>
     <div class="post_tags">
+        <a href="/blog" class="post_tag all_tag">All</a>
         <a href="{{ url_for('blog', tag=current_tags['renovation']) }}" class="post_tag renovation_tag">{{ current_tags['renovation'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['construction']) }}" class="post_tag construction_tag">{{ current_tags['construction'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['plumbing']) }}" class="post_tag plumbing_tag">{{ current_tags['plumbing'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['electrical']) }}" class="post_tag electrical_tag">{{ current_tags['electrical'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['landscaping']) }}" class="post_tag landscaping_tag">{{ current_tags['landscaping'] }}</a>
+        <a href="{{ url_for('blog', tag=current_tags['videos']) }}" class="post_tag video_tag">{{ current_tags['videos'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['news']) }}" class="post_tag news_tag">{{ current_tags['news'] }}</a>
     </div>
 </div>
@@ -57,7 +59,7 @@
         {% elif tag in ['Новости', 'News', 'Новини', 'Uudised'] %}
             <a href="{{ url_for('blog', tag=tag) }}" class="post_tag news_tag">{{ tag }}</a>
         {% else %}
-            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag">{{ tag }}</a> <!-- fallback для других тегов -->
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag video_tag">{{ tag }}</a> <!-- fallback для других тегов -->
         {% endif %}
     {% endfor %}
 </div>

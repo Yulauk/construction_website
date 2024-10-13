@@ -1311,7 +1311,7 @@ icon-background {
 }
 
 .block_2_1 {
-    background: #f9e5c1;
+    background: #f8f9fa;
     height: 610px;
     width: 610px;
     display: flex;
@@ -1320,10 +1320,12 @@ icon-background {
     justify-content: center;
     padding: 4rem;
     text-align: center;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 5px 0px 13px;
 }
 
 .block_2_2 {
-    background: #f9e5c1;
+    background: #f8f9fa;
     height: 610px;
     width: 100%;
     display: flex;
@@ -1335,8 +1337,113 @@ icon-background {
     margin-left: 4rem;
     margin-top: 0;
     margin-bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.05) -5px 0px 13px;
 }
 
+/*ul li styles*/
+.block_2_1 ul {
+    line-height: 2rem;
+    list-style: none; /* убираем стандартные маркеры списка */
+    padding: 0; /* убираем внутренние отступы */
+    margin: 0; /* убираем внешние отступы */
+}
+
+.block_2_1 li {
+    font-size: 22px; /* размер текста */
+    margin: 0.5rem 0; /* отступы между элементами списка */
+    position: relative; /* необходим для псевдоэлементов */
+    padding: 10px 0; /* внутренние отступы для эффекта затемнения */
+    transition: background 0.3s ease; /* плавный переход для фона */
+}
+
+
+/* Линия под и над текстом при наведении */
+.block_2_1 li::before,
+.block_2_1 li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px; /* высота линии */
+    background-color: #fbb933; /* цвет линии */
+    width: 100%; /* полная ширина */
+    transition: all 0.3s ease; /* плавный переход */
+}
+
+.block_2_1 li::before {
+    top: 0; /* линия сверху */
+    width: 0; /* начальная ширина */
+}
+
+.block_2_1 li::after {
+    bottom: 0; /* линия снизу */
+    width: 0; /* начальная ширина */
+}
+
+/* Линии будут увеличиваться при наведении */
+.block_2_1 li:hover::before,
+.block_2_1 li:hover::after {
+    width: 100%; /* полная ширина при наведении */
+}
+
+/* Затемнение фона при наведении */
+.block_2_1 li:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* затемнение фона */
+    color: #fbb933; /* цвет при наведении */
+    transform: scale(1.1);
+}
+
+
+/*ul li for block_2_2*/
+.block_2_2 ul {
+    line-height: 2rem;
+    list-style: none; /* убираем стандартные маркеры списка */
+    padding: 0; /* убираем внутренние отступы */
+    margin: 0; /* убираем внешние отступы */
+}
+
+.block_2_2 li {
+    font-size: 22px; /* размер текста */
+    margin: 0.5rem 0; /* отступы между элементами списка */
+    position: relative; /* необходим для псевдоэлементов */
+    padding: 10px 0; /* внутренние отступы для эффекта затемнения */
+    transition: background 0.3s ease; /* плавный переход для фона */
+}
+
+
+/* Линия под и над текстом при наведении */
+.block_2_2 li::before,
+.block_2_2 li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px; /* высота линии */
+    background-color: #fbb933; /* цвет линии */
+    width: 100%; /* полная ширина */
+    transition: all 0.3s ease; /* плавный переход */
+}
+
+.block_2_2 li::before {
+    top: 0; /* линия сверху */
+    width: 0; /* начальная ширина */
+}
+
+.block_2_2 li::after {
+    bottom: 0; /* линия снизу */
+    width: 0; /* начальная ширина */
+}
+
+/* Линии будут увеличиваться при наведении */
+.block_2_2 li:hover::before,
+.block_2_2 li:hover::after {
+    width: 100%; /* полная ширина при наведении */
+}
+
+/* Затемнение фона при наведении */
+.block_2_2 li:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* затемнение фона */
+    color: #fbb933; /* цвет при наведении */
+    transform: scale(1.1);
+}
 
 .shadow_services_apart_block_2_1 {
     width: 700px;
@@ -1349,6 +1456,7 @@ icon-background {
 
 .apart_photo_2_1 {
     position: absolute;
+    z-index: -1;
 }
 
 
@@ -1616,6 +1724,38 @@ icon-background {
  }
 
 
+/* Радикальные стилі для посилань */
+.radical-link {
+    text-decoration: none !important; /* Забороняємо підкреслення */
+    color: inherit !important; /* Колір успадкований */
+    position: relative !important;
+    transition: color 0.3s ease !important; /* Плавний перехід для кольору */
+    font-size: 100% !important; /* Початковий розмір */
+}
+
+/* Ефект при наведенні */
+.radical-link:hover {
+    transform: scale(1.1); /* Збільшуємо розмір при наведенні */
+}
+
+/* Лінія під текстом */
+.radical-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: #fbb933;
+    transition: width 0.3s ease !important;
+}
+
+/* Лінія з'являється при наведенні */
+.radical-link:hover::after {
+    width: 100% !important; /* Ширина 100% при наведенні */
+}
+
+
 
  /*BLOG PAGE*/
 .container_blog_page{
@@ -1749,7 +1889,7 @@ icon-background {
 /* Загальний стиль для тегів */
 .post_tag {
     color: #027A48;
-    background-color: #ECFDF3;
+    /*background-color: #ECFDF3;*/
     padding: 5px 10px;
     border: 3px solid transparent;
     border-radius: 16px;
@@ -1788,6 +1928,16 @@ icon-background {
 .post_tag.news_tag {
     background-color: #E0E7FF;
     color: #4338CA;
+}
+
+.post_tag.video_tag {
+    background: #f8f895;
+    color: #8e7be9
+}
+
+.all_tag {
+    background: #ffce70;
+    color: #795548;
 }
 
 .post_tag.blog_article {
@@ -2228,6 +2378,7 @@ icon-background {
 /* INDEX PAGE BLOG */
 .hero_blog_page, .main_three, .side_three {
     box-sizing: border-box;
+
 }
 
 .hero_blog_page {
@@ -2236,29 +2387,28 @@ icon-background {
     outline: 0;
     padding: 0; */
     /* vertical-align: baseline; */
-    display: flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    /* display: flex; */
+    /* margin-top: 24px; */
+    /* margin-bottom: 24px; */
 
 }
 
 .three_column {
+    column-gap: 2rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.main_three {
-    flex-basis: 66.66666%;
-        padding-right: 16px;
-}
 
 .box__text {
+    width: 34%;
     font-size: clamp(1rem, 2vw + 0.5rem, 1.125rem);
-    margin-top: 18px;
-    padding-left: 0px;
-    padding-top: 0;
     text-align: left;
-    margin-bottom: 36px;
+    padding: 1rem 1rem 2rem;
+
+
 
 }
 
@@ -2323,7 +2473,7 @@ icon-background {
 .main_three img, .side_three img {
     max-width: 100%;
     height: auto;
-    border-radius: 16px;
+    border-radius: 11px;
 }
 
 #blog_img {
@@ -2343,7 +2493,7 @@ icon-background {
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 3rem 20px;
+    padding: 3rem 1rem;
     box-sizing: border-box; /* Гарантируем правильное вычисление размеров */
 }
 
@@ -2357,6 +2507,7 @@ icon-background {
 }
 
 .three_column_new {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -2372,8 +2523,7 @@ icon-background {
 .video_blog_youtube {
     max-width: 100%;
     flex: 1 1 45%;
-    margin-bottom: 20px;
-    margin-top: 24px;
+    margin: 2rem 0;
 }
 
 .line-separator {
@@ -3163,4 +3313,180 @@ ul {
     background-color: #f0f0f0;
     color: #1d9529;
     border-color: #1d9529;
+}
+
+
+/*ABOUT TEAM*/
+.about_team {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about_content_team {
+    display: flex;
+    width: 90%;
+    position: relative;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Text block */
+.about_text_team {
+    backdrop-filter: blur(5px);
+    border-radius: 4px;
+    filter: blur(0px);
+    flex: 0 0 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    z-index: 2;
+    margin-left: -5%;
+    margin-right: -10%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.about_text_team h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about_text_team ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about_text_team ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Photo block */
+.about_photo_wrapper_team {
+    /*flex: 0 0 60%;*/ /* Occupy 60% of the width */
+    flex: -10 0 60%;
+    position: relative;
+    flex: 0 0 auto;
+    width: 40%;
+}
+
+.about_photo_team {
+    display: flex;
+    position: relative;
+    margin-top: -10%; /* Lift image 10% above the text block */
+    margin-bottom: -10%; /* Extend image 10% below the text block */
+}
+
+.about_photo_team{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.shadow_about_team {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%; /* Ensure the image fills the space */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Overlay caption */
+.caption-overlay_team {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.caption-overlay_team .name {
+    color: white;
+}
+
+.caption-overlay_team .title {
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .about_content_team {
+        flex-direction: column; /* Столбец вместо строки */
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .about_text_team {
+        max-width: 775px;
+        text-align: center;
+        flex: 0 0 0; /* Увеличиваем ширину текста на меньших экранах */
+        margin-left: 0; /* Убираем отрицательный отступ */
+        margin-right: 0;
+        padding: 1.5rem;
+    }
+
+    .about_photo_wrapper_team {
+        width: 80%; /* Увеличиваем ширину фото */
+        margin-top: 0; /* Убираем отрицательные отступы для фото */
+        margin-bottom: 0;
+    }
+
+    .about_photo_team {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .about_text_team {
+        width: 100%;
+        text-align: center;
+        flex: 0 0 0; /* Текст занимает всю ширину */
+        padding: 1rem;
+    }
+
+    .about_photo_wrapper_team {
+        width: 100%; /* Фото тоже на всю ширину */
+    }
+
+    .about_photo_team {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .about_team {
+        padding: 2rem 1rem; /* Уменьшаем общие отступы */
+    }
+}
+
+.index_consult {
+    margin: 0;
+}
+
+.post_video {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.post-image-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+}
+
+.content_post_video {
+    padding: 0.5rem 0;
+}
+
+.post-image-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

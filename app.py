@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import requests
 from urllib.parse import urlparse
 
-from blog_settings import get_blog_posts, get_total_posts
+from blog_settings import get_blog_posts, get_total_posts, get_video_posts, get_news_posts
 
 
 load_dotenv()
@@ -111,17 +111,41 @@ def close_db(error):
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/<set_language>/', methods=['GET', 'POST'])
 def index(set_language=None):
+    # Handle POST request to change language
     if request.method == 'POST':
         return set_language(request.form['language_code'])
 
+    # Handle language selection or default to the one in the session
     if set_language is not None and set_language in app.config['LANGUAGES']:
         session['language'] = set_language
+    else:
+        # If no language is set, use the default language from the session or config
+        if 'language' not in session:
+            default_language = app.config['BABEL_DEFAULT_LOCALE']
+            session['language'] = default_language
 
+    # Get the current language from the session
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
 
+    # Define the table based on the language
+    table_map = {
+        'en': 'blog_posts_en',
+        'et': 'blog_posts_et',
+        'uk': 'blog_posts_uk',
+        'ru': 'blog_posts_ru'
+    }
+    table_name = table_map.get(language, 'blog_posts_en')  # Default to English table if language is not in the map
 
+    # Get the two latest video posts for the selected language
+    posts_video = get_video_posts('blog_posts_en')
+    post_news = get_news_posts('blog_posts_en')
+
+    # Render the 'index.html' template with the year, language, RECAPTCHA key, and video posts
     return render_template('index.html', year_on_site=year_on_site(), language=language,
-                           RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+                           RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, posts_video=posts_video, post_news=post_news)
+
+
+
 
 @app.route('/<setting_language>/about/', methods=['GET', 'POST'])
 @app.route('/<setting_language>/about', methods=['GET', 'POST'])
@@ -229,6 +253,7 @@ def blog(setting_language=None):
             'plumbing': 'Plumbing',
             'electrical': 'Electrical',
             'landscaping': 'Landscaping',
+            'videos':'Videos',
             'news': 'News',
         },
         'et': {
@@ -273,10 +298,14 @@ def blog(setting_language=None):
     next_url = url_for('blog', tag=tag, page=page + 1) if page < total_pages else None
     prev_url = url_for('blog', tag=tag, page=page - 1) if page > 1 else None
 
+    # Video post for index.html
+    # Get the two latest video posts
+    posts_video = get_video_posts('blog_posts_en')
+
     return render_template('blog.html', year_on_site=year_on_site(), language=language,
                            RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY, posts=posts, tag=tag,
                            page=page, total_pages=total_pages, next_url=next_url, prev_url=prev_url,
-                           current_tags=current_tags)
+                           current_tags=current_tags, posts_video=posts_video)
 
 
 @app.route('/<setting_language>/roofing-works/')
