@@ -78,6 +78,8 @@ def set_language(language_code):
             return redirect(url_for('plumbing_work', setting_language=language_code))
         elif 'shower-without-tray' in next_url:
             return redirect(url_for('articles_shower', setting_language=language_code))
+        elif 'roofing-works' in next_url:
+            return redirect(url_for('roofing_works', setting_language=language_code))
         else:
             return redirect(next_url or '/')
     else:
@@ -323,7 +325,8 @@ def roofing_works(setting_language=None):
     language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
 
     try:
-        return render_template('new_blog_pages/roofing-works.html', year_on_site=year_on_site(), language=language,
+        return render_template('/new_blog_pages/roofing-works.html', year_on_site=year_on_site(),
+                               language=language,
                                RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
     except Exception as e:
         # Log or handle the 404 error here
@@ -416,142 +419,6 @@ def project_estonian_academy(setting_language=None):
     try:
         return render_template('portfolio_templates/estonian-academy-of-music'
                                '-and-theater-in-tallinn-estonia.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
-    except Exception as e:
-        # Log or handle the 404 error here
-        app.logger.error(f"404 Not Found: {request.url}")
-        raise e
-
-
-
-# @app.route('/project/<project_name>/')
-# def project_temp(project_name):
-#     return render_template('project.html', project_name=project_name, year_on_site=year_on_site())
-
-# BLOG
-@app.route('/<setting_language>/articles/')
-@app.route('/<setting_language>/articles')
-def articles(setting_language):
-    session['language'] = setting_language
-    if setting_language is not None and setting_language in app.config['LANGUAGES']:
-        language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-        return render_template('blog_templates/articles.html', year_on_site=year_on_site(),
-                               language=language, RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
-    else:
-        language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-        return render_template("error_pages/404.html", year_on_site=year_on_site(),
-                               language=language), 404
-
-
-@app.route('/<setting_language>/articles/shower-without-tray/')
-@app.route('/<setting_language>/articles/shower-without-tray')
-@app.route('/articles/shower-without-tray/')
-@app.route('/articles/shower-without-tray')
-def articles_shower(setting_language=None):
-    if setting_language is not None and setting_language in app.config['LANGUAGES']:
-        session['language'] = setting_language
-    else:
-        # If setting_language is None or invalid, set default language
-        default_language = app.config['BABEL_DEFAULT_LOCALE']
-        session['language'] = default_language
-
-    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-
-    try:
-        return render_template('blog_templates/shower-without-tray.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
-    except Exception as e:
-        # Log or handle the 404 error here
-        app.logger.error(f"404 Not Found: {request.url}")
-        raise e
-
-
-@app.route('/<setting_language>/articles/building-creation/')
-@app.route('/<setting_language>/articles/building-creation')
-@app.route('/articles/building-creation/')
-@app.route('/articles/building-creation')
-def articles_building(setting_language=None):
-    if setting_language is not None and setting_language in app.config['LANGUAGES']:
-        session['language'] = setting_language
-    else:
-        # If setting_language is None or invalid, set default language
-        default_language = app.config['BABEL_DEFAULT_LOCALE']
-        session['language'] = default_language
-
-    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-
-    try:
-        return render_template('blog_templates/building-creation.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
-    except Exception as e:
-        # Log or handle the 404 error here
-        app.logger.error(f"404 Not Found: {request.url}")
-        raise e
-
-
-@app.route('/<setting_language>/articles/apartment-renovation/')
-@app.route('/<setting_language>/articles/apartment-renovation')
-@app.route('/articles/apartment-renovation/')
-@app.route('/articles/apartment-renovation')
-def articles_renovation(setting_language=None):
-    if setting_language is not None and setting_language in app.config['LANGUAGES']:
-        session['language'] = setting_language
-    else:
-        # If setting_language is None or invalid, set default language
-        default_language = app.config['BABEL_DEFAULT_LOCALE']
-        session['language'] = default_language
-
-    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-
-    try:
-        return render_template('new_blog_templates/Complete-Renovation-Services-in-Amsterdam-and-The-Hague.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
-    except Exception as e:
-        # Log or handle the 404 error here
-        app.logger.error(f"404 Not Found: {request.url}")
-        raise e
-
-
-@app.route('/<setting_language>/articles/electrical-installation-for-apartment-renovation/')
-@app.route('/<setting_language>/articles/electrical-installation-for-apartment-renovation')
-@app.route('/articles/electrical-installation-for-apartment-renovation/')
-@app.route('/articles/electrical-installation-for-apartment-renovation')
-def electrical_installation(setting_language=None):
-    if setting_language is not None and setting_language in app.config['LANGUAGES']:
-        session['language'] = setting_language
-    else:
-        # If setting_language is None or invalid, set default language
-        default_language = app.config['BABEL_DEFAULT_LOCALE']
-        session['language'] = default_language
-
-    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-
-    try:
-        return render_template('new_blog_templates/blog_new.html', year_on_site=year_on_site(), language=language,
-                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
-    except Exception as e:
-        # Log or handle the 404 error here
-        app.logger.error(f"404 Not Found: {request.url}")
-        raise e
-
-
-# /Users/macbook/PycharmProjects/construction_site/templates/blog_templates/stages-of-plumbing-work.html
-@app.route('/<setting_language>/articles/stages-of-plumbing-work/')
-@app.route('/<setting_language>/articles/stages-of-plumbing-work')
-@app.route('/articles/stages-of-plumbing-work/')
-@app.route('/articles/stages-of-plumbing-work')
-def plumbing_work(setting_language=None):
-    if setting_language is not None and setting_language in app.config['LANGUAGES']:
-        session['language'] = setting_language
-    else:
-        # If setting_language is None or invalid, set default language
-        default_language = app.config['BABEL_DEFAULT_LOCALE']
-        session['language'] = default_language
-
-    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
-
-    try:
-        return render_template('blog_templates/stages-of-plumbing-work.html', year_on_site=year_on_site(), language=language,
                                RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
     except Exception as e:
         # Log or handle the 404 error here

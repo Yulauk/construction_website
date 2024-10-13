@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ _('Complete Renovation Services in Amsterdam and The Hague') }}{% endblock %}
+{% block title %}{{ _('Quality roofing works with KULBACHENKO CONSTRUCTION') }}{% endblock %}
 
 {% block content %}
     <div class="blue-circle_1"></div>
@@ -10,7 +10,7 @@
     <div class="blue-circle_5"></div>
     <div class="blue-circle_6"></div>
     <div class="blue-circle_7"></div>
-<div class="blue-circle_8"></div>
+    <div class="blue-circle_8"></div>
     <div class="blue-circle_9"></div>
     <div class="blue-circle_10"></div>
     <div class="blue-circle_11"></div>
@@ -20,8 +20,8 @@
 
 
     <div class="blog_container_image">
-
-            <img src="static/images/kulbachenko_roofing_1.jpg" alt="Renovation Services in Amsterdam and The Hague" class="shadow_img_photo_blog_container"/>
+<!--            src="{{ url_for('static', filename='images/kulbachenko_roofing_1.jpg') }}"-->
+            <img src="{{ url_for('static', filename='images/kulbachenko_roofing_1.jpg') }}" alt="Renovation Services in Amsterdam and The Hague" class="shadow_img_photo_blog_container"/>
 
     </div>
 
@@ -90,7 +90,7 @@
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;"
                      onclick="loadVideo(this, 'o086bmGzMGI')"> <!-- Play Video on Click -->
                 <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
-                    <img src="static/images/play-button.png" alt="Play Button" style="
+                    <img src="{{ url_for('static', filename='images/play-button.png') }}"    alt="Play Button" style="
     width: 50px;
     height: 50px;
 "> <!-- Play Button Overlay -->
@@ -131,10 +131,7 @@
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;"
                      onclick="loadVideo(this, 'qVS-oEP9BQQ')"> <!-- Play Video on Click -->
                 <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
-                    <img src="static/images/play-button.png" alt="Play Button" style="
-    width: 50px;
-    height: 50px;
-"> <!-- Play Button Overlay -->
+                    <img src="{{ url_for('static', filename='images/play-button.png') }}" alt="Play Button" style="width: 50px; height: 50px;"> <!-- Play Button Overlay -->
                 </div>
             </div>
         </div>
@@ -167,8 +164,7 @@
 
         <div class="div_block_conteiner_2">
             <div class="">
-                            <img src="static/images/Kulbachenko_roofing.jpg" alt="Renovation Services in Amsterdam and The Hague" class="shadow_img_photo"/>
-
+                <img src="{{ url_for('static', filename='images/Kulbachenko_roofing.jpg') }}" alt="Renovation Services in Amsterdam and The Hague" class="shadow_img_photo"/>
             </div>
 
                     <!-- Button to open the modal -->
