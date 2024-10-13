@@ -264,6 +264,7 @@ def blog(setting_language=None):
             'plumbing': 'Torusüsteemid',
             'electrical': 'Elektritööd',
             'landscaping': 'Maastikukujundus',
+            'videos' : 'Videod',
             'news': 'Uudised',
         },
         'uk': {
@@ -272,6 +273,7 @@ def blog(setting_language=None):
             'plumbing': 'Водопостачання',
             'electrical': 'Електрика',
             'landscaping': 'Ландшафтний дизайн',
+            'videos': 'Відео',
             'news': 'Новини',
         },
         'ru': {
@@ -280,6 +282,7 @@ def blog(setting_language=None):
             'plumbing': 'Сантехника',
             'electrical': 'Электромонтаж',
             'landscaping': 'Благоустройство',
+            'videos': 'Видео',
             'news': 'Новости',
         }
     }

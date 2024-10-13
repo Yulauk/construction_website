@@ -58,8 +58,10 @@
             <a href="{{ url_for('blog', tag=tag) }}" class="post_tag landscaping_tag">{{ tag }}</a>
         {% elif tag in ['Новости', 'News', 'Новини', 'Uudised'] %}
             <a href="{{ url_for('blog', tag=tag) }}" class="post_tag news_tag">{{ tag }}</a>
+        {% elif tag in ['Видео', 'Videos', 'Відео', 'Videod'] %}
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag video_tag">{{ tag }}</a>
         {% else %}
-            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag video_tag">{{ tag }}</a> <!-- fallback для других тегов -->
+            <a href="{{ url_for('blog', tag=tag) }}" class="post_tag">{{ tag }}</a> <!-- fallback для других тегов -->
         {% endif %}
     {% endfor %}
 </div>
