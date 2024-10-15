@@ -15,7 +15,7 @@ def get_blog_posts(table_name, page, per_page=9, tag=None):
         cursor.execute(
             f'SELECT id, category, title, short_description, content, created_at, image_url, image_alt, post_page_link '
             f'FROM {table_name} WHERE category LIKE ? '
-            f'ORDER BY created_at DESC LIMIT ? OFFSET ?',
+            f'ORDER BY id DESC LIMIT ? OFFSET ?',
             ('%' + tag + '%', per_page, offset))
     else:
         # Вибираємо всі статті, якщо тег не вибраний
@@ -26,7 +26,7 @@ def get_blog_posts(table_name, page, per_page=9, tag=None):
         cursor.execute(
             f'SELECT id, category, title, short_description, content, created_at, image_url, image_alt, post_page_link '
             f'FROM {table_name} '
-            f'ORDER BY created_at DESC LIMIT ? OFFSET ?',
+            f'ORDER BY id DESC LIMIT ? OFFSET ?',
             (per_page, offset))
 
     posts = cursor.fetchall()
@@ -55,10 +55,10 @@ def get_video_posts(table_name):
 
     # Fetch the two latest posts tagged with 'video', sorted by created_at from newest to oldest
     cursor.execute(
-        f'SELECT *'
-        f'FROM {table_name} WHERE category LIKE ? '
-        f'ORDER BY created_at DESC LIMIT 2',
-        ('%Videos%',))
+        f'SELECT * FROM {table_name} WHERE category LIKE ? OR category LIKE ? OR category LIKE ? OR category LIKE ? '
+        f'ORDER BY id DESC LIMIT 2',
+        ('%Video%', '%Videod%', '%Видео%', '%Відео%')
+    )
 
     posts = cursor.fetchall()
     conn.close()
@@ -70,12 +70,12 @@ def get_news_posts(table_name):
     conn = sqlite3.connect('/Users/macbook/PycharmProjects/construction_site/db/kulbachenko_blog.db')
     cursor = conn.cursor()
 
-    # Fetch the two latest posts tagged with 'video', sorted by created_at from newest to oldest
+    # Fetch the one latest post tagged with 'video', sorted by created_at from newest to oldest
     cursor.execute(
         f'SELECT *'
-        f'FROM {table_name} WHERE category LIKE ? '
-        f'ORDER BY created_at DESC LIMIT 1',
-        ('%News%',))
+        f'FROM {table_name} WHERE category LIKE ? OR category LIKE ? OR category LIKE ? OR category LIKE ? '
+        f'ORDER BY id DESC LIMIT 1',
+        ('%News%', '%Uudised%', '%Новини%', '%Новости%'))
 
     posts = cursor.fetchall()
     conn.close()

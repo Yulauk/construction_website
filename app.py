@@ -137,10 +137,10 @@ def index(set_language=None):
         'ru': 'blog_posts_ru'
     }
     table_name = table_map.get(language, 'blog_posts_en')  # Default to English table if language is not in the map
-
+    print('>>>',table_name,'<<<')
     # Get the two latest video posts for the selected language
-    posts_video = get_video_posts('blog_posts_en')
-    post_news = get_news_posts('blog_posts_en')
+    posts_video = get_video_posts(table_name)
+    post_news = get_news_posts(table_name)
 
     # Render the 'index.html' template with the year, language, RECAPTCHA key, and video posts
     return render_template('index.html', year_on_site=year_on_site(), language=language,
