@@ -648,9 +648,9 @@
         <hr class="line-separator">
 
         <!-- Latest Videos Title -->
-    <strong><p class="latest-videos-title">Latest videos</p></strong>
+    <strong><p class="latest-videos-title">{{ _("Latest videos") }}</p></strong>
 
-<div class="posts">
+<div class="posts_index">
     {% for post in posts_video %}
     <article class="post_video">
         <div class="inner">
@@ -659,10 +659,7 @@
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;"
                      onclick="loadVideo(this, '{{ post[9] }}')"> <!-- Play Video on Click -->
                 <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
-                    <img src="static/images/play-button.png" alt="Play Button" style="
-    width: 50px;
-    height: 50px;
-"> <!-- Play Button Overlay -->
+                    <img src="static/images/play-button.png" alt="Play Button" style="width: 50px; height: 50px;"> <!-- Play Button Overlay -->
                 </div>
             </div>
 
@@ -808,7 +805,7 @@ function loadVideo(element, videoId) {
                 <span class="faq-icon">+</span>
             </div>
             <div class="faq-answer" style="display: none;">
-                <p>{{ _("We specialize in the renovation of theaters, philharmonics, cultural and artistic buildings, as well as residential and commercial properties. Our company handles both major and cosmetic repairs, taking all project details into account.") }}</p>
+                <p>{{ _("We provide a wide range of repair services, from minor cosmetic repairs to comprehensive renovations of apartments, offices, commercial spaces, and houses. Our expertise includes the construction of private homes and handling both small and large-scale projects. We embrace all tasks, ensuring high-quality results no matter the size or complexity of the job. Your vision is our priority!") }}</p>
             </div>
         </div>
 
@@ -818,7 +815,7 @@ function loadVideo(element, videoId) {
                 <span class="faq-icon">+</span>
             </div>
             <div class="faq-answer" style="display: none;">
-                <p>{{ _("It depends on the scope of work and the country where the renovation takes place. In most cases, we handle all necessary permits so that clients do not have to worry about bureaucracy. Specific requirements vary by object, such as theaters or historical buildings, which have their own regulations.") }}</p>
+                <p>{{ _("Yes, in most cases, permits are required for renovations, especially for structural changes or significant alterations to your property. We can assist you in determining whether your project requires a permit and help you navigate the application process.") }}</p>
             </div>
         </div>
 
@@ -856,11 +853,11 @@ function loadVideo(element, videoId) {
         <!-- Company Information -->
         <div class="faq-item">
             <div class="faq-question">
-                <h3>{{ _("Which countries do you serve?") }}</h3>
+                <h3>{{ _("In which cities do you provide services") }}?</h3>
                 <span class="faq-icon">+</span>
             </div>
             <div class="faq-answer" style="display: none;">
-                <p>{{ _("We primarily provide renovation services in Estonia and the Netherlands, but we can also handle projects throughout Europe. Thanks to our extensive experience in different countries, we are familiar with local regulations and requirements.") }}</p>
+                <p>{{ _("We provide repair services in Amsterdam, Rotterdam, The Hague, and Utrecht, as well as across Europe. Our extensive experience in various countries enables us to navigate local regulations and requirements effectively. Consultations are free!") }}</p>
             </div>
         </div>
     </div>

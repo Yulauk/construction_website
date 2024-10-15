@@ -500,15 +500,15 @@
     <span class="close" id="closeModal">&times;</span>
     <div class="position_sticky_small_form">
         <h4 id="fix-position" class="d-flex justify-content-between align-items-center mb-3">
-            <span class="free-consult">GET A FREE</span>
+            <span class="free-consult">{{ _("GET A FREE") }}</span>
         </h4>
         <h4 class="d-flex justify-content-between align-items-center mb-3">
-            Kulbachenko Consultation
+            {{ _("Kulbachenko Consultation") }}
         </h4>
         <h4 class="d-flex justify-content-between align-items-center mb-3">
             📞 +372 5617 7079
         </h4>
-        <p>or we call back:</p>
+        <p>{{ _("or we call back") }}:</p>
 
 
         <form action="/submit_free_consultation" class="card_modal" id="consultationForm" onsubmit="return validateForm()" method="post">
@@ -518,23 +518,23 @@ column-gap: 1rem;
 ">
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" name="name-free-consult" id="username" placeholder="Username">
-                    <label for="username">First Name</label>
+                    <label for="username">{{ _("First Name") }}</label>
                     <div class="error-message" id="username-error"></div>
                 </div>
 
                 <div class="form-floating mb-3">
                     <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
-                    <label for="phone">Your Contact</label>
+                    <label for="phone">{{ _("Your Contact") }}</label>
                     <div class="error-message" id="phone-error"></div>
                 </div>
 
                 <div class="form-floating">
                     <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
-                    <label for="comment">Comment</label>
+                    <label for="comment">{{ _("Comment") }}</label>
                     <div class="error-message" id="comment-error"></div>
                 </div>
             </div>
-            <button class="g-recaptcha btn btn-primary" type="submit">Submit</button>
+            <button class="g-recaptcha btn btn-primary" type="submit">{{ _("Submit") }}</button>
 
             <br>
             <small>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</small>

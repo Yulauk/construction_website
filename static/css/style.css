@@ -1780,6 +1780,12 @@ icon-background {
     flex-wrap: wrap;
 }
 
+.posts_index{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
 .post {
     width: 33.333%;
     padding-right: 30px;
@@ -1882,6 +1888,13 @@ icon-background {
         width: 100%; /* Меняем ширину на 50%, чтобы на одну строку поместилось две статьи */
         padding: 1rem 0 2rem;
     }
+
+    .posts,
+    .posts_index {
+        flex-wrap: wrap;
+    }
+
+
 }
 
 
@@ -3354,7 +3367,6 @@ ul {
 .about_text_team {
     backdrop-filter: blur(5px);
     border-radius: 4px;
-    filter: blur(0px);
     flex: 0 0 32%;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -3363,6 +3375,7 @@ ul {
     margin-right: -11%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
 
 .about_text_team h2 {
     font-size: 24px;
@@ -3437,6 +3450,7 @@ ul {
     }
 
     .about_text_team {
+        backdrop-filter: blur(0px);
         max-width: 775px;
         text-align: center;
         flex: 0 0 0; /* Увеличиваем ширину текста на меньших экранах */
@@ -3485,7 +3499,7 @@ ul {
 
 .post_video {
     width: 50%;
-    padding-right: 30px;
+
 }
 
 .post-image-container {
