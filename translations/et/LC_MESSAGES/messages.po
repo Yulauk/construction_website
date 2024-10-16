@@ -20,25 +20,23 @@ msgstr ""
 
 #: templates/about.html:25
 msgid "Construction and Renovation Services in Europe | Serhii Kulbachenko"
-msgstr ""
+msgstr "Ehitus- ja renoveerimisteenused Euroopas | Serhii Kulbachenko"
 
 #: templates/about.html:69
-#, fuzzy
 msgid "Serhii Kulbachenko FOUNDER AND LEADER"
-msgstr "Serhii Kulbachenko - Kulbachenko Construction + Design'i asutaja"
+msgstr "Serhii Kulbachenko ASUTAJJA JA JUHT"
 
 #: templates/about.html:74 templates/index.html:364
 msgid "Serhii Kulbachenko"
-msgstr ""
+msgstr "Serhii Kulbachenko"
 
 #: templates/about.html:75 templates/index.html:365
 msgid "FOUNDER AND LEADER"
-msgstr ""
+msgstr "ASUTAJJA JA JUHT"
 
 #: templates/about.html:83
-#, fuzzy
 msgid "Serhii Kulbachenko — Your Reliable Partner in Construction and Renovation"
-msgstr "Serhii Kulbachenko - Kulbachenko Construction + Design'i asutaja"
+msgstr "Serhii Kulbachenko — Teie Usaldusväärne Partner Ehitus- ja Renoveerimistöödel"
 
 #: templates/about.html:84
 msgid ""
@@ -48,10 +46,15 @@ msgid ""
 " with many years of experience, ensuring high-quality work and adherence "
 "to modern standards."
 msgstr ""
+"Minu nimi on Serhii Kulbachenko ja ma juhin ehitusettevõtet, "
+"mis spetsialiseerub eramute renoveerimisele ja ehitamisele. Me "
+"pakume terviklikke lahendusi neile, kes otsivad usaldusväärset "
+"töövõtjat, kellel on pikaajaline kogemus, tagades kvaliteetse "
+"töö ja vastavuse kaasaegsetele standarditele."
 
 #: templates/about.html:91
 msgid "Construction Experience in Europe"
-msgstr ""
+msgstr "Ehitusüritused Euroopas"
 
 #: templates/about.html:92
 msgid ""
@@ -62,19 +65,24 @@ msgid ""
 "experience to meet the needs of our clients, whether it's new home "
 "construction or major renovations."
 msgstr ""
+"Meie ettevõte teostab edukalt projekte Hollandis ja paljudes "
+"teistes Euroopa riikides, kasutades parimaid praktikaid ja tehnoloogiaid, "
+"mida olen omandanud töötades rahvusvahelisel turul. Me ühendame "
+"kvaliteetsed materjalid, kaasaegsed ehitusmeetodid ja pikaajalise "
+"kogemuse, et rahuldada meie klientide vajadusi, olgu selleks "
+"uus kodu ehitamine või suured renoveerimistööd."
 
 #: templates/about.html:96
-#, fuzzy
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction OÜ"
-msgstr "Serhii Kulbachenko - Kulbachenko Construction + Design'i asutaja"
+msgstr "Serhii Kulbachenko - Kulbachenko Construction OÜ Asutaja"
 
 #: templates/about.html:104 templates/about.html:120 templates/about.html:128
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction + Design"
-msgstr "Serhii Kulbachenko - Kulbachenko Construction + Design'i asutaja"
+msgstr "Serhii Kulbachenko - Kulbachenko Construction + Design'i Asutaja"
 
 #: templates/about.html:108
 msgid "The History of Founding the Construction Company"
-msgstr ""
+msgstr "Ehitusettevõtte Asutamise Ajalugu"
 
 #: templates/about.html:109
 msgid ""
@@ -84,10 +92,15 @@ msgid ""
 "principles of honesty, professionalism, and continuous development, which"
 " has allowed us to successfully operate in the market for many years."
 msgstr ""
+"Minu karjäär algas tagasihoidlikult ehitustöölisena. Tõustes "
+"töömehelt ettevõtte asutajaks, olen alati püüdnud oma oskusi "
+"parandada ja teenuste valikut laiendada. Äri on rajatud "
+"aususe, professionaalsuse ja pideva arengu põhimõtetele, mis "
+"on võimaldanud meil edukalt turul tegutseda juba mitu aastat."
 
 #: templates/about.html:115
 msgid "Construction Services and Cutting-Edge Technologies"
-msgstr ""
+msgstr "Ehitusteenused ja Tipptasemel Tehnoloogiad"
 
 #: templates/about.html:116
 msgid ""
@@ -98,10 +111,17 @@ msgid ""
 " us to create homes that meet the highest standards of comfort and "
 "functionality."
 msgstr ""
+"Pakume täielikku ehitusteenuste valikut — alates projekteerimisest "
+"kuni kasutusele võtmiseni. Me rakendame uusimaid tehnoloogiaid, "
+"mida kasutatakse kaasaegses ehituses, nagu energiatõhusad "
+"materjalid, arenenud kütte- ja ventilatsioonisüsteemid, samuti "
+"uuenduslikud disainilahendused. See võimaldab meil luua "
+"kodusid, mis vastavad kõrgeimatele mugavuse ja funktsionaalsuse "
+"standarditele."
 
 #: templates/about.html:132
 msgid "High-Quality Construction Solutions for Any Projects"
-msgstr ""
+msgstr "Kvaliteetsed Ehituslahendused Iga Projekti Tarbeks"
 
 #: templates/about.html:133
 msgid ""
@@ -111,25 +131,32 @@ msgid ""
 "work, ensuring precise deadlines and impeccable quality in construction "
 "and renovation services."
 msgstr ""
+"Olgu teie projektiga seotud keerukus milline tahes — olgu see siis "
+"uue eraelamu ehitamine või olemasoleva vara renoveerimine — meie "
+"meeskond on alati valmis pakkuma kvaliteetseid lahendusi. Me "
+"korraldame iga tööetapi, tagades täpsed tähtaegad ja laitmatu "
+"kvaliteedi ehitus- ja renoveerimisteenustes."
 
 #: templates/about.html:139
 msgid "Learn more about our construction services"
-msgstr ""
+msgstr "Tutvuge meie ehitusteenustega lähemalt"
 
 #: templates/about.html:164 templates/base.html:36
 msgid ""
 "High-quality renovation and construction services in the Netherlands and "
 "across Europe since 2005."
 msgstr ""
+"Kvaliteetsed renoveerimis- ja ehitusteenused Hollandis ja "
+"üle Euroopa alates 2005. aastast."
 
 #: templates/base.html:102
 msgid "Kulbachenko Construction + Design"
-msgstr "Kulbachenko Ehitus + projekteerimine"
+msgstr "Kulbachenko Construction + Design"
 
 #: templates/base.html:109
 #, fuzzy
 msgid "Kulbachenko Construction + Design Logo"
-msgstr "Kulbachenko Ehitus + projekteerimine"
+msgstr "Kulbachenko Construction + Design Logo"
 
 #: templates/base.html:125 templates/base.html:192 templates/base.html:259
 #: templates/index.html:56 templates/index.html:112
@@ -158,7 +185,7 @@ msgstr "KONTAKT"
 
 #: templates/base.html:182 templates/base.html:250
 msgid "Navigation Menu"
-msgstr ""
+msgstr "Navigeerimismenüü"
 
 #: templates/base.html:189 templates/base.html:256
 msgid "HOME"
@@ -306,29 +333,27 @@ msgstr "Esita"
 
 #: templates/base.html:438
 msgid "Contact Information"
-msgstr ""
+msgstr "Kontaktandmed"
 
 #: templates/base.html:446
 msgid "Working hours, Mon-Fri"
-msgstr ""
+msgstr "Tööajad, E-R"
 
 #: templates/base.html:454
 msgid "Our Social Media"
-msgstr ""
+msgstr "Meie Sotsiaalmeedia"
 
 #: templates/base.html:550
-#, fuzzy
 msgid "GET A FREE"
-msgstr "Hankige tasuta konsultatsioon"
+msgstr "SAADA TASUTA"
 
 #: templates/base.html:553
-#, fuzzy
 msgid "Kulbachenko Consultation"
-msgstr "Kulbachenko Ehitus + projekteerimine"
+msgstr "Kulbachenko KONSULTATSIOON"
 
 #: templates/base.html:558
 msgid "or we call back"
-msgstr ""
+msgstr "või helistame tagasi"
 
 #: templates/base.html:568
 msgid "First Name"
@@ -354,7 +379,7 @@ msgstr "Blogi"
 
 #: templates/blog.html:34
 msgid "All posts"
-msgstr ""
+msgstr "Kõik postitused"
 
 #: templates/home-cinema-5-person.html:4 templates/home-cinema-5-person.html:48
 #: templates/home-cinema-5-person.html:57
@@ -418,12 +443,11 @@ msgstr "AVALEHT"
 
 #: templates/index.html:135
 msgid "photo from work in Kyiv"
-msgstr ""
+msgstr "foto tööst Kiievis"
 
 #: templates/index.html:162
-#, fuzzy
 msgid "Construction and Repair"
-msgstr "Ehitus"
+msgstr "Ehitus ja Remont"
 
 #: templates/index.html:163
 msgid ""
@@ -431,91 +455,96 @@ msgid ""
 "to large-scale capital repairs. We work with residential and commercial "
 "properties, taking all your wishes into account."
 msgstr ""
+"Pakume laia valikut renoveerimisteenuseid — alates väikestest "
+"kosmeetilistest töödest kuni ulatuslike kapitaliremontideni. "
+"Me töötame nii elamute kui ka kaubandushoonete kallal, "
+"arvestades kõiki teie soove."
 
 #: templates/index.html:165
 msgid ""
 "We legally and practically guarantee quality, a modern approach, and "
 "optimal timelines!"
 msgstr ""
+"Me garanteerime seaduslikult ja praktiliselt kvaliteedi, "
+"kaasaegse lähenemise ja optimaalsed ajakavad!"
 
 #: templates/index.html:167
 msgid "From €50 per m²"
-msgstr ""
+msgstr "Alates 50 € m² kohta"
 
 #: templates/index.html:178
 msgid "YEARS ON THE MARKET"
-msgstr ""
+msgstr "AASTAT TURUL"
 
 #: templates/index.html:182
 msgid "SUCCESSFUL PROJECTS"
-msgstr ""
+msgstr "EDUKAT PROJEKTI"
 
 #: templates/index.html:186
 msgid "SATISFIED CUSTOMERS"
-msgstr ""
+msgstr "RAHULOLI KLIENDI"
 
 #: templates/index.html:204
 msgid "Actual prices of repair services"
-msgstr ""
+msgstr "Praegused remonttööde hinnad"
 
 #: templates/index.html:207
 msgid "Simple repair"
-msgstr ""
+msgstr "Lihtne remont"
 
 #: templates/index.html:208
-#, fuzzy
 msgid "Basic services"
-msgstr "Teenused"
+msgstr "Põhiteenused"
 
 #: templates/index.html:209 templates/index.html:239 templates/index.html:272
 #: templates/index.html:305
 msgid "From"
-msgstr ""
+msgstr "Alates"
 
 #: templates/index.html:209 templates/index.html:239 templates/index.html:272
 #: templates/index.html:305
 msgid "NB"
-msgstr ""
+msgstr "NB"
 
 #: templates/index.html:211
 msgid "Wall and ceiling painting"
-msgstr ""
+msgstr "Seina- ja laepinnate maalimine"
 
 #: templates/index.html:212
 msgid "Wallpapering"
-msgstr ""
+msgstr "Tapeetimine"
 
 #: templates/index.html:213
 msgid "Baseboard replacement"
-msgstr ""
+msgstr "Alus- ja seinapaneelide vahetus"
 
 #: templates/index.html:214
 msgid "Lighting installation (1-2 points)"
-msgstr ""
+msgstr "Valgustite paigaldamine (1-2 punkti)"
 
 #: templates/index.html:215
 msgid "Partial electrical wiring repair"
-msgstr ""
+msgstr "Osaline elektrijuhtmete remont"
 
 #: templates/index.html:216
 msgid "Socket and switch installation"
-msgstr ""
+msgstr "Pistikute ja lülitite paigaldamine"
 
 #: templates/index.html:217
 msgid "Cleaning and restoration of existing plumbing"
-msgstr ""
+msgstr "Olemasoleva sanitaartehnika puhastamine ja taastamine"
 
 #: templates/index.html:218
 msgid "Local tile replacement in the bathroom or kitchen"
-msgstr ""
+msgstr "Kohalik plaatide vahetus vannitoas või köögis"
 
 #: templates/index.html:219
 msgid "Door hinge and hardware repair"
-msgstr ""
+msgstr "Ukselingi ja riistade remont"
 
 #: templates/index.html:220
 msgid "Installation of cornices and curtain fittings"
-msgstr ""
+msgstr "Kardinate ja kardinapaneelide paigaldamine"
 
 #: templates/index.html:226 templates/index.html:259 templates/index.html:291
 #: templates/index.html:325 templates/services.html:41
@@ -527,262 +556,250 @@ msgstr "Konsultatsioon"
 
 #: templates/index.html:237
 msgid "Cosmetic Repair"
-msgstr ""
+msgstr "Kosmeetiline Remont"
 
 #: templates/index.html:238
-#, fuzzy
 msgid "Basic Services"
 msgstr "Teenused"
 
 #: templates/index.html:241
 msgid "Dismantling of old materials"
-msgstr ""
+msgstr "Vanade materjalide demonteerimine"
 
 #: templates/index.html:242 templates/index.html:278
 msgid "Puttying and leveling walls and ceilings"
-msgstr ""
+msgstr "Kittimine ja seinte ja lagede tasandamine"
 
 #: templates/index.html:243
 msgid "Hanging new wallpaper or painting walls"
-msgstr ""
+msgstr "Uute tapeetide riputamine või seinte värvimine"
 
 #: templates/index.html:244
 msgid "Replacing flooring (laminate, linoleum)"
-msgstr ""
+msgstr "Põrandakatte vahetus (laminaat, linoleum)"
 
 #: templates/index.html:245
 msgid "Replacing baseboards and casings"
-msgstr ""
+msgstr "Alus- ja raamipaneelide vahetus"
 
 #: templates/index.html:246
 msgid "Installation of new fixtures"
-msgstr ""
+msgstr "Uute seadmete paigaldamine"
 
 #: templates/index.html:247
 msgid "Replacing sockets and switches"
-msgstr ""
+msgstr "Pistikute ja lülitite vahetus"
 
 #: templates/index.html:248
 msgid "Minor plumbing repairs"
-msgstr ""
+msgstr "Väikesed sanitaartehnika remonttööd"
 
 #: templates/index.html:249
 msgid "Installation of new interior doors"
-msgstr ""
+msgstr "Uute siseukse paigaldamine"
 
 #: templates/index.html:250
 msgid "Updating plumbing systems"
-msgstr ""
+msgstr "Sanitaartehnika süsteemide uuendamine"
 
 #: templates/index.html:251
 msgid "Installation of window sills"
-msgstr ""
+msgstr "Aknaaluste paigaldamine"
 
 #: templates/index.html:252
 msgid "Updating or replacing door hardware"
-msgstr ""
+msgstr "Ukseseadmete uuendamine või vahetamine"
 
 #: templates/index.html:253
 msgid "Painting or refreshing window frames"
-msgstr ""
+msgstr "Akna raamide värvimine või värskendamine"
 
 #: templates/index.html:270
 msgid "Capital Repair"
-msgstr ""
+msgstr "Kapitaalremont"
 
 #: templates/index.html:271
 msgid "Comprehensive Works"
-msgstr ""
+msgstr "Kohustuslikud Tööd"
 
 #: templates/index.html:272 templates/index.html:305
 msgid "per m²"
-msgstr ""
+msgstr "m² kohta"
 
 #: templates/index.html:274
 msgid "Dismantling of old coverings and structures"
-msgstr ""
+msgstr "Vanade katete ja konstruktsioonide demonteerimine"
 
 #: templates/index.html:275
 msgid "Complete replacement of engineering systems (heating, water supply)"
-msgstr ""
+msgstr "Insenerisüsteemide täielik vahetus (küte, veevarustus)"
 
 #: templates/index.html:276
 msgid "Replacing windows and doors"
-msgstr ""
+msgstr "Akende ja uste vahetus"
 
 #: templates/index.html:277
 msgid "Laying new flooring (parquet, tiles)"
-msgstr ""
+msgstr "Uue põrandakatte paigaldamine (parkett, plaadid)"
 
 #: templates/index.html:279
 msgid "Installation of new electrical wiring and outlets"
-msgstr ""
+msgstr "Uute elektrijuhtmete ja pistikute paigaldamine"
 
 #: templates/index.html:280
-#, fuzzy
 msgid "Installation of ventilation systems"
-msgstr ""
-"\n"
-"                <h3>Paigaldamise kaalutlused:</h3>\n"
-"                "
+msgstr "Ventilatsioonisüsteemide paigaldamine"
+
 
 #: templates/index.html:281
-#, fuzzy
 msgid "Installation of new partitions"
-msgstr ""
-"\n"
-"                <h3>Paigaldamise kaalutlused:</h3>\n"
-"                "
+msgstr "Uute vaheseinte paigaldamine"
+
 
 #: templates/index.html:282
 msgid "Reconstruction of walls and partitions"
-msgstr ""
+msgstr "Seinte ja vaheseinte rekonstrueerimine"
 
 #: templates/index.html:283
 msgid "Installation of modern heating systems"
-msgstr ""
+msgstr "Kaasaegsete kütte süsteemide paigaldamine"
 
 #: templates/index.html:284
 msgid "Installation of drywall structures"
-msgstr ""
+msgstr "Kuivseinakonstruktsioonide paigaldamine"
 
 #: templates/index.html:285
 msgid "Soundproofing of walls and floors"
-msgstr ""
+msgstr "Heliisolatsioon seintele ja põrandatele"
 
 #: templates/index.html:302
-#, fuzzy
 msgid "Major Renovation"
 msgstr "Renoveerimine"
 
 #: templates/index.html:303
 msgid "Complete Complex"
-msgstr ""
+msgstr "Täielik Kompleks"
 
 #: templates/index.html:307
-#, fuzzy
 msgid "3D Design"
-msgstr "Disain"
+msgstr "3D Disain"
 
 #: templates/index.html:308
 msgid "Dismantling and changing structures (moving partitions)"
-msgstr ""
+msgstr "Konstruktsioonide demonteerimine ja muutmine (vaheseinte liigutamine)"
 
 #: templates/index.html:309
 msgid ""
 "Complete replacement of engineering systems (including heating, "
 "electricity, water supply)"
 msgstr ""
+"Insenerisüsteemide täielik vahetus (sealhulgas küte, "
+"elekter, veevarustus)"
 
 #: templates/index.html:310
 msgid "Installation of multi-level ceilings with lighting"
-msgstr ""
+msgstr "Mitme tasandi lagede paigaldamine valgustusega"
 
 #: templates/index.html:311
-#, fuzzy
 msgid "Installation of underfloor heating"
-msgstr ""
-"\n"
-"                <h3>Paigaldamise kaalutlused:</h3>\n"
-"                "
+msgstr "Põrandakütte paigaldamine"
+
 
 #: templates/index.html:312
 msgid "Installation of decorative elements (columns, stucco)"
-msgstr ""
+msgstr "Dekoratiivsete elementide (sambad, stuuko) paigaldamine"
 
 #: templates/index.html:313
 msgid "Replacing windows and doors with improved insulation"
-msgstr ""
+msgstr "Akende ja uste vahetus parendatud soojustusega"
 
 #: templates/index.html:314
 msgid "Replanning spaces considering load-bearing structures"
-msgstr ""
+msgstr "Ruumide ümberplaneerimine, arvestades kandvaid konstruktsioone"
 
 #: templates/index.html:315
 msgid "Installation of smart home systems (lighting, heating, security)"
-msgstr ""
+msgstr "Nutika kodu süsteemide paigaldamine (valgustus, küte, turvasüsteem)"
 
 #: templates/index.html:316
 msgid "Installation of complex drywall structures (arches, niches)"
-msgstr ""
+msgstr "Komplekssete kuivseinakonstruktsioonide (kaarte, niššide) paigaldamine"
 
 #: templates/index.html:317
 msgid "Finishing walls with decorative panels"
-msgstr ""
+msgstr "Seinte viimistlemine dekoratiivpaneelidega"
 
 #: templates/index.html:318
 msgid "Restoration or replacement of a fireplace, if available"
-msgstr ""
+msgstr "Kamina restaureerimine või vahetamine, kui see on olemas"
 
 #: templates/index.html:319
 msgid "Installation of modern air conditioning systems"
-msgstr ""
+msgstr "Kaasaegsete kliimaseadmete paigaldamine"
 
 #: templates/index.html:320
 msgid "Complete soundproofing of walls and ceilings"
-msgstr ""
+msgstr "Seinte ja lagede täielik heliisolatsioon"
 
 #: templates/index.html:344
 msgid "About Our Team"
-msgstr ""
+msgstr "Meie Meeskonnast"
 
 #: templates/index.html:346
 msgid "Official company <strong>Kulbachenko Construction OÜ</strong>"
-msgstr ""
+msgstr "Ametlik ettevõte <strong>Kulbachenko Construction OÜ</strong>"
 
 #: templates/index.html:347
 msgid "Completion of projects in the shortest possible time"
-msgstr ""
+msgstr "Projektide valmimine võimalikult lühikese aja jooksul"
 
 #: templates/index.html:348
 msgid "Creative solutions"
-msgstr ""
+msgstr "Loovlahendused"
 
 #: templates/index.html:349
 msgid "Thorough design"
-msgstr ""
+msgstr "Hoolikas disain"
 
 #: templates/index.html:350
 msgid "Personalized solutions"
-msgstr ""
+msgstr "Isikupärastatud lahendused"
 
 #: templates/index.html:351
 msgid "Only modern construction technologies"
-msgstr ""
+msgstr "Ainult kaasaegsed ehitustehnoloogiad"
 
 #: templates/index.html:352
 msgid "Guarantees on completed work"
-msgstr ""
+msgstr "Garantiid teostatud töödele"
 
 #: templates/index.html:379
 msgid "Anthony van Friesen"
-msgstr ""
+msgstr "Anthony van Friesen"
 
 #: templates/index.html:380
-#, fuzzy
 msgid "PROJECT MANAGER"
-msgstr "Projekti ajakava"
+msgstr "Projektijuht"
 
 #: templates/index.html:403
 msgid "Building Made Simple"
-msgstr ""
+msgstr "Ehitus Lihtsaks"
 
 #: templates/index.html:404
 msgid "Curious how we work"
-msgstr ""
+msgstr "Huvitav, kuidas me töötame"
 
 #: templates/index.html:406
 msgid "Discover the 6 steps to transforming your space with precision and care."
-msgstr ""
+msgstr "Avasta 6 sammu oma ruumi täpsete ja hoolikate muudatuste tegemiseks."
 
 #: templates/index.html:407
 msgid "Discover"
-msgstr ""
+msgstr "Avasta"
 
 #: templates/index.html:426
-#, fuzzy
 msgid "CONTACT"
-msgstr "Võta meiega ühendust"
+msgstr "KONTAKT"
 
 #: templates/index.html:427
 msgid ""
@@ -793,11 +810,11 @@ msgid ""
 "construction), describe the object, and determine the scope of work with "
 "us. At this stage, we will provide you with preliminary information about"
 " the cost, order of work, and possible deadlines."
-msgstr ""
+msgstr "" "Esiteks peate meiega ühendust võtma ja küsima kõiki küsimusi, mis teil on. " "Võite meile kirjutada, kasutada mõnda mugavat messengeri, helistada või " "täita meie veebisaidil olevat taotlusvormi, et juht teiega ühendust võtaks. " "Telefonikõne ajal saate arutada oma projekti (või ehituse) üksikasju, " "kirjeldada objekti ja määratleda töö ulatuse koos meiega. Selles etapis " "anname teile eelinfot töö maksumuse, töökorralduse ja võimalike tähtaegade " "kohta."
 
 #: templates/index.html:433
 msgid "MEASUREMENTS"
-msgstr ""
+msgstr "MÕÕTMINE"
 
 #: templates/index.html:434
 msgid ""
@@ -807,11 +824,11 @@ msgid ""
 "plan, a detailed description of the necessary work will be prepared "
 "together with the client and the foreman. Based on this data, the "
 "estimator will begin to calculate the budget."
-msgstr ""
+msgstr "" "Meie meistrimees külastab teie objekti tasuta, et teha täpsed mõõtmised ja " "hindamaks töö ulatust. Kui teil on disainiprojekt või ehitusplaan, siis " "see teave täpsustatakse. Sellise plaani puudumisel valmistatakse " "koos kliendi ja meistriga töö põhjalik kirjeldus. Selle teabe alusel " "alustab hinnakalkulaator eelarve koostamist."
 
 #: templates/index.html:440
 msgid "BUDGET AND CONTRACT"
-msgstr ""
+msgstr "EELARVE JA LEPING"
 
 #: templates/index.html:441
 msgid ""
@@ -820,11 +837,11 @@ msgid ""
 " be documented in the contract, which we will definitely sign with the "
 "client. The budget will become an integral part of the contract as "
 "Appendix No. 1."
-msgstr ""
+msgstr "" "Hinnakalkulaator valmistab kiiresti ette tasuta põhjaliku esialgse eelarve. " "Kõik tingimused, mis puudutavad maksumust, tähtaegu ja tööprotsessi, " "vormistatakse lepingus, mille me kindlasti kliendiga allkirjastame. " "Eelarve saab lepingu lahutamatuks osaks, lisana nr 1."
 
 #: templates/index.html:447
 msgid "START OF WORK"
-msgstr ""
+msgstr "TÖÖDE ALGUS"
 
 #: templates/index.html:448
 msgid ""
@@ -833,21 +850,21 @@ msgid ""
 "and in accordance with the approved budget. Additional work is carried "
 "out only after justification by the foreman and agreement with the "
 "client."
-msgstr ""
+msgstr "" "Alustame renoveerimise või ehitustöid kogenud meistrimehe juhendamisel. " "Kõik tööd viiakse läbi vastavalt ajakavale ja kinnitatud eelarvele. " "Lisatööd tehakse ainult meistrimehe põhjendatud soovituse ja kliendiga " "kokkuleppe alusel."
 
 #: templates/index.html:454
 msgid "COMPLETION OF WORK"
-msgstr ""
+msgstr "TÖÖDE VALMIMINE"
 
 #: templates/index.html:455
 msgid ""
 "After the completion of work and the removal of construction debris, you "
 "accept our work."
-msgstr ""
+msgstr "" "Peale tööde lõpetamist ja ehitusjäätmete eemaldamist aktsepteerite meie " "tööd."
 
 #: templates/index.html:461
 msgid "WARRANTY AND SERVICE"
-msgstr ""
+msgstr "GARANTII JA TEENUS"
 
 #: templates/index.html:462
 msgid ""
@@ -855,111 +872,109 @@ msgid ""
 " act of completed work, which provides a warranty for all work for a "
 "period of at least 12 months, as well as guarantees our support in case "
 "of any questions arising in the future."
-msgstr ""
+msgstr "" "Viimases arveldamises allkirjastavad ettevõtte direktor ja klient " "valminud tööde akti, mis annab garantiid kõikidele töödele vähemalt 12 " "kuud, samuti garanteerib meie toetuse kõigi tulevaste küsimuste korral."
 
 #: templates/index.html:467
 msgid "Hide"
-msgstr ""
+msgstr "Peida"
 
 #: templates/index.html:478
 msgid "Areas We Work In"
-msgstr ""
+msgstr "Valdkonnad, kus me töötame"
 
 #: templates/index.html:482 templates/index.html:539
 msgid "Residential Properties"
-msgstr ""
+msgstr "Elamute Omandid"
 
 #: templates/index.html:485 templates/index.html:542
 msgid "1. Residential Properties"
-msgstr ""
+msgstr "1. Elamute Omandid"
 
 #: templates/index.html:486 templates/index.html:543
 msgid ""
 "Comprehensive renovation of apartments, houses, and cottages of any "
 "complexity."
-msgstr ""
+msgstr "Igasuguse keerukusega korterite, majade ja suvilate kompleksremont."
 
 #: templates/index.html:491 templates/index.html:548
 msgid "Commercial Real Estate"
-msgstr ""
+msgstr "Äri Kinnisvara"
 
 #: templates/index.html:494 templates/index.html:551
 msgid "2. Commercial Real Estate"
-msgstr ""
+msgstr "2. Äri Kinnisvara"
 
 #: templates/index.html:495 templates/index.html:552
 msgid ""
 "Renovation of offices, shops, shopping centers, hotels, and other "
 "business facilities."
-msgstr ""
+msgstr "" "Kontorite, kaupluste, kaubanduskeskuste, hotellide ja teiste " "ärihoonete renoveerimine."
 
 #: templates/index.html:500 templates/index.html:557
 msgid "Cultural and Artistic Spaces"
-msgstr ""
+msgstr "Kultuuri- ja Kunstiruumid"
 
 #: templates/index.html:503 templates/index.html:560
 msgid "3. Cultural and Artistic Spaces"
-msgstr ""
+msgstr "3. Kultuuri- ja Kunstiruumid"
 
 #: templates/index.html:504 templates/index.html:561
 msgid ""
 "Renovation and refurbishment of theaters, philharmonics, concert halls, "
 "and other cultural venues, considering their specific uses."
-msgstr ""
+msgstr "" "Teatrite, filharmooniate, kontserdisaalide ja teiste kultuuriasutuste " "renoveerimine ja renoveerimistööd."
 
 #: templates/index.html:509 templates/index.html:566
 msgid "Facade Finishing"
-msgstr ""
+msgstr "Fassaadi Viimistlemine"
 
 #: templates/index.html:512 templates/index.html:569
 msgid "4. Facade Finishing"
-msgstr ""
+msgstr "4. Fassaadi Viimistlemine"
 
 #: templates/index.html:513 templates/index.html:570
 msgid "Professional facade finishing using modern materials."
-msgstr ""
+msgstr "Professionaalne fassaadi viimistlemine kaasaegsete materjalide kasutamisega."
 
 #: templates/index.html:518 templates/index.html:575
 msgid "Recreation Centers"
-msgstr ""
+msgstr "Puhkekeskused"
 
 #: templates/index.html:521 templates/index.html:578
 msgid "5. Recreation Centers"
-msgstr ""
+msgstr "5. Puhkekeskused ja muud kultuuriasutused, arvestades nende spetsiifilisi kasutusi."
 
 #: templates/index.html:522 templates/index.html:579
 msgid ""
 "Design and construction of modern recreation centers with a focus on "
 "comfort and eco-friendliness."
-msgstr ""
+msgstr "" "Kaasaegsete puhkekeskuste projekteerimine ja ehitamine, keskendudes " "mugavusele ja keskkonnasõbralikkusele."
 
 #: templates/index.html:527 templates/index.html:584
 msgid "Industrial Facilities"
-msgstr ""
+msgstr "Tööstusrajatised"
 
 #: templates/index.html:530 templates/index.html:587
 msgid "6. Industrial Facilities"
-msgstr ""
+msgstr "6. Tööstusrajatised"
 
 #: templates/index.html:531 templates/index.html:588
 msgid ""
 "Renovation and modernization of production halls, warehouses, factories, "
 "and technical premises."
-msgstr ""
+msgstr "" "Tootmishallide, ladude, tehaste ja tehniliste ruumide renoveerimine ja " "moderniseerimine."
 
 #: templates/index.html:597
 msgid "Learn more"
-msgstr ""
+msgstr "Loe lähemalt"
 
 #: templates/index.html:612
-#, fuzzy
 msgid "Latest news"
-msgstr "Viimased värskendused"
+msgstr "Viimased uudised"
 
 #: templates/index.html:651
-#, fuzzy
 msgid "Latest videos"
-msgstr "Viimased värskendused"
+msgstr "Viimased videod"
 
 #: templates/index.html:763
 msgid "OUR PARTNERS"
@@ -967,11 +982,11 @@ msgstr "MEIE PARTNERID"
 
 #: templates/index.html:797
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Korduma Kippuvad Küsimused"
 
 #: templates/index.html:804
 msgid "What types of repair work do you provide?"
-msgstr ""
+msgstr "Milliseid remonditöid te pakute?"
 
 #: templates/index.html:808
 msgid ""
@@ -981,11 +996,11 @@ msgid ""
 "handling both small and large-scale projects. We embrace all tasks, "
 "ensuring high-quality results no matter the size or complexity of the "
 "job. Your vision is our priority!"
-msgstr ""
+msgstr "" "Pakume laia valikut remonditeenuseid, alates väikestest kosmeetilistest " "remontidest kuni korterite, kontorite, äripindade ja majade " "kompleksremontideni. Meie ekspertiis hõlmab ka eramute ehitust ning nii " "väikeste kui ka suurte projektide teostamist. Võtame vastu kõik ülesanded, " "tagades kõrge kvaliteedi sõltumata töö suurusest või keerukusest. Teie " "visioon on meie prioriteet!"
 
 #: templates/index.html:814
 msgid "Do I need a permit for renovations?"
-msgstr ""
+msgstr "Kas renoveerimiseks on vaja luba?"
 
 #: templates/index.html:818
 msgid ""
@@ -993,11 +1008,11 @@ msgid ""
 "structural changes or significant alterations to your property. We can "
 "assist you in determining whether your project requires a permit and help"
 " you navigate the application process."
-msgstr ""
+msgstr "" "Jah, enamasti on renoveerimiseks vajalikud load, eriti kui tegemist on " "ehituslike muudatuste või oluliste ümberkorraldustega kinnistul. Me saame " "teid aidata kindlaks teha, kas teie projekt vajab luba, ning abistada " "teid taotlusprotsessis."
 
 #: templates/index.html:824
 msgid "How is the cost of repairs determined?"
-msgstr ""
+msgstr "Kuidas määratakse remondi maksumus?"
 
 #: templates/index.html:828
 msgid ""
@@ -1005,33 +1020,33 @@ msgid ""
 " the property, and the scope of work required. We provide a detailed "
 "estimate after evaluating the project and discuss potential cost-saving "
 "options if needed."
-msgstr ""
+msgstr "Remonditööde maksumus sõltub projekti keerukusest, objekti suurusest ja vajalike tööde mahust. Pärast projekti hindamist koostame üksikasjaliku hinnapakkumise ja vajadusel arutame võimalusi kulude kokkuhoiuks."
 
 #: templates/index.html:835
 msgid "What does the contract for renovation services include?"
-msgstr ""
+msgstr "Mida sisaldab renoveerimisteenuste leping?"
 
 #: templates/index.html:839
 msgid ""
 "The contract clearly outlines the terms of cooperation, including work "
 "deadlines, costs, warranties, and the rights of both parties. After "
 "signing the contract, we begin the work according to the agreed plan."
-msgstr ""
+msgstr "Lepingus on selgelt välja toodud koostöö tingimused, sealhulgas tööde tähtaeg, kulud, garantiid ja mõlema poole õigused. Pärast lepingu allkirjastamist alustame tööd vastavalt kokkulepitud plaanile."
 
 #: templates/index.html:845
 msgid "Do you provide a warranty for the work performed?"
-msgstr ""
+msgstr "Kas te pakute teostatud töödele garantiid?"
 
 #: templates/index.html:849
 msgid ""
 "Yes, we provide a warranty for all work performed. The warranty period "
 "depends on the type of repair, but it typically ranges from 1 to 5 years."
 " All warranty conditions are specified in the contract."
-msgstr ""
+msgstr "Jah, me pakume garantiid kõikidele teostatud töödele. Garantii kestus sõltub remondi tüübist, kuid tavaliselt jääb see vahemikku 1 kuni 5 aastat. Kõik garantiitingimused on määratletud lepingus."
 
 #: templates/index.html:856
 msgid "In which cities do you provide services"
-msgstr ""
+msgstr "Millistes linnades te teenuseid osutate?"
 
 #: templates/index.html:860
 msgid ""
@@ -1039,7 +1054,7 @@ msgid ""
 "Utrecht, as well as across Europe. Our extensive experience in various "
 "countries enables us to navigate local regulations and requirements "
 "effectively. Consultations are free!"
-msgstr ""
+msgstr "" "Pakume remonditeenuseid Amsterdamis, Rotterdami, Haagi ja Utrechti linnades ning kogu Euroopas. Meie laialdane kogemus erinevates riikides võimaldab meil tõhusalt arvestada kohalike eeskirjade ja nõuetega. Konsultatsioonid on tasuta!"
 
 #: templates/portfolio.html:21 templates/portfolio_old.html:9
 msgid "Portfolio"
@@ -1047,14 +1062,14 @@ msgstr "Portfell"
 
 #: templates/portfolio.html:31
 msgid "Page Under Update"
-msgstr ""
+msgstr "Lehekülg on uuendamisel"
 
 #: templates/portfolio.html:32
 msgid ""
 "We are currently updating this page. Our portfolio will be available here"
 " soon, showcasing our completed renovation and construction projects. "
 "Thank you for your patience!"
-msgstr ""
+msgstr "" "Uuendame hetkel seda lehte. Varsti on siin saadaval meie portfoolio, kus on esitletud meie lõpetatud renoveerimis- ja ehitusprojektid. Täname teid kannatlikkuse eest!"
 
 #: templates/portfolio.html:54
 #, fuzzy
@@ -1101,20 +1116,20 @@ msgstr ""
 
 #: templates/services.html:22
 msgid "Renovation and Construction Services | Kulbachenko Construction"
-msgstr ""
+msgstr "Renoveerimis- ja ehitusteenused | Kulbachenko Construction"
 
 #: templates/services.html:28
-#, fuzzy
 msgid "Kulbachenko Construction | color catalog"
-msgstr "Kulbachenko Ehitus + projekteerimine"
+msgstr "Kulbachenko Construction | värvikataloog"
 
 #: templates/services.html:30
 msgid "Our Renovation and Construction Services"
-msgstr ""
+msgstr "Meie renoveerimis- ja ehitusteenused"
 
 #: templates/services.html:36
 msgid "Your ideas are our work. Professional turnkey construction and renovation."
-msgstr ""
+msgstr "Teie ideed on meie töö. Professionaalne võtmed kätte ehitus ja renoveerimine."
+
 
 #: templates/services.html:37
 msgid ""
@@ -1122,147 +1137,144 @@ msgid ""
 "Europe, legally guaranteeing high quality, professionalism, and attention"
 " to detail. From apartment renovations to house construction, we bring "
 "your ideas to life."
-msgstr ""
+msgstr "" "Pakume laia valikut ehitus- ja renoveerimisteenuseid kogu Euroopas, " "tagades seaduslikult kõrge kvaliteedi, professionaalsuse ja täpsuse " "detailides. Alates korterite renoveerimisest kuni majade ehituseni - me " "ellu viime teie ideed."
 
 #: templates/services.html:58
 msgid "We are not superheroes, but our team works wonders."
-msgstr ""
+msgstr "Me ei ole superkangelased, kuid meie meeskond teeb imesid."
 
 #: templates/services.html:64
-#, fuzzy
 msgid "Kulbachenko Construction | Construction of a house"
-msgstr "Kulbachenko Ehitus + projekteerimine"
+msgstr "Kulbachenko Construction | Maja ehitus"
 
 #: templates/services.html:73
-#, fuzzy
 msgid "Kulbachenko Construction | Venetian Plaster"
-msgstr "Kulbachenko Ehitus + projekteerimine"
+msgstr "Kulbachenko Construction | Veneetsia krohv"
+
 
 #: templates/services.html:76
 msgid ""
 "With over 300 successfully completed projects, we confidently call "
 "ourselves experts in the construction industry."
-msgstr ""
+msgstr "" "Rohkem kui 300 edukalt teostatud projektiga võime end kindlalt nimetada " "ehitustööstuse ekspertideks."
 
 #: templates/services.html:80
-#, fuzzy
 msgid "Construction Services"
-msgstr "Ehitus"
+msgstr "Ehitusteenused"
 
 #: templates/services.html:82
-#, fuzzy
 msgid "New build construction"
-msgstr "Ehitus"
+msgstr "Uusehitised"
 
 #: templates/services.html:83
 msgid "Brick/block house construction"
-msgstr ""
+msgstr "Telliskivi/plokkmaja ehitus"
 
 #: templates/services.html:84
 msgid "Foundation works"
-msgstr ""
+msgstr "Vundamenditööd"
 
 #: templates/services.html:85
 msgid "Roofing works"
-msgstr ""
+msgstr "Katusetööd"
 
 #: templates/services.html:86
 msgid "External insulation"
-msgstr ""
+msgstr "Välisisolatsioon"
 
 #: templates/services.html:111
-#, fuzzy
 msgid "Renovation Services"
-msgstr "Renoveerimine"
+msgstr "Renoveerimisteenused"
 
 #: templates/services.html:113
-#, fuzzy
 msgid "Turnkey apartment renovation"
-msgstr "Korteri remont"
+msgstr "Korteri renoveerimine võtmed kätte"
 
 #: templates/services.html:114
 msgid "Full refurbishment"
-msgstr ""
+msgstr "Täielik renoveerimine"
 
 #: templates/services.html:115
-#, fuzzy
 msgid "House renovation"
-msgstr "Renoveerimine"
+msgstr "Maja renoveerimine"
 
 #: templates/services.html:116
-#, fuzzy
 msgid "Comprehensive renovation"
-msgstr "Korteri remont"
+msgstr "Kompleksne renoveerimine"
 
 #: templates/services.html:117
-#, fuzzy
 msgid "Cosmetic renovation"
-msgstr "Korteri remont"
+msgstr "Kosmeetiline remont"
 
 #: templates/services.html:118
 msgid "Interior design and refurbishment"
-msgstr ""
+msgstr "Interjööridisain ja renoveerimine"
 
 #: templates/services.html:137
 msgid "Kulbachenko Construction | Turnkey Apartment Renovation Services"
-msgstr ""
+msgstr "Kulbachenko Construction | Korteri renoveerimine võtmed kätte teenused"
 
 #: templates/services.html:147
 msgid ""
 "Kulbachenko Construction | Professional Electrical and MEP Installation "
 "Services"
-msgstr ""
+msgstr "Kulbachenko Construction | Professionaalsed elektri- ja inseneritööd"
 
 #: templates/services.html:153
 msgid "Engineering and Electrical Works"
-msgstr ""
+msgstr "Inseneri- ja elektritööd"
 
 #: templates/services.html:155
 msgid "MEP installation"
-msgstr ""
+msgstr "Tehnosüsteemide ja elektripaigaldiste paigaldamine"
 
 #: templates/services.html:156
-#, fuzzy
 msgid "Electrical works"
-msgstr "Elekter"
+msgstr "Elektritööd"
 
 #: templates/services.html:179
 msgid "Finishing and Office Fit-out Works"
-msgstr ""
+msgstr "Viimistlustööd ja büroo sisustamine"
 
 #: templates/services.html:181
 msgid "Finishing works"
-msgstr ""
+msgstr "Viimistlustööd"
 
 #: templates/services.html:182
 msgid "Office fit-out"
-msgstr ""
+msgstr "Büroo sisustamine"
 
 #: templates/services.html:201
 msgid ""
 "Kulbachenko Construction | Professional Finishing and Office Fit-out "
 "Services"
-msgstr ""
+msgstr "Kulbachenko Construction | Professionaalsed viimistlus- ja büroo sisustamisteenused"
+
 
 #: templates/services.html:211
 msgid "Kulbachenko Construction | Professional Landscaping and Fencing Services"
-msgstr ""
+msgstr "Kulbachenko Construction | Professionaalsed maastiku kujundamise ja aiakaitsete teenused"
+
 
 #: templates/services.html:217
 msgid "Additional Services"
-msgstr ""
+msgstr "Lisateenused"
+
 
 #: templates/services.html:219
 msgid "Landscaping and Fencing"
-msgstr ""
+msgstr "Maastiku kujundamine ja aiad"
+
 
 #: templates/services.html:220
 msgid "Interior Design Solutions"
-msgstr ""
+msgstr "Sise- ja väliskujunduse lahendused"
+
 
 #: templates/services.html:241
 msgid "See our portfolio of renovation projects"
-msgstr ""
+msgstr "Vaadake meie renoveerimisprojektide portfooliot"
+
 
 #: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:15
@@ -2353,7 +2365,7 @@ msgstr ""
 
 #: templates/new_blog_pages/roofing-works.html:3
 msgid "Quality roofing works with KULBACHENKO CONSTRUCTION"
-msgstr ""
+msgstr "Kvaliteetsed katuse tööd KULBACHENKO CONSTRUCTIONiga"
 
 #: templates/new_blog_templates/Complete-Renovation-Services-in-Amsterdam-and-The-Hague.html:3
 msgid "Complete Renovation Services in Amsterdam and The Hague"
