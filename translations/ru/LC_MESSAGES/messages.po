@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-22 14:56+0200\n"
+"POT-Creation-Date: 2024-10-16 14:29+0200\n"
 "PO-Revision-Date: 2024-05-12 15:58+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -19,382 +19,364 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/about.html:6
+#: templates/about.html:25
+msgid "Construction and Renovation Services in Europe | Serhii Kulbachenko"
+msgstr "Строительные и ремонтные услуги в Европе | Сергей Кубаченко"
+
+#: templates/about.html:69
+msgid "Serhii Kulbachenko FOUNDER AND LEADER"
+msgstr "Сергей Кубаченко ОСНОВАТЕЛЬ И ЛИДЕР"
+
+#: templates/about.html:74 templates/index.html:364
+msgid "Serhii Kulbachenko"
+msgstr "Сергей Кубаченко"
+
+#: templates/about.html:75 templates/index.html:365
+msgid "FOUNDER AND LEADER"
+msgstr "ОСНОВАТЕЛЬ И ЛИДЕР"
+
+#: templates/about.html:83
+msgid "Serhii Kulbachenko — Your Reliable Partner in Construction and Renovation"
+msgstr "Сергей Кубаченко — Ваш Надежный Партнер в Строительстве и Ремонте"
+
+#: templates/about.html:84
 msgid ""
-"My name is Sergey Kulbachenko, I have been working in the construction "
-"industry for a long time. It all started when I came to Kyiv in 2005 and "
-"got an education..."
+"My name is Serhii Kulbachenko, and I run a construction company "
+"specializing in the renovation and construction of private homes. We "
+"offer comprehensive solutions for those looking for a reliable contractor"
+" with many years of experience, ensuring high-quality work and adherence "
+"to modern standards."
 msgstr ""
-"Меня зовут Сергей Кульбаченко, я работаю в строительной отрасли уже "
-"долгое время. Все началось, когда я приехал в Киев в 2005 году и получил "
-"образование..."
+"Меня зовут Сергей Кубаченко, и я управляю строительной компанией, "
+"специализирующейся на ремонте и строительстве частных домов. Мы "
+"предлагаем комплексные решения для тех, кто ищет надежного подрядчика "
+"с многолетним опытом, гарантируя высокое качество работы и соблюдение "
+"современных стандартов."
 
-#: templates/about.html:10
-msgid "About"
-msgstr "О нас"
+#: templates/about.html:91
+msgid "Construction Experience in Europe"
+msgstr "Строительный Опыт в Европе"
 
-#: templates/about.html:16 templates/base.html:71 templates/base.html:175
-#: templates/index.html:63 templates/index.html:128
-msgid "ABOUT"
-msgstr "О НАС"
-
-#: templates/about.html:31
+#: templates/about.html:92
 msgid ""
-"My name is Serhii Kulbachenko, and I have been working in the "
-"construction industry for a long time. It all started when I came to Kyiv"
-" and received education in the specialties of bricklayer-stove-setter, "
-"electric welder, and installer of reinforced concrete structures. My "
-"journey began as a laborer in a construction team, but I realized my "
-"potential and decided to start my own business. Over time, I formed my "
-"own construction team, attracting many satisfied customers due to years "
-"of experience and professionalism. Working in Europe, I became acquainted"
-" with new materials, technologies, and standards. With a constant "
-"commitment to improvement, I successfully organized and developed my "
-"business from scratch, continuing to provide high-quality services and "
-"earn your trust. I'll be happy to collaborate!"
+"Our company successfully implements projects in the Netherlands, and many"
+" other European countries using the best practices and technologies that "
+"I have mastered while working on the international market. We combine "
+"high-quality materials, modern construction methods, and many years of "
+"experience to meet the needs of our clients, whether it's new home "
+"construction or major renovations."
 msgstr ""
-"Меня зовут Сергей Кульбаченко, и я работаю в строительной индустрии уже "
-"довольно долгое время. Всё началось, когда я приехал в Киев и получил "
-"образование по специальностям кладчика-печника, электросварщика и "
-"монтажника железобетонных конструкций. Мой путь начался как рабочий в "
-"строительной бригаде, но я осознал свой потенциал и решил начать свой "
-"собственный бизнес. Со временем я сформировал свою собственную "
-"строительную бригаду, привлекая множество довольных клиентов благодаря "
-"годам опыта и профессионализма. Работая в Европе, я познакомился с новыми"
-" материалами, технологиями и стандартами. С постоянным стремлением к "
-"улучшению, я успешно организовал и развил свой бизнес с нуля, продолжая "
-"предоставлять качественные услуги и заслуживая ваше доверие. Буду рад "
-"сотрудничеству!"
+"Наша компания успешно реализует проекты в Нидерландах и многих "
+"других европейских странах, используя лучшие практики и технологии, "
+"которые я освоил, работая на международном рынке. Мы комбинируем "
+"высококачественные материалы, современные строительные методы и "
+"многолетний опыт, чтобы удовлетворить потребности наших клиентов, "
+"будь то строительство нового дома или капитальный ремонт."
 
-#: templates/about.html:43
+#: templates/about.html:96
+msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction OÜ"
+msgstr "Сергей Кубаченко - Основатель Kulbachenko Construction OÜ"
+
+#: templates/about.html:104 templates/about.html:120 templates/about.html:128
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction + Design"
-msgstr "Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн"
+msgstr "Сергей Кубаченко - Основатель Kulbachenko Construction + Design"
 
-#: templates/base.html:44
+#: templates/about.html:108
+msgid "The History of Founding the Construction Company"
+msgstr "История Основания Строительной Компании"
+
+#: templates/about.html:109
+msgid ""
+"My career began modestly as a construction worker. Rising from a laborer "
+"to the founder of a company, I have always strived to improve my skills "
+"and expand the range of services. The business was built on the "
+"principles of honesty, professionalism, and continuous development, which"
+" has allowed us to successfully operate in the market for many years."
+msgstr ""
+"Моя карьера началась скромно с работы строителем. Поднимаясь от "
+"рабочего до основателя компании, я всегда стремился улучшать свои "
+"навыки и расширять спектр услуг. Бизнес был построен на принципах "
+"честности, профессионализма и постоянного развития, что позволило "
+"нам успешно работать на рынке на протяжении многих лет."
+
+#: templates/about.html:115
+msgid "Construction Services and Cutting-Edge Technologies"
+msgstr "Строительные Услуги и Современные Технологии"
+
+#: templates/about.html:116
+msgid ""
+"We provide a full range of construction services — from design to "
+"commissioning. We incorporate the latest technologies used in modern "
+"construction, such as energy-efficient materials, advanced heating and "
+"ventilation systems, as well as innovative design solutions. This enables"
+" us to create homes that meet the highest standards of comfort and "
+"functionality."
+msgstr ""
+"Мы предоставляем полный спектр строительных услуг — от проектирования "
+"до ввода в эксплуатацию. Мы используем новейшие технологии, применяемые "
+"в современном строительстве, такие как энергоэффективные материалы, "
+"современные системы отопления и вентиляции, а также инновационные "
+"дизайнерские решения. Это позволяет нам создавать дома, соответствующие "
+"высшим стандартам комфорта и функциональности."
+
+#: templates/about.html:132
+msgid "High-Quality Construction Solutions for Any Projects"
+msgstr "Высококачественные Строительные Решения для Любых Проектов"
+
+#: templates/about.html:133
+msgid ""
+"Regardless of the complexity of your project — whether it's building a "
+"new private home or renovating an existing property — our team is always "
+"ready to offer quality solutions. We take care of every stage of the "
+"work, ensuring precise deadlines and impeccable quality in construction "
+"and renovation services."
+msgstr ""
+"Независимо от сложности вашего проекта — будь то строительство нового "
+"частного дома или ремонт существующей собственности — наша команда всегда "
+"готова предложить качественные решения. Мы заботимся о каждом этапе работы, "
+"гарантируя соблюдение сроков и безупречное качество в строительстве и "
+"ремонтных услугах."
+
+#: templates/about.html:139
+msgid "Learn more about our construction services"
+msgstr "Узнайте больше о наших строительных услугах"
+
+#: templates/about.html:164 templates/base.html:36
+msgid ""
+"High-quality renovation and construction services in the Netherlands and "
+"across Europe since 2005."
+msgstr "Высококачественные услуги по ремонту и строительству в Нидерландах и "
+"по всей Европе с 2005 года."
+
+#: templates/base.html:102
 msgid "Kulbachenko Construction + Design"
 msgstr "Кульбаченко Строительство + Дизайн"
 
-#: templates/base.html:72 templates/base.html:178 templates/index.html:64
-#: templates/index.html:131 templates/portfolio.html:14
+#: templates/base.html:109
+msgid "Kulbachenko Construction + Design Logo"
+msgstr "Кульбаченко Строительство + Дизайн лого"
+
+#: templates/base.html:125 templates/base.html:192 templates/base.html:259
+#: templates/index.html:56 templates/index.html:112
+msgid "ABOUT"
+msgstr "О НАС"
+
+#: templates/base.html:126 templates/base.html:195 templates/base.html:262
+#: templates/index.html:57 templates/index.html:115 templates/portfolio.html:29
+#: templates/portfolio_old.html:14
 msgid "PORTFOLIO"
 msgstr "ПОРТФОЛИО"
 
-#: templates/base.html:73 templates/base.html:181 templates/index.html:65
-#: templates/index.html:134 templates/services.html:14
+#: templates/base.html:127 templates/base.html:198 templates/base.html:265
+#: templates/index.html:58 templates/index.html:118
 msgid "SERVICES"
 msgstr "УСЛУГИ"
 
-#: templates/base.html:74 templates/base.html:184 templates/blog.html:8
-#: templates/index.html:66 templates/index.html:137
+#: templates/base.html:128 templates/base.html:201 templates/base.html:268
+#: templates/index.html:59 templates/index.html:121
 msgid "BLOG"
 msgstr "БЛОГ"
 
-#: templates/base.html:77 templates/index.html:70
+#: templates/base.html:131 templates/index.html:62
 msgid "CONTACT US"
 msgstr "СВЯЗАТЬСЯ С НАМИ"
 
-#: templates/base.html:172
+#: templates/base.html:182 templates/base.html:250
+msgid "Navigation Menu"
+msgstr "Навигационное Меню"
+
+#: templates/base.html:189 templates/base.html:256
 msgid "HOME"
 msgstr "ГЛАВНАЯ"
 
-#: templates/base.html:189 templates/base.html:190 templates/index.html:142
-#: templates/index.html:143
+#: templates/base.html:273 templates/base.html:274
 msgid "Search"
 msgstr "Поиск"
 
-#: templates/base.html:213
-msgid "Get a Free Consultation"
-msgstr "Получить бесплатную консультацию"
-
-#: templates/base.html:220
-msgid "First Name"
-msgstr "Имя"
-
-#: templates/base.html:226
-msgid "Your Contact"
-msgstr "Ваш контакт"
-
-#: templates/base.html:232
-msgid "Comment"
-msgstr "Комментарий"
-
-#: templates/base.html:241
-msgid "Verify Submit"
-msgstr "Подтвердить отправку"
-
-#: templates/base.html:256
+#: templates/base.html:302
 msgid "Contact Us"
 msgstr "Связаться с нами"
 
-#: templates/base.html:260
+#: templates/base.html:307
 msgid "First name"
 msgstr "Имя"
 
-#: templates/base.html:266
+#: templates/base.html:313
 msgid "Last name"
 msgstr "Фамилия"
 
-#: templates/base.html:272
+#: templates/base.html:319
 msgid "Email address"
 msgstr "Email"
 
-#: templates/base.html:281
+#: templates/base.html:328 templates/base.html:442
 msgid "Phone"
 msgstr "Телефон"
 
-#: templates/base.html:287
+#: templates/base.html:334
 msgid "City"
 msgstr "Город"
 
-#: templates/base.html:293
+#: templates/base.html:340
 msgid "State"
 msgstr "Область"
 
-#: templates/base.html:298
+#: templates/base.html:345
 msgid "Zip"
 msgstr "Индекс"
 
-#: templates/base.html:304
+#: templates/base.html:351
 msgid "Address"
 msgstr "Адрес"
 
-#: templates/base.html:309
+#: templates/base.html:356
 msgid "Target budget"
 msgstr "Целевой бюджет"
 
-#: templates/base.html:311
+#: templates/base.html:358
 msgid "Select budget range"
 msgstr "Укажите диапазон бюджета"
 
-#: templates/base.html:312
+#: templates/base.html:359
 msgid "$100-$999"
 msgstr ""
 
-#: templates/base.html:313
+#: templates/base.html:360
 msgid "$1000-$4999"
 msgstr ""
 
-#: templates/base.html:314
+#: templates/base.html:361
 msgid "$5000-$9999"
 msgstr ""
 
-#: templates/base.html:315
+#: templates/base.html:362
 msgid "$10,000-$19,999"
 msgstr ""
 
-#: templates/base.html:316
+#: templates/base.html:363
 msgid "$20,000-$49,999"
 msgstr ""
 
-#: templates/base.html:317
+#: templates/base.html:364
 msgid "$50,000-$99,999"
 msgstr ""
 
-#: templates/base.html:318
+#: templates/base.html:365
 msgid "$100,000+"
 msgstr ""
 
-#: templates/base.html:324
+#: templates/base.html:371
 msgid "Project time frame"
 msgstr "Сроки реализации проекта"
 
-#: templates/base.html:326
+#: templates/base.html:373
 msgid "Select time frame"
 msgstr "Выберите временной диапазон"
 
-#: templates/base.html:327
+#: templates/base.html:374
 msgid "As soon as possible"
 msgstr "Как можно скорее"
 
-#: templates/base.html:328
+#: templates/base.html:375
 msgid "Starting within 3 months"
 msgstr "Начало в течение 3 месяцев"
 
-#: templates/base.html:329
+#: templates/base.html:376
 msgid "Starting within 6 months"
 msgstr "Начало в течение 6 месяцев"
 
-#: templates/base.html:330
+#: templates/base.html:377
 msgid "Starting within a year"
 msgstr "Начало в течение года"
 
-#: templates/base.html:336
+#: templates/base.html:383
 msgid "How did you hear about us?"
 msgstr "Как вы узнали о нас?"
 
-#: templates/base.html:338
+#: templates/base.html:385
 msgid "Select an option"
 msgstr "Выберите вариант"
 
-#: templates/base.html:339
+#: templates/base.html:386
 msgid "Online Advertisement"
 msgstr "Интернет-реклама"
 
-#: templates/base.html:340
+#: templates/base.html:387
 msgid "Friend or Colleague"
 msgstr "Друг или коллега"
 
-#: templates/base.html:341
+#: templates/base.html:388
 msgid "Social networks"
 msgstr "Социальные сети"
 
-#: templates/base.html:342
+#: templates/base.html:389
 msgid "Google"
 msgstr "Google"
 
-#: templates/base.html:343
+#: templates/base.html:390
 msgid "Other"
 msgstr "Другое"
 
-#: templates/base.html:349
+#: templates/base.html:396
 msgid "Tell us about your project"
 msgstr "Расскажите нам о вашем проекте"
 
-#: templates/base.html:360
+#: templates/base.html:407
 msgid "Agree to terms and conditions"
 msgstr ""
 
-#: templates/base.html:367
+#: templates/base.html:414
 msgid "Submit form"
 msgstr "Отправить заявку"
 
-#: templates/blog.html:3
+#: templates/base.html:438
+msgid "Contact Information"
+msgstr "Контактная Информация"
+
+#: templates/base.html:446
+msgid "Working hours, Mon-Fri"
+msgstr "Рабочие часы, Пн-Пт"
+
+#: templates/base.html:454
+msgid "Our Social Media"
+msgstr "Наши Социальные Сети"
+
+#: templates/base.html:550
+msgid "GET A FREE"
+msgstr "ПОЛУЧИТЕ БЕСПЛАТНО"
+
+#: templates/base.html:553
+msgid "Kulbachenko Consultation"
+msgstr "Кульбаченко Консультацию"
+
+#: templates/base.html:558
+msgid "or we call back"
+msgstr "или мы перезвоним"
+
+#: templates/base.html:568
+msgid "First Name"
+msgstr "Имя"
+
+#: templates/base.html:574
+msgid "Your Contact"
+msgstr "Ваш контакт"
+
+#: templates/base.html:580
+msgid "Comment"
+msgstr "Комментарий"
+
+#: templates/base.html:584
+msgid "Submit"
+msgstr "Отправить заявку"
+
+#: templates/blog.html:21 templates/blog.html:27
+#: templates/new_blog_templates/blog_new.html:3
 msgid "Blog"
 msgstr "Блог"
 
-#: templates/blog.html:32 templates/blog.html:64 templates/blog.html:94
-#: templates/blog.html:120 templates/blog.html:180 templates/blog.html:215
-#: templates/blog.html:245
-msgid "Renovation"
-msgstr "Ремонт"
-
-#: templates/blog.html:32 templates/blog.html:64 templates/blog.html:180
-msgid "Plumbing"
-msgstr "Сантехника"
-
-#: templates/blog.html:35
-msgid "Shower without tray: Useful properties and advantages"
-msgstr "Душевая кабина без поддона: Полезные свойства и преимущества"
-
-#: templates/blog.html:38
-msgid "Jun"
-msgstr "Янв"
-
-#: templates/blog.html:41
-msgid ""
-"A walk-in shower, also known as a floor-level shower, offers a modern and"
-" practical solution for bathrooms. Without a raised base or traditional "
-"tray, it provides a sleek, minimalist look, ease of use, and improved "
-"hygiene. Ideal for all ages and abilities, it is easy to clean and can "
-"increase property value. Consider this stylish option for your next "
-"bathroom renovation.\n"
-"\n"
-msgstr ""
-"Душевая кабина без поддона, также известная как душевая на уровне пола, "
-"предлагает современное и практичное решение для ванных комнат. Без "
-"поднятого основания или традиционного поддона она обеспечивает стильный, "
-"минималистичный вид, удобство использования и улучшенную гигиену. "
-"Идеально подходит для людей всех возрастов и способностей, легко чистится"
-" и может повысить стоимость недвижимости. Рассмотрите этот стильный "
-"вариант для вашего следующего ремонта ванной комнаты.\n"
-"\n"
-
-#: templates/blog.html:47 templates/blog.html:77 templates/blog.html:107
-#: templates/blog.html:128 templates/blog.html:147 templates/blog.html:192
-#: templates/blog.html:226 templates/blog.html:250 templates/blog.html:283
-msgid "Continue reading"
-msgstr "Продолжить чтение"
-
-#: templates/blog.html:67 templates/blog.html:184
-#: templates/blog_templates/apartment-renovation.html:123
-#: templates/blog_templates/building-creation.html:112
-#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:102
-#: templates/blog_templates/stages-of-plumbing-work.html:3
-#: templates/blog_templates/stages-of-plumbing-work.html:17
-msgid "Stages of Plumbing Work in Apartment Renovation"
-msgstr "Этапы сантехнических работ при ремонте квартиры"
-
-#: templates/blog.html:70 templates/blog.html:100 templates/blog.html:143
-#: templates/blog.html:187 templates/blog.html:221 templates/blog.html:247
-#: templates/blog.html:278
-msgid "Jan"
-msgstr "Янв"
-
-#: templates/blog.html:73 templates/blog.html:190
-msgid ""
-"Discover the comprehensive steps involved in plumbing during a major "
-"apartment renovation. From initial assessment to final documentation, "
-"each stage ensures the installation of reliable and safe plumbing "
-"systems, encompassing everything from demolition to testing and "
-"connection of appliances."
-msgstr ""
-"Узнайте о комплексных этапах выполнения сантехнических работ во время "
-"крупного ремонта квартиры. От первоначальной оценки до завершающей "
-"документации, каждый этап гарантирует установку надежных и безопасных "
-"систем снабжения водой, включая всё от демонтажа до тестирования и "
-"подключения бытовой техники."
-
-#: templates/blog.html:94 templates/blog.html:215
-msgid "Electrics"
-msgstr "Электрика"
-
-#: templates/blog.html:97 templates/blog.html:218
-#: templates/blog_templates/apartment-renovation.html:137
-#: templates/blog_templates/building-creation.html:125
-#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
-#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:17
-#: templates/blog_templates/shower-without-tray.html:190
-#: templates/blog_templates/stages-of-plumbing-work.html:115
-msgid "Key Steps in Electrical Installation for Apartment Renovation"
-msgstr "Основные этапы электромонтажа при ремонте квартиры"
-
-#: templates/blog.html:103 templates/blog.html:224
-msgid "Comprehensive Electrical Installation for Apartment Renovation"
-msgstr "Комплексный электромонтаж при ремонте квартиры"
-
-#: templates/blog.html:121 templates/blog.html:246
-#: templates/blog_templates/apartment-renovation.html:3
-#: templates/blog_templates/apartment-renovation.html:15
-#: templates/blog_templates/building-creation.html:137
-#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:114
-#: templates/blog_templates/shower-without-tray.html:203
-#: templates/blog_templates/stages-of-plumbing-work.html:128
-msgid "Apartment renovation"
-msgstr "Ремонт квартиры"
-
-#: templates/blog.html:122
-msgid "Jan 24"
-msgstr "24 Янв"
-
-#: templates/blog.html:123 templates/blog.html:248
-msgid "A comprehensive apartment renovation includes various stages"
-msgstr "Комплексный ремонт квартиры включает различные этапы"
-
-#: templates/blog.html:141 templates/blog.html:272 templates/services.html:132
-msgid "Construction"
-msgstr "Строительство"
-
-#: templates/blog.html:142 templates/blog.html:275
-#: templates/blog_templates/apartment-renovation.html:150
-#: templates/blog_templates/building-creation.html:3
-#: templates/blog_templates/building-creation.html:15
-#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:127
-#: templates/blog_templates/shower-without-tray.html:217
-#: templates/blog_templates/stages-of-plumbing-work.html:142
-msgid "Building creation"
-msgstr "Создание здания"
-
-#: templates/blog.html:144 templates/blog.html:281
-msgid ""
-"Rough construction works in the building industry represent the initial "
-"stage of constructing a building"
-msgstr ""
-"Грубые строительные работы в строительной индустрии представляют собой "
-"начальный этап строительства здания"
-
-#: templates/blog.html:164
-msgid "Latest Updates"
-msgstr "Последние обновления"
+#: templates/blog.html:34
+msgid "All posts"
+msgstr "Все записи"
 
 #: templates/home-cinema-5-person.html:4 templates/home-cinema-5-person.html:48
 #: templates/home-cinema-5-person.html:57
@@ -422,7 +404,8 @@ msgstr ""
 "профессиональной установкой домашнего кинотеатра в частном доме в "
 "Украине. Рассчитана на пять человек .."
 
-#: templates/home-cinema-5-person.html:19 templates/portfolio.html:36
+#: templates/home-cinema-5-person.html:19 templates/portfolio.html:70
+#: templates/portfolio_old.html:36
 msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
 msgstr "ПРОФЕССИОНАЛЬНЫЙ ДОМАШНИЙ КИНОТЕАТР В ЧАСТНОМ ДОМЕ В УКРАИНЕ"
 
@@ -448,64 +431,725 @@ msgstr ""
 "изысканное мастерство и внимание к деталям, которые были вложены в "
 "создание этого роскошного развлекательного пространства."
 
-#: templates/index.html:6
-msgid ""
-"Construction and repair services for apartments and offices in various "
-"sizes. Professional construction work aimed at private houses."
-msgstr ""
-"Строительные и ремонтные услуги для квартир и офисов различных размеров. "
-"Профессиональные строительные работы, направленные на частные дома."
-
-#: templates/index.html:82
-msgid "KULBACHENKO"
-msgstr "КУЛЬБАЧЕНКО"
-
-#: templates/index.html:82
-msgid "CONSTRUCTION"
-msgstr "СТРОИТЕЛЬСТВО"
-
-#: templates/index.html:125
+#: templates/index.html:109
 msgid "MAIN"
 msgstr "Главная"
 
-#: templates/index.html:185
-msgid "VIEW OUR PORTFOLIO"
-msgstr "ПРОСМОТРЕТЬ НАШ ПОРТФОЛИО"
+#: templates/index.html:135
+msgid "photo from work in Kyiv"
+msgstr "фото с работы в Киеве"
 
-#: templates/index.html:225
+#: templates/index.html:162
+msgid "Construction and Repair"
+msgstr "Строительство и Ремонт"
+
+#: templates/index.html:163
 msgid ""
-"We specialize professionally in providing services for construction, "
-"renovation, and interior design.\n"
-"            Our company has extensive experience in implementing various "
-"projects: from large-scale construction works\n"
-"            to small finishing works.\n"
-"            &nbsp;<br>&nbsp;\n"
-"            &nbsp;<br>&nbsp;\n"
-"            We strive to achieve the highest quality in every project, "
-"ensuring individual approach and meticulous\n"
-"            attention to details for our clients. If you need to renovate"
-" an apartment, build a country house, or\n"
-"            create a unique interior design, we are ready to exceed your "
-"expectations."
+"We offer a wide range of renovation services — from minor cosmetic work "
+"to large-scale capital repairs. We work with residential and commercial "
+"properties, taking all your wishes into account."
 msgstr ""
-"Мы специализируемся профессионально в предоставлении услуг по "
-"строительству, ремонту и дизайну интерьеров.\n"
-"Наша компания имеет обширный опыт в реализации различных проектов: от "
-"крупномасштабных строительных работ\n"
-"до мелких отделочных работ.\n"
-"&nbsp;<br>&nbsp;\n"
-"&nbsp;<br>&nbsp;\n"
-"Мы стремимся достичь высочайшего качества в каждом проекте, обеспечивая "
-"индивидуальный подход и тщательное\n"
-"внимание к деталям для наших клиентов. Если вам нужен ремонт квартиры, "
-"постройка загородного дома или\n"
-"создание уникального дизайна интерьера, мы готовы превзойти ваши ожидания."
+"Мы предлагаем широкий спектр услуг по ремонту — от незначительных "
+"косметических работ до масштабных капитальных ремонтов. Мы работаем "
+"с жилой и коммерческой недвижимостью, учитывая все ваши пожелания."
+
+#: templates/index.html:165
+msgid ""
+"We legally and practically guarantee quality, a modern approach, and "
+"optimal timelines!"
+msgstr ""
+"Мы юридически и практически гарантируем качество, современный подход и "
+"оптимальные сроки!"
+
+#: templates/index.html:167
+msgid "From €50 per m²"
+msgstr "От 50 € за м²"
+
+#: templates/index.html:178
+msgid "YEARS ON THE MARKET"
+msgstr "ЛЕТ НА РЫНКЕ"
+
+#: templates/index.html:182
+msgid "SUCCESSFUL PROJECTS"
+msgstr "УСПЕШНЫХ ПРОЕКТОВ"
+
+#: templates/index.html:186
+msgid "SATISFIED CUSTOMERS"
+msgstr "ДОВОЛЬНЫХ КЛИЕНТОВ"
+
+#: templates/index.html:204
+msgid "Actual prices of repair services"
+msgstr "Актуальные цены на ремонтные услуги"
+
+#: templates/index.html:207
+msgid "Simple repair"
+msgstr "Простой ремонт"
+
+#: templates/index.html:208
+msgid "Basic services"
+msgstr "Основные услуги"
+
+#: templates/index.html:209 templates/index.html:239 templates/index.html:272
+#: templates/index.html:305
+msgid "From"
+msgstr "От"
+
+#: templates/index.html:209 templates/index.html:239 templates/index.html:272
+#: templates/index.html:305
+msgid "BTW"
+msgstr "НДС"
+
+#: templates/index.html:211
+msgid "Wall and ceiling painting"
+msgstr "Покраска стен и потолков"
+
+#: templates/index.html:212
+msgid "Wallpapering"
+msgstr "Поклейка обоев"
+
+#: templates/index.html:213
+msgid "Baseboard replacement"
+msgstr "Замена плинтусов"
+
+#: templates/index.html:214
+msgid "Lighting installation (1-2 points)"
+msgstr "Установка освещения (1-2 точки)"
+
+#: templates/index.html:215
+msgid "Partial electrical wiring repair"
+msgstr "Частичный ремонт электрической проводки"
+
+#: templates/index.html:216
+msgid "Socket and switch installation"
+msgstr "Установка розеток и выключателей"
+
+#: templates/index.html:217
+msgid "Cleaning and restoration of existing plumbing"
+msgstr "Очистка и восстановление существующей сантехники"
+
+#: templates/index.html:218
+msgid "Local tile replacement in the bathroom or kitchen"
+msgstr "Локальная замена плитки в ванной или кухне"
+
+#: templates/index.html:219
+msgid "Door hinge and hardware repair"
+msgstr "Ремонт петель и фурнитуры дверей"
+
+#: templates/index.html:220
+msgid "Installation of cornices and curtain fittings"
+msgstr "Установка карнизов и фурнитуры для занавесок"
+
+#: templates/index.html:226 templates/index.html:259 templates/index.html:291
+#: templates/index.html:325 templates/services.html:41
+#: templates/services.html:92 templates/services.html:124
+#: templates/services.html:162 templates/services.html:188
+#: templates/services.html:226
+msgid "Consultation"
+msgstr "Консультация"
+
+#: templates/index.html:237
+msgid "Cosmetic Repair"
+msgstr "Косметический Ремонт"
+
+#: templates/index.html:238
+msgid "Basic Services"
+msgstr "Основные Услуги"
+
+#: templates/index.html:241
+msgid "Dismantling of old materials"
+msgstr "Снятие старых материалов"
+
+#: templates/index.html:242 templates/index.html:278
+msgid "Puttying and leveling walls and ceilings"
+msgstr "Шпаклевка и выравнивание стен и потолков"
+
+#: templates/index.html:243
+msgid "Hanging new wallpaper or painting walls"
+msgstr "Поклейка новых обоев или покраска стен"
+
+#: templates/index.html:244
+msgid "Replacing flooring (laminate, linoleum)"
+msgstr "Замена напольного покрытия (ламинат, линолеум)"
+
+#: templates/index.html:245
+msgid "Replacing baseboards and casings"
+msgstr "Замена плинтусов и наличников"
+
+#: templates/index.html:246
+msgid "Installation of new fixtures"
+msgstr "Установка новых светильников"
+
+#: templates/index.html:247
+msgid "Replacing sockets and switches"
+msgstr "Замена розеток и выключателей"
+
+#: templates/index.html:248
+msgid "Minor plumbing repairs"
+msgstr "Незначительные сантехнические ремонты"
+
+#: templates/index.html:249
+msgid "Installation of new interior doors"
+msgstr "Установка новых межкомнатных дверей"
+
+#: templates/index.html:250
+msgid "Updating plumbing systems"
+msgstr "Обновление сантехнических систем"
+
+#: templates/index.html:251
+msgid "Installation of window sills"
+msgstr "Установка подоконников"
+
+#: templates/index.html:252
+msgid "Updating or replacing door hardware"
+msgstr "Обновление или замена дверной фурнитуры"
+
+#: templates/index.html:253
+msgid "Painting or refreshing window frames"
+msgstr "Покраска или обновление оконных рам"
 
 #: templates/index.html:270
+msgid "Capital Repair"
+msgstr "Капитальный Ремонт"
+
+#: templates/index.html:271
+msgid "Comprehensive Works"
+msgstr "Комплексные Работы"
+
+#: templates/index.html:272 templates/index.html:305
+msgid "per m²"
+msgstr "за м²"
+
+#: templates/index.html:274
+msgid "Dismantling of old coverings and structures"
+msgstr "Демонтаж старых покрытий и конструкций"
+
+#: templates/index.html:275
+msgid "Complete replacement of engineering systems (heating, water supply)"
+msgstr "Полная замена инженерных систем (отопление, водоснабжение)"
+
+#: templates/index.html:276
+msgid "Replacing windows and doors"
+msgstr "Замена окон и дверей"
+
+#: templates/index.html:277
+msgid "Laying new flooring (parquet, tiles)"
+msgstr "Укладка нового напольного покрытия (паркет, плитка)"
+
+#: templates/index.html:279
+msgid "Installation of new electrical wiring and outlets"
+msgstr "Установка новой электрической проводки и розеток"
+
+#: templates/index.html:280
+msgid "Installation of ventilation systems"
+msgstr "Установка вентиляционных систем"
+
+#: templates/index.html:281
+msgid "Installation of new partitions"
+msgstr "Установка новых перегородок"
+
+#: templates/index.html:282
+msgid "Reconstruction of walls and partitions"
+msgstr "Реконструкция стен и перегородок"
+
+#: templates/index.html:283
+msgid "Installation of modern heating systems"
+msgstr "Установка современных систем отопления"
+
+#: templates/index.html:284
+msgid "Installation of drywall structures"
+msgstr "Установка гипсокартонных конструкций"
+
+#: templates/index.html:285
+msgid "Soundproofing of walls and floors"
+msgstr "Звукоизоляция стен и полов"
+
+#: templates/index.html:302
+msgid "Major Renovation"
+msgstr "Комплексный Ремонт"
+
+#: templates/index.html:303
+msgid "Complete Complex"
+msgstr "Полный Комплекс"
+
+#: templates/index.html:307
+msgid "3D Design"
+msgstr "3D Дизайн"
+
+#: templates/index.html:308
+msgid "Dismantling and changing structures (moving partitions)"
+msgstr "Демонтаж и изменение конструкций (перемещение перегородок)"
+
+#: templates/index.html:309
+msgid ""
+"Complete replacement of engineering systems (including heating, "
+"electricity, water supply)"
+msgstr ""
+"Полная замена инженерных систем (включая отопление, "
+"электричество, водоснабжение)"
+
+#: templates/index.html:310
+msgid "Installation of multi-level ceilings with lighting"
+msgstr "Установка многоуровневых потолков с освещением"
+
+#: templates/index.html:311
+msgid "Installation of underfloor heating"
+msgstr "Установка теплого пола"
+
+#: templates/index.html:312
+msgid "Installation of decorative elements (columns, stucco)"
+msgstr "Установка декоративных элементов (колонн, лепнины)"
+
+#: templates/index.html:313
+msgid "Replacing windows and doors with improved insulation"
+msgstr "Замена окон и дверей с улучшенной теплоизоляцией"
+
+#: templates/index.html:314
+msgid "Replanning spaces considering load-bearing structures"
+msgstr "Перепланировка помещений с учетом несущих конструкций"
+
+#: templates/index.html:315
+msgid "Installation of smart home systems (lighting, heating, security)"
+msgstr "Установка систем умного дома (освещение, отопление, безопасность)"
+
+#: templates/index.html:316
+msgid "Installation of complex drywall structures (arches, niches)"
+msgstr "Установка сложных гипсокартонных конструкций (арки, ниши)"
+
+#: templates/index.html:317
+msgid "Finishing walls with decorative panels"
+msgstr "Отделка стен декоративными панелями"
+
+#: templates/index.html:318
+msgid "Restoration or replacement of a fireplace, if available"
+msgstr "Реставрация или замена камина, если он есть"
+
+#: templates/index.html:319
+msgid "Installation of modern air conditioning systems"
+msgstr "Установка современных систем кондиционирования"
+
+#: templates/index.html:320
+msgid "Complete soundproofing of walls and ceilings"
+msgstr "Полная звукоизоляция стен и потолков"
+
+#: templates/index.html:344
+msgid "About Our Team"
+msgstr "О Нашей Команде"
+
+#: templates/index.html:346
+msgid "Official company <strong>Kulbachenko Construction OÜ</strong>"
+msgstr "Официальная компания <strong>Kulbachenko Construction OÜ</strong>"
+
+
+#: templates/index.html:347
+msgid "Completion of projects in the shortest possible time"
+msgstr "Завершение проектов в кратчайшие сроки"
+
+#: templates/index.html:348
+msgid "Creative solutions"
+msgstr "Креативные решения"
+
+#: templates/index.html:349
+msgid "Thorough design"
+msgstr "Тщательный дизайн"
+
+#: templates/index.html:350
+msgid "Personalized solutions"
+msgstr "Персонализированные решения"
+
+#: templates/index.html:351
+msgid "Only modern construction technologies"
+msgstr "Только современные строительные технологии"
+
+#: templates/index.html:352
+msgid "Guarantees on completed work"
+msgstr "Гарантии на выполненные работы"
+
+#: templates/index.html:379
+msgid "Anthony van Friesen"
+msgstr "Антон Фризен"
+
+#: templates/index.html:380
+msgid "PROJECT MANAGER"
+msgstr "МЕНЕДЖЕР ПРОЕКТОВ"
+
+#: templates/index.html:403
+msgid "Building Made Simple"
+msgstr "Строительство Без Сложностей"
+
+#: templates/index.html:404
+msgid "Curious how we work"
+msgstr "Хотите узнать, как мы работаем"
+
+#: templates/index.html:406
+msgid "Discover the 6 steps to transforming your space with precision and care."
+msgstr "Ознакомьтесь с 6 шагами к преобразованию вашего пространства с точностью и заботой."
+
+#: templates/index.html:407
+msgid "Discover"
+msgstr "Ознакомиться"
+
+#: templates/index.html:426
+msgid "CONTACT"
+msgstr "КОНТАКТ"
+
+#: templates/index.html:427
+msgid ""
+"First, you need to contact us and ask any questions you have. You can "
+"email us, use any convenient messenger, call, or fill out the application"
+" form on our website for a manager to get in touch with you. During the "
+"phone call, you can discuss the details of your project (or "
+"construction), describe the object, and determine the scope of work with "
+"us. At this stage, we will provide you with preliminary information about"
+" the cost, order of work, and possible deadlines."
+msgstr ""
+"Сначала вам нужно связаться с нами и задать любые вопросы, которые у вас "
+"есть. Вы можете написать нам на электронную почту, использовать любой "
+"удобный мессенджер, позвонить или заполнить форму заявки на нашем сайте, "
+"чтобы менеджер мог с вами связаться. Во время телефонного звонка вы "
+"можете обсудить детали вашего проекта (или строительства), описать "
+"объект и определить объем работ. На этом этапе мы предоставим вам "
+"предварительную информацию о стоимости, порядке выполнения работ и "
+"возможных сроках."
+
+#: templates/index.html:433
+msgid "MEASUREMENTS"
+msgstr "ИЗМЕРЕНИЯ"
+
+#: templates/index.html:434
+msgid ""
+"Our foreman will visit your site for free to take precise measurements "
+"and assess the scope of work. If you have a design project or "
+"construction plan, this data will be clarified. In the absence of such a "
+"plan, a detailed description of the necessary work will be prepared "
+"together with the client and the foreman. Based on this data, the "
+"estimator will begin to calculate the budget."
+msgstr ""
+"Наш прораб бесплатно посетит ваш объект для снятия точных измерений и "
+"оценки объема работ. Если у вас есть проект или план строительства, "
+"данные будут уточнены. В отсутствии такого плана будет подготовлено "
+"подробное описание необходимых работ вместе с клиентом и прорабом. На "
+"основе этих данных сметчик начнет рассчитывать бюджет."
+
+#: templates/index.html:440
+msgid "BUDGET AND CONTRACT"
+msgstr "БЮДЖЕТ И КОНТРАКТ"
+
+#: templates/index.html:441
+msgid ""
+"The estimator will quickly prepare a detailed preliminary budget for "
+"free. All conditions regarding cost, deadlines, and the work process will"
+" be documented in the contract, which we will definitely sign with the "
+"client. The budget will become an integral part of the contract as "
+"Appendix No. 1."
+msgstr ""
+"Сметчик быстро подготовит подробный предварительный бюджет бесплатно. "
+"Все условия по стоимости, срокам и процессу выполнения работ будут "
+"документированы в контракте, который мы обязательно подпишем с "
+"клиентом. Бюджет станет неотъемлемой частью контракта как Приложение № 1."
+
+#: templates/index.html:447
+msgid "START OF WORK"
+msgstr "НАЧАЛО РАБОТ"
+
+#: templates/index.html:448
+msgid ""
+"We start the renovation or construction work under the guidance of an "
+"experienced foreman. All work is carried out according to the schedule "
+"and in accordance with the approved budget. Additional work is carried "
+"out only after justification by the foreman and agreement with the "
+"client."
+msgstr ""
+"Мы начинаем ремонтные или строительные работы под руководством "
+"опытного прораба. Все работы выполняются согласно графику и в "
+"соответствии с утвержденным бюджетом. Дополнительные работы выполняются "
+"только после обоснования прорабом и согласования с клиентом."
+
+#: templates/index.html:454
+msgid "COMPLETION OF WORK"
+msgstr "ЗАВЕРШЕНИЕ РАБОТ"
+
+#: templates/index.html:455
+msgid ""
+"After the completion of work and the removal of construction debris, you "
+"accept our work."
+msgstr ""
+"После завершения работ и вывоза строительного мусора вы принимаете нашу "
+"работу."
+
+#: templates/index.html:461
+msgid "WARRANTY AND SERVICE"
+msgstr "ГАРАНТИЯ И СЕРВИС"
+
+#: templates/index.html:462
+msgid ""
+"During the final settlement, the company director and the client sign the"
+" act of completed work, which provides a warranty for all work for a "
+"period of at least 12 months, as well as guarantees our support in case "
+"of any questions arising in the future."
+msgstr ""
+"Во время окончательного расчета директор компании и клиент подписывают "
+"акт выполненных работ, который предоставляет гарантию на все работы на "
+"период не менее 12 месяцев, а также гарантирует нашу поддержку в случае "
+"возникновения любых вопросов в будущем."
+
+#: templates/index.html:467
+msgid "Hide"
+msgstr "Скрыть"
+
+#: templates/index.html:478
+msgid "Areas We Work In"
+msgstr "Отрасли, с которыми мы работаем"
+
+#: templates/index.html:482 templates/index.html:539
+msgid "Residential Properties"
+msgstr "Жилые объекты"
+
+#: templates/index.html:485 templates/index.html:542
+msgid "1. Residential Properties"
+msgstr "1. Жилые объекты"
+
+#: templates/index.html:486 templates/index.html:543
+msgid ""
+"Comprehensive renovation of apartments, houses, and cottages of any "
+"complexity."
+msgstr ""
+"Комплексный ремонт квартир, домов и дач любой сложности."
+
+#: templates/index.html:491 templates/index.html:548
+msgid "Commercial Real Estate"
+msgstr "Коммерческая недвижимость"
+
+#: templates/index.html:494 templates/index.html:551
+msgid "2. Commercial Real Estate"
+msgstr "2. Коммерческая недвижимость"
+
+#: templates/index.html:495 templates/index.html:552
+msgid ""
+"Renovation of offices, shops, shopping centers, hotels, and other "
+"business facilities."
+msgstr ""
+"Ремонт офисов, магазинов, торговых центров, отелей и других "
+"деловых объектов."
+
+#: templates/index.html:500 templates/index.html:557
+msgid "Cultural and Artistic Spaces"
+msgstr ""
+
+#: templates/index.html:503 templates/index.html:560
+msgid "3. Cultural and Artistic Spaces"
+msgstr ""
+
+#: templates/index.html:504 templates/index.html:561
+msgid ""
+"Renovation and refurbishment of theaters, philharmonics, concert halls, "
+"and other cultural venues, considering their specific uses."
+msgstr ""
+
+#: templates/index.html:509 templates/index.html:566
+msgid "Facade Finishing"
+msgstr "Отделка фасадов"
+
+#: templates/index.html:512 templates/index.html:569
+msgid "4. Facade Finishing"
+msgstr "4. Отделка фасадов"
+
+#: templates/index.html:513 templates/index.html:570
+msgid "Professional facade finishing using modern materials."
+msgstr "Профессиональная отделка фасадов с использованием современных материалов."
+
+#: templates/index.html:518 templates/index.html:575
+msgid "Recreation Centers"
+msgstr "Курортные комплексы"
+
+#: templates/index.html:521 templates/index.html:578
+msgid "5. Recreation Centers"
+msgstr "5. Курортные комплексы"
+
+#: templates/index.html:522 templates/index.html:579
+msgid ""
+"Design and construction of modern recreation centers with a focus on "
+"comfort and eco-friendliness."
+msgstr ""
+"Проектирование и строительство современных курортных комплексов с акцентом на "
+"комфорт и экологичность."
+
+#: templates/index.html:527 templates/index.html:584
+msgid "Industrial Facilities"
+msgstr "Промышленные объекты"
+
+#: templates/index.html:530 templates/index.html:587
+msgid "6. Industrial Facilities"
+msgstr "6. Промышленные объекты"
+
+#: templates/index.html:531 templates/index.html:588
+msgid ""
+"Renovation and modernization of production halls, warehouses, factories, "
+"and technical premises."
+msgstr ""
+"Ремонт и модернизация производственных залов, складов, фабрик "
+"и технических помещений."
+
+#: templates/index.html:597
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: templates/index.html:612
+msgid "Latest news"
+msgstr "Последние новости"
+
+#: templates/index.html:651
+msgid "Latest videos"
+msgstr "Последние видео"
+
+#: templates/index.html:763
 msgid "OUR PARTNERS"
 msgstr "НАШИ ПАРТНЁРЫ"
 
-#: templates/portfolio.html:4
+#: templates/index.html:797
+msgid "Frequently Asked Questions"
+msgstr "Часто задаваемые вопросы"
+
+#: templates/index.html:804
+msgid "What types of repair work do you provide?"
+msgstr "Какие виды ремонтных работ вы предоставляете?"
+
+#: templates/index.html:808
+msgid ""
+"We provide a wide range of repair services, from minor cosmetic repairs "
+"to comprehensive renovations of apartments, offices, commercial spaces, "
+"and houses. Our expertise includes the construction of private homes and "
+"handling both small and large-scale projects. We embrace all tasks, "
+"ensuring high-quality results no matter the size or complexity of the "
+"job. Your vision is our priority!"
+msgstr ""
+"Мы предоставляем широкий спектр ремонтных услуг, от незначительных косметических "
+"ремонтов до комплексных renovations квартир, офисов, коммерческих помещений и "
+"домов. Наш опыт включает строительство частных домов и выполнение как небольших, "
+"так и крупных проектов. Мы принимаем все задачи, обеспечивая высокое качество "
+"результатов независимо от размера или сложности работы. Ваше видение — наш приоритет!"
+
+#: templates/index.html:814
+msgid "Do I need a permit for renovations?"
+msgstr "Нужно ли мне разрешение для проведения ремонта?"
+
+#: templates/index.html:818
+msgid ""
+"Yes, in most cases, permits are required for renovations, especially for "
+"structural changes or significant alterations to your property. We can "
+"assist you in determining whether your project requires a permit and help"
+" you navigate the application process."
+msgstr ""
+"Да, в большинстве случаев для проведения ремонтов требуются разрешения, особенно "
+"для структурных изменений или значительных изменений вашей собственности. Мы можем "
+"помочь вам определить, требуется ли вашему проекту разрешение, и помочь вам "
+"освоить процесс подачи заявки."
+
+#: templates/index.html:824
+msgid "How is the cost of repairs determined?"
+msgstr "Как определяется стоимость ремонта?"
+
+#: templates/index.html:828
+msgid ""
+"The cost of repairs depends on the complexity of the project, the size of"
+" the property, and the scope of work required. We provide a detailed "
+"estimate after evaluating the project and discuss potential cost-saving "
+"options if needed."
+msgstr ""
+"Стоимость ремонта зависит от сложности проекта, размера недвижимости и объема "
+"необходимых работ. Мы предоставляем детальную смету после оценки проекта и "
+"обсуждаем возможные варианты экономии затрат, если это необходимо."
+
+
+#: templates/index.html:835
+msgid "What does the contract for renovation services include?"
+msgstr "Что включает в себя контракт на услуги по ремонту?"
+
+#: templates/index.html:839
+msgid ""
+"The contract clearly outlines the terms of cooperation, including work "
+"deadlines, costs, warranties, and the rights of both parties. After "
+"signing the contract, we begin the work according to the agreed plan."
+msgstr ""
+"Контракт четко описывает условия сотрудничества, включая сроки выполнения "
+"работ, стоимость, гарантии и права обеих сторон. После подписания контракта "
+"мы начинаем работу согласно согласованному плану."
+
+
+#: templates/index.html:845
+msgid "Do you provide a warranty for the work performed?"
+msgstr "Предоставляете ли вы гарантию на выполненные работы?"
+
+
+#: templates/index.html:849
+msgid ""
+"Yes, we provide a warranty for all work performed. The warranty period "
+"depends on the type of repair, but it typically ranges from 1 to 5 years."
+" All warranty conditions are specified in the contract."
+msgstr ""
+"Да, мы предоставляем гарантию на все выполненные работы. Гарантийный срок "
+"зависит от типа ремонта, но обычно составляет от 1 до 5 лет. Все условия "
+"гарантии указаны в контракте."
+
+
+#: templates/index.html:856
+msgid "In which cities do you provide services"
+msgstr "В каких городах вы предоставляете услуги?"
+
+
+#: templates/index.html:860
+msgid ""
+"We provide repair services in Amsterdam, Rotterdam, The Hague, and "
+"Utrecht, as well as across Europe. Our extensive experience in various "
+"countries enables us to navigate local regulations and requirements "
+"effectively. Consultations are free!"
+msgstr ""
+"Мы предоставляем услуги по ремонту в Амстердаме, Роттердаме, Гааге и "
+"Утрехте, а также по всей Европе. Наш обширный опыт работы в различных "
+"странах позволяет нам эффективно ориентироваться в местных правилах и "
+"требованиях. Консультации бесплатные!"
+
+
+#: templates/portfolio.html:21 templates/portfolio_old.html:9
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: templates/portfolio.html:31
+msgid "Page Under Update"
+msgstr "Страница обновляется"
+
+#: templates/portfolio.html:32
+msgid ""
+"We are currently updating this page. Our portfolio will be available here"
+" soon, showcasing our completed renovation and construction projects. "
+"Thank you for your patience!"
+msgstr ""
+"Мы в настоящее время обновляем эту страницу. Наше портфолио будет доступно "
+"здесь скоро, демонстрируя наши завершенные проекты по ремонту и строительству. "
+"Спасибо за ваше терпение!"
+
+#: templates/portfolio.html:54
+#, fuzzy
+msgid ""
+"Explore our portfolio showcasing our professional home cinema,-->\n"
+"<!--                 comprehensive renovation projects, and more. "
+"Discover the quality and expertise we bring to-->\n"
+"<!--                  every project we undertake."
+msgstr ""
+"Исследуйте наше портфолио, демонстрирующее наш профессиональный домашний "
+"кинотеатр,\n"
+"комплексные проекты ремонта и многое другое. Откройте для себя качество\n"
+"и опыт, которые мы приносим в каждый наш проект."
+
+#: templates/portfolio.html:79 templates/portfolio_old.html:45
+msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+msgstr "КОМПЛЕКСНЫЙ РЕМОНТ В ЖИЛОМ КОМПЛЕКСЕ ВАРШАВСКИЙ В КИЕВЕ"
+
+#: templates/portfolio.html:90 templates/portfolio_old.html:56
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:17
+msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
+msgstr "ЭСТОНСКАЯ АКАДЕМИЯ МУЗЫКИ И ТЕАТРА В ТАЛЛИННЕ, ЭСТОНИЯ"
+
+#: templates/portfolio_old.html:4
 msgid ""
 "Explore our portfolio showcasing our professional home cinema,\n"
 "     comprehensive renovation projects, and more. Discover the quality "
@@ -518,11 +1162,7 @@ msgstr ""
 " опыт, которые мы приносим\n"
 "в каждый наш проект."
 
-#: templates/portfolio.html:9
-msgid "Portfolio"
-msgstr "Портфолио"
-
-#: templates/portfolio.html:20
+#: templates/portfolio_old.html:20
 msgid ""
 "Explore our portfolio showcasing our professional home cinema,\n"
 "                 comprehensive renovation projects, and more. Discover "
@@ -534,287 +1174,215 @@ msgstr ""
 "комплексные проекты ремонта и многое другое. Откройте для себя качество\n"
 "и опыт, которые мы приносим в каждый наш проект."
 
-#: templates/portfolio.html:45
-msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
-msgstr "КОМПЛЕКСНЫЙ РЕМОНТ В ЖИЛОМ КОМПЛЕКСЕ ВАРШАВСКИЙ В КИЕВЕ"
+#: templates/services.html:22
+msgid "Renovation and Construction Services | Kulbachenko Construction"
+msgstr "Услуги по ремонту и строительству | Kulbachenko Construction"
 
-#: templates/portfolio.html:56
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:17
-msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
-msgstr "ЭСТОНСКАЯ АКАДЕМИЯ МУЗЫКИ И ТЕАТРА В ТАЛЛИННЕ, ЭСТОНИЯ"
-
-#: templates/services.html:4
-msgid ""
-"Learn about our comprehensive four-step process for home renovation,\n"
-"     condo remodel, or kitchen redesign. From initial consultation to "
-"project closeout, we ensure transparency,\n"
-"      efficiency, and client satisfaction."
-msgstr ""
-"Узнайте о нашем комплексном четырёхэтапном процессе ремонта дома,\n"
-"реконструкции квартиры или перепланировки кухни. От начальной "
-"консультации до\n"
-"завершения проекта, мы обеспечиваем прозрачность,\n"
-"эффективность и удовлетворение клиента."
-
-#: templates/services.html:9
-msgid "Services"
-msgstr "Услуги"
 
 #: templates/services.html:28
-msgid "OUR 4-STEP PROCESS"
-msgstr "НАШ 4-ЭТАПНЫЙ ПРОЦЕСС"
+msgid "Kulbachenko Construction | color catalog"
+msgstr "Kulbachenko Construction | цветовой каталог"
+
 
 #: templates/services.html:30
-msgid "Be it a full home renovation, condo remodel, or kitchen redesign,"
-msgstr "Будь то полная реконструкция дома, перепланировка квартиры или перепланировка кухни,"
+msgid "Our Renovation and Construction Services"
+msgstr "Наши услуги по ремонту и строительству"
 
-#: templates/services.html:31
-msgid "our four-step process is straightforward and organized:"
-msgstr "Наш четырехэтапный процесс прост и организован:"
 
-#: templates/services.html:32
-msgid "1. Initial consultation with one of our team leads;"
-msgstr "1. Первичная консультация с одним из руководителей нашей команды;"
+#: templates/services.html:36
+msgid "Your ideas are our work. Professional turnkey construction and renovation."
+msgstr "Ваши идеи — наша работа. Профессиональное строительство и ремонт под ключ."
 
-#: templates/services.html:33
-msgid "2. Project design led by one of our architects;"
-msgstr "2. Разработка проекта под руководством одного из наших архитекторов;"
 
-#: templates/services.html:34
-msgid "3. Construction by one of our in-house crews;"
-msgstr "3. Строительство силами одной из наших собственных бригад;"
-
-#: templates/services.html:35
-msgid "4. Job close out with the whole team."
-msgstr "4. Закрытие работы со всей командой."
-
-#: templates/services.html:55 templates/services.html:94
-#: templates/services.html:131
-msgid "Step"
-msgstr "Этап"
-
-#: templates/services.html:56
-msgid "Consultation"
-msgstr "Консультация"
-
-#: templates/services.html:59
+#: templates/services.html:37
 msgid ""
-"\n"
-"\t\t\t  I take pride in providing a high level of personalized service, "
-"starting from the first day\n"
-"\t\t\t  in your home. We aim to understand your living space and you "
-"better. We want to learn about\n"
-"\t\t\t  your ideas and project vision, as well as address any specific "
-"needs. We welcome any photos\n"
-"\t\t\t  or sketches you've created. Incorporating the client's personal "
-"preferences into the design\n"
-"\t\t\t  allows us to create a unique and functional space. We also keep "
-"an eye on the latest trends\n"
-"\t\t\t  in design and construction, offering innovative solutions.\n"
-"\t\t\t  <br>\n"
-"\t\t\t  <br>\n"
-"\t\t\t  In our approach, we implement project management systems for "
-"transparency,\n"
-"\t\t\t  efficiency, and adherence to deadlines. Demonstrating an interest"
-" in sustainable\n"
-"\t\t\t  design and using environmentally friendly materials is an "
-"integral part of our philosophy.\n"
-"\t\t\t  Personal involvement in the project and a willingness to work "
-"closely with clients ensure\n"
-"\t\t\t  the successful realization of their dreams. Within seven days, we"
-" will provide you with a preliminary\n"
-"\t\t\t  proposal, including an approximate cost estimate.\n"
-"\t\t\t  "
+"We offer a full range of construction and renovation services across "
+"Europe, legally guaranteeing high quality, professionalism, and attention"
+" to detail. From apartment renovations to house construction, we bring "
+"your ideas to life."
 msgstr ""
-"Я горжусь предоставлением высокого уровня персонализированных услуг, "
-"начиная с первого дня\n"
-"в вашем доме. Мы стремимся лучше понять ваше пространство и вас. Мы хотим"
-" узнать о\n"
-"ваших идеях и видении проекта, а также удовлетворить любые конкретные "
-"потребности. Мы приветствуем любые фотографии\n"
-"или эскизы, которые вы создали. Включение персональных предпочтений "
-"клиента в дизайн\n"
-"позволяет нам создавать уникальное и функциональное пространство. Мы "
-"также следим за последними тенденциями\n"
-"в дизайне и строительстве, предлагая инновационные решения.\n"
-"<br>\n"
-"<br>\n"
-"В нашем подходе мы внедряем системы управления проектами для обеспечения "
-"прозрачности,\n"
-"эффективности и соблюдения сроков. Проявление интереса к устойчивому\n"
-"дизайну и использование экологически чистых материалов является "
-"неотъемлемой частью нашей философии.\n"
-"Личное участие в проекте и готовность работать близко с клиентами "
-"обеспечивают\n"
-"успешную реализацию их мечт. В течение семи дней мы предоставим вам "
-"предварительное\n"
-"предложение, включая примерную стоимость.\n"
+"Мы предлагаем полный спектр услуг по строительству и ремонту по всей "
+"Европе, законно гарантируя высокое качество, профессионализм и внимание "
+"к деталям. От ремонта квартир до строительства домов, мы воплощаем "
+"ваши идеи в жизнь."
 
-#: templates/services.html:77
-msgid "COST: Free"
-msgstr "СТОИМОСТЬ: Бесплатно"
 
-#: templates/services.html:95
-msgid "Design"
-msgstr "Дизайн"
+#: templates/services.html:58
+msgid "We are not superheroes, but our team works wonders."
+msgstr "Мы не супергерои, но наша команда творит чудеса."
 
-#: templates/services.html:99
+
+#: templates/services.html:64
+msgid "Kulbachenko Construction | Construction of a house"
+msgstr "Kulbachenko Construction | Строительство дома"
+
+
+#: templates/services.html:73
+msgid "Kulbachenko Construction | Venetian Plaster"
+msgstr "Kulbachenko Construction | Венецианская штукатурка"
+
+
+#: templates/services.html:76
 msgid ""
-"\n"
-"\t\t\t  After the approval of the cost estimate, we proceed to the design"
-" and pre-construction phase.\n"
-"\t\t\t  Our architect-designers will strive to align your project program"
-" with your construction budget.\n"
-"\t\t\t  At this stage, we research and select materials, as well as "
-"create conceptual, permitting, and\n"
-"\t\t\t  construction drawings. We also generate three-dimensional "
-"renderings to help you visualize the\n"
-"\t\t\t  new space. This critical phase of the project typically takes "
-"more time than the actual construction\n"
-"\t\t\t  and requires close coordination with you, the client. We "
-"streamline the process by creating a detailed\n"
-"\t\t\t  design schedule that outlines tasks, responsible parties, and "
-"anticipated stages.\n"
-"\t\t\t  "
+"With over 300 successfully completed projects, we confidently call "
+"ourselves experts in the construction industry."
 msgstr ""
-"После утверждения сметы затрат мы переходим к проектированию и "
-"предварительной фазе строительства.\n"
-"Наши архитекторы-дизайнеры будут стремиться согласовать ваш проектный "
-"план с бюджетом на строительство.\n"
-"На этом этапе мы проводим исследования и выбираем материалы, а также "
-"создаем концептуальные, разрешительные и\n"
-"рабочие чертежи. Мы также создаем трехмерные визуализации, чтобы помочь "
-"вам представить\n"
-"новое пространство. Этот критический этап проекта обычно занимает больше "
-"времени, чем фактическое строительство,\n"
-"и требует тесного сотрудничества с вами, клиентом. Мы оптимизируем "
-"процесс, создавая подробный\n"
-"график проектирования, в котором указываются задачи, ответственные лица и"
-" ожидаемые этапы.\n"
+"С более чем 300 успешно завершенными проектами мы с уверенностью называем "
+"себя экспертами в строительной отрасли."
 
-#: templates/services.html:109
-#, python-format
-msgid "COST: typically 10 – 15%% of estimated construction cost"
-msgstr "СТОИМОСТЬ: обычно 10 – 15%% от предполагаемой стоимости строительства"
 
-#: templates/services.html:135
+#: templates/services.html:80
+msgid "Construction Services"
+msgstr "Строительные услуги"
+
+
+#: templates/services.html:82
+msgid "New build construction"
+msgstr "Строительство нового здания"
+
+
+#: templates/services.html:83
+msgid "Brick/block house construction"
+msgstr "Строительство кирпичных/блочных домов"
+
+
+#: templates/services.html:84
+msgid "Foundation works"
+msgstr "Фундаментные работы"
+
+
+#: templates/services.html:85
+msgid "Roofing works"
+msgstr "Кровельные работы"
+
+
+#: templates/services.html:86
+msgid "External insulation"
+msgstr "Внешняя изоляция"
+
+
+#: templates/services.html:111
+msgid "Renovation Services"
+msgstr "Услуги по ремонту"
+
+
+#: templates/services.html:113
+msgid "Turnkey apartment renovation"
+msgstr "Ремонт квартиры под ключ"
+
+
+#: templates/services.html:114
+msgid "Full refurbishment"
+msgstr "Полная реконструкция"
+
+
+#: templates/services.html:115
+msgid "House renovation"
+msgstr "Ремонт дома"
+
+
+#: templates/services.html:116
+msgid "Comprehensive renovation"
+msgstr "Комплексный ремонт"
+
+
+#: templates/services.html:117
+msgid "Cosmetic renovation"
+msgstr "Косметический ремонт"
+
+
+#: templates/services.html:118
+msgid "Interior design and refurbishment"
+msgstr "Дизайн интерьера и реконструкция"
+
+
+#: templates/services.html:137
+msgid "Kulbachenko Construction | Turnkey Apartment Renovation Services"
+msgstr "Kulbachenko Construction | Услуги по ремонту квартир под ключ"
+
+
+#: templates/services.html:147
 msgid ""
-"\n"
-"\t\t\t  Once the project is completed, and you sign the construction "
-"contract, we will obtain permits and commence work on-site. Readiness to "
-"address unforeseen challenges or make adjustments in case of changing "
-"circumstances is a crucial aspect of our approach. In the event of "
-"unexpected situations, we take measures to minimize potential delays, "
-"ensuring the smooth progression of the project.\n"
-"\t\t\t  <br><br>\n"
-"\t\t\t  Specific stages will be implemented at the construction site "
-"every week or month, and we will provide you with a detailed schedule so "
-"that you are always informed about our progress.\n"
-"\t\t\t  <br><br>\n"
-"\t\t\t  As the client, you have the opportunity to provide your comments "
-"or suggestions during the construction process. We are open to "
-"interaction through regular meetings, online platforms, or other "
-"communication means. Your feedback is important to us, and we strive to "
-"facilitate effective communication by providing regular updates and "
-"promptly responding to questions or concerns.\n"
-"\t\t\t  <br><br>\n"
-"\t\t\t  We offer 24/7 access via phone and email, even on weekends, to "
-"promptly address any questions or changes that may arise during "
-"construction. Your construction phase coordinator will provide you with "
-"daily updates on our progress and be ready to answer all your inquiries."
-"\n"
-"\t\t\t  "
+    "Kulbachenko Construction | Professional Electrical and MEP Installation "
+"Services"
 msgstr ""
-"После завершения проекта и подписания договора на строительство, мы "
-"получим разрешения и начнем работу на месте. Готовность к\n"
-"решению непредвиденных проблем или корректировке в случае изменения\n"
-"обстоятельств - это ключевой аспект нашего подхода. В случае\n"
-"непредвиденных ситуаций мы принимаем меры для минимизации\n"
-"возможных задержек, обеспечивая плавное развитие проекта.\n"
-"<br><br>\n"
-"Конкретные этапы будут реализованы на строительной площадке\n"
-"каждую неделю или месяц, и мы предоставим вам подробный график,\n"
-"чтобы вы всегда были информированы о нашем прогрессе.\n"
-"<br><br>\n"
-"В качестве клиента у вас есть возможность давать свои комментарии\n"
-"или предложения во время строительного процесса. Мы открыты для\n"
-"взаимодействия через регулярные встречи, онлайн-платформы или\n"
-"другие средства связи. Ваша обратная связь важна для нас, и мы\n"
-"стремимся обеспечить эффективное общение, предоставляя регулярные\n"
-"обновления и оперативно отвечая на вопросы или заботы.\n"
-"<br><br>\n"
-"Мы предлагаем доступ 24/7 по телефону и электронной почте, даже\n"
-"в выходные, чтобы оперативно решать любые вопросы или изменения,\n"
-"которые могут возникнуть во время строительства. Ваш координатор\n"
-"фазы строительства будет предоставлять вам ежедневные обновления\n"
-"о нашем прогрессе и готов ответить на все ваши запросы."
+"Kulbachenko Construction | Профессиональные услуги по установке "
+"электрики и инженерных систем"
 
-#: templates/services.html:145 templates/services.html:189
-msgid "COST: by agreement"
-msgstr "СТОИМОСТЬ: по соглашению"
 
-#: templates/services.html:169
-msgid "Closeout"
-msgstr "Завершение"
 
-#: templates/services.html:173
+#: templates/services.html:153
+msgid "Engineering and Electrical Works"
+msgstr "Инженерные и электрические работы"
+
+
+#: templates/services.html:155
+msgid "MEP installation"
+msgstr "Установка инженерных систем"
+
+
+#: templates/services.html:156
+msgid "Electrical works"
+msgstr "Электромонтажные работы"
+
+
+#: templates/services.html:179
+msgid "Finishing and Office Fit-out Works"
+msgstr "Отделочные и офисные работы"
+
+
+#: templates/services.html:181
+msgid "Finishing works"
+msgstr "Отделочные работы"
+
+
+#: templates/services.html:182
+msgid "Office fit-out"
+msgstr "Офисная отделка"
+
+
+#: templates/services.html:201
 msgid ""
-"\n"
-"\t\t\t\tWhen our team completes the construction:\n"
-"\t\t\t\t<br><br>\n"
-"\t\t\t\tAfter a thorough cleanup of the construction site, we will "
-"conduct a final review with you\n"
-"\t\t\t\tto ensure that every detail meets your expectations. We value "
-"your feedback, and your input\n"
-"\t\t\t\tin the form of an evaluation will be a crucial component of our "
-"commitment to continuous\n"
-"\t\t\t\tservice improvement.\n"
-"\t\t\t\t<br><br>\n"
-"\t\t\t\tIf, after completing the main stages of the project, you wish to "
-"add additional finishing\n"
-"\t\t\t\tworks, we are ready to provide additional services. Your "
-"satisfaction is our top priority.\n"
-"\t\t\t\t<br><br>\n"
-"\t\t\t\tAfter the project is completed, we will stay in touch, ready to "
-"address any questions or issues that may arise after inhabiting the "
-"updated space. Our team is ready to provide additional services if future"
-" support is needed.\n"
-"\t\t\t\t<br><br>\n"
-"\t\t\t\tIn the case of any suggestions or desires to make changes, we are"
-" open to personal discussions and adjustments to ensure that your home "
-"fully meets all your requirements. Your comfort and satisfaction are our "
-"primary concerns.\n"
-"\t\t\t\t"
+"Kulbachenko Construction | Professional Finishing and Office Fit-out "
+"Services"
 msgstr ""
-"Когда наша команда завершает строительство:\n"
-"<br><br>\n"
-"После тщательной уборки строительной площадки, мы проведем окончательный "
-"обзор с вами\n"
-"для того чтобы убедиться, что каждая деталь соответствует вашим "
-"ожиданиям. Мы ценим\n"
-"вашу обратную связь, и ваше мнение\n"
-"в форме оценки будет важной составляющей нашего\n"
-"принципа постоянного\n"
-"улучшения сервиса.\n"
-"<br><br>\n"
-"Если, после завершения основных этапов проекта, вы хотите\n"
-"добавить дополнительные отделочные\n"
-"работы, мы готовы предоставить дополнительные услуги. Ваше\n"
-"удовлетворение - наш главный приоритет.\n"
-"<br><br>\n"
-"После завершения проекта мы останемся на связи, готовы\n"
-"ответить на любые вопросы или проблемы, которые могут возникнуть после\n"
-"проживания в\n"
-"обновленном пространстве. Наша команда готова предоставить дополнительные"
-" услуги, если\n"
-"возникнет потребность в\n"
-"будущей поддержке.\n"
-"<br><br>\n"
-"В случае каких-либо предложений или желания внести изменения, мы\n"
-"открыты для личных обсуждений и корректировок, чтобы\n"
-"обеспечить полное соответствие вашего дома всем вашим требованиям. Ваше\n"
-"комфорт и удовлетворение - наши\n"
-"главные заботы.\n"
+"Kulbachenko Construction | Профессиональные услуги по отделке и "
+"офисной отделке"
+
+
+#: templates/services.html:211
+msgid "Kulbachenko Construction | Professional Landscaping and Fencing Services"
+msgstr "Kulbachenko Construction | Профессиональные услуги по ландшафтному дизайну и установке заборов"
+
+
+#: templates/services.html:217
+msgid "Additional Services"
+msgstr "Дополнительные услуги"
+
+
+#: templates/services.html:219
+msgid "Landscaping and Fencing"
+msgstr "Ландшафтный дизайн и установка заборов"
+
+
+#: templates/services.html:220
+msgid "Interior Design Solutions"
+msgstr "Решения в области дизайна интерьера"
+
+
+#: templates/services.html:241
+msgid "See our portfolio of renovation projects"
+msgstr "Смотрите наше портфолио ремонтных проектов"
+
+
+#: templates/blog_templates/apartment-renovation.html:3
+#: templates/blog_templates/apartment-renovation.html:15
+#: templates/blog_templates/building-creation.html:137
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:114
+#: templates/blog_templates/shower-without-tray.html:203
+#: templates/blog_templates/stages-of-plumbing-work.html:128
+msgid "Apartment renovation"
+msgstr "Ремонт квартиры"
 
 #: templates/blog_templates/apartment-renovation.html:16
 #: templates/blog_templates/apartment-renovation.html:124
@@ -1042,6 +1610,32 @@ msgstr ""
 #: templates/blog_templates/stages-of-plumbing-work.html:104
 msgid "Recent posts"
 msgstr "Последние публикации"
+
+#: templates/blog_templates/apartment-renovation.html:123
+#: templates/blog_templates/building-creation.html:112
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:102
+#: templates/blog_templates/stages-of-plumbing-work.html:3
+#: templates/blog_templates/stages-of-plumbing-work.html:17
+msgid "Stages of Plumbing Work in Apartment Renovation"
+msgstr "Этапы сантехнических работ при ремонте квартиры"
+
+#: templates/blog_templates/apartment-renovation.html:137
+#: templates/blog_templates/building-creation.html:125
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:3
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:17
+#: templates/blog_templates/shower-without-tray.html:190
+#: templates/blog_templates/stages-of-plumbing-work.html:115
+msgid "Key Steps in Electrical Installation for Apartment Renovation"
+msgstr "Основные этапы электромонтажа при ремонте квартиры"
+
+#: templates/blog_templates/apartment-renovation.html:150
+#: templates/blog_templates/building-creation.html:3
+#: templates/blog_templates/building-creation.html:15
+#: templates/blog_templates/electrical-installation-for-apartment-renovation.html:127
+#: templates/blog_templates/shower-without-tray.html:217
+#: templates/blog_templates/stages-of-plumbing-work.html:142
+msgid "Building creation"
+msgstr "Создание здания"
 
 #: templates/blog_templates/building-creation.html:17
 msgid ""
@@ -1863,6 +2457,16 @@ msgstr ""
 "\n"
 "\n"
 
+#: templates/new_blog_pages/roofing-works.html:3
+msgid "Quality roofing works with KULBACHENKO CONSTRUCTION"
+msgstr "Качественные кровельные работы с KULBACHENKO CONSTRUCTION"
+
+
+#: templates/new_blog_templates/Complete-Renovation-Services-in-Amsterdam-and-The-Hague.html:3
+msgid "Complete Renovation Services in Amsterdam and The Hague"
+msgstr "Комплексные услуги по ремонту в Амстердаме и Гааге"
+
+
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:4
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:42
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:51
@@ -2333,4 +2937,528 @@ msgstr ""
 #~ "одним из наших внутренних бригад; и\n"
 #~ ""
 #~ "завершение работы всей командой."
+
+#~ msgid ""
+#~ "My name is Sergey Kulbachenko, I "
+#~ "have been working in the construction"
+#~ " industry for a long time. It "
+#~ "all started when I came to Kyiv"
+#~ " in 2005 and got an education..."
+#~ msgstr ""
+#~ "Меня зовут Сергей Кульбаченко, я работаю"
+#~ " в строительной отрасли уже долгое "
+#~ "время. Все началось, когда я приехал "
+#~ "в Киев в 2005 году и получил "
+#~ "образование..."
+
+#~ msgid "About"
+#~ msgstr "О нас"
+
+#~ msgid ""
+#~ "My name is Serhii Kulbachenko, and "
+#~ "I have been working in the "
+#~ "construction industry for a long time."
+#~ " It all started when I came to"
+#~ " Kyiv and received education in the"
+#~ " specialties of bricklayer-stove-setter,"
+#~ " electric welder, and installer of "
+#~ "reinforced concrete structures. My journey "
+#~ "began as a laborer in a "
+#~ "construction team, but I realized my "
+#~ "potential and decided to start my "
+#~ "own business. Over time, I formed "
+#~ "my own construction team, attracting "
+#~ "many satisfied customers due to years"
+#~ " of experience and professionalism. Working"
+#~ " in Europe, I became acquainted with"
+#~ " new materials, technologies, and "
+#~ "standards. With a constant commitment to"
+#~ " improvement, I successfully organized and"
+#~ " developed my business from scratch, "
+#~ "continuing to provide high-quality "
+#~ "services and earn your trust. I'll "
+#~ "be happy to collaborate!"
+#~ msgstr ""
+#~ "Меня зовут Сергей Кульбаченко, и я "
+#~ "работаю в строительной индустрии уже "
+#~ "довольно долгое время. Всё началось, "
+#~ "когда я приехал в Киев и получил"
+#~ " образование по специальностям кладчика-печника,"
+#~ " электросварщика и монтажника железобетонных "
+#~ "конструкций. Мой путь начался как "
+#~ "рабочий в строительной бригаде, но я "
+#~ "осознал свой потенциал и решил начать"
+#~ " свой собственный бизнес. Со временем "
+#~ "я сформировал свою собственную строительную"
+#~ " бригаду, привлекая множество довольных "
+#~ "клиентов благодаря годам опыта и "
+#~ "профессионализма. Работая в Европе, я "
+#~ "познакомился с новыми материалами, "
+#~ "технологиями и стандартами. С постоянным "
+#~ "стремлением к улучшению, я успешно "
+#~ "организовал и развил свой бизнес с "
+#~ "нуля, продолжая предоставлять качественные "
+#~ "услуги и заслуживая ваше доверие. Буду"
+#~ " рад сотрудничеству!"
+
+#~ msgid "Verify Submit"
+#~ msgstr "Подтвердить отправку"
+
+#~ msgid "Plumbing"
+#~ msgstr "Сантехника"
+
+#~ msgid "Shower without tray: Useful properties and advantages"
+#~ msgstr "Душевая кабина без поддона: Полезные свойства и преимущества"
+
+#~ msgid "Jun"
+#~ msgstr "Янв"
+
+#~ msgid ""
+#~ "A walk-in shower, also known as"
+#~ " a floor-level shower, offers a "
+#~ "modern and practical solution for "
+#~ "bathrooms. Without a raised base or "
+#~ "traditional tray, it provides a sleek,"
+#~ " minimalist look, ease of use, and"
+#~ " improved hygiene. Ideal for all ages"
+#~ " and abilities, it is easy to "
+#~ "clean and can increase property value."
+#~ " Consider this stylish option for "
+#~ "your next bathroom renovation.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Душевая кабина без поддона, также "
+#~ "известная как душевая на уровне пола,"
+#~ " предлагает современное и практичное "
+#~ "решение для ванных комнат. Без поднятого"
+#~ " основания или традиционного поддона она"
+#~ " обеспечивает стильный, минималистичный вид, "
+#~ "удобство использования и улучшенную гигиену."
+#~ " Идеально подходит для людей всех "
+#~ "возрастов и способностей, легко чистится "
+#~ "и может повысить стоимость недвижимости. "
+#~ "Рассмотрите этот стильный вариант для "
+#~ "вашего следующего ремонта ванной комнаты.\n"
+#~ ""
+#~ "\n"
+
+#~ msgid "Continue reading"
+#~ msgstr "Продолжить чтение"
+
+#~ msgid "Jan"
+#~ msgstr "Янв"
+
+#~ msgid ""
+#~ "Discover the comprehensive steps involved "
+#~ "in plumbing during a major apartment "
+#~ "renovation. From initial assessment to "
+#~ "final documentation, each stage ensures "
+#~ "the installation of reliable and safe"
+#~ " plumbing systems, encompassing everything "
+#~ "from demolition to testing and "
+#~ "connection of appliances."
+#~ msgstr ""
+#~ "Узнайте о комплексных этапах выполнения "
+#~ "сантехнических работ во время крупного "
+#~ "ремонта квартиры. От первоначальной оценки "
+#~ "до завершающей документации, каждый этап "
+#~ "гарантирует установку надежных и безопасных"
+#~ " систем снабжения водой, включая всё "
+#~ "от демонтажа до тестирования и "
+#~ "подключения бытовой техники."
+
+#~ msgid "Comprehensive Electrical Installation for Apartment Renovation"
+#~ msgstr "Комплексный электромонтаж при ремонте квартиры"
+
+#~ msgid "Jan 24"
+#~ msgstr "24 Янв"
+
+#~ msgid "A comprehensive apartment renovation includes various stages"
+#~ msgstr "Комплексный ремонт квартиры включает различные этапы"
+
+#~ msgid "Construction"
+#~ msgstr "Строительство"
+
+#~ msgid ""
+#~ "Rough construction works in the building"
+#~ " industry represent the initial stage "
+#~ "of constructing a building"
+#~ msgstr ""
+#~ "Грубые строительные работы в строительной "
+#~ "индустрии представляют собой начальный этап"
+#~ " строительства здания"
+
+#~ msgid ""
+#~ "Construction and repair services for "
+#~ "apartments and offices in various sizes."
+#~ " Professional construction work aimed at"
+#~ " private houses."
+#~ msgstr ""
+#~ "Строительные и ремонтные услуги для "
+#~ "квартир и офисов различных размеров. "
+#~ "Профессиональные строительные работы, направленные"
+#~ " на частные дома."
+
+#~ msgid "VIEW OUR PORTFOLIO"
+#~ msgstr "ПРОСМОТРЕТЬ НАШ ПОРТФОЛИО"
+
+#~ msgid ""
+#~ "We specialize professionally in providing "
+#~ "services for construction, renovation, and "
+#~ "interior design.\n"
+#~ "            Our company has extensive "
+#~ "experience in implementing various projects:"
+#~ " from large-scale construction works\n"
+#~ ""
+#~ "            to small finishing works.\n"
+#~ "            &nbsp;<br>&nbsp;\n"
+#~ "            &nbsp;<br>&nbsp;\n"
+#~ "            We strive to achieve the "
+#~ "highest quality in every project, "
+#~ "ensuring individual approach and meticulous"
+#~ "\n"
+#~ "            attention to details for our"
+#~ " clients. If you need to renovate "
+#~ "an apartment, build a country house, "
+#~ "or\n"
+#~ "            create a unique interior "
+#~ "design, we are ready to exceed "
+#~ "your expectations."
+#~ msgstr ""
+#~ "Мы специализируемся профессионально в "
+#~ "предоставлении услуг по строительству, ремонту"
+#~ " и дизайну интерьеров.\n"
+#~ "Наша компания имеет обширный опыт в "
+#~ "реализации различных проектов: от "
+#~ "крупномасштабных строительных работ\n"
+#~ "до мелких отделочных работ.\n"
+#~ "&nbsp;<br>&nbsp;\n"
+#~ "&nbsp;<br>&nbsp;\n"
+#~ "Мы стремимся достичь высочайшего качества "
+#~ "в каждом проекте, обеспечивая индивидуальный"
+#~ " подход и тщательное\n"
+#~ "внимание к деталям для наших клиентов."
+#~ " Если вам нужен ремонт квартиры, "
+#~ "постройка загородного дома или\n"
+#~ "создание уникального дизайна интерьера, мы "
+#~ "готовы превзойти ваши ожидания."
+
+#~ msgid ""
+#~ "Learn about our comprehensive four-step process for home renovation,\n"
+#~ "     condo remodel, or kitchen redesign."
+#~ " From initial consultation to project "
+#~ "closeout, we ensure transparency,\n"
+#~ "      efficiency, and client satisfaction."
+#~ msgstr ""
+#~ "Узнайте о нашем комплексном четырёхэтапном процессе ремонта дома,\n"
+#~ "реконструкции квартиры или перепланировки "
+#~ "кухни. От начальной консультации до\n"
+#~ "завершения проекта, мы обеспечиваем прозрачность,\n"
+#~ "эффективность и удовлетворение клиента."
+
+#~ msgid "OUR 4-STEP PROCESS"
+#~ msgstr "НАШ 4-ЭТАПНЫЙ ПРОЦЕСС"
+
+#~ msgid "Be it a full home renovation, condo remodel, or kitchen redesign,"
+#~ msgstr ""
+#~ "Будь то полная реконструкция дома, "
+#~ "перепланировка квартиры или перепланировка "
+#~ "кухни,"
+
+#~ msgid "our four-step process is straightforward and organized:"
+#~ msgstr "Наш четырехэтапный процесс прост и организован:"
+
+#~ msgid "1. Initial consultation with one of our team leads;"
+#~ msgstr "1. Первичная консультация с одним из руководителей нашей команды;"
+
+#~ msgid "2. Project design led by one of our architects;"
+#~ msgstr "2. Разработка проекта под руководством одного из наших архитекторов;"
+
+#~ msgid "3. Construction by one of our in-house crews;"
+#~ msgstr "3. Строительство силами одной из наших собственных бригад;"
+
+#~ msgid "4. Job close out with the whole team."
+#~ msgstr "4. Закрытие работы со всей командой."
+
+#~ msgid "Step"
+#~ msgstr "Этап"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t  I take pride in providing "
+#~ "a high level of personalized service,"
+#~ " starting from the first day\n"
+#~ "\t\t\t  in your home. We aim to"
+#~ " understand your living space and you"
+#~ " better. We want to learn about\n"
+#~ ""
+#~ "\t\t\t  your ideas and project vision,"
+#~ " as well as address any specific "
+#~ "needs. We welcome any photos\n"
+#~ "\t\t\t  or sketches you've created. "
+#~ "Incorporating the client's personal "
+#~ "preferences into the design\n"
+#~ "\t\t\t  allows us to create a "
+#~ "unique and functional space. We also "
+#~ "keep an eye on the latest trends"
+#~ "\n"
+#~ "\t\t\t  in design and construction, offering innovative solutions.\n"
+#~ "\t\t\t  <br>\n"
+#~ "\t\t\t  <br>\n"
+#~ "\t\t\t  In our approach, we implement"
+#~ " project management systems for "
+#~ "transparency,\n"
+#~ "\t\t\t  efficiency, and adherence to "
+#~ "deadlines. Demonstrating an interest in "
+#~ "sustainable\n"
+#~ "\t\t\t  design and using environmentally "
+#~ "friendly materials is an integral part"
+#~ " of our philosophy.\n"
+#~ "\t\t\t  Personal involvement in the "
+#~ "project and a willingness to work "
+#~ "closely with clients ensure\n"
+#~ "\t\t\t  the successful realization of "
+#~ "their dreams. Within seven days, we "
+#~ "will provide you with a preliminary\n"
+#~ ""
+#~ "\t\t\t  proposal, including an approximate cost estimate.\n"
+#~ "\t\t\t  "
+#~ msgstr ""
+#~ "Я горжусь предоставлением высокого уровня "
+#~ "персонализированных услуг, начиная с первого"
+#~ " дня\n"
+#~ "в вашем доме. Мы стремимся лучше "
+#~ "понять ваше пространство и вас. Мы "
+#~ "хотим узнать о\n"
+#~ "ваших идеях и видении проекта, а "
+#~ "также удовлетворить любые конкретные "
+#~ "потребности. Мы приветствуем любые фотографии"
+#~ "\n"
+#~ "или эскизы, которые вы создали. "
+#~ "Включение персональных предпочтений клиента в"
+#~ " дизайн\n"
+#~ "позволяет нам создавать уникальное и "
+#~ "функциональное пространство. Мы также следим"
+#~ " за последними тенденциями\n"
+#~ "в дизайне и строительстве, предлагая инновационные решения.\n"
+#~ "<br>\n"
+#~ "<br>\n"
+#~ "В нашем подходе мы внедряем системы "
+#~ "управления проектами для обеспечения "
+#~ "прозрачности,\n"
+#~ "эффективности и соблюдения сроков. Проявление интереса к устойчивому\n"
+#~ "дизайну и использование экологически чистых"
+#~ " материалов является неотъемлемой частью "
+#~ "нашей философии.\n"
+#~ "Личное участие в проекте и готовность"
+#~ " работать близко с клиентами обеспечивают"
+#~ "\n"
+#~ "успешную реализацию их мечт. В течение"
+#~ " семи дней мы предоставим вам "
+#~ "предварительное\n"
+#~ "предложение, включая примерную стоимость.\n"
+
+#~ msgid "COST: Free"
+#~ msgstr "СТОИМОСТЬ: Бесплатно"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t  After the approval of the "
+#~ "cost estimate, we proceed to the "
+#~ "design and pre-construction phase.\n"
+#~ "\t\t\t  Our architect-designers will "
+#~ "strive to align your project program "
+#~ "with your construction budget.\n"
+#~ "\t\t\t  At this stage, we research "
+#~ "and select materials, as well as "
+#~ "create conceptual, permitting, and\n"
+#~ "\t\t\t  construction drawings. We also "
+#~ "generate three-dimensional renderings to "
+#~ "help you visualize the\n"
+#~ "\t\t\t  new space. This critical phase"
+#~ " of the project typically takes more"
+#~ " time than the actual construction\n"
+#~ "\t\t\t  and requires close coordination "
+#~ "with you, the client. We streamline "
+#~ "the process by creating a detailed\n"
+#~ ""
+#~ "\t\t\t  design schedule that outlines "
+#~ "tasks, responsible parties, and anticipated"
+#~ " stages.\n"
+#~ "\t\t\t  "
+#~ msgstr ""
+#~ "После утверждения сметы затрат мы "
+#~ "переходим к проектированию и предварительной"
+#~ " фазе строительства.\n"
+#~ "Наши архитекторы-дизайнеры будут стремиться "
+#~ "согласовать ваш проектный план с "
+#~ "бюджетом на строительство.\n"
+#~ "На этом этапе мы проводим исследования"
+#~ " и выбираем материалы, а также "
+#~ "создаем концептуальные, разрешительные и\n"
+#~ "рабочие чертежи. Мы также создаем "
+#~ "трехмерные визуализации, чтобы помочь вам "
+#~ "представить\n"
+#~ "новое пространство. Этот критический этап "
+#~ "проекта обычно занимает больше времени, "
+#~ "чем фактическое строительство,\n"
+#~ "и требует тесного сотрудничества с вами,"
+#~ " клиентом. Мы оптимизируем процесс, "
+#~ "создавая подробный\n"
+#~ "график проектирования, в котором указываются"
+#~ " задачи, ответственные лица и ожидаемые "
+#~ "этапы.\n"
+
+#~ msgid "COST: typically 10 – 15%% of estimated construction cost"
+#~ msgstr "СТОИМОСТЬ: обычно 10 – 15%% от предполагаемой стоимости строительства"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t  Once the project is completed,"
+#~ " and you sign the construction "
+#~ "contract, we will obtain permits and "
+#~ "commence work on-site. Readiness to "
+#~ "address unforeseen challenges or make "
+#~ "adjustments in case of changing "
+#~ "circumstances is a crucial aspect of "
+#~ "our approach. In the event of "
+#~ "unexpected situations, we take measures "
+#~ "to minimize potential delays, ensuring "
+#~ "the smooth progression of the project."
+#~ "\n"
+#~ "\t\t\t  <br><br>\n"
+#~ "\t\t\t  Specific stages will be "
+#~ "implemented at the construction site "
+#~ "every week or month, and we will"
+#~ " provide you with a detailed schedule"
+#~ " so that you are always informed "
+#~ "about our progress.\n"
+#~ "\t\t\t  <br><br>\n"
+#~ "\t\t\t  As the client, you have "
+#~ "the opportunity to provide your comments"
+#~ " or suggestions during the construction "
+#~ "process. We are open to interaction "
+#~ "through regular meetings, online platforms,"
+#~ " or other communication means. Your "
+#~ "feedback is important to us, and "
+#~ "we strive to facilitate effective "
+#~ "communication by providing regular updates "
+#~ "and promptly responding to questions or"
+#~ " concerns.\n"
+#~ "\t\t\t  <br><br>\n"
+#~ "\t\t\t  We offer 24/7 access via "
+#~ "phone and email, even on weekends, "
+#~ "to promptly address any questions or "
+#~ "changes that may arise during "
+#~ "construction. Your construction phase "
+#~ "coordinator will provide you with daily"
+#~ " updates on our progress and be "
+#~ "ready to answer all your inquiries.\n"
+#~ ""
+#~ "\t\t\t  "
+#~ msgstr ""
+#~ "После завершения проекта и подписания "
+#~ "договора на строительство, мы получим "
+#~ "разрешения и начнем работу на месте. "
+#~ "Готовность к\n"
+#~ "решению непредвиденных проблем или корректировке в случае изменения\n"
+#~ "обстоятельств - это ключевой аспект нашего подхода. В случае\n"
+#~ "непредвиденных ситуаций мы принимаем меры для минимизации\n"
+#~ "возможных задержек, обеспечивая плавное развитие проекта.\n"
+#~ "<br><br>\n"
+#~ "Конкретные этапы будут реализованы на строительной площадке\n"
+#~ "каждую неделю или месяц, и мы предоставим вам подробный график,\n"
+#~ "чтобы вы всегда были информированы о нашем прогрессе.\n"
+#~ "<br><br>\n"
+#~ "В качестве клиента у вас есть возможность давать свои комментарии\n"
+#~ "или предложения во время строительного процесса. Мы открыты для\n"
+#~ "взаимодействия через регулярные встречи, онлайн-платформы или\n"
+#~ "другие средства связи. Ваша обратная связь важна для нас, и мы\n"
+#~ "стремимся обеспечить эффективное общение, предоставляя регулярные\n"
+#~ "обновления и оперативно отвечая на вопросы или заботы.\n"
+#~ "<br><br>\n"
+#~ "Мы предлагаем доступ 24/7 по телефону и электронной почте, даже\n"
+#~ "в выходные, чтобы оперативно решать любые вопросы или изменения,\n"
+#~ "которые могут возникнуть во время строительства. Ваш координатор\n"
+#~ "фазы строительства будет предоставлять вам ежедневные обновления\n"
+#~ "о нашем прогрессе и готов ответить на все ваши запросы."
+
+#~ msgid "COST: by agreement"
+#~ msgstr "СТОИМОСТЬ: по соглашению"
+
+#~ msgid "Closeout"
+#~ msgstr "Завершение"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t\tWhen our team completes the construction:\n"
+#~ "\t\t\t\t<br><br>\n"
+#~ "\t\t\t\tAfter a thorough cleanup of "
+#~ "the construction site, we will conduct"
+#~ " a final review with you\n"
+#~ "\t\t\t\tto ensure that every detail "
+#~ "meets your expectations. We value your"
+#~ " feedback, and your input\n"
+#~ "\t\t\t\tin the form of an "
+#~ "evaluation will be a crucial component"
+#~ " of our commitment to continuous\n"
+#~ "\t\t\t\tservice improvement.\n"
+#~ "\t\t\t\t<br><br>\n"
+#~ "\t\t\t\tIf, after completing the main"
+#~ " stages of the project, you wish "
+#~ "to add additional finishing\n"
+#~ "\t\t\t\tworks, we are ready to "
+#~ "provide additional services. Your satisfaction"
+#~ " is our top priority.\n"
+#~ "\t\t\t\t<br><br>\n"
+#~ "\t\t\t\tAfter the project is completed,"
+#~ " we will stay in touch, ready "
+#~ "to address any questions or issues "
+#~ "that may arise after inhabiting the "
+#~ "updated space. Our team is ready "
+#~ "to provide additional services if future"
+#~ " support is needed.\n"
+#~ "\t\t\t\t<br><br>\n"
+#~ "\t\t\t\tIn the case of any "
+#~ "suggestions or desires to make changes,"
+#~ " we are open to personal discussions"
+#~ " and adjustments to ensure that your"
+#~ " home fully meets all your "
+#~ "requirements. Your comfort and satisfaction"
+#~ " are our primary concerns.\n"
+#~ "\t\t\t\t"
+#~ msgstr ""
+#~ "Когда наша команда завершает строительство:\n"
+#~ "<br><br>\n"
+#~ "После тщательной уборки строительной площадки,"
+#~ " мы проведем окончательный обзор с "
+#~ "вами\n"
+#~ "для того чтобы убедиться, что каждая "
+#~ "деталь соответствует вашим ожиданиям. Мы "
+#~ "ценим\n"
+#~ "вашу обратную связь, и ваше мнение\n"
+#~ "в форме оценки будет важной составляющей нашего\n"
+#~ "принципа постоянного\n"
+#~ "улучшения сервиса.\n"
+#~ "<br><br>\n"
+#~ "Если, после завершения основных этапов проекта, вы хотите\n"
+#~ "добавить дополнительные отделочные\n"
+#~ "работы, мы готовы предоставить дополнительные услуги. Ваше\n"
+#~ "удовлетворение - наш главный приоритет.\n"
+#~ "<br><br>\n"
+#~ "После завершения проекта мы останемся на связи, готовы\n"
+#~ "ответить на любые вопросы или проблемы,"
+#~ " которые могут возникнуть после\n"
+#~ "проживания в\n"
+#~ "обновленном пространстве. Наша команда готова"
+#~ " предоставить дополнительные услуги, если\n"
+#~ "возникнет потребность в\n"
+#~ "будущей поддержке.\n"
+#~ "<br><br>\n"
+#~ "В случае каких-либо предложений или желания внести изменения, мы\n"
+#~ "открыты для личных обсуждений и корректировок, чтобы\n"
+#~ "обеспечить полное соответствие вашего дома "
+#~ "всем вашим требованиям. Ваше\n"
+#~ "комфорт и удовлетворение - наши\n"
+#~ "главные заботы.\n"
 
