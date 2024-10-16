@@ -1,19 +1,37 @@
 {% extends "base.html" %}
 
+{% block meta %}
+    {% if language == 'en' %}
+        <meta name="description" content="Explore the Kulbachenko Construction blog for insights, tips, and updates on renovation and construction services. Discover our expertise in transforming spaces and keeping up with the latest trends in the industry.">
+
+    {% elif language == 'uk' %}
+        <meta name="description" content="Досліджуйте блог Kulbachenko Construction для отримання порад, рекомендацій та новин про ремонтні та будівельні послуги. Відкрийте для себе наш досвід у трансформації просторів і слідкуйте за останніми тенденціями в галузі.">
+
+    {% elif language == 'ru' %}
+        <meta name="description" content="Исследуйте блог Kulbachenko Construction, чтобы получить советы, рекомендации и обновления о ремонте и строительных услугах. Узнайте о нашем опыте в преобразовании пространств и следите за последними трендами в отрасли.">
+
+    {% elif language == 'et' %}
+        <meta name="description" content="Uurige Kulbachenko Constructioni blogi, et saada ülevaate, näpunäiteid ja värskendusi renoveerimis- ja ehitusteenuste kohta. Avasta meie teadmised ruumide muutmisest ja ole kursis tööstuse uusimate trendidega.">
+    {% endif %}
+
+    <link rel="canonical" href="{{ url_for('index', _external=True, setting_language=language) }}">
+
+{% endblock %}
+
 {% block title %}{{ _('Blog') }}{% endblock %}
 
 {% block content %}
 <div class="container_blog_page">
 
     <div class="blog_title">
-        <h1>Blog</h1>
+        <h1>{{ _('Blog') }}</h1>
     </div>
 
     <!-- Сортування за тегами -->
 <div class="blog_tags">
     <p>Пошук за тегами:</p>
     <div class="post_tags">
-        <a href="{{ url_for('blog', _external=True, setting_language=language) }}" class="post_tag all_tag">All</a>
+        <a href="{{ url_for('blog', _external=True, setting_language=language) }}" class="post_tag all_tag">{{ _('All posts') }}</a>
         <a href="{{ url_for('blog', tag=current_tags['renovation']) }}" class="post_tag renovation_tag">{{ current_tags['renovation'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['construction']) }}" class="post_tag construction_tag">{{ current_tags['construction'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['plumbing']) }}" class="post_tag plumbing_tag">{{ current_tags['plumbing'] }}</a>

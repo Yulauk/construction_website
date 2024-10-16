@@ -1,145 +1,179 @@
 {% extends 'base.html' %}
 
 {% block meta %}
-    <meta name="description" content="{{ _('Explore our portfolio showcasing our professional home cinema,
-     comprehensive renovation projects, and more. Discover the quality and expertise we bring to
-      every project we undertake.') }}">
+    {% if language == 'en' %}
+        <meta name="description" content="Explore Kulbachenko Construction's portfolio showcasing our completed renovation and construction projects. Discover our expertise in transforming spaces across Amsterdam, Rotterdam, The Hague, and Utrecht.">
+
+    {% elif language == 'uk' %}
+        <meta name="description" content="Досліджуйте портфоліо Kulbachenko Construction, що демонструє наші завершені проєкти з ремонту та будівництва. Дізнайтеся про наш досвід у трансформації просторів у Амстердамі, Роттердамі, Гаазі та Утрехті.">
+
+    {% elif language == 'ru' %}
+        <meta name="description" content="Изучите портфолио Kulbachenko Construction, демонстрирующее наши завершенные проекты по ремонту и строительству. Узнайте о нашем опыте в трансформации пространств в Амстердаме, Роттердаме, Гааге и Утрехте.">
+
+    {% elif language == 'et' %}
+        <meta name="description" content="Tutvuge Kulbachenko Constructioni portfelliga, mis näitab meie lõpetatud renoveerimis- ja ehitusprojekte. Avastage meie kogemused ruumide muutmisel Eestis, sealhulgas Tallinnas, Tartus ja mujal.">
+    {% endif %}
+
+    <link rel="canonical" href="{{ url_for('index', _external=True, setting_language=language) }}">
 {% endblock %}
+
 
 {% block title %}{{ _('Portfolio') }}{% endblock %}
 
 {% block content %}
     <div class="container py-2">
     <div class="album page-set bg-body-tertiary">
-        <h1>{{ _('PORTFOLIO') }}</h1>
-    </div>
 
-        <hr class="featurette-divider">
 
-        <div class="album page-set bg-body-tertiary section_portfolio_description">
-            <p>{{ _('Explore our portfolio showcasing our professional home cinema,
-                 comprehensive renovation projects, and more. Discover the quality and expertise we bring to
-                  every project we undertake.') }}
-            </p>
+
+<!--        <h1>{{ _('PORTFOLIO') }}</h1>-->
+        <div class="update-notice">
+            <h2>{{ _('Page Under Update') }}</h2>
+            <p>{{ _('We are currently updating this page. Our portfolio will be available here soon, showcasing our completed renovation and construction projects. Thank you for your patience!') }}</p>
         </div>
 
-        <hr class="featurette-divider">
-
-            <div class="album py-5 bg-body-tertiary">
-
-      <div class="row g-2 clearfix">
-
-          <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img" href="project/home-cinema-5-person">
-                <img class="HOME-CINEMA5" src="{{ url_for('static', filename='images/portfolio/cinema_5/cinema_2.jpeg') }}" alt="Portfolio Image">
-                <div class="description">
-                        <p>{{ _('PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE') }}</p>
-                </div>
-            </a>
-          </div>
-
-          <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img" href="project/renovation-in-the-varshavsky-residential-complex-in-kyiv">
-                <img class="COMPREHENSIVE-RENOVATION" src="{{ url_for('static', filename='images/portfolio/warsaw/warsaw_11.jpg') }}" alt="Portfolio Image">
-                <div class="description">
-                        <p>{{ _('COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV') }}</p>
-                </div>
-            </a>
-        </div>
-
-
-
-        <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img" href="project/estonian-academy-of-music-and-theater-in-tallinn-estonia">
-                <img class="ESTONIAN-ACADEMY" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_1.jpeg') }}" alt="Portfolio Image">
-                <div class="description">
-                        <p>{{ _('ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA') }}</p>
-                </div>
-            </a>
-        </div>
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/paving_stones_kulbachenko_1.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/paving_stones_kulbachenko_1.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/bass_cinema_kulbachenko.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/kulbachenko_3.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/kulbachenko_3.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/door_kulbachenko_1.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/bathroom_kulbachenko_1.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/bass_p.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
-<!--        <div class="col-sm-6 col-md-3 my-1">-->
-<!--            <a class="portfolio_img" href="#">-->
-<!--                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/wood_house_kulbackenko_1.jpeg') }}" alt="Portfolio Image">-->
-<!--                <div class="description">-->
-<!--                        <p>Your description text goes here.</p>-->
-<!--                </div>-->
-<!--            </a>-->
-<!--        </div>-->
-
+<style>
+.update-notice {
+    max-width: 390px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+.update-notice h2 {
+    color: #1C9528;
+}
+</style>
     </div>
-    </div>
+
+<!--        <hr class="featurette-divider">-->
+
+<!--        <div class="album page-set bg-body-tertiary section_portfolio_description">-->
+<!--            <p>{{ _('Explore our portfolio showcasing our professional home cinema,-->
+<!--                 comprehensive renovation projects, and more. Discover the quality and expertise we bring to-->
+<!--                  every project we undertake.') }}-->
+<!--            </p>-->
+<!--        </div>-->
+
+<!--        <hr class="featurette-divider">-->
+
+<!--            <div class="album py-5 bg-body-tertiary">-->
+
+<!--      <div class="row g-2 clearfix">-->
+
+<!--          <div class="col-sm-6 col-md-3 my-1">-->
+<!--            <a class="portfolio_img" href="project/home-cinema-5-person">-->
+<!--                <img class="HOME-CINEMA5" src="{{ url_for('static', filename='images/portfolio/cinema_5/cinema_2.jpeg') }}" alt="Portfolio Image">-->
+<!--                <div class="description">-->
+<!--                        <p>{{ _('PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE') }}</p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--          </div>-->
+
+<!--          <div class="col-sm-6 col-md-3 my-1">-->
+<!--            <a class="portfolio_img" href="project/renovation-in-the-varshavsky-residential-complex-in-kyiv">-->
+<!--                <img class="COMPREHENSIVE-RENOVATION" src="{{ url_for('static', filename='images/portfolio/warsaw/warsaw_11.jpg') }}" alt="Portfolio Image">-->
+<!--                <div class="description">-->
+<!--                        <p>{{ _('COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV') }}</p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+
+
+
+<!--        <div class="col-sm-6 col-md-3 my-1">-->
+<!--            <a class="portfolio_img" href="project/estonian-academy-of-music-and-theater-in-tallinn-estonia">-->
+<!--                <img class="ESTONIAN-ACADEMY" src="{{ url_for('static', filename='images/portfolio/estonian_academy/estonian-academy_1.jpeg') }}" alt="Portfolio Image">-->
+<!--                <div class="description">-->
+<!--                        <p>{{ _('ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA') }}</p>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/paving_stones_kulbachenko_1.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/paving_stones_kulbachenko_1.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/bass_cinema_kulbachenko.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/kulbachenko_3.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/kulbachenko_3.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/door_kulbachenko_1.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/bathroom_kulbachenko_1.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/bass_p.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <div class="col-sm-6 col-md-3 my-1">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="portfolio_img" href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="mb-2" src="{{ url_for('static', filename='images/carousel/wood_house_kulbackenko_1.jpeg') }}" alt="Portfolio Image">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <p>Your description text goes here.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--    </div>-->
+<!--    </div>-->
     </div>
 {% endblock %}
