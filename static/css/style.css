@@ -1217,9 +1217,8 @@ icon-background {
     padding: 20px;
 }
 
-.text_wrap h3 {
+.text_wrap h2 {
     position: relative;
-    font-size: 32px;
     color: white;
     z-index: 2; /* Текст завжди буде над розмитим фоном */
 }

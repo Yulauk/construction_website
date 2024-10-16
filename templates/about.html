@@ -17,6 +17,9 @@
         <meta name="description" content="Serhii Kulbachenko pakub renoveerimis- ja ehitusteenuseid Eestis ja Euroopas alates 2005. aastast.">
     {% endif %}
 
+    <link rel="canonical" href="{{ url_for('index', _external=True, setting_language=language) }}">
+
+
 {% endblock %}
 
 {% block title %}{{ _('Construction and Renovation Services in Europe | Serhii Kulbachenko') }}{% endblock %}
