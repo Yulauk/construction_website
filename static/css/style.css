@@ -1167,7 +1167,7 @@ icon-background {
 
 .apartment_renovation_text {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     align-content: center;
     flex-direction: column;
     justify-content: center;
@@ -1217,7 +1217,7 @@ icon-background {
     padding: 20px;
 }
 
-.text_wrap h2 {
+.text_wrap h1 {
     position: relative;
     color: white;
     z-index: 2; /* Текст завжди буде над розмитим фоном */
@@ -1244,7 +1244,6 @@ icon-background {
     padding-left: 14px;
 
 }
-
 
 .block_2_left{
     width: 49%;

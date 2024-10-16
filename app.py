@@ -81,7 +81,7 @@ def set_language(language_code):
         elif 'roofing-works' in next_url:
             return redirect(url_for('roofing_works', setting_language=language_code))
         else:
-            return redirect(next_url or '/')
+            return redirect(url_for('index', setting_language=language_code))
     else:
         # If language_code is None or invalid, redirect to the default language
         default_language = app.config['BABEL_DEFAULT_LOCALE']

@@ -1,32 +1,44 @@
 {% extends "base.html" %}
 
 {% block meta %}
-    <meta name="description" content="{{ _('Learn about our comprehensive four-step process for home renovation,
-     condo remodel, or kitchen redesign. From initial consultation to project closeout, we ensure transparency,
-      efficiency, and client satisfaction.') }}">
+    {% if language == 'en' %}
+        <meta name="description" content="Explore Kulbachenko Construction\'s full range of renovation and construction services, including turnkey apartment renovation, comprehensive house refurbishment, electrical works, and finishing services. Serving Amsterdam, Rotterdam, The Hague, and Utrecht, with projects across Europe.">
+
+    {% elif language == 'uk' %}
+        <meta name="description" content="Дізнайтеся про повний спектр послуг від Kulbachenko Construction у сфері ремонту та будівництва, включаючи капітальний ремонт квартир під ключ, комплексний ремонт будинків, електромонтажні роботи та оздоблювальні роботи. Надаємо послуги в Амстердамі, Роттердамі, Гаазі та Утрехті, а також працюємо по всій Європі.">
+
+    {% elif language == 'ru' %}
+        <meta name="description" content="Исследуйте полный спектр услуг Kulbachenko Construction по ремонту и строительству, включая капитальный ремонт квартир под ключ, комплексный ремонт домов, электромонтажные работы и отделочные работы. Мы работаем в Амстердаме, Роттердаме, Гааге и Утрехте, а также ведем проекты по всей Европе.">
+
+    {% elif language == 'et' %}
+        <meta name="description" content="Tutvuge Kulbachenko Constructioni täieliku renoveerimis- ja ehitusteenuste valikuga, sealhulgas korterite renoveerimine, majade kapitaalremont, elektritööd ja viimistlustööd. Teenindame kliente Eestis, sealhulgas Tallinnas, Tartus ja teistes linnades, ning viime projekte ellu ka kogu Euroopas.">
+    {% endif %}
+
+    <link rel="canonical" href="{{ url_for('index', _external=True, setting_language=language) }}">
+
 {% endblock %}
 
-{% block title %}{{ _('Services') }}{% endblock %}
+
+{% block title %}{{ _('Renovation and Construction Services | Kulbachenko Construction') }}{% endblock %}
 
 {% block content %}
 <div class="apartment_renovation">
     <div class="apart_photo_wrapper">
         <div class="apart_photo">
-            <img class="shadow_services_apart" src="/static/images/Kulbachenko_color.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
+            <img class="shadow_services_apart" src="{{ url_for('static', filename='images/Kulbachenko_color.jpg') }}" alt="{{ _('Kulbachenko Construction | color catalog') }}">
             <div class="text_wrap">
-                <h1>We build your dream</h1>
+                <h1>{{ _('Our Renovation and Construction Services') }}</h1>
             </div>
         </div>
     </div>
 
     <div class="apartment_renovation_text">
-        <h1>Ваші ідеї — наша робота. Професійне будівництво та ремонт під ключ</h1>
-        <p>Ми пропонуємо повний спектр будівельних та ремонтних послуг в Європі, юридично гарантуючи високу якість, професійність і увагу до деталей. Від ремонту квартир до будівництва будинків — ми втілюємо ваші ідеї в реальність.</p>
-
+        <h2>{{ _('Your ideas are our work. Professional turnkey construction and renovation.') }}</h2>
+        <p>{{ _('We offer a full range of construction and renovation services across Europe, legally guaranteeing high quality, professionalism, and attention to detail. From apartment renovations to house construction, we bring your ideas to life.') }}</p>
         <!-- Button to open the modal -->
 <div class="cards_button_wrapper services">
     <a href="#" class="card_link-button openModalButton">
-        Консультація
+        {{ _('Consultation') }}
         <span class="arrow-circle" style="background-color: #ffffff;">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
@@ -43,214 +55,188 @@
     <div class="block_2_left">
         <div class="block_2_left_text">
     <div class="line_top"></div>
-    <h2>Ми не супергерої, але наша команда творить дива</h2>
+        <h2>{{ _('We are not superheroes, but our team works wonders.') }}</h2>
     <div class="line_bottom"></div>
 </div>
 
 
         <div class="block_2_1_left_photo">
-			<img class="shadow_block_2" src="/static/images/Kulbachenko_houses.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
+			<img class="shadow_block_2" src="{{ url_for('static', filename='images/Kulbachenko_houses.jpg') }}" alt="{{ _('Kulbachenko Construction | Construction of a house') }}">
         </div>
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
 
 
 
     <div class="block_2_right">
-<div class="apart_photo_2_1">
-                <img class="shadow_services_apart_block_2_1" src="/static/images/Venetian.jpg" alt="Кульбаченко Будівництво + Дизайн">
-            </div>
-        <div class="block_2_right_text">
+    <div class="apart_photo_2_1">
+        <img class="shadow_services_apart_block_2_1" src="{{ url_for('static', filename='images/Venetian.jpg') }}" alt="{{ _('Kulbachenko Construction | Venetian Plaster') }}">
+    </div>
+    <div class="block_2_right_text">
+        <p>{{ _('With over 300 successfully completed projects, we confidently call ourselves experts in the construction industry.') }}</p>
+    </div>
 
-        <p>Ми реалізували понад 300 проєктів, що дозволяє нам із впевненістю називати себе професіоналами.</p>
+    <div class="block_2_1">
+        <h2>{{ _('Construction Services') }}</h2>
+        <ul>
+            <li>{{ _('New build construction') }}</li>
+            <li>{{ _('Brick/block house construction') }}</li>
+            <li>{{ _('Foundation works') }}</li>
+            <a href="{{ url_for('roofing_works', setting_language=language) }}" class=""><li>{{ _('Roofing works') }}</li></a> <!-- Link in the list -->
+            <li>{{ _('External insulation') }}</li>
+        </ul>
 
-
-
+        <!-- Button to open the modal -->
+        <div class="cards_button_wrapper services">
+            <a href="#" class="card_link-button openModalButton">
+                {{ _('Consultation') }}
+                <span class="arrow-circle" style="background-color: #ffffff;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
+                    </svg>
+                </span>
+            </a>
         </div>
-
-        <div class="block_2_1">
-    <h2>Будівельні роботи</h2>
-    <ul>
-        <li>New build construction</li>
-        <li>Brick/block house construction</li>
-        <li>Foundation works</li>
-        <a href="{{ url_for('roofing_works', setting_language=language) }}" class=""><li>Roofing works</li></a> <!-- Ссылка в списке -->
-        <li>External insulation</li>
-    </ul>
-
-
-            <!-- Button to open the modal -->
-<div class="cards_button_wrapper services">
-    <a href="#" class="card_link-button openModalButton">
-        Консультація
-        <span class="arrow-circle" style="background-color: #ffffff;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
-            </svg>
-        </span>
-    </a>
-</div>
-
-        </div>
-
-
-
-
-
-
-
-
     </div>
 </div>
+
+
+</div>
+
 
 <!--4-->
 <div class="block_2">
     <div class="block_2_left">
         <div class="block_2_2">
-            <h2>Ремонтні роботи</h2>
+            <h2>{{ _('Renovation Services') }}</h2>
             <ul>
-                <li>Turnkey apartment renovation</li>
-            <li>Full refurbishment</li>
-            <li>House renovation</li>
-            <li>Comprehensive renovation</li>
-            <li>Cosmetic renovation</li>
-            <li>Interior design and refurbishment</li>
+                <li>{{ _('Turnkey apartment renovation') }}</li>
+                <li>{{ _('Full refurbishment') }}</li>
+                <li>{{ _('House renovation') }}</li>
+                <li>{{ _('Comprehensive renovation') }}</li>
+                <li>{{ _('Cosmetic renovation') }}</li>
+                <li>{{ _('Interior design and refurbishment') }}</li>
+            </ul>
 
             <!-- Button to open the modal -->
-<div class="cards_button_wrapper services">
-    <a href="#" class="card_link-button openModalButton">
-        Консультація
-        <span class="arrow-circle" style="background-color: #ffffff;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
-            </svg>
-        </span>
-    </a>
-</div>
-
-
-
+            <div class="cards_button_wrapper services">
+                <a href="#" class="card_link-button openModalButton">
+                    {{ _('Consultation') }}
+                    <span class="arrow-circle" style="background-color: #ffffff;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
         </div>
     </div>
 
     <div class="block_2_right">
         <div class="block_2_2_right_photo">
-			<img class="shadow_block_2" src="/static/images/Kulbachenko_turnkey.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
+            <img class="shadow_block_2" src="{{ url_for('static', filename='images/Kulbachenko_turnkey.jpg') }}" alt="{{ _('Kulbachenko Construction | Turnkey Apartment Renovation Services') }}">
         </div>
     </div>
 </div>
+
 <!--4-->
 
 <!--5-->
 <div class="block_2">
     <div class="block_2_left">
         <div class="block_2_1_left_photo">
-			<img class="shadow_block_2" src="/static/images/Kulbachenko_el.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
+            <img class="shadow_block_2" src="{{ url_for('static', filename='images/Kulbachenko_el.jpg') }}" alt="{{ _('Kulbachenko Construction | Professional Electrical and MEP Installation Services') }}">
         </div>
-
     </div>
 
     <div class="block_2_right">
         <div class="block_2_1">
-                    <h2>Інженерні та електромонтажні роботи</h2>
+            <h2>{{ _('Engineering and Electrical Works') }}</h2>
             <ul>
-            <li>MEP installation</li>
-            <li>Electrical works</li>
+                <li>{{ _('MEP installation') }}</li>
+                <li>{{ _('Electrical works') }}</li>
             </ul>
 
             <!-- Button to open the modal -->
-<div class="cards_button_wrapper services">
-    <a href="#" class="card_link-button openModalButton">
-        Консультація
-        <span class="arrow-circle" style="background-color: #ffffff;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
-            </svg>
-        </span>
-    </a>
-</div>
-
+            <div class="cards_button_wrapper services">
+                <a href="#" class="card_link-button openModalButton">
+                    {{ _('Consultation') }}
+                    <span class="arrow-circle" style="background-color: #ffffff;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
+
 <!--5-->
 
 <!--6-->
 <div class="block_2">
     <div class="block_2_left">
         <div class="block_2_2">
-            <h2>Оздоблювальні роботи</h2>
+            <h2>{{ _('Finishing and Office Fit-out Works') }}</h2>
             <ul>
-                <li>Finishing works</li>
-                <li>Office fit-out</li>
+                <li>{{ _('Finishing works') }}</li>
+                <li>{{ _('Office fit-out') }}</li>
             </ul>
 
-            <!--            #button-->
             <!-- Button to open the modal -->
-<div class="cards_button_wrapper services">
-    <a href="#" class="card_link-button openModalButton">
-        Консультація
-        <span class="arrow-circle" style="background-color: #ffffff;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
-            </svg>
-        </span>
-    </a>
-</div>
+            <div class="cards_button_wrapper services">
+                <a href="#" class="card_link-button openModalButton">
+                    {{ _('Consultation') }}
+                    <span class="arrow-circle" style="background-color: #ffffff;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
         </div>
-
     </div>
 
     <div class="block_2_right">
         <div class="block_2_2_right_photo">
-			<img class="shadow_block_2" src="/static/images/Kulbachenko_fw.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
+            <img class="shadow_block_2" src="{{ url_for('static', filename='images/Kulbachenko_fw.jpg') }}" alt="{{ _('Kulbachenko Construction | Professional Finishing and Office Fit-out Services') }}">
         </div>
     </div>
 </div>
+
 <!--6-->
 
 <!--7-->
 <div class="block_2">
     <div class="block_2_left">
         <div class="block_2_1_left_photo">
-			<img class="shadow_block_2" src="/static/images/Kulbachenko_paint.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
+            <img class="shadow_block_2" src="{{ url_for('static', filename='images/Kulbachenko_paint.jpg') }}" alt="{{ _('Kulbachenko Construction | Professional Landscaping and Fencing Services') }}">
         </div>
-
     </div>
 
     <div class="block_2_right">
         <div class="block_2_1">
-                    <h2>Додаткові послуги</h2>
+            <h2>{{ _('Additional Services') }}</h2>
             <ul>
-                <li>Landscaping and fencing</li>
-                <li>Interior design solutions</li>
+                <li>{{ _('Landscaping and Fencing') }}</li>
+                <li>{{ _('Interior Design Solutions') }}</li>
             </ul>
 
             <!-- Button to open the modal -->
-<div class="cards_button_wrapper services">
-    <a href="#" class="card_link-button openModalButton">
-        Консультація
-        <span class="arrow-circle" style="background-color: #ffffff;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
-            </svg>
-        </span>
-    </a>
-</div>
+            <div class="cards_button_wrapper services">
+                <a href="#" class="card_link-button openModalButton">
+                    {{ _('Consultation') }}
+                    <span class="arrow-circle" style="background-color: #ffffff;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
         </div>
-
     </div>
 </div>
+
 <!--7-->
 {% endblock %}
