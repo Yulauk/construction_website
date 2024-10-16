@@ -13,7 +13,7 @@
 <div class="blog_tags">
     <p>Пошук за тегами:</p>
     <div class="post_tags">
-        <a href="/blog" class="post_tag all_tag">All</a>
+        <a href="{{ url_for('blog', _external=True, setting_language=language) }}" class="post_tag all_tag">All</a>
         <a href="{{ url_for('blog', tag=current_tags['renovation']) }}" class="post_tag renovation_tag">{{ current_tags['renovation'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['construction']) }}" class="post_tag construction_tag">{{ current_tags['construction'] }}</a>
         <a href="{{ url_for('blog', tag=current_tags['plumbing']) }}" class="post_tag plumbing_tag">{{ current_tags['plumbing'] }}</a>

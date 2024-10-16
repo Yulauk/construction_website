@@ -48,7 +48,7 @@ def get_locale():
     return app.config['LANGUAGES_MAP'].get(lang_code) or app.config['BABEL_DEFAULT_LOCALE']
 
 
-@app.route('/set_language/<language_code>', methods=['GET', 'POST'])
+@app.route('/setting_language/<language_code>', methods=['GET', 'POST'])
 def set_language(language_code):
     if language_code in app.config['LANGUAGES']:
         session['language'] = language_code
@@ -111,15 +111,15 @@ def close_db(error):
 
 
 @app.route('/', methods=['GET', 'POST'])
-@app.route('/<set_language>/', methods=['GET', 'POST'])
-def index(set_language=None):
+@app.route('/<setting_language>/', methods=['GET', 'POST'])
+def index(setting_language=None):
     # Handle POST request to change language
     if request.method == 'POST':
-        return set_language(request.form['language_code'])
+        return setting_language(request.form['language_code'])
 
     # Handle language selection or default to the one in the session
-    if set_language is not None and set_language in app.config['LANGUAGES']:
-        session['language'] = set_language
+    if setting_language is not None and setting_language in app.config['LANGUAGES']:
+        session['language'] = setting_language
     else:
         # If no language is set, use the default language from the session or config
         if 'language' not in session:

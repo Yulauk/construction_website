@@ -106,7 +106,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" href="/">{{ _('MAIN') }}</a>
+                                <a class="nav-link" href="{{ url_for('index', _external=True, setting_language=language) }}">{{ _('MAIN') }}</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>

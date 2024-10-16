@@ -3,42 +3,55 @@
 
 
 {% block meta %}
-        <meta name="description" content="{{ _('My name is Sergey Kulbachenko, I have been working in the construction industry for a long time. It all started when I came to Kyiv in 2005 and got an education...') }}">
+
+    {% if language == 'en' %}
+        <meta name="description" content="Serhii Kulbachenko offers expert renovation and construction services in the Netherlands and Europe since 2005.">
+
+    {% elif language == 'uk' %}
+        <meta name="description" content="Сергій Кульбаченко надає послуги з ремонту та будівництва в Нідерландах та Європі з 2005 року.">
+
+    {% elif language == 'ru' %}
+        <meta name="description" content="Сергей Кульбаченко предлагает услуги по ремонту и строительству в Нидерландах и Европе с 2005 года.">
+
+    {% elif language == 'et' %}
+        <meta name="description" content="Serhii Kulbachenko pakub renoveerimis- ja ehitusteenuseid Eestis ja Euroopas alates 2005. aastast.">
+    {% endif %}
 
 {% endblock %}
 
-{% block title %}{{ _('About') }}{% endblock %}
+{% block title %}{{ _('Construction and Renovation Services in Europe | Serhii Kulbachenko') }}{% endblock %}
+
 
 {% block content %}
 <div class="image_section_wrapper">
     <section class="image-section">
     <div class="image_section_size">
         <div class="image-row image-row-1">
-            <img src="{{ url_for('static', filename='images/6.png') }}" alt="Image 1">
-            <img src="{{ url_for('static', filename='images/7.png') }}" alt="Image 2">
-            <img src="{{ url_for('static', filename='images/8.png') }}" alt="Image 3">
-            <img src="{{ url_for('static', filename='images/9.png') }}" alt="Image 4">
-            <img src="{{ url_for('static', filename='images/10.png') }}" alt="Image 5">
-            <img src="{{ url_for('static', filename='images/11.png') }}" alt="Image 6">
-            <img src="{{ url_for('static', filename='images/14.png') }}" alt="Image 7">
+            <img src="{{ url_for('static', filename='images/6.png') }}" alt="Completed residential construction project in Kyiv by Serhii Kulbachenko" loading="lazy">
+            <img src="{{ url_for('static', filename='images/7.png') }}" alt="many projects were completed in Ukraine" loading="lazy">
+            <img src="{{ url_for('static', filename='images/8.png') }}" alt="we love Ukraine" loading="lazy">
+            <img src="{{ url_for('static', filename='images/9.png') }}" alt="we respect Ukraine" loading="lazy">
+            <img src="{{ url_for('static', filename='images/10.png') }}" alt="we work in Estonia" loading="lazy">
+            <img src="{{ url_for('static', filename='images/11.png') }}" alt="we repair and build in Estonia" loading="lazy">
+            <img src="{{ url_for('static', filename='images/14.png') }}" alt="construction of private houses in the Netherlands" loading="lazy">
         </div>
         <div class="image-row image-row-2">
-            <img src="{{ url_for('static', filename='images/21.png') }}" alt="Image 12">
-            <img src="{{ url_for('static', filename='images/12.png') }}" alt="Image 9">
-            <img src="{{ url_for('static', filename='images/2.png') }}" alt="Image 10">
-            <img src="{{ url_for('static', filename='images/19.png') }}" alt="Image 11">
-            <img src="{{ url_for('static', filename='images/15.png') }}" alt="Image 8">
-            <img src="{{ url_for('static', filename='images/18.png') }}" alt="Image 13">
-            <img src="{{ url_for('static', filename='images/4.png') }}" alt="Image 14">
+            <img src="{{ url_for('static', filename='images/21.png') }}" alt="Major Renovation in Sweden" loading="lazy">
+            <img src="{{ url_for('static', filename='images/12.png') }}" alt="repair and construction in the Netherlands" loading="lazy">
+            <img src="{{ url_for('static', filename='images/2.png') }}" alt="worked in Ukraine" loading="lazy">
+            <img src="{{ url_for('static', filename='images/19.png') }}" alt="Cosmetic Repair in UK" loading="lazy">
+            <img src="{{ url_for('static', filename='images/15.png') }}" alt="we fulfill orders in Lithuania" loading="lazy">
+            <img src="{{ url_for('static', filename='images/18.png') }}" alt="Capital repair in Amsterdam" loading="lazy">
+            <img src="{{ url_for('static', filename='images/4.png') }}" alt="we work in Europe" loading="lazy">
         </div>
         <div class="image-row image-row-3">
-            <img src="{{ url_for('static', filename='images/3.png') }}" alt="Image 15">
-            <img src="{{ url_for('static', filename='images/16.png') }}" alt="Image 16">
-            <img src="{{ url_for('static', filename='images/17.png') }}" alt="Image 17">
-            <img src="{{ url_for('static', filename='images/20.png') }}" alt="Image 18">
-            <img src="{{ url_for('static', filename='images/1.png') }}" alt="Image 19">
-            <img src="{{ url_for('static', filename='images/5.png') }}" alt="Image 20">
-            <img src="{{ url_for('static', filename='images/13.png') }}" alt="Image 21">
+            <img src="{{ url_for('static', filename='images/3.png') }}" alt="worked in Germany" loading="lazy">
+            <img src="{{ url_for('static', filename='images/16.png') }}" alt="We fulfill orders in Latvia" loading="lazy">
+            <img src="{{ url_for('static', filename='images/17.png') }}" alt="Capital repair in Ukraine" loading="lazy">
+            <img src="{{ url_for('static', filename='images/20.png') }}" alt="Major Renovation in Finland" loading="lazy">
+            <img src="{{ url_for('static', filename='images/1.png') }}" alt="worked in the Scandinavian countries" loading="lazy">
+            <img src="{{ url_for('static', filename='images/5.png') }}" alt="worked in Poland" loading="lazy">
+            <img src="{{ url_for('static', filename='images/13.png') }}" alt="repairs of any complexity in the Netherlands" loading="lazy">
         </div>
     </div>
 </section>
@@ -50,13 +63,13 @@
 <div class="about_blog">
     <div class="about_photo_wrapper">
     <div class="about_photo">
-        <img class="shadow_about" src="/static/images/Kulbachenko_like.jpg" alt="Сергей Кульбаченко - Основатель Кульбаченко Строй + Дизайн">
+        <img class="shadow_about" src="/static/images/Kulbachenko_like.jpg" alt='{{ _("Serhii Kulbachenko FOUNDER AND LEADER") }}' loading="lazy">
 
         <!-- Overlay text container -->
         <div class="caption-overlay">
             <p></p>
-            <p class="name">Serhii Kulbachenko</p>
-            <p class="title">FOUNDER AND LEADER</p>
+            <p class="name">{{ _("Serhii Kulbachenko") }}</p>
+            <p class="title">{{ _("FOUNDER AND LEADER") }}</p>
         </div>
     </div>
 </div>
@@ -64,69 +77,138 @@
 
 
     <div class="about_text_1">
-        <h1>{{ _("Сергій Кульбаченко — Ваш надійний партнер у будівництві та ремонті") }}</h1>
-        <p>{{ _("Мене звуть Сергій Кульбаченко, і я керую будівельною компанією, яка спеціалізується на ремонті та будівництві приватних будинків. Ми пропонуємо комплексні рішення для тих, хто шукає надійного підрядника з багаторічним досвідом, що гарантує високу якість робіт і дотримання сучасних стандартів.") }}</p>
-
-<!--        <p>{{ _("My name is Serhii Kulbachenko, and I have been working in the construction industry for a long time. It all started when I came to Kyiv and received education in the specialties of bricklayer-stove-setter, electric welder, and installer of reinforced concrete structures. My journey began as a laborer in a construction team, but I realized my potential and decided to start my own business. Over time, I formed my own construction team, attracting many satisfied customers due to years of experience and professionalism. Working in Europe, I became acquainted with new materials, technologies, and standards. With a constant commitment to improvement, I successfully organized and developed my business from scratch, continuing to provide high-quality services and earn your trust. I'll be happy to collaborate!") }}</p>-->
-
+        <h1>{{ _("Serhii Kulbachenko — Your Reliable Partner in Construction and Renovation") }}</h1>
+        <p>{{ _("My name is Serhii Kulbachenko, and I run a construction company specializing in the renovation and construction of private homes. We offer comprehensive solutions for those looking for a reliable contractor with many years of experience, ensuring high-quality work and adherence to modern standards.") }}</p>
     </div>
 
 </div>
 
 <div class="about_blog">
     <div class="about_text_1">
-        <h2>{{ _("Досвід будівельних робіт в Європі") }}</h2>
-        <p>{{ _("Наша компанія успішно реалізує проекти в Естонії, Нідерландах і багато іншіх країнах Європи використовуючи найкращі практики та технології, які я засвоїв під час роботи на міжнародному ринку. Ми поєднуємо якісні матеріали, сучасні методи будівництва та багаторічний досвід, щоб задовольнити потреби наших клієнтів як у будівництві нових будинків, так і в капітальних ремонтах.") }}</p>
+        <h2>{{ _("Construction Experience in Europe") }}</h2>
+        <p>{{ _("Our company successfully implements projects in the Netherlands, and many other European countries using the best practices and technologies that I have mastered while working on the international market. We combine high-quality materials, modern construction methods, and many years of experience to meet the needs of our clients, whether it's new home construction or major renovations.") }}</p>
     </div>
     <div class="about_photo_wrapper">
-    <div class="about_photo">
-                    <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_bass.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}">
-
+        <div class="about_photo">
+            <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_bass.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction OÜ') }}" loading="lazy">
+        </div>
     </div>
-    </div>
-
 </div>
 
 <div class="about_blog">
     <div class="about_photo_wrapper">
-    <div class="about_photo">
-                    <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_est.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}">
-
-    </div>
+        <div class="about_photo">
+            <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_est.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}" loading="lazy">
+        </div>
     </div>
     <div class="about_text_1">
-        <h2>{{ _("Історія створення будівельної компанії") }}</h2>
-        <p>{{ _("Моя кар'єра почалася зі скромних початків як будівельного робітника. Пройшовши шлях від простого працівника до засновника компанії, я завжди прагнув вдосконалювати свої навички та розширювати спектр послуг. Власний бізнес був заснований на принципах чесності, професіоналізму та постійного розвитку, що дозволяє нам успішно працювати на ринку протягом багатьох років.") }}</p>
+        <h2>{{ _("The History of Founding the Construction Company") }}</h2>
+        <p>{{ _("My career began modestly as a construction worker. Rising from a laborer to the founder of a company, I have always strived to improve my skills and expand the range of services. The business was built on the principles of honesty, professionalism, and continuous development, which has allowed us to successfully operate in the market for many years.") }}</p>
     </div>
-
 </div>
 
 <div class="about_blog">
     <div class="about_text_1">
-        <h2>{{ _("Будівельні послуги та новітні технології") }}</h2>
-        <p>{{ _("Ми надаємо повний спектр будівельних послуг — від проектування до введення в експлуатацію. Включаємо новітні технології, які використовуються в сучасному будівництві, такі як енергоефективні матеріали, сучасні системи опалення та вентиляції, а також інноваційні дизайнерські рішення. Це дозволяє нам створювати будинки, що відповідають найвищим вимогам комфорту та функціональності.") }}</p>
+        <h2>{{ _("Construction Services and Cutting-Edge Technologies") }}</h2>
+        <p>{{ _("We provide a full range of construction services — from design to commissioning. We incorporate the latest technologies used in modern construction, such as energy-efficient materials, advanced heating and ventilation systems, as well as innovative design solutions. This enables us to create homes that meet the highest standards of comfort and functionality.") }}</p>
     </div>
     <div class="about_photo_wrapper">
-    <div class="about_photo">
-                    <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_laser.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}">
-
+        <div class="about_photo">
+            <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_laser.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}" loading="lazy">
+        </div>
     </div>
-    </div>
-
 </div>
 
 <div class="about_blog">
     <div class="about_photo_wrapper">
-    <div class="about_photo">
-                    <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_sewer_rings.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}">
-
-    </div>
+        <div class="about_photo">
+            <img class="shadow_about" src="{{ url_for('static', filename='images/Kulbachenko_sewer_rings.jpg') }}" alt="{{ _('Serhii Kulbachenko - Founder of Kulbachenko Construction + Design') }}" loading="lazy">
+        </div>
     </div>
     <div class="about_text_1">
-        <h2>{{ _("Якісні будівельні рішення для будь-яких проектів") }}</h2>
-        <p>{{ _("Незалежно від складності вашого проекту — чи це будівництво нового приватного будинку, чи капітальний ремонт існуючої нерухомості — наша команда завжди готова запропонувати якісні рішення. Ми піклуємося про кожен етап робіт, гарантуючи точне виконання термінів та бездоганну якість будівельних і ремонтних послуг.") }}</p>
+        <h2>{{ _("High-Quality Construction Solutions for Any Projects") }}</h2>
+        <p>{{ _("Regardless of the complexity of your project — whether it's building a new private home or renovating an existing property — our team is always ready to offer quality solutions. We take care of every stage of the work, ensuring precise deadlines and impeccable quality in construction and renovation services.") }}</p>
     </div>
-
 </div>
+
+<div class="cards_button_wrapper index_consult" style="padding: 3rem 1rem;">
+    <a href="{{ url_for('services', setting_language=language) }}" class="card_link-button">
+        {{ _("Learn more about our construction services") }}
+        <span class="arrow-circle" style="background-color: #ffffff;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>
+            </svg>
+        </span>
+    </a>
+</div>
+
+
+
+
+
+
 
 {% endblock %}
+<!--<script type="application/ld+json">-->
+<!--{-->
+<!--  "@context": "https://schema.org",-->
+<!--  "@type": "ConstructionBusiness",-->
+<!--  "name": "Kulbachenko Construction OÜ",-->
+<!--  "image": "{{ url_for('static', filename='images/Index_Kulbachenko_full_block.svg', _external=True) }}",-->
+<!--  "@id": "https://kulbachenko.com/",-->
+<!--  "url": "{{ request.url_root }}",-->
+<!--  "telephone": "+37256177079",-->
+<!--  "description": "{{ _('High-quality renovation and construction services in the Netherlands and across Europe since 2005.') }}",-->
+<!--  "address": {-->
+<!--    "@type": "PostalAddress",-->
+<!--    "streetAddress": "Mõisa-8",-->
+<!--    "addressLocality": "Nõva küla",-->
+<!--    "addressRegion": "Läänemaa",-->
+<!--    "postalCode": "91101",-->
+<!--    "addressCountry": "Estonia"-->
+<!--  },-->
+<!--  "geo": {-->
+<!--    "@type": "GeoCoordinates",-->
+<!--    "latitude": "59.222375",-->
+<!--    "longitude": "23.680804"-->
+<!--  },-->
+<!--  "areaServed": [-->
+<!--    {-->
+<!--      "@type": "Place",-->
+<!--      "name": "The Hague, Netherlands"-->
+<!--    },-->
+<!--    {-->
+<!--      "@type": "Place",-->
+<!--      "name": "Amsterdam, Netherlands"-->
+<!--    },-->
+<!--    {-->
+<!--      "@type": "Place",-->
+<!--      "name": "Rotterdam, Netherlands"-->
+<!--    },-->
+<!--    {-->
+<!--      "@type": "Place",-->
+<!--      "name": "Utrecht, Netherlands"-->
+<!--    }-->
+<!--  ],-->
+<!--  "sameAs": [-->
+<!--    "https://www.youtube.com/@kulbachenkoconstruction",-->
+<!--    "https://twitter.com/SKulbachenko",-->
+<!--    "https://www.facebook.com/KulbachenkoSerhii",-->
+<!--    "https://www.instagram.com/kulbachenko.construction",-->
+<!--    "https://www.tiktok.com/@serhiikulbachenko"-->
+<!--  ],-->
+<!--  "openingHoursSpecification": {-->
+<!--    "@type": "OpeningHoursSpecification",-->
+<!--    "dayOfWeek": [-->
+<!--      "Monday",-->
+<!--      "Tuesday",-->
+<!--      "Wednesday",-->
+<!--      "Thursday",-->
+<!--      "Friday",-->
+<!--      "Saturday"-->
+<!--    ],-->
+<!--    "opens": "08:00",-->
+<!--    "closes": "20:00"-->
+<!--  }-->
+<!--}-->
+<!--</script>-->
