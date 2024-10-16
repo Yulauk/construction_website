@@ -24,23 +24,21 @@ msgid "Construction and Renovation Services in Europe | Serhii Kulbachenko"
 msgstr ""
 
 #: templates/about.html:69
-#, fuzzy
+
 msgid "Serhii Kulbachenko FOUNDER AND LEADER"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Сергій Кульбаченко ЗАСНОВНИК І ЛІДЕР"
 
 #: templates/about.html:74 templates/index.html:364
-#, fuzzy
 msgid "Serhii Kulbachenko"
-msgstr "Кульбаченко"
+msgstr "Сергій Кульбаченко"
 
 #: templates/about.html:75 templates/index.html:365
 msgid "FOUNDER AND LEADER"
-msgstr ""
+msgstr "ЗАСНОВНИК І ЛІДЕР"
 
 #: templates/about.html:83
-#, fuzzy
 msgid "Serhii Kulbachenko — Your Reliable Partner in Construction and Renovation"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Сергій Кульбаченко — Ваш надійний партнер у будівництві та ремонті"
 
 #: templates/about.html:84
 msgid ""
@@ -50,10 +48,15 @@ msgid ""
 " with many years of experience, ensuring high-quality work and adherence "
 "to modern standards."
 msgstr ""
+"Мене звуть Сергій Кульбаченко, і я керую будівельною компанією, "
+"яка спеціалізується на ремонті та будівництві приватних будинків. Ми "
+"пропонуємо комплексні рішення для тих, хто шукає надійного підрядника "
+"з багаторічним досвідом, забезпечуючи високу якість роботи та дотримання "
+"сучасних стандартів."
 
 #: templates/about.html:91
 msgid "Construction Experience in Europe"
-msgstr ""
+msgstr "Досвід будівництва в Європі"
 
 #: templates/about.html:92
 msgid ""
@@ -64,19 +67,24 @@ msgid ""
 "experience to meet the needs of our clients, whether it's new home "
 "construction or major renovations."
 msgstr ""
+"Наша компанія успішно реалізує проекти в Нідерландах та багатьох "
+"інших європейських країнах, використовуючи найкращі практики та "
+"технології, які я освоїв під час роботи на міжнародному ринку. Ми поєднуємо "
+"якісні матеріали, сучасні методи будівництва та багаторічний досвід, щоб "
+"задовольнити потреби наших клієнтів, незалежно від того, чи це нове "
+"будівництво будинку, чи капітальний ремонт."
 
 #: templates/about.html:96
-#, fuzzy
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction OÜ"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Сергій Кульбаченко - засновник Kulbachenko Construction OÜ"
 
 #: templates/about.html:104 templates/about.html:120 templates/about.html:128
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction + Design"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Сергій Кульбаченко - засновник Kulbachenko Construction + Design"
 
 #: templates/about.html:108
 msgid "The History of Founding the Construction Company"
-msgstr ""
+msgstr "Історія заснування будівельної компанії"
 
 #: templates/about.html:109
 msgid ""
@@ -86,10 +94,15 @@ msgid ""
 "principles of honesty, professionalism, and continuous development, which"
 " has allowed us to successfully operate in the market for many years."
 msgstr ""
+"Моя кар'єра почалася скромно як будівельник. Підвищуючи свій рівень "
+"з робітника до засновника компанії, я завжди прагнув вдосконалювати "
+"свої навички та розширювати асортимент послуг. Бізнес було побудовано "
+"на принципах чесності, професіоналізму та безперервного розвитку, що "
+"дозволило нам успішно працювати на ринку протягом багатьох років."
 
 #: templates/about.html:115
 msgid "Construction Services and Cutting-Edge Technologies"
-msgstr ""
+msgstr "Будівельні послуги та сучасні технології"
 
 #: templates/about.html:116
 msgid ""
@@ -100,10 +113,16 @@ msgid ""
 " us to create homes that meet the highest standards of comfort and "
 "functionality."
 msgstr ""
+"Ми надаємо повний спектр будівельних послуг — від проектування до "
+"введення в експлуатацію. Ми використовуємо найсучасніші технології, "
+"які застосовуються в сучасному будівництві, такі як енергоефективні "
+"матеріали, розвинута система опалення та вентиляції, а також "
+"інноваційні дизайнерські рішення. Це дозволяє нам створювати будинки, "
+"які відповідають найвищим стандартам комфорту та функціональності."
 
 #: templates/about.html:132
 msgid "High-Quality Construction Solutions for Any Projects"
-msgstr ""
+msgstr "Високоякісні будівельні рішення для будь-яких проектів"
 
 #: templates/about.html:133
 msgid ""
@@ -113,25 +132,31 @@ msgid ""
 "work, ensuring precise deadlines and impeccable quality in construction "
 "and renovation services."
 msgstr ""
+"Незалежно від складності вашого проекту — чи це будівництво нового "
+"приватного будинку, чи ремонт існуючої власності — наша команда завжди "
+"готова запропонувати якісні рішення. Ми дбаємо про кожен етап роботи, "
+"забезпечуючи точні терміни та бездоганну якість у будівельних "
+"та ремонтних послугах."
 
 #: templates/about.html:139
 msgid "Learn more about our construction services"
-msgstr ""
+msgstr "Дізнайтеся більше про наші будівельні послуги"
 
 #: templates/about.html:164 templates/base.html:36
 msgid ""
 "High-quality renovation and construction services in the Netherlands and "
 "across Europe since 2005."
 msgstr ""
+"Високоякісні послуги з ремонту та будівництва в Нідерландах та "
+"по всій Європі з 2005 року."
 
 #: templates/base.html:102
 msgid "Kulbachenko Construction + Design"
 msgstr "Кульбаченко Будівництво + Дизайн"
 
 #: templates/base.html:109
-#, fuzzy
 msgid "Kulbachenko Construction + Design Logo"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Логотип Кульбаченко Будівництво + Дизайн"
 
 #: templates/base.html:125 templates/base.html:192 templates/base.html:259
 #: templates/index.html:56 templates/index.html:112
@@ -160,7 +185,8 @@ msgstr "ЗВ'ЯЗАТИСЬ З НАМИ"
 
 #: templates/base.html:182 templates/base.html:250
 msgid "Navigation Menu"
-msgstr ""
+msgstr "Навігаційне меню"
+
 
 #: templates/base.html:189 templates/base.html:256
 msgid "HOME"
@@ -216,31 +242,31 @@ msgstr "Виберіть діапазон бюджету"
 
 #: templates/base.html:359
 msgid "$100-$999"
-msgstr ""
+msgstr "$100-$999"
 
 #: templates/base.html:360
 msgid "$1000-$4999"
-msgstr ""
+msgstr "$1000-$4999"
 
 #: templates/base.html:361
 msgid "$5000-$9999"
-msgstr ""
+msgstr "$5000-$9999"
 
 #: templates/base.html:362
 msgid "$10,000-$19,999"
-msgstr ""
+msgstr "$10,000-$19,999"
 
 #: templates/base.html:363
 msgid "$20,000-$49,999"
-msgstr ""
+msgstr "$20,000-$49,999"
 
 #: templates/base.html:364
 msgid "$50,000-$99,999"
-msgstr ""
+msgstr "$50,000-$99,999"
 
 #: templates/base.html:365
 msgid "$100,000+"
-msgstr ""
+msgstr "$100,000+"
 
 #: templates/base.html:371
 msgid "Project time frame"
@@ -304,33 +330,31 @@ msgstr "Погоджуюсь з умовами"
 
 #: templates/base.html:414
 msgid "Submit form"
-msgstr "Надіслати"
+msgstr "Надіслати форму"
 
 #: templates/base.html:438
 msgid "Contact Information"
-msgstr ""
+msgstr "Контактна інформація"
 
 #: templates/base.html:446
 msgid "Working hours, Mon-Fri"
-msgstr ""
+msgstr "Години роботи, Пн-Пт"
 
 #: templates/base.html:454
 msgid "Our Social Media"
-msgstr ""
+msgstr "Наші соціальні мережі"
 
 #: templates/base.html:550
-#, fuzzy
 msgid "GET A FREE"
-msgstr "Безкоштовна консультація"
+msgstr "ОТРИМАЙТЕ БЕЗКОШТОВНУ"
 
 #: templates/base.html:553
-#, fuzzy
 msgid "Kulbachenko Consultation"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Консультацію Кульбаченка"
 
 #: templates/base.html:558
 msgid "or we call back"
-msgstr ""
+msgstr "або ми передзвонимо"
 
 #: templates/base.html:568
 msgid "First Name"
@@ -345,7 +369,6 @@ msgid "Comment"
 msgstr "Коментар"
 
 #: templates/base.html:584
-#, fuzzy
 msgid "Submit"
 msgstr "Надіслати"
 
@@ -356,7 +379,8 @@ msgstr "Блог"
 
 #: templates/blog.html:34
 msgid "All posts"
-msgstr ""
+msgstr "Усі публікації"
+
 
 #: templates/home-cinema-5-person.html:4 templates/home-cinema-5-person.html:48
 #: templates/home-cinema-5-person.html:57
@@ -425,12 +449,11 @@ msgstr "ГОЛОВНА"
 
 #: templates/index.html:135
 msgid "photo from work in Kyiv"
-msgstr ""
+msgstr "фото з роботи в Києві"
 
 #: templates/index.html:162
-#, fuzzy
 msgid "Construction and Repair"
-msgstr "Будівництво"
+msgstr "Будівництво та Ремонт"
 
 #: templates/index.html:163
 msgid ""
@@ -438,91 +461,96 @@ msgid ""
 "to large-scale capital repairs. We work with residential and commercial "
 "properties, taking all your wishes into account."
 msgstr ""
+"Ми пропонуємо широкий спектр послуг з ремонту — від незначних косметичних "
+"робіт до великих капітальних ремонтів. Ми працюємо з житловою та "
+"комерційною нерухомістю, враховуючи всі ваші побажання."
 
 #: templates/index.html:165
 msgid ""
 "We legally and practically guarantee quality, a modern approach, and "
 "optimal timelines!"
 msgstr ""
+"Ми юридично та фактично гарантуємо якість, сучасний підхід та "
+"оптимальні терміни!"
 
 #: templates/index.html:167
 msgid "From €50 per m²"
-msgstr ""
+msgstr "Від 50 € за м²"
 
 #: templates/index.html:178
 msgid "YEARS ON THE MARKET"
-msgstr ""
+msgstr "РОКИ НА РИНКУ"
 
 #: templates/index.html:182
 msgid "SUCCESSFUL PROJECTS"
-msgstr ""
+msgstr "УСПІШНІ ПРОЕКТИ"
 
 #: templates/index.html:186
 msgid "SATISFIED CUSTOMERS"
-msgstr ""
+msgstr "ЗАДОВОЛЕНІ КЛІЄНТИ"
 
 #: templates/index.html:204
 msgid "Actual prices of repair services"
-msgstr ""
+msgstr "Актуальні ціни на ремонтні послуги"
 
 #: templates/index.html:207
 msgid "Simple repair"
-msgstr ""
+msgstr "Простий ремонт"
 
 #: templates/index.html:208
-#, fuzzy
 msgid "Basic services"
-msgstr "Послуги"
+msgstr "Базові послуги"
 
 #: templates/index.html:209 templates/index.html:239 templates/index.html:272
 #: templates/index.html:305
 msgid "From"
-msgstr ""
+msgstr "Від"
 
 #: templates/index.html:209 templates/index.html:239 templates/index.html:272
 #: templates/index.html:305
-msgid "NB"
-msgstr ""
+msgid "BTW"
+msgstr "ПДВ"
 
 #: templates/index.html:211
 msgid "Wall and ceiling painting"
-msgstr ""
+msgstr "Фарбування стін та стелі"
 
 #: templates/index.html:212
 msgid "Wallpapering"
-msgstr ""
+msgstr "Обклеювання шпалерами"
 
 #: templates/index.html:213
 msgid "Baseboard replacement"
-msgstr ""
+msgstr "Заміна плінтусів"
 
 #: templates/index.html:214
 msgid "Lighting installation (1-2 points)"
-msgstr ""
+msgstr "Установка освітлення (1-2 точки)"
 
 #: templates/index.html:215
 msgid "Partial electrical wiring repair"
-msgstr ""
+msgstr "Частковий ремонт електропроводки"
 
 #: templates/index.html:216
 msgid "Socket and switch installation"
-msgstr ""
+msgstr "Установка розеток і вимикачів"
 
 #: templates/index.html:217
 msgid "Cleaning and restoration of existing plumbing"
-msgstr ""
+msgstr "Чистка та відновлення існуючої сантехніки"
 
 #: templates/index.html:218
 msgid "Local tile replacement in the bathroom or kitchen"
-msgstr ""
+msgstr "Локальна заміна плитки у ванній або кухні"
 
 #: templates/index.html:219
 msgid "Door hinge and hardware repair"
-msgstr ""
+msgstr "Ремонт дверних петель і фурнітури"
 
 #: templates/index.html:220
 msgid "Installation of cornices and curtain fittings"
-msgstr ""
+msgstr "Установка карнизів та фурнітури для штор"
+
 
 #: templates/index.html:226 templates/index.html:259 templates/index.html:291
 #: templates/index.html:325 templates/services.html:41
@@ -534,259 +562,248 @@ msgstr "Консультація"
 
 #: templates/index.html:237
 msgid "Cosmetic Repair"
-msgstr ""
+msgstr "Косметичний ремонт"
 
 #: templates/index.html:238
-#, fuzzy
 msgid "Basic Services"
-msgstr "Послуги"
+msgstr "Базові послуги"
 
 #: templates/index.html:241
 msgid "Dismantling of old materials"
-msgstr ""
+msgstr "Демонтаж старих матеріалів"
 
 #: templates/index.html:242 templates/index.html:278
 msgid "Puttying and leveling walls and ceilings"
-msgstr ""
+msgstr "Шпаклювання та вирівнювання стін і стель"
 
 #: templates/index.html:243
 msgid "Hanging new wallpaper or painting walls"
-msgstr ""
+msgstr "Обклеювання новими шпалерами або фарбування стін"
 
 #: templates/index.html:244
 msgid "Replacing flooring (laminate, linoleum)"
-msgstr ""
+msgstr "Заміна підлогового покриття (ламінат, лінолеум)"
 
 #: templates/index.html:245
 msgid "Replacing baseboards and casings"
-msgstr ""
+msgstr "Заміна плінтусів та наличників"
 
 #: templates/index.html:246
 msgid "Installation of new fixtures"
-msgstr ""
+msgstr "Установка нових світильників"
 
 #: templates/index.html:247
 msgid "Replacing sockets and switches"
-msgstr ""
+msgstr "Заміна розеток і вимикачів"
 
 #: templates/index.html:248
 msgid "Minor plumbing repairs"
-msgstr ""
+msgstr "Незначний ремонт сантехніки"
 
 #: templates/index.html:249
 msgid "Installation of new interior doors"
-msgstr ""
+msgstr "Установка нових міжкімнатних дверей"
 
 #: templates/index.html:250
 msgid "Updating plumbing systems"
-msgstr ""
+msgstr "Оновлення сантехнічних систем"
 
 #: templates/index.html:251
 msgid "Installation of window sills"
-msgstr ""
+msgstr "Установка підвіконь"
 
 #: templates/index.html:252
 msgid "Updating or replacing door hardware"
-msgstr ""
+msgstr "Оновлення або заміна дверної фурнітури"
 
 #: templates/index.html:253
 msgid "Painting or refreshing window frames"
-msgstr ""
+msgstr "Фарбування або освіження віконних рам"
 
 #: templates/index.html:270
 msgid "Capital Repair"
-msgstr ""
+msgstr "Капітальний ремонт"
 
 #: templates/index.html:271
 msgid "Comprehensive Works"
-msgstr ""
+msgstr "Комплексні роботи"
 
 #: templates/index.html:272 templates/index.html:305
 msgid "per m²"
-msgstr ""
+msgstr "за м²"
 
 #: templates/index.html:274
 msgid "Dismantling of old coverings and structures"
-msgstr ""
+msgstr "Демонтаж старих покриттів та конструкцій"
 
 #: templates/index.html:275
 msgid "Complete replacement of engineering systems (heating, water supply)"
-msgstr ""
+msgstr "Повна заміна інженерних систем (опалення, водопостачання)"
 
 #: templates/index.html:276
 msgid "Replacing windows and doors"
-msgstr ""
+msgstr "Заміна вікон і дверей"
 
 #: templates/index.html:277
 msgid "Laying new flooring (parquet, tiles)"
-msgstr ""
+msgstr "Укладання нового покриття (паркет, плитка)"
 
 #: templates/index.html:279
 msgid "Installation of new electrical wiring and outlets"
-msgstr ""
+msgstr "Установка нової електропроводки та розеток"
 
 #: templates/index.html:280
-#, fuzzy
 msgid "Installation of ventilation systems"
-msgstr ""
-"\n"
-"                <h3>Питання монтажу:</h3>\n"
+msgstr "Установка вентиляційних систем"
 
 #: templates/index.html:281
-#, fuzzy
 msgid "Installation of new partitions"
-msgstr ""
-"\n"
-"                <h3>Питання монтажу:</h3>\n"
+msgstr "Установка нових перегородок"
 
 #: templates/index.html:282
 msgid "Reconstruction of walls and partitions"
-msgstr ""
+msgstr "Реконструкція стін та перегородок"
 
 #: templates/index.html:283
 msgid "Installation of modern heating systems"
-msgstr ""
+msgstr "Установка сучасних систем опалення"
 
 #: templates/index.html:284
 msgid "Installation of drywall structures"
-msgstr ""
+msgstr "Установка гіпсокартонних конструкцій"
 
 #: templates/index.html:285
 msgid "Soundproofing of walls and floors"
-msgstr ""
+msgstr "Шумозоляція стін і підлог"
 
 #: templates/index.html:302
-#, fuzzy
 msgid "Major Renovation"
-msgstr "Ремонт"
+msgstr "Капітальний ремонт"
 
 #: templates/index.html:303
 msgid "Complete Complex"
-msgstr ""
+msgstr "Комплексний підхід"
 
 #: templates/index.html:307
-#, fuzzy
 msgid "3D Design"
-msgstr "Дизайн"
+msgstr "3D Дизайн"
 
 #: templates/index.html:308
 msgid "Dismantling and changing structures (moving partitions)"
-msgstr ""
+msgstr "Демонтаж та зміна конструкцій (переміщення перегородок)"
 
 #: templates/index.html:309
 msgid ""
 "Complete replacement of engineering systems (including heating, "
 "electricity, water supply)"
 msgstr ""
+"Повна заміна інженерних систем (включаючи опалення, "
+"електрику, водопостачання)"
 
 #: templates/index.html:310
 msgid "Installation of multi-level ceilings with lighting"
-msgstr ""
+msgstr "Установка багаторівневих стель з освітленням"
 
 #: templates/index.html:311
-#, fuzzy
 msgid "Installation of underfloor heating"
-msgstr ""
-"\n"
-"                <h3>Питання монтажу:</h3>\n"
+msgstr "Установка системи підігріву підлоги"
 
 #: templates/index.html:312
 msgid "Installation of decorative elements (columns, stucco)"
-msgstr ""
+msgstr "Установка декоративних елементів (колони, ліпнина)"
 
 #: templates/index.html:313
 msgid "Replacing windows and doors with improved insulation"
-msgstr ""
+msgstr "Заміна вікон та дверей з покращеною ізоляцією"
 
 #: templates/index.html:314
 msgid "Replanning spaces considering load-bearing structures"
-msgstr ""
+msgstr "Перепланування приміщень з урахуванням несучих конструкцій"
 
 #: templates/index.html:315
 msgid "Installation of smart home systems (lighting, heating, security)"
-msgstr ""
+msgstr "Установка систем розумного будинку (освітлення, опалення, безпека)"
 
 #: templates/index.html:316
 msgid "Installation of complex drywall structures (arches, niches)"
-msgstr ""
+msgstr "Установка складних гіпсокартонних конструкцій (арки, ніші)"
 
 #: templates/index.html:317
 msgid "Finishing walls with decorative panels"
-msgstr ""
+msgstr "Обробка стін декоративними панелями"
 
 #: templates/index.html:318
 msgid "Restoration or replacement of a fireplace, if available"
-msgstr ""
+msgstr "Відновлення або заміна каміна, якщо він є"
 
 #: templates/index.html:319
 msgid "Installation of modern air conditioning systems"
-msgstr ""
+msgstr "Установка сучасних систем кондиціювання повітря"
 
 #: templates/index.html:320
 msgid "Complete soundproofing of walls and ceilings"
-msgstr ""
+msgstr "Повна шумоізоляція стін і стель"
 
 #: templates/index.html:344
 msgid "About Our Team"
-msgstr ""
+msgstr "Про нашу команду"
 
 #: templates/index.html:346
 msgid "Official company <strong>Kulbachenko Construction OÜ</strong>"
-msgstr ""
+msgstr "Офіційна компанія <strong>Kulbachenko Construction OÜ</strong>"
 
 #: templates/index.html:347
 msgid "Completion of projects in the shortest possible time"
-msgstr ""
+msgstr "Завершення проектів у найкоротші терміни"
 
 #: templates/index.html:348
 msgid "Creative solutions"
-msgstr ""
+msgstr "Креативні рішення"
 
 #: templates/index.html:349
 msgid "Thorough design"
-msgstr ""
+msgstr "Детальний дизайн"
 
 #: templates/index.html:350
 msgid "Personalized solutions"
-msgstr ""
+msgstr "Індивідуальні рішення"
 
 #: templates/index.html:351
 msgid "Only modern construction technologies"
-msgstr ""
+msgstr "Тільки сучасні будівельні технології"
 
 #: templates/index.html:352
 msgid "Guarantees on completed work"
-msgstr ""
+msgstr "Гарантії на виконані роботи"
 
 #: templates/index.html:379
 msgid "Anthony van Friesen"
-msgstr ""
+msgstr "Антон Фрізен"
 
 #: templates/index.html:380
-#, fuzzy
 msgid "PROJECT MANAGER"
-msgstr "Термін реалізації проекту"
+msgstr "МЕНЕДЖЕР ПРОЕКТІВ"
 
 #: templates/index.html:403
 msgid "Building Made Simple"
-msgstr ""
+msgstr "Будівництво без зайвих труднощів"
 
 #: templates/index.html:404
 msgid "Curious how we work"
-msgstr ""
+msgstr "Цікаво, як ми працюємо"
 
 #: templates/index.html:406
 msgid "Discover the 6 steps to transforming your space with precision and care."
-msgstr ""
+msgstr "Відкрийте для себе 6 кроків до перетворення вашого простору з точністю та турботою."
 
 #: templates/index.html:407
 msgid "Discover"
-msgstr ""
+msgstr "Відкрийте"
 
 #: templates/index.html:426
-#, fuzzy
 msgid "CONTACT"
-msgstr "Зв'язатись з нами"
+msgstr "КОНТАКТИ"
+
 
 #: templates/index.html:427
 msgid ""
@@ -798,10 +815,18 @@ msgid ""
 "us. At this stage, we will provide you with preliminary information about"
 " the cost, order of work, and possible deadlines."
 msgstr ""
+"Спочатку вам потрібно зв'язатися з нами і задати будь-які питання, які у "
+"вас є. Ви можете надіслати нам електронний лист, використати зручний "
+"месенджер, зателефонувати або заповнити форму заявки на нашому сайті, "
+"щоб менеджер зв'язався з вами. Під час телефонної розмови ви можете "
+"обговорити деталі вашого проекту (або будівництва), описати об'єкт і "
+"визначити обсяг робіт разом з нами. На цьому етапі ми надамо вам "
+"попередню інформацію про вартість, порядок виконання робіт і можливі "
+"терміни."
 
 #: templates/index.html:433
 msgid "MEASUREMENTS"
-msgstr ""
+msgstr "ВИМІРИ"
 
 #: templates/index.html:434
 msgid ""
@@ -812,10 +837,16 @@ msgid ""
 "together with the client and the foreman. Based on this data, the "
 "estimator will begin to calculate the budget."
 msgstr ""
+"Наш майстер безкоштовно відвідає ваш об'єкт для проведення точних "
+"вимірювань і оцінки обсягу робіт. Якщо у вас є проект дизайну або "
+"будівельний план, ці дані будуть уточнені. У разі відсутності такого "
+"плану разом з клієнтом і майстром буде підготовлено детальний опис "
+"необхідних робіт. На основі цих даних кошторисник почне розрахунок "
+"бюджету."
 
 #: templates/index.html:440
 msgid "BUDGET AND CONTRACT"
-msgstr ""
+msgstr "БЮДЖЕТ І ДОГОВІР"
 
 #: templates/index.html:441
 msgid ""
@@ -825,10 +856,15 @@ msgid ""
 "client. The budget will become an integral part of the contract as "
 "Appendix No. 1."
 msgstr ""
+"Кошторисник швидко підготує детальний попередній бюджет безкоштовно. "
+"Усі умови щодо вартості, термінів та процесу виконання робіт будуть "
+"документально оформлені в договорі, який ми обов'язково підпишемо з "
+"клієнтом. Бюджет стане невід'ємною частиною договору як "
+"Додаток № 1."
 
 #: templates/index.html:447
 msgid "START OF WORK"
-msgstr ""
+msgstr "ПОЧАТОК РОБІТ"
 
 #: templates/index.html:448
 msgid ""
@@ -838,20 +874,26 @@ msgid ""
 "out only after justification by the foreman and agreement with the "
 "client."
 msgstr ""
+"Ми розпочинаємо ремонтні або будівельні роботи під керівництвом "
+"досвідченого майстра. Усі роботи виконуються за графіком і відповідно "
+"до затвердженого бюджету. Додаткові роботи проводяться лише після "
+"обґрунтування з боку майстра та погодження з клієнтом."
 
 #: templates/index.html:454
 msgid "COMPLETION OF WORK"
-msgstr ""
+msgstr "ЗАВЕРШЕННЯ РОБІТ"
 
 #: templates/index.html:455
 msgid ""
 "After the completion of work and the removal of construction debris, you "
 "accept our work."
 msgstr ""
+"Після завершення робіт та вивезення будівельного сміття ви "
+"приймаєте нашу роботу."
 
 #: templates/index.html:461
 msgid "WARRANTY AND SERVICE"
-msgstr ""
+msgstr "ГАРАНТІЯ І СЕРВІС"
 
 #: templates/index.html:462
 msgid ""
@@ -860,110 +902,122 @@ msgid ""
 "period of at least 12 months, as well as guarantees our support in case "
 "of any questions arising in the future."
 msgstr ""
+"Під час остаточного розрахунку директор компанії та клієнт підписують "
+"акт виконаних робіт, який надає гарантію на всі роботи терміном не "
+"менше 12 місяців, а також гарантує нашу підтримку у разі виникнення "
+"будь-яких питань у майбутньому."
 
 #: templates/index.html:467
 msgid "Hide"
-msgstr ""
+msgstr "Сховати"
 
 #: templates/index.html:478
 msgid "Areas We Work In"
-msgstr ""
+msgstr "Області нашої діяльності"
 
 #: templates/index.html:482 templates/index.html:539
 msgid "Residential Properties"
-msgstr ""
+msgstr "Житлова нерухомість"
 
 #: templates/index.html:485 templates/index.html:542
 msgid "1. Residential Properties"
-msgstr ""
+msgstr "1. Житлова нерухомість"
 
 #: templates/index.html:486 templates/index.html:543
 msgid ""
 "Comprehensive renovation of apartments, houses, and cottages of any "
 "complexity."
 msgstr ""
+"Комплексний ремонт квартир, будинків і котеджів будь-якої "
+"складності."
 
 #: templates/index.html:491 templates/index.html:548
 msgid "Commercial Real Estate"
-msgstr ""
+msgstr "Комерційна нерухомість"
 
 #: templates/index.html:494 templates/index.html:551
 msgid "2. Commercial Real Estate"
-msgstr ""
+msgstr "2. Комерційна нерухомість"
 
 #: templates/index.html:495 templates/index.html:552
 msgid ""
 "Renovation of offices, shops, shopping centers, hotels, and other "
 "business facilities."
 msgstr ""
+"Ремонт офісів, магазинів, торгових центрів, готелів та інших "
+"комерційних об'єктів."
 
 #: templates/index.html:500 templates/index.html:557
 msgid "Cultural and Artistic Spaces"
-msgstr ""
+msgstr "Культурні та художні простори"
 
 #: templates/index.html:503 templates/index.html:560
 msgid "3. Cultural and Artistic Spaces"
-msgstr ""
+msgstr "3. Культурні та художні простори"
 
 #: templates/index.html:504 templates/index.html:561
 msgid ""
 "Renovation and refurbishment of theaters, philharmonics, concert halls, "
 "and other cultural venues, considering their specific uses."
 msgstr ""
+"Ремонт та реконструкція театрів, філармоній, концертних залів "
+"та інших культурних закладів з урахуванням їх специфіки."
 
 #: templates/index.html:509 templates/index.html:566
 msgid "Facade Finishing"
-msgstr ""
+msgstr "Оздоблення фасадів"
 
 #: templates/index.html:512 templates/index.html:569
 msgid "4. Facade Finishing"
-msgstr ""
+msgstr "4. Оздоблення фасадів"
 
 #: templates/index.html:513 templates/index.html:570
 msgid "Professional facade finishing using modern materials."
-msgstr ""
+msgstr "Професійне оздоблення фасадів сучасними матеріалами."
 
 #: templates/index.html:518 templates/index.html:575
 msgid "Recreation Centers"
-msgstr ""
+msgstr "Бази відпочінку"
 
 #: templates/index.html:521 templates/index.html:578
 msgid "5. Recreation Centers"
-msgstr ""
+msgstr "5. Бази відпочінку"
 
 #: templates/index.html:522 templates/index.html:579
 msgid ""
 "Design and construction of modern recreation centers with a focus on "
 "comfort and eco-friendliness."
 msgstr ""
+"Проектування та будівництво сучасних баз відпочинку з акцентом "
+"на комфорт та екологічність."
 
 #: templates/index.html:527 templates/index.html:584
 msgid "Industrial Facilities"
-msgstr ""
+msgstr "Промислові об'єкти"
 
 #: templates/index.html:530 templates/index.html:587
 msgid "6. Industrial Facilities"
-msgstr ""
+msgstr "6. Промислові об'єкти"
 
 #: templates/index.html:531 templates/index.html:588
 msgid ""
 "Renovation and modernization of production halls, warehouses, factories, "
 "and technical premises."
 msgstr ""
+"Ремонт та модернізація виробничих залів, складів, заводів "
+"та технічних приміщень."
 
 #: templates/index.html:597
 msgid "Learn more"
-msgstr ""
+msgstr "Дізнатися більше"
 
 #: templates/index.html:612
-#, fuzzy
 msgid "Latest news"
-msgstr "Останні оновлення"
+msgstr "Останні новини"
 
 #: templates/index.html:651
-#, fuzzy
 msgid "Latest videos"
-msgstr "Останні оновлення"
+msgstr "Останні відео"
 
 #: templates/index.html:763
 msgid "OUR PARTNERS"
@@ -971,11 +1025,12 @@ msgstr "НАШІ ПАРТНЕРИ"
 
 #: templates/index.html:797
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Питання та відповіді"
 
 #: templates/index.html:804
 msgid "What types of repair work do you provide?"
-msgstr ""
+msgstr "Які види ремонтних робіт ви надаєте?"
+
 
 #: templates/index.html:808
 msgid ""
@@ -986,10 +1041,16 @@ msgid ""
 "ensuring high-quality results no matter the size or complexity of the "
 "job. Your vision is our priority!"
 msgstr ""
+"Ми надаємо широкий спектр ремонтних послуг, від незначних косметичних "
+"ремонтів до комплексного ремонту квартир, офісів, комерційних приміщень "
+"і будинків. Наша експертиза включає будівництво приватних будинків і "
+"обробку як малих, так і великих проектів. Ми приймаємо всі завдання, "
+"забезпечуючи високоякісні результати незалежно від розміру або "
+"складності роботи. Ваше бачення - наш пріоритет!"
 
 #: templates/index.html:814
 msgid "Do I need a permit for renovations?"
-msgstr ""
+msgstr "Чи потрібен мені дозвіл на ремонт?"
 
 #: templates/index.html:818
 msgid ""
@@ -998,10 +1059,14 @@ msgid ""
 "assist you in determining whether your project requires a permit and help"
 " you navigate the application process."
 msgstr ""
+"Так, у більшості випадків для ремонту потрібні дозволи, особливо для "
+"структурних змін або значних змін вашої власності. Ми можемо допомогти "
+"вам визначити, чи потребує ваш проект дозволу, і допомогти вам "
+"орієнтуватися в процесі подачі заявки."
 
 #: templates/index.html:824
 msgid "How is the cost of repairs determined?"
-msgstr ""
+msgstr "Як визначається вартість ремонтних робіт?"
 
 #: templates/index.html:828
 msgid ""
@@ -1010,10 +1075,14 @@ msgid ""
 "estimate after evaluating the project and discuss potential cost-saving "
 "options if needed."
 msgstr ""
+"Вартість ремонту залежить від складності проекту, розміру "
+"нерухомості та обсягу необхідних робіт. Ми надаємо детальний "
+"кошторис після оцінки проекту та обговорюємо можливі варіанти "
+"економії витрат, якщо це потрібно."
 
 #: templates/index.html:835
 msgid "What does the contract for renovation services include?"
-msgstr ""
+msgstr "Що включає договір на ремонтні послуги?"
 
 #: templates/index.html:839
 msgid ""
@@ -1021,10 +1090,13 @@ msgid ""
 "deadlines, costs, warranties, and the rights of both parties. After "
 "signing the contract, we begin the work according to the agreed plan."
 msgstr ""
+"Договір чітко визначає умови співпраці, включаючи терміни виконання "
+"робіт, витрати, гарантії та права обох сторін. Після підписання "
+"договору ми починаємо роботи відповідно до узгодженого плану."
 
 #: templates/index.html:845
 msgid "Do you provide a warranty for the work performed?"
-msgstr ""
+msgstr "Чи надаєте ви гарантію на виконані роботи?"
 
 #: templates/index.html:849
 msgid ""
@@ -1032,10 +1104,13 @@ msgid ""
 "depends on the type of repair, but it typically ranges from 1 to 5 years."
 " All warranty conditions are specified in the contract."
 msgstr ""
+"Так, ми надаємо гарантію на всі виконані роботи. Гарантійний термін "
+"залежить від типу ремонту, але зазвичай становить від 1 до 5 років. "
+"Усі гарантійні умови зазначені в договорі."
 
 #: templates/index.html:856
-msgid "In which cities do you provide services"
-msgstr ""
+msgid "In which cities do you provide services?"
+msgstr "В яких містах ви надаєте послуги?"
 
 #: templates/index.html:860
 msgid ""
@@ -1044,6 +1119,10 @@ msgid ""
 "countries enables us to navigate local regulations and requirements "
 "effectively. Consultations are free!"
 msgstr ""
+"Ми надаємо ремонтні послуги в Амстердамі, Роттердамі, Гаазі та "
+"Утрехті, а також по всій Європі. Наш великий досвід роботи в різних "
+"країнах дозволяє нам ефективно орієнтуватися в місцевих "
+"регламентах і вимогах. Консультації безкоштовні!"
 
 #: templates/portfolio.html:21 templates/portfolio_old.html:9
 msgid "Portfolio"
@@ -1051,7 +1130,7 @@ msgstr "Портфоліо"
 
 #: templates/portfolio.html:31
 msgid "Page Under Update"
-msgstr ""
+msgstr "Сторінка оновлюється"
 
 #: templates/portfolio.html:32
 msgid ""
@@ -1059,6 +1138,10 @@ msgid ""
 " soon, showcasing our completed renovation and construction projects. "
 "Thank you for your patience!"
 msgstr ""
+"Зараз ми оновлюємо цю сторінку. Наше портфоліо незабаром буде "
+"доступне тут, демонструючи наші завершені проекти ремонту та "
+"будівництва. Дякуємо за ваше терпіння!"
+
 
 #: templates/portfolio.html:54
 #, fuzzy
@@ -1111,20 +1194,19 @@ msgstr ""
 
 #: templates/services.html:22
 msgid "Renovation and Construction Services | Kulbachenko Construction"
-msgstr ""
+msgstr "Послуги ремонту та будівництва | Kulbachenko Construction"
 
 #: templates/services.html:28
-#, fuzzy
 msgid "Kulbachenko Construction | color catalog"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Kulbachenko Construction | кольоровий каталог"
 
 #: templates/services.html:30
 msgid "Our Renovation and Construction Services"
-msgstr ""
+msgstr "Наші послуги ремонту та будівництва"
 
 #: templates/services.html:36
 msgid "Your ideas are our work. Professional turnkey construction and renovation."
-msgstr ""
+msgstr "Ваші ідеї - наша робота. Професійне будівництво та ремонт під ключ."
 
 #: templates/services.html:37
 msgid ""
@@ -1133,146 +1215,149 @@ msgid ""
 " to detail. From apartment renovations to house construction, we bring "
 "your ideas to life."
 msgstr ""
+"Ми пропонуємо повний спектр послуг з будівництва та ремонту по всій "
+"Європі, легально гарантуємо високу якість, професіоналізм і увагу "
+"до деталей. Від ремонту квартир до будівництва будинків, ми втілюємо "
+"ваші ідеї в життя."
 
 #: templates/services.html:58
 msgid "We are not superheroes, but our team works wonders."
-msgstr ""
+msgstr "Ми не супергерої, але наша команда творить дива."
 
 #: templates/services.html:64
-#, fuzzy
 msgid "Kulbachenko Construction | Construction of a house"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Kulbachenko Construction | Будівництво будинку"
 
 #: templates/services.html:73
-#, fuzzy
 msgid "Kulbachenko Construction | Venetian Plaster"
-msgstr "Кульбаченко Будівництво + Дизайн"
+msgstr "Kulbachenko Construction | Венеціанська штукатурка"
 
 #: templates/services.html:76
 msgid ""
 "With over 300 successfully completed projects, we confidently call "
 "ourselves experts in the construction industry."
 msgstr ""
+"З більш ніж 300 успішно завершеними проектами, ми впевнено називаємо "
+"себе експертами у будівельній галузі."
 
 #: templates/services.html:80
-#, fuzzy
 msgid "Construction Services"
-msgstr "Будівництво"
+msgstr "Будівельні послуги"
 
 #: templates/services.html:82
-#, fuzzy
 msgid "New build construction"
-msgstr "Будівництво"
+msgstr "Будівництво нових об'єктів"
 
 #: templates/services.html:83
 msgid "Brick/block house construction"
-msgstr ""
+msgstr "Будівництво цегляних/блочних будинків"
 
 #: templates/services.html:84
 msgid "Foundation works"
-msgstr ""
+msgstr "Фундаментні роботи"
 
 #: templates/services.html:85
 msgid "Roofing works"
-msgstr ""
+msgstr "Кровельні роботи"
 
 #: templates/services.html:86
 msgid "External insulation"
-msgstr ""
+msgstr "Зовнішнє утеплення"
 
 #: templates/services.html:111
-#, fuzzy
 msgid "Renovation Services"
-msgstr "Ремонт"
+msgstr "Послуги ремонту"
 
 #: templates/services.html:113
-#, fuzzy
 msgid "Turnkey apartment renovation"
-msgstr "Ремонт квартири"
+msgstr "Ремонт квартири під ключ"
 
 #: templates/services.html:114
 msgid "Full refurbishment"
-msgstr ""
+msgstr "Повна реконструкція"
 
 #: templates/services.html:115
-#, fuzzy
 msgid "House renovation"
-msgstr "Ремонт"
+msgstr "Ремонт будинку"
 
 #: templates/services.html:116
-#, fuzzy
 msgid "Comprehensive renovation"
-msgstr "Ремонт квартири"
+msgstr "Комплексний ремонт"
 
 #: templates/services.html:117
-#, fuzzy
 msgid "Cosmetic renovation"
-msgstr "Ремонт квартири"
+msgstr "Косметичний ремонт"
 
 #: templates/services.html:118
 msgid "Interior design and refurbishment"
-msgstr ""
+msgstr "Дизайн інтер'єру та реконструкція"
 
 #: templates/services.html:137
 msgid "Kulbachenko Construction | Turnkey Apartment Renovation Services"
-msgstr ""
+msgstr "Kulbachenko Construction | Послуги ремонту квартир під ключ"
 
 #: templates/services.html:147
 msgid ""
 "Kulbachenko Construction | Professional Electrical and MEP Installation "
 "Services"
 msgstr ""
+"Kulbachenko Construction | Професійні електромонтажні та "
+"інженерні послуги"
 
 #: templates/services.html:153
 msgid "Engineering and Electrical Works"
-msgstr ""
+msgstr "Інженерні та електромонтажні роботи"
 
 #: templates/services.html:155
 msgid "MEP installation"
-msgstr ""
+msgstr "Інсталяція інженерних систем"
 
 #: templates/services.html:156
-#, fuzzy
 msgid "Electrical works"
-msgstr "Електрика"
+msgstr "Електромонтажні роботи"
 
 #: templates/services.html:179
 msgid "Finishing and Office Fit-out Works"
-msgstr ""
+msgstr "Оздоблювальні роботи та облаштування офісів"
 
 #: templates/services.html:181
 msgid "Finishing works"
-msgstr ""
+msgstr "Оздоблювальні роботи"
 
 #: templates/services.html:182
 msgid "Office fit-out"
-msgstr ""
+msgstr "Оздоблення офісу"
 
 #: templates/services.html:201
 msgid ""
 "Kulbachenko Construction | Professional Finishing and Office Fit-out "
 "Services"
 msgstr ""
+"Kulbachenko Construction | Професійні оздоблювальні та облаштувальні "
+"послуги"
 
 #: templates/services.html:211
 msgid "Kulbachenko Construction | Professional Landscaping and Fencing Services"
 msgstr ""
+"Kulbachenko Construction | Професійні послуги ландшафтного дизайну "
+"та огорожі"
 
 #: templates/services.html:217
 msgid "Additional Services"
-msgstr ""
+msgstr "Додаткові послуги"
 
 #: templates/services.html:219
 msgid "Landscaping and Fencing"
-msgstr ""
+msgstr "Ландшафтний дизайн та огорожі"
 
 #: templates/services.html:220
 msgid "Interior Design Solutions"
-msgstr ""
+msgstr "Рішення для дизайну інтер'єру"
 
 #: templates/services.html:241
 msgid "See our portfolio of renovation projects"
-msgstr ""
+msgstr "Перегляньте наше портфоліо проектів ремонту"
+
 
 #: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:15

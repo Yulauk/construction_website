@@ -154,7 +154,6 @@ msgid "Kulbachenko Construction + Design"
 msgstr "Kulbachenko Construction + Design"
 
 #: templates/base.html:109
-#, fuzzy
 msgid "Kulbachenko Construction + Design Logo"
 msgstr "Kulbachenko Construction + Design Logo"
 
@@ -368,7 +367,6 @@ msgid "Comment"
 msgstr "Kommenteeri"
 
 #: templates/base.html:584
-#, fuzzy
 msgid "Submit"
 msgstr "Esita"
 
