@@ -1109,7 +1109,7 @@ msgstr ""
 "Усі гарантійні умови зазначені в договорі."
 
 #: templates/index.html:856
-msgid "In which cities do you provide services?"
+msgid "In which cities do you provide services"
 msgstr "В яких містах ви надаєте послуги?"
 
 #: templates/index.html:860
