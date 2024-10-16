@@ -678,7 +678,7 @@ msgstr "Шумозоляція стін і підлог"
 
 #: templates/index.html:302
 msgid "Major Renovation"
-msgstr "Капітальний ремонт"
+msgstr "Комплексний ремонт"
 
 #: templates/index.html:303
 msgid "Complete Complex"

@@ -501,7 +501,7 @@ msgstr "Alates"
 
 #: templates/index.html:209 templates/index.html:239 templates/index.html:272
 #: templates/index.html:305
-msgid "NB"
+msgid "BTW"
 msgstr "NB"
 
 #: templates/index.html:211
@@ -672,7 +672,7 @@ msgstr "Heliisolatsioon seintele ja põrandatele"
 
 #: templates/index.html:302
 msgid "Major Renovation"
-msgstr "Renoveerimine"
+msgstr "Kompleksrenoveerimine"
 
 #: templates/index.html:303
 msgid "Complete Complex"
@@ -777,7 +777,7 @@ msgstr "Anthony van Friesen"
 
 #: templates/index.html:380
 msgid "PROJECT MANAGER"
-msgstr "Projektijuht"
+msgstr "PROJEKTIJUHT"
 
 #: templates/index.html:403
 msgid "Building Made Simple"
@@ -808,7 +808,14 @@ msgid ""
 "construction), describe the object, and determine the scope of work with "
 "us. At this stage, we will provide you with preliminary information about"
 " the cost, order of work, and possible deadlines."
-msgstr "" "Esiteks peate meiega ühendust võtma ja küsima kõiki küsimusi, mis teil on. " "Võite meile kirjutada, kasutada mõnda mugavat messengeri, helistada või " "täita meie veebisaidil olevat taotlusvormi, et juht teiega ühendust võtaks. " "Telefonikõne ajal saate arutada oma projekti (või ehituse) üksikasju, " "kirjeldada objekti ja määratleda töö ulatuse koos meiega. Selles etapis " "anname teile eelinfot töö maksumuse, töökorralduse ja võimalike tähtaegade " "kohta."
+msgstr ""
+"Esiteks peate meiega ühendust võtma ja küsima kõiki küsimusi, mis teil on. "
+"Võite meile kirjutada, kasutada mõnda mugavat messengeri, helistada või "
+"täita meie veebisaidil olevat taotlusvormi, et meie juht teiega ühendust "
+"võtaks. Telefonikõne ajal saate arutada oma projekti (või ehituse) "
+"üksikasju, kirjeldada objekti ja koos meiega määrata töö ulatuse. "
+"Selles etapis anname teile eelinfot töö maksumuse, töökorralduse ja "
+"võimalike tähtaegade kohta."
 
 #: templates/index.html:433
 msgid "MEASUREMENTS"
@@ -822,7 +829,12 @@ msgid ""
 "plan, a detailed description of the necessary work will be prepared "
 "together with the client and the foreman. Based on this data, the "
 "estimator will begin to calculate the budget."
-msgstr "" "Meie meistrimees külastab teie objekti tasuta, et teha täpsed mõõtmised ja " "hindamaks töö ulatust. Kui teil on disainiprojekt või ehitusplaan, siis " "see teave täpsustatakse. Sellise plaani puudumisel valmistatakse " "koos kliendi ja meistriga töö põhjalik kirjeldus. Selle teabe alusel " "alustab hinnakalkulaator eelarve koostamist."
+msgstr ""
+"Meie meistrimees külastab teie objekti tasuta, et teha täpsed mõõtmised ja "
+"hindata töö ulatust. Kui teil on disainiprojekt või ehitusplaan, siis "
+"täpsustame need andmed. Kui sellist plaani ei ole, koostame koos "
+"kliendi ja meistriga töö põhjaliku kirjelduse. Selle teabe põhjal "
+"alustab hinnakalkulaator eelarve koostamist."
 
 #: templates/index.html:440
 msgid "BUDGET AND CONTRACT"
@@ -835,7 +847,11 @@ msgid ""
 " be documented in the contract, which we will definitely sign with the "
 "client. The budget will become an integral part of the contract as "
 "Appendix No. 1."
-msgstr "" "Hinnakalkulaator valmistab kiiresti ette tasuta põhjaliku esialgse eelarve. " "Kõik tingimused, mis puudutavad maksumust, tähtaegu ja tööprotsessi, " "vormistatakse lepingus, mille me kindlasti kliendiga allkirjastame. " "Eelarve saab lepingu lahutamatuks osaks, lisana nr 1."
+msgstr ""
+"Hinnakalkulaator koostab kiiresti tasuta põhjaliku esialgse eelarve. "
+"Kõik tingimused, mis puudutavad maksumust, tähtaegu ja tööprotsessi, "
+"vormistatakse lepingus, mille me kindlasti kliendiga allkirjastame. "
+"Eelarve saab lepingu lahutamatuks osaks, lisana nr 1."
 
 #: templates/index.html:447
 msgid "START OF WORK"
@@ -848,7 +864,11 @@ msgid ""
 "and in accordance with the approved budget. Additional work is carried "
 "out only after justification by the foreman and agreement with the "
 "client."
-msgstr "" "Alustame renoveerimise või ehitustöid kogenud meistrimehe juhendamisel. " "Kõik tööd viiakse läbi vastavalt ajakavale ja kinnitatud eelarvele. " "Lisatööd tehakse ainult meistrimehe põhjendatud soovituse ja kliendiga " "kokkuleppe alusel."
+msgstr ""
+"Alustame renoveerimise või ehitustööde tegemist kogenud meistrimehe juhendamisel. "
+"Kõik tööd viiakse läbi vastavalt ajakavale ja kinnitatud eelarvele. "
+"Lisatöid tehakse ainult meistrimehe põhjendatud soovituse ja kliendiga "
+"kokkuleppe alusel."
 
 #: templates/index.html:454
 msgid "COMPLETION OF WORK"
@@ -858,7 +878,9 @@ msgstr "TÖÖDE VALMIMINE"
 msgid ""
 "After the completion of work and the removal of construction debris, you "
 "accept our work."
-msgstr "" "Peale tööde lõpetamist ja ehitusjäätmete eemaldamist aktsepteerite meie " "tööd."
+msgstr ""
+"Peale tööde lõpetamist ja ehitusjäätmete eemaldamist aktsepteerite meie "
+"tööd."
 
 #: templates/index.html:461
 msgid "WARRANTY AND SERVICE"
@@ -870,7 +892,10 @@ msgid ""
 " act of completed work, which provides a warranty for all work for a "
 "period of at least 12 months, as well as guarantees our support in case "
 "of any questions arising in the future."
-msgstr "" "Viimases arveldamises allkirjastavad ettevõtte direktor ja klient " "valminud tööde akti, mis annab garantiid kõikidele töödele vähemalt 12 " "kuud, samuti garanteerib meie toetuse kõigi tulevaste küsimuste korral."
+msgstr ""
+"Viimases arveldamises allkirjastavad ettevõtte direktor ja klient "
+"valminud tööde akti, mis annab garantiid kõikidele töödele vähemalt 12 "
+"kuud, samuti garanteerib meie toetuse kõigi tulevaste küsimuste korral."
 
 #: templates/index.html:467
 msgid "Hide"
@@ -942,11 +967,14 @@ msgstr "Puhkekeskused"
 msgid "5. Recreation Centers"
 msgstr "5. Puhkekeskused ja muud kultuuriasutused, arvestades nende spetsiifilisi kasutusi."
 
-#: templates/index.html:522 templates/index.html:579
+#: templates/index.html:495 templates/index.html:552
 msgid ""
-"Design and construction of modern recreation centers with a focus on "
-"comfort and eco-friendliness."
-msgstr "" "Kaasaegsete puhkekeskuste projekteerimine ja ehitamine, keskendudes " "mugavusele ja keskkonnasõbralikkusele."
+"Renovation of offices, shops, shopping centers, hotels, and other "
+"business facilities."
+msgstr ""
+"Kontorite, kaupluste, kaubanduskeskuste, hotellide ja teiste "
+"ärihoonete renoveerimine."
+
 
 #: templates/index.html:527 templates/index.html:584
 msgid "Industrial Facilities"
@@ -960,7 +988,9 @@ msgstr "6. Tööstusrajatised"
 msgid ""
 "Renovation and modernization of production halls, warehouses, factories, "
 "and technical premises."
-msgstr "" "Tootmishallide, ladude, tehaste ja tehniliste ruumide renoveerimine ja " "moderniseerimine."
+msgstr ""
+"Tootmishallide, ladude, tehaste ja tehniliste ruumide renoveerimine ja "
+"moderniseerimine."
 
 #: templates/index.html:597
 msgid "Learn more"
@@ -994,7 +1024,13 @@ msgid ""
 "handling both small and large-scale projects. We embrace all tasks, "
 "ensuring high-quality results no matter the size or complexity of the "
 "job. Your vision is our priority!"
-msgstr "" "Pakume laia valikut remonditeenuseid, alates väikestest kosmeetilistest " "remontidest kuni korterite, kontorite, äripindade ja majade " "kompleksremontideni. Meie ekspertiis hõlmab ka eramute ehitust ning nii " "väikeste kui ka suurte projektide teostamist. Võtame vastu kõik ülesanded, " "tagades kõrge kvaliteedi sõltumata töö suurusest või keerukusest. Teie " "visioon on meie prioriteet!"
+msgstr ""
+"Pakume laia valikut remonditeenuseid, alates väikestest kosmeetilistest "
+"remontidest kuni korterite, kontorite, äripindade ja majade "
+"kompleksremontideni. Meie ekspertiis hõlmab ka eramute ehitust ning nii "
+"väikeste kui ka suurte projektide teostamist. Võtame vastu kõik ülesanded, "
+"tagades kõrge kvaliteedi sõltumata töö suurusest või keerukusest. Teie "
+"visioon on meie prioriteet!"
 
 #: templates/index.html:814
 msgid "Do I need a permit for renovations?"
@@ -1006,7 +1042,11 @@ msgid ""
 "structural changes or significant alterations to your property. We can "
 "assist you in determining whether your project requires a permit and help"
 " you navigate the application process."
-msgstr "" "Jah, enamasti on renoveerimiseks vajalikud load, eriti kui tegemist on " "ehituslike muudatuste või oluliste ümberkorraldustega kinnistul. Me saame " "teid aidata kindlaks teha, kas teie projekt vajab luba, ning abistada " "teid taotlusprotsessis."
+msgstr ""
+"Jah, enamasti on renoveerimiseks vajalikud load, eriti kui tegemist on "
+"ehituslike muudatuste või oluliste ümberkorraldustega kinnistul. Me saame "
+"teid aidata kindlaks teha, kas teie projekt vajab luba, ning abistada "
+"teid taotlusprotsessis."
 
 #: templates/index.html:824
 msgid "How is the cost of repairs determined?"
@@ -1018,7 +1058,10 @@ msgid ""
 " the property, and the scope of work required. We provide a detailed "
 "estimate after evaluating the project and discuss potential cost-saving "
 "options if needed."
-msgstr "Remonditööde maksumus sõltub projekti keerukusest, objekti suurusest ja vajalike tööde mahust. Pärast projekti hindamist koostame üksikasjaliku hinnapakkumise ja vajadusel arutame võimalusi kulude kokkuhoiuks."
+msgstr ""
+"Remonditööde maksumus sõltub projekti keerukusest, objekti suurusest ja "
+"vajalike tööde mahust. Pärast projekti hindamist koostame üksikasjaliku "
+"hinnapakkumise ja vajadusel arutame võimalusi kulude kokkuhoiuks."
 
 #: templates/index.html:835
 msgid "What does the contract for renovation services include?"
@@ -1029,7 +1072,10 @@ msgid ""
 "The contract clearly outlines the terms of cooperation, including work "
 "deadlines, costs, warranties, and the rights of both parties. After "
 "signing the contract, we begin the work according to the agreed plan."
-msgstr "Lepingus on selgelt välja toodud koostöö tingimused, sealhulgas tööde tähtaeg, kulud, garantiid ja mõlema poole õigused. Pärast lepingu allkirjastamist alustame tööd vastavalt kokkulepitud plaanile."
+msgstr ""
+"Lepingus on selgelt välja toodud koostöö tingimused, sealhulgas tööde "
+"tähtaeg, kulud, garantiid ja mõlema poole õigused. Pärast lepingu "
+"allkirjastamist alustame tööd vastavalt kokkulepitud plaanile."
 
 #: templates/index.html:845
 msgid "Do you provide a warranty for the work performed?"
@@ -1040,7 +1086,10 @@ msgid ""
 "Yes, we provide a warranty for all work performed. The warranty period "
 "depends on the type of repair, but it typically ranges from 1 to 5 years."
 " All warranty conditions are specified in the contract."
-msgstr "Jah, me pakume garantiid kõikidele teostatud töödele. Garantii kestus sõltub remondi tüübist, kuid tavaliselt jääb see vahemikku 1 kuni 5 aastat. Kõik garantiitingimused on määratletud lepingus."
+msgstr ""
+"Jah, me pakume garantiid kõikidele teostatud töödele. Garantii kestus "
+"sõltub remondi tüübist, kuid tavaliselt jääb see vahemikku 1 kuni 5 "
+"aastat. Kõik garantiitingimused on määratletud lepingus."
 
 #: templates/index.html:856
 msgid "In which cities do you provide services"
@@ -1052,7 +1101,11 @@ msgid ""
 "Utrecht, as well as across Europe. Our extensive experience in various "
 "countries enables us to navigate local regulations and requirements "
 "effectively. Consultations are free!"
-msgstr "" "Pakume remonditeenuseid Amsterdamis, Rotterdami, Haagi ja Utrechti linnades ning kogu Euroopas. Meie laialdane kogemus erinevates riikides võimaldab meil tõhusalt arvestada kohalike eeskirjade ja nõuetega. Konsultatsioonid on tasuta!"
+msgstr ""
+"Pakume remonditeenuseid Amsterdamis, Rotterdami, Haagi ja Utrechti "
+"linnades ning kogu Euroopas. Meie laialdane kogemus erinevates riikides "
+"võimaldab meil tõhusalt arvestada kohalike eeskirjade ja nõuetega. "
+"Konsultatsioonid on tasuta!"
 
 #: templates/portfolio.html:21 templates/portfolio_old.html:9
 msgid "Portfolio"
@@ -1135,7 +1188,11 @@ msgid ""
 "Europe, legally guaranteeing high quality, professionalism, and attention"
 " to detail. From apartment renovations to house construction, we bring "
 "your ideas to life."
-msgstr "" "Pakume laia valikut ehitus- ja renoveerimisteenuseid kogu Euroopas, " "tagades seaduslikult kõrge kvaliteedi, professionaalsuse ja täpsuse " "detailides. Alates korterite renoveerimisest kuni majade ehituseni - me " "ellu viime teie ideed."
+msgstr ""
+"Pakume täielikku valikut ehitus- ja renoveerimisteenuseid kogu Euroopas, "
+"tagades seaduslikult kõrge kvaliteedi, professionaalsuse ja tähelepanu "
+"detailidele. Alates korterite renoveerimisest kuni majade ehituseni - "
+"teeme teie ideed teoks."
 
 #: templates/services.html:58
 msgid "We are not superheroes, but our team works wonders."
@@ -1154,7 +1211,9 @@ msgstr "Kulbachenko Construction | Veneetsia krohv"
 msgid ""
 "With over 300 successfully completed projects, we confidently call "
 "ourselves experts in the construction industry."
-msgstr "" "Rohkem kui 300 edukalt teostatud projektiga võime end kindlalt nimetada " "ehitustööstuse ekspertideks."
+msgstr ""
+"Rohkem kui 300 edukalt teostatud projektiga võime end kindlalt nimetada "
+"ehitustööstuse ekspertideks."
 
 #: templates/services.html:80
 msgid "Construction Services"
