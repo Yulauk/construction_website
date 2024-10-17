@@ -1,10 +1,20 @@
 User-agent: *
-Disallow: /project.html
-Disallow: /articles.html
-Disallow: /set_language/et
-Disallow: /set_language/uk
-Disallow: /set_language/en
-Disallow: /set_language/ru
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /static/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Allow the important pages
 Allow: /
 
+# Sitemap location
+Sitemap: {{ url_for('static', filename='sitemap.xml', _external=True) }}
+
+# Block specific file types (examples)
+Disallow: /*.pdf$
+Disallow: /*.doc$
+
+# Sitemap location (adjust the URL if needed)
 Sitemap: https://www.kulbachenko.com/sitemap.xml

@@ -1,4 +1,5 @@
 import sqlite3
+('/home/kulbache/construction/db/kulbachenko_blog.db')
 
 def get_blog_posts(table_name, page, per_page=9, tag=None):
     offset = (page - 1) * per_page
