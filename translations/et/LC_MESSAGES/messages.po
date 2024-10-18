@@ -1093,7 +1093,7 @@ msgstr ""
 
 #: templates/index.html:856
 msgid "In which cities do you provide services"
-msgstr "Millistes linnades te teenuseid osutate?"
+msgstr "Millistes linnades te teenuseid osutate"
 
 #: templates/index.html:860
 msgid ""

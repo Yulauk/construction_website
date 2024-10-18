@@ -933,17 +933,19 @@ msgstr ""
 
 #: templates/index.html:500 templates/index.html:557
 msgid "Cultural and Artistic Spaces"
-msgstr ""
+msgstr "Культурные и художественные пространства"
 
 #: templates/index.html:503 templates/index.html:560
 msgid "3. Cultural and Artistic Spaces"
-msgstr ""
+msgstr "3. Культурные и художественные пространства"
 
 #: templates/index.html:504 templates/index.html:561
 msgid ""
 "Renovation and refurbishment of theaters, philharmonics, concert halls, "
 "and other cultural venues, considering their specific uses."
 msgstr ""
+"Реновация и ремонт театров, филармоний, концертных залов и других культурных "
+"объектов с учётом их специфического назначения."
 
 #: templates/index.html:509 templates/index.html:566
 msgid "Facade Finishing"
@@ -1023,7 +1025,7 @@ msgid ""
 "job. Your vision is our priority!"
 msgstr ""
 "Мы предоставляем широкий спектр ремонтных услуг, от незначительных косметических "
-"ремонтов до комплексных renovations квартир, офисов, коммерческих помещений и "
+"ремонтов до комплексных ремонтов квартир, офисов, коммерческих помещений и "
 "домов. Наш опыт включает строительство частных домов и выполнение как небольших, "
 "так и крупных проектов. Мы принимаем все задачи, обеспечивая высокое качество "
 "результатов независимо от размера или сложности работы. Ваше видение — наш приоритет!"
@@ -1093,7 +1095,7 @@ msgstr ""
 
 #: templates/index.html:856
 msgid "In which cities do you provide services"
-msgstr "В каких городах вы предоставляете услуги?"
+msgstr "В каких городах вы предоставляете услуги"
 
 
 #: templates/index.html:860

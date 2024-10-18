@@ -247,6 +247,7 @@ nav a.active {
 .blur_container_filter_wrapper {
     position: relative;
     background: rgb(255 255 255 / 0%); /* Полупрозрачный фон */
+    -webkit-backdrop-filter: blur(50px); /* Размытие для Safari */
     backdrop-filter: blur(50px); /* Размытие фона за элементом */
     border-radius: 0 0 22px 22px;
     z-index: 1;
