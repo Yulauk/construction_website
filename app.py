@@ -434,9 +434,16 @@ def project_estonian_academy(setting_language=None):
 def robots():
     return send_from_directory(app.static_folder, 'robots.txt')
 
-@app.route('/sitemap.xml')
+@app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
-    return send_from_directory(app.static_folder, 'sitemap.xml')
+    language = 'en'  # Определите язык по вашему выбору
+    urls = [
+        {'loc': url_for('index', _external=True, setting_language=language), 'changefreq': 'daily', 'priority': '1.0'},
+        {'loc': url_for('about', _external=True, setting_language=language), 'changefreq': 'monthly', 'priority': '0.8'},
+        {'loc': url_for('services', _external=True, setting_language=language), 'changefreq': 'monthly', 'priority': '0.9'},
+        {'loc': url_for('blog', _external=True, setting_language=language), 'changefreq': 'weekly', 'priority': '0.7'},
+    ]
+    return render_template('sitemap.xml', urls=urls), {'Content-Type': 'application/xml'}
 
 def year_on_site():
     date_now = datetime.datetime.now()

@@ -277,8 +277,8 @@ nav a.active {
 
 .carousel-item img {
     width: 100%;
-    height: 100%; /* Или задайте фиксированную высоту, если нужно */
-    object-fit: cover; /* Изображение обрезается, чтобы заполнить блок */
+    height: 100%;
+    object-fit: cover;
 }
 
 .carousel-caption {

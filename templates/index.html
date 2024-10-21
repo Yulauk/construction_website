@@ -2,6 +2,8 @@
 
 
 {% block meta %}
+    <link rel="preload" href="{{ url_for('static', filename='images/tile_blk.webp') }}" as="image">
+
     {% if language == 'en' %}
         <meta name="description" content="✅ Kulbachenko Construction — construction and renovation of any complexity. We adapt to your needs 🤝. Amsterdam | Rotterdam | The Hague | Utrecht. Free consultation!">
 
@@ -15,10 +17,10 @@
         <meta name="description" content="✅ Kulbachenko Construction — ehitus ja remont igale keerukusele. Kohandame teie vajadustele 🤝. Tallinn | Tartu | Amsterdam | Rotterdam | Haag. Tasuta konsultatsioon!">
     {% endif %}
 
-    <link rel="alternate" hreflang="et" href="{{ url_for('index', setting_language='et') }}">
-    <link rel="alternate" hreflang="uk" href="{{ url_for('index', setting_language='uk') }}">
-    <link rel="alternate" hreflang="en" href="{{ url_for('index', setting_language='en') }}">
-    <link rel="alternate" hreflang="ru" href="{{ url_for('index', setting_language='ru') }}">
+    <link rel="alternate" hreflang="et" href="https://kulbachenko.com/et/">
+    <link rel="alternate" hreflang="uk" href="https://kulbachenko.com/uk/">
+    <link rel="alternate" hreflang="en" href="https://kulbachenko.com/en/">
+    <link rel="alternate" hreflang="ru" href="https://kulbachenko.com/ru/">
 
 {% endblock %}
 
@@ -132,24 +134,24 @@
             <div class="carousel-inner">
                 <div class="carousel-item">
                     <img src="{{ url_for('static', filename='images/kyiv_work.jpg') }}" class="d-block w-100"
-                         alt="{{ _('photo from work in Kyiv') }}">
-                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                        <!-- Add additional text or elements as needed -->
-                    </div>
+                         alt="{{ _('photo from work in Kyiv') }}" loading="lazy">
+<!--                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">-->
+<!--                        &lt;!&ndash; Add additional text or elements as needed &ndash;&gt;-->
+<!--                    </div>-->
                 </div>
-                <div class="carousel-item new1">
-                    <img src="{{ url_for('static', filename='images/cinema_1.png') }}" class="d-block w-100"
-                         alt="photo from private home cinema in Ukraine">
-                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                        <!-- Add additional text or elements as needed -->
-                    </div>
-                </div>
+<!--                <div class="carousel-item new1">-->
+<!--                    <img src="{{ url_for('static', filename='images/cinema_1.png') }}" class="d-block w-100"-->
+<!--                         alt="photo from private home cinema in Ukraine">-->
+<!--                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">-->
+<!--                        &lt;!&ndash; Add additional text or elements as needed &ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="carousel-item active">
-                    <img src="{{ url_for('static', filename='images/tile_blk.jpg') }}" class="d-block w-100"
+                    <img src="{{ url_for('static', filename='images/tile_blk.webp') }}" class="d-block w-100"
                          alt="Black tile photo">
-                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                        <!-- Add additional text or elements as needed -->
-                    </div>
+<!--                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">-->
+<!--                        &lt;!&ndash; Add additional text or elements as needed &ndash;&gt;-->
+<!--                    </div>-->
                 </div>
                 <div class="blur_container_filter_wrapper">
                         <div class="blurred-background"></div>
@@ -357,7 +359,7 @@
         <!-- Photo of the founder -->
         <div class="about_photo_wrapper_team">
             <div class="about_photo_team">
-                <img class="shadow_about_team" src="{{ url_for('static', filename='images/Kulbachenko.jpg') }}" alt="Сергей Кульбаченко - Основатель фирмы">
+                <img class="shadow_about_team" src="{{ url_for('static', filename='images/Kulbachenko.webp') }}" alt="Сергей Кульбаченко - Основатель фирмы" loading="lazy">
                 <!-- Overlay text -->
                 <div class="caption-overlay_team">
                     <p></p>
@@ -372,7 +374,7 @@
         <!-- Photo of the  -->
         <div class="about_photo_wrapper_team">
             <div class="about_photo_team">
-                <img class="shadow_about_team" src="{{ url_for('static', filename='images/Anthony-van-Friesen-2.jpg') }}" alt="Энтони ван Фрисен инженер- электрик (менеджер проектов)">
+                <img class="shadow_about_team" src="{{ url_for('static', filename='images/Anthony-van-Friesen-2.webp') }}" alt="Энтони ван Фрисен инженер- электрик (менеджер проектов)" loading="lazy">
                 <!-- Overlay text -->
                 <div class="caption-overlay_team">
                     <p></p>
@@ -901,19 +903,19 @@ function loadVideo(element, videoId) {
 
 
 <!--#schema-->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Building and Renovation",
-  "provider": {
-    "@type": "Organization",
-    "name": "Kulbachenko Construction"
-  },
-  "areaServed": "Estonia, Netherlands",
-  "description": "We provide comprehensive building and renovation services, including home renovations and construction of private homes."
-}
-</script>
+<!--<script type="application/ld+json">-->
+<!--{-->
+<!--  "@context": "https://schema.org",-->
+<!--  "@type": "Service",-->
+<!--  "serviceType": "Building and Renovation",-->
+<!--  "provider": {-->
+<!--    "@type": "Organization",-->
+<!--    "name": "Kulbachenko Construction"-->
+<!--  },-->
+<!--  "areaServed": "Estonia, Netherlands",-->
+<!--  "description": "We provide comprehensive building and renovation services, including home renovations and construction of private homes."-->
+<!--}-->
+<!--</script>-->
 <!--how we work-->
 <script>
     document.getElementById("learnMoreBtn").addEventListener("click", function() {

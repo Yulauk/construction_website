@@ -2,8 +2,9 @@
 <html lang="{{ language }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="robots" content="index, follow">
 
@@ -14,13 +15,18 @@
           type="image/x-icon" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="alternate" hreflang="et" href="https://kulbachenko.com/et/">
+    <link rel="alternate" hreflang="uk" href="https://kulbachenko.com/uk/">
+    <link rel="alternate" hreflang="en" href="https://kulbachenko.com/en/">
+    <link rel="alternate" hreflang="ru" href="https://kulbachenko.com/ru/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="building, renovation, construction, home renovation, building steps">
     <meta property="og:title" content="KULBACHENKO CONSTRUCTION and Renovation Services">
     <meta property="og:description" content="Full renovation services from cosmetic to major. Apartment and house renovations. 📞 +372 5617 7079">
-    <meta property="og:image" content="https://kulbachenko.com/static/images/logo_white_letters_tools_index_page.png">
+    <meta property="og:image" content= "{{ url_for('static', filename='images/logo_white_letters_tools_index_page.png') }}">
     <meta property="og:type" content="website">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
     </style>
@@ -93,14 +99,15 @@
     <!--strange but it only works with two identical links-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <script src="{{ url_for('static', filename='/blog_template/js/blog_template.js') }}"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+
 
 
 
 
     <title>{% block title %}{% endblock %} {{ _('Kulbachenko Construction + Design') }}</title>
 </head>
+
+
     {% block body %}
     <header id="header-big">
     <div class="container py-2">
@@ -484,7 +491,16 @@
         </div>
     </div>
     <div class="contacts_map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2041.6195074347766!2d23.680804!3d59.22237499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTnCsDEzJzIwLjYiTiAyM8KwNDAnNTAuOSJF!5e0!3m2!1suk!2ses!4v1727025683290!5m2!1suk!2ses" width="444" height="454" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2041.6195074347766!2d23.680804!3d59.22237499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTnCsDEzJzIwLjYiTiAyM8KwNDAnNTAuOSJF!5e0!3m2!1suk!2ses!4v1727025683290!5m2!1suk!2ses"
+                width="444"
+                height="454"
+                style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+                title="{{ _('Our Location Map') }}">
+        </iframe>
+    </div>
 </div>
 </div>
 
@@ -589,4 +605,5 @@ column-gap: 1rem;
     </div>
 </div>
 </div>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 </html>

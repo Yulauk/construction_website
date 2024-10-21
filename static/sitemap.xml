@@ -1,33 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-    <!-- Home Page -->
-    <url>
-        <loc>{{ url_for('index', _external=True, setting_language=language) }}</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <!-- About Page -->
-    <url>
-        <loc>{{ url_for('about', _external=True, setting_language=language) }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Services Page -->
-    <url>
-        <loc>{{ url_for('services', _external=True, setting_language=language) }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <!-- Blog Page -->
-    <url>
-        <loc>{{ url_for('blog', _external=True, setting_language=language) }}</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for url in urls %}
+<url>
+    <loc>{{ url.loc }}</loc>
+    <changefreq>{{ url.changefreq }}</changefreq>
+    <priority>{{ url.priority }}</priority>
+</url>
+{% endfor %}
 </urlset>
