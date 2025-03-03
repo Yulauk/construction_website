@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ language }}">
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T38RFSFB');</script>
+<!-- End Google Tag Manager -->
     <meta charset="UTF-8">
 <!--    <meta name="viewport"-->
 <!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
@@ -99,7 +106,14 @@
     <!--strange but it only works with two identical links-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-
+    <script type="text/javascript">
+        spPopupsScript = document.createElement('script')
+        spPopupsScript.src = 'https://static.sppopups.com/assets/loader.js';
+        spPopupsScript.async = true;
+        spPopupsScript.setAttribute("data-chats-widget-id",'97805f25-7bd7-48d7-882c-bb94970d1e79');
+        document.head.appendChild(spPopupsScript);
+    </script>
+    <script src="https://cdn.pulse.is/livechat/loader.js" data-live-chat-id="67c4d890cee3c410d906fed5" async></script>
 
 
 
@@ -109,6 +123,10 @@
 
 
     {% block body %}
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T38RFSFB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <header id="header-big">
     <div class="container py-2">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start nunito-sans-heavy">
@@ -293,7 +311,7 @@
         {% block content %}{% endblock %}
 
 
-
+<script async src="https://static.sppopups.com/assets/loader.js" data-chats-widget-id="97805f25-7bd7-48d7-882c-bb94970d1e79"></script>
     {% endblock %}
         <div class="body-bg" id="contact-form">
             <div class="container py-2">
@@ -445,19 +463,19 @@
         <h2>{{ _("Contact Information") }}</h2>
         <ul>
             <li>
-                <img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check">
+                <img src="{{ url_for('static', filename='images/check.svg') }}" alt="check">
                 <a href="tel:+37256177079">{{ _("Phone") }}: +372 5617 7079</a>
             </li>
             <li>
-                <img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check">
+                <img src="{{ url_for('static', filename='images/check.svg') }}" alt="check">
                 <span>{{ _("Working hours, Mon-Fri") }} 8:00-20:00</span>
             </li>
             <li>
-                <img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check">
+                <img src="{{ url_for('static', filename='images/check.svg') }}" alt="check">
                 <a href="mailto:contact@kulbachenko.com">contact@kulbachenko.com</a>
             </li>
             <li>
-                <img src="https://fin24-dev.site/wp-content/themes/Fin24%20Theme/style/check.svg" alt="check">
+                <img src="{{ url_for('static', filename='images/check.svg') }}" alt="check">
                 <span>{{ _("Our Social Media") }}</span>
             </li>
         </ul>
@@ -574,36 +592,30 @@
         <p>{{ _("or we call back") }}:</p>
 
 
-        <form action="/submit_free_consultation" class="card_modal" id="consultationForm" onsubmit="return validateForm()" method="post">
-            <div class="mb-3" style="
-filter: drop-shadow(0px 0px 7px #1d952913);
-column-gap: 1rem;
-">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" name="name-free-consult" id="username" placeholder="Username">
-                    <label for="username">{{ _("First Name") }}</label>
-                    <div class="error-message" id="username-error"></div>
-                </div>
+<form action="/submit_free_consultation" class="card_modal" id="consultationForm" onsubmit="return validateForm()" method="post">
+    <div class="mb-3" style="filter: drop-shadow(0px 0px 7px #1d952913); column-gap: 1rem;">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" name="name-free-consult" id="username" placeholder="Username">
+            <label for="username">{{ _("First Name") }}</label>
+            <div class="error-message" id="username-error"></div>
+        </div>
 
-                <div class="form-floating mb-3">
-                    <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
-                    <label for="phone">{{ _("Your Contact") }}</label>
-                    <div class="error-message" id="phone-error"></div>
-                </div>
+        <div class="form-floating mb-3">
+            <input type="tel" class="form-control" name="contact" id="phone" placeholder="1234567890">
+            <label for="phone">{{ _("Your Contact") }}</label>
+            <div class="error-message" id="phone-error"></div>
+        </div>
 
-                <div class="form-floating">
-                    <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
-                    <label for="comment">{{ _("Comment") }}</label>
-                    <div class="error-message" id="comment-error"></div>
-                </div>
-            </div>
-            <button class="g-recaptcha btn btn-primary" type="submit">{{ _("Submit") }}</button>
-
-            <br>
-            <small>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</small>
-        </form>
+        <div class="form-floating">
+            <textarea class="form-control" name="comment" id="comment" placeholder="Your comment (up to 1000 characters)" style="height: 100px;"></textarea>
+            <label for="comment">{{ _("Comment") }}</label>
+            <div class="error-message" id="comment-error"></div>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">{{ _("Submit") }}</button>
+</form>
     </div>
 </div>
 </div>
-<script src="https://www.google.com/recaptcha/api.js"></script>
+
 </html>

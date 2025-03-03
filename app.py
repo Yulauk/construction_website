@@ -137,7 +137,7 @@ def index(setting_language=None):
         'ru': 'blog_posts_ru'
     }
     table_name = table_map.get(language, 'blog_posts_en')  # Default to English table if language is not in the map
-    print('>>>',table_name,'<<<')
+    # print('>>>',table_name,'<<<')
     # Get the two latest video posts for the selected language
     posts_video = get_video_posts(table_name)
     post_news = get_news_posts(table_name)
@@ -454,39 +454,32 @@ def year_on_site():
 # the entered data in the Get a Free Consultation form
 @app.route('/submit_free_consultation', methods=['POST'])
 def submit_free_consultation():
-    if request.method == 'POST':
-        secret_response = request.form['g-recaptcha-response']
-        # print(request.form)
-        verify_response = requests.post(url=f'{VERIFY_URL}?secret={MY_RECAPTCHA_SECRET_KEY}&response={secret_response}').json()
-        # print(verify_response)
+    # Получаем данные из формы
+    username = request.form.get('name-free-consult')
+    contact = request.form.get('contact')
+    comment = request.form.get('comment')
+    print(username, contact, comment)
 
-        if verify_response['success']:
-            if verify_response['score'] > 0.4:
-                username = request.form.get('name-free-consult')
-                contact = request.form.get('contact-free-consult')
-                comment = request.form.get('comment-free-consult')
-
-                cursor = get_db().cursor()
-                try:
-                    cursor.execute("INSERT INTO free_consult (name, contact, comment) VALUES (%s, %s, %s)",
-                                   (username, contact, comment))
-                    get_db().commit()
-                    # Add a flash message
-                    flash('Your application has been successfully sent', 'success')
-
-                    return redirect(url_for('index'))
-                except mysql.connector.Error as err:
-                    get_db().rollback()
-                    flash(f'Error submitting form: {err}', 'error')
-                    return redirect(url_for('index'))
-                finally:
-                    cursor.close()
-            else:
-                flash(f'Error submitting form: CAPTCHA score too low', 'error')
-                return redirect(url_for('index'))
-        else:
-            flash(f'Error submitting form: capcha no verify', 'error')
+    # Проверяем, что все данные переданы
+    if username and contact and comment:
+        cursor = get_db().cursor()
+        try:
+            cursor.execute("INSERT INTO free_consult (name, contact, comment) VALUES (%s, %s, %s)",
+                           (username, contact, comment))
+            get_db().commit()
+            flash('Your application has been successfully sent', 'success')
             return redirect(url_for('index'))
+        except Exception as e:
+            get_db().rollback()
+            app.logger.error(f"Database Error: {e}")
+            flash(f'Error: {e}', 'error')
+            return redirect(url_for('index'))
+        finally:
+            cursor.close()
+    else:
+        flash('Please fill in all fields', 'error')
+        return redirect(url_for('index'))
+
 
 
 def delete_selenium_tst_free_consult():
