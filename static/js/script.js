@@ -272,3 +272,46 @@ document.addEventListener("DOMContentLoaded", function() {
 function goBack() {
             window.history.back();
         }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const filters = document.querySelectorAll('.optionsContainer .list');
+  const projects = document.querySelectorAll('.project');
+  const overlays = document.querySelectorAll('.overlay');
+  const viewButtons = document.querySelectorAll('.btn-box .btn');
+  const closeButtons = document.querySelectorAll('.overlay .close');
+
+  // Handle filter click
+  filters.forEach(filter => {
+    filter.addEventListener('click', function () {
+      const filterType = this.getAttribute('data-filter');
+
+      // Highlight the active filter
+      filters.forEach(f => f.classList.remove('active'));
+      this.classList.add('active');
+
+      // Filter projects
+      projects.forEach(project => {
+        const imgClassList = project.querySelector('.squareImg').classList;
+        if (filterType === 'all' || imgClassList.contains(filterType)) {
+          project.style.display = 'block';
+        } else {
+          project.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Handle view button click
+  viewButtons.forEach((btn, index) => {
+    btn.addEventListener('click', function () {
+      overlays[index].style.display = 'block';
+    });
+  });
+
+  // Handle close button click
+  closeButtons.forEach((btn, index) => {
+    btn.addEventListener('click', function () {
+      overlays[index].style.display = 'none';
+    });
+  });
+});
