@@ -134,19 +134,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <img src="/static/images/Kulbachenko_logo_base.svg" alt="{{ _('Kulbachenko Construction + Design Logo') }}" class="logo-image">
             </a>
             <nav class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto" aria-label="Primary navigation">
-                <div id="index_header" class="header">
-                    <div id="base" class="dropdown">
-                        <button class="custom-btn" id="languageDropdown" aria-haspopup="true" aria-expanded="false" aria-label="Language selection">
-                            {{ language.upper() }}
-                        </button>
-                        <ul class="dropdown-menu" id="languageMenu" aria-labelledby="languageDropdown">
-                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <div id="custom_header" class="custom-header">
+                                <div id="custom_dropdown_wrapper" class="custom-dropdown">
+                                    <button class="custom-dropdown-btn" type="button" id="customDropdownButton" aria-haspopup="true" aria-expanded="false" aria-label="Language selection">
+                                            <p class="hide-text-language">
+                                                {{ language.upper() }}
+                                            </p>
+
+                                            {% if language.upper() == 'EN' %}
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            {% elif language.upper() == 'ET' %}
+                                                <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
+                                            {% elif language.upper() == 'UK' %}
+                                                <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
+                                            {% elif language.upper() == 'RU' %}
+                                                <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
+                                            {% endif %}
+                                    </button>
+                                    <ul class="custom-dropdown-menu" id="customDropdownMenu" aria-labelledby="customDropdownButton">
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='et') }}">
+                                                <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">
+                                                <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">
+                                                <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="ru language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='es') }}">
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('services', setting_language=language) %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
@@ -172,31 +204,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="tst">
             <div class="me-3 py-2 link-body-emphasis text-decoration-none">
                 <div id='base-smaller' class="dropdown">
-                    <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-smaller" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{ language.upper() }}
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="languageDropdown-smaller">
-                        <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
-                    </ul>
+                    <button class="custom-dropdown-btn" type="button" id="customDropdownButtonMiddle" aria-haspopup="true" aria-expanded="false" aria-label="Language selection">
+                                            <p class="hide-text-language">
+                                                {{ language.upper() }}
+                                            </p>
+
+                                            {% if language.upper() == 'EN' %}
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            {% elif language.upper() == 'ET' %}
+                                                <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
+                                            {% elif language.upper() == 'UK' %}
+                                                <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
+                                            {% elif language.upper() == 'RU' %}
+                                                <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
+                                            {% endif %}
+                                    </button>
+                                    <ul class="custom-dropdown-menu" id="customDropdownMenuMiddle" aria-labelledby="customDropdownButton">
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='et') }}">
+                                                <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">
+                                                <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">
+                                                <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="ru language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='es') }}">
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                    </ul>
                 </div>
             </div>
         </div>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px">
-    <g fill="#6d757d" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-       stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-       font-family="none" font-weight="none" font-size="none" text-anchor="none"
-       style="mix-blend-mode: normal">
+                    <img src="{{ url_for('static', filename='images/icon menu k.svg') }}" alt="residential complex Varshavsky IN KIEV 1" class="thumbnail active">
 
-        <g transform="scale(5.12,5.12)">
-            <path d="M0,9v2h50v-2zM0,24v2h50v-2zM0,39v2h50v-2z"></path>
-        </g>
-    </g>
-</svg>
         </button>
     </div>
 </nav>
@@ -242,28 +297,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="tst">
             <div class="me-3 py-2 link-body-emphasis text-decoration-none">
                         <div id='base-mini' class="dropdown">
-                            <button class="custom-btn btn btn-secondary dropdown-toggle" type="button" id="languageDropdown-mini" data-bs-toggle="dropdown" aria-expanded="false">
-                                {{ language.upper() }}
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='et') }}">Eesti</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">Українська</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='en') }}">English</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">Русский</a></li>
+                            <button class="custom-dropdown-btn" type="button" id="customDropdownButtonMini" aria-haspopup="true" aria-expanded="false" aria-label="Language selection">
+                                            <p class="hide-text-language">
+                                                {{ language.upper() }}
+                                            </p>
 
-                            </ul>
+                                            {% if language.upper() == 'EN' %}
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            {% elif language.upper() == 'ET' %}
+                                                <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
+                                            {% elif language.upper() == 'UK' %}
+                                                <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
+                                            {% elif language.upper() == 'RU' %}
+                                                <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
+                                            {% endif %}
+                                    </button>
+                                    <ul class="custom-dropdown-menu" id="customDropdownMenuMini" aria-labelledby="customDropdownButton">
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='et') }}">
+                                                <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='uk') }}">
+                                                <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">
+                                                <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="ru language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='es') }}">
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
+                                            </a>
+                                        </li>
+                                    </ul>
                         </div>
                     </div>
             </div>
 
             <button class="navbar_toggler_lines" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarMini" aria-controls="offcanvasNavbarMini" aria-label="Toggle navigation">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px">
-    <g fill="#6d757d" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-        <g transform="scale(5.12,5.12)">
-            <path d="M0,9v2h50v-2zM0,24v2h50v-2zM0,39v2h50v-2z"></path>
-        </g>
-    </g>
-</svg>
+        <img src="{{ url_for('static', filename='images/icon menu.svg') }}" alt="residential complex Varshavsky IN KIEV 1" class="thumbnail active">
+
 </button>
 
         </div>

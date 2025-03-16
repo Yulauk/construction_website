@@ -32,10 +32,10 @@ h4 {
 }
 
 p {
-    font-size: clamp(0.85rem, 1.5vw + 0.7rem, 1.2rem); /* мінімум 1rem (16px), до максимуму 1.2rem (19.2px) */
-    line-height: 1.6; /* додатковий міжрядковий інтервал для поліпшення читабельності */
-    margin-bottom: 1.5rem; /* відступ між параграфами */
-    color: #333; /* помірний темний колір для кращої читабельності */
+    font-size: clamp(16px, 1.5vw + 1rem, 18px);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #333;
 }
 
 a {
@@ -346,7 +346,7 @@ nav a.active {
 }
 
 .portfolio_img:hover img {
-    filter: brightness(50%);
+    filter: brightness(40%);
 }
 
 .portfolio_img:hover {
@@ -379,6 +379,7 @@ nav a.active {
     font-size: 36px;
     line-height: 50px;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .portfolio_img:hover .description {
@@ -708,7 +709,6 @@ nav a.active {
 
 
 .navbar-toggler-icon {
-    border-radius: 0; /* Remove border radius */
     background-size: cover; /* Adjust this based on how you want the image to be displayed */
     background-color: transparent; /* Make background transparent to see the image */
 
@@ -719,8 +719,8 @@ nav a.active {
     font-size: var(--bs-navbar-toggler-font-size);
     line-height: 1;
     color: #f8f9fa;
+    border: none;
     background-color: transparent;
-    border: var(--bs-border-width) solid rgb(248 249 250);
     /* border-radius: var(--bs-navbar-toggler-border-radius); */
     transition: var(--bs-navbar-toggler-transition);
 }
@@ -1517,8 +1517,13 @@ icon-background {
     }
 }
 
+.discover_div{
+    font-weight:900;
+}
+
 .button_link-how_we_work {
     /* color: #fff; */
+    font-weight:900;
     font-size: clamp(19px, 3vw + 1rem, 32px);
     display:flex;
     justify-content: center;
@@ -3150,7 +3155,7 @@ ul {
 }
 
 .custom-btn {
-    margin-bottom: 4px;
+    /**margin-bottom: 4px;**/
     background-color: #6c757d; /* Цвет кнопки */
     color: white; /* Цвет текста */
     padding: 10px 15px; /* Отступы кнопки */
@@ -3194,9 +3199,9 @@ ul {
 }
 
 .custom-dropdown-btn {
-    background-color: #6c757d; /* Цвет кнопки */
+    background-color: transparent; /* Цвет кнопки */
     color: white; /* Цвет текста */
-    margin-bottom: 4px;
+    /**margin-bottom: 4px;**/
     padding: 10px 15px; /* Отступы */
     border: none; /* Убираем границу */
     cursor: pointer; /* Курсор при наведении */
@@ -3204,10 +3209,15 @@ ul {
     font-size: 14px;
 }
 
+.custom-dropdown-btn img {
+    border-radius: 25px;
+}
+
 .custom-dropdown-menu {
+    border-radius: 5px;
     display: none;
     position: absolute;
-    background-color: #0000006b;
+    background-color: #000000;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Тень */
     list-style-type: none; /* Убираем маркеры списка */
     padding: 0;
@@ -3215,8 +3225,17 @@ ul {
     z-index: 1;
 }
 
+.hide-text-language {
+    display:none;
+    border-radius: 25px;
+}
+
 .custom-dropdown-menu li {
     padding: 10px 15px; /* Отступы для элементов списка */
+}
+
+.custom-dropdown-menu img{
+    border-radius: 25px;
 }
 
 .custom-dropdown-item {
@@ -4344,3 +4363,307 @@ body {
     width: 100%;
   }
 }
+
+.slider {
+    flex: 1;
+    position: relative;
+    max-width: 70%;
+    text-align: center;
+}
+
+.slider-main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-image {
+    width: 100%;
+    height: 665px;
+    border-radius: 9px;
+    transition: none;
+    /**transition: opacity 0.5s ease-in-out;**/
+}
+
+.slider-prev, .slider-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /**transition: background 0.3s;**/
+    z-index: 2;
+}
+
+.slider-prev:hover, .slider-next:hover {
+    background: rgba(42, 31, 32, 0.6);;
+    font-size:25px;
+    transition: background 0.3s;
+}
+
+.slider-prev { left: 10px; }
+.slider-next { right: 10px; }
+
+.slider-thumbnails {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.slider-thumbnails img {
+    width: 150px;
+    height: 150px;
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.6;
+    /**transition: opacity 0.3s;**/
+    transition: none;
+}
+
+.thumbnail.active, .thumbnail:hover {
+    opacity: 1;
+}
+
+.thumbnail1 {
+    width: 120px;
+    height: 110px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.6;
+    /**transition: opacity 0.3s;**/
+    transition: none;
+}
+
+.thumbnail1.active, .thumbnail1:hover {
+    opacity: 1;
+}
+
+.fullscreen-toggle {
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+/* Полноэкранный режим */
+.fullscreen {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(42, 31, 32, 0.6);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    display: none;
+}
+
+.fullscreen img {
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 9px;
+    /**transition: opacity 0.5s ease-in-out;**/
+    transition: none;
+}
+
+.fullscreen .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /**transition: background 0.3s;**/
+}
+
+.fullscreen .close:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.fullscreen .prev, .fullscreen .next {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /** transition: background 0.3s; **/
+}
+
+.fullscreen .prev:hover, .fullscreen .next:hover {
+    background: rgba(255, 255, 255, 0.8);
+    font-size:25px;
+    transition: background 0.3s;
+}
+
+.fullscreen .prev { left: 20%; }
+.fullscreen .next { right: 20%; }
+
+.close-fullscreen {
+    position: fixed;
+    top: 10px; /* Отступ сверху */
+    right: 10px; /* Отступ справа */
+    width: 50px; /* Ширина кнопки */
+    height: 50px; /* Высота кнопки */
+    background-color: rgba(255, 255, 255, 0.5); /* Цвет фона */
+    color: #181819; /* Цвет иконки */
+    border: none; /* Убираем границу */
+    border-radius: 50%; /* Делаем кнопку круглой */
+    display: flex; /* Выравнивание контента */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    font-size: 24px; /* Размер иконки */
+    cursor: pointer; /* Делаем кнопку кликабельной */
+    transition: background 0.3s; /* Плавное изменение фона */
+}
+
+.close-fullscreen:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Затемненный фон при наведении */
+    color: black;
+}
+
+
+.div-close-fullscreen{
+    display: inline-block;
+    position: absolute;
+}
+
+.slider-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px; /* Отступ между слайдером и текстом */
+}
+
+
+.slider-text-div-100 {
+    flex: 1;
+    max-width: 100%;
+    padding: 0px 20px 20px 0;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.slider-text-div {
+    flex: 1;
+    max-width: 50%;
+    padding: 0px 20px 20px 0;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.slider-text {
+    flex: 1;
+    max-width: 30%;
+    padding: 0px 20px 20px 0;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.slider-text h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.slider-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.slider-div {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 45s linear infinite;
+}
+
+.marquee-content p {
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 1200px) {
+    .slider-container {
+        flex-direction: column-reverse;
+    }
+
+    .slider {
+        max-width: 100%;
+    }
+
+    .slider-text{
+        max-width: 100%;
+    }
+
+    .slider-text-div{
+        max-width: 100%;
+    }
+
+    .fullscreen .prev { left: 10px; }
+    .fullscreen .next { right: 10px; }
+
+    }
