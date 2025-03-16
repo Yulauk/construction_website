@@ -22,48 +22,13 @@
 
 {% block content %}
     <div class="container py-2">
-    <div class="album page-set bg-body-tertiary">
-
-
-
-<!--        <h1>{{ _('PORTFOLIO') }}</h1>-->
-        <div class="update-notice">
-            <h2>{{ _('Page Under Update') }}</h2>
-            <p>{{ _('We are currently updating this page. Our portfolio will be available here soon, showcasing our completed renovation and construction projects. Thank you for your patience!') }}</p>
-        </div>
-
-<style>
-.update-notice {
-    max-width: 390px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0 auto;
-}
-.update-notice h2 {
-    color: #1C9528;
-}
-</style>
-    </div>
-
-        <hr class="featurette-divider">
-
-        <div class="album page-set bg-body-tertiary section_portfolio_description">
-            <p>{{ _('Discover the quality and expertise we bring to every project we undertake.') }}
-            </p>
-        </div>
-
-        <hr class="featurette-divider">
-
-
         <div class="desktop_7" unique-script-id="w-w-dm-id">
   <div class="responsive-container-block bigContainer">
     <div class="responsive-container-block Container">
       <p class="text-blk headingText">
-        Gallery
+        Featured
       </p>
+        <hr class="featurette-divider">
       <div class="responsive-container-block optionsContainer">
         <p class="text-blk list all active" data-filter="all">
           All work
@@ -155,6 +120,31 @@
     </div>
   </div>
 </div>
+
+        <hr class="featurette-divider">
+
+        <div class="portfolio_text_media">
+            <p>
+                {{ _('You can find even more of our work on') }}
+                <br>
+                {{ _('Facebook and Telegram') }}
+            </p>
+        </div>
+<!--        telegram facebook-->
+        <div class="portfolio-media">
+            <div class="project-portfolio-media">
+            <a class="portfolio_img_media squareImg" href="https://www.facebook.com/KulbachenkoSerhii">
+                <img class="" src="{{ url_for('static', filename='images/facebook portfolio.svg') }}" alt="facebook portfolio">
+            </a>
+        </div>
+          <div class="project-portfolio-media">
+            <a class="portfolio_img_media squareImg" href="https://t.me/kulbachenko_serhii">
+                <img class="" src="{{ url_for('static', filename='images/telegram portfolio.svg') }}" alt="ESTONIAN-ACADEMY">
+            </a>
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
 
     </div>
 

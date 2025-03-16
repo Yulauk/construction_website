@@ -61,6 +61,17 @@
                                     </button>
                                     <ul class="custom-dropdown-menu" id="customDropdownMenu" aria-labelledby="customDropdownButton">
                                         <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='es') }}">
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
+                                            </a>
+                                        </li>
+
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            </a>
+                                        </li>
+
+                                        <li>
                                             <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='et') }}">
                                                 <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
                                             </a>
@@ -69,21 +80,14 @@
                                                 <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
                                             </a>
                                         </li>
-                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">
-                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
-                                            </a>
-                                        </li>
+
 
                                         <li>
                                             <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">
                                                 <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="ru language" class="thumbnail active">
                                             </a>
                                         </li>
-                                        <li>
-                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='es') }}">
-                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
-                                            </a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -126,6 +130,17 @@
                                     </button>
                                     <ul class="custom-dropdown-menu" id="customDropdownMenuMini" aria-labelledby="customDropdownButton">
                                         <li>
+                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='es') }}">
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
+                                            </a>
+                                        </li>
+
+                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">
+                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
+                                            </a>
+                                        </li>
+
+                                        <li>
                                             <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='et') }}">
                                                 <img src="{{ url_for('static', filename='images/et.svg') }}" alt="Estonian language" class="thumbnail active">
                                             </a>
@@ -134,21 +149,14 @@
                                                 <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
                                             </a>
                                         </li>
-                                        <li><a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='en') }}">
-                                                <img src="{{ url_for('static', filename='images/en.svg') }}" alt="English language" class="thumbnail active">
-                                            </a>
-                                        </li>
+
 
                                         <li>
                                             <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='ru') }}">
                                                 <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="ru language" class="thumbnail active">
                                             </a>
                                         </li>
-                                        <li>
-                                            <a class="custom-dropdown-item" href="{{ url_for('set_language', language_code='es') }}">
-                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
-                                            </a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -839,7 +847,7 @@ function loadVideo(element, videoId) {
 
             <div class="col-md-7 col-lg-12" style="display: flex; justify-content: center; align-items: center;">
                 <p style="color: #ffffff;font-size: 1.5rem !important;
-                margin-top: 1.5rem;margin-bottom: 2.2rem;">
+                margin-top: 1.5rem;margin-bottom: 2.2rem;font-weight: 900;">
                     {{ _('OUR PARTNERS') }}
                 </p>
             </div>
@@ -996,39 +1004,43 @@ function loadVideo(element, videoId) {
 <!--</script>-->
 <!--how we work-->
 <script>
-    document.getElementById("learnMoreBtn").addEventListener("click", function() {
+    document.addEventListener('DOMContentLoaded', function() {
+        var learnMoreBtn = document.getElementById("learnMoreBtn");
+        var hideContentBtn = document.getElementById('hideContentBtn');
         var content = document.getElementById("moreContent");
         var fullWidthContent = document.getElementById("fullWidthContent");
         var sectionSteps = document.querySelector(".section_steps");
 
-        if (content.style.display === "none" || content.style.display === "") {
-            content.style.display = "block"; // Показать скрытый контент
-            fullWidthContent.style.display = "block"; // Показать полноширинный блок
-            this.innerText = "Show Less"; // Изменить текст кнопки
+        var discoverText = "{{ _('Discover') }}";
+        var showLessText = "{{ _('Show Less') }}";
 
-            // Прокрутка секции "section_steps" вверх экрана
-            sectionSteps.scrollIntoView({
-                behavior: 'smooth', // Плавная прокрутка
-                block: 'start' // Прокрутка так, чтобы секция была в начале экрана
+        learnMoreBtn.addEventListener("click", function() {
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block"; // Показать скрытый контент
+                fullWidthContent.style.display = "block"; // Показать полноширинный блок
+                learnMoreBtn.innerText = showLessText; // Изменить текст кнопки
+
+                // Прокрутка секции "section_steps" вверх экрана
+                sectionSteps.scrollIntoView({
+                    behavior: 'smooth', // Плавная прокрутка
+                    block: 'start' // Прокрутка так, чтобы секция была в начале экрана
+                });
+            } else {
+                content.style.display = "none"; // Скрыть скрытый контент
+                fullWidthContent.style.display = "none"; // Скрыть полноширинный блок
+                learnMoreBtn.innerText = discoverText; // Вернуть исходный текст кнопки
+            }
+        });
+
+        hideContentBtn.addEventListener('click', function() {
+            content.style.display = 'none'; // Скрыть скрытый контент
+            fullWidthContent.style.display = 'none'; // Скрыть полноширинный блок
+            learnMoreBtn.innerText = discoverText; // Вернуть исходный текст кнопки
+
+            // Плавная прокрутка обратно к кнопке "Discover"
+            learnMoreBtn.scrollIntoView({
+                behavior: 'smooth'
             });
-        } else {
-            content.style.display = "none"; // Скрыть скрытый контент
-            fullWidthContent.style.display = "none"; // Скрыть полноширинный блок
-            this.innerText = "Discover"; // Вернуть исходный текст кнопки
-        }
-    });
-
-    document.getElementById('hideContentBtn').addEventListener('click', function() {
-        var content = document.getElementById('moreContent');
-        var fullWidthContent = document.getElementById('fullWidthContent');
-
-        content.style.display = 'none'; // Скрыть скрытый контент
-        fullWidthContent.style.display = 'none'; // Скрыть полноширинный блок
-        document.getElementById('learnMoreBtn').innerText = 'Discover'; // Вернуть исходный текст кнопки
-
-        // Плавная прокрутка обратно к кнопке "Discover"
-        document.getElementById('learnMoreBtn').scrollIntoView({
-            behavior: 'smooth'
         });
     });
 </script>
