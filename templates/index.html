@@ -57,7 +57,9 @@
                                                 <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
                                             {% elif language.upper() == 'RU' %}
                                                 <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
-                                            {% endif %}
+                                            {% elif language.upper() == 'ES' %}
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
+                                        {% endif %}
                                     </button>
                                     <ul class="custom-dropdown-menu" id="customDropdownMenu" aria-labelledby="customDropdownButton">
                                         <li>
@@ -126,6 +128,8 @@
                                                 <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
                                             {% elif language.upper() == 'RU' %}
                                                 <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
+                                            {% elif language.upper() == 'ES' %}
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
                                             {% endif %}
                                     </button>
                                     <ul class="custom-dropdown-menu" id="customDropdownMenuMini" aria-labelledby="customDropdownButton">

@@ -149,7 +149,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
                                             {% elif language.upper() == 'RU' %}
                                                 <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
-                                            {% endif %}
+                                            {% elif language.upper() == 'ES' %}
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
+                                        {% endif %}
                                     </button>
                                     <ul class="custom-dropdown-menu" id="customDropdownMenu" aria-labelledby="customDropdownButton">
                                         <li>
@@ -221,6 +223,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
                                             {% elif language.upper() == 'RU' %}
                                                 <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
+                                            {% elif language.upper() == 'ES' %}
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
                                             {% endif %}
                                     </button>
                                     <ul class="custom-dropdown-menu" id="customDropdownMenuMiddle" aria-labelledby="customDropdownButton">
@@ -258,7 +262,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <img src="{{ url_for('static', filename='images/icon menu k.svg') }}" alt="residential complex Varshavsky IN KIEV 1" class="thumbnail active">
+                    <img src="{{ url_for('static', filename='images/icon menu k.svg') }}" alt="nav button" class="thumbnail active">
 
         </button>
     </div>
@@ -318,6 +322,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <img src="{{ url_for('static', filename='images/uk.svg') }}" alt="Ukrainian language" class="thumbnail active">
                                             {% elif language.upper() == 'RU' %}
                                                 <img src="{{ url_for('static', filename='images/ru.webp') }}" alt="Russian language" class="thumbnail active">
+                                            {% elif language.upper() == 'ES' %}
+                                                <img src="{{ url_for('static', filename='images/es.svg') }}" alt="Espana language" class="thumbnail active">
                                             {% endif %}
                                     </button>
                                     <ul class="custom-dropdown-menu" id="customDropdownMenuMini" aria-labelledby="customDropdownButton">
@@ -354,7 +360,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <button class="navbar_toggler_lines" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarMini" aria-controls="offcanvasNavbarMini" aria-label="Toggle navigation">
-        <img src="{{ url_for('static', filename='images/icon menu.svg') }}" alt="residential complex Varshavsky IN KIEV 1" class="thumbnail active">
+        <img src="{{ url_for('static', filename='images/icon menu k.svg') }}" alt="nav button" class="thumbnail active">
 
 </button>
 

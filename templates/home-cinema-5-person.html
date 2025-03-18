@@ -1,158 +1,237 @@
 {% extends 'base.html' %}
 
 {% block title %}
-    {{ _('Professional home cinema in private house in Ukraine') }}
+    {{ _('Home cinema in a private house | Project of Kulbachenko Construction OU and BASS.UA') }}
 {% endblock %}
 
 
 {% block meta %}
-    <meta name="description" content="{{ _('Discover the ultimate cinematic experience with our professional
-                home theater installation in a private residence in Ukraine. Designed for
-                up to five people ..') }}">
+    <meta name="description" content="{{ _('Home cinema in a private house | Project of Kulbachenko Construction and BASS.UA') }}">
 {% endblock %}
 
 {% block content %}
     <div class="container py-2">
-        <div class="album page-set bg-body-tertiary">
-
-                <h1>
-                    {{ _('PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE') }}
-                </h1>
-            </div>
-
-            <hr class="featurette-divider">
-
-
-        <div class="album py-5 bg-body-tertiary section_portfolio_description">
-            <p class="cinematic5">
-                {{ _('Discover the ultimate cinematic experience with our professional
-                home theater installation in a private residence in Ukraine. Designed for
-                up to five people, this bespoke home cinema delivers immersive audio and
-                visual entertainment right in the comfort of your own home. Explore our
-                gallery to see the exquisite craftsmanship and attention to detail that
-                went into creating this luxurious
-                entertainment space.') }}
+        <hr class="featurette-divider">
+        <div class="marquee">
+        <div class="marquee-content">
+            <p>
+                ✅{{ _('The amount shown is indicative. Each project is unique, we have no problem calculating the cost of your project.') }}🤝
             </p>
         </div>
+    </div>
+
+<hr class="featurette-divider">
+
+<div class="slider-container" id="slider-1">
+
+<div class="slider">
+    <div class="slider-main">
+        <button class="slider-prev" id="prev-1">&#8592;</button>
+        <button class="slider-next" id="next-1">&#8594;</button>
+        <div class="fullscreen-toggle" id="fullscreen-toggle-1">
+        <img src="{{ url_for('static', filename='images/cinema_2.jpeg') }}" alt="Home cinema in a private house 0" class="slider-image" id="main-image-1">
+        </div>
+    </div>
+    <div class="slider-thumbnails" id="thumbnails-1">
+        <img src="{{ url_for('static', filename='images/cinema_2.jpeg') }}" alt="Home cinema in a private house 1" class="thumbnail active">
+        <img src="{{ url_for('static', filename='images/cinema_1.jpeg') }}" alt="Home cinema in a private house 2" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/cinema_4.jpeg') }}" alt="Home cinema in a private house 3" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/cinema_3.jpeg') }}" alt="Home cinema in a private house 4" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/cinema_5.jpeg') }}" alt="Home cinema in a private house 5" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/cinema_6.jpeg') }}" alt="Home cinema in a private house 6" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/Kulbachenko_bass.jpg') }}" alt="Home cinema in a private house 7" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/bass_cinema_kulbachenko.jpeg') }}" alt="Home cinema in a private house 8" class="thumbnail">
+
+
+    </div>
+</div>
+
+    <div class="slider-text">
+        <h1>{{ _('Home cinema in a private house | Project of Kulbachenko Construction OU and BASS.UA') }}</h1>
+        <p>{{ _("Kulbachenko Construction together with our partner BASS.UA implemented a project of home cinema in a private house in Ukraine. The full cycle of works included soundproofing, finishing, installation of acoustic systems and intelligent lighting, creating ideal conditions for comfortable film viewing.
+
+Individual design, high quality, high-tech solutions.") }}</p>
+
+         <p>
+             <u>{{ _('Estimated cost of work') }}:</u>
+             <br>
+             110,000 €
+
+         </p>
+    </div>
+</div>
+
+
+
+
+
+<!-- Полноэкранный контейнер -->
+<div class="fullscreen">
+    <button class="close-fullscreen">✖</button>
+    <div class="div-close-fullscreen">
+    <button class="prev">&#8592;</button>
+    <img src="" alt="fullscreen photo" class="fullscreen-image">
+    <button class="next">&#8594;</button>
+        </div>
+</div>
 
         <hr class="featurette-divider">
+<div class="slider-text-div-100">
+<h2>{{ _('Description of work performed in the home cinema project') }}</h2>
+             <p>
+             <u>{{ _('Estimated cost of work') }}:</u>
+             <br>
+             110,000 €
+         </p>
 
-        <div class="album py-5 bg-body-tertiary">
+        <hr class="featurette-divider">
+        <h3>{{ _('Object Features') }}</h3>
+        <p>
+    📏 {{ _('Home cinema project room, 5 viewing areas') }}: ≈ 34 м²<br>
+    🔹 {{ _('Paradigm acoustics') }}<br>
+    🔹 {{ _('Anthem electronics') }}<br>
+    🔹 {{ _('Stewart screen') }}<br>
+    🔹 {{ _('JVC projector') }}<br>
+    🔹 {{ _('Van den Hull cable products') }}<br>
+    📌 {{ _('Individual design, premium quality, high-tech solutions') }}
+</p>
 
-                <div class="row g-2 clearfix">
-
-<!--                    фото на странице с Modal-->
-        <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="0">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_1.jpeg"
-                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 1">
-
-            </a>
-        </div>
 
 
-        <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="1">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_2.jpeg"
-                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 2">
 
-            </a>
-        </div>
-
-        <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="2">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_3.jpeg"
-                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 3">
-
-            </a>
-        </div>
-
-        <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="3">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_4.jpeg"
-                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 4">
-
-            </a>
-        </div>
-
-                    <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="4">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_5.jpeg"
-                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 5">
-
-            </a>
-        </div>
-
-                    <div class="col-sm-6 col-md-3 my-1">
-            <a class="portfolio_img moda" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="5">
-                <img class="" src="/static/images/portfolio/cinema_5/cinema_6.jpeg"
-                     alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 6">
-
-            </a>
-        </div>
 
     </div>
 
 
 
-                <div class="container-fluid">
-    <main class="row">
+<script>
+    // Slider 1 Script
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainImage1 = document.getElementById("main-image-1");
+        const thumbnails1 = document.querySelectorAll("#thumbnails-1 .thumbnail");
+        const prevButton1 = document.getElementById("prev-1");
+        const nextButton1 = document.getElementById("next-1");
+        const fullscreenButton1 = document.getElementById("fullscreen-toggle-1");
 
-        <!-- Modal -->
-        <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false">
-                <div class="carousel-inner overflow-hidden">
-                    <!-- фотографии для слайдов Modal -->
-                    <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_1.jpeg"
-                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_2.jpeg"
-                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 2">
-                    </div>
-                    <div class="carousel-item active">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_3.jpeg"
-                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 3">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_4.jpeg"
-                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 4">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_5.jpeg"
-                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 5">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="mb-2" src="/static/images/portfolio/cinema_5/cinema_6.jpeg"
-                             alt="{{ _('Professional home cinema in private house in Ukraine') }} Photo 6">
-                    </div>
+        const fullscreenContainer = document.querySelector(".fullscreen");
+        const fullscreenImage = fullscreenContainer.querySelector(".fullscreen-image");
+        const closeFullscreen = document.querySelector(".close-fullscreen");
+        const fullscreenPrev = document.querySelector(".fullscreen .prev");
+        const fullscreenNext = document.querySelector(".fullscreen .next");
 
-                </div>
-                <!-- кнопка назад -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <!-- кнопка вперед -->
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
+        let currentIndex1 = 0;
+        const images1 = Array.from(thumbnails1).map(img => img.src);
 
-    </main>
-</div>
+        function changeImage1(index) {
+            mainImage1.src = images1[index];
+            thumbnails1.forEach((thumb, i) => thumb.classList.toggle("active", i === index));
+            currentIndex1 = index;
+        }
 
-        </div>
+        thumbnails1.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => changeImage1(index));
+        });
+
+        prevButton1.addEventListener("click", () => {
+            let newIndex = (currentIndex1 - 1 + images1.length) % images1.length;
+            changeImage1(newIndex);
+        });
+
+        nextButton1.addEventListener("click", () => {
+            let newIndex = (currentIndex1 + 1) % images1.length;
+            changeImage1(newIndex);
+        });
+
+        fullscreenButton1.addEventListener("click", () => {
+            fullscreenImage.src = images1[currentIndex1];
+            fullscreenContainer.style.display = "flex";
+        });
+
+        closeFullscreen.addEventListener("click", () => {
+            fullscreenContainer.style.display = "none";
+        });
+
+        fullscreenPrev.addEventListener("click", () => {
+            currentIndex1 = (currentIndex1 - 1 + images1.length) % images1.length;
+            fullscreenImage.src = images1[currentIndex1];
+        });
+
+        fullscreenNext.addEventListener("click", () => {
+            currentIndex1 = (currentIndex1 + 1) % images1.length;
+            fullscreenImage.src = images1[currentIndex1];
+        });
+
+        fullscreenContainer.addEventListener("click", (e) => {
+            if (e.target === fullscreenContainer) {
+                fullscreenContainer.style.display = "none";
+            }
+        });
+    });
+
+    // Slider 2 Script
+    document.addEventListener("DOMContentLoaded", function () {
+        const sliderDiv = document.getElementById("slider-2");
+        const mainImage = sliderDiv.querySelector(".slider-image");
+        const thumbnails = sliderDiv.querySelectorAll(".thumbnail1");
+        const prevButton = sliderDiv.querySelector(".slider-prev");
+        const nextButton = sliderDiv.querySelector(".slider-next");
+        const fullscreenButton = sliderDiv.querySelector(".fullscreen-toggle");
+
+        const fullscreenContainer = document.querySelector(".fullscreen");
+        const fullscreenImage = fullscreenContainer.querySelector(".fullscreen-image");
+        const closeFullscreen = document.querySelector(".close-fullscreen");
+        const fullscreenPrev = document.querySelector(".fullscreen .prev");
+        const fullscreenNext = document.querySelector(".fullscreen .next");
+
+        let currentIndex = 0;
+        const images = Array.from(thumbnails).map(img => img.src);
+
+        function changeImage(index) {
+            mainImage.src = images[index];
+            thumbnails.forEach((thumb, i) => thumb.classList.toggle("active", i === index));
+            currentIndex = index;
+        }
+
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => changeImage(index));
+        });
+
+        prevButton.addEventListener("click", () => {
+            let newIndex = (currentIndex - 1 + images.length) % images.length;
+            changeImage(newIndex);
+        });
+
+        nextButton.addEventListener("click", () => {
+            let newIndex = (currentIndex + 1) % images.length;
+            changeImage(newIndex);
+        });
+
+        fullscreenButton.addEventListener("click", () => {
+            fullscreenImage.src = images[currentIndex];
+            fullscreenContainer.style.display = "flex";
+        });
+
+        closeFullscreen.addEventListener("click", () => {
+            fullscreenContainer.style.display = "none";
+        });
+
+        fullscreenPrev.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            fullscreenImage.src = images[currentIndex];
+        });
+
+        fullscreenNext.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            fullscreenImage.src = images[currentIndex];
+        });
+
+        fullscreenContainer.addEventListener("click", (e) => {
+            if (e.target === fullscreenContainer) {
+                fullscreenContainer.style.display = "none";
+            }
+        });
+    });
+</script>
     </div>
 
 
