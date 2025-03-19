@@ -1,0 +1,263 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ _('Recreation complex "Sparta Camp", Nõva, 91104 Lääne County, Estonia') }}
+{% endblock %}
+
+
+{% block meta %}
+    <meta name="description" content="{{ _('Recreation complex project in Nõva, 91104 Lääne County, Estonia | Kulbachenko Construction') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="container py-2">
+        <hr class="featurette-divider">
+        <div class="marquee">
+        <div class="marquee-content">
+            <p>
+                ✅{{ _('The amount shown is indicative. Each project is unique, we have no problem calculating the cost of your project.') }}🤝
+            </p>
+        </div>
+    </div>
+
+<hr class="featurette-divider">
+
+<div class="slider-container" id="slider-1">
+
+<div class="slider">
+    <div class="slider-main">
+        <button class="slider-prev" id="prev-1">&#8592;</button>
+        <button class="slider-next" id="next-1">&#8594;</button>
+        <div class="fullscreen-toggle" id="fullscreen-toggle-1">
+        <img src="{{ url_for('static', filename='images/camp est 12.jpeg') }}" alt="camp, Estonia 0" class="slider-image" id="main-image-1">
+        </div>
+    </div>
+    <div class="slider-thumbnails" id="thumbnails-1">
+        <img src="{{ url_for('static', filename='images/camp est 15.jpeg') }}" alt="camp, Estonia 1" class="thumbnail active">
+        <img src="{{ url_for('static', filename='images/camp est 13.png') }}" alt="camp, Estonia 2" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 14.jpeg') }}" alt="camp, Estonia 3" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 1.jpeg') }}" alt="camp, Estonia 5" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 2.jpeg') }}" alt="camp, Estonia 6" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 3.jpeg') }}" alt="camp, Estonia 7" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 4.jpeg') }}" alt="camp, Estonia 8" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 5.jpeg') }}" alt="camp, Estonia 9" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 6.jpeg') }}" alt="camp, Estonia 10" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 7.jpeg') }}" alt="camp, Estonia 11" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 8.jpeg') }}" alt="camp, Estonia 12" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 9.jpeg') }}" alt="camp, Estonia 13" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 10.jpeg') }}" alt="camp, Estonia 14" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 11.jpeg') }}" alt="camp, Estonia 15" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 16.jpeg') }}" alt="camp, Estonia 16" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 17.jpeg') }}" alt="camp, Estonia 17" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 18.jpeg') }}" alt="camp, Estonia 18" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 19.jpeg') }}" alt="camp, Estonia 19" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 20.jpeg') }}" alt="camp, Estonia 20" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 21.jpeg') }}" alt="camp, Estonia 21" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 22.png') }}" alt="camp, Estonia 22" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 23.png') }}" alt="camp, Estonia 23" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/camp est 12.jpeg') }}" alt="camp, Estonia 24" class="thumbnail">
+
+    </div>
+</div>
+
+    <div class="slider-text">
+        <h1>{{ _('Recreation Complex "Sparta Camp" - Nõva, Estonia') }}</h1>
+        <p>{{ _('Sparta Camp in Nõva, Lääne County, Estonia is a recreation complex for relaxation, sports and outdoor activities. for comfortable outdoor living, sports and group activities.') }}</p>
+
+         <p>
+             <u>{{ _('Estimated cost of work') }}:</u>
+             <br>
+             25,000 €
+
+         </p>
+    </div>
+</div>
+
+
+
+<!-- Полноэкранный контейнер -->
+<div class="fullscreen">
+    <button class="close-fullscreen">✖</button>
+    <div class="div-close-fullscreen">
+    <button class="prev">&#8592;</button>
+    <img src="" alt="fullscreen photo" class="fullscreen-image">
+    <button class="next">&#8594;</button>
+        </div>
+</div>
+
+        <hr class="featurette-divider">
+<div class="slider-text-div-100">
+<h2>{{ _('Description of Recreation Complex "Sparta Camp" – Nõva, Estonia ') }}</h2>
+             <p>
+             <u>{{ _('Estimated cost of work') }}:</u>
+             <br>
+             25,000 €
+         </p>
+
+        <hr class="featurette-divider">
+        <h3>{{ _('Object Features') }}</h3>
+        <p>
+    📏 {{ _('Area') }}: ≈ 130 m²<br>
+</p>
+
+<div class="slider-container">
+
+<div class="slider-text-div">
+        <p>
+            ✅ {{ _('Accommodation & Outdoor Spaces') }}:<br>
+            ✔️ {{ _('10 cosy cabins, each equipped with two bunk beds. Guests will enjoy a comfortable stay.') }}<br>
+            ✔️ {{ _('Spacious terraces with wooden tables where you can relax and enjoy the company of others') }}<br>
+            <br><br>
+
+            ✅ {{ _('Eco-Friendly Solutions') }}:<br>
+            ✔️ {{ _('Solar panels and supporting equipment to ensure sustainable energy use') }}<br>
+            ✔️ {{ _('Advanced wood and roof treatment for durability and protection against environmental factors') }}<br>
+
+            <br><br>
+            <h3>Designed with modern technology and eco-conscious solutions, Sparta Camp offers a harmonious blend of comfort, functionality and sustainability, making it an ideal destination for nature lovers, sports teams and corporate retreats.</h3>
+
+        </p>
+    </div>
+
+</div>
+
+
+
+    </div>
+
+
+
+<script>
+    // Slider 1 Script
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainImage1 = document.getElementById("main-image-1");
+        const thumbnails1 = document.querySelectorAll("#thumbnails-1 .thumbnail");
+        const prevButton1 = document.getElementById("prev-1");
+        const nextButton1 = document.getElementById("next-1");
+        const fullscreenButton1 = document.getElementById("fullscreen-toggle-1");
+
+        const fullscreenContainer = document.querySelector(".fullscreen");
+        const fullscreenImage = fullscreenContainer.querySelector(".fullscreen-image");
+        const closeFullscreen = document.querySelector(".close-fullscreen");
+        const fullscreenPrev = document.querySelector(".fullscreen .prev");
+        const fullscreenNext = document.querySelector(".fullscreen .next");
+
+        let currentIndex1 = 0;
+        const images1 = Array.from(thumbnails1).map(img => img.src);
+
+        function changeImage1(index) {
+            mainImage1.src = images1[index];
+            thumbnails1.forEach((thumb, i) => thumb.classList.toggle("active", i === index));
+            currentIndex1 = index;
+        }
+
+        thumbnails1.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => changeImage1(index));
+        });
+
+        prevButton1.addEventListener("click", () => {
+            let newIndex = (currentIndex1 - 1 + images1.length) % images1.length;
+            changeImage1(newIndex);
+        });
+
+        nextButton1.addEventListener("click", () => {
+            let newIndex = (currentIndex1 + 1) % images1.length;
+            changeImage1(newIndex);
+        });
+
+        fullscreenButton1.addEventListener("click", () => {
+            fullscreenImage.src = images1[currentIndex1];
+            fullscreenContainer.style.display = "flex";
+        });
+
+        closeFullscreen.addEventListener("click", () => {
+            fullscreenContainer.style.display = "none";
+        });
+
+        fullscreenPrev.addEventListener("click", () => {
+            currentIndex1 = (currentIndex1 - 1 + images1.length) % images1.length;
+            fullscreenImage.src = images1[currentIndex1];
+        });
+
+        fullscreenNext.addEventListener("click", () => {
+            currentIndex1 = (currentIndex1 + 1) % images1.length;
+            fullscreenImage.src = images1[currentIndex1];
+        });
+
+        fullscreenContainer.addEventListener("click", (e) => {
+            if (e.target === fullscreenContainer) {
+                fullscreenContainer.style.display = "none";
+            }
+        });
+    });
+
+    // Slider 2 Script
+    document.addEventListener("DOMContentLoaded", function () {
+        const sliderDiv = document.getElementById("slider-2");
+        const mainImage = sliderDiv.querySelector(".slider-image");
+        const thumbnails = sliderDiv.querySelectorAll(".thumbnail1");
+        const prevButton = sliderDiv.querySelector(".slider-prev");
+        const nextButton = sliderDiv.querySelector(".slider-next");
+        const fullscreenButton = sliderDiv.querySelector(".fullscreen-toggle");
+
+        const fullscreenContainer = document.querySelector(".fullscreen");
+        const fullscreenImage = fullscreenContainer.querySelector(".fullscreen-image");
+        const closeFullscreen = document.querySelector(".close-fullscreen");
+        const fullscreenPrev = document.querySelector(".fullscreen .prev");
+        const fullscreenNext = document.querySelector(".fullscreen .next");
+
+        let currentIndex = 0;
+        const images = Array.from(thumbnails).map(img => img.src);
+
+        function changeImage(index) {
+            mainImage.src = images[index];
+            thumbnails.forEach((thumb, i) => thumb.classList.toggle("active", i === index));
+            currentIndex = index;
+        }
+
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => changeImage(index));
+        });
+
+        prevButton.addEventListener("click", () => {
+            let newIndex = (currentIndex - 1 + images.length) % images.length;
+            changeImage(newIndex);
+        });
+
+        nextButton.addEventListener("click", () => {
+            let newIndex = (currentIndex + 1) % images.length;
+            changeImage(newIndex);
+        });
+
+        fullscreenButton.addEventListener("click", () => {
+            fullscreenImage.src = images[currentIndex];
+            fullscreenContainer.style.display = "flex";
+        });
+
+        closeFullscreen.addEventListener("click", () => {
+            fullscreenContainer.style.display = "none";
+        });
+
+        fullscreenPrev.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            fullscreenImage.src = images[currentIndex];
+        });
+
+        fullscreenNext.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            fullscreenImage.src = images[currentIndex];
+        });
+
+        fullscreenContainer.addEventListener("click", (e) => {
+            if (e.target === fullscreenContainer) {
+                fullscreenContainer.style.display = "none";
+            }
+        });
+    });
+</script>
+    </div>
+
+
+
+
+{% endblock %}

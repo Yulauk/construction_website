@@ -84,6 +84,8 @@ def set_language(language_code):
             return redirect(url_for('articles_shower', setting_language=language_code))
         elif 'roofing-works' in next_url:
             return redirect(url_for('roofing_works', setting_language=language_code))
+        elif 'recreation-complex-nova-estonia' in next_url:
+            return redirect(url_for('recreation_complex_nova_estonia', setting_language=language_code))
         else:
             return redirect(url_for('index', setting_language=language_code))
     else:
@@ -361,6 +363,31 @@ def project(setting_language=None):
         # Log or handle the 404 error here
         app.logger.error(f"404 Not Found: {request.url}")
         raise e
+
+
+# recreation-complex-nova-estonia.html
+@app.route('/<setting_language>/portfolio/recreation-complex-nova-estonia/')
+@app.route('/<setting_language>/portfolio/recreation-complex-nova-estonia')
+@app.route('/portfolio/recreation-complex-nova-estonia/')
+@app.route('/portfolio/recreation-complex-nova-estonia')
+def recreation_complex_nova_estonia(setting_language=None):
+    if setting_language is not None and setting_language in app.config['LANGUAGES']:
+        session['language'] = setting_language
+    else:
+        # If setting_language is None or invalid, set default language
+        default_language = app.config['BABEL_DEFAULT_LOCALE']
+        session['language'] = default_language
+
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+
+    try:
+        return render_template('recreation-complex-nova-estonia.html', year_on_site=year_on_site(), language=language,
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+    except Exception as e:
+        # Log or handle the 404 error here
+        app.logger.error(f"404 Not Found: {request.url}")
+        raise e
+
 
 # bathroom-in-amsterdam-march.html
 @app.route('/<setting_language>/portfolio/bathroom-in-amsterdam-march/')
