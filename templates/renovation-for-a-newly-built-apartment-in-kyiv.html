@@ -1,0 +1,270 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ _('Turnkey renovation for a newly built apartment in Kyiv, Ukraine') }}
+{% endblock %}
+
+
+{% block meta %}
+    <meta name="description" content="{{ _('Turnkey renovation of a 40m² apartment in Kyiv with premium materials, underfloor heating, hidden doors, LED lighting, tile & laminate flooring, and a modern bathroom.') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="container py-2">
+        <hr class="featurette-divider">
+        <div class="marquee">
+        <div class="marquee-content">
+            <p>
+                ✅{{ _('The amount shown is indicative. Each project is unique, we have no problem calculating the cost of your project.') }}🤝
+            </p>
+        </div>
+    </div>
+
+<hr class="featurette-divider">
+
+<div class="slider-container" id="slider-1">
+
+<div class="slider">
+    <div class="slider-main">
+        <button class="slider-prev" id="prev-1">&#8592;</button>
+        <button class="slider-next" id="next-1">&#8594;</button>
+        <div class="fullscreen-toggle" id="fullscreen-toggle-1">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 1.jpeg') }}" alt="newly built apartment m 0" class="slider-image" id="main-image-1">
+        </div>
+    </div>
+    <div class="slider-thumbnails" id="thumbnails-1">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 2.jpeg') }}" alt="newly built apartment m, Kyiv 1" class="thumbnail active">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 3.jpeg') }}" alt="newly built apartment m, Kyiv 2" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 4.jpeg') }}" alt="newly built apartment m, Kyiv 3" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 5.jpeg') }}" alt="newly built apartment m, Kyiv 4" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 6.jpeg') }}" alt="newly built apartment m, Kyiv 5" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 7.jpeg') }}" alt="newly built apartment m, Kyiv 6" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 8.jpeg') }}" alt="newly built apartment m, Kyiv 7" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 9.jpeg') }}" alt="newly built apartment m, Kyiv 8" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 10.jpeg') }}" alt="newly built apartment m, Kyiv 9" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 11.jpeg') }}" alt="newly built apartment m, Kyiv 10" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 12.jpeg') }}" alt="newly built apartment m, Kyiv 11" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 13.jpeg') }}" alt="newly built apartment m, Kyiv 12" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 14.jpeg') }}" alt="newly built apartment m, Kyiv 13" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 15.jpeg') }}" alt="newly built apartment m, Kyiv 14" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 16.jpeg') }}" alt="newly built apartment m, Kyiv 15" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 17.jpeg') }}" alt="newly built apartment m, Kyiv 16" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 18.jpeg') }}" alt="newly built apartment m, Kyiv 17" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 19.jpeg') }}" alt="newly built apartment m, Kyiv 18" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 20.jpeg') }}" alt="newly built apartment m, Kyiv 19" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 21.jpeg') }}" alt="newly built apartment m, Kyiv 20" class="thumbnail">
+        <img src="{{ url_for('static', filename='images/newly built apartment m 1.jpeg') }}" alt="newly built apartment m, Kyiv 21" class="thumbnail">
+
+    </div>
+</div>
+
+    <div class="slider-text">
+        <h1>{{ _('Turnkey Renovation for a Newly Built Apartment in Kyiv, Ukraine') }}</h1>
+        <p>{{ _('This premium class turnkey renovation was completed in a newly built 40m² apartment in Kyiv, combining modern design, high quality materials and advanced technologies for ultimate comfort and functionality.') }}</p>
+
+         <p>
+             <u>{{ _('Estimated cost of work') }}:</u>
+             <br>
+             50,000 €
+
+         </p>
+    </div>
+</div>
+
+
+
+<!-- Полноэкранный контейнер -->
+<div class="fullscreen">
+    <button class="close-fullscreen">✖</button>
+    <div class="div-close-fullscreen">
+    <button class="prev">&#8592;</button>
+    <img src="" alt="fullscreen photo" class="fullscreen-image">
+    <button class="next">&#8594;</button>
+        </div>
+</div>
+
+        <hr class="featurette-divider">
+<div class="slider-text-div-100">
+<h2>{{ _('Description of work completed - Turnkey renovation for a newly built apartment in Kyiv, Ukraine') }}</h2>
+             <p>
+             <u>{{ _('Estimated cost of work') }}:</u>
+             <br>
+             50,000 €
+         </p>
+
+        <hr class="featurette-divider">
+        <h3>{{ _('Object Features') }}</h3>
+        <p>
+    📏 {{ _('Total area of the apartment') }}: ≈ 40 m²<br>
+</p>
+
+<div class="slider-container">
+
+<div class="slider-text-div">
+        <p>
+            ✅ {{ _('Key Features') }}:<br>
+            ✔️ {{ _('Water-based underfloor heating throughout the apartment, including the bathroom, ensuring warmth and energy efficiency') }}<br>
+            ✔️ {{ _('Hidden doors installation for a sleek and seamless interior look') }}<br>
+            ✔️ {{ _('Electrical installation, including concealed wiring, socket and switch placement') }}<br>
+            ✔️ {{ _('LED lighting installation, including modern fixtures and ambient lighting solutions') }}<br>
+
+            <br><br>
+
+            ✅ {{ _('Finishing works') }}:<br>
+            ✔️ {{ _('High-quality tile installation in the bathroom and kitchen areas') }}<br>
+            ✔️ {{ _('Laminate flooring in the main living space for a stylish and durable finish') }}<br>
+            ✔️ {{ _('Stretch ceiling installation across the entire apartment for a clean, modern appearance') }}<br><br>
+
+            ✅ {{ _('Bathroom & Plumbing') }}:<br>
+            ✔️ {{ _('Freestanding bathtub and wall-hung toilet installation for a contemporary and space-saving layout') }}<br>
+            ✔️ {{ _('Modern LED lighting for an elegant and bright atmosphere') }}<br>
+            ✔️ {{ _('Installation of heated towel rails for added convenience') }}<br><br>
+
+
+        </p>
+                <h3>This project showcases the highest level of craftsmanship, attention to detail and quality materials to create a stylish, comfortable and functional turnkey home.</h3>
+
+    </div>
+
+</div>
+
+
+
+    </div>
+
+
+
+<script>
+    // Slider 1 Script
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainImage1 = document.getElementById("main-image-1");
+        const thumbnails1 = document.querySelectorAll("#thumbnails-1 .thumbnail");
+        const prevButton1 = document.getElementById("prev-1");
+        const nextButton1 = document.getElementById("next-1");
+        const fullscreenButton1 = document.getElementById("fullscreen-toggle-1");
+
+        const fullscreenContainer = document.querySelector(".fullscreen");
+        const fullscreenImage = fullscreenContainer.querySelector(".fullscreen-image");
+        const closeFullscreen = document.querySelector(".close-fullscreen");
+        const fullscreenPrev = document.querySelector(".fullscreen .prev");
+        const fullscreenNext = document.querySelector(".fullscreen .next");
+
+        let currentIndex1 = 0;
+        const images1 = Array.from(thumbnails1).map(img => img.src);
+
+        function changeImage1(index) {
+            mainImage1.src = images1[index];
+            thumbnails1.forEach((thumb, i) => thumb.classList.toggle("active", i === index));
+            currentIndex1 = index;
+        }
+
+        thumbnails1.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => changeImage1(index));
+        });
+
+        prevButton1.addEventListener("click", () => {
+            let newIndex = (currentIndex1 - 1 + images1.length) % images1.length;
+            changeImage1(newIndex);
+        });
+
+        nextButton1.addEventListener("click", () => {
+            let newIndex = (currentIndex1 + 1) % images1.length;
+            changeImage1(newIndex);
+        });
+
+        fullscreenButton1.addEventListener("click", () => {
+            fullscreenImage.src = images1[currentIndex1];
+            fullscreenContainer.style.display = "flex";
+        });
+
+        closeFullscreen.addEventListener("click", () => {
+            fullscreenContainer.style.display = "none";
+        });
+
+        fullscreenPrev.addEventListener("click", () => {
+            currentIndex1 = (currentIndex1 - 1 + images1.length) % images1.length;
+            fullscreenImage.src = images1[currentIndex1];
+        });
+
+        fullscreenNext.addEventListener("click", () => {
+            currentIndex1 = (currentIndex1 + 1) % images1.length;
+            fullscreenImage.src = images1[currentIndex1];
+        });
+
+        fullscreenContainer.addEventListener("click", (e) => {
+            if (e.target === fullscreenContainer) {
+                fullscreenContainer.style.display = "none";
+            }
+        });
+    });
+
+    // Slider 2 Script
+    document.addEventListener("DOMContentLoaded", function () {
+        const sliderDiv = document.getElementById("slider-2");
+        const mainImage = sliderDiv.querySelector(".slider-image");
+        const thumbnails = sliderDiv.querySelectorAll(".thumbnail1");
+        const prevButton = sliderDiv.querySelector(".slider-prev");
+        const nextButton = sliderDiv.querySelector(".slider-next");
+        const fullscreenButton = sliderDiv.querySelector(".fullscreen-toggle");
+
+        const fullscreenContainer = document.querySelector(".fullscreen");
+        const fullscreenImage = fullscreenContainer.querySelector(".fullscreen-image");
+        const closeFullscreen = document.querySelector(".close-fullscreen");
+        const fullscreenPrev = document.querySelector(".fullscreen .prev");
+        const fullscreenNext = document.querySelector(".fullscreen .next");
+
+        let currentIndex = 0;
+        const images = Array.from(thumbnails).map(img => img.src);
+
+        function changeImage(index) {
+            mainImage.src = images[index];
+            thumbnails.forEach((thumb, i) => thumb.classList.toggle("active", i === index));
+            currentIndex = index;
+        }
+
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => changeImage(index));
+        });
+
+        prevButton.addEventListener("click", () => {
+            let newIndex = (currentIndex - 1 + images.length) % images.length;
+            changeImage(newIndex);
+        });
+
+        nextButton.addEventListener("click", () => {
+            let newIndex = (currentIndex + 1) % images.length;
+            changeImage(newIndex);
+        });
+
+        fullscreenButton.addEventListener("click", () => {
+            fullscreenImage.src = images[currentIndex];
+            fullscreenContainer.style.display = "flex";
+        });
+
+        closeFullscreen.addEventListener("click", () => {
+            fullscreenContainer.style.display = "none";
+        });
+
+        fullscreenPrev.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            fullscreenImage.src = images[currentIndex];
+        });
+
+        fullscreenNext.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            fullscreenImage.src = images[currentIndex];
+        });
+
+        fullscreenContainer.addEventListener("click", (e) => {
+            if (e.target === fullscreenContainer) {
+                fullscreenContainer.style.display = "none";
+            }
+        });
+    });
+</script>
+    </div>
+
+
+
+
+{% endblock %}

@@ -86,6 +86,8 @@ def set_language(language_code):
             return redirect(url_for('roofing_works', setting_language=language_code))
         elif 'recreation-complex-nova-estonia' in next_url:
             return redirect(url_for('recreation_complex_nova_estonia', setting_language=language_code))
+        elif 'renovation-for-a-newly-built-apartment-in-kyiv' in next_url:
+            return redirect(url_for('renovation_for_a_newly_built_apartment_in_kyiv', setting_language=language_code))
         else:
             return redirect(url_for('index', setting_language=language_code))
     else:
@@ -358,6 +360,29 @@ def project(setting_language=None):
 
     try:
         return render_template('project.html', year_on_site=year_on_site(), language=language,
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+    except Exception as e:
+        # Log or handle the 404 error here
+        app.logger.error(f"404 Not Found: {request.url}")
+        raise e
+
+# renovation-for-a-newly-built-apartment-in-kyiv.html
+@app.route('/<setting_language>/portfolio/renovation-for-a-newly-built-apartment-in-kyiv/')
+@app.route('/<setting_language>/portfolio/renovation-for-a-newly-built-apartment-in-kyiv')
+@app.route('/portfolio/renovation-for-a-newly-built-apartment-in-kyiv/')
+@app.route('/portfolio/renovation-for-a-newly-built-apartment-in-kyiv')
+def renovation_for_a_newly_built_apartment_in_kyiv(setting_language=None):
+    if setting_language is not None and setting_language in app.config['LANGUAGES']:
+        session['language'] = setting_language
+    else:
+        # If setting_language is None or invalid, set default language
+        default_language = app.config['BABEL_DEFAULT_LOCALE']
+        session['language'] = default_language
+
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+
+    try:
+        return render_template('renovation-for-a-newly-built-apartment-in-kyiv.html', year_on_site=year_on_site(), language=language,
                                RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
     except Exception as e:
         # Log or handle the 404 error here
