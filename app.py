@@ -64,6 +64,8 @@ def set_language(language_code):
             return redirect(url_for('blog', setting_language=language_code))
         elif 'home-cinema-5-person' in next_url:
             return redirect(url_for('project_cinema_5', setting_language=language_code))
+        elif 'bathroom-in-amsterdam-march' in next_url:
+            return redirect(url_for('bathroom_in_amsterdam_march', setting_language=language_code))
         elif 'bathroom-in-a-private-house-in-estonia' in next_url:
             return redirect(url_for('bathroom_in_a_private_house_in_estonia', setting_language=language_code))
         elif 'renovation-in-the-varshavsky-residential-complex-in-kyiv' in next_url:
@@ -359,6 +361,30 @@ def project(setting_language=None):
         # Log or handle the 404 error here
         app.logger.error(f"404 Not Found: {request.url}")
         raise e
+
+# bathroom-in-amsterdam-march.html
+@app.route('/<setting_language>/portfolio/bathroom-in-amsterdam-march/')
+@app.route('/<setting_language>/portfolio/bathroom-in-amsterdam-march')
+@app.route('/portfolio/bathroom-in-amsterdam-march/')
+@app.route('/portfolio/bathroom-in-amsterdam-march')
+def bathroom_in_amsterdam_march(setting_language=None):
+    if setting_language is not None and setting_language in app.config['LANGUAGES']:
+        session['language'] = setting_language
+    else:
+        # If setting_language is None or invalid, set default language
+        default_language = app.config['BABEL_DEFAULT_LOCALE']
+        session['language'] = default_language
+
+    language = session.get('language', app.config['BABEL_DEFAULT_LOCALE'])
+
+    try:
+        return render_template('bathroom-in-amsterdam-march.html', year_on_site=year_on_site(), language=language,
+                               RECAPTCHA_SITE_KEY=RECAPTCHA_SITE_KEY)
+    except Exception as e:
+        # Log or handle the 404 error here
+        app.logger.error(f"404 Not Found: {request.url}")
+        raise e
+
 
 # bathroom-in-a-private-house-in-estonia.html
 @app.route('/<setting_language>/portfolio/bathroom-in-a-private-house-in-estonia/')
