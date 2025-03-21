@@ -5,16 +5,19 @@
 {% block meta %}
 
     {% if language == 'en' %}
-        <meta name="description" content="Serhii Kulbachenko offers expert renovation and construction services in the Netherlands and Europe since 2005.">
+        <meta name="description" content="Since 2005 Serhii Kulbachenko has been providing professional renovation and construction services in Europe.">
 
     {% elif language == 'uk' %}
-        <meta name="description" content="Сергій Кульбаченко надає послуги з ремонту та будівництва в Нідерландах та Європі з 2005 року.">
+        <meta name="description" content="З 2005 року Сергій Кульбаченко надає професійні послуги з реконструкції та будівництва в Європі.">
 
     {% elif language == 'ru' %}
-        <meta name="description" content="Сергей Кульбаченко предлагает услуги по ремонту и строительству в Нидерландах и Европе с 2005 года.">
+        <meta name="description" content="С 2005 года Сергей Кульбаченко предоставляет профессиональные услуги по ремонту и строительству в Европе.">
 
     {% elif language == 'et' %}
-        <meta name="description" content="Serhii Kulbachenko pakub renoveerimis- ja ehitusteenuseid Eestis ja Euroopas alates 2005. aastast.">
+        <meta name="description" content="Alates 2005. aastast on Serhii Kulbachenko pakkunud professionaalseid renoveerimis- ja ehitusteenuseid Euroopas.">
+
+    {% elif language == 'es' %}
+        <meta name="description" content="Desde 2005, Serhii Kulbachenko presta servicios profesionales de renovación y construcción en Europa.">
     {% endif %}
 
     <link rel="canonical" href="{{ url_for('index', _external=True, setting_language=language) }}">
@@ -79,8 +82,8 @@
 
 
     <div class="about_text_1">
-        <h1>{{ _("Serhii Kulbachenko — Your Reliable Partner in Construction and Renovation") }}</h1>
-        <p>{{ _("My name is Serhii Kulbachenko, and I run a construction company specializing in the renovation and construction of private homes. We offer comprehensive solutions for those looking for a reliable contractor with many years of experience, ensuring high-quality work and adherence to modern standards.") }}</p>
+        <h1>{{ _("Serhii Kulbachenko - your trusted partner in construction and renovation") }}</h1>
+        <p>{{ _("My name is Serhii Kulbachenko and I run a construction company specialising in the renovation and construction of private homes. We offer comprehensive solutions for those who are looking for a reliable contractor with many years of experience, guaranteeing quality work and compliance with modern standards.") }}</p>
     </div>
 
 </div>
@@ -88,7 +91,7 @@
 <div class="about_blog">
     <div class="about_text_1">
         <h2>{{ _("Construction Experience in Europe") }}</h2>
-        <p>{{ _("Our company successfully implements projects in the Netherlands, and many other European countries using the best practices and technologies that I have mastered while working on the international market. We combine high-quality materials, modern construction methods, and many years of experience to meet the needs of our clients, whether it's new home construction or major renovations.") }}</p>
+        <p>{{ _("Our company successfully implements projects in the Netherlands and many other European countries, using the best practices and technologies I have mastered while working in the international market. We combine high quality materials, modern construction methods and many years of experience to meet the needs of our clients, whether it's a new home or a major renovation.") }}</p>
     </div>
     <div class="about_photo_wrapper">
         <div class="about_photo">
@@ -105,14 +108,14 @@
     </div>
     <div class="about_text_1">
         <h2>{{ _("The History of Founding the Construction Company") }}</h2>
-        <p>{{ _("My career began modestly as a construction worker. Rising from a laborer to the founder of a company, I have always strived to improve my skills and expand the range of services. The business was built on the principles of honesty, professionalism, and continuous development, which has allowed us to successfully operate in the market for many years.") }}</p>
+        <p>{{ _("My career began humbly as a construction worker. Rising from a labourer to the founder of a company, I have always strived to improve my skills and expand the range of services offered. The company was built on the principles of honesty, professionalism and continuous development, which has allowed us to operate successfully in the market for many years.") }}</p>
     </div>
 </div>
 
 <div class="about_blog">
     <div class="about_text_1">
-        <h2>{{ _("Construction Services and Cutting-Edge Technologies") }}</h2>
-        <p>{{ _("We provide a full range of construction services — from design to commissioning. We incorporate the latest technologies used in modern construction, such as energy-efficient materials, advanced heating and ventilation systems, as well as innovative design solutions. This enables us to create homes that meet the highest standards of comfort and functionality.") }}</p>
+        <h2>{{ _("Construction services and Advanced Technologies") }}</h2>
+        <p>{{ _("We offer a complete range of construction services - from design to commissioning. We incorporate the latest technologies used in modern construction, such as energy-efficient materials, advanced heating and ventilation systems and innovative design solutions. This enables us to create homes that meet the highest standards of comfort and functionality.") }}</p>
     </div>
     <div class="about_photo_wrapper">
         <div class="about_photo">
@@ -128,14 +131,14 @@
         </div>
     </div>
     <div class="about_text_1">
-        <h2>{{ _("High-Quality Construction Solutions for Any Projects") }}</h2>
-        <p>{{ _("Regardless of the complexity of your project — whether it's building a new private home or renovating an existing property — our team is always ready to offer quality solutions. We take care of every stage of the work, ensuring precise deadlines and impeccable quality in construction and renovation services.") }}</p>
+        <h2>{{ _("Quality construction solutions for every project") }}</h2>
+        <p>{{ _("Whatever the complexity of your project - whether it's building a new private home or renovating an existing property - our team is always ready to provide quality solutions. We take care of every stage of the work, ensuring precise deadlines and impeccable quality in construction and renovation services.") }}</p>
     </div>
 </div>
 
 <div class="cards_button_wrapper index_consult" style="padding: 3rem 1rem;">
     <a href="{{ url_for('services', setting_language=language) }}" class="card_link-button">
-        {{ _("Learn more about our construction services") }}
+        {{ _("More information on our construction services") }}
         <span class="arrow-circle" style="background-color: #ffffff;">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="#1C9528" stroke-width="2" transform="rotate(-30)">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h16M12 5l7 7-7 7"></path>

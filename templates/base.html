@@ -16,6 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="robots" content="index, follow">
 
     {% block meta %}{% endblock %}
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="icon"  href="{{ url_for('static', filename='images/Kulbachenko_classic.png') }}"  class="me-2"
@@ -76,6 +77,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {
       "@type": "Place",
       "name": "Utrecht, Netherlands"
+    },
+    {
+      "@type": "Place",
+      "name": "Torrevieja, Spain"
+    },
+    {
+      "@type": "Place",
+      "name": "Alicante, Spain"
     }
   ],
   "sameAs": [
@@ -92,8 +101,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "Tuesday",
       "Wednesday",
       "Thursday",
-      "Friday",
-      "Saturday"
+      "Friday"
     ],
     "opens": "08:00",
     "closes": "20:00"
@@ -262,7 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <img src="{{ url_for('static', filename='images/icon menu k.svg') }}" alt="nav button" class="thumbnail active">
+                    <img src="{{ url_for('static', filename='images/icon_menu_k.svg') }}" alt="nav button" class="thumbnail active">
 
         </button>
     </div>
@@ -270,10 +278,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- Offcanvas navigation -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabelMid">{{ _('Navigation Menu') }}</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <div class="offcanvas-header offcanvas-header-color">
+                            <img src="/static/images/index_logo.svg" alt="Kulbachenko Construction Logo index" class="logo-image logo-image-width75">
+            <button type="button" class="btn-close btn-close-font-weight" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+
 
     <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -281,16 +290,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a class="nav-link" href="{{ url_for('index', _external=True, setting_language=language) }}">{{ _('HOME') }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language, path=request.path) }}">{{ _('ABOUT') }}</a>
+                <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language, path=request.path) }}">{{ _('PORTFOLIO') }}</a>
+                <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
+                <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
             </li>
         </ul>
     </div>
@@ -360,7 +369,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <button class="navbar_toggler_lines" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarMini" aria-controls="offcanvasNavbarMini" aria-label="Toggle navigation">
-        <img src="{{ url_for('static', filename='images/icon menu k.svg') }}" alt="nav button" class="thumbnail active">
+        <img src="{{ url_for('static', filename='images/icon_menu_k.svg') }}" alt="nav button" class="thumbnail active">
 
 </button>
 
@@ -369,8 +378,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Offcanvas navigation -->
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarMini" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">{{ _('Navigation Menu') }}</h5>
+        <div class="offcanvas-header offcanvas-header-color">
+                            <img src="/static/images/index_logo.svg" alt="Kulbachenko Construction Logo index" class="logo-image logo-image-width75">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -379,16 +388,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a class="nav-link" href="{{ url_for('index', _external=True, setting_language=language) }}">{{ _('HOME') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language, path=request.path) }}">{{ _('ABOUT') }}</a>
+                    <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('base', setting_language=language) %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language, path=request.path) }}">{{ _('PORTFOLIO') }}</a>
+
+                    <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == url_for('portfolio', setting_language=language) %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
                 </li>
                 <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                    <a class="py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
                 </li>
                 <li class="nav-link nav-item">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
+                    <a class="py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
                 </li>
 
             </ul>
@@ -411,148 +421,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script async src="https://static.sppopups.com/assets/loader.js" data-chats-widget-id="97805f25-7bd7-48d7-882c-bb94970d1e79"></script>
     {% endblock %}
-        <div class="body-bg" id="contact-form">
-            <div class="container py-2">
-                <div class="album py-5">
-        <main>
-            <div>
-            <div class="row">
-
-
-                  <!-- Form "Contact Us" -->
-<div class="col-md-7 col-lg-8">
-    <h4 class="mb-4" style="text-align: center;">
-        {{ _('Contact Us') }}
-    </h4>
-    <form class="row g-3" action="{{ url_for('submit_contact_us') }}" id="contactForm" method="POST">
-
-        <div class="col-md-6">
-            <label for="validationContactName" class="form-label">{{ _('First name') }}<span class="text-red">*</span></label>
-            <input type="text" name="name-contact-us" class="form-control" id="validationContactName" required>
-            <div id="nameError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactLastName" class="form-label">{{ _('Last name') }}<span class="text-red">*</span></label>
-            <input type="text" name="surname-contact-us" class="form-control" id="validationContactLastName" required>
-            <div id="lastNameError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactEmail" class="form-label">{{ _('Email address') }}<span class="text-red">*</span></label>
-            <div class="input-group">
-                <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                <input type="email" name="email-contact-us" class="form-control" id="validationContactEmail" placeholder="name@example.com" required>
-            </div>
-            <div id="emailError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactPhone" class="form-label">{{ _('Phone') }}<span class="text-red">*</span></label>
-            <input type="text" name="phone-contact-us" class="form-control" id="validationContactPhone" required>
-            <div id="phoneError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactCity" class="form-label">{{ _('City') }}<span class="text-red">*</span></label>
-            <input type="text" name="city-contact-us" class="form-control" id="validationContactCity" required>
-            <div id="cityError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-3">
-            <label for="validationContactState" class="form-label">{{ _('State') }}</label>
-            <input type="text" name="state-contact-us" class="form-control" id="validationContactState">
-        </div>
-
-        <div class="col-md-3">
-            <label for="validationContactZip" class="form-label">{{ _('Zip') }}</label>
-            <input type="text" name="zip-contact-us" class="form-control" id="validationContactZip">
-            <div id="zipError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactAddress" class="form-label">{{ _('Address') }}</label>
-            <input type="text" name="address-contact-us" class="form-control" id="validationContactAddress">
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactBudget" class="form-label">{{ _('Target budget') }}<span class="text-red">*</span></label>
-            <select name="budget-contact-us" class="form-select" id="validationContactBudget" required>
-                <option value="" selected disabled>{{ _('Select budget range') }}</option>
-                <option value="$100-$999">{{ _('$100-$999') }}</option>
-                <option value="$1000-$4999">{{ _('$1000-$4999') }}</option>
-                <option value="$5000-$9999">{{ _('$5000-$9999') }}</option>
-                <option value="$10,000-$19,999">{{ _('$10,000-$19,999') }}</option>
-                <option value="$20,000-$49,999">{{ _('$20,000-$49,999') }}</option>
-                <option value="$50,000-$99,999">{{ _('$50,000-$99,999') }}</option>
-                <option value="$100,000+">{{ _('$100,000+') }}</option>
-            </select>
-            <div id="budgetError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactTime" class="form-label">{{ _('Project time frame') }}<span class="text-red">*</span></label>
-            <select name="time-contact-us" class="form-select" id="validationContactTime" required>
-                <option value="" selected disabled>{{ _('Select time frame') }}</option>
-                <option value="hot">{{ _('As soon as possible') }}</option>
-                <option value="3-months">{{ _('Starting within 3 months') }}</option>
-                <option value="6-months">{{ _('Starting within 6 months') }}</option>
-                <option value="1-year">{{ _('Starting within a year') }}</option>
-            </select>
-            <div id="timeError" class="error-message text-red"></div>
-        </div>
-
-        <div class="col-md-6">
-            <label for="validationContactAbout" class="form-label">{{ _('How did you hear about us?') }}</label>
-            <select name="source-contact-us" class="form-select" id="validationContactAbout">
-                <option value="" selected disabled>{{ _('Select an option') }}</option>
-                <option value="online">{{ _('Online Advertisement') }}</option>
-                <option value="friend">{{ _('Friend or Colleague') }}</option>
-                <option value="social">{{ _('Social networks') }}</option>
-                <option value="google">{{ _('Google') }}</option>
-                <option value="other">{{ _('Other') }}</option>
-            </select>
-            <div id="sourceError" class="error-message text-red"></div>
-        </div>
-
-        <div class="mb-3">
-            <label for="validationContactProject" class="form-label">{{ _('Tell us about your project') }}<span class="text-red">*</span></label>
-            <textarea class="form-control" name="project-contact-us" id="validationContactProject" rows="3" required></textarea>
-            <div id="projectError" class="error-message text-red"></div>
-        </div>
-
-        <!-- Additional checkbox (if needed) -->
-        <!--
-        <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">
-                    {{ _('Agree to terms and conditions') }}
-                </label>
-            </div>
-        </div>
-        -->
-
-        <div class="col-12">
-            <button class="btn btn-primary button-contact-us" type="submit">{{ _('Submit form') }}</button>
-        </div>
-
-        <br>
-        <small>This site is protected by reCAPTCHA and the Google
-            <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-            <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-        </small>
-    </form>
-</div>
-
-
-
-                </div>
-                </div>
-        </main>
-                    </div>
-                </div>
-                </div>
 
 
 <section id="contacts">
@@ -567,14 +435,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </li>
             <div class="social_icons">
             <a href="https://www.facebook.com/KulbachenkoSerhii" aria-label="Facebook">
-                <img src="{{ url_for('static', filename='images/facebook icon g.svg') }}" alt="Facebook">
+                <img src="{{ url_for('static', filename='images/facebook_icon_g.svg') }}" alt="Facebook">
             </a>
             <a href="https://wa.me/37256177079" aria-label="Whatsapp">
-                <img src="{{ url_for('static', filename='images/whatsapp icons.svg') }}" alt="whatsapp">
+                <img src="{{ url_for('static', filename='images/whatsapp_icons.svg') }}" alt="whatsapp">
             </a>
 
             <a href="https://t.me/kulbachenko_construction" aria-label="Telegram">
-                <img src="{{ url_for('static', filename='images/telegram icon g.svg') }}" alt="Telegram">
+                <img src="{{ url_for('static', filename='images/telegram_icon_g.svg') }}" alt="Telegram">
             </a>
 
         </div>
@@ -641,9 +509,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-        <div class="container py-2">
-
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="about_blog">
             <div class="col-md-4 col-12 d-flex align-items-center">
                 <span class="mb-3 mb-md-0 text-body-secondary">© 2005-{{ year_on_site }} Kulbachenko Construction OÜ</span>
             </div>
@@ -686,7 +552,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
             </ul>
         </footer>
-            </div>
+
     <!-- Modal structure -->
 <div id="consultationModal" class="modal">
 <div class="modal-content">

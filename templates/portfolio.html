@@ -2,16 +2,19 @@
 
 {% block meta %}
     {% if language == 'en' %}
-        <meta name="description" content="Explore Kulbachenko Construction's portfolio showcasing our completed renovation and construction projects. Discover our expertise in transforming spaces across Amsterdam, Rotterdam, The Hague, and Utrecht.">
+        <meta name="description" content="Explore Kulbachenko Construction's portfolio of completed renovation and construction projects. Discover our expertise in transforming spaces across Amsterdam, Tallinn, Kyiv, Alicante and Torrevieja.">
 
     {% elif language == 'uk' %}
-        <meta name="description" content="Досліджуйте портфоліо Kulbachenko Construction, що демонструє наші завершені проєкти з ремонту та будівництва. Дізнайтеся про наш досвід у трансформації просторів у Амстердамі, Роттердамі, Гаазі та Утрехті.">
+        <meta name="description" content="Ознайомтеся з портфоліо завершених проектів Kulbachenko Construction з реконструкції та будівництва. Дізнайтеся про наш досвід трансформації просторів в Амстердамі, Таллінні, Києві, Аліканте та Торрев'єсі.">
 
     {% elif language == 'ru' %}
-        <meta name="description" content="Изучите портфолио Kulbachenko Construction, демонстрирующее наши завершенные проекты по ремонту и строительству. Узнайте о нашем опыте в трансформации пространств в Амстердаме, Роттердаме, Гааге и Утрехте.">
+        <meta name="description" content="Ознакомьтесь с портфолио завершенных проектов реконструкции и строительства компании Kulbachenko Construction. Откройте для себя наш опыт в преобразовании помещений в Амстердаме, Таллинне, Киеве, Аликанте и Торревьехе.">
 
     {% elif language == 'et' %}
-        <meta name="description" content="Tutvuge Kulbachenko Constructioni portfelliga, mis näitab meie lõpetatud renoveerimis- ja ehitusprojekte. Avastage meie kogemused ruumide muutmisel Eestis, sealhulgas Tallinnas, Tartus ja mujal.">
+        <meta name="description" content="Tutvuge Kulbachenko Constructioni portfelliga lõpetatud renoveerimis- ja ehitusprojektidest. Avastage meie kogemused ruumide ümberkujundamisel Amsterdamis, Tallinnas, Kiievis, Alicantes ja Torreviejas.">
+
+    {% elif language == 'es' %}
+        <meta name="description" content="Explore la cartera de proyectos de renovación y construcción finalizados de Kulbachenko Construction. Descubra nuestra experiencia en la transformación de espacios en Ámsterdam, Tallin, Kiev, Alicante y Torrevieja.">
     {% endif %}
 
     <link rel="canonical" href="{{ url_for('index', _external=True, setting_language=language) }}">
@@ -26,38 +29,62 @@
   <div class="responsive-container-block bigContainer">
     <div class="responsive-container-block Container">
       <p class="text-blk headingText">
-        Featured
+        {{ _('Featured') }}
       </p>
         <hr class="featurette-divider">
       <div class="responsive-container-block optionsContainer">
         <p class="text-blk list all active" data-filter="all">
-          All work
+          {{ _('All work') }}
         </p>
         <p class="text-blk list" data-filter="Apartments">
-          Apartments
+          {{ _('Apartments') }}
         </p>
         <p class="text-blk list" data-filter="Bathrooms">
-          Bathrooms
+          {{ _('Bathrooms') }}
         </p>
         <p class="text-blk list" data-filter="Constructions">
-          Constructions
+          {{ _('Constructions') }}
         </p>
         <p class="text-blk list" data-filter="Cultural-objects">
-          Cultural objects
+          {{ _('Cultural objects') }}
         </p>
         <p class="text-blk list" data-filter="Home-cinema">
-          Home cinema
+          {{ _('Home cinema') }}
         </p>
           <p class="text-blk list" data-filter="Outside-work">
-          Outside work
+          {{ _('Outside work') }}
         </p>
           <p class="text-blk list" data-filter="Other">
-          Other
+          {{ _('Other') }}
         </p>
 
       </div>
       <div class="responsive-container-block imageContainer">
-        <div class="project">
+          <div class="project">
+            <a class="portfolio_img squareImg Constructions" href="recreation-complex-nova-estonia">
+                <img class="" src="{{ url_for('static', filename='images/camp.webp') }}" alt="Camp esty">
+                <div class="description">
+                        <p>{{ _('Recreation complex "Sparta Camp", Nõva, 91104 Lääne County, Estonia') }}</p>
+                </div>
+            </a>
+        </div>
+          <div class="project">
+            <a class="portfolio_img squareImg Bathrooms" href="/portfolio/bathroom-in-a-private-house-in-estonia">
+                <img class="" src="{{ url_for('static', filename='images/Bathroom_Esty.webp') }}" alt="Bathroom in Estonia">
+                <div class="description">
+                        <p>{{ _('Bathroom in a private house in Estonia') }}</p>
+                </div>
+            </a>
+        </div>
+          <div class="project">
+            <a class="portfolio_img squareImg Apartments" href="/portfolio/renovation-for-a-newly-built-apartment-in-kyiv">
+                <img class="" src="{{ url_for('static', filename='images/newly_built_apartment_m.webp') }}" alt="newly built apartment">
+                <div class="description">
+                        <p>{{ _('turnkey renovation for a newly built apartment, Kyiv, Ukraine') }}</p>
+                </div>
+            </a>
+        </div>
+          <div class="project">
             <a class="portfolio_img squareImg Home-cinema" href="project/home-cinema-5-person">
                 <img class="" src="{{ url_for('static', filename='images/cinema_logo.webp') }}" alt="Home cinema in Ukraine">
                 <div class="description">
@@ -67,7 +94,7 @@
         </div>
           <div class="project">
             <a class="portfolio_img squareImg Cultural-objects" href="project/estonian-academy-of-music-and-theater-in-tallinn-estonia">
-                <img class="" src="{{ url_for('static', filename='images/ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN.webp') }}" alt="ESTONIAN-ACADEMY">
+                <img class="" src="{{ url_for('static', filename='images/ESTONIAN_ACADEMY_OF_MUSIC_AND_THEATER_IN_TALLINN.webp') }}" alt="ESTONIAN-ACADEMY">
                 <div class="description">
                         <p>{{ _('ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA') }}</p>
                 </div>
@@ -75,47 +102,20 @@
         </div>
           <div class="project">
             <a class="portfolio_img squareImg Apartments" href="project/renovation-in-the-varshavsky-residential-complex-in-kyiv">
-                <img class="" src="{{ url_for('static', filename='images/COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV.webp') }}" alt="COMPREHENSIVE-RENOVATION">
+                <img class="" src="{{ url_for('static', filename='images/COMPREHENSIVE_RENOVATION_IN_THE_VARSHAVSKY_RESIDENTIAL_COMPLEX_IN_KYIV.webp') }}" alt="COMPREHENSIVE-RENOVATION">
                 <div class="description">
                         <p>{{ _('Turnkey renovation of apartments in the "Varshavsky", Kyiv, Ukraine') }}</p>
                 </div>
             </a>
         </div>
-
-          <div class="project">
-            <a class="portfolio_img squareImg Constructions" href="recreation-complex-nova-estonia">
-                <img class="" src="{{ url_for('static', filename='images/camp.webp') }}" alt="Camp esty">
-                <div class="description">
-                        <p>{{ _('Recreation complex "Sparta Camp", Nõva, 91104 Lääne County, Estonia') }}</p>
-                </div>
-            </a>
-        </div>
-
-          <div class="project">
-            <a class="portfolio_img squareImg Bathrooms" href="/portfolio/bathroom-in-a-private-house-in-estonia">
-                <img class="" src="{{ url_for('static', filename='images/Bathroom Esty.webp') }}" alt="Bathroom in Estonia">
-                <div class="description">
-                        <p>{{ _('Bathroom in a private house in Estonia') }}</p>
-                </div>
-            </a>
-        </div>
           <div class="project">
             <a class="portfolio_img squareImg Bathrooms" href="/portfolio/bathroom-in-amsterdam-march">
-                <img class="" src="{{ url_for('static', filename='images/Bathroom in Amsterdam.webp') }}" alt="Bathroom in Amsterdam">
+                <img class="" src="{{ url_for('static', filename='images/Bathroom_in_Amsterdam.webp') }}" alt="Bathroom in Amsterdam">
                 <div class="description">
                         <p>{{ _('Bathroom in Amsterdam') }}</p>
                 </div>
             </a>
         </div>
-          <div class="project">
-            <a class="portfolio_img squareImg Apartments" href="/portfolio/renovation-for-a-newly-built-apartment-in-kyiv">
-                <img class="" src="{{ url_for('static', filename='images/newly built apartment m.webp') }}" alt="ESTONIAN-ACADEMY">
-                <div class="description">
-                        <p>{{ _('turnkey renovation for a newly built apartment, Kyiv, Ukraine') }}</p>
-                </div>
-            </a>
-        </div>
-
       </div>
     </div>
   </div>
@@ -134,12 +134,12 @@
         <div class="portfolio-media">
             <div class="project-portfolio-media">
             <a class="portfolio_img_media squareImg" href="https://www.facebook.com/KulbachenkoSerhii">
-                <img class="" src="{{ url_for('static', filename='images/facebook portfolio.svg') }}" alt="facebook portfolio">
+                <img class="" src="{{ url_for('static', filename='images/facebook_portfolio.svg') }}" alt="facebook portfolio">
             </a>
         </div>
           <div class="project-portfolio-media">
             <a class="portfolio_img_media squareImg" href="https://t.me/kulbachenko_serhii">
-                <img class="" src="{{ url_for('static', filename='images/telegram portfolio.svg') }}" alt="ESTONIAN-ACADEMY">
+                <img class="" src="{{ url_for('static', filename='images/telegram_portfolio.svg') }}" alt="telegram portfolio">
             </a>
         </div>
         </div>

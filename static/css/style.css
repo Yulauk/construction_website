@@ -691,7 +691,7 @@ nav a.active {
 
 .offcanvas-header{
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem 2rem 1rem 1rem;
 }
 
@@ -830,6 +830,10 @@ icon-background {
     object-fit: cover;
 }
 
+.logo-image-width75 {
+    width: 75%;
+}
+
 .navbar-logo {
     display: flex;
     align-items: center;
@@ -862,7 +866,21 @@ icon-background {
 }
 
 .nav-link {
+    text-align: center;
     text-transform: uppercase;
+}
+
+
+.nav-item a{
+    font-weight: 900;
+}
+
+.btn-close-font-weight {
+    font-size: x-large;
+}
+
+.navbar-toggler:focus{
+    box-shadow: None;
 }
 
 .text-body-emphasis a {
@@ -883,12 +901,13 @@ icon-background {
 }
 
 
-.offcanvas.show:not(.hiding), .offcanvas.showing{
-        width: 50%;
+.offcanvas-body {
+    background-color: #feb933;
 }
 
-
-
+.offcanvas-header-color {
+    background-color: #2fd452;
+}
 
 
 /*accounting-service*/
@@ -954,6 +973,13 @@ icon-background {
     display: inline-flex;
     gap: 1rem;
 
+}
+
+.stat-item h2{
+    font-size: 2.2rem;
+    color: #4caf50;
+    margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 
@@ -2066,6 +2092,7 @@ icon-background {
 }
 
 .contacts_info h2 {
+    text-align: left;
     font-weight: 600;
     font-size: 52px;
     line-height: 62px;
@@ -2107,6 +2134,7 @@ icon-background {
 
 .text-body-secondary {
     font-size: 18px;
+    font-weight: 900;
 }
 
 .social_icons {
@@ -3684,19 +3712,14 @@ ul {
   text-align: center;
 }
 
-.desktop_7 .text-blk.active {
-  font-size: 20px;
-  line-height: 34px;
-  font-weight: 400;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #03a9f4;
-}
-
 .desktop_7 .text-blk.list {
   font-size: 20px;
   line-height: 34px;
   cursor: pointer;
+}
+
+.desktop_7 .text-blk.list:hover {
+    border-bottom-color: #3d4543;
 }
 
 .desktop_7 .text-blk.all {
@@ -3705,12 +3728,24 @@ ul {
 }
 
 .desktop_7 .text-blk.list {
-  margin-left: 0px;
-  margin-right: 20px;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
+    margin-left: 0px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+}
+
+.desktop_7 .text-blk.active {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #fbb933;
 }
 
 .desktop_7 .text-blk.list.active {

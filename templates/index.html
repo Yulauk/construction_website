@@ -5,22 +5,25 @@
     <link rel="preload" href="{{ url_for('static', filename='images/tile_blk.webp') }}" as="image">
 
     {% if language == 'en' %}
-        <meta name="description" content="✅ Kulbachenko Construction — construction and renovation of any complexity. We adapt to your needs 🤝. Amsterdam | Rotterdam | The Hague | Utrecht. Free consultation!">
+        <meta name="description" content="✅ Kulbachenko Construction - quality construction and renovation services in Amsterdam, Tallinn, Alicante and Torrevieja. We take on projects of any complexity and tailor solutions to your needs.">
 
     {% elif language == 'uk' %}
-        <meta name="description" content="✅ Kulbachenko Construction — будівництво та ремонт будь-якої складності. Адаптуємось до ваших потреб 🤝. Амстердам | Роттердам | Гаага | Утрехт. Безкоштовна консультація!">
+        <meta name="description" content="✅ Kulbachenko Construction - якісні будівельні та ремонтні послуги в Амстердамі, Таллінні, Аліканте та Торрев'єха. Ми беремося за проекти будь-якої складності та адаптуємо рішення до ваших потреб.">
 
     {% elif language == 'ru' %}
-        <meta name="description" content="✅ Kulbachenko Construction — строительство и ремонт любой сложности. Мы адаптируемся под ваши нужды 🤝. Амстердам | Роттердам | Гаага | Утрехт. Бесплатная консультация! ">
+        <meta name="description" content="✅ Kulbachenko Construction - качественные услуги по строительству и ремонту в Амстердаме, Таллине, Аликанте и Торревьехе. Мы беремся за проекты любой сложности и разрабатываем решения в соответствии с вашими потребностями.">
 
     {% elif language == 'et' %}
-        <meta name="description" content="✅ Kulbachenko Construction — ehitus ja remont igale keerukusele. Kohandame teie vajadustele 🤝. Tallinn | Tartu | Amsterdam | Rotterdam | Haag. Tasuta konsultatsioon!">
+        <meta name="description" content="✅ Kulbachenko Construction - kvaliteetsed ehitus- ja renoveerimisteenused Amsterdamis, Tallinnas, Alicantes ja Torreviejas. Võtame vastu mis tahes keerukusega projekte ja kohandame lahendusi vastavalt teie vajadustele.">
+    {% elif language == 'es' %}
+        <meta name="description" content="✅ Kulbachenko Construction - servicios de construcción y renovación de calidad en Ámsterdam, Tallin, Alicante y Torrevieja. Aceptamos proyectos de cualquier complejidad y adaptamos las soluciones a sus necesidades.">
     {% endif %}
 
     <link rel="alternate" hreflang="et" href="https://kulbachenko.com/et/">
     <link rel="alternate" hreflang="uk" href="https://kulbachenko.com/uk/">
     <link rel="alternate" hreflang="en" href="https://kulbachenko.com/en/">
     <link rel="alternate" hreflang="ru" href="https://kulbachenko.com/ru/">
+    <link rel="alternate" hreflang="es" href="https://kulbachenko.com/es/">
 
 {% endblock %}
 
@@ -38,8 +41,8 @@
             <div class="index_header_padding">
                 <header id="index-big">
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start nunito-sans-heavy">
-                        <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}" aria-label="Kulbachenko Construction + Design Home">
-                            <img src="/static/images/index_logo.svg" alt="Kulbachenko Construction + Design Logo" class="logo-image">
+                        <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}" aria-label="Kulbachenko Construction">
+                            <img src="/static/images/index_logo.svg" alt="Kulbachenko Construction Logo index" class="logo-image">
                         </a>
                         <nav id="index-nav" class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto" aria-label="Main Navigation">
                             <div id="custom_header" class="custom-header">
@@ -166,14 +169,14 @@
                             </div>
                         </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                            <img src="{{ url_for('static', filename='images/icon menu k.svg') }}" alt="residential complex Varshavsky IN KIEV 1" class="thumbnail active">
+                            <img src="{{ url_for('static', filename='images/icon_menu_k.svg') }}" alt="index icon menu" class="thumbnail active">
                         </button>
                     </div>
                 </nav>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabelMid">Navigation Menu</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div class="offcanvas-header offcanvas-header-color">
+                            <img src="/static/images/index_logo.svg" alt="Kulbachenko Construction Logo index" class="logo-image logo-image-width75">
+            <button type="button" class="btn-close btn-close-font-weight" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -181,16 +184,16 @@
                                 <a class="nav-link" href="{{ url_for('index', _external=True, setting_language=language) }}">{{ _('MAIN') }}</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
+                                <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}">{{ _('ABOUT') }}</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
+                                <a class="nav-link py-2 link-body-emphasis text-decoration-none {% if request.path == '/portfolio' %}active{% endif %}" href="{{ url_for('portfolio', setting_language=language) }}">{{ _('PORTFOLIO') }}</a>
                             </li>
                             <li class="nav-link nav-item">
-                                <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
+                                <a class="py-2 link-body-emphasis text-decoration-none {% if request.path == '/services' %}active{% endif %}" href="{{ url_for('services', setting_language=language) }}">{{ _('SERVICES') }}</a>
                             </li>
                             <li class="nav-link nav-item">
-                                <a class="me-3 py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
+                                <a class="py-2 link-body-emphasis text-decoration-none {% if request.path == '/blog' %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -205,23 +208,10 @@
                 <div class="carousel-item">
                     <img src="{{ url_for('static', filename='images/kyiv_work.jpg') }}" class="d-block w-100"
                          alt="{{ _('photo from work in Kyiv') }}" loading="lazy">
-<!--                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">-->
-<!--                        &lt;!&ndash; Add additional text or elements as needed &ndash;&gt;-->
-<!--                    </div>-->
                 </div>
-<!--                <div class="carousel-item new1">-->
-<!--                    <img src="{{ url_for('static', filename='images/cinema_1.png') }}" class="d-block w-100"-->
-<!--                         alt="photo from private home cinema in Ukraine">-->
-<!--                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">-->
-<!--                        &lt;!&ndash; Add additional text or elements as needed &ndash;&gt;-->
-<!--                    </div>-->
-<!--                </div>-->
                 <div class="carousel-item active">
                     <img src="{{ url_for('static', filename='images/tile_blk.webp') }}" class="d-block w-100"
                          alt="Black tile photo">
-<!--                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">-->
-<!--                        &lt;!&ndash; Add additional text or elements as needed &ndash;&gt;-->
-<!--                    </div>-->
                 </div>
                 <div class="blur_container_filter_wrapper">
                         <div class="blurred-background"></div>
@@ -258,10 +248,6 @@
                 <p class="index_p">{{ _('SATISFIED CUSTOMERS') }}</p>
             </div>
         </div>
-
-
-
-
     </div>
                         </div>
             </div>

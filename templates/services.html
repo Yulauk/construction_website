@@ -2,16 +2,19 @@
 
 {% block meta %}
     {% if language == 'en' %}
-        <meta name="description" content="Explore Kulbachenko Construction\'s full range of renovation and construction services, including turnkey apartment renovation, comprehensive house refurbishment, electrical works, and finishing services. Serving Amsterdam, Rotterdam, The Hague, and Utrecht, with projects across Europe.">
+        <meta name="description" content="Explore Kulbachenko Construction's full range of renovation and construction services, including turnkey apartment renovations, complete house renovations, electrical work and finishing services. Working in Amsterdam, Tallinn, Alicante and Torrevieja.">
 
     {% elif language == 'uk' %}
-        <meta name="description" content="Дізнайтеся про повний спектр послуг від Kulbachenko Construction у сфері ремонту та будівництва, включаючи капітальний ремонт квартир під ключ, комплексний ремонт будинків, електромонтажні роботи та оздоблювальні роботи. Надаємо послуги в Амстердамі, Роттердамі, Гаазі та Утрехті, а також працюємо по всій Європі.">
+        <meta name="description" content="Ознайомтеся з повним спектром ремонтно-будівельних послуг Kulbachenko Construction, включаючи ремонт квартир під ключ, комплексний ремонт будинків, електромонтажні та оздоблювальні роботи. Працюємо в Амстердамі, Таллінні, Аліканте та Торрев'єсі.">
 
     {% elif language == 'ru' %}
-        <meta name="description" content="Исследуйте полный спектр услуг Kulbachenko Construction по ремонту и строительству, включая капитальный ремонт квартир под ключ, комплексный ремонт домов, электромонтажные работы и отделочные работы. Мы работаем в Амстердаме, Роттердаме, Гааге и Утрехте, а также ведем проекты по всей Европе.">
+        <meta name="description" content="Ознакомьтесь с полным спектром услуг компании Kulbachenko Construction по ремонту и строительству, включая ремонт квартир «под ключ», капитальный ремонт домов, электромонтажные работы и отделочные услуги. Мы работаем в Амстердаме, Таллинне, Аликанте и Торревьехе.">
+
+    {% elif language == 'es' %}
+        <meta name="description" content="Explore la completa gama de servicios de renovación y construcción de Kulbachenko Construction, que incluye reformas de apartamentos llave en mano, reformas completas de casas, trabajos eléctricos y servicios de acabado. Trabajamos en Ámsterdam, Tallin, Alicante y Torrevieja.">
 
     {% elif language == 'et' %}
-        <meta name="description" content="Tutvuge Kulbachenko Constructioni täieliku renoveerimis- ja ehitusteenuste valikuga, sealhulgas korterite renoveerimine, majade kapitaalremont, elektritööd ja viimistlustööd. Teenindame kliente Eestis, sealhulgas Tallinnas, Tartus ja teistes linnades, ning viime projekte ellu ka kogu Euroopas.">
+        <meta name="description" content="Tutvuge Kulbachenko Construction'i täieliku remondi- ja ehitusteenuste valikuga, sealhulgas korterite rekonstrueerimine „võtmed kätte“, majade täielik renoveerimine, elektritööd ja viimistlusteenused. Töötame Amsterdamis, Tallinnas, Alicantes ja Torreviejas.">
     {% endif %}
 
     <link rel="canonical" href="{{ url_for('index', _external=True, setting_language=language) }}">
@@ -25,7 +28,7 @@
 <div class="apartment_renovation">
     <div class="apart_photo_wrapper">
         <div class="apart_photo">
-            <img class="shadow_services_apart" src="{{ url_for('static', filename='images/Kulbachenko_color.jpg') }}" alt="{{ _('Kulbachenko Construction | color catalog') }}">
+            <img class="shadow_services_apart" src="{{ url_for('static', filename='images/painter_kulbachenko.webp') }}" alt="{{ _('Kulbachenko Construction | color catalog') }}">
             <div class="text_wrap">
                 <h1>{{ _('Our Renovation and Construction Services') }}</h1>
             </div>
@@ -33,8 +36,8 @@
     </div>
 
     <div class="apartment_renovation_text">
-        <h2>{{ _('Your ideas are our work. Professional turnkey construction and renovation.') }}</h2>
-        <p>{{ _('We offer a full range of construction and renovation services across Europe, legally guaranteeing high quality, professionalism, and attention to detail. From apartment renovations to house construction, we bring your ideas to life.') }}</p>
+        <h2>{{ _('Your ideas are our work. Professional turnkey construction and refurbishment.') }}</h2>
+        <p>{{ _('We offer a full range of construction and renovation services in Amsterdam, Tallinn, Kyiv, Alicante and Torrevieja, with a legal guarantee of high quality, professionalism and attention to detail. From flat renovations to house building, we bring your ideas to life.') }}</p>
         <!-- Button to open the modal -->
 <div class="cards_button_wrapper services">
     <a href="#" class="card_link-button sp_popup_9edfde6a-7dda-4e31-83d9-5da4d397c035">
@@ -55,7 +58,7 @@
     <div class="block_2_left">
         <div class="block_2_left_text">
     <div class="line_top"></div>
-        <h2>{{ _('We are not superheroes, but our team works wonders.') }}</h2>
+        <h2>{{ _('We may not be superheroes, but our team works miracles.') }}</h2>
     <div class="line_bottom"></div>
 </div>
 
@@ -73,7 +76,7 @@
         <img class="shadow_services_apart_block_2_1" src="{{ url_for('static', filename='images/Venetian.jpg') }}" alt="{{ _('Kulbachenko Construction | Venetian Plaster') }}">
     </div>
     <div class="block_2_right_text">
-        <p>{{ _('With over 300 successfully completed projects, we confidently call ourselves experts in the construction industry.') }}</p>
+        <p>{{ _('We have over 300 successfully completed projects. We are proud to call ourselves experts in the construction industry.') }}</p>
     </div>
 
     <div class="block_2_1">
