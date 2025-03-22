@@ -67,7 +67,12 @@ a {
 
 #carousel_background{
     height: 50rem;
+}
 
+@media (max-width: 350px) {
+    #carousel_background{
+        height: 56rem;
+    }
 }
 
 
@@ -837,6 +842,10 @@ icon-background {
 .navbar-logo {
     display: flex;
     align-items: center;
+}
+
+.navbar-font-weight a{
+    font-weight: 900;
 }
 
 .d-flex {

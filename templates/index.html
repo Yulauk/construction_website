@@ -29,7 +29,7 @@
 
 
 
-{% block title %}{% endblock %}
+{% block title %}{{ _('Construction & Renovation Services | Amsterdam, Tallinn, Kyiv, Alicante, Torrevieja - Serhii Kulbachenko') }}{% endblock %}
 
 {% block body %}
 
@@ -44,7 +44,7 @@
                         <a class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-logo {% if request.path == '/about' %}active{% endif %}" href="{{ url_for('base', setting_language=language) }}" aria-label="Kulbachenko Construction">
                             <img src="/static/images/index_logo.svg" alt="Kulbachenko Construction Logo index" class="logo-image">
                         </a>
-                        <nav id="index-nav" class="navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto" aria-label="Main Navigation">
+                        <nav id="index-nav" class="navbar-font-weight navbar navbar-expand-md d-inline-flex mt-2 mt-md-0 ms-md-auto" aria-label="Main Navigation">
                             <div id="custom_header" class="custom-header">
                                 <div id="custom_dropdown_wrapper" class="custom-dropdown">
                                     <button class="custom-dropdown-btn" type="button" id="customDropdownButton" aria-haspopup="true" aria-expanded="false" aria-label="Language selection">
@@ -102,7 +102,7 @@
                             <a class="me-3 py-2 link-body-emphasis text-decoration-none about-blog {% if request.path == url_for('blog', setting_language=language) %}active{% endif %}" href="{{ url_for('blog', setting_language=language) }}">{{ _('BLOG') }}</a>
                         </nav>
                         <div class="container-color-index nunito-sans-heavy">
-                            <a href="#contact-form" class="contact-link text-nowrap" aria-label="Contact Us">{{ _('CONTACT US') }}</a>
+                            <a href="#contacts" class="contact-link text-nowrap" aria-label="Contact Us">{{ _('CONTACT US') }}</a>
                         </div>
                     </div>
                 </header>
@@ -553,15 +553,15 @@
 </section>
 
 <section class="workflow">
-    <h2>{{ _("Areas We Work In") }}</h2>
+    <h2>{{ _("The areas in which we work") }}</h2>
     <div class="workflow-steps">
         <div class="step">
             <div class="step-icon">
                 <img class="workflow_img" src="{{ url_for('static', filename='images/apartment.png') }}" alt="{{ _('Residential Properties') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("1. Residential Properties") }}</h3>
-                <p>{{ _("Comprehensive renovation of apartments, houses, and cottages of any complexity.") }}</p>
+                <h3>{{ _("Residential real estate") }}</h3>
+                <p>{{ _("Complete renovation of apartments, houses and villas of all complexities.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -569,8 +569,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/comercial.png') }}" alt="{{ _('Commercial Real Estate') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("2. Commercial Real Estate") }}</h3>
-                <p>{{ _("Renovation of offices, shops, shopping centers, hotels, and other business facilities.") }}</p>
+                <h3>{{ _("Commercial real estate") }}</h3>
+                <p>{{ _("Renovation of offices, shops, shopping centres, hotels and other business facilities.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -578,8 +578,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/culture.png') }}" alt="{{ _('Cultural and Artistic Spaces') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("3. Cultural and Artistic Spaces") }}</h3>
-                <p>{{ _("Renovation and refurbishment of theaters, philharmonics, concert halls, and other cultural venues, considering their specific uses.") }}</p>
+                    <h3>{{ _("Spaces for culture and the arts") }}</h3>
+                <p>{{ _("Renovating and refurbishing theatres, philharmonic and concert halls and other cultural venues, taking into account their specific uses.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -587,8 +587,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/facade.png') }}" alt="{{ _('Facade Finishing') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("4. Facade Finishing") }}</h3>
-                <p>{{ _("Professional facade finishing using modern materials.") }}</p>
+                <h3>{{ _("Surface finishes for facades") }}</h3>
+                <p>{{ _("Professional finishing of facades with the latest materials.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -596,8 +596,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/recreation_center.png') }}" alt="{{ _('Recreation Centers') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("5. Recreation Centers") }}</h3>
-                <p>{{ _("Design and construction of modern recreation centers with a focus on comfort and eco-friendliness.") }}</p>
+                <h3>{{ _("Recreation centres") }}</h3>
+                <p>{{ _("Design and construction of modern leisure facilities focusing on comfort and environmental friendliness.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -605,8 +605,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/factory.png') }}" alt="{{ _('Industrial Facilities') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("6. Industrial Facilities") }}</h3>
-                <p>{{ _("Renovation and modernization of production halls, warehouses, factories, and technical premises.") }}</p>
+                <h3>{{ _("Industrial facilities") }}</h3>
+                <p>{{ _("Renovating and modernising workshops, warehouses, factories and technical facilities.") }}</p>
             </div>
         </div>
     </div>
@@ -617,8 +617,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/apartment.png') }}" alt="{{ _('Residential Properties') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("1. Residential Properties") }}</h3>
-                <p>{{ _("Comprehensive renovation of apartments, houses, and cottages of any complexity.") }}</p>
+                <h3>{{ _("Residential real estate") }}</h3>
+                <p>{{ _("Complete renovation of apartments, houses and villas of all complexities.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -626,8 +626,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/comercial.png') }}" alt="{{ _('Commercial Real Estate') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("2. Commercial Real Estate") }}</h3>
-                <p>{{ _("Renovation of offices, shops, shopping centers, hotels, and other business facilities.") }}</p>
+                <h3>{{ _("Commercial real estate") }}</h3>
+                <p>{{ _("Renovation of offices, shops, shopping centres, hotels and other business facilities.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -635,8 +635,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/culture.png') }}" alt="{{ _('Cultural and Artistic Spaces') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("3. Cultural and Artistic Spaces") }}</h3>
-                <p>{{ _("Renovation and refurbishment of theaters, philharmonics, concert halls, and other cultural venues, considering their specific uses.") }}</p>
+                    <h3>{{ _("Spaces for culture and the arts") }}</h3>
+                <p>{{ _("Renovating and refurbishing theatres, philharmonic and concert halls and other cultural venues, taking into account their specific uses.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -644,8 +644,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/facade.png') }}" alt="{{ _('Facade Finishing') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("4. Facade Finishing") }}</h3>
-                <p>{{ _("Professional facade finishing using modern materials.") }}</p>
+                <h3>{{ _("Surface finishes for facades") }}</h3>
+                <p>{{ _("Professional finishing of facades with the latest materials.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -653,8 +653,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/recreation_center.png') }}" alt="{{ _('Recreation Centers') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("5. Recreation Centers") }}</h3>
-                <p>{{ _("Design and construction of modern recreation centers with a focus on comfort and eco-friendliness.") }}</p>
+                <h3>{{ _("Recreation centres") }}</h3>
+                <p>{{ _("Design and construction of modern leisure facilities focusing on comfort and environmental friendliness.") }}</p>
             </div>
         </div>
         <div class="step">
@@ -662,8 +662,8 @@
                 <img class="workflow_img" src="{{ url_for('static', filename='images/factory.png') }}" alt="{{ _('Industrial Facilities') }}">
             </div>
             <div class="step-text">
-                <h3>{{ _("6. Industrial Facilities") }}</h3>
-                <p>{{ _("Renovation and modernization of production halls, warehouses, factories, and technical premises.") }}</p>
+                <h3>{{ _("Industrial facilities") }}</h3>
+                <p>{{ _("Renovating and modernising workshops, warehouses, factories and technical facilities.") }}</p>
             </div>
         </div>
     </div>
