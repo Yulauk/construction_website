@@ -54,47 +54,58 @@ def set_language(language_code):
         session['language'] = language_code
         next_url = request.args.get('next') or url_parse(request.referrer).path
 
-        if 'about' in next_url:
+        # Удаляем текущий язык из пути
+        parsed_url = urlparse(next_url)
+        path_parts = parsed_url.path.strip('/').split('/')
+
+        # Проверяем, если первый элемент - язык, убираем его
+        if path_parts and path_parts[0] in app.config['LANGUAGES']:
+            path_parts.pop(0)
+
+        # Создаем новый путь без старого языка
+        clean_path = '/' + '/'.join(path_parts)
+
+        # Обновляем редиректы
+        if 'about' in clean_path:
             return redirect(url_for('base', setting_language=language_code))
-        elif 'portfolio' in next_url:
-            return redirect(url_for('portfolio', setting_language=language_code))
-        elif 'services' in next_url:
+        elif 'portfolio' in clean_path:
+            return redirect(f'/{language_code}{clean_path}')
+        elif 'services' in clean_path:
             return redirect(url_for('services', setting_language=language_code))
-        elif 'blog' in next_url:
+        elif 'blog' in clean_path:
             return redirect(url_for('blog', setting_language=language_code))
-        elif 'home-cinema-5-person' in next_url:
-            return redirect(url_for('project_cinema_5', setting_language=language_code))
-        elif 'bathroom-in-amsterdam-march' in next_url:
-            return redirect(url_for('bathroom_in_amsterdam_march', setting_language=language_code))
-        elif 'bathroom-in-a-private-house-in-estonia' in next_url:
-            return redirect(url_for('bathroom_in_a_private_house_in_estonia', setting_language=language_code))
-        elif 'renovation-in-the-varshavsky-residential-complex-in-kyiv' in next_url:
+        elif 'home-cinema-5-person' in clean_path:
+            return redirect(f'/{language_code}/portfolio/home-cinema-5-person/')
+        elif 'bathroom-in-amsterdam-march' in clean_path:
+            return redirect(f'/{language_code}/portfolio/bathroom-in-amsterdam-march/')
+        elif 'bathroom-in-a-private-house-in-estonia' in clean_path:
+            return redirect(f'/{language_code}/portfolio/bathroom-in-a-private-house-in-estonia/')
+        elif 'renovation-in-the-varshavsky-residential-complex-in-kyiv' in clean_path:
             return redirect(url_for('project_varshavsky', setting_language=language_code))
-        elif 'estonian-academy-of-music-and-theater-in-tallinn-estonia' in next_url:
+        elif 'estonian-academy-of-music-and-theater-in-tallinn-estonia' in clean_path:
             return redirect(url_for('project_estonian_academy', setting_language=language_code))
-        elif 'building-creation' in next_url:
+        elif 'building-creation' in clean_path:
             return redirect(url_for('articles_building', setting_language=language_code))
-        elif 'apartment-renovation' in next_url:
+        elif 'apartment-renovation' in clean_path:
             return redirect(url_for('articles_renovation', setting_language=language_code))
-        elif 'electrical-installation-for-apartment-renovation' in next_url:
+        elif 'electrical-installation-for-apartment-renovation' in clean_path:
             return redirect(url_for('electrical_installation', setting_language=language_code))
-        elif 'stages-of-plumbing-work' in next_url:
+        elif 'stages-of-plumbing-work' in clean_path:
             return redirect(url_for('plumbing_work', setting_language=language_code))
-        elif 'shower-without-tray' in next_url:
+        elif 'shower-without-tray' in clean_path:
             return redirect(url_for('articles_shower', setting_language=language_code))
-        elif 'roofing-works' in next_url:
+        elif 'roofing-works' in clean_path:
             return redirect(url_for('roofing_works', setting_language=language_code))
-        elif 'recreation-complex-nova-estonia' in next_url:
+        elif 'recreation-complex-nova-estonia' in clean_path:
             return redirect(url_for('recreation_complex_nova_estonia', setting_language=language_code))
-        elif 'renovation-for-a-newly-built-apartment-in-kyiv' in next_url:
-            return redirect(url_for('renovation_for_a_newly_built_apartment_in_kyiv', setting_language=language_code))
+        elif 'renovation-for-a-newly-built-apartment-in-kyiv' in clean_path:
+            return redirect(f'/{language_code}/portfolio/renovation-for-a-newly-built-apartment-in-kyiv/')
         else:
             return redirect(url_for('index', setting_language=language_code))
     else:
-        # If language_code is None or invalid, redirect to the default language
         default_language = app.config['BABEL_DEFAULT_LOCALE']
         session['language'] = default_language
-        return redirect(url_for('index', set_language=default_language))
+        return redirect(url_for('index', setting_language=default_language))
 
 
 babel.init_app(app, locale_selector=get_locale)
@@ -371,6 +382,8 @@ def project(setting_language=None):
 @app.route('/<setting_language>/portfolio/renovation-for-a-newly-built-apartment-in-kyiv')
 @app.route('/portfolio/renovation-for-a-newly-built-apartment-in-kyiv/')
 @app.route('/portfolio/renovation-for-a-newly-built-apartment-in-kyiv')
+@app.route('/<setting_language>/renovation-for-a-newly-built-apartment-in-kyiv/')
+@app.route('/<setting_language>/renovation-for-a-newly-built-apartment-in-kyiv')
 def renovation_for_a_newly_built_apartment_in_kyiv(setting_language=None):
     if setting_language is not None and setting_language in app.config['LANGUAGES']:
         session['language'] = setting_language
@@ -417,6 +430,8 @@ def recreation_complex_nova_estonia(setting_language=None):
 # bathroom-in-amsterdam-march.html
 @app.route('/<setting_language>/portfolio/bathroom-in-amsterdam-march/')
 @app.route('/<setting_language>/portfolio/bathroom-in-amsterdam-march')
+@app.route('/<setting_language>/bathroom-in-amsterdam-march/')
+@app.route('/<setting_language>/bathroom-in-amsterdam-march')
 @app.route('/portfolio/bathroom-in-amsterdam-march/')
 @app.route('/portfolio/bathroom-in-amsterdam-march')
 def bathroom_in_amsterdam_march(setting_language=None):
@@ -443,6 +458,10 @@ def bathroom_in_amsterdam_march(setting_language=None):
 @app.route('/<setting_language>/portfolio/bathroom-in-a-private-house-in-estonia')
 @app.route('/portfolio/bathroom-in-a-private-house-in-estonian/')
 @app.route('/portfolio/bathroom-in-a-private-house-in-estonia')
+@app.route('/bathroom-in-a-private-house-in-estonian/')
+@app.route('/bathroom-in-a-private-house-in-estonia')
+@app.route('/<setting_language>/bathroom-in-a-private-house-in-estonian/')
+@app.route('/<setting_language>/bathroom-in-a-private-house-in-estonia')
 def bathroom_in_a_private_house_in_estonia(setting_language=None):
     if setting_language is not None and setting_language in app.config['LANGUAGES']:
         session['language'] = setting_language
@@ -462,12 +481,14 @@ def bathroom_in_a_private_house_in_estonia(setting_language=None):
         raise e
 
 
-@app.route('/<setting_language>/portfolio/project/home-cinema-5-person/')
-@app.route('/<setting_language>/portfolio/project/home-cinema-5-person')
-@app.route('/project/portfolio/home-cinema-5-person/')
-@app.route('/project/portfolio/home-cinema-5-person')
+@app.route('/<setting_language>/portfolio/home-cinema-5-person/')
+@app.route('/<setting_language>/portfolio/home-cinema-5-person')
 @app.route('/portfolio/home-cinema-5-person/')
 @app.route('/portfolio/home-cinema-5-person')
+@app.route('/<setting_language>/home-cinema-5-person')
+@app.route('/<setting_language>/home-cinema-5-person')
+@app.route('/home-cinema-5-person')
+@app.route('/home-cinema-5-person')
 def project_cinema_5(setting_language=None):
     if setting_language is not None and setting_language in app.config['LANGUAGES']:
         session['language'] = setting_language
@@ -487,8 +508,14 @@ def project_cinema_5(setting_language=None):
         raise e
 
 
-@app.route('/<setting_language>/portfolio/project/renovation-in-the-varshavsky-residential-complex-in-kyiv/')
-@app.route('/<setting_language>/portfolio/project/renovation-in-the-varshavsky-residential-complex-in-kyiv')
+@app.route('/<setting_language>/portfolio/renovation-in-the-varshavsky-residential-complex-in-kyiv/')
+@app.route('/<setting_language>/portfolio/renovation-in-the-varshavsky-residential-complex-in-kyiv')
+@app.route('/portfolio/renovation-in-the-varshavsky-residential-complex-in-kyiv/')
+@app.route('/portfolio/renovation-in-the-varshavsky-residential-complex-in-kyiv')
+@app.route('/<setting_language>/renovation-in-the-varshavsky-residential-complex-in-kyiv')
+@app.route('/<setting_language>/renovation-in-the-varshavsky-residential-complex-in-kyiv')
+@app.route('/renovation-in-the-varshavsky-residential-complex-in-kyiv')
+@app.route('/renovation-in-the-varshavsky-residential-complex-in-kyiv')
 def project_varshavsky(setting_language=None):
     if setting_language is not None and setting_language in app.config['LANGUAGES']:
         session['language'] = setting_language
@@ -510,8 +537,14 @@ def project_varshavsky(setting_language=None):
 
 
 
-@app.route('/<setting_language>/portfolio/project/estonian-academy-of-music-and-theater-in-tallinn-estonia/')
-@app.route('/<setting_language>/portfolio/project/estonian-academy-of-music-and-theater-in-tallinn-estonia')
+@app.route('/<setting_language>/portfolio/estonian-academy-of-music-and-theater-in-tallinn-estonia/')
+@app.route('/<setting_language>/portfolio/estonian-academy-of-music-and-theater-in-tallinn-estonia')
+@app.route('/portfolio/estonian-academy-of-music-and-theater-in-tallinn-estonia/')
+@app.route('/portfolio/estonian-academy-of-music-and-theater-in-tallinn-estonia')
+@app.route('/<setting_language>/estonian-academy-of-music-and-theater-in-tallinn-estonia')
+@app.route('/<setting_language>/estonian-academy-of-music-and-theater-in-tallinn-estonia')
+@app.route('/estonian-academy-of-music-and-theater-in-tallinn-estonia')
+@app.route('/estonian-academy-of-music-and-theater-in-tallinn-estonia')
 def project_estonian_academy(setting_language=None):
     if setting_language is not None and setting_language in app.config['LANGUAGES']:
         session['language'] = setting_language
