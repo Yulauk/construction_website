@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-16 14:29+0200\n"
+"POT-Creation-Date: 2025-03-23 16:26+0100\n"
 "PO-Revision-Date: 2024-01-12 05:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -18,748 +18,912 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/about.html:25
-msgid "Construction and Renovation Services in Europe | Serhii Kulbachenko"
+#: templates/about.html:28
+msgid ""
+"About Kulbachenko Construction - High quality renovation and construction"
+" services"
 msgstr ""
+"Sobre Kulbachenko Construction - Servicios de renovación y construcción "
+"de alta calidad"
 
-#: templates/about.html:69
+#: templates/about.html:71
 msgid "Serhii Kulbachenko FOUNDER AND LEADER"
-msgstr ""
+msgstr "Serhii Kulbachenko FUNDADOR Y LÍDER"
 
-#: templates/about.html:74 templates/index.html:364
+#: templates/about.html:76 templates/index.html:433
 msgid "Serhii Kulbachenko"
-msgstr ""
+msgstr "Serhii Kulbachenko"
 
-#: templates/about.html:75 templates/index.html:365
+#: templates/about.html:77 templates/index.html:434
 msgid "FOUNDER AND LEADER"
-msgstr ""
+msgstr "FUNDADOR Y LÍDER"
 
-#: templates/about.html:83
-msgid "Serhii Kulbachenko — Your Reliable Partner in Construction and Renovation"
-msgstr ""
+#: templates/about.html:85
+msgid "Serhii Kulbachenko - your trusted partner in construction and renovation"
+msgstr "Serhii Kulbachenko - su socio de confianza en construcción y renovación"
 
-#: templates/about.html:84
+#: templates/about.html:86
 msgid ""
-"My name is Serhii Kulbachenko, and I run a construction company "
-"specializing in the renovation and construction of private homes. We "
-"offer comprehensive solutions for those looking for a reliable contractor"
-" with many years of experience, ensuring high-quality work and adherence "
-"to modern standards."
+"My name is Serhii Kulbachenko and I run a construction company "
+"specialising in the renovation and construction of private homes. We "
+"offer comprehensive solutions for those who are looking for a reliable "
+"contractor with many years of experience, guaranteeing quality work and "
+"compliance with modern standards."
 msgstr ""
+"Mi nombre es Serhii Kulbachenko y dirijo una empresa de construcción "
+"especializada en la renovación y construcción de viviendas privadas. "
+"Ofrecemos soluciones integrales para aquellos que buscan un contratista "
+"fiable con muchos años de experiencia, garantizando un trabajo de calidad "
+"y el cumplimiento de los estándares modernos."
 
-#: templates/about.html:91
+#: templates/about.html:93
 msgid "Construction Experience in Europe"
-msgstr ""
+msgstr "Experiencia en construcción en Europa"
 
-#: templates/about.html:92
+#: templates/about.html:94
 msgid ""
-"Our company successfully implements projects in the Netherlands, and many"
-" other European countries using the best practices and technologies that "
-"I have mastered while working on the international market. We combine "
-"high-quality materials, modern construction methods, and many years of "
-"experience to meet the needs of our clients, whether it's new home "
-"construction or major renovations."
+"Our company successfully implements projects in the Netherlands and many "
+"other European countries, using the best practices and technologies I "
+"have mastered while working in the international market. We combine high "
+"quality materials, modern construction methods and many years of "
+"experience to meet the needs of our clients, whether it's a new home or a"
+" major renovation."
 msgstr ""
+"Nuestra empresa implementa con éxito proyectos en los Países Bajos y en "
+"muchos otros países europeos, utilizando las mejores prácticas y "
+"tecnologías que he dominado mientras trabajaba en el mercado "
+"internacional. Combinamos materiales de alta calidad, métodos de "
+"construcción modernos y muchos años de experiencia para satisfacer las "
+"necesidades de nuestros clientes, ya sea una nueva casa o una gran "
+"renovación."
 
-#: templates/about.html:96
+#: templates/about.html:98
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction OÜ"
-msgstr ""
+msgstr "Serhii Kulbachenko - Fundador de Kulbachenko Construction OÜ"
 
-#: templates/about.html:104 templates/about.html:120 templates/about.html:128
+#: templates/about.html:106 templates/about.html:122 templates/about.html:130
 msgid "Serhii Kulbachenko - Founder of Kulbachenko Construction + Design"
-msgstr ""
+msgstr "Serhii Kulbachenko - Fundador de Kulbachenko Construction + Design"
 
-#: templates/about.html:108
+#: templates/about.html:110
 msgid "The History of Founding the Construction Company"
-msgstr ""
+msgstr "La historia de la fundación de la empresa de construcción"
 
-#: templates/about.html:109
+#: templates/about.html:111
 msgid ""
-"My career began modestly as a construction worker. Rising from a laborer "
+"My career began humbly as a construction worker. Rising from a labourer "
 "to the founder of a company, I have always strived to improve my skills "
-"and expand the range of services. The business was built on the "
-"principles of honesty, professionalism, and continuous development, which"
-" has allowed us to successfully operate in the market for many years."
+"and expand the range of services offered. The company was built on the "
+"principles of honesty, professionalism and continuous development, which "
+"has allowed us to operate successfully in the market for many years."
 msgstr ""
+"Mi carrera comenzó humildemente como obrero de construcción. Pasando de "
+"trabajador a fundador de una empresa, siempre me he esforzado por mejorar "
+"mis habilidades y ampliar la gama de servicios ofrecidos. La empresa se "
+"construyó sobre los principios de honestidad, profesionalismo y "
+"desarrollo continuo, lo que nos ha permitido operar con éxito en el "
+"mercado durante muchos años."
 
-#: templates/about.html:115
-msgid "Construction Services and Cutting-Edge Technologies"
-msgstr ""
+#: templates/about.html:117
+msgid "Construction services and Advanced Technologies"
+msgstr "Servicios de construcción y tecnologías avanzadas"
 
-#: templates/about.html:116
+#: templates/about.html:118
 msgid ""
-"We provide a full range of construction services — from design to "
+"We offer a complete range of construction services - from design to "
 "commissioning. We incorporate the latest technologies used in modern "
 "construction, such as energy-efficient materials, advanced heating and "
-"ventilation systems, as well as innovative design solutions. This enables"
-" us to create homes that meet the highest standards of comfort and "
+"ventilation systems and innovative design solutions. This enables us to "
+"create homes that meet the highest standards of comfort and "
 "functionality."
 msgstr ""
+"Ofrecemos una gama completa de servicios de construcción, desde el "
+"diseño hasta la puesta en marcha. Incorporamos las últimas tecnologías "
+"utilizadas en la construcción moderna, como materiales energéticamente "
+"eficientes, sistemas avanzados de calefacción y ventilación y soluciones "
+"de diseño innovadoras. Esto nos permite crear viviendas que cumplen con "
+"los más altos estándares de confort y funcionalidad."
 
-#: templates/about.html:132
-msgid "High-Quality Construction Solutions for Any Projects"
-msgstr ""
+#: templates/about.html:134
+msgid "Quality construction solutions for every project"
+msgstr "Soluciones de construcción de calidad para cada proyecto"
 
-#: templates/about.html:133
+#: templates/about.html:135
 msgid ""
-"Regardless of the complexity of your project — whether it's building a "
-"new private home or renovating an existing property — our team is always "
-"ready to offer quality solutions. We take care of every stage of the "
+"Whatever the complexity of your project - whether it's building a new "
+"private home or renovating an existing property - our team is always "
+"ready to provide quality solutions. We take care of every stage of the "
 "work, ensuring precise deadlines and impeccable quality in construction "
 "and renovation services."
 msgstr ""
+"Cualquiera que sea la complejidad de su proyecto, ya sea construir una "
+"nueva casa privada o renovar una propiedad existente, nuestro equipo "
+"siempre está listo para proporcionar soluciones de calidad. Nos "
+"encargamos de cada etapa del trabajo, asegurando plazos precisos y una "
+"calidad impecable en los servicios de construcción y renovación."
 
-#: templates/about.html:139
-msgid "Learn more about our construction services"
-msgstr ""
+#: templates/about.html:141
+msgid "More information on our construction services"
+msgstr "Más información sobre nuestros servicios de construcción"
 
-#: templates/about.html:164 templates/base.html:36
+#: templates/about.html:166 templates/base.html:50
 msgid ""
 "High-quality renovation and construction services in the Netherlands and "
 "across Europe since 2005."
 msgstr ""
+"Servicios de renovación y construcción de alta calidad en los Países "
+"Bajos y en toda Europa desde 2005."
 
-#: templates/base.html:102
-msgid "Kulbachenko Construction + Design"
-msgstr ""
-
-#: templates/base.html:109
+#: templates/base.html:142
 msgid "Kulbachenko Construction + Design Logo"
-msgstr ""
+msgstr "Logotipo de Kulbachenko Construction + Design"
 
-#: templates/base.html:125 templates/base.html:192 templates/base.html:259
-#: templates/index.html:56 templates/index.html:112
+#: templates/base.html:196 templates/base.html:293 templates/base.html:391
+#: templates/index.html:99 templates/index.html:187
 msgid "ABOUT"
 msgstr "ACERCA DE"
 
-#: templates/base.html:126 templates/base.html:195 templates/base.html:262
-#: templates/index.html:57 templates/index.html:115 templates/portfolio.html:29
-#: templates/portfolio_old.html:14
+#: templates/base.html:197 templates/base.html:296 templates/base.html:395
+#: templates/index.html:100 templates/index.html:190
 msgid "PORTFOLIO"
 msgstr "PORTAFOLIO"
 
-#: templates/base.html:127 templates/base.html:198 templates/base.html:265
-#: templates/index.html:58 templates/index.html:118
+#: templates/base.html:198 templates/base.html:299 templates/base.html:398
+#: templates/index.html:101 templates/index.html:193
 msgid "SERVICES"
 msgstr "SERVICIOS"
 
-#: templates/base.html:128 templates/base.html:201 templates/base.html:268
-#: templates/index.html:59 templates/index.html:121
+#: templates/base.html:199 templates/base.html:302 templates/base.html:401
+#: templates/index.html:102 templates/index.html:196
 msgid "BLOG"
 msgstr "BLOG"
 
-#: templates/base.html:131 templates/index.html:62
+#: templates/base.html:202 templates/index.html:105
 msgid "CONTACT US"
 msgstr "CONTÁCTANOS"
 
-#: templates/base.html:182 templates/base.html:250
-msgid "Navigation Menu"
-msgstr ""
-
-#: templates/base.html:189 templates/base.html:256
-#, fuzzy
+#: templates/base.html:290 templates/base.html:388
 msgid "HOME"
-msgstr "Teléfono"
+msgstr "INICIO"
 
-#: templates/base.html:273 templates/base.html:274
+#: templates/base.html:406 templates/base.html:407
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
-#: templates/base.html:302
-msgid "Contact Us"
-msgstr "Contáctanos"
+#: templates/base.html:429
+msgid "Contact Information"
+msgstr "Información de contacto"
 
-#: templates/base.html:307
-msgid "First name"
-msgstr "Nombre"
-
-#: templates/base.html:313
-msgid "Last name"
-msgstr "Apellido"
-
-#: templates/base.html:319
-msgid "Email address"
-msgstr "Email"
-
-#: templates/base.html:328 templates/base.html:442
+#: templates/base.html:434
 msgid "Phone"
 msgstr "Teléfono"
 
-#: templates/base.html:334
-msgid "City"
-msgstr "Ciudad"
-
-#: templates/base.html:340
-msgid "State"
-msgstr "Estado"
-
-#: templates/base.html:345
-msgid "Zip"
-msgstr "Código postal"
-
-#: templates/base.html:351
-msgid "Address"
-msgstr "Dirección"
-
-#: templates/base.html:356
-msgid "Target budget"
-msgstr "Presupuesto objetivo"
-
-#: templates/base.html:358
-msgid "Select budget range"
-msgstr ""
-
-#: templates/base.html:359
-msgid "$100-$999"
-msgstr ""
-
-#: templates/base.html:360
-msgid "$1000-$4999"
-msgstr ""
-
-#: templates/base.html:361
-msgid "$5000-$9999"
-msgstr ""
-
-#: templates/base.html:362
-msgid "$10,000-$19,999"
-msgstr ""
-
-#: templates/base.html:363
-msgid "$20,000-$49,999"
-msgstr ""
-
-#: templates/base.html:364
-msgid "$50,000-$99,999"
-msgstr ""
-
-#: templates/base.html:365
-msgid "$100,000+"
-msgstr ""
-
-#: templates/base.html:371
-msgid "Project time frame"
-msgstr "Plazo del proyecto"
-
-#: templates/base.html:373
-#, fuzzy
-msgid "Select time frame"
-msgstr "Plazo del proyecto"
-
-#: templates/base.html:374
-msgid "As soon as possible"
-msgstr ""
-
-#: templates/base.html:375
-msgid "Starting within 3 months"
-msgstr ""
-
-#: templates/base.html:376
-msgid "Starting within 6 months"
-msgstr ""
-
-#: templates/base.html:377
-msgid "Starting within a year"
-msgstr ""
-
-#: templates/base.html:383
-msgid "How did you hear about us?"
-msgstr "¿Cómo nos conociste?"
-
-#: templates/base.html:385
-msgid "Select an option"
-msgstr ""
-
-#: templates/base.html:386
-msgid "Online Advertisement"
-msgstr ""
-
-#: templates/base.html:387
-msgid "Friend or Colleague"
-msgstr ""
-
-#: templates/base.html:388
-msgid "Social networks"
-msgstr ""
-
-#: templates/base.html:389
-msgid "Google"
-msgstr ""
-
-#: templates/base.html:390
-msgid "Other"
-msgstr ""
-
-#: templates/base.html:396
-msgid "Tell us about your project"
-msgstr "Cuéntanos acerca de tu proyecto"
-
-#: templates/base.html:407
-msgid "Agree to terms and conditions"
-msgstr "Aceptar términos y condiciones"
-
-#: templates/base.html:414
-msgid "Submit form"
-msgstr "Enviar"
-
-#: templates/base.html:438
-msgid "Contact Information"
-msgstr ""
-
-#: templates/base.html:446
+#: templates/base.html:451
 msgid "Working hours, Mon-Fri"
-msgstr ""
+msgstr "Horario laboral, Lun-Vie"
 
-#: templates/base.html:454
+#: templates/base.html:459
 msgid "Our Social Media"
-msgstr ""
+msgstr "Nuestras Redes Sociales"
 
-#: templates/base.html:550
-#, fuzzy
+#: templates/base.html:499
+msgid "Our Location Map"
+msgstr "Nuestro Mapa de Ubicación"
+
+#: templates/base.html:562
 msgid "GET A FREE"
-msgstr "Obtén una Consulta Gratuita"
+msgstr "OBTÉN UNA"
 
-#: templates/base.html:553
-#, fuzzy
+#: templates/base.html:565
 msgid "Kulbachenko Consultation"
-msgstr "Consulta"
+msgstr "Consulta Kulbachenko"
 
-#: templates/base.html:558
+#: templates/base.html:570
 msgid "or we call back"
-msgstr ""
+msgstr "o te llamamos"
 
-#: templates/base.html:568
-#, fuzzy
+#: templates/base.html:577
 msgid "First Name"
 msgstr "Nombre"
 
-#: templates/base.html:574
-#, fuzzy
+#: templates/base.html:583
 msgid "Your Contact"
-msgstr "Contáctanos"
+msgstr "Tu Contacto"
 
-#: templates/base.html:580
+#: templates/base.html:589
 msgid "Comment"
-msgstr ""
+msgstr "Comentario"
 
-#: templates/base.html:584
-#, fuzzy
+#: templates/base.html:593
 msgid "Submit"
 msgstr "Enviar"
 
+#: templates/bathroom-in-a-private-house-in-estonia.html:4
+#: templates/bathroom-in-a-private-house-in-estonia.html:75
+msgid "Complete bathroom renovation in Tallinn, Estonia"
+msgstr "Renovación completa del baño en Tallin, Estonia"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:9
+msgid "Bathroom project in Tallinn, Estonia | Kulbachenko Construction OU"
+msgstr "Proyecto de baño en Tallin, Estonia | Kulbachenko Construction OU"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:18
+#: templates/bathroom-in-amsterdam-march.html:18
+#: templates/home-cinema-5-person.html:18
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:20
+#: templates/recreation-complex-nova-estonia.html:18
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:18
+msgid ""
+"The amount shown is indicative. Each project is unique, we have no "
+"problem calculating the cost of your project."
+msgstr ""
+"La cantidad mostrada es indicativa. Cada proyecto es único, no tenemos "
+"problema en calcular el costo de su proyecto."
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:76
+msgid ""
+"We offer complete turnkey solutions, including tiling, replacement of "
+"services, installation of underfloor heating and modern lighting systems."
+" We work with quality materials, guaranteeing reliability and stylish "
+"results."
+msgstr ""
+"Ofrecemos soluciones completas llave en mano, que incluyen azulejos, "
+"reemplazo de servicios, instalación de calefacción por suelo radiante y "
+"sistemas de iluminación modernos. Trabajamos con materiales de calidad, "
+"garantizando fiabilidad y resultados elegantes."
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:79
+#: templates/bathroom-in-a-private-house-in-estonia.html:105
+#: templates/bathroom-in-amsterdam-march.html:58
+#: templates/bathroom-in-amsterdam-march.html:82
+#: templates/home-cinema-5-person.html:55
+#: templates/home-cinema-5-person.html:81
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:80
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:65
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:91
+#: templates/recreation-complex-nova-estonia.html:67
+#: templates/recreation-complex-nova-estonia.html:91
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:66
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:90
+msgid "Estimated cost of work"
+msgstr "Costo estimado del trabajo"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:103
+msgid "Description of completed works - Bathroom project in Tallin, Estonia"
+msgstr "Descripción de trabajos completados - Proyecto de baño en Tallin, Estonia"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:111
+#: templates/bathroom-in-amsterdam-march.html:88
+#: templates/home-cinema-5-person.html:87
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:86
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:97
+#: templates/recreation-complex-nova-estonia.html:97
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:96
+msgid "Object Features"
+msgstr "Características del Objeto"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:113
+#: templates/bathroom-in-amsterdam-march.html:90
+msgid "Bathroom area"
+msgstr "Área del baño"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:120
+msgid "Preparation and engineering works"
+msgstr "Trabajos de preparación e ingeniería"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:121
+msgid "Complete replacement of water and sewage pipes"
+msgstr "Reemplazo completo de tuberías de agua y alcantarillado"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:122
+msgid "Installation of new electrical wiring, sockets and switches"
+msgstr "Instalación de nuevo cableado eléctrico, enchufes e interruptores"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:125
+#: templates/bathroom-in-amsterdam-march.html:103
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:117
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:113
+#: templates/services.html:184
+msgid "Finishing works"
+msgstr "Trabajos de acabado"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:126
+msgid "Levelling walls and ceilings, priming surfaces"
+msgstr "Nivelación de paredes y techos, imprimación de superficies"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:127
+msgid "Laying of ceramic tiles with precision grouting"
+msgstr "Colocación de baldosas cerámicas con lechada de precisión"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:128
+msgid "Grouting with moisture resistant materials"
+msgstr "Enlechado con materiales resistentes a la humedad"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:130
+msgid "Comfort and convenience"
+msgstr "Comodidad y conveniencia"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:131
+msgid "Installing electric underfloor heating for a comfortable temperature"
+msgstr "Instalación de calefacción por suelo radiante eléctrica para una temperatura confortable"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:132
+msgid "Installing a warm towel wall"
+msgstr "Instalación de un toallero calefactado"
+
+#: templates/bathroom-in-a-private-house-in-estonia.html:133
+msgid "Modern lighting with ceiling and mirror lighting"
+msgstr "Iluminación moderna con luces de techo y espejo"
+
+#: templates/bathroom-in-amsterdam-march.html:4
+#: templates/bathroom-in-amsterdam-march.html:54
+msgid "Bathrooms and shower project in Amsterdam, Netherlands"
+msgstr "Proyecto de baños y duchas en Ámsterdam, Países Bajos"
+
+#: templates/bathroom-in-amsterdam-march.html:9
+msgid ""
+"Bathrooms and shower project in Amsterdam, Netherlands | Kulbachenko "
+"Construction OU"
+msgstr ""
+"Proyecto de baños y duchas en Ámsterdam, Países Bajos | Kulbachenko "
+"Construction OU"
+
+#: templates/bathroom-in-amsterdam-march.html:55
+msgid ""
+"Renovation of two bathrooms with walk-in showers in Amsterdam, "
+"Netherlands. The project included high quality tiles, modern sanitary "
+"fittings for maximum comfort and durability and a modern and easy to "
+"maintain look."
+msgstr ""
+"Renovación de dos baños con duchas a ras de suelo en Ámsterdam, Países "
+"Bajos. El proyecto incluyó azulejos de alta calidad, accesorios sanitarios "
+"modernos para máxima comodidad y durabilidad, y un aspecto moderno y fácil "
+"de mantener."
+
+#: templates/bathroom-in-amsterdam-march.html:80
+msgid ""
+"Description of work completed - Bathroom and shower project in Amsterdam,"
+" Netherlands"
+msgstr ""
+"Descripción del trabajo realizado - Proyecto de baño y ducha en Ámsterdam, "
+"Países Bajos"
+
+#: templates/bathroom-in-amsterdam-march.html:97
+msgid "Plumbing and installation work"
+msgstr "Trabajos de fontanería e instalación"
+
+#: templates/bathroom-in-amsterdam-march.html:98
+msgid "Complete replacement of plumbing and drainage systems"
+msgstr "Reemplazo completo de sistemas de fontanería y drenaje"
+
+#: templates/bathroom-in-amsterdam-march.html:99
+msgid "Installation of high quality sanitaryware for reliability and longevity"
+msgstr "Instalación de sanitarios de alta calidad para fiabilidad y durabilidad"
+
+#: templates/bathroom-in-amsterdam-march.html:100
+msgid "Walk-in showers with seamless floor integration for a sleek, modern look"
+msgstr "Duchas a ras de suelo con integración de piso sin juntas para un aspecto moderno y elegante"
+
+#: templates/bathroom-in-amsterdam-march.html:104
+msgid "Precision tiling with high quality ceramic tiles"
+msgstr "Baldosas de precisión con baldosas cerámicas de alta calidad"
+
+#: templates/bathroom-in-amsterdam-march.html:105
+msgid "Waterproof grouting for durability and ease of maintenance"
+msgstr "Enlechado impermeable para durabilidad y facilidad de mantenimiento"
+
+#: templates/bathroom-in-amsterdam-march.html:106
+msgid "Wall and ceiling preparation, priming and painting"
+msgstr "Preparación de paredes y techos, imprimación y pintura"
+
+#: templates/bathroom-in-amsterdam-march.html:108
+msgid "Comfort and aesthetics"
+msgstr "Comodidad y estética"
+
+#: templates/bathroom-in-amsterdam-march.html:109
+msgid "Electric underfloor heating for a warm and cosy experience"
+msgstr "Calefacción por suelo radiante eléctrica para una experiencia cálida y acogedora"
+
+#: templates/bathroom-in-amsterdam-march.html:110
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:120
+msgid "Modern LED lighting for an elegant and bright atmosphere"
+msgstr "Iluminación LED moderna para un ambiente elegante y luminoso"
+
+#: templates/bathroom-in-amsterdam-march.html:111
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:121
+msgid "Installation of heated towel rails for added convenience"
+msgstr "Instalación de toalleros calefactados para mayor comodidad"
+
 #: templates/blog.html:21 templates/blog.html:27
-#: templates/new_blog_templates/blog_new.html:3
-#, fuzzy
-msgid "Blog"
-msgstr "BLOG"
+msgid "Blog of Kulbachenko"
+msgstr "Blog de Kulbachenko"
 
 #: templates/blog.html:34
 msgid "All posts"
-msgstr ""
+msgstr "Todas las publicaciones"
 
-#: templates/home-cinema-5-person.html:4 templates/home-cinema-5-person.html:48
-#: templates/home-cinema-5-person.html:57
-#: templates/home-cinema-5-person.html:65
-#: templates/home-cinema-5-person.html:73
-#: templates/home-cinema-5-person.html:81
-#: templates/home-cinema-5-person.html:89
-#: templates/home-cinema-5-person.html:111
-#: templates/home-cinema-5-person.html:115
-#: templates/home-cinema-5-person.html:119
-#: templates/home-cinema-5-person.html:123
-#: templates/home-cinema-5-person.html:127
-#: templates/home-cinema-5-person.html:131
-msgid "Professional home cinema in private house in Ukraine"
+#: templates/home-cinema-5-person.html:4 templates/home-cinema-5-person.html:50
+msgid ""
+"Home cinema in a private house | Project of Kulbachenko Construction OU "
+"and BASS.UA"
 msgstr ""
+"Home cinema en una casa privada | Proyecto de Kulbachenko Construction OU "
+"y BASS.UA"
 
 #: templates/home-cinema-5-person.html:9
 msgid ""
-"Discover the ultimate cinematic experience with our professional\n"
-"                home theater installation in a private residence in "
-"Ukraine. Designed for\n"
-"                up to five people .."
+"Home cinema in a private house | Project of Kulbachenko Construction and "
+"BASS.UA"
 msgstr ""
+"Home cinema en una casa privada | Proyecto de Kulbachenko Construction y "
+"BASS.UA"
 
-#: templates/home-cinema-5-person.html:19 templates/portfolio.html:70
-#: templates/portfolio_old.html:36
-msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
-msgstr ""
-
-#: templates/home-cinema-5-person.html:28
+#: templates/home-cinema-5-person.html:51
 msgid ""
-"Discover the ultimate cinematic experience with our professional\n"
-"                home theater installation in a private residence in "
-"Ukraine. Designed for\n"
-"                up to five people, this bespoke home cinema delivers "
-"immersive audio and\n"
-"                visual entertainment right in the comfort of your own "
-"home. Explore our\n"
-"                gallery to see the exquisite craftsmanship and attention "
-"to detail that\n"
-"                went into creating this luxurious\n"
-"                entertainment space."
+"Kulbachenko Construction together with our partner BASS.UA implemented a "
+"project of home cinema in a private house in Ukraine. The full cycle of "
+"works included soundproofing, finishing, installation of acoustic systems"
+" and intelligent lighting, creating ideal conditions for comfortable film"
+" viewing.\n"
+"Individual design, high quality, high-tech solutions."
 msgstr ""
+"Kulbachenko Construction junto con nuestro socio BASS.UA implementaron un "
+"proyecto de home cinema en una casa privada en Ucrania. El ciclo completo "
+"de trabajos incluyó insonorización, acabados, instalación de sistemas "
+"acústicos y iluminación inteligente, creando condiciones ideales para una "
+"visualización de películas cómoda.\n"
+"Diseño individual, alta calidad, soluciones de alta tecnología."
 
-#: templates/index.html:109
+#: templates/home-cinema-5-person.html:79
+msgid "Description of work performed in the home cinema project"
+msgstr "Descripción del trabajo realizado en el proyecto de home cinema"
+
+#: templates/home-cinema-5-person.html:89
+msgid "Home cinema project room, 5 viewing areas"
+msgstr "Sala de proyecto de home cinema, 5 áreas de visualización"
+
+#: templates/home-cinema-5-person.html:90
+msgid "Paradigm acoustics"
+msgstr "Acústica Paradigm"
+
+#: templates/home-cinema-5-person.html:91
+msgid "Anthem electronics"
+msgstr "Electrónica Anthem"
+
+#: templates/home-cinema-5-person.html:92
+msgid "Stewart screen"
+msgstr "Pantalla Stewart"
+
+#: templates/home-cinema-5-person.html:93
+msgid "JVC projector"
+msgstr "Proyector JVC"
+
+#: templates/home-cinema-5-person.html:94
+msgid "Van den Hull cable products"
+msgstr "Productos de cable Van den Hull"
+
+#: templates/home-cinema-5-person.html:95
+msgid "Individual design, premium quality, high-tech solutions"
+msgstr "Diseño individual, calidad premium, soluciones de alta tecnología"
+
+#: templates/index.html:32
+msgid ""
+"Construction & Renovation Services | Amsterdam, Tallinn, Kyiv, Alicante, "
+"Torrevieja - Serhii Kulbachenko"
+msgstr ""
+"Servicios de Construcción y Renovación | Ámsterdam, Tallin, Kiev, "
+"Alicante, Torrevieja - Serhii Kulbachenko"
+
+#: templates/index.html:184
 msgid "MAIN"
-msgstr ""
+msgstr "PRINCIPAL"
 
-#: templates/index.html:135
+#: templates/index.html:210
 msgid "photo from work in Kyiv"
-msgstr ""
+msgstr "foto del trabajo en Kiev"
 
-#: templates/index.html:162
-#, fuzzy
+#: templates/index.html:224
 msgid "Construction and Repair"
-msgstr "Construcción"
+msgstr "Construcción y Reparación"
 
-#: templates/index.html:163
+#: templates/index.html:225
 msgid ""
 "We offer a wide range of renovation services — from minor cosmetic work "
 "to large-scale capital repairs. We work with residential and commercial "
 "properties, taking all your wishes into account."
 msgstr ""
+"Ofrecemos una amplia gama de servicios de renovación, desde trabajos "
+"cosméticos menores hasta reparaciones capitales a gran escala. Trabajamos "
+"con propiedades residenciales y comerciales, teniendo en cuenta todos sus "
+"deseos."
 
-#: templates/index.html:165
+#: templates/index.html:227
 msgid ""
 "We legally and practically guarantee quality, a modern approach, and "
 "optimal timelines!"
 msgstr ""
+"¡Garantizamos legal y prácticamente calidad, un enfoque moderno y plazos "
+"óptimos!"
 
-#: templates/index.html:167
+#: templates/index.html:229
 msgid "From €50 per m²"
-msgstr ""
+msgstr "Desde 50 € por m²"
 
-#: templates/index.html:178
+#: templates/index.html:240
 msgid "YEARS ON THE MARKET"
-msgstr ""
+msgstr "AÑOS EN EL MERCADO"
 
-#: templates/index.html:182
+#: templates/index.html:244
 msgid "SUCCESSFUL PROJECTS"
-msgstr ""
+msgstr "PROYECTOS EXITOSOS"
 
-#: templates/index.html:186
+#: templates/index.html:248
 msgid "SATISFIED CUSTOMERS"
-msgstr ""
+msgstr "CLIENTES SATISFECHOS"
 
-#: templates/index.html:204
+#: templates/index.html:263
 msgid "Actual prices of repair services"
-msgstr ""
+msgstr "Precios actuales de los servicios de reparación"
 
-#: templates/index.html:207
-msgid "Simple repair"
-msgstr ""
+#: templates/index.html:266
+msgid "Handyman Services"
+msgstr "Servicios de Manitas"
 
-#: templates/index.html:208
-#, fuzzy
-msgid "Basic services"
-msgstr "Servicios"
+#: templates/index.html:267
+msgid "Main Services"
+msgstr "Servicios Principales"
 
-#: templates/index.html:209 templates/index.html:239 templates/index.html:272
-#: templates/index.html:305
+#: templates/index.html:268 templates/index.html:303 templates/index.html:337
+#: templates/index.html:373
 msgid "From"
-msgstr ""
+msgstr "Desde"
 
-#: templates/index.html:209 templates/index.html:239 templates/index.html:272
-#: templates/index.html:305
-msgid "NB"
-msgstr ""
+#: templates/index.html:268 templates/index.html:303 templates/index.html:337
+#: templates/index.html:373
+msgid "VAT (BTW)"
+msgstr "IVA (BTW)"
 
-#: templates/index.html:211
-msgid "Wall and ceiling painting"
-msgstr ""
+#: templates/index.html:268
+msgid "Parking"
+msgstr "Aparcamiento"
 
-#: templates/index.html:212
-msgid "Wallpapering"
-msgstr ""
+#: templates/index.html:270
+msgid "Furniture Assembly"
+msgstr "Montaje de Muebles"
 
-#: templates/index.html:213
-msgid "Baseboard replacement"
-msgstr ""
+#: templates/index.html:271
+msgid "Plumbing Repairs"
+msgstr "Reparaciones de Fontanería"
 
-#: templates/index.html:214
-msgid "Lighting installation (1-2 points)"
-msgstr ""
+#: templates/index.html:272
+msgid "Door and Window Repairs"
+msgstr "Reparaciones de Puertas y Ventanas"
 
-#: templates/index.html:215
-msgid "Partial electrical wiring repair"
-msgstr ""
+#: templates/index.html:273
+msgid "Light Fixture Installation"
+msgstr "Instalación de Luminarias"
 
-#: templates/index.html:216
-msgid "Socket and switch installation"
-msgstr ""
+#: templates/index.html:274
+msgid "Lock Replacement"
+msgstr "Reemplazo de Cerraduras"
 
-#: templates/index.html:217
-msgid "Cleaning and restoration of existing plumbing"
-msgstr ""
+#: templates/index.html:275
+msgid "Electrical Repairs"
+msgstr "Reparaciones Eléctricas"
 
-#: templates/index.html:218
-msgid "Local tile replacement in the bathroom or kitchen"
-msgstr ""
+#: templates/index.html:276
+msgid "Appliance Installation"
+msgstr "Instalación de Electrodomésticos"
 
-#: templates/index.html:219
-msgid "Door hinge and hardware repair"
-msgstr ""
+#: templates/index.html:277
+msgid "Painting and Touch-ups"
+msgstr "Pintura y Retoces"
 
-#: templates/index.html:220
-msgid "Installation of cornices and curtain fittings"
-msgstr ""
+#: templates/index.html:278
+msgid "Tile Repair"
+msgstr "Reparación de Azulejos"
 
-#: templates/index.html:226 templates/index.html:259 templates/index.html:291
-#: templates/index.html:325 templates/services.html:41
-#: templates/services.html:92 templates/services.html:124
-#: templates/services.html:162 templates/services.html:188
-#: templates/services.html:226
+#: templates/index.html:279
+msgid "Blinds and Curtain Installation"
+msgstr "Instalación de Persianas y Cortinas"
+
+#: templates/index.html:280
+msgid "Furniture Repair"
+msgstr "Reparación de Muebles"
+
+#: templates/index.html:281
+msgid "Insulation and Sealing"
+msgstr "Aislamiento y Sellado"
+
+#: templates/index.html:282
+msgid "Garden Maintenance"
+msgstr "Mantenimiento de Jardines"
+
+#: templates/index.html:283
+msgid "Demolition and Removal"
+msgstr "Demolición y Retiro"
+
+#: templates/index.html:284
+msgid "Floor Repairs and Maintenance"
+msgstr "Reparaciones y Mantenimiento de Pisos"
+
+#: templates/index.html:290 templates/index.html:324 templates/index.html:359
+#: templates/index.html:394 templates/services.html:44
+#: templates/services.html:95 templates/services.html:127
+#: templates/services.html:165 templates/services.html:191
+#: templates/services.html:229
 msgid "Consultation"
 msgstr "Consulta"
 
-#: templates/index.html:237
+#: templates/index.html:301
 msgid "Cosmetic Repair"
-msgstr ""
-
-#: templates/index.html:238
-#, fuzzy
-msgid "Basic Services"
-msgstr "Servicios"
-
-#: templates/index.html:241
-msgid "Dismantling of old materials"
-msgstr ""
-
-#: templates/index.html:242 templates/index.html:278
-msgid "Puttying and leveling walls and ceilings"
-msgstr ""
-
-#: templates/index.html:243
-msgid "Hanging new wallpaper or painting walls"
-msgstr ""
-
-#: templates/index.html:244
-msgid "Replacing flooring (laminate, linoleum)"
-msgstr ""
-
-#: templates/index.html:245
-msgid "Replacing baseboards and casings"
-msgstr ""
-
-#: templates/index.html:246
-msgid "Installation of new fixtures"
-msgstr ""
-
-#: templates/index.html:247
-msgid "Replacing sockets and switches"
-msgstr ""
-
-#: templates/index.html:248
-msgid "Minor plumbing repairs"
-msgstr ""
-
-#: templates/index.html:249
-msgid "Installation of new interior doors"
-msgstr ""
-
-#: templates/index.html:250
-msgid "Updating plumbing systems"
-msgstr ""
-
-#: templates/index.html:251
-msgid "Installation of window sills"
-msgstr ""
-
-#: templates/index.html:252
-msgid "Updating or replacing door hardware"
-msgstr ""
-
-#: templates/index.html:253
-msgid "Painting or refreshing window frames"
-msgstr ""
-
-#: templates/index.html:270
-msgid "Capital Repair"
-msgstr ""
-
-#: templates/index.html:271
-msgid "Comprehensive Works"
-msgstr ""
-
-#: templates/index.html:272 templates/index.html:305
-msgid "per m²"
-msgstr ""
-
-#: templates/index.html:274
-msgid "Dismantling of old coverings and structures"
-msgstr ""
-
-#: templates/index.html:275
-msgid "Complete replacement of engineering systems (heating, water supply)"
-msgstr ""
-
-#: templates/index.html:276
-msgid "Replacing windows and doors"
-msgstr ""
-
-#: templates/index.html:277
-msgid "Laying new flooring (parquet, tiles)"
-msgstr ""
-
-#: templates/index.html:279
-msgid "Installation of new electrical wiring and outlets"
-msgstr ""
-
-#: templates/index.html:280
-msgid "Installation of ventilation systems"
-msgstr ""
-
-#: templates/index.html:281
-msgid "Installation of new partitions"
-msgstr ""
-
-#: templates/index.html:282
-msgid "Reconstruction of walls and partitions"
-msgstr ""
-
-#: templates/index.html:283
-msgid "Installation of modern heating systems"
-msgstr ""
-
-#: templates/index.html:284
-msgid "Installation of drywall structures"
-msgstr ""
-
-#: templates/index.html:285
-msgid "Soundproofing of walls and floors"
-msgstr ""
+msgstr "Reparación Cosmética"
 
 #: templates/index.html:302
-msgid "Major Renovation"
-msgstr ""
+msgid "Basic Services"
+msgstr "Servicios Básicos"
 
-#: templates/index.html:303
-msgid "Complete Complex"
-msgstr ""
+#: templates/index.html:305
+msgid "Wall and Ceiling Painting"
+msgstr "Pintura de Paredes y Techos"
+
+#: templates/index.html:306
+msgid "Wallpaper Removal and Install"
+msgstr "Retiro e Instalación de Papel Tapiz"
 
 #: templates/index.html:307
-#, fuzzy
-msgid "3D Design"
-msgstr "Diseño"
+msgid "Small Plastering and Skimming"
+msgstr "Pequeños Trabajos de Yeso y Enlucido"
 
 #: templates/index.html:308
-msgid "Dismantling and changing structures (moving partitions)"
-msgstr ""
+msgid "Touch-ups for Scratches/Scuffs"
+msgstr "Retoces para Arañazos/Rozaduras"
 
 #: templates/index.html:309
-msgid ""
-"Complete replacement of engineering systems (including heating, "
-"electricity, water supply)"
-msgstr ""
+msgid "Repairing Minor Wall Cracks"
+msgstr "Reparación de Grietas Menores en Paredes"
 
 #: templates/index.html:310
-msgid "Installation of multi-level ceilings with lighting"
-msgstr ""
+msgid "Refinishing Wooden Surfaces"
+msgstr "Reacabado de Superficies de Madera"
 
 #: templates/index.html:311
-msgid "Installation of underfloor heating"
-msgstr ""
+msgid "Repainting Doors and Frames"
+msgstr "Repintado de Puertas y Marcos"
 
 #: templates/index.html:312
-msgid "Installation of decorative elements (columns, stucco)"
-msgstr ""
+msgid "Sealing and Regrouting Tiles"
+msgstr "Sellado y Rejuntado de Azulejos"
 
 #: templates/index.html:313
-msgid "Replacing windows and doors with improved insulation"
-msgstr ""
+msgid "Ceiling Tile Replacement"
+msgstr "Reemplazo de Azulejos del Techo"
 
 #: templates/index.html:314
-msgid "Replanning spaces considering load-bearing structures"
-msgstr ""
+msgid "Installing Baseboards and Trim"
+msgstr "Instalación de Zócalos y Molduras"
 
 #: templates/index.html:315
-msgid "Installation of smart home systems (lighting, heating, security)"
-msgstr ""
+msgid "Patching Drywall Holes"
+msgstr "Parcheo de Agujeros en Paneles de Yeso"
 
 #: templates/index.html:316
-msgid "Installation of complex drywall structures (arches, niches)"
-msgstr ""
+msgid "Repairing Stair Finishes"
+msgstr "Reparación de Acabados de Escaleras"
 
 #: templates/index.html:317
-msgid "Finishing walls with decorative panels"
-msgstr ""
+msgid "Refinishing Cabinets/Furniture"
+msgstr "Reacabado de Gabinetes/Muebles"
 
 #: templates/index.html:318
-msgid "Restoration or replacement of a fireplace, if available"
-msgstr ""
+msgid "Updating Light Fixtures"
+msgstr "Actualización de Luminarias"
 
 #: templates/index.html:319
-msgid "Installation of modern air conditioning systems"
-msgstr ""
+msgid "Deep Surface Cleaning Before"
+msgstr "Limpieza Profunda de Superficies Antes"
 
-#: templates/index.html:320
-msgid "Complete soundproofing of walls and ceilings"
-msgstr ""
+#: templates/index.html:335
+msgid "Capital Repair"
+msgstr "Reparación Capital"
+
+#: templates/index.html:336
+msgid "Comprehensive Works"
+msgstr "Trabajos Integrales"
+
+#: templates/index.html:337 templates/index.html:373
+msgid "per m²"
+msgstr "por m²"
+
+#: templates/index.html:339
+msgid "Full Wall and Ceiling Repairs"
+msgstr "Reparaciones Completas de Paredes y Techos"
+
+#: templates/index.html:340
+msgid "Demolition of Old Structures"
+msgstr "Demolición de Estructuras Antiguas"
+
+#: templates/index.html:341
+msgid "Complete Plumbing Replacement"
+msgstr "Reemplazo Completo de Fontanería"
+
+#: templates/index.html:342
+msgid "Full Electrical Rewiring"
+msgstr "Reemplazo Completo de Cableado Eléctrico"
+
+#: templates/index.html:343
+msgid "New Flooring Installation"
+msgstr "Instalación de Nuevos Pisos"
 
 #: templates/index.html:344
-msgid "About Our Team"
-msgstr ""
+msgid "Waterproofing and Insulation"
+msgstr "Impermeabilización y Aislamiento"
+
+#: templates/index.html:345
+msgid "Installation of HVAC Systems"
+msgstr "Instalación de Sistemas HVAC"
 
 #: templates/index.html:346
-msgid "Official company <strong>Kulbachenko Construction OÜ</strong>"
-msgstr ""
+msgid "Replacement of Windows/Doors"
+msgstr "Reemplazo de Ventanas/Puertas"
 
 #: templates/index.html:347
-msgid "Completion of projects in the shortest possible time"
-msgstr ""
+msgid "Wall Soundproofing Solutions"
+msgstr "Soluciones de Insonorización de Paredes"
 
 #: templates/index.html:348
-msgid "Creative solutions"
-msgstr ""
+msgid "Bathroom/Kitchen Renovation"
+msgstr "Renovación de Baños/Cocinas"
 
 #: templates/index.html:349
-msgid "Thorough design"
-msgstr ""
+msgid "Foundation Strengthening Work"
+msgstr "Trabajos de Refuerzo de Cimientos"
 
 #: templates/index.html:350
-msgid "Personalized solutions"
-msgstr ""
+msgid "Installation of New Partitions"
+msgstr "Instalación de Nuevas Particiones"
 
 #: templates/index.html:351
-msgid "Only modern construction technologies"
-msgstr ""
+msgid "Exterior Facade Renovation"
+msgstr "Renovación de Fachada Exterior"
 
 #: templates/index.html:352
-msgid "Guarantees on completed work"
-msgstr ""
+msgid "Comprehensive Roof Repairs"
+msgstr "Reparaciones Integrales de Techos"
+
+#: templates/index.html:353
+msgid "Custom Interior Redesign"
+msgstr "Rediseño Interior Personalizado"
+
+#: templates/index.html:370
+msgid "Major Renovation"
+msgstr "Renovación Mayor"
+
+#: templates/index.html:371
+msgid "Complete Complex"
+msgstr "Complejo Completo"
+
+#: templates/index.html:375
+msgid "3D Design"
+msgstr "Diseño 3D"
+
+#: templates/index.html:376
+msgid "Complete Interior Redesign"
+msgstr "Rediseño Interior Completo"
+
+#: templates/index.html:377
+msgid "Structural Wall Alterations"
+msgstr "Alteraciones Estructurales de Paredes"
+
+#: templates/index.html:378
+msgid "Plumbing System Overhaul"
+msgstr "Revisión Completa del Sistema de Fontanería"
 
 #: templates/index.html:379
-msgid "Anthony van Friesen"
-msgstr ""
+msgid "Electrical System Upgrade"
+msgstr "Actualización del Sistema Eléctrico"
 
 #: templates/index.html:380
-#, fuzzy
+msgid "Underfloor Heating Installation"
+msgstr "Instalación de Calefacción por Suelo Radiante"
+
+#: templates/index.html:381
+msgid "High-End Flooring Solutions"
+msgstr "Soluciones de Suelos de Alta Gama"
+
+#: templates/index.html:382
+msgid "Custom Staircase Installation"
+msgstr "Instalación de Escaleras Personalizadas"
+
+#: templates/index.html:383
+msgid "Luxurious Bathroom Renovation"
+msgstr "Renovación de Baños de Lujo"
+
+#: templates/index.html:384
+msgid "Designer Kitchen Remodeling"
+msgstr "Remodelación de Cocinas de Diseñador"
+
+#: templates/index.html:385
+msgid "Smart Home System Setup"
+msgstr "Configuración de Sistemas de Hogar Inteligente"
+
+#: templates/index.html:386
+msgid "Advanced Soundproofing Install"
+msgstr "Instalación Avanzada de Insonorización"
+
+#: templates/index.html:387
+msgid "Exterior Wall Insulation"
+msgstr "Aislamiento de Paredes Exteriores"
+
+#: templates/index.html:388
+msgid "Premium Roofing Solutions"
+msgstr "Soluciones de Techo de Alta Calidad"
+
+#: templates/index.html:389
+msgid "Landscape and Outdoor Design"
+msgstr "Diseño de Paisajismo y Exteriores"
+
+#: templates/index.html:413
+msgid "About Our Team"
+msgstr "Sobre Nuestro Equipo"
+
+#: templates/index.html:415
+msgid "Official company <strong>Kulbachenko Construction OÜ</strong>"
+msgstr "Empresa oficial <strong>Kulbachenko Construction OÜ</strong>"
+
+#: templates/index.html:416
+msgid "Completion of projects in the shortest possible time"
+msgstr "Finalización de proyectos en el menor tiempo posible"
+
+#: templates/index.html:417
+msgid "Creative solutions"
+msgstr "Soluciones creativas"
+
+#: templates/index.html:418
+msgid "Thorough design"
+msgstr "Diseño minucioso"
+
+#: templates/index.html:419
+msgid "Personalized solutions"
+msgstr "Soluciones personalizadas"
+
+#: templates/index.html:420
+msgid "Only modern construction technologies"
+msgstr "Solo tecnologías de construcción modernas"
+
+#: templates/index.html:421
+msgid "Guarantees on completed work"
+msgstr "Garantías en el trabajo realizado"
+
+#: templates/index.html:448
+msgid "Anthony van Friesen"
+msgstr "Anthony van Friesen"
+
+#: templates/index.html:449
 msgid "PROJECT MANAGER"
-msgstr "Plazo del proyecto"
+msgstr "GERENTE DE PROYECTO"
 
-#: templates/index.html:403
+#: templates/index.html:472
 msgid "Building Made Simple"
-msgstr ""
+msgstr "Construcción Hecha Simple"
 
-#: templates/index.html:404
+#: templates/index.html:473
 msgid "Curious how we work"
-msgstr ""
+msgstr "¿Curioso sobre cómo trabajamos?"
 
-#: templates/index.html:406
+#: templates/index.html:476
 msgid "Discover the 6 steps to transforming your space with precision and care."
-msgstr ""
+msgstr "Descubre los 6 pasos para transformar tu espacio con precisión y cuidado."
 
-#: templates/index.html:407
+#: templates/index.html:480 templates/index.html:1004
 msgid "Discover"
-msgstr ""
+msgstr "Descubrir"
 
-#: templates/index.html:426
-#, fuzzy
+#: templates/index.html:504
 msgid "CONTACT"
-msgstr "Contáctanos"
+msgstr "CONTACTO"
 
-#: templates/index.html:427
+#: templates/index.html:505
 msgid ""
 "First, you need to contact us and ask any questions you have. You can "
 "email us, use any convenient messenger, call, or fill out the application"
@@ -769,12 +933,20 @@ msgid ""
 "us. At this stage, we will provide you with preliminary information about"
 " the cost, order of work, and possible deadlines."
 msgstr ""
+"Primero, debe contactarnos y hacer cualquier pregunta que tenga. Puede "
+"enviarnos un correo electrónico, usar cualquier mensajero conveniente, "
+"llamar o llenar el formulario de solicitud en nuestro sitio web para que "
+"un gerente se comunique con usted. Durante la llamada telefónica, puede "
+"discutir los detalles de su proyecto (o construcción), describir el "
+"objeto y determinar el alcance del trabajo con nosotros. En esta etapa, "
+"le proporcionaremos información preliminar sobre el costo, el orden del "
+"trabajo y los posibles plazos."
 
-#: templates/index.html:433
+#: templates/index.html:511
 msgid "MEASUREMENTS"
-msgstr ""
+msgstr "MEDIDAS"
 
-#: templates/index.html:434
+#: templates/index.html:512
 msgid ""
 "Our foreman will visit your site for free to take precise measurements "
 "and assess the scope of work. If you have a design project or "
@@ -783,12 +955,18 @@ msgid ""
 "together with the client and the foreman. Based on this data, the "
 "estimator will begin to calculate the budget."
 msgstr ""
+"Nuestro capataz visitará su sitio de forma gratuita para tomar medidas "
+"precisas y evaluar el alcance del trabajo. Si tiene un proyecto de diseño "
+"o plan de construcción, estos datos se aclararán. En ausencia de dicho "
+"plan, se preparará una descripción detallada del trabajo necesario junto "
+"con el cliente y el capataz. Con base en estos datos, el estimador "
+"comenzará a calcular el presupuesto."
 
-#: templates/index.html:440
+#: templates/index.html:518
 msgid "BUDGET AND CONTRACT"
-msgstr ""
+msgstr "PRESUPUESTO Y CONTRATO"
 
-#: templates/index.html:441
+#: templates/index.html:519
 msgid ""
 "The estimator will quickly prepare a detailed preliminary budget for "
 "free. All conditions regarding cost, deadlines, and the work process will"
@@ -796,12 +974,17 @@ msgid ""
 "client. The budget will become an integral part of the contract as "
 "Appendix No. 1."
 msgstr ""
+"El estimador preparará rápidamente un presupuesto preliminar detallado de "
+"forma gratuita. Todas las condiciones relativas al costo, los plazos y el "
+"proceso de trabajo se documentarán en el contrato, que definitivamente "
+"firmaremos con el cliente. El presupuesto se convertirá en una parte "
+"integral del contrato como Apéndice No. 1."
 
-#: templates/index.html:447
+#: templates/index.html:525
 msgid "START OF WORK"
-msgstr ""
+msgstr "INICIO DE TRABAJO"
 
-#: templates/index.html:448
+#: templates/index.html:526
 msgid ""
 "We start the renovation or construction work under the guidance of an "
 "experienced foreman. All work is carried out according to the schedule "
@@ -809,146 +992,161 @@ msgid ""
 "out only after justification by the foreman and agreement with the "
 "client."
 msgstr ""
+"Comenzamos el trabajo de renovación o construcción bajo la guía de un "
+"capataz experimentado. Todo el trabajo se realiza de acuerdo con el "
+"cronograma y de acuerdo con el presupuesto aprobado. El trabajo "
+"adicional se lleva a cabo solo después de la justificación por parte del "
+"capataz y el acuerdo con el cliente."
 
-#: templates/index.html:454
+#: templates/index.html:532
 msgid "COMPLETION OF WORK"
-msgstr ""
+msgstr "FINALIZACIÓN DEL TRABAJO"
 
-#: templates/index.html:455
+#: templates/index.html:533
 msgid ""
 "After the completion of work and the removal of construction debris, you "
 "accept our work."
 msgstr ""
+"Después de la finalización del trabajo y la eliminación de los escombros "
+"de construcción, acepta nuestro trabajo."
 
-#: templates/index.html:461
+#: templates/index.html:539
 msgid "WARRANTY AND SERVICE"
-msgstr ""
+msgstr "GARANTÍA Y SERVICIO"
 
-#: templates/index.html:462
+#: templates/index.html:540
 msgid ""
 "During the final settlement, the company director and the client sign the"
 " act of completed work, which provides a warranty for all work for a "
 "period of at least 12 months, as well as guarantees our support in case "
 "of any questions arising in the future."
 msgstr ""
+"Durante la liquidación final, el director de la empresa y el cliente "
+"firman el acta de trabajo completado, que proporciona una garantía para "
+"todo el trabajo por un período de al menos 12 meses, así como garantiza "
+"nuestro apoyo en caso de que surjan preguntas en el futuro."
 
-#: templates/index.html:467
+#: templates/index.html:545
 msgid "Hide"
-msgstr ""
+msgstr "Ocultar"
 
-#: templates/index.html:478
-msgid "Areas We Work In"
-msgstr ""
+#: templates/index.html:556
+msgid "The areas in which we work"
+msgstr "Las áreas en las que trabajamos"
 
-#: templates/index.html:482 templates/index.html:539
+#: templates/index.html:560 templates/index.html:617
 msgid "Residential Properties"
-msgstr ""
+msgstr "Propiedades Residenciales"
 
-#: templates/index.html:485 templates/index.html:542
-msgid "1. Residential Properties"
-msgstr ""
+#: templates/index.html:563 templates/index.html:620
+msgid "Residential real estate"
+msgstr "Bienes raíces residenciales"
 
-#: templates/index.html:486 templates/index.html:543
-msgid ""
-"Comprehensive renovation of apartments, houses, and cottages of any "
-"complexity."
-msgstr ""
+#: templates/index.html:564 templates/index.html:621
+msgid "Complete renovation of apartments, houses and villas of all complexities."
+msgstr "Renovación completa de apartamentos, casas y villas de todas las complejidades."
 
-#: templates/index.html:491 templates/index.html:548
+#: templates/index.html:569 templates/index.html:626
 msgid "Commercial Real Estate"
-msgstr ""
+msgstr "Bienes Raíces Comerciales"
 
-#: templates/index.html:494 templates/index.html:551
-msgid "2. Commercial Real Estate"
-msgstr ""
+#: templates/index.html:572 templates/index.html:629
+msgid "Commercial real estate"
+msgstr "Bienes raíces comerciales"
 
-#: templates/index.html:495 templates/index.html:552
+#: templates/index.html:573 templates/index.html:630
 msgid ""
-"Renovation of offices, shops, shopping centers, hotels, and other "
-"business facilities."
+"Renovation of offices, shops, shopping centres, hotels and other business"
+" facilities."
 msgstr ""
+"Renovación de oficinas, tiendas, centros comerciales, hoteles y otras "
+"instalaciones comerciales."
 
-#: templates/index.html:500 templates/index.html:557
+#: templates/index.html:578 templates/index.html:635
 msgid "Cultural and Artistic Spaces"
-msgstr ""
+msgstr "Espacios Culturales y Artísticos"
 
-#: templates/index.html:503 templates/index.html:560
-msgid "3. Cultural and Artistic Spaces"
-msgstr ""
+#: templates/index.html:581 templates/index.html:638
+msgid "Spaces for culture and the arts"
+msgstr "Espacios para la cultura y las artes"
 
-#: templates/index.html:504 templates/index.html:561
+#: templates/index.html:582 templates/index.html:639
 msgid ""
-"Renovation and refurbishment of theaters, philharmonics, concert halls, "
-"and other cultural venues, considering their specific uses."
+"Renovating and refurbishing theatres, philharmonic and concert halls and "
+"other cultural venues, taking into account their specific uses."
 msgstr ""
+"Renovación y remodelación de teatros, salas filarmónicas y de conciertos "
+"y otros lugares culturales, teniendo en cuenta sus usos específicos."
 
-#: templates/index.html:509 templates/index.html:566
+#: templates/index.html:587 templates/index.html:644
 msgid "Facade Finishing"
-msgstr ""
+msgstr "Acabado de Fachadas"
 
-#: templates/index.html:512 templates/index.html:569
-msgid "4. Facade Finishing"
-msgstr ""
+#: templates/index.html:590 templates/index.html:647
+msgid "Surface finishes for facades"
+msgstr "Acabados superficiales para fachadas"
 
-#: templates/index.html:513 templates/index.html:570
-msgid "Professional facade finishing using modern materials."
-msgstr ""
+#: templates/index.html:591 templates/index.html:648
+msgid "Professional finishing of facades with the latest materials."
+msgstr "Acabado profesional de fachadas con los materiales más recientes."
 
-#: templates/index.html:518 templates/index.html:575
+#: templates/index.html:596 templates/index.html:653
 msgid "Recreation Centers"
-msgstr ""
+msgstr "Centros de Recreación"
 
-#: templates/index.html:521 templates/index.html:578
-msgid "5. Recreation Centers"
-msgstr ""
+#: templates/index.html:599 templates/index.html:656
+msgid "Recreation centres"
+msgstr "Centros de recreación"
 
-#: templates/index.html:522 templates/index.html:579
+#: templates/index.html:600 templates/index.html:657
 msgid ""
-"Design and construction of modern recreation centers with a focus on "
-"comfort and eco-friendliness."
+"Design and construction of modern leisure facilities focusing on comfort "
+"and environmental friendliness."
 msgstr ""
+"Diseño y construcción de instalaciones de ocio modernas centradas en la "
+"comodidad y el respeto al medio ambiente."
 
-#: templates/index.html:527 templates/index.html:584
+#: templates/index.html:605 templates/index.html:662
 msgid "Industrial Facilities"
-msgstr ""
+msgstr "Instalaciones Industriales"
 
-#: templates/index.html:530 templates/index.html:587
-msgid "6. Industrial Facilities"
-msgstr ""
+#: templates/index.html:608 templates/index.html:665
+msgid "Industrial facilities"
+msgstr "Instalaciones industriales"
 
-#: templates/index.html:531 templates/index.html:588
+#: templates/index.html:609 templates/index.html:666
 msgid ""
-"Renovation and modernization of production halls, warehouses, factories, "
-"and technical premises."
+"Renovating and modernising workshops, warehouses, factories and technical"
+" facilities."
 msgstr ""
+"Renovación y modernización de talleres, almacenes, fábricas e "
+"instalaciones técnicas."
 
-#: templates/index.html:597
+#: templates/index.html:675
 msgid "Learn more"
-msgstr ""
+msgstr "Aprender más"
 
-#: templates/index.html:612
-#, fuzzy
+#: templates/index.html:690
 msgid "Latest news"
-msgstr "Apellido"
+msgstr "Últimas noticias"
 
-#: templates/index.html:651
-#, fuzzy
+#: templates/index.html:729
 msgid "Latest videos"
-msgstr "Apellido"
+msgstr "Últimos videos"
 
-#: templates/index.html:763
+#: templates/index.html:841
 msgid "OUR PARTNERS"
-msgstr ""
+msgstr "NUESTROS SOCIOS"
 
-#: templates/index.html:797
+#: templates/index.html:875
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Preguntas frecuentes"
 
-#: templates/index.html:804
+#: templates/index.html:882
 msgid "What types of repair work do you provide?"
-msgstr ""
+msgstr "¿Qué tipos de trabajos de reparación ofrecen?"
 
-#: templates/index.html:808
+#: templates/index.html:886
 msgid ""
 "We provide a wide range of repair services, from minor cosmetic repairs "
 "to comprehensive renovations of apartments, offices, commercial spaces, "
@@ -957,268 +1155,536 @@ msgid ""
 "ensuring high-quality results no matter the size or complexity of the "
 "job. Your vision is our priority!"
 msgstr ""
+"Ofrecemos una amplia gama de servicios de reparación, desde reparaciones "
+"cosméticas menores hasta renovaciones integrales de apartamentos, "
+"oficinas, espacios comerciales y casas. Nuestra experiencia incluye la "
+"construcción de viviendas privadas y la gestión de proyectos tanto "
+"pequeños como a gran escala. Aceptamos todas las tareas, garantizando "
+"resultados de alta calidad sin importar el tamaño o la complejidad del "
+"trabajo. ¡Su visión es nuestra prioridad!"
 
-#: templates/index.html:814
+#: templates/index.html:892
 msgid "Do I need a permit for renovations?"
-msgstr ""
+msgstr "¿Necesito un permiso para las renovaciones?"
 
-#: templates/index.html:818
+#: templates/index.html:896
 msgid ""
 "Yes, in most cases, permits are required for renovations, especially for "
 "structural changes or significant alterations to your property. We can "
 "assist you in determining whether your project requires a permit and help"
 " you navigate the application process."
 msgstr ""
+"Sí, en la mayoría de los casos, se requieren permisos para las "
+"renovaciones, especialmente para cambios estructurales o alteraciones "
+"significativas en su propiedad. Podemos ayudarle a determinar si su "
+"proyecto requiere un permiso y a navegar por el proceso de solicitud."
 
-#: templates/index.html:824
+#: templates/index.html:902
 msgid "How is the cost of repairs determined?"
-msgstr ""
+msgstr "¿Cómo se determina el costo de las reparaciones?"
 
-#: templates/index.html:828
+#: templates/index.html:906
 msgid ""
 "The cost of repairs depends on the complexity of the project, the size of"
 " the property, and the scope of work required. We provide a detailed "
 "estimate after evaluating the project and discuss potential cost-saving "
 "options if needed."
 msgstr ""
+"El costo de las reparaciones depende de la complejidad del proyecto, el "
+"tamaño de la propiedad y el alcance del trabajo requerido. Proporcionamos "
+"una estimación detallada después de evaluar el proyecto y discutimos "
+"opciones potenciales de ahorro de costos si es necesario."
 
-#: templates/index.html:835
+#: templates/index.html:913
 msgid "What does the contract for renovation services include?"
-msgstr ""
+msgstr "¿Qué incluye el contrato de servicios de renovación?"
 
-#: templates/index.html:839
+#: templates/index.html:917
 msgid ""
 "The contract clearly outlines the terms of cooperation, including work "
 "deadlines, costs, warranties, and the rights of both parties. After "
 "signing the contract, we begin the work according to the agreed plan."
 msgstr ""
+"El contrato describe claramente los términos de cooperación, incluidos "
+"los plazos de trabajo, los costos, las garantías y los derechos de ambas "
+"partes. Después de firmar el contrato, comenzamos el trabajo de acuerdo "
+"con el plan acordado."
 
-#: templates/index.html:845
+#: templates/index.html:923
 msgid "Do you provide a warranty for the work performed?"
-msgstr ""
+msgstr "¿Ofrecen una garantía para el trabajo realizado?"
 
-#: templates/index.html:849
+#: templates/index.html:927
 msgid ""
 "Yes, we provide a warranty for all work performed. The warranty period "
 "depends on the type of repair, but it typically ranges from 1 to 5 years."
 " All warranty conditions are specified in the contract."
 msgstr ""
+"Sí, ofrecemos una garantía para todo el trabajo realizado. El período de "
+"garantía depende del tipo de reparación, pero generalmente varía de 1 a 5 "
+"años. Todas las condiciones de la garantía están especificadas en el "
+"contrato."
 
-#: templates/index.html:856
+#: templates/index.html:934
 msgid "In which cities do you provide services"
-msgstr ""
+msgstr "¿En qué ciudades ofrecen servicios?"
 
-#: templates/index.html:860
+#: templates/index.html:938
 msgid ""
 "We provide repair services in Amsterdam, Rotterdam, The Hague, and "
 "Utrecht, as well as across Europe. Our extensive experience in various "
 "countries enables us to navigate local regulations and requirements "
 "effectively. Consultations are free!"
 msgstr ""
+"Ofrecemos servicios de reparación en Ámsterdam, Róterdam, La Haya y "
+"Utrecht, así como en toda Europa. Nuestra amplia experiencia en varios "
+"países nos permite navegar eficazmente por las regulaciones y requisitos "
+"locales. ¡Las consultas son gratuitas!"
 
-#: templates/portfolio.html:21 templates/portfolio_old.html:9
-msgid "Portfolio"
-msgstr "Portafolio"
+#: templates/index.html:1005
+msgid "Show Less"
+msgstr "Mostrar Menos"
 
-#: templates/portfolio.html:31
-msgid "Page Under Update"
-msgstr ""
+#: templates/portfolio.html:24
+msgid "Portfolio of the construction expert Kulbachenko"
+msgstr "Portafolio del experto en construcción Kulbachenko"
 
 #: templates/portfolio.html:32
-msgid ""
-"We are currently updating this page. Our portfolio will be available here"
-" soon, showcasing our completed renovation and construction projects. "
-"Thank you for your patience!"
-msgstr ""
+msgid "Featured"
+msgstr "Destacado"
 
-#: templates/portfolio.html:54
-msgid ""
-"Explore our portfolio showcasing our professional home cinema,-->\n"
-"<!--                 comprehensive renovation projects, and more. "
-"Discover the quality and expertise we bring to-->\n"
-"<!--                  every project we undertake."
-msgstr ""
+#: templates/portfolio.html:37
+msgid "All work"
+msgstr "Todo el trabajo"
 
-#: templates/portfolio.html:79 templates/portfolio_old.html:45
-msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
-msgstr ""
+#: templates/portfolio.html:40
+msgid "Apartments"
+msgstr "Apartamentos"
 
-#: templates/portfolio.html:90 templates/portfolio_old.html:56
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:17
+#: templates/portfolio.html:43
+msgid "Bathrooms"
+msgstr "Baños"
+
+#: templates/portfolio.html:46
+msgid "Constructions"
+msgstr "Construcción"
+
+#: templates/portfolio.html:49
+msgid "Cultural objects"
+msgstr "Objetos culturales"
+
+#: templates/portfolio.html:52
+msgid "Home cinema"
+msgstr "Cine en casa"
+
+#: templates/portfolio.html:55
+msgid "Outside work"
+msgstr "Trabajo exterior"
+
+#: templates/portfolio.html:58
+msgid "Other"
+msgstr "Otros"
+
+#: templates/portfolio.html:67 templates/recreation-complex-nova-estonia.html:4
+msgid "Recreation complex \"Sparta Camp\", Nõva, 91104 Lääne County, Estonia"
+msgstr "Complejo de recreación \"Sparta Camp\", Nõva, 91104 Lääne County, Estonia"
+
+#: templates/portfolio.html:75
+msgid "Bathroom in a private house in Estonia"
+msgstr "Baño en una casa privada en Estonia"
+
+#: templates/portfolio.html:83
+msgid "turnkey renovation for a newly built apartment, Kyiv, Ukraine"
+msgstr "renovación llave en mano para un apartamento recién construido, Kiev, Ucrania"
+
+#: templates/portfolio.html:91
+msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
+msgstr "CINE EN CASA PROFESIONAL EN CASA PRIVADA EN UCRANIA"
+
+#: templates/portfolio.html:99
 msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
-msgstr ""
+msgstr "ACADEMIA DE MÚSICA Y TEATRO DE ESTONIA EN TALLINN, ESTONIA"
 
-#: templates/portfolio_old.html:4
+#: templates/portfolio.html:107
+msgid "Turnkey renovation of apartments in the \"Varshavsky\", Kyiv, Ukraine"
+msgstr "Renovación llave en mano de apartamentos en el \"Varshavsky\", Kiev, Ucrania"
+
+#: templates/portfolio.html:115
+msgid "Bathroom in Amsterdam"
+msgstr "Baño en Ámsterdam"
+
+#: templates/portfolio.html:128
+msgid "You can find even more of our work on"
+msgstr "Puedes encontrar aún más de nuestro trabajo en"
+
+#: templates/portfolio.html:130
+msgid "Facebook and Telegram"
+msgstr "Facebook y Telegram"
+
+#: templates/recreation-complex-nova-estonia.html:9
 msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"     comprehensive renovation projects, and more. Discover the quality "
-"and expertise we bring to\n"
-"      every project we undertake."
+"Recreation complex project in Nõva, 91104 Lääne County, Estonia | "
+"Kulbachenko Construction"
 msgstr ""
+"Proyecto de complejo de recreación en Nõva, 91104 Lääne County, Estonia | "
+"Kulbachenko Construction"
 
-#: templates/portfolio_old.html:20
+#: templates/recreation-complex-nova-estonia.html:63
+msgid "Recreation Complex \"Sparta Camp\" - Nõva, Estonia"
+msgstr "Complejo de Recreación \"Sparta Camp\" - Nõva, Estonia"
+
+#: templates/recreation-complex-nova-estonia.html:64
 msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"                 comprehensive renovation projects, and more. Discover "
-"the quality and expertise we bring to\n"
-"                  every project we undertake."
+"Sparta Camp in Nõva, Lääne County, Estonia is a recreation complex for "
+"relaxation, sports and outdoor activities. for comfortable outdoor "
+"living, sports and group activities."
 msgstr ""
+"Sparta Camp en Nõva, Lääne County, Estonia es un complejo de recreación "
+"para la relajación, deportes y actividades al aire libre. para una vida "
+"al aire libre cómoda, deportes y actividades grupales."
 
-#: templates/services.html:22
-msgid "Renovation and Construction Services | Kulbachenko Construction"
+#: templates/recreation-complex-nova-estonia.html:89
+msgid "Description of Recreation Complex \"Sparta Camp\" – Nõva, Estonia "
+msgstr "Descripción del Complejo de Recreación \"Sparta Camp\" – Nõva, Estonia"
+
+#: templates/recreation-complex-nova-estonia.html:99
+msgid "Area"
+msgstr "Área"
+
+#: templates/recreation-complex-nova-estonia.html:106
+msgid "Accommodation & Outdoor Spaces"
+msgstr "Alojamiento y Espacios al Aire Libre"
+
+#: templates/recreation-complex-nova-estonia.html:107
+msgid ""
+"10 cosy cabins, each equipped with two bunk beds. Guests will enjoy a "
+"comfortable stay."
 msgstr ""
+"10 acogedoras cabañas, cada una equipada con dos literas. Los huéspedes "
+"disfrutarán de una estancia cómoda."
 
-#: templates/services.html:28
+#: templates/recreation-complex-nova-estonia.html:108
+msgid ""
+"Spacious terraces with wooden tables where you can relax and enjoy the "
+"company of others"
+msgstr ""
+"Amplias terrazas con mesas de madera donde puedes relajarte y disfrutar de "
+"la compañía de otros"
+
+#: templates/recreation-complex-nova-estonia.html:111
+msgid "Eco-Friendly Solutions"
+msgstr "Soluciones Ecológicas"
+
+#: templates/recreation-complex-nova-estonia.html:112
+msgid "Solar panels and supporting equipment to ensure sustainable energy use"
+msgstr ""
+"Paneles solares y equipos de apoyo para garantizar el uso sostenible de la "
+"energía"
+
+#: templates/recreation-complex-nova-estonia.html:113
+msgid ""
+"Advanced wood and roof treatment for durability and protection against "
+"environmental factors"
+msgstr ""
+"Tratamiento avanzado de la madera y el techo para durabilidad y protección "
+"contra factores ambientales"
+
+#: templates/recreation-complex-nova-estonia.html:116
+msgid ""
+"Designed with modern technology and eco-conscious solutions, Sparta Camp "
+"offers a harmonious blend of comfort, functionality and sustainability, "
+"making it an ideal destination for nature lovers, sports teams and "
+"corporate retreats."
+msgstr ""
+"Diseñado con tecnología moderna y soluciones ecológicas, Sparta Camp "
+"ofrece una combinación armoniosa de comodidad, funcionalidad y "
+"sostenibilidad, lo que lo convierte en un destino ideal para amantes de la "
+"naturaleza, equipos deportivos y retiros corporativos."
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:4
+msgid "Turnkey renovation for a newly built apartment in Kyiv, Ukraine"
+msgstr "Renovación llave en mano para un apartamento recién construido en Kiev, Ucrania"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:9
+msgid ""
+"Turnkey renovation of a 40m² apartment in Kyiv with premium materials, "
+"underfloor heating, hidden doors, LED lighting, tile & laminate flooring,"
+" and a modern bathroom."
+msgstr ""
+"Renovación llave en mano de un apartamento de 40m² en Kiev con materiales "
+"de primera calidad, calefacción por suelo radiante, puertas ocultas, "
+"iluminación LED, suelos de baldosas y laminado, y un baño moderno."
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:62
+msgid "Turnkey Renovation for a Newly Built Apartment in Kyiv, Ukraine"
+msgstr "Renovación llave en mano para un apartamento recién construido en Kiev, Ucrania"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:63
+msgid ""
+"This premium class turnkey renovation was completed in a newly built 40m²"
+" apartment in Kyiv, combining modern design, high quality materials and "
+"advanced technologies for ultimate comfort and functionality."
+msgstr ""
+"Esta renovación llave en mano de clase premium se completó en un "
+"apartamento recién construido de 40m² en Kiev, combinando diseño moderno, "
+"materiales de alta calidad y tecnologías avanzadas para la máxima "
+"comodidad y funcionalidad."
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:88
+msgid ""
+"Description of work completed - Turnkey renovation for a newly built "
+"apartment in Kyiv, Ukraine"
+msgstr ""
+"Descripción del trabajo completado - Renovación llave en mano para un "
+"apartamento recién construido en Kiev, Ucrania"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:99
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:98
+msgid "Total area of the apartment"
+msgstr "Área total del apartamento"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:105
+msgid "Key Features"
+msgstr "Características principales"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:106
+msgid ""
+"Water-based underfloor heating throughout the apartment, including the "
+"bathroom, ensuring warmth and energy efficiency"
+msgstr ""
+"Calefacción por suelo radiante a base de agua en todo el apartamento, "
+"incluido el baño, asegurando calidez y eficiencia energética"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:107
+msgid "Hidden doors installation for a sleek and seamless interior look"
+msgstr ""
+"Instalación de puertas ocultas para un aspecto interior elegante y sin "
+"costuras"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:108
+msgid ""
+"Electrical installation, including concealed wiring, socket and switch "
+"placement"
+msgstr ""
+"Instalación eléctrica, incluyendo cableado oculto, colocación de enchufes "
+"e interruptores"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:109
+msgid ""
+"LED lighting installation, including modern fixtures and ambient lighting"
+" solutions"
+msgstr ""
+"Instalación de iluminación LED, incluyendo luminarias modernas y "
+"soluciones de iluminación ambiental"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:114
+msgid "High-quality tile installation in the bathroom and kitchen areas"
+msgstr ""
+"Instalación de azulejos de alta calidad en las áreas del baño y la cocina"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:115
+msgid ""
+"Laminate flooring in the main living space for a stylish and durable "
+"finish"
+msgstr ""
+"Suelo laminado en el espacio principal de estar para un acabado elegante "
+"y duradero"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:116
+msgid ""
+"Stretch ceiling installation across the entire apartment for a clean, "
+"modern appearance"
+msgstr ""
+"Instalación de techo tensado en todo el apartamento para una apariencia "
+"limpia y moderna"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:118
+msgid "Bathroom & Plumbing"
+msgstr "Baño y Fontanería"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:119
+msgid ""
+"Freestanding bathtub and wall-hung toilet installation for a contemporary"
+" and space-saving layout"
+msgstr ""
+"Instalación de bañera exenta e inodoro suspendido para un diseño "
+"contemporáneo y que ahorra espacio"
+
+#: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:125
+msgid ""
+"This project showcases the highest level of craftsmanship, attention to "
+"detail and quality materials to create a stylish, comfortable and "
+"functional turnkey home."
+msgstr ""
+"Este proyecto muestra el más alto nivel de artesanía, atención al detalle "
+"y materiales de calidad para crear un hogar llave en mano elegante, "
+"cómodo y funcional."
+
+#: templates/services.html:25
+msgid ""
+"Our Services in Amsterdam, Tallinn, Kyiv, Alicante, Torrevieja | "
+"Kulbachenko Construction"
+msgstr ""
+"Nuestros Servicios en Ámsterdam, Tallin, Kiev, Alicante, Torrevieja | "
+"Kulbachenko Construction"
+
+#: templates/services.html:31
 msgid "Kulbachenko Construction | color catalog"
-msgstr ""
+msgstr "Kulbachenko Construction | catálogo de colores"
 
-#: templates/services.html:30
-msgid "Our Renovation and Construction Services"
-msgstr ""
+#: templates/services.html:33
+msgid "Renovation & Construction Services"
+msgstr "Servicios de Renovación y Construcción"
 
-#: templates/services.html:36
-msgid "Your ideas are our work. Professional turnkey construction and renovation."
-msgstr ""
-
-#: templates/services.html:37
+#: templates/services.html:39
 msgid ""
-"We offer a full range of construction and renovation services across "
-"Europe, legally guaranteeing high quality, professionalism, and attention"
-" to detail. From apartment renovations to house construction, we bring "
-"your ideas to life."
+"Your ideas are our work. Professional turnkey construction and "
+"refurbishment."
 msgstr ""
+"Sus ideas son nuestro trabajo. Construcción y renovación profesional llave en mano."
 
-#: templates/services.html:58
-msgid "We are not superheroes, but our team works wonders."
+#: templates/services.html:40
+msgid ""
+"We offer a full range of construction and renovation services in "
+"Amsterdam, Tallinn, Kyiv, Alicante and Torrevieja, with a legal guarantee"
+" of high quality, professionalism and attention to detail. From flat "
+"renovations to house building, we bring your ideas to life."
 msgstr ""
+"Ofrecemos una gama completa de servicios de construcción y renovación en "
+"Ámsterdam, Tallin, Kiev, Alicante y Torrevieja, con una garantía legal de "
+"alta calidad, profesionalismo y atención al detalle. Desde renovaciones de "
+"pisos hasta construcción de casas, hacemos realidad sus ideas."
 
-#: templates/services.html:64
+#: templates/services.html:61
+msgid "We may not be superheroes, but our team works miracles."
+msgstr ""
+"Puede que no seamos superhéroes, pero nuestro equipo hace milagros."
+
+#: templates/services.html:67
 msgid "Kulbachenko Construction | Construction of a house"
-msgstr ""
-
-#: templates/services.html:73
-msgid "Kulbachenko Construction | Venetian Plaster"
-msgstr ""
+msgstr "Kulbachenko Construction | Construcción de una casa"
 
 #: templates/services.html:76
+msgid "Kulbachenko Construction | Venetian Plaster"
+msgstr "Kulbachenko Construction | Yeso Veneciano"
+
+#: templates/services.html:79
 msgid ""
-"With over 300 successfully completed projects, we confidently call "
+"We have over 300 successfully completed projects. We are proud to call "
 "ourselves experts in the construction industry."
 msgstr ""
-
-#: templates/services.html:80
-#, fuzzy
-msgid "Construction Services"
-msgstr "Construcción"
-
-#: templates/services.html:82
-#, fuzzy
-msgid "New build construction"
-msgstr "Construcción"
+"Tenemos más de 300 proyectos completados con éxito. Nos enorgullece llamarnos expertos en la industria de la construcción."
 
 #: templates/services.html:83
-msgid "Brick/block house construction"
-msgstr ""
-
-#: templates/services.html:84
-msgid "Foundation works"
-msgstr ""
+msgid "Construction Services"
+msgstr "Servicios de Construcción"
 
 #: templates/services.html:85
-msgid "Roofing works"
-msgstr ""
+msgid "New build construction"
+msgstr "Construcción de nueva edificación"
 
 #: templates/services.html:86
+msgid "Brick/block house construction"
+msgstr "Construcción de casas de ladrillo/bloque"
+
+#: templates/services.html:87
+msgid "Foundation works"
+msgstr "Trabajos de cimentación"
+
+#: templates/services.html:88
+msgid "Roofing works"
+msgstr "Trabajos de techado"
+
+#: templates/services.html:89
 msgid "External insulation"
-msgstr ""
-
-#: templates/services.html:111
-msgid "Renovation Services"
-msgstr ""
-
-#: templates/services.html:113
-msgid "Turnkey apartment renovation"
-msgstr ""
+msgstr "Aislamiento exterior"
 
 #: templates/services.html:114
-msgid "Full refurbishment"
-msgstr ""
-
-#: templates/services.html:115
-msgid "House renovation"
-msgstr ""
+msgid "Renovation Services"
+msgstr "Servicios de Renovación"
 
 #: templates/services.html:116
-msgid "Comprehensive renovation"
-msgstr ""
+msgid "Turnkey apartment renovation"
+msgstr "Renovación de apartamentos llave en mano"
 
 #: templates/services.html:117
-msgid "Cosmetic renovation"
-msgstr ""
+msgid "Full refurbishment"
+msgstr "Reforma completa"
 
 #: templates/services.html:118
+msgid "House renovation"
+msgstr "Renovación de casas"
+
+#: templates/services.html:119
+msgid "Comprehensive renovation"
+msgstr "Renovación integral"
+
+#: templates/services.html:120
+msgid "Cosmetic renovation"
+msgstr "Renovación estética"
+
+#: templates/services.html:121
 msgid "Interior design and refurbishment"
-msgstr ""
+msgstr "Diseño de interiores y renovación"
 
-#: templates/services.html:137
+#: templates/services.html:140
 msgid "Kulbachenko Construction | Turnkey Apartment Renovation Services"
-msgstr ""
+msgstr "Kulbachenko Construction | Servicios de Renovación de Apartamentos Llave en Mano"
 
-#: templates/services.html:147
+#: templates/services.html:150
 msgid ""
 "Kulbachenko Construction | Professional Electrical and MEP Installation "
 "Services"
 msgstr ""
-
-#: templates/services.html:153
-msgid "Engineering and Electrical Works"
-msgstr ""
-
-#: templates/services.html:155
-msgid "MEP installation"
-msgstr ""
+"Kulbachenko Construction | Servicios Profesionales de Instalación Eléctrica y MEP"
 
 #: templates/services.html:156
+msgid "Engineering and Electrical Works"
+msgstr "Trabajos de Ingeniería y Eléctricos"
+
+#: templates/services.html:158
+msgid "MEP installation"
+msgstr "Instalación MEP"
+
+#: templates/services.html:159
 msgid "Electrical works"
-msgstr ""
-
-#: templates/services.html:179
-msgid "Finishing and Office Fit-out Works"
-msgstr ""
-
-#: templates/services.html:181
-msgid "Finishing works"
-msgstr ""
+msgstr "Trabajos eléctricos"
 
 #: templates/services.html:182
-msgid "Office fit-out"
-msgstr ""
+msgid "Finishing and Office Fit-out Works"
+msgstr "Trabajos de Acabado y Equipamiento de Oficinas"
 
-#: templates/services.html:201
+#: templates/services.html:185
+msgid "Office fit-out"
+msgstr "Equipamiento de oficinas"
+
+#: templates/services.html:204
 msgid ""
 "Kulbachenko Construction | Professional Finishing and Office Fit-out "
 "Services"
 msgstr ""
+"Kulbachenko Construction | Servicios Profesionales de Acabado y Equipamiento de Oficinas"
 
-#: templates/services.html:211
+#: templates/services.html:214
 msgid "Kulbachenko Construction | Professional Landscaping and Fencing Services"
 msgstr ""
-
-#: templates/services.html:217
-msgid "Additional Services"
-msgstr ""
-
-#: templates/services.html:219
-msgid "Landscaping and Fencing"
-msgstr ""
+"Kulbachenko Construction | Servicios Profesionales de Paisajismo y Cercado"
 
 #: templates/services.html:220
-msgid "Interior Design Solutions"
-msgstr ""
+msgid "Additional Services"
+msgstr "Servicios Adicionales"
 
-#: templates/services.html:241
+#: templates/services.html:222
+msgid "Landscaping and Fencing"
+msgstr "Paisajismo y Cercado"
+
+#: templates/services.html:223
+msgid "Interior Design Solutions"
+msgstr "Soluciones de Diseño de Interiores"
+
+#: templates/services.html:244
 msgid "See our portfolio of renovation projects"
-msgstr ""
+msgstr "Vea nuestro portafolio de proyectos de renovación"
 
 #: templates/blog_templates/apartment-renovation.html:3
 #: templates/blog_templates/apartment-renovation.html:15
@@ -1227,7 +1693,7 @@ msgstr ""
 #: templates/blog_templates/shower-without-tray.html:203
 #: templates/blog_templates/stages-of-plumbing-work.html:128
 msgid "Apartment renovation"
-msgstr ""
+msgstr "Renovación de apartamentos"
 
 #: templates/blog_templates/apartment-renovation.html:16
 #: templates/blog_templates/apartment-renovation.html:124
@@ -1249,7 +1715,7 @@ msgstr ""
 #: templates/blog_templates/stages-of-plumbing-work.html:129
 #: templates/blog_templates/stages-of-plumbing-work.html:143
 msgid "January"
-msgstr ""
+msgstr "Enero"
 
 #: templates/blog_templates/apartment-renovation.html:17
 msgid ""
@@ -1350,6 +1816,109 @@ msgid ""
 "achieve a successful outcome.\n"
 "        "
 msgstr ""
+"\n"
+"          Una renovación importante de un apartamento incluye varias "
+"etapas, comenzando\n"
+"          con el trabajo preparatorio\n"
+"          y terminando con los toques finales. Aquí hay una descripción "
+"detallada de los trabajos de construcción en bruto:\n"
+"\n"
+"\n"
+"            <br>\n"
+"          <br>\n"
+"\n"
+"\n"
+"        1. Trabajos de demolición:\n"
+"          <ul>\n"
+"            <li>Eliminación de viejos papeles pintados, revestimientos de "
+"suelo y acabados de techo.\n"
+"            <li>Demolición de viejas instalaciones de fontanería y "
+"cableado.\n"
+"            <li>Posible eliminación de particiones o cambios en la "
+"distribución.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"\n"
+"          2. Trabajos de imprimación:\n"
+"          <ul>\n"
+"             <li>Preparación de superficies para materiales de acabado "
+"posteriores.\n"
+"             <li>Aplicación de imprimación en paredes y techos.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"          3. Trabajos de construcción:\n"
+"          <ul>\n"
+"            <li>Construcción de nuevas particiones o eliminación de las "
+"antiguas.\n"
+"            <li>Posibles cambios en la distribución de habitaciones.\n"
+"              <li>Reemplazo o refuerzo de pisos.\n"
+"          </ul>\n"
+"\n"
+"          4. Trabajos eléctricos:\n"
+"            <ul>\n"
+"               <li>Instalación de nuevo cableado.\n"
+"                 <li>Instalación de enchufes, interruptores y "
+"luminarias.\n"
+"                 <li>Preparación para la conexión de electrodomésticos.\n"
+"            </ul>\n"
+"\n"
+"            5. Trabajos de fontanería:\n"
+"                <ul>\n"
+"            <li>Reemplazo o actualización de tuberías y accesorios.\n"
+"            <li>Instalación de nuevos accesorios de fontanería (bañera, "
+"inodoro, lavabos).\n"
+"                    <li>Instalación de dispositivos de fontanería.\n"
+"                  </ul>\n"
+"\n"
+"            6. Calefacción y ventilación:\n"
+"                  <ul>\n"
+"            <li>Instalación de radiadores y tuberías de calefacción.\n"
+"            <li>Instalación de un sistema de ventilación o reconstrucción "
+"de uno existente.\n"
+"                    </ul>\n"
+"\n"
+"            7. Trabajos de enlucido y pintura:\n"
+"                    <ul>\n"
+"            <li>Nivelación de paredes y techos.\n"
+"                        <li>Enmasillado y lijado de superficies.\n"
+"                        <li>Pintura o aplicación de revestimientos "
+"decorativos.\n"
+"                      </ul>\n"
+"\n"
+"            8. Trabajos de suelo:\n"
+"                      <ul>\n"
+"            <li>Instalación de nuevos revestimientos de suelo (laminado, "
+"parquet, baldosas).\n"
+"            <li>Aislamiento del suelo si es necesario.\n"
+"                        </ul>\n"
+"\n"
+"            9. Puertas y ventanas:\n"
+"                        <ul>\n"
+"            <li>Instalación de nuevas puertas y ventanas si es "
+"necesario.\n"
+"                            <li>Tratamiento, pintura o revestimiento.\n"
+"                          </ul>\n"
+"\n"
+"            10. Trabajos generales:\n"
+"                          <ul>\n"
+"            <li>Instalación de zócalos, molduras y otros elementos de "
+"acabado.\n"
+"                              <li>Preparación para el acabado posterior "
+"(si no está incluido en los trabajos de construcción en bruto).\n"
+"                            </ul>\n"
+"\n"
+"          11. Limpieza:\n"
+"          <ul>\n"
+"          <li>Limpieza del lugar de escombros de construcción.\n"
+"          <li>Preparación para el acabado final.\n"
+"              </ul>\n"
+"\n"
+"        Estas etapas representan las principales tareas en una renovación "
+"importante de un apartamento. Cada etapa requiere una planificación y "
+"coordinación cuidadosas para lograr un resultado exitoso.\n"
+"        "
 
 #: templates/blog_templates/apartment-renovation.html:113
 #: templates/blog_templates/building-creation.html:102
@@ -1357,7 +1926,7 @@ msgstr ""
 #: templates/blog_templates/shower-without-tray.html:179
 #: templates/blog_templates/stages-of-plumbing-work.html:104
 msgid "Recent posts"
-msgstr ""
+msgstr "Publicaciones recientes"
 
 #: templates/blog_templates/apartment-renovation.html:123
 #: templates/blog_templates/building-creation.html:112
@@ -1365,7 +1934,7 @@ msgstr ""
 #: templates/blog_templates/stages-of-plumbing-work.html:3
 #: templates/blog_templates/stages-of-plumbing-work.html:17
 msgid "Stages of Plumbing Work in Apartment Renovation"
-msgstr ""
+msgstr "Etapas del trabajo de fontanería en la renovación de apartamentos"
 
 #: templates/blog_templates/apartment-renovation.html:137
 #: templates/blog_templates/building-creation.html:125
@@ -1374,7 +1943,7 @@ msgstr ""
 #: templates/blog_templates/shower-without-tray.html:190
 #: templates/blog_templates/stages-of-plumbing-work.html:115
 msgid "Key Steps in Electrical Installation for Apartment Renovation"
-msgstr ""
+msgstr "Pasos clave en la instalación eléctrica para la renovación de apartamentos"
 
 #: templates/blog_templates/apartment-renovation.html:150
 #: templates/blog_templates/building-creation.html:3
@@ -1383,7 +1952,7 @@ msgstr ""
 #: templates/blog_templates/shower-without-tray.html:217
 #: templates/blog_templates/stages-of-plumbing-work.html:142
 msgid "Building creation"
-msgstr ""
+msgstr "Creación de edificios"
 
 #: templates/blog_templates/building-creation.html:17
 msgid ""
@@ -1477,6 +2046,96 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"        Los trabajos de construcción en bruto en la industria de la "
+"construcción representan la etapa inicial\n"
+"            de la creación de un edificio o estructura. Esta etapa "
+"incluye la ejecución\n"
+"            de actividades fundamentales de construcción e ingeniería "
+"para garantizar la resistencia, estabilidad,\n"
+"            y preparación para las etapas de acabado posteriores. Aquí "
+"hay una descripción completa de los trabajos de construcción en bruto:\n"
+"            <br>\n"
+"          <br>\n"
+"\n"
+"\n"
+"        1. Trabajos preliminares:\n"
+"          <ul>\n"
+"            <li>Nivelación y limpieza del sitio de vegetación y objetos "
+"extraños.</li>\n"
+"            <li>Instalación de sistemas de drenaje si es necesario.</li>\n"
+"            <li>Compactación del suelo y creación de una base preparatoria "
+"para los cimientos.</li>\n"
+"          </ul>\n"
+"\n"
+"\n"
+"\n"
+"          2. Trabajos de cimentación:\n"
+"          <ul>\n"
+"             <li>Construcción de muros de cimentación y/o cimientos "
+"corridos según la documentación del proyecto.\n"
+"             <li>Instalación de refuerzos y vertido de hormigón.\n"
+"          </ul>\n"
+"\n"
+"\n"
+"          3. Construcción de muros de carga:\n"
+"          <ul>\n"
+"            <li>Levantamiento de muros de carga de ladrillo, hormigón, "
+"bloques u otros materiales.\n"
+"            <li>Instalación de elementos de acero necesarios para rigidez "
+"y resistencia.\n"
+"          </ul>\n"
+"\n"
+"          4. Instalación de estructuras de suelo:\n"
+"            <ul>\n"
+"               <li>Colocación de losas de hormigón, vigas metálicas u "
+"otras estructuras para crear pisos entre niveles.\n"
+"            </ul>\n"
+"\n"
+"5. Trabajos de techado:\n"
+"        <ul>\n"
+"   <li>Construcción del armazón del techo.\n"
+"   <li>Instalación del sistema de cerchas y colocación de materiales de "
+"techado.\n"
+"          </ul>\n"
+"\n"
+"6. Sistemas de ingeniería:\n"
+"          <ul>\n"
+"   <li>Instalación de sistemas de suministro de agua y alcantarillado.\n"
+"   <li>Montaje de cableado eléctrico, calefacción y sistemas de "
+"ventilación.\n"
+"            </ul>\n"
+"\n"
+"7. Acabado de fachadas:\n"
+"            <ul>\n"
+"   <li>Acabado de paredes externas con materiales que proporcionan "
+"aislamiento térmico y protección contra influencias atmosféricas.\n"
+"              </ul>\n"
+"\n"
+"8. Trabajos finales de acabado interior:\n"
+"              <ul>\n"
+"   <li>Alisado de paredes y techos.\n"
+"   <li>Preparación del suelo para el acabado posterior.\n"
+"                </ul>\n"
+"\n"
+"9. Preparación para equipos de red:\n"
+"                <ul>\n"
+"   <li>Colocación de rutas para el cableado eléctrico, teléfonos y cables "
+"de internet.\n"
+"                  </ul>\n"
+"\n"
+"10. Inspección y control de calidad:\n"
+"                  <ul>\n"
+"    <li>Realización de inspecciones para identificar posibles defectos y "
+"discrepancias con la documentación del proyecto.\n"
+"                    </ul>\n"
+"\n"
+"          Los trabajos de construcción en bruto crean la base para los "
+"trabajos de acabado posteriores, asegurando la estabilidad y "
+"funcionalidad del edificio. Esta etapa es la piedra angular para la "
+"finalización exitosa de un proyecto de construcción.\n"
+"\n"
+"\n"
 
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:22
 msgid ""
@@ -1557,6 +2216,82 @@ msgid ""
 "experienced professionals.\n"
 "\n"
 msgstr ""
+"\n"
+"        El trabajo de instalación eléctrica durante una renovación "
+"importante de un apartamento incluye las siguientes etapas:\n"
+"            <br>\n"
+"          <br>\n"
+"\n"
+"\n"
+"        1. Trabajo preliminar:\n"
+"          <ul>\n"
+"            <li>Evaluación del estado del cableado eléctrico y del "
+"equipo.</li>\n"
+"            <li>Desarrollo de un proyecto de instalación eléctrica, "
+"teniendo en cuenta las normas modernas y los requisitos de seguridad.</li>\n"
+"            <li>Obtención de los permisos y aprobaciones necesarios para "
+"el trabajo si es necesario.</li>\n"
+"          </ul>\n"
+"\n"
+"\n"
+"\n"
+"          2. Instalación del tablero de distribución y cableado:\n"
+"          <ul>\n"
+"             <li>Instalación de un nuevo tablero de distribución o "
+"actualización de uno existente.</li>\n"
+"             <li>Enrutamiento del nuevo cableado eléctrico a lo largo de "
+"las paredes y techos, considerando la distribución del apartamento y la "
+"colocación de enchufes, interruptores y luminarias.</li>\n"
+"          </ul>\n"
+"\n"
+"\n"
+"          3. Instalación de enchufes, interruptores y luminarias:\n"
+"          <ul>\n"
+"            <li>Instalación de enchufes e interruptores según el "
+"proyecto.</li>\n"
+"            <li>Conexión de luminarias y lámparas.</li>\n"
+"          </ul>\n"
+"\n"
+"          4. Instalación del sistema de puesta a tierra:\n"
+"            <ul>\n"
+"               <li>Instalación del cable de tierra a lo largo de las "
+"paredes y su conexión al dispositivo de puesta a tierra o bus de "
+"tierra.</li>\n"
+"            </ul>\n"
+"\n"
+"5. Instalación de protección contra descargas eléctricas:\n"
+"        <ul>\n"
+"   <li>Instalación de interruptores automáticos diferenciales (RCD) o "
+"relés de corriente diferencial (DCR) para proporcionar protección contra "
+"descargas eléctricas.</li>\n"
+"          </ul>\n"
+"\n"
+"6. Conexión de electrodomésticos y sistemas:\n"
+"          <ul>\n"
+"   <li>Conexión de electrodomésticos de cocina y del hogar, calentadores "
+"de agua, acondicionadores de aire y otros electrodomésticos.</li>\n"
+"            </ul>\n"
+"\n"
+"7. Pruebas y configuración del sistema:\n"
+"            <ul>\n"
+"    <li>Realización de pruebas en el equipo eléctrico para asegurar el "
+"cumplimiento con las normas de seguridad.</li>\n"
+"    <li>Calibración y verificación de las instalaciones eléctricas.</li>\n"
+"              </ul>\n"
+"\n"
+"8. Documentación y finalización del trabajo:\n"
+"              <ul>\n"
+"   <li>Elaboración de un informe de aceptación del trabajo de instalación"
+" eléctrica por parte del cliente.\n"
+"   <li>Proporcionar documentación técnica y compromisos de garantía para el"
+" trabajo completado.\n"
+"                </ul>\n"
+"\n"
+"\n"
+"          Es crucial cumplir con todos los requisitos de seguridad al "
+"realizar trabajos de instalación eléctrica y confiar la ejecución de "
+"tales tareas a profesionales experimentados.\n"
+"\n"
 
 #: templates/blog_templates/shower-without-tray.html:3
 #: templates/blog_templates/shower-without-tray.html:16
@@ -1825,31 +2560,19 @@ msgstr ""
 
 #: templates/new_blog_pages/roofing-works.html:3
 msgid "Quality roofing works with KULBACHENKO CONSTRUCTION"
-msgstr ""
+msgstr "Trabajos de techado de calidad con KULBACHENKO CONSTRUCTION"
 
 #: templates/new_blog_templates/Complete-Renovation-Services-in-Amsterdam-and-The-Hague.html:3
 msgid "Complete Renovation Services in Amsterdam and The Hague"
-msgstr ""
+msgstr "Servicios de renovación completa en Ámsterdam y La Haya"
+
+#: templates/new_blog_templates/blog_new.html:3
+msgid "Blog"
+msgstr "BLOG"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:4
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:42
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:51
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:59
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:67
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:75
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:83
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:91
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:99
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:127
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:130
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:133
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:136
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:139
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:142
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:145
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:148
 msgid "Estonian academy of music and theater in Tallinn, Estonia"
-msgstr ""
+msgstr "Academia de música y teatro de Estonia en Tallin, Estonia"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:9
 msgid ""
@@ -1858,85 +2581,329 @@ msgid ""
 " and interior design services for various premises, including educational"
 " institutions."
 msgstr ""
+"Explore nuestros proyectos completados en el vestíbulo de la Academia de "
+"Música y Teatro de Estonia en Tallin, Estonia. Ofrecemos servicios "
+"profesionales de renovación y diseño de interiores para varios locales, "
+"incluidas instituciones educativas."
 
-#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:23
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:50
+msgid "ESTONIAN ACADEMY OF MUSIC AND THEATRE IN TALLINN, ESTONIA"
+msgstr "ACADEMIA DE MÚSICA Y TEATRO DE ESTONIA EN TALLIN, ESTONIA"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:51
 msgid ""
-"Explore our completed projects in the lobby of the Estonian Academy of "
-"Music and Theatre\n"
-"                    in Tallinn, Estonia. We provide professional "
-"renovation and interior design services for\n"
-"                    various premises, including educational institutions."
-" Our work in the academy's lobby reflects\n"
-"                    the high quality of our services and attention to "
-"detail. Immerse yourself in the atmosphere\n"
-"                    of our completed projects and see for yourself\n"
-"                    our expertise in construction and renovation."
+"The foyer of the Estonian Academy of Music and Theatre in Tallinn has "
+"been renovated: finishing work, laying parquet, painting walls and "
+"ceilings, installing lighting and electrical wiring, restoring "
+"architectural elements, installing furniture and decoration. Acoustics, "
+"ventilation and interior design were improved."
 msgstr ""
+"El vestíbulo de la Academia de Música y Teatro de Estonia en Tallin ha "
+"sido renovado: trabajos de acabado, colocación de parquet, pintura de "
+"paredes y techos, instalación de iluminación y cableado eléctrico, "
+"restauración de elementos arquitectónicos, instalación de muebles y "
+"decoración. Se mejoraron la acústica, la ventilación y el diseño de "
+"interiores."
 
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:3
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:48
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:57
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:65
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:73
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:81
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:78
+msgid ""
+"Description of the work done in the foyer of the Estonian Academy of "
+"Music and Theatre in Tallinn, Estonia"
+msgstr ""
+"Descripción del trabajo realizado en el vestíbulo de la Academia de "
+"Música y Teatro de Estonia en Tallin, Estonia"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:88
+msgid "Total area of the hall"
+msgstr "Área total del salón"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:89
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:103
+msgid "Floor covering"
+msgstr "Revestimiento del suelo"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:90
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:104
+msgid "Painting of walls and ceilings"
+msgstr "Pintura de paredes y techos"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:91
+msgid "Installation of decorative panels"
+msgstr "Instalación de paneles decorativos"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:92
+msgid "Restoration of architectural elements"
+msgstr "Restauración de elementos arquitectónicos"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:93
+msgid "Lighting and electrical installation: 50+ luminaires installed"
+msgstr "Instalación de iluminación y eléctrica: más de 50 luminarias instaladas"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:99
+msgid ""
+"✅ Finishing works:<br>\n"
+"\n"
+"✔️ Installation of decorative panels and cladding materials<br>\n"
+"✔️ Painting walls and ceilings with high quality paints<br>\n"
+"✔️ Installation of decorative mouldings and interior fittings<br><br>\n"
+"✅ Lighting and electrical works:<br>\n"
+"\n"
+"✔️ Installation of modern lamps and LED lighting<br>\n"
+"✔️ Installation of electrical wiring, sockets and switches<br>\n"
+"✔️ Connecting and testing the lighting system<br><br>\n"
+"\n"
+"✅ Floor coverings:<br>\n"
+"\n"
+"✔️ Removal of old flooring and preparation of substrate<br>\n"
+"✔️ Laying of parquet and installation of skirting boards<br>\n"
+"✔️ Treatment with protective compounds to prolong the life of the "
+"floor.<br><br>"
+msgstr ""
+"✅ Trabajos de acabado:<br>\n"
+"\n"
+"✔️ Instalación de paneles decorativos y materiales de revestimiento<br>\n"
+"✔️ Pintura de paredes y techos con pinturas de alta calidad<br>\n"
+"✔️ Instalación de molduras decorativas y accesorios interiores<br><br>\n"
+"✅ Trabajos de iluminación y electricidad:<br>\n"
+"\n"
+"✔️ Instalación de lámparas modernas e iluminación LED<br>\n"
+"✔️ Instalación de cableado eléctrico, enchufes e interruptores<br>\n"
+"✔️ Conexión y prueba del sistema de iluminación<br><br>\n"
+"\n"
+"✅ Revestimientos de suelos:<br>\n"
+"\n"
+"✔️ Retiro del suelo antiguo y preparación del sustrato<br>\n"
+"✔️ Colocación de parquet e instalación de zócalos<br>\n"
+"✔️ Tratamiento con compuestos protectores para prolongar la vida útil del "
+"suel.<br><br>"
+
+#: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:119
+msgid ""
+"✅ Restoration and reconstruction:<br>\n"
+"\n"
+"✔️ Restoration and painting of architectural features<br>\n"
+"✔️ Repair and renovation of stairs<br>\n"
+"✔️ Improvement of room acoustics<br><br>\n"
+"✅ Furniture and decoration:<br>\n"
+"\n"
+"✔️ Placing new chairs, tables and information stands<br>\n"
+"✔️ Installing mirrors and art panels<br>\n"
+"✔️ Interior decoration according to the Academy's concept<br><br>\n"
+"✅ Additional work:<br>\n"
+"\n"
+"✔️ Cleaning and protection of surfaces<br>\n"
+"✔️ Improvement of ventilation and air conditioning<br>\n"
+"✔️ Technical inspection and handover of the facility to the client<br><br>"
+msgstr ""
+"✅ Restauración y reconstrucción:<br>\n"
+"\n"
+"✔️ Restauración y pintura de elementos arquitectónicos<br>\n"
+"✔️ Reparación y renovación de escaleras<br>\n"
+"✔️ Mejora de la acústica de la sala<br><br>\n"
+"✅ Muebles y decoración:<br>\n"
+"\n"
+"✔️ Colocación de nuevas sillas, mesas y puestos de información<br>\n"
+"✔️ Instalación de espejos y paneles de arte<br>\n"
+"✔️ Decoración interior según el concepto de la Academia<br><br>\n"
+"✅ Trabajo adicional:<br>\n"
+"\n"
+"✔️ Limpieza y protección de superficies<br>\n"
+"✔️ Mejora de la ventilación y el aire acondicionado<br>\n"
+"✔️ Inspección técnica y entrega de la instalación al cliente<br><br>"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:4
+msgid "Turnkey renovation of the \"Varshavsky\" complex in Kyiv"
+msgstr "Renovación llave en mano del complejo \"Varshavsky\" en Kyiv"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:9
+msgid ""
+"Turnkey renovation of an apartment in the new residential complex "
+"Varshavsky in Kyiv. High-quality interior finishing, modern design, and "
+"professional construction services. See our completed projects!"
+msgstr ""
+"Renovación llave en mano de un apartamento en el nuevo complejo "
+"residencial Varshavsky en Kyiv. Acabados interiores de alta calidad, "
+"diseño moderno y servicios de construcción profesional. ¡Mira nuestros "
+"proyectos completados!"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:61
+msgid ""
+"Turnkey renovation of an apartment in the new residential complex "
+"\"Varshavsky\" in Kyiv"
+msgstr ""
+"Renovación llave en mano de un apartamento en el nuevo complejo "
+"residencial \"Varshavsky\" en Kyiv"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:62
+msgid ""
+"Turnkey renovation of an apartment in the new 'Varshavsky' residential "
+"complex in Kyiv: high quality finishes, installation of modern flooring, "
+"painting of walls and ceilings, electrical and lighting installation, "
+"stylish interior design. Improved comfort, functionality and aesthetics."
+msgstr ""
+"Renovación llave en mano de un apartamento en el nuevo complejo "
+"residencial 'Varshavsky' en Kyiv: acabados de alta calidad, instalación de "
+"suelos modernos, pintura de paredes y techos, instalación eléctrica y de "
+"iluminación, diseño interior elegante. Mayor comodidad, funcionalidad y "
+"estética."
+
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:89
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:97
+msgid ""
+"Description of the turnkey renovation of an apartment in the new "
+"residential complex \"Varshavsky\" in Kyiv"
+msgstr ""
+"Descripción de la renovación llave en mano de un apartamento en el nuevo "
+"complejo residencial \"Varshavsky\" en Kyiv"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:100
+msgid "Tile wall covering"
+msgstr "Revestimiento de paredes con azulejos"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:101
+msgid "Wallpaper section"
+msgstr "Sección de papel pintado"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:102
+msgid "Decorative plaster in the bedroom"
+msgstr "Yeso decorativo en el dormitorio"
+
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:105
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:113
+msgid "Lighting and electrical installation: modern fixtures installed"
+msgstr "Instalación eléctrica y de iluminación: se instalaron accesorios modernos"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:118
+msgid ""
+"Installation of tiled wall coverings: High quality ceramic tiles were "
+"installed in the kitchen and bathroom, ensuring the durability and "
+"aesthetic appeal typical of modern interiors. Surface preparation was "
+"carried out in accordance with building standards for such spaces."
+msgstr ""
+"Instalación de revestimientos de paredes con azulejos: Se instalaron "
+"azulejos cerámicos de alta calidad en la cocina y el baño, asegurando la "
+"durabilidad y el atractivo estético típicos de los interiores modernos. La "
+"preparación de la superficie se realizó de acuerdo con las normas de "
+"construcción para dichos espacios."
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:119
+msgid ""
+"Wallpaper application: Wallpaper was applied to accent walls in the "
+"living room and bedroom, enhancing the modern design and adding a stylish"
+" texture to the interior."
+msgstr ""
+"Aplicación de papel pintado: Se aplicó papel pintado en las paredes de "
+"acento del salón y el dormitorio, mejorando el diseño moderno y añadiendo "
+"una textura elegante al interior."
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:120
+msgid ""
+"Decorative plasterwork in the bedroom: Decorative plaster has been "
+"applied to the bedroom walls, giving the room a unique and sophisticated "
+"feel."
+msgstr ""
+"Yeso decorativo en el dormitorio: Se ha aplicado yeso decorativo en las "
+"paredes del dormitorio, dando a la habitación una sensación única y "
+"sofisticada."
+
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:121
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:129
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:137
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:145
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:153
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:161
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:169
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:177
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:185
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:212
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:216
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:220
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:224
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:228
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:232
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:236
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:240
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:244
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:248
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:252
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:256
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:260
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:264
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:268
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:272
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:276
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:280
-msgid "Renovation in the varshavsky residential complex in kyiv"
-msgstr ""
-
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:6
 msgid ""
-"Explore our turnkey renovation project in an apartment in the Varshavsky "
-"Residential Complex in Kyiv. Our professional services cover all aspects "
-"of renovation and .."
+"Wall and ceiling painting: The walls and ceilings have been painted with "
+"environmentally friendly, high quality paints, creating a smooth, clean "
+"and pleasant visual environment."
 msgstr ""
+"Pintura de paredes y techos: Las paredes y techos han sido pintados con "
+"pinturas de alta calidad y respetuosas con el medio ambiente, creando un "
+"entorno visual suave, limpio y agradable."
 
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:16
-msgid "RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
-msgstr ""
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:124
+msgid "Floor coverings"
+msgstr "Revestimientos de suelos"
 
-#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:25
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:125
 msgid ""
-"Explore our turnkey renovation project in an apartment in the Varshavsky\n"
-"                    Residential Complex in Kyiv. Our professional "
-"services cover all aspects\n"
-"                    of renovation and interior design, ensuring high-"
-"quality results tailored\n"
-"                    to your needs. Take a closer look at our work in the "
-"complex and witness\n"
-"                    the transformation of this new construction into a "
-"stylish and comfortable\n"
-"                    living space."
+"Floor Substrate Preparation: The floor was levelled and properly prepared"
+" for flooring, ensuring an ideal surface for the installation of the "
+"chosen flooring material."
 msgstr ""
+"Preparación del sustrato del suelo: El suelo fue nivelado y preparado "
+"adecuadamente para el piso, asegurando una superficie ideal para la "
+"instalación del material de piso elegido."
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:126
+msgid ""
+"Floor covering installation: High quality floor coverings were selected "
+"and installed throughout the home, creating a modern and functional "
+"living space."
+msgstr ""
+"Instalación de revestimientos de suelos: Se seleccionaron y "
+"se instalaron revestimientos de suelos de alta calidad en toda la casa, "
+"creando un espacio de vida moderno y funcional."
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:127
+msgid ""
+"Skirting installation: New skirting boards were fitted, providing a "
+"seamless finish between the floor and walls and completing the design."
+msgstr ""
+"Instalación de zócalos: Se instalaron nuevos zócalos, proporcionando un "
+"acabado perfecto entre el suelo y las paredes y completando el diseño."
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:133
+msgid "✅ Lighting and electrical works"
+msgstr "✅ Trabajos de iluminación y electricidad"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:134
+msgid ""
+"✔️ Lighting installation: Modern LED lighting fixtures were installed, "
+"ensuring both energy efficiency and optimal illumination of the apartment"
+msgstr ""
+"✔️ Instalación de iluminación: Se instalaron modernos accesorios de "
+"iluminación LED, asegurando tanto la eficiencia energética como la "
+"iluminación óptima del apartamento"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:135
+msgid ""
+"✔️ Electrical Installation: The apartment's electrical wiring was fully "
+"completed, including the installation of switches, sockets and necessary "
+"circuit elements. The work was carried out to the latest safety standards"
+msgstr ""
+"✔️ Instalación eléctrica: Se completó el cableado eléctrico del "
+"apartamento, incluida la instalación de interruptores, enchufes y los "
+"elementos de circuito necesarios. El trabajo se realizó según los "
+"últimos estándares de seguridad"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:136
+msgid ""
+"✔️ Testing and connection: All electrical systems, including lights, "
+"switches and sockets, were carefully tested to ensure functionality and "
+"safety"
+msgstr ""
+"✔️ Prueba y conexión: Se probaron cuidadosamente todos los sistemas "
+"eléctricos, incluidas luces, interruptores y enchufes, para asegurar su "
+"funcionalidad y seguridad"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:139
+msgid "Additional work"
+msgstr "Trabajo adicional"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:140
+msgid ""
+"Cleaning and surface protection: Upon completion of the finishing work, "
+"the entire apartment was cleaned and surfaces were protected from damage "
+"to ensure the high quality of the finish was maintained"
+msgstr ""
+"Limpieza y protección de superficies: Al finalizar el trabajo de "
+"acabado, se limpió todo el apartamento y se protegieron las superficies "
+"para evitar daños y asegurar que se mantuviera la alta calidad del acabado"
+
+#: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:141
+msgid ""
+"Final inspection and handover: A thorough inspection was carried out to "
+"ensure that all works met the required standards and the property was "
+"handed over to the client fully ready for occupation"
+msgstr ""
+"Inspección final y entrega: Se realizó una inspección exhaustiva para "
+"asegurar que todos los trabajos cumplieran con los estándares requeridos "
+"y se entregó la propiedad al cliente completamente lista para ser "
+"ocupada"
 
 #: venv/lib/python3.10/site-packages/click/_termui_impl.py:518
 msgid "{editor}: Editing failed"
@@ -1947,7 +2914,6 @@ msgid "{editor}: Editing failed: {e}"
 msgstr ""
 
 #: venv/lib/python3.10/site-packages/click/core.py:1120
-#, fuzzy
 msgid "Aborted!"
 msgstr "ACERCA DE"
 
@@ -2100,7 +3066,6 @@ msgid "Couldn't detect Bash version, shell completion is not supported."
 msgstr ""
 
 #: venv/lib/python3.10/site-packages/click/termui.py:158
-#, fuzzy
 msgid "Repeat for confirmation"
 msgstr "Obtén una Consulta Gratuita"
 
@@ -2691,5 +3656,546 @@ msgstr ""
 #~ "requirements. Your comfort and satisfaction"
 #~ " are our primary concerns.\n"
 #~ "\t\t\t\t"
+#~ msgstr ""
+
+#~ msgid "Construction and Renovation Services in Europe | Serhii Kulbachenko"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Serhii Kulbachenko — Your Reliable "
+#~ "Partner in Construction and Renovation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "My name is Serhii Kulbachenko, and "
+#~ "I run a construction company "
+#~ "specializing in the renovation and "
+#~ "construction of private homes. We offer"
+#~ " comprehensive solutions for those looking"
+#~ " for a reliable contractor with many"
+#~ " years of experience, ensuring high-"
+#~ "quality work and adherence to modern "
+#~ "standards."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Our company successfully implements projects"
+#~ " in the Netherlands, and many other"
+#~ " European countries using the best "
+#~ "practices and technologies that I have"
+#~ " mastered while working on the "
+#~ "international market. We combine high-"
+#~ "quality materials, modern construction "
+#~ "methods, and many years of experience"
+#~ " to meet the needs of our "
+#~ "clients, whether it's new home "
+#~ "construction or major renovations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "My career began modestly as a "
+#~ "construction worker. Rising from a "
+#~ "laborer to the founder of a "
+#~ "company, I have always strived to "
+#~ "improve my skills and expand the "
+#~ "range of services. The business was "
+#~ "built on the principles of honesty, "
+#~ "professionalism, and continuous development, "
+#~ "which has allowed us to successfully "
+#~ "operate in the market for many "
+#~ "years."
+#~ msgstr ""
+
+#~ msgid "Construction Services and Cutting-Edge Technologies"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We provide a full range of "
+#~ "construction services — from design to"
+#~ " commissioning. We incorporate the latest"
+#~ " technologies used in modern construction,"
+#~ " such as energy-efficient materials, "
+#~ "advanced heating and ventilation systems, "
+#~ "as well as innovative design solutions."
+#~ " This enables us to create homes "
+#~ "that meet the highest standards of "
+#~ "comfort and functionality."
+#~ msgstr ""
+
+#~ msgid "High-Quality Construction Solutions for Any Projects"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Regardless of the complexity of your "
+#~ "project — whether it's building a "
+#~ "new private home or renovating an "
+#~ "existing property — our team is "
+#~ "always ready to offer quality solutions."
+#~ " We take care of every stage of"
+#~ " the work, ensuring precise deadlines "
+#~ "and impeccable quality in construction "
+#~ "and renovation services."
+#~ msgstr ""
+
+#~ msgid "Learn more about our construction services"
+#~ msgstr ""
+
+#~ msgid "Kulbachenko Construction + Design"
+#~ msgstr ""
+
+#~ msgid "Navigation Menu"
+#~ msgstr ""
+
+#~ msgid "Contact Us"
+#~ msgstr "Contáctanos"
+
+#~ msgid "First name"
+#~ msgstr "Nombre"
+
+#~ msgid "Last name"
+#~ msgstr "Apellido"
+
+#~ msgid "Email address"
+#~ msgstr "Email"
+
+#~ msgid "City"
+#~ msgstr "Ciudad"
+
+#~ msgid "State"
+#~ msgstr "Estado"
+
+#~ msgid "Zip"
+#~ msgstr "Código postal"
+
+#~ msgid "Address"
+#~ msgstr "Dirección"
+
+#~ msgid "Target budget"
+#~ msgstr "Presupuesto objetivo"
+
+#~ msgid "Select budget range"
+#~ msgstr ""
+
+#~ msgid "$100-$999"
+#~ msgstr ""
+
+#~ msgid "$1000-$4999"
+#~ msgstr ""
+
+#~ msgid "$5000-$9999"
+#~ msgstr ""
+
+#~ msgid "$10,000-$19,999"
+#~ msgstr ""
+
+#~ msgid "$20,000-$49,999"
+#~ msgstr ""
+
+#~ msgid "$50,000-$99,999"
+#~ msgstr ""
+
+#~ msgid "$100,000+"
+#~ msgstr ""
+
+#~ msgid "Project time frame"
+#~ msgstr "Plazo del proyecto"
+
+#~ msgid "Select time frame"
+#~ msgstr "Plazo del proyecto"
+
+#~ msgid "As soon as possible"
+#~ msgstr ""
+
+#~ msgid "Starting within 3 months"
+#~ msgstr ""
+
+#~ msgid "Starting within 6 months"
+#~ msgstr ""
+
+#~ msgid "Starting within a year"
+#~ msgstr ""
+
+#~ msgid "How did you hear about us?"
+#~ msgstr "¿Cómo nos conociste?"
+
+#~ msgid "Select an option"
+#~ msgstr ""
+
+#~ msgid "Online Advertisement"
+#~ msgstr ""
+
+#~ msgid "Friend or Colleague"
+#~ msgstr ""
+
+#~ msgid "Social networks"
+#~ msgstr ""
+
+#~ msgid "Google"
+#~ msgstr ""
+
+#~ msgid "Tell us about your project"
+#~ msgstr "Cuéntanos acerca de tu proyecto"
+
+#~ msgid "Agree to terms and conditions"
+#~ msgstr "Aceptar términos y condiciones"
+
+#~ msgid "Submit form"
+#~ msgstr "Enviar"
+
+#~ msgid "Professional home cinema in private house in Ukraine"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Discover the ultimate cinematic experience with our professional\n"
+#~ "                home theater installation in"
+#~ " a private residence in Ukraine. "
+#~ "Designed for\n"
+#~ "                up to five people .."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Discover the ultimate cinematic experience with our professional\n"
+#~ "                home theater installation in"
+#~ " a private residence in Ukraine. "
+#~ "Designed for\n"
+#~ "                up to five people, this"
+#~ " bespoke home cinema delivers immersive "
+#~ "audio and\n"
+#~ "                visual entertainment right in"
+#~ " the comfort of your own home. "
+#~ "Explore our\n"
+#~ "                gallery to see the "
+#~ "exquisite craftsmanship and attention to "
+#~ "detail that\n"
+#~ "                went into creating this luxurious\n"
+#~ "                entertainment space."
+#~ msgstr ""
+
+#~ msgid "Simple repair"
+#~ msgstr ""
+
+#~ msgid "Basic services"
+#~ msgstr "Servicios"
+
+#~ msgid "NB"
+#~ msgstr ""
+
+#~ msgid "Wall and ceiling painting"
+#~ msgstr ""
+
+#~ msgid "Wallpapering"
+#~ msgstr ""
+
+#~ msgid "Baseboard replacement"
+#~ msgstr ""
+
+#~ msgid "Lighting installation (1-2 points)"
+#~ msgstr ""
+
+#~ msgid "Partial electrical wiring repair"
+#~ msgstr ""
+
+#~ msgid "Socket and switch installation"
+#~ msgstr ""
+
+#~ msgid "Cleaning and restoration of existing plumbing"
+#~ msgstr ""
+
+#~ msgid "Local tile replacement in the bathroom or kitchen"
+#~ msgstr ""
+
+#~ msgid "Door hinge and hardware repair"
+#~ msgstr ""
+
+#~ msgid "Installation of cornices and curtain fittings"
+#~ msgstr ""
+
+#~ msgid "Dismantling of old materials"
+#~ msgstr ""
+
+#~ msgid "Puttying and leveling walls and ceilings"
+#~ msgstr ""
+
+#~ msgid "Hanging new wallpaper or painting walls"
+#~ msgstr ""
+
+#~ msgid "Replacing flooring (laminate, linoleum)"
+#~ msgstr ""
+
+#~ msgid "Replacing baseboards and casings"
+#~ msgstr ""
+
+#~ msgid "Installation of new fixtures"
+#~ msgstr ""
+
+#~ msgid "Replacing sockets and switches"
+#~ msgstr ""
+
+#~ msgid "Minor plumbing repairs"
+#~ msgstr ""
+
+#~ msgid "Installation of new interior doors"
+#~ msgstr ""
+
+#~ msgid "Updating plumbing systems"
+#~ msgstr ""
+
+#~ msgid "Installation of window sills"
+#~ msgstr ""
+
+#~ msgid "Updating or replacing door hardware"
+#~ msgstr ""
+
+#~ msgid "Painting or refreshing window frames"
+#~ msgstr ""
+
+#~ msgid "Dismantling of old coverings and structures"
+#~ msgstr ""
+
+#~ msgid "Complete replacement of engineering systems (heating, water supply)"
+#~ msgstr ""
+
+#~ msgid "Replacing windows and doors"
+#~ msgstr ""
+
+#~ msgid "Laying new flooring (parquet, tiles)"
+#~ msgstr ""
+
+#~ msgid "Installation of new electrical wiring and outlets"
+#~ msgstr ""
+
+#~ msgid "Installation of ventilation systems"
+#~ msgstr ""
+
+#~ msgid "Installation of new partitions"
+#~ msgstr ""
+
+#~ msgid "Reconstruction of walls and partitions"
+#~ msgstr ""
+
+#~ msgid "Installation of modern heating systems"
+#~ msgstr ""
+
+#~ msgid "Installation of drywall structures"
+#~ msgstr ""
+
+#~ msgid "Soundproofing of walls and floors"
+#~ msgstr ""
+
+#~ msgid "Dismantling and changing structures (moving partitions)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Complete replacement of engineering systems"
+#~ " (including heating, electricity, water "
+#~ "supply)"
+#~ msgstr ""
+
+#~ msgid "Installation of multi-level ceilings with lighting"
+#~ msgstr ""
+
+#~ msgid "Installation of underfloor heating"
+#~ msgstr ""
+
+#~ msgid "Installation of decorative elements (columns, stucco)"
+#~ msgstr ""
+
+#~ msgid "Replacing windows and doors with improved insulation"
+#~ msgstr ""
+
+#~ msgid "Replanning spaces considering load-bearing structures"
+#~ msgstr ""
+
+#~ msgid "Installation of smart home systems (lighting, heating, security)"
+#~ msgstr ""
+
+#~ msgid "Installation of complex drywall structures (arches, niches)"
+#~ msgstr ""
+
+#~ msgid "Finishing walls with decorative panels"
+#~ msgstr ""
+
+#~ msgid "Restoration or replacement of a fireplace, if available"
+#~ msgstr ""
+
+#~ msgid "Installation of modern air conditioning systems"
+#~ msgstr ""
+
+#~ msgid "Complete soundproofing of walls and ceilings"
+#~ msgstr ""
+
+#~ msgid "Areas We Work In"
+#~ msgstr ""
+
+#~ msgid "1. Residential Properties"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Comprehensive renovation of apartments, "
+#~ "houses, and cottages of any complexity."
+#~ msgstr ""
+
+#~ msgid "2. Commercial Real Estate"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Renovation of offices, shops, shopping "
+#~ "centers, hotels, and other business "
+#~ "facilities."
+#~ msgstr ""
+
+#~ msgid "3. Cultural and Artistic Spaces"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Renovation and refurbishment of theaters, "
+#~ "philharmonics, concert halls, and other "
+#~ "cultural venues, considering their specific"
+#~ " uses."
+#~ msgstr ""
+
+#~ msgid "4. Facade Finishing"
+#~ msgstr ""
+
+#~ msgid "Professional facade finishing using modern materials."
+#~ msgstr ""
+
+#~ msgid "5. Recreation Centers"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Design and construction of modern "
+#~ "recreation centers with a focus on "
+#~ "comfort and eco-friendliness."
+#~ msgstr ""
+
+#~ msgid "6. Industrial Facilities"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Renovation and modernization of production "
+#~ "halls, warehouses, factories, and technical"
+#~ " premises."
+#~ msgstr ""
+
+#~ msgid "Page Under Update"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We are currently updating this page. "
+#~ "Our portfolio will be available here "
+#~ "soon, showcasing our completed renovation "
+#~ "and construction projects. Thank you for"
+#~ " your patience!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Explore our portfolio showcasing our professional home cinema,-->\n"
+#~ "<!--                 comprehensive renovation "
+#~ "projects, and more. Discover the quality"
+#~ " and expertise we bring to-->\n"
+#~ "<!--                  every project we undertake."
+#~ msgstr ""
+
+#~ msgid "Renovation and Construction Services | Kulbachenko Construction"
+#~ msgstr ""
+
+#~ msgid "Our Renovation and Construction Services"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your ideas are our work. Professional"
+#~ " turnkey construction and renovation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We offer a full range of "
+#~ "construction and renovation services across"
+#~ " Europe, legally guaranteeing high quality,"
+#~ " professionalism, and attention to detail."
+#~ " From apartment renovations to house "
+#~ "construction, we bring your ideas to "
+#~ "life."
+#~ msgstr ""
+
+#~ msgid "We are not superheroes, but our team works wonders."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "With over 300 successfully completed "
+#~ "projects, we confidently call ourselves "
+#~ "experts in the construction industry."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Explore our completed projects in the"
+#~ " lobby of the Estonian Academy of "
+#~ "Music and Theatre\n"
+#~ "                    in Tallinn, Estonia. We"
+#~ " provide professional renovation and "
+#~ "interior design services for\n"
+#~ "                    various premises, including "
+#~ "educational institutions. Our work in "
+#~ "the academy's lobby reflects\n"
+#~ "                    the high quality of "
+#~ "our services and attention to detail."
+#~ " Immerse yourself in the atmosphere\n"
+#~ "                    of our completed projects and see for yourself\n"
+#~ "                    our expertise in construction and renovation."
+#~ msgstr ""
+
+#~ msgid "Renovation in the varshavsky residential complex in kyiv"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Explore our turnkey renovation project "
+#~ "in an apartment in the Varshavsky "
+#~ "Residential Complex in Kyiv. Our "
+#~ "professional services cover all aspects "
+#~ "of renovation and .."
+#~ msgstr ""
+
+#~ msgid "RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Explore our turnkey renovation project "
+#~ "in an apartment in the Varshavsky\n"
+#~ ""
+#~ "                    Residential Complex in "
+#~ "Kyiv. Our professional services cover "
+#~ "all aspects\n"
+#~ "                    of renovation and interior"
+#~ " design, ensuring high-quality results "
+#~ "tailored\n"
+#~ "                    to your needs. Take "
+#~ "a closer look at our work in "
+#~ "the complex and witness\n"
+#~ "                    the transformation of this"
+#~ " new construction into a stylish and"
+#~ " comfortable\n"
+#~ "                    living space."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Explore our portfolio showcasing our professional home cinema,\n"
+#~ "     comprehensive renovation projects, and"
+#~ " more. Discover the quality and "
+#~ "expertise we bring to\n"
+#~ "      every project we undertake."
+#~ msgstr ""
+
+#~ msgid "Portfolio"
+#~ msgstr "Portafolio"
+
+#~ msgid ""
+#~ "Explore our portfolio showcasing our professional home cinema,\n"
+#~ "                 comprehensive renovation projects,"
+#~ " and more. Discover the quality and"
+#~ " expertise we bring to\n"
+#~ "                  every project we undertake."
+#~ msgstr ""
+
+#~ msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
 #~ msgstr ""
 
