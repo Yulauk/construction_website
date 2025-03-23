@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-23 11:33+0100\n"
+"POT-Creation-Date: 2025-03-23 16:26+0100\n"
 "PO-Revision-Date: 2024-06-23 16:35+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: et\n"
@@ -22,11 +22,13 @@ msgstr ""
 msgid ""
 "About Kulbachenko Construction - High quality renovation and construction"
 " services"
-msgstr "Kulbachenko Construction | Korteri renoveerimine võtmed kätte teenused"
+msgstr ""
+"Teave Kulbachenko Construction kohta - Kvaliteetsed renoveerimis- ja "
+"ehitusteenused"
 
 #: templates/about.html:71
 msgid "Serhii Kulbachenko FOUNDER AND LEADER"
-msgstr "Serhii Kulbachenko ASUTAJJA JA JUHT"
+msgstr "Serhii Kulbachenko ASUTAJA JA JUHT"
 
 #: templates/about.html:76 templates/index.html:433
 msgid "Serhii Kulbachenko"
@@ -34,13 +36,13 @@ msgstr "Serhii Kulbachenko"
 
 #: templates/about.html:77 templates/index.html:434
 msgid "FOUNDER AND LEADER"
-msgstr "ASUTAJJA JA JUHT"
+msgstr "ASUTAJA JA JUHT"
 
 #: templates/about.html:85
 msgid "Serhii Kulbachenko - your trusted partner in construction and renovation"
 msgstr ""
-"Serhii Kulbachenko — Teie Usaldusväärne Partner Ehitus- ja "
-"Renoveerimistöödel"
+"Serhii Kulbachenko - Teie usaldusväärne partner ehitus- ja "
+"renoveerimistöödel"
 
 #: templates/about.html:86
 msgid ""
@@ -115,7 +117,7 @@ msgid ""
 "create homes that meet the highest standards of comfort and "
 "functionality."
 msgstr ""
-"Pakume täielikku ehitusteenuste valikut — alates projekteerimisest kuni "
+"Pakume täielikku ehitusteenuste valikut - alates projekteerimisest kuni "
 "kasutusele võtmiseni. Me rakendame uusimaid tehnoloogiaid, mida "
 "kasutatakse kaasaegses ehituses, nagu energiatõhusad materjalid, arenenud"
 " kütte- ja ventilatsioonisüsteemid, samuti uuenduslikud "
@@ -134,8 +136,8 @@ msgid ""
 "work, ensuring precise deadlines and impeccable quality in construction "
 "and renovation services."
 msgstr ""
-"Olgu teie projektiga seotud keerukus milline tahes — olgu see siis uue "
-"eraelamu ehitamine või olemasoleva vara renoveerimine — meie meeskond on "
+"Olgu teie projektiga seotud keerukus milline tahes - olgu see siis uue "
+"eraelamu ehitamine või olemasoleva vara renoveerimine - meie meeskond on "
 "alati valmis pakkuma kvaliteetseid lahendusi. Me korraldame iga tööetapi,"
 " tagades täpsed tähtaegad ja laitmatu kvaliteedi ehitus- ja "
 "renoveerimisteenustes."
@@ -163,7 +165,6 @@ msgstr "MEIST"
 
 #: templates/base.html:197 templates/base.html:296 templates/base.html:395
 #: templates/index.html:100 templates/index.html:190
-#: templates/portfolio_old.html:14
 msgid "PORTFOLIO"
 msgstr "PORTFELL"
 
@@ -207,7 +208,7 @@ msgstr "Meie Sotsiaalmeedia"
 
 #: templates/base.html:499
 msgid "Our Location Map"
-msgstr "Meie Sotsiaalmeedia"
+msgstr "Meie Asukoha Kaart"
 
 #: templates/base.html:562
 msgid "GET A FREE"
@@ -240,11 +241,11 @@ msgstr "Esita"
 #: templates/bathroom-in-a-private-house-in-estonia.html:4
 #: templates/bathroom-in-a-private-house-in-estonia.html:75
 msgid "Complete bathroom renovation in Tallinn, Estonia"
-msgstr ""
+msgstr "Täielik vannitoa renoveerimine Tallinnas, Eestis"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:9
 msgid "Bathroom project in Tallinn, Estonia | Kulbachenko Construction OU"
-msgstr ""
+msgstr "Vannitoa projekt Tallinnas, Eestis | Kulbachenko Construction OU"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:18
 #: templates/bathroom-in-amsterdam-march.html:18
@@ -256,6 +257,8 @@ msgid ""
 "The amount shown is indicative. Each project is unique, we have no "
 "problem calculating the cost of your project."
 msgstr ""
+"Kuvatud summa on ligikaudne. Iga projekt on ainulaadne, meil pole "
+"probleemi teie projekti maksumuse arvutamisega."
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:76
 msgid ""
@@ -264,6 +267,10 @@ msgid ""
 " We work with quality materials, guaranteeing reliability and stylish "
 "results."
 msgstr ""
+"Pakume täielikke võtmed kätte lahendusi, sealhulgas plaatimist, torustiku"
+" vahetust, põrandakütte ja kaasaegsete valgustussüsteemide paigaldamist. "
+"Töötame kvaliteetsete materjalidega, tagades töökindluse ja stiilsed "
+"tulemused."
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:79
 #: templates/bathroom-in-a-private-house-in-estonia.html:105
@@ -279,11 +286,11 @@ msgstr ""
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:66
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:90
 msgid "Estimated cost of work"
-msgstr "TÖÖDE ALGUS"
+msgstr "Tööde algus"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:103
 msgid "Description of completed works - Bathroom project in Tallin, Estonia"
-msgstr ""
+msgstr "Teostatud tööde kirjeldus - Vannitoa projekt Tallinnas, Eestis"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:111
 #: templates/bathroom-in-amsterdam-march.html:88
@@ -293,24 +300,24 @@ msgstr ""
 #: templates/recreation-complex-nova-estonia.html:97
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:96
 msgid "Object Features"
-msgstr ""
+msgstr "Objekti omadused"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:113
 #: templates/bathroom-in-amsterdam-march.html:90
 msgid "Bathroom area"
-msgstr ""
+msgstr "Vannitoa pindala"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:120
 msgid "Preparation and engineering works"
-msgstr ""
+msgstr "Ettevalmistus- ja inseneritööd"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:121
 msgid "Complete replacement of water and sewage pipes"
-msgstr ""
+msgstr "Veetorude ja kanalisatsioonitorude täielik vahetus"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:122
 msgid "Installation of new electrical wiring, sockets and switches"
-msgstr "Uute elektrijuhtmete ja pistikute paigaldamine"
+msgstr "Uute elektrijuhtmete, pistikupesade ja lülitite paigaldamine"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:125
 #: templates/bathroom-in-amsterdam-march.html:103
@@ -326,38 +333,40 @@ msgstr "Kittimine ja seinte ja lagede tasandamine"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:127
 msgid "Laying of ceramic tiles with precision grouting"
-msgstr ""
+msgstr "Keraamiliste plaatide paigaldamine täppisvuukimisega"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:128
 msgid "Grouting with moisture resistant materials"
-msgstr ""
+msgstr "Niiskuskindlate materjalidega vuukimine"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:130
 msgid "Comfort and convenience"
-msgstr ""
+msgstr "Mugavus ja praktilisus"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:131
 msgid "Installing electric underfloor heating for a comfortable temperature"
-msgstr ""
+msgstr "Elektrilise põrandakütte paigaldamine mugava temperatuuri tagamiseks"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:132
 msgid "Installing a warm towel wall"
-msgstr ""
+msgstr "Soojendusega rätikuresti paigaldamine"
 
 #: templates/bathroom-in-a-private-house-in-estonia.html:133
 msgid "Modern lighting with ceiling and mirror lighting"
-msgstr ""
+msgstr "Kaasaegne valgustus lae- ja peeglivalgustusega"
 
 #: templates/bathroom-in-amsterdam-march.html:4
 #: templates/bathroom-in-amsterdam-march.html:54
 msgid "Bathrooms and shower project in Amsterdam, Netherlands"
-msgstr ""
+msgstr "Vannitubade ja dušiprojekt Amsterdamis, Hollandis"
 
 #: templates/bathroom-in-amsterdam-march.html:9
 msgid ""
 "Bathrooms and shower project in Amsterdam, Netherlands | Kulbachenko "
 "Construction OU"
 msgstr ""
+"Vannitubade ja dušiprojekt Amsterdamis, Hollandis | Kulbachenko "
+"Construction OU"
 
 #: templates/bathroom-in-amsterdam-march.html:55
 msgid ""
@@ -366,12 +375,18 @@ msgid ""
 "fittings for maximum comfort and durability and a modern and easy to "
 "maintain look."
 msgstr ""
+"Kahe vannitoa renoveerimine dušinurkadega Amsterdamis, Hollandis. Projekt"
+" hõlmas kvaliteetseid plaate, kaasaegseid sanitaartehnikat maksimaalse "
+"mugavuse ja vastupidavuse tagamiseks ning kaasaegset ja hooldatavat "
+"välimust."
 
 #: templates/bathroom-in-amsterdam-march.html:80
 msgid ""
 "Description of work completed - Bathroom and shower project in Amsterdam,"
 " Netherlands"
 msgstr ""
+"Teostatud tööde kirjeldus - Vannitubade ja dušiprojekt Amsterdamis, "
+"Hollandis"
 
 #: templates/bathroom-in-amsterdam-march.html:97
 msgid "Plumbing and installation work"
@@ -379,49 +394,53 @@ msgstr "Tehnosüsteemide ja elektripaigaldiste paigaldamine"
 
 #: templates/bathroom-in-amsterdam-march.html:98
 msgid "Complete replacement of plumbing and drainage systems"
-msgstr ""
+msgstr "Toru- ja äravoolusüsteemide täielik vahetus"
 
 #: templates/bathroom-in-amsterdam-march.html:99
 msgid "Installation of high quality sanitaryware for reliability and longevity"
 msgstr ""
+"Kvaliteetse sanitaartehnika paigaldamine töökindluse ja pikaealisuse "
+"tagamiseks"
 
 #: templates/bathroom-in-amsterdam-march.html:100
 msgid "Walk-in showers with seamless floor integration for a sleek, modern look"
 msgstr ""
+"Dušinurgad sujuva põranda integreerimisega kaasaegse ja elegantse "
+"välimuse saavutamiseks"
 
 #: templates/bathroom-in-amsterdam-march.html:104
 msgid "Precision tiling with high quality ceramic tiles"
-msgstr ""
+msgstr "Täpsusplaatimine kvaliteetsete keraamiliste plaatidega"
 
 #: templates/bathroom-in-amsterdam-march.html:105
 msgid "Waterproof grouting for durability and ease of maintenance"
-msgstr ""
+msgstr "Veekindel vuukimine vastupidavuse ja hoolduse lihtsuse tagamiseks"
 
 #: templates/bathroom-in-amsterdam-march.html:106
 msgid "Wall and ceiling preparation, priming and painting"
-msgstr "Seina- ja laepinnate maalimine"
+msgstr "Seina- ja laepinnate ettevalmistamine, kruntimine ja maalimine"
 
 #: templates/bathroom-in-amsterdam-march.html:108
 msgid "Comfort and aesthetics"
-msgstr ""
+msgstr "Mugavus ja esteetika"
 
 #: templates/bathroom-in-amsterdam-march.html:109
 msgid "Electric underfloor heating for a warm and cosy experience"
-msgstr ""
+msgstr "Elektriline põrandaküte sooja ja hubase kogemuse tagamiseks"
 
 #: templates/bathroom-in-amsterdam-march.html:110
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:120
 msgid "Modern LED lighting for an elegant and bright atmosphere"
-msgstr ""
+msgstr "Kaasaegne LED-valgustus elegantse ja heleda õhkkonna loomiseks"
 
 #: templates/bathroom-in-amsterdam-march.html:111
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:121
 msgid "Installation of heated towel rails for added convenience"
-msgstr ""
+msgstr "Soojendusega rätikuresti paigaldamine täiendava mugavuse tagamiseks"
 
 #: templates/blog.html:21 templates/blog.html:27
 msgid "Blog of Kulbachenko"
-msgstr "Serhii Kulbachenko"
+msgstr "Kulbachenko blogi"
 
 #: templates/blog.html:34
 msgid "All posts"
@@ -431,13 +450,13 @@ msgstr "Kõik postitused"
 msgid ""
 "Home cinema in a private house | Project of Kulbachenko Construction OU "
 "and BASS.UA"
-msgstr ""
+msgstr "Kodukino eramajas | Kulbachenko Construction OU ja BASS.UA projekt"
 
 #: templates/home-cinema-5-person.html:9
 msgid ""
 "Home cinema in a private house | Project of Kulbachenko Construction and "
 "BASS.UA"
-msgstr ""
+msgstr "Kodukino eramajas | Kulbachenko Construction ja BASS.UA projekt"
 
 #: templates/home-cinema-5-person.html:51
 msgid ""
@@ -448,44 +467,53 @@ msgid ""
 " viewing.\n"
 "Individual design, high quality, high-tech solutions."
 msgstr ""
+"Kulbachenko Construction koos meie partneri BASS.UA-ga viis ellu kodukino"
+" projekti eramajas Ukrainas. Täistsükkel hõlmas helikindlustust, "
+"viimistlust, akustiliste süsteemide ja nutika valgustuse paigaldamist, "
+"luues ideaalsed tingimused mugavaks filmivaatamiseks.\n"
+"Individuaalne disain, kõrge kvaliteet, kõrgtehnoloogilised lahendused."
 
 #: templates/home-cinema-5-person.html:79
 msgid "Description of work performed in the home cinema project"
-msgstr ""
+msgstr "Kodukino projekti teostatud tööde kirjeldus"
 
 #: templates/home-cinema-5-person.html:89
 msgid "Home cinema project room, 5 viewing areas"
-msgstr ""
+msgstr "Kodukino projektiruum, 5 vaatamisala"
 
 #: templates/home-cinema-5-person.html:90
 msgid "Paradigm acoustics"
-msgstr ""
+msgstr "Paradigm akustika"
 
 #: templates/home-cinema-5-person.html:91
 msgid "Anthem electronics"
-msgstr ""
+msgstr "Anthem elektroonika"
 
 #: templates/home-cinema-5-person.html:92
 msgid "Stewart screen"
-msgstr ""
+msgstr "Stewart ekraan"
 
 #: templates/home-cinema-5-person.html:93
 msgid "JVC projector"
-msgstr ""
+msgstr "JVC projektor"
 
 #: templates/home-cinema-5-person.html:94
 msgid "Van den Hull cable products"
-msgstr ""
+msgstr "Van den Hull kaablitooted"
 
 #: templates/home-cinema-5-person.html:95
 msgid "Individual design, premium quality, high-tech solutions"
 msgstr ""
+"Individuaalne disain, esmaklassiline kvaliteet, kõrgtehnoloogilised "
+"lahendused"
 
 #: templates/index.html:32
 msgid ""
 "Construction & Renovation Services | Amsterdam, Tallinn, Kyiv, Alicante, "
 "Torrevieja - Serhii Kulbachenko"
-msgstr "Ehitus- ja renoveerimisteenused Euroopas | Serhii Kulbachenko"
+msgstr ""
+"Ehitus- ja renoveerimisteenused Amsterdamis, Tallinnas, Kiievis, "
+"Alicante'is, Torreviejas - Serhii Kulbachenko"
 
 #: templates/index.html:184
 msgid "MAIN"
@@ -497,7 +525,7 @@ msgstr "foto tööst Kiievis"
 
 #: templates/index.html:224
 msgid "Construction and Repair"
-msgstr "Ehitus ja Remont"
+msgstr "Ehitus ja remont"
 
 #: templates/index.html:225
 msgid ""
@@ -505,9 +533,9 @@ msgid ""
 "to large-scale capital repairs. We work with residential and commercial "
 "properties, taking all your wishes into account."
 msgstr ""
-"Pakume laia valikut renoveerimisteenuseid — alates väikestest "
-"kosmeetilistest töödest kuni ulatuslike kapitaliremontideni. Me töötame "
-"nii elamute kui ka kaubandushoonete kallal, arvestades kõiki teie soove."
+"Pakume laia valikut renoveerimisteenuseid - alates väiksematest "
+"kosmeetilistest töödest kuni ulatuslike kapitaliremontideni. Teeme tööd "
+"nii elamute kui ka kaubandushoonetega, arvestades kõiki teie soove."
 
 #: templates/index.html:227
 msgid ""
@@ -553,15 +581,15 @@ msgstr "Alates"
 #: templates/index.html:268 templates/index.html:303 templates/index.html:337
 #: templates/index.html:373
 msgid "VAT (BTW)"
-msgstr ""
+msgstr "KM (Käibemaks)"
 
 #: templates/index.html:268
 msgid "Parking"
-msgstr "Tapeetimine"
+msgstr "Parkimine"
 
 #: templates/index.html:270
 msgid "Furniture Assembly"
-msgstr ""
+msgstr "Mööbli kokkupanek"
 
 #: templates/index.html:271
 msgid "Plumbing Repairs"
@@ -577,7 +605,7 @@ msgstr "Tehnosüsteemide ja elektripaigaldiste paigaldamine"
 
 #: templates/index.html:274
 msgid "Lock Replacement"
-msgstr "Alus- ja seinapaneelide vahetus"
+msgstr "Lukkude vahetus"
 
 #: templates/index.html:275
 msgid "Electrical Repairs"
@@ -589,35 +617,35 @@ msgstr "Tehnosüsteemide ja elektripaigaldiste paigaldamine"
 
 #: templates/index.html:277
 msgid "Painting and Touch-ups"
-msgstr ""
+msgstr "Värvimine ja parandustööd"
 
 #: templates/index.html:278
 msgid "Tile Repair"
-msgstr "Lihtne remont"
+msgstr "Plaatide remont"
 
 #: templates/index.html:279
 msgid "Blinds and Curtain Installation"
-msgstr "Pistikute ja lülitite paigaldamine"
+msgstr "Kardinate ja ruloode paigaldamine"
 
 #: templates/index.html:280
 msgid "Furniture Repair"
-msgstr "Lihtne remont"
+msgstr "Mööbli remont"
 
 #: templates/index.html:281
 msgid "Insulation and Sealing"
-msgstr "Ehitus ja Remont"
+msgstr "Soojustus ja tihendamine"
 
 #: templates/index.html:282
 msgid "Garden Maintenance"
-msgstr ""
+msgstr "Aiakorrashoid"
 
 #: templates/index.html:283
 msgid "Demolition and Removal"
-msgstr ""
+msgstr "Lammutamine ja eemaldamine"
 
 #: templates/index.html:284
 msgid "Floor Repairs and Maintenance"
-msgstr ""
+msgstr "Põrandate remont ja hooldus"
 
 #: templates/index.html:290 templates/index.html:324 templates/index.html:359
 #: templates/index.html:394 templates/services.html:44
@@ -641,59 +669,59 @@ msgstr "Seina- ja laepinnate maalimine"
 
 #: templates/index.html:306
 msgid "Wallpaper Removal and Install"
-msgstr ""
+msgstr "Tapeedi eemaldamine ja paigaldamine"
 
 #: templates/index.html:307
 msgid "Small Plastering and Skimming"
-msgstr ""
+msgstr "Väike krohvimine ja pahteldamine"
 
 #: templates/index.html:308
 msgid "Touch-ups for Scratches/Scuffs"
-msgstr ""
+msgstr "Kriimustuste ja hõõrdumiste parandamine"
 
 #: templates/index.html:309
 msgid "Repairing Minor Wall Cracks"
-msgstr ""
+msgstr "Väikeste seinapragude parandamine"
 
 #: templates/index.html:310
 msgid "Refinishing Wooden Surfaces"
-msgstr "Viimistlustööd"
+msgstr "Puidust pindade viimistlemine"
 
 #: templates/index.html:311
 msgid "Repainting Doors and Frames"
-msgstr "Akende ja uste vahetus"
+msgstr "Uste ja raamidetailide ülevärvimine"
 
 #: templates/index.html:312
 msgid "Sealing and Regrouting Tiles"
-msgstr ""
+msgstr "Plaatide tihendamine ja uuesti vuukimine"
 
 #: templates/index.html:313
 msgid "Ceiling Tile Replacement"
-msgstr ""
+msgstr "Laeplaatide vahetus"
 
 #: templates/index.html:314
 msgid "Installing Baseboards and Trim"
-msgstr "Alus- ja raamipaneelide vahetus"
+msgstr "Alus- ja raamipaneelide paigaldamine"
 
 #: templates/index.html:315
 msgid "Patching Drywall Holes"
-msgstr ""
+msgstr "Kipsplaadi aukude pahteldamine"
 
 #: templates/index.html:316
 msgid "Repairing Stair Finishes"
-msgstr ""
+msgstr "Trepi viimistluse parandamine"
 
 #: templates/index.html:317
 msgid "Refinishing Cabinets/Furniture"
-msgstr ""
+msgstr "Kappide ja mööbli viimistlemine"
 
 #: templates/index.html:318
 msgid "Updating Light Fixtures"
-msgstr ""
+msgstr "Valgustite uuendamine"
 
 #: templates/index.html:319
 msgid "Deep Surface Cleaning Before"
-msgstr ""
+msgstr "Sügavpuhastus enne"
 
 #: templates/index.html:335
 msgid "Capital Repair"
@@ -709,31 +737,31 @@ msgstr "m² kohta"
 
 #: templates/index.html:339
 msgid "Full Wall and Ceiling Repairs"
-msgstr "Seina- ja laepinnate maalimine"
+msgstr "Täielik seinte ja lagede remont"
 
 #: templates/index.html:340
 msgid "Demolition of Old Structures"
-msgstr "Kuivseinakonstruktsioonide paigaldamine"
+msgstr "Vanaehitiste lammutamine"
 
 #: templates/index.html:341
 msgid "Complete Plumbing Replacement"
-msgstr ""
+msgstr "Sanitaartehnika täielik vahetus"
 
 #: templates/index.html:342
 msgid "Full Electrical Rewiring"
-msgstr "Osaline elektrijuhtmete remont"
+msgstr "Elektrijuhtmete täielik vahetus"
 
 #: templates/index.html:343
 msgid "New Flooring Installation"
-msgstr "Tehnosüsteemide ja elektripaigaldiste paigaldamine"
+msgstr "Uue põrandakatte paigaldamine"
 
 #: templates/index.html:344
 msgid "Waterproofing and Insulation"
-msgstr "Välisisolatsioon"
+msgstr "Veekindlus ja isolatsioon"
 
 #: templates/index.html:345
 msgid "Installation of HVAC Systems"
-msgstr "Ventilatsioonisüsteemide paigaldamine"
+msgstr "Küte- ja ventilatsioonisüsteemide paigaldamine"
 
 #: templates/index.html:346
 msgid "Replacement of Windows/Doors"
@@ -741,15 +769,15 @@ msgstr "Akende ja uste vahetus"
 
 #: templates/index.html:347
 msgid "Wall Soundproofing Solutions"
-msgstr ""
+msgstr "Seinte helikindluse lahendused"
 
 #: templates/index.html:348
 msgid "Bathroom/Kitchen Renovation"
-msgstr "Korteri remont"
+msgstr "Vannitoa/köögi renoveerimine"
 
 #: templates/index.html:349
 msgid "Foundation Strengthening Work"
-msgstr "Vundamenditööd"
+msgstr "Vundamendi tugevdamise tööd"
 
 #: templates/index.html:350
 msgid "Installation of New Partitions"
@@ -757,23 +785,23 @@ msgstr "Uute vaheseinte paigaldamine"
 
 #: templates/index.html:351
 msgid "Exterior Facade Renovation"
-msgstr "Kompleksrenoveerimine"
+msgstr "Fassaadi renoveerimine"
 
 #: templates/index.html:352
 msgid "Comprehensive Roof Repairs"
-msgstr "Kohustuslikud Tööd"
+msgstr "Katuse ulatuslik remont"
 
 #: templates/index.html:353
 msgid "Custom Interior Redesign"
-msgstr "Sise- ja väliskujunduse lahendused"
+msgstr "Sisekujunduse kohandamine"
 
 #: templates/index.html:370
 msgid "Major Renovation"
-msgstr "Kompleksrenoveerimine"
+msgstr "Ulatuslik renoveerimine"
 
 #: templates/index.html:371
 msgid "Complete Complex"
-msgstr "Täielik Kompleks"
+msgstr "Täielik kompleks"
 
 #: templates/index.html:375
 msgid "3D Design"
@@ -781,11 +809,11 @@ msgstr "3D Disain"
 
 #: templates/index.html:376
 msgid "Complete Interior Redesign"
-msgstr ""
+msgstr "Täielik sisekujunduse ümberkujundamine"
 
 #: templates/index.html:377
 msgid "Structural Wall Alterations"
-msgstr ""
+msgstr "Kandeseinte muutmine"
 
 #: templates/index.html:378
 msgid "Plumbing System Overhaul"
@@ -793,47 +821,47 @@ msgstr "Sanitaartehnika süsteemide uuendamine"
 
 #: templates/index.html:379
 msgid "Electrical System Upgrade"
-msgstr ""
+msgstr "Elektrisüsteemide uuendamine"
 
 #: templates/index.html:380
 msgid "Underfloor Heating Installation"
-msgstr ""
+msgstr "Põrandakütte paigaldamine"
 
 #: templates/index.html:381
 msgid "High-End Flooring Solutions"
-msgstr ""
+msgstr "Kõrgekvaliteedilised põrandalahendused"
 
 #: templates/index.html:382
 msgid "Custom Staircase Installation"
-msgstr "Tehnosüsteemide ja elektripaigaldiste paigaldamine"
+msgstr "Treppide kohandatud paigaldamine"
 
 #: templates/index.html:383
 msgid "Luxurious Bathroom Renovation"
-msgstr "Maja renoveerimine"
+msgstr "Luksuslik vannitoa renoveerimine"
 
 #: templates/index.html:384
 msgid "Designer Kitchen Remodeling"
-msgstr ""
+msgstr "Disainerköögi ümberehitus"
 
 #: templates/index.html:385
 msgid "Smart Home System Setup"
-msgstr ""
+msgstr "Nutika kodusüsteemi seadistamine"
 
 #: templates/index.html:386
 msgid "Advanced Soundproofing Install"
-msgstr ""
+msgstr "Täiustatud helikindluse paigaldamine"
 
 #: templates/index.html:387
 msgid "Exterior Wall Insulation"
-msgstr "Välisisolatsioon"
+msgstr "Välisseina isolatsioon"
 
 #: templates/index.html:388
 msgid "Premium Roofing Solutions"
-msgstr "Isikupärastatud lahendused"
+msgstr "Esmaklassilised katuse lahendused"
 
 #: templates/index.html:389
 msgid "Landscape and Outdoor Design"
-msgstr ""
+msgstr "Maastiku- ja väliskujundus"
 
 #: templates/index.html:413
 msgid "About Our Team"
@@ -991,7 +1019,7 @@ msgid ""
 msgstr ""
 "Viimases arveldamises allkirjastavad ettevõtte direktor ja klient "
 "valminud tööde akti, mis annab garantiid kõikidele töödele vähemalt 12 "
-"kuud, samuti garanteerib meie toetuse kõigi tulevaste küsimuste korral."
+"kuud, samuti garanteerib meie toetuse kõigi tuleva"
 
 #: templates/index.html:545
 msgid "Hide"
@@ -1003,61 +1031,55 @@ msgstr "Valdkonnad, kus me töötame"
 
 #: templates/index.html:560 templates/index.html:617
 msgid "Residential Properties"
-msgstr "Elamute Omandid"
+msgstr "Elamukinnisvara"
 
 #: templates/index.html:563 templates/index.html:620
 msgid "Residential real estate"
-msgstr "Elamute Omandid"
+msgstr "Elamukinnisvara"
 
 #: templates/index.html:564 templates/index.html:621
 msgid "Complete renovation of apartments, houses and villas of all complexities."
-msgstr "Igasuguse keerukusega korterite, majade ja suvilate kompleksremont."
+msgstr "Korterite, majade ja villade täielik renoveerimine igasuguse keerukusega."
 
 #: templates/index.html:569 templates/index.html:626
 msgid "Commercial Real Estate"
-msgstr "Äri Kinnisvara"
+msgstr "Ärikinnisvara"
 
 #: templates/index.html:572 templates/index.html:629
 msgid "Commercial real estate"
-msgstr "Äri Kinnisvara"
+msgstr "Ärikinnisvara"
 
 #: templates/index.html:573 templates/index.html:630
 msgid ""
 "Renovation of offices, shops, shopping centres, hotels and other business"
 " facilities."
-msgstr ""
-"\" \"Kontorite, kaupluste, kaubanduskeskuste, hotellide ja teiste \" "
-"\"ärihoonete renoveerimine."
+msgstr "Kontorite, poodide, kaubanduskeskuste, hotellide ja teiste äriruumide renoveerimine."
 
 #: templates/index.html:578 templates/index.html:635
 msgid "Cultural and Artistic Spaces"
-msgstr "Kultuuri- ja Kunstiruumid"
+msgstr "Kultuuri- ja kunstiruumid"
 
 #: templates/index.html:581 templates/index.html:638
 msgid "Spaces for culture and the arts"
-msgstr ""
+msgstr "Kultuuri- ja kunstiruumid"
 
 #: templates/index.html:582 templates/index.html:639
 msgid ""
 "Renovating and refurbishing theatres, philharmonic and concert halls and "
 "other cultural venues, taking into account their specific uses."
-msgstr ""
-"\" \"Teatrite, filharmooniate, kontserdisaalide ja teiste "
-"kultuuriasutuste \" \"renoveerimine ja renoveerimistööd."
+msgstr "Teatrite, filharmoonia- ja kontserdisaalide ning teiste kultuuriasutuste renoveerimine ja uuendamine, võttes arvesse nende spetsiifilisi kasutusviise."
 
 #: templates/index.html:587 templates/index.html:644
 msgid "Facade Finishing"
-msgstr "Fassaadi Viimistlemine"
+msgstr "Fassaadiviimistlus"
 
 #: templates/index.html:590 templates/index.html:647
 msgid "Surface finishes for facades"
-msgstr ""
+msgstr "Fassaadide pinnaviimistlus"
 
 #: templates/index.html:591 templates/index.html:648
 msgid "Professional finishing of facades with the latest materials."
-msgstr ""
-"Professionaalne fassaadi viimistlemine kaasaegsete materjalide "
-"kasutamisega."
+msgstr "Fassaadide professionaalne viimistlus uusimate materjalidega."
 
 #: templates/index.html:596 templates/index.html:653
 msgid "Recreation Centers"
@@ -1071,7 +1093,7 @@ msgstr "Puhkekeskused"
 msgid ""
 "Design and construction of modern leisure facilities focusing on comfort "
 "and environmental friendliness."
-msgstr ""
+msgstr "Kaasaegsete vaba aja veetmise rajatiste projekteerimine ja ehitamine, keskendudes mugavusele ja keskkonnasõbralikkusele."
 
 #: templates/index.html:605 templates/index.html:662
 msgid "Industrial Facilities"
@@ -1085,13 +1107,11 @@ msgstr "Tööstusrajatised"
 msgid ""
 "Renovating and modernising workshops, warehouses, factories and technical"
 " facilities."
-msgstr ""
-"Tootmishallide, ladude, tehaste ja tehniliste ruumide renoveerimine ja "
-"moderniseerimine."
+msgstr "Töökodade, ladude, tehaste ja tehniliste rajatiste renoveerimine ja moderniseerimine."
 
 #: templates/index.html:675
 msgid "Learn more"
-msgstr "Loe lähemalt"
+msgstr "Loe edasi"
 
 #: templates/index.html:690
 msgid "Latest news"
@@ -1107,7 +1127,7 @@ msgstr "MEIE PARTNERID"
 
 #: templates/index.html:875
 msgid "Frequently Asked Questions"
-msgstr "Korduma Kippuvad Küsimused"
+msgstr "Korduma kippuvad küsimused"
 
 #: templates/index.html:882
 msgid "What types of repair work do you provide?"
@@ -1122,12 +1142,7 @@ msgid ""
 "ensuring high-quality results no matter the size or complexity of the "
 "job. Your vision is our priority!"
 msgstr ""
-"Pakume laia valikut remonditeenuseid, alates väikestest kosmeetilistest "
-"remontidest kuni korterite, kontorite, äripindade ja majade "
-"kompleksremontideni. Meie ekspertiis hõlmab ka eramute ehitust ning nii "
-"väikeste kui ka suurte projektide teostamist. Võtame vastu kõik "
-"ülesanded, tagades kõrge kvaliteedi sõltumata töö suurusest või "
-"keerukusest. Teie visioon on meie prioriteet!"
+"Pakume laias valikus remonditeenuseid alates väiksematest kosmeetilistest remontidest kuni korterite, kontorite, ärihoonete ja majade põhjaliku renoveerimiseni. Meie teadmised hõlmavad eramute ehitamist ja nii väikeste kui ka suurte projektide teostamist. Võtame vastu kõik ülesanded, tagades kvaliteetsed tulemused olenemata töö suurusest või keerukusest. Teie nägemus on meie prioriteet!"
 
 #: templates/index.html:892
 msgid "Do I need a permit for renovations?"
@@ -1140,14 +1155,11 @@ msgid ""
 "assist you in determining whether your project requires a permit and help"
 " you navigate the application process."
 msgstr ""
-"Jah, enamasti on renoveerimiseks vajalikud load, eriti kui tegemist on "
-"ehituslike muudatuste või oluliste ümberkorraldustega kinnistul. Me saame"
-" teid aidata kindlaks teha, kas teie projekt vajab luba, ning abistada "
-"teid taotlusprotsessis."
+"Jah, enamasti on renoveerimiseks vaja luba, eriti struktuurimuudatuste või oluliste muudatuste korral teie kinnistul. Me saame aidata teil kindlaks teha, kas teie projekt vajab luba ja aidata teil taotlemisprotsessis."
 
 #: templates/index.html:902
 msgid "How is the cost of repairs determined?"
-msgstr "Kuidas määratakse remondi maksumus?"
+msgstr "Kuidas määratakse remondikulud?"
 
 #: templates/index.html:906
 msgid ""
@@ -1156,9 +1168,7 @@ msgid ""
 "estimate after evaluating the project and discuss potential cost-saving "
 "options if needed."
 msgstr ""
-"Remonditööde maksumus sõltub projekti keerukusest, objekti suurusest ja "
-"vajalike tööde mahust. Pärast projekti hindamist koostame üksikasjaliku "
-"hinnapakkumise ja vajadusel arutame võimalusi kulude kokkuhoiuks."
+"Remondikulud sõltuvad projekti keerukusest, kinnisvara suurusest ja vajalike tööde mahust. Pakume pärast projekti hindamist üksikasjalikku hinnangut ja arutame vajadusel võimalikke kulude kokkuhoiuvõimalusi."
 
 #: templates/index.html:913
 msgid "What does the contract for renovation services include?"
@@ -1170,9 +1180,7 @@ msgid ""
 "deadlines, costs, warranties, and the rights of both parties. After "
 "signing the contract, we begin the work according to the agreed plan."
 msgstr ""
-"Lepingus on selgelt välja toodud koostöö tingimused, sealhulgas tööde "
-"tähtaeg, kulud, garantiid ja mõlema poole õigused. Pärast lepingu "
-"allkirjastamist alustame tööd vastavalt kokkulepitud plaanile."
+"Lepingus on selgelt määratletud koostöö tingimused, sealhulgas töö tähtajad, kulud, garantiid ja mõlema poole õigused. Pärast lepingu allkirjastamist alustame tööd vastavalt kokkulepitud plaanile."
 
 #: templates/index.html:923
 msgid "Do you provide a warranty for the work performed?"
@@ -1206,43 +1214,43 @@ msgstr ""
 
 #: templates/index.html:1005
 msgid "Show Less"
-msgstr ""
+msgstr "Näita vähem"
 
 #: templates/portfolio.html:24
 msgid "Portfolio of the construction expert Kulbachenko"
-msgstr ""
+msgstr "Ehitusspetsialist Kulbachenko portfoolio"
 
 #: templates/portfolio.html:32
 msgid "Featured"
-msgstr ""
+msgstr "Esiletõstetud"
 
 #: templates/portfolio.html:37
 msgid "All work"
-msgstr "Sotsiaalsed võrgustikud"
+msgstr "Kõik tööd"
 
 #: templates/portfolio.html:40
 msgid "Apartments"
-msgstr "MÕÕTMINE"
+msgstr "Korterid"
 
 #: templates/portfolio.html:43
 msgid "Bathrooms"
-msgstr ""
+msgstr "Vannitoad"
 
 #: templates/portfolio.html:46
 msgid "Constructions"
-msgstr "Ehitusteenused"
+msgstr "Ehitusprojektid"
 
 #: templates/portfolio.html:49
 msgid "Cultural objects"
-msgstr ""
+msgstr "Kultuuriobjektid"
 
 #: templates/portfolio.html:52
 msgid "Home cinema"
-msgstr ""
+msgstr "Kodukino"
 
 #: templates/portfolio.html:55
 msgid "Outside work"
-msgstr ""
+msgstr "Välitööd"
 
 #: templates/portfolio.html:58
 msgid "Other"
@@ -1250,69 +1258,41 @@ msgstr "Muud"
 
 #: templates/portfolio.html:67 templates/recreation-complex-nova-estonia.html:4
 msgid "Recreation complex \"Sparta Camp\", Nõva, 91104 Lääne County, Estonia"
-msgstr ""
+msgstr "Puhkekompleks \"Sparta Camp\", Nõva, 91104 Lääne maakond, Eesti"
 
 #: templates/portfolio.html:75
 msgid "Bathroom in a private house in Estonia"
-msgstr ""
+msgstr "Vannituba eramajas Eestis"
 
 #: templates/portfolio.html:83
 msgid "turnkey renovation for a newly built apartment, Kyiv, Ukraine"
-msgstr ""
+msgstr "Võtmed kätte renoveerimine uuele korterile, Kiiev, Ukraina"
 
-#: templates/portfolio.html:91 templates/portfolio_old.html:36
+#: templates/portfolio.html:91
 msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
 msgstr "PROFESSIONAALNE KODUKINO UKRAINAS ERAMAJAS"
 
-#: templates/portfolio.html:99 templates/portfolio_old.html:56
+#: templates/portfolio.html:99
 msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
 msgstr "EESTI MUUSIKA- JA TEATRIAKADEEMIA TALLINNAS, EESTI"
 
 #: templates/portfolio.html:107
 msgid "Turnkey renovation of apartments in the \"Varshavsky\", Kyiv, Ukraine"
 msgstr ""
+"Korterite võtmed kätte renoveerimine \"Varshavsky\" elamukompleksis, "
+"Kiiev, Ukraina"
 
 #: templates/portfolio.html:115
 msgid "Bathroom in Amsterdam"
-msgstr ""
+msgstr "Vannituba Amsterdamis"
 
 #: templates/portfolio.html:128
 msgid "You can find even more of our work on"
-msgstr ""
+msgstr "Veel rohkem meie töid leiad"
 
 #: templates/portfolio.html:130
 msgid "Facebook and Telegram"
-msgstr ""
-
-#: templates/portfolio_old.html:4
-msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"     comprehensive renovation projects, and more. Discover the quality "
-"and expertise we bring to\n"
-"      every project we undertake."
-msgstr ""
-"Uurige meie portfelli, kus näete meie professionaalset kodukino, "
-"ulatuslikke renoveerimisprojekte ja palju muud. Avastage kvaliteet ja "
-"ekspertiis, mida me iga projekti elluviimisel pakume."
-
-#: templates/portfolio_old.html:9
-msgid "Portfolio"
-msgstr "Portfell"
-
-#: templates/portfolio_old.html:20
-msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"                 comprehensive renovation projects, and more. Discover "
-"the quality and expertise we bring to\n"
-"                  every project we undertake."
-msgstr ""
-"Uurige meie portfelli, kus näete meie professionaalset kodukino, "
-"ulatuslikke renoveerimisprojekte ja palju muud. Avastage kvaliteet ja "
-"ekspertiis, mida me iga projekti elluviimisel pakume."
-
-#: templates/portfolio_old.html:45
-msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
-msgstr "KIIEVIS VARSHAVSKI ELAMUKOMPLEKSIS TERVIK RENOVEERIMINE"
+msgstr "Facebookist ja Telegramist"
 
 #: templates/recreation-complex-nova-estonia.html:9
 msgid ""
@@ -1322,7 +1302,7 @@ msgstr "Renoveerimis- ja ehitusteenused | Kulbachenko Construction"
 
 #: templates/recreation-complex-nova-estonia.html:63
 msgid "Recreation Complex \"Sparta Camp\" - Nõva, Estonia"
-msgstr ""
+msgstr "Puhkekompleks \"Sparta Camp\" - Nõva, Eesti"
 
 #: templates/recreation-complex-nova-estonia.html:64
 msgid ""
@@ -1330,44 +1310,53 @@ msgid ""
 "relaxation, sports and outdoor activities. for comfortable outdoor "
 "living, sports and group activities."
 msgstr ""
+"Sparta Camp Nõvas, Lääne maakonnas, Eestis on puhkeala, kus saab nautida "
+"lõõgastust, sporti ja välitegevusi. Mugavaks välieluks, spordiks ja "
+"grupiüritusteks."
 
 #: templates/recreation-complex-nova-estonia.html:89
 msgid "Description of Recreation Complex \"Sparta Camp\" – Nõva, Estonia "
-msgstr ""
+msgstr "Puhkekompleksi \"Sparta Camp\" – Nõva, Eesti kirjeldus "
 
 #: templates/recreation-complex-nova-estonia.html:99
 msgid "Area"
-msgstr ""
+msgstr "Pindala"
 
 #: templates/recreation-complex-nova-estonia.html:106
 msgid "Accommodation & Outdoor Spaces"
-msgstr ""
+msgstr "Majutus- ja välialad"
 
 #: templates/recreation-complex-nova-estonia.html:107
 msgid ""
 "10 cosy cabins, each equipped with two bunk beds. Guests will enjoy a "
 "comfortable stay."
 msgstr ""
+"10 hubast majakest, igaüks varustatud kahe narivoodiga. Külalised "
+"naudivad mugavat peatumist."
 
 #: templates/recreation-complex-nova-estonia.html:108
 msgid ""
 "Spacious terraces with wooden tables where you can relax and enjoy the "
 "company of others"
 msgstr ""
+"Avatud terrassid puidust laudadega, kus saab lõõgastuda ja nautida teiste"
+" seltskonda."
 
 #: templates/recreation-complex-nova-estonia.html:111
 msgid "Eco-Friendly Solutions"
-msgstr "Loovlahendused"
+msgstr "Keskkonnasõbralikud lahendused"
 
 #: templates/recreation-complex-nova-estonia.html:112
 msgid "Solar panels and supporting equipment to ensure sustainable energy use"
-msgstr ""
+msgstr "Päikesepaneelid ja abivahendid, mis tagavad säästva energiakasutuse"
 
 #: templates/recreation-complex-nova-estonia.html:113
 msgid ""
 "Advanced wood and roof treatment for durability and protection against "
 "environmental factors"
 msgstr ""
+"Täiendav puit- ja katusekaitse, mis tagab vastupidavuse ja kaitse "
+"keskkonnategurite eest"
 
 #: templates/recreation-complex-nova-estonia.html:116
 msgid ""
@@ -1376,10 +1365,14 @@ msgid ""
 "making it an ideal destination for nature lovers, sports teams and "
 "corporate retreats."
 msgstr ""
+"Kaasaegse tehnoloogia ja keskkonnateadlike lahendustega projekteeritud "
+"Sparta Camp pakub harmoonilist mugavuse, funktsionaalsuse ja "
+"jätkusuutlikkuse kombinatsiooni, muutes selle ideaalseks sihtkohaks "
+"loodusearmastajatele, spordimeeskondadele ja ettevõtte väljasõitudeks."
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:4
 msgid "Turnkey renovation for a newly built apartment in Kyiv, Ukraine"
-msgstr ""
+msgstr "Võtmed kätte renoveerimine uuele korterile Kiievis, Ukrainas"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:9
 msgid ""
@@ -1387,10 +1380,13 @@ msgid ""
 "underfloor heating, hidden doors, LED lighting, tile & laminate flooring,"
 " and a modern bathroom."
 msgstr ""
+"40m² suuruse korteri võtmed kätte renoveerimine Kiievis, kasutades "
+"premium materjale, põrandakütet, peidetud uksi, LED-valgustust, plaate ja"
+" laminaatpõrandat ning kaasaegset vannituba."
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:62
 msgid "Turnkey Renovation for a Newly Built Apartment in Kyiv, Ukraine"
-msgstr ""
+msgstr "Võtmed kätte renoveerimine uuele korterile Kiievis, Ukrainas"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:63
 msgid ""
@@ -1398,69 +1394,82 @@ msgid ""
 " apartment in Kyiv, combining modern design, high quality materials and "
 "advanced technologies for ultimate comfort and functionality."
 msgstr ""
+"Kiievis läbis äsja ehitatud 40-ruutmeetrine korter esmaklassilise renoveerimise, ühendades kaasaegse disaini, kvaliteetsed materjalid ja täiustatud tehnoloogiad, et saavutada maksimaalne mugavus ja funktsionaalsus."
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:88
 msgid ""
 "Description of work completed - Turnkey renovation for a newly built "
 "apartment in Kyiv, Ukraine"
 msgstr ""
+"Teostatud tööde kirjeldus - Võtmed kätte renoveerimine uuele korterile "
+"Kiievis, Ukrainas"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:99
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:98
 msgid "Total area of the apartment"
-msgstr ""
+msgstr "Korteri kogupindala"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:105
 msgid "Key Features"
-msgstr ""
+msgstr "Peamised omadused"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:106
 msgid ""
 "Water-based underfloor heating throughout the apartment, including the "
 "bathroom, ensuring warmth and energy efficiency"
 msgstr ""
+"Vee baasil põrandaküte kogu korteris, sealhulgas vannitoas, tagades sooja"
+" ja energiatõhususe."
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:107
 msgid "Hidden doors installation for a sleek and seamless interior look"
-msgstr ""
+msgstr "Peidetud uste paigaldamine stiilse ja ühtse interjööri loomiseks"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:108
 msgid ""
 "Electrical installation, including concealed wiring, socket and switch "
 "placement"
 msgstr ""
+"Elektripaigaldus, sealhulgas varjatud juhtmestik, pistikupesade ja "
+"lülitite paigaldamine."
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:109
 msgid ""
 "LED lighting installation, including modern fixtures and ambient lighting"
 " solutions"
 msgstr ""
+"LED-valgustuse paigaldus, kaasa arvatud kaasaegsed valgustid ja "
+"meeleoluvalgustuse lahendused."
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:114
 msgid "High-quality tile installation in the bathroom and kitchen areas"
-msgstr "Kohalik plaatide vahetus vannitoas või köögis"
+msgstr "Kvaliteetse plaatide paigaldamine vannitoas ja köögis"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:115
 msgid ""
 "Laminate flooring in the main living space for a stylish and durable "
 "finish"
-msgstr ""
+msgstr "Laminaatpõrand elutoas stiilse ja vastupidava viimistluse saavutamiseks"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:116
 msgid ""
 "Stretch ceiling installation across the entire apartment for a clean, "
 "modern appearance"
 msgstr ""
+"Ripplae paigaldamine kogu korteri ulatuses puhta ja kaasaegse välimuse "
+"tagamiseks"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:118
 msgid "Bathroom & Plumbing"
-msgstr ""
+msgstr "Vannituba ja sanitaartehnika"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:119
 msgid ""
 "Freestanding bathtub and wall-hung toilet installation for a contemporary"
 " and space-saving layout"
 msgstr ""
+"Eraldiseisva vanni ja seinakinnitusega tualeti paigaldamine kaasaegse ja "
+"ruumisäästliku kujunduse saavutamiseks"
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:125
 msgid ""
@@ -1468,12 +1477,17 @@ msgid ""
 "detail and quality materials to create a stylish, comfortable and "
 "functional turnkey home."
 msgstr ""
+"See projekt demonstreerib kõrgeimat meisterlikkust, tähelepanu "
+"detailidele ja kvaliteetseid materjale, et luua stiilne, mugav ja "
+"funktsionaalne võtmed kätte kodu."
 
 #: templates/services.html:25
 msgid ""
 "Our Services in Amsterdam, Tallinn, Kyiv, Alicante, Torrevieja | "
 "Kulbachenko Construction"
 msgstr ""
+"Meie teenused Amsterdamis, Tallinnas, Kiievis, Alicantes, Torreviejas | "
+"Kulbachenko Construction"
 
 #: templates/services.html:31
 msgid "Kulbachenko Construction | color catalog"
@@ -1481,7 +1495,7 @@ msgstr "Kulbachenko Construction | värvikataloog"
 
 #: templates/services.html:33
 msgid "Renovation & Construction Services"
-msgstr "Meie renoveerimis- ja ehitusteenused"
+msgstr "Renoveerimis- ja ehitusteenused"
 
 #: templates/services.html:39
 msgid ""
@@ -1498,10 +1512,10 @@ msgid ""
 " of high quality, professionalism and attention to detail. From flat "
 "renovations to house building, we bring your ideas to life."
 msgstr ""
-"Pakume täielikku valikut ehitus- ja renoveerimisteenuseid kogu Euroopas, "
-"tagades seaduslikult kõrge kvaliteedi, professionaalsuse ja tähelepanu "
-"detailidele. Alates korterite renoveerimisest kuni majade ehituseni - "
-"teeme teie ideed teoks."
+"Pakume täielikku valikut ehitus- ja renoveerimisteenuseid Amsterdamis, "
+"Tallinnas, Kiievis, Alicantes ja Torreviejas, tagades seaduslikult kõrge "
+"kvaliteedi, professionaalsuse ja tähelepanu detailidele. Alates korteri "
+"renoveerimisest kuni maja ehitamiseni - teeme teie ideed teoks."
 
 #: templates/services.html:61
 msgid "We may not be superheroes, but our team works miracles."
@@ -1664,7 +1678,7 @@ msgstr "Korteri remont"
 #: templates/blog_templates/stages-of-plumbing-work.html:129
 #: templates/blog_templates/stages-of-plumbing-work.html:143
 msgid "January"
-msgstr "Jaanuaril"
+msgstr "Jaanuar"
 
 #: templates/blog_templates/apartment-renovation.html:17
 msgid ""
@@ -1810,7 +1824,7 @@ msgstr ""
 "            5. Sanitaartehnilised tööd:\n"
 "                <ul>\n"
 "            <li>Torude ja liitmike asendamine või uuendamine.\n"
-"            <li>Uute sanitaarseadmete (vann, tualettruum, kraanikausid) "
+"            <li>Uute sanitaarseadmete (vann, tualett, kraanikausid) "
 "paigaldamine.\n"
 "                    <li>Sanitaarseadmete paigaldamine.\n"
 "                  </ul>\n"
@@ -2004,10 +2018,10 @@ msgstr ""
 "\n"
 "        1. Alustamine:\n"
 "          <ul>\n"
-"            <li\"Krundi tasandamine ja puhastamine taimestikust ja "
+"            <li>Krundi tasandamine ja puhastamine taimestikust ja "
 "võõrkehadest.</li>\n"
-"            <li\"Drenaažisüsteemide paigaldamine vajaduse korral.</li>\n"
-"            <li\"Mulda tihendamine ja ettevalmistav aluspõhi vundamendi "
+"            <li>Drenaažisüsteemide paigaldamine vajaduse korral.</li>\n"
+"            <li>Mulda tihendamine ja ettevalmistav aluspõhi vundamendi "
 "jaoks.</li>\n"
 "          </ul>\n"
 "\n"
@@ -2015,70 +2029,8 @@ msgstr ""
 "\n"
 "          2. Vundamenditööd:\n"
 "          <ul>\n"
-"             <li\"Vundamendi seinte ja/või ribavundamentide ehitamine "
-"projektdokumentatsiooni kohaselt.</li>\n"
-"             <li\"Armatuuri paigaldamine ja betooni valamine.</li>\n"
-"          </ul>\n"
-"\n"
-"\n"
-"          3. Kandvate seinte ehitus:\n"
-"          <ul>\n"
-"            <li\"Kandvate seinte püstitamine telliste, betooni, plokkide "
-"või muude materjalide abil.</li>\n"
-"            <li\"Vajalike teraselementide paigaldamine jäikuse ja "
-"tugevuse tagamiseks.</li>\n"
-"          </ul>\n"
-"\n"
-"          4. Põrandakonstruktsioonide paigaldamine:\n"
-"            <ul>\n"
-"               <li\"Betoonsõlmede, metalltalade või muude "
-"konstruktsioonide paigaldamine korruste vaheliste põrandate "
-"loomiseks.</li>\n"
-"            </ul>\n"
-"\n"
-"5. Katusetööd:\n"
-"        <ul>\n"
-"   <li\"Katuse raamistiku ehitamine.</li>\n"
-"   <li\"Katusevõre süsteemi paigaldamine ja katusematerjalide "
-"paigaldamine.</li>\n"
-"          </ul>\n"
-"\n"
-"6. Tehnilised süsteemid:\n"
-"          <ul>\n"
-"   <li\"Veetorustike ja kanalisatsioonisüsteemide paigaldamine.</li>\n"
-"   <li\"Elektrijuhtmestiku, küte- ja ventilatsioonisüsteemide "
-"paigaldamine.</li>\n"
-"            </ul>\n"
-"\n"
-"7. Fassaadi viimistlus:\n"
-"            <ul>\n"
-"   <li\"Välisseinte viimistlus materjalidega, mis tagavad "
-"soojusisolatsiooni ja kaitse atmosfääriliste mõjude eest.</li>\n"
-"              </ul>\n"
-"\n"
-"8. Lõplikud siseviimistlustööd:\n"
-"              <ul>\n"
-"   <li\"Seinte ja lagede silumine.</li>\n"
-"   <li\"Põranda ettevalmistamine järgnevaks viimistluseks.</li>\n"
-"                </ul>\n"
-"\n"
-"9. Võrgustiku seadistamine:\n"
-"                <ul>\n"
-"   <li\"Teede loomine elektrijuhtmestiku, telefoni ja internetikaablite "
-"jaoks.</li>\n"
-"                  </ul>\n"
-"\n"
-"10. Kontroll ja kvaliteedikontroll:\n"
-"                  <ul>\n"
-"    <li\"Inspekteerimised võimalike defektide ja kõrvalekallete "
-"tuvastamiseks projektdokumentatsioonist.</li>\n"
-"                    </ul>\n"
-"\n"
-"          Esialgsed ehitustööd loovad aluse järgnevatele "
-"viimistlustöödele, tagades hoone stabiilsuse ja funktsionaalsuse. See "
-"etapp on ehitusprojekti eduka lõpuleviimise nurgakivi.\n"
-"\n"
-"\n"
+"             <li>Vundamendi seinte ja/või ribavundamentide ehitamine "
+"projektdokumen"
 
 #: templates/blog_templates/electrical-installation-for-apartment-renovation.html:22
 msgid ""
@@ -2499,17 +2451,17 @@ msgstr ""
 "                <ul>\n"
 "                    <li>Kasutage õrna, mitte-abrasiivset "
 "puhastusvahendit, et säilitada viimistlus.</li>\n"
-"                    <li>Kontrollige regulaarselt kulumise või kahjustuse "
-"märke ning võtke vajadusel meetmeid.</li>\n"
+"                    <li>Kontrollige regulaarselt kulumis- ja "
+"kahjustusmärke ning lahendage need aegsasti.</li>\n"
 "                </ul>\n"
 "\n"
 "          <br>\n"
 "\n"
-"                <h4>Ülevaatus:</h4>\n"
+"                <h4>Inspekteerimine:</h4>\n"
 "                <ul>\n"
-"                    <li>Tehke perioodiliselt veekindluse ja "
-"äravoolusüsteemi kontroll.</li>\n"
-"                    <li>Parandage kiiresti kõik probleemid, et vältida "
+"                    <li>Kontrollige perioodiliselt veekindlust ja "
+"drenaažisüsteemi.</li>\n"
+"                    <li>Remontige probleemid viivitamata, et vältida "
 "edasisi kahjustusi.</li>\n"
 "                </ul>\n"
 "          <br>\n"
@@ -2533,21 +2485,6 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"\n"
-"                <p><strong>Kokkuvõte:</strong> Jalutuskäigu-dušš ei ole "
-"lihtsalt vannitoa omadus; see on uuendus, mis ühendab stiili, "
-"funktsionaalsuse ja mugavuse. Olenemata sellest, kas te renoveerite "
-"olemasolevat vannituba või kujundate uut, kaaluge jalutuskäigu-duši "
-"pakutavaid arvukaid eeliseid. Selle elegantne disain, kasutusmugavus ja "
-"potentsiaal suurendada teie kinnisvara väärtust muudavad selle igas kodus"
-" väärt investeeringuks.</p>\n"
-"            <p>Jätkake lugemist põhjalikuks juhendiks paigalduse, "
-"disainiideede ja hooldusnõuannete kohta, et tagada teie jalutuskäigu-duši"
-" vastavus kõigile teie ootustele ja vajadustele.</p>\n"
-"\n"
-"\n"
-"\n"
-"\n"
 
 #: templates/blog_templates/stages-of-plumbing-work.html:22
 msgid ""
@@ -2637,106 +2574,22 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"\n"
-"        Torutööde etapid põhjalikus korteriuuenduses\n"
-"            <br>\n"
-"          <br>\n"
-"\n"
-"\n"
-"        1. Eeltööd:\n"
-"          <ul>\n"
-"            <li>Olemasoleva torustiku ja kommunikatsioonide hindamine.\n"
-"            <li>Torustikuprojekti väljatöötamine, arvestades korteri "
-"planeeringut ja kliendi nõudmisi.\n"
-"            <li>Vajadusel lubade ja heakskiitude hankimine töödeks.\n"
-"          </ul>\n"
-"\n"
-"\n"
-"\n"
-"          2. Olemasoleva torustiku lammutamine:\n"
-"          <ul>\n"
-"             <li>Vanade sanitaartehniliste seadmete (vannid, tualetid, "
-"kraanikausid, dušikabiinid jne) lammutamine.\n"
-"             <li>Vana torustiku ja kommunikatsioonide eemaldamine.\n"
-"          </ul>\n"
-"\n"
-"\n"
-"          3. Uute torude ja kommunikatsioonide paigaldamine:\n"
-"          <ul>\n"
-"            <li>Uute veetorustike ja kanalisatsioonitorude paigaldamine "
-"vastavalt projektile.\n"
-"            <li>Drenaaži- ja ventiilikaevude, ventiilide ja muude "
-"kanalisatsioonisüsteemi elementide paigaldamine.\n"
-"          </ul>\n"
-"\n"
-"          4. Sanitaartehniliste seadmete paigaldamine:\n"
-"            <ul>\n"
-"               <li>Uute sanitaartehniliste seadmete (vannid, tualetid, "
-"kraanikausid, dušikabiinid jne) paigaldamine.\n"
-"                <li>Sanitaarseadmete ühendamine veetorustiku ja "
-"kanalisatsioonitorudega.\n"
-"            </ul>\n"
-"\n"
-"            5. Küttetorustiku paigaldamine:\n"
-"                <ul>\n"
-"                    <li>Kütteradiaatorite paigaldamine.\n"
-"                    <li>Kütetorude paigaldamine ja nende ühendamine katla"
-" või muu soojusallikaga.\n"
-"                </ul>\n"
-"\n"
-"            6. Ventilatsiooni- ja kliimaseadmete paigaldamine:\n"
-"                <ul>\n"
-"                    <li>Ventilatsiooniavadega ja väljatõmbetuulekodade "
-"paigaldamine.\n"
-"                    <li>Ventilatsioonikanalite paigaldamine ja nende "
-"ühendamine üldise maja ventilatsioonisüsteemiga.\n"
-"                </ul>\n"
-"\n"
-"            7. Köögi- ja majapidamisseadmete ühendamine:\n"
-"                <ul>\n"
-"                    <li>Köögivalamu, nõudepesumasina, pesumasina ja muude"
-" majapidamisseadmete ühendamine veetorustiku ja "
-"kanalisatsioonisüsteemiga.\n"
-"                </ul>\n"
-"\n"
-"            8. Testide läbiviimine ja süsteemi kalibreerimine:\n"
-"                <ul>\n"
-"                   <li>Torustikusüsteemide tiheduse kontrollimine.\n"
-"                   <li>Torustikuseadmete toimimise kalibreerimine ja "
-"kontrollimine.\n"
-"                </ul>\n"
-"\n"
-"            9. Dokumentatsioon ja tööde lõpetamine:\n"
-"                <ul>\n"
-"                   <li>Kliendi poolt aktsepteerimisraporti koostamine "
-"torutööde kohta.\n"
-"                   <li>Tehnilise dokumentatsiooni ja garantii kohustuste "
-"esitamine lõpetatud tööde kohta.\n"
-"                </ul>\n"
-"\n"
-"\n"
-"          Iga etapp nõuab hoolikat jälgimist ja kvaliteetset teostust, et"
-" tagada korteri torustikusüsteemide usaldusväärne ja ohutu toimimine.\n"
-"\n"
-"\n"
-"\n"
-"\n"
 
 #: templates/new_blog_pages/roofing-works.html:3
 msgid "Quality roofing works with KULBACHENKO CONSTRUCTION"
-msgstr "Kvaliteetsed katuse tööd KULBACHENKO CONSTRUCTIONiga"
+msgstr "Kvaliteetsed katuse tööd koos KULBACHENKO EHITUSEGA"
 
 #: templates/new_blog_templates/Complete-Renovation-Services-in-Amsterdam-and-The-Hague.html:3
 msgid "Complete Renovation Services in Amsterdam and The Hague"
-msgstr ""
+msgstr "Täielikud renoveerimisteenused Amsterdamis ja Haagis"
 
 #: templates/new_blog_templates/blog_new.html:3
 msgid "Blog"
-msgstr "Blogi"
+msgstr "BLOGI"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:4
 msgid "Estonian academy of music and theater in Tallinn, Estonia"
-msgstr "Eesti Muusika- ja Teatriakadeemia Tallinnas"
+msgstr "EESTI MUUSIKA- JA TEATRIAKADEEMIA TALLINNAS, EESTI"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:9
 msgid ""
@@ -2744,15 +2597,11 @@ msgid ""
 "Music and Theatre in Tallinn, Estonia. We provide professional renovation"
 " and interior design services for various premises, including educational"
 " institutions."
-msgstr ""
-"Tutvuge meie lõpetatud projektidega Tallinna Eesti Muusika- ja "
-"Teatriakadeemia fuajees, Eestis. Pakume professionaalset renoveerimist ja"
-" sisekujundusteenuseid erinevatele ruumidele, sealhulgas "
-"haridusasutustele."
+msgstr "Tutvuge meie lõpetatud projektidega Eesti Muusika- ja Teatriakadeemia fuajees Tallinnas, Eestis. Pakume professionaalseid renoveerimis- ja sisekujundusteenuseid erinevatele ruumidele, sealhulgas haridusasutustele."
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:50
 msgid "ESTONIAN ACADEMY OF MUSIC AND THEATRE IN TALLINN, ESTONIA"
-msgstr "Eesti Muusika- ja Teatriakadeemia Tallinnas"
+msgstr "EESTI MUUSIKA- JA TEATRIAKADEEMIA TALLINNAS, EESTI"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:51
 msgid ""
@@ -2761,39 +2610,39 @@ msgid ""
 "ceilings, installing lighting and electrical wiring, restoring "
 "architectural elements, installing furniture and decoration. Acoustics, "
 "ventilation and interior design were improved."
-msgstr ""
+msgstr "Eesti Muusika- ja Teatriakadeemia fuajee Tallinnas on renoveeritud: viimistlustööd, parketi paigaldamine, seinte ja lagede värvimine, valgustuse ja elektrijuhtmestiku paigaldamine, arhitektuuriliste elementide restaureerimine, mööbli ja kaunistuste paigaldamine. Parandati akustikat, ventilatsiooni ja sisekujundust."
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:78
 msgid ""
 "Description of the work done in the foyer of the Estonian Academy of "
 "Music and Theatre in Tallinn, Estonia"
-msgstr "Eesti Muusika- ja Teatriakadeemia Tallinnas"
+msgstr "EESTI MUUSIKA- JA TEATRIAKADEEMIA TALLINNAS, EESTI"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:88
 msgid "Total area of the hall"
-msgstr ""
+msgstr "Saali kogupindala"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:89
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:103
 msgid "Floor covering"
-msgstr ""
+msgstr "Põrandakatted"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:90
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:104
 msgid "Painting of walls and ceilings"
-msgstr "Seinte ja lagede täielik heliisolatsioon"
+msgstr "Seinte ja lagede värvimine"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:91
 msgid "Installation of decorative panels"
-msgstr "Põrandakütte paigaldamine"
+msgstr "Dekoratiivpaneelide paigaldamine"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:92
 msgid "Restoration of architectural elements"
-msgstr ""
+msgstr "Arhitektuuriliste elementide restaureerimine"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:93
 msgid "Lighting and electrical installation: 50+ luminaires installed"
-msgstr ""
+msgstr "Valgustuse ja elektri paigaldamine: paigaldatud üle 50 valgusti"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:99
 msgid ""
@@ -2815,6 +2664,22 @@ msgid ""
 "✔️ Treatment with protective compounds to prolong the life of the "
 "floor.<br><br>"
 msgstr ""
+"✅ Viimistlustööd:<br>\n"
+"\n"
+"✔️ Dekoratiivpaneelide ja kattematerjalide paigaldamine<br>\n"
+"✔️ Seinade ja lagede värvimine kvaliteetsete värvidega<br>\n"
+"✔️ Dekoratiivliistude ja sisustuselementide paigaldamine<br><br>\n"
+"✅ Valgustuse ja elektritööd:<br>\n"
+"\n"
+"✔️ Kaasaegsete lampide ja LED-valgustite paigaldamine<br>\n"
+"✔️ Elektrijuhtmestiku, pistikupesade ja lülitite paigaldamine<br>\n"
+"✔️ Valgussüsteemi ühendamine ja testimine<br><br>\n"
+"\n"
+"✅ Põrandakatted:<br>\n"
+"\n"
+"✔️ Vanade põrandakatete eemaldamine ja aluspinna ettevalmistamine<br>\n"
+"✔️ Parketi paigaldamine ja liistude paigaldamine<br>\n"
+"✔️ Põrandate töötlemine kaitseainetega, et pikendada nende eluiga.<br><br>"
 
 #: templates/portfolio_templates/estonian-academy-of-music-and-theater-in-tallinn-estonia.html:119
 msgid ""
@@ -2834,6 +2699,21 @@ msgid ""
 "✔️ Improvement of ventilation and air conditioning<br>\n"
 "✔️ Technical inspection and handover of the facility to the client<br><br>"
 msgstr ""
+"✅ Restaureerimine ja rekonstrueerimine:<br>\n"
+"\n"
+"✔️ Arhitektuuriliste elementide restaureerimine ja värvimine<br>\n"
+"✔️ Treppide remont ja renoveerimine<br>\n"
+"✔️ Ruumide akustika parandamine<br><br>\n"
+"✅ Mööbel ja dekoratsioon:<br>\n"
+"\n"
+"✔️ Uute toolide, laudade ja infostendide paigaldamine<br>\n"
+"✔️ Peeglite ja kunstipaneelide paigaldamine<br>\n"
+"✔️ Sisekujundus vastavalt akadeemia kontseptsioonile<br><br>\n"
+"✅ Lisatööd:<br>\n"
+"\n"
+"✔️ Pindade puhastamine ja kaitse<br>\n"
+"✔️ Ventilatsiooni ja kliimaseadmete parandamine<br>\n"
+"✔️ Tehniline ülevaatus ja objekti üleandmine kliendile<br><br>"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:4
 msgid "Turnkey renovation of the \"Varshavsky\" complex in Kyiv"
@@ -2845,6 +2725,9 @@ msgid ""
 "Varshavsky in Kyiv. High-quality interior finishing, modern design, and "
 "professional construction services. See our completed projects!"
 msgstr ""
+"Uue korteri renoveerimine võtmed kätte Varshavsky elamukompleksis "
+"Kiievis. Kõrgekvaliteediline sisekujundus, kaasaegne disain ja "
+"professionaalsed ehitusteenused. Vaadake meie lõpetatud projekte!"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:61
 msgid ""
@@ -2859,6 +2742,10 @@ msgid ""
 "painting of walls and ceilings, electrical and lighting installation, "
 "stylish interior design. Improved comfort, functionality and aesthetics."
 msgstr ""
+"Uue korteri renoveerimine võtmed kätte Varshavsky elamukompleksis "
+"Kiievis: kõrgekvaliteediline viimistlus, kaasaegse põrandakatte "
+"paigaldamine, seinte ja lagede värvimine, elektri- ja valgustuspaigaldus,"
+" stiilne sisekujundus. Paranenud mugavus, funktsionaalsus ja esteetika."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:89
 msgid ""
@@ -2868,7 +2755,7 @@ msgstr "KIIEVIS VARSHAVSKI ELAMUKOMPLEKSIS TERVIK RENOVEERIMINE"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:100
 msgid "Tile wall covering"
-msgstr "Tapeetimine"
+msgstr "Plaatide paigaldamine"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:101
 msgid "Wallpaper section"
@@ -2876,11 +2763,11 @@ msgstr "Tapeetimine"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:102
 msgid "Decorative plaster in the bedroom"
-msgstr ""
+msgstr "Dekoratiivkrohv magamistoas"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:105
 msgid "Lighting and electrical installation: modern fixtures installed"
-msgstr ""
+msgstr "Valgustuse ja elektri paigaldamine: paigaldatud kaasaegsed valgustid"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:118
 msgid ""
@@ -2889,6 +2776,9 @@ msgid ""
 "aesthetic appeal typical of modern interiors. Surface preparation was "
 "carried out in accordance with building standards for such spaces."
 msgstr ""
+"Plaatide paigaldamine: Kööki ja vannituppa paigaldati kvaliteetsed "
+"keraamilised plaadid, tagades kaasaegsete interjööride vastupidavuse ja "
+"esteetilise välimuse. Pinnatööd tehti vastavalt ehitusstandarditele."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:119
 msgid ""
@@ -2896,6 +2786,8 @@ msgid ""
 "living room and bedroom, enhancing the modern design and adding a stylish"
 " texture to the interior."
 msgstr ""
+"Tapeetimine: Elutoa ja magamistoa aktsentseintesse pandi tapeet, mis "
+"täiustas kaasaegset disaini ja lisas stiilse tekstuuri interjöörile."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:120
 msgid ""
@@ -2903,6 +2795,8 @@ msgid ""
 "applied to the bedroom walls, giving the room a unique and sophisticated "
 "feel."
 msgstr ""
+"Dekoratiivkrohv magamistoas: Magamistoa seintele kanti dekoratiivkrohv, "
+"mis andis toale ainulaadse ja rafineeritud ilme."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:121
 msgid ""
@@ -2910,10 +2804,13 @@ msgid ""
 "environmentally friendly, high quality paints, creating a smooth, clean "
 "and pleasant visual environment."
 msgstr ""
+"Seinte ja lagede värvimine: Seinad ja laed on värvitud "
+"keskkonnasõbralike, kvaliteetsete värvidega, luues sujuva, puhta ja "
+"meeldiva visuaalse keskkonna."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:124
 msgid "Floor coverings"
-msgstr ""
+msgstr "Põrandakatted"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:125
 msgid ""
@@ -2921,6 +2818,9 @@ msgid ""
 " for flooring, ensuring an ideal surface for the installation of the "
 "chosen flooring material."
 msgstr ""
+"Põrandapinna ettevalmistamine: Põrand tasandati ja ettevalmistati "
+"korralikult põrandakatte paigaldamiseks, tagades ideaalse pinna valitud "
+"põrandakatte paigaldamiseks."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:126
 msgid ""
@@ -2928,22 +2828,28 @@ msgid ""
 "and installed throughout the home, creating a modern and functional "
 "living space."
 msgstr ""
+"Põrandakatete paigaldamine: Kvaliteetsed põrandakatted valiti ja "
+"paigaldati kogu majja, luues kaasaegse ja funktsionaalse eluruumi."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:127
 msgid ""
 "Skirting installation: New skirting boards were fitted, providing a "
 "seamless finish between the floor and walls and completing the design."
 msgstr ""
+"Liistude paigaldamine: Paigaldati uued liistud, mis tagavad sujuva "
+"ülemineku põranda ja seinte vahel ning lõpetavad disaini."
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:133
 msgid "✅ Lighting and electrical works"
-msgstr "Inseneri- ja elektritööd"
+msgstr "✅ Valgustuse ja elektritööd"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:134
 msgid ""
 "✔️ Lighting installation: Modern LED lighting fixtures were installed, "
 "ensuring both energy efficiency and optimal illumination of the apartment"
 msgstr ""
+"✔️ Valgustuse paigaldamine: Paigaldati kaasaegsed LED-valgustid, mis "
+"tagavad nii energiatõhususe kui ka optimaalse valgustuse korteris"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:135
 msgid ""
@@ -2951,6 +2857,9 @@ msgid ""
 "completed, including the installation of switches, sockets and necessary "
 "circuit elements. The work was carried out to the latest safety standards"
 msgstr ""
+"✔️ Elektripaigaldus: Korteri elektrijuhtmestik viidi täielikult lõpule, "
+"kaasa arvatud lülitite, pistikupesade ja vajalike vooluringi elementide "
+"paigaldamine. Tööd tehti vastavalt uusimatele ohutusstandarditele"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:136
 msgid ""
@@ -2958,10 +2867,13 @@ msgid ""
 "switches and sockets, were carefully tested to ensure functionality and "
 "safety"
 msgstr ""
+"✔️ Testimine ja ühendamine: Kõik elektrisüsteemid, sealhulgas tuled, "
+"lülitid ja pistikupesad, testiti hoolikalt, et tagada nende "
+"funktsionaalsus ja ohutus"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:139
 msgid "Additional work"
-msgstr "Lisateenused"
+msgstr "Lisatööd"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:140
 msgid ""
@@ -2969,6 +2881,9 @@ msgid ""
 "the entire apartment was cleaned and surfaces were protected from damage "
 "to ensure the high quality of the finish was maintained"
 msgstr ""
+"Puhastamine ja pindade kaitse: Pärast viimistlustööde lõpetamist "
+"puhastati kogu korter ja pinnad kaitsti kahjustuste eest, et säilitada "
+"viimistluse kõrge kvaliteet"
 
 #: templates/portfolio_templates/renovation-in-the-varshavsky-residential-complex-in-kyiv.html:141
 msgid ""
@@ -2976,6 +2891,9 @@ msgid ""
 "ensure that all works met the required standards and the property was "
 "handed over to the client fully ready for occupation"
 msgstr ""
+"Lõplik ülevaatus ja üleandmine: Tehti põhjalik ülevaatus, et veenduda, et"
+" kõik tööd vastavad nõutavatele standarditele ja vara anti kliendile "
+"täielikult elamiseks valmis üle"
 
 #: venv/lib/python3.10/site-packages/click/_termui_impl.py:518
 msgid "{editor}: Editing failed"
@@ -4124,33 +4042,6 @@ msgstr ""
 #~ " kvaliteet ja ekspertiis, mida me iga"
 #~ " projekti elluviimisel pakume."
 
-#~ msgid ""
-#~ "Explore our completed projects in the"
-#~ " lobby of the Estonian Academy of "
-#~ "Music and Theatre\n"
-#~ "                    in Tallinn, Estonia. We"
-#~ " provide professional renovation and "
-#~ "interior design services for\n"
-#~ "                    various premises, including "
-#~ "educational institutions. Our work in "
-#~ "the academy's lobby reflects\n"
-#~ "                    the high quality of "
-#~ "our services and attention to detail."
-#~ " Immerse yourself in the atmosphere\n"
-#~ "                    of our completed projects and see for yourself\n"
-#~ "                    our expertise in construction and renovation."
-#~ msgstr ""
-#~ "Tutvuge meie lõpetatud projektidega Tallinna"
-#~ " Eesti Muusika- ja Teatriakadeemia fuajees,"
-#~ " Eestis. Pakume professionaalset renoveerimist"
-#~ " ja sisekujundusteenuseid erinevatele ruumidele,"
-#~ " sealhulgas haridusasutustele. Meie töö "
-#~ "akadeemia fuajees peegeldab meie teenuste "
-#~ "kõrget kvaliteeti ja tähelepanu detailidele."
-#~ " Sukelduge meie lõpetatud projektide "
-#~ "atmosfääri ja veenduge ise meie ehitus-"
-#~ " ja renoveerimisoskustes."
-
 #~ msgid "Renovation in the varshavsky residential complex in kyiv"
 #~ msgstr "Renoveerimine varshavski elamukompleksis Kiievis"
 
@@ -4195,4 +4086,63 @@ msgstr ""
 #~ "kompleksis ja näete, kuidas see uus "
 #~ "ehitus muutub stiilseks ja mugavaks "
 #~ "eluruumiks."
+
+#~ msgid ""
+#~ "Explore our completed projects in the"
+#~ " lobby of the Estonian Academy of "
+#~ "Music and Theatre\n"
+#~ "                    in Tallinn, Estonia. We"
+#~ " provide professional renovation and "
+#~ "interior design services for\n"
+#~ "                    various premises, including "
+#~ "educational institutions. Our work in "
+#~ "the academy's lobby reflects\n"
+#~ "                    the high quality of "
+#~ "our services and attention to detail."
+#~ " Immerse yourself in the atmosphere\n"
+#~ "                    of our completed projects and see for yourself\n"
+#~ "                    our expertise in construction and renovation."
+#~ msgstr ""
+#~ "Tutvuge meie lõpetatud projektidega Tallinna"
+#~ " Eesti Muusika- ja Teatriakadeemia fuajees,"
+#~ " Eestis. Pakume professionaalset renoveerimist"
+#~ " ja sisekujundusteenuseid erinevatele ruumidele,"
+#~ " sealhulgas haridusasutustele. Meie töö "
+#~ "akadeemia fuajees peegeldab meie teenuste "
+#~ "kõrget kvaliteeti ja tähelepanu detailidele."
+#~ " Sukelduge meie lõpetatud projektide "
+#~ "atmosfääri ja veenduge ise meie ehitus-"
+#~ " ja renoveerimisoskustes."
+
+#~ msgid ""
+#~ "Explore our portfolio showcasing our professional home cinema,\n"
+#~ "     comprehensive renovation projects, and"
+#~ " more. Discover the quality and "
+#~ "expertise we bring to\n"
+#~ "      every project we undertake."
+#~ msgstr ""
+#~ "Uurige meie portfelli, kus näete meie"
+#~ " professionaalset kodukino, ulatuslikke "
+#~ "renoveerimisprojekte ja palju muud. Avastage"
+#~ " kvaliteet ja ekspertiis, mida me iga"
+#~ " projekti elluviimisel pakume."
+
+#~ msgid "Portfolio"
+#~ msgstr "Portfell"
+
+#~ msgid ""
+#~ "Explore our portfolio showcasing our professional home cinema,\n"
+#~ "                 comprehensive renovation projects,"
+#~ " and more. Discover the quality and"
+#~ " expertise we bring to\n"
+#~ "                  every project we undertake."
+#~ msgstr ""
+#~ "Uurige meie portfelli, kus näete meie"
+#~ " professionaalset kodukino, ulatuslikke "
+#~ "renoveerimisprojekte ja palju muud. Avastage"
+#~ " kvaliteet ja ekspertiis, mida me iga"
+#~ " projekti elluviimisel pakume."
+
+#~ msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+#~ msgstr "KIIEVIS VARSHAVSKI ELAMUKOMPLEKSIS TERVIK RENOVEERIMINE"
 

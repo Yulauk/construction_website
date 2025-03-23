@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-23 11:33+0100\n"
+"POT-Creation-Date: 2025-03-23 16:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,7 +131,6 @@ msgstr ""
 
 #: templates/base.html:197 templates/base.html:296 templates/base.html:395
 #: templates/index.html:100 templates/index.html:190
-#: templates/portfolio_old.html:14
 msgid "PORTFOLIO"
 msgstr ""
 
@@ -1167,11 +1166,11 @@ msgstr ""
 msgid "turnkey renovation for a newly built apartment, Kyiv, Ukraine"
 msgstr ""
 
-#: templates/portfolio.html:91 templates/portfolio_old.html:36
+#: templates/portfolio.html:91
 msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
 msgstr ""
 
-#: templates/portfolio.html:99 templates/portfolio_old.html:56
+#: templates/portfolio.html:99
 msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
 msgstr ""
 
@@ -1189,30 +1188,6 @@ msgstr ""
 
 #: templates/portfolio.html:130
 msgid "Facebook and Telegram"
-msgstr ""
-
-#: templates/portfolio_old.html:4
-msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"     comprehensive renovation projects, and more. Discover the quality "
-"and expertise we bring to\n"
-"      every project we undertake."
-msgstr ""
-
-#: templates/portfolio_old.html:9
-msgid "Portfolio"
-msgstr ""
-
-#: templates/portfolio_old.html:20
-msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"                 comprehensive renovation projects, and more. Discover "
-"the quality and expertise we bring to\n"
-"                  every project we undertake."
-msgstr ""
-
-#: templates/portfolio_old.html:45
-msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
 msgstr ""
 
 #: templates/recreation-complex-nova-estonia.html:9
