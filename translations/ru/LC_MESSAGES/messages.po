@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-23 11:33+0100\n"
+"POT-Creation-Date: 2025-03-23 16:26+0100\n"
 "PO-Revision-Date: 2024-05-12 15:58+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -165,7 +165,6 @@ msgstr "О НАС"
 
 #: templates/base.html:197 templates/base.html:296 templates/base.html:395
 #: templates/index.html:100 templates/index.html:190
-#: templates/portfolio_old.html:14
 msgid "PORTFOLIO"
 msgstr "ПОРТФОЛИО"
 
@@ -1299,11 +1298,11 @@ msgstr "Ванная комната в частном доме в Эстонии
 msgid "turnkey renovation for a newly built apartment, Kyiv, Ukraine"
 msgstr "капитальный ремонт новостройки, Киев, Украина"
 
-#: templates/portfolio.html:91 templates/portfolio_old.html:36
+#: templates/portfolio.html:91
 msgid "PROFESSIONAL HOME CINEMA IN PRIVATE HOUSE IN UKRAINE"
 msgstr "ПРОФЕССИОНАЛЬНЫЙ ДОМАШНИЙ КИНОТЕАТР В ЧАСТНОМ ДОМЕ В УКРАИНЕ"
 
-#: templates/portfolio.html:99 templates/portfolio_old.html:56
+#: templates/portfolio.html:99
 msgid "ESTONIAN ACADEMY OF MUSIC AND THEATER IN TALLINN, ESTONIA"
 msgstr "ЭСТОНСКАЯ АКАДЕМИЯ МУЗЫКИ И ТЕАТРА В ТАЛЛИННЕ, ЭСТОНИЯ"
 
@@ -1322,39 +1321,6 @@ msgstr "Вы можете найти еще больше наших работ �
 #: templates/portfolio.html:130
 msgid "Facebook and Telegram"
 msgstr "Facebook и Telegram"
-
-#: templates/portfolio_old.html:4
-msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"     comprehensive renovation projects, and more. Discover the quality "
-"and expertise we bring to\n"
-"      every project we undertake."
-msgstr ""
-"Исследуйте наше портфолио, демонстрирующее наш профессиональный домашний "
-"кинотеатр,\n"
-"комплексные проекты ремонта и многое другое. Откройте для себя качество и"
-" опыт, которые мы приносим\n"
-"в каждый наш проект."
-
-#: templates/portfolio_old.html:9
-msgid "Portfolio"
-msgstr "Портфолио"
-
-#: templates/portfolio_old.html:20
-msgid ""
-"Explore our portfolio showcasing our professional home cinema,\n"
-"                 comprehensive renovation projects, and more. Discover "
-"the quality and expertise we bring to\n"
-"                  every project we undertake."
-msgstr ""
-"Исследуйте наше портфолио, демонстрирующее наш профессиональный домашний "
-"кинотеатр,\n"
-"комплексные проекты ремонта и многое другое. Откройте для себя качество\n"
-"и опыт, которые мы приносим в каждый наш проект."
-
-#: templates/portfolio_old.html:45
-msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
-msgstr "КОМПЛЕКСНЫЙ РЕМОНТ В ЖИЛОМ КОМПЛЕКСЕ ВАРШАВСКИЙ В КИЕВЕ"
 
 #: templates/recreation-complex-nova-estonia.html:9
 msgid ""
@@ -1431,7 +1397,10 @@ msgid ""
 "making it an ideal destination for nature lovers, sports teams and "
 "corporate retreats."
 msgstr ""
-"Спроектированный с использованием современных технологий и экологически чистых решений, лагерь Спарта предлагает гармоничное сочетание комфорта, функциональности и устойчивости, что делает его идеальным местом для любителей природы, спортивных команд и корпоративных ретритов."
+"Спроектированный с использованием современных технологий и экологически "
+"чистых решений, лагерь Спарта предлагает гармоничное сочетание комфорта, "
+"функциональности и устойчивости, что делает его идеальным местом для "
+"любителей природы, спортивных команд и корпоративных ретритов."
 
 #: templates/renovation-for-a-newly-built-apartment-in-kyiv.html:4
 msgid "Turnkey renovation for a newly built apartment in Kyiv, Ukraine"
@@ -4361,4 +4330,37 @@ msgstr ""
 #~ "как это новое строение преобразуется в"
 #~ "\n"
 #~ "                    стильное и комфортабельное жилое пространство."
+
+#~ msgid ""
+#~ "Explore our portfolio showcasing our professional home cinema,\n"
+#~ "     comprehensive renovation projects, and"
+#~ " more. Discover the quality and "
+#~ "expertise we bring to\n"
+#~ "      every project we undertake."
+#~ msgstr ""
+#~ "Исследуйте наше портфолио, демонстрирующее наш"
+#~ " профессиональный домашний кинотеатр,\n"
+#~ "комплексные проекты ремонта и многое "
+#~ "другое. Откройте для себя качество и "
+#~ "опыт, которые мы приносим\n"
+#~ "в каждый наш проект."
+
+#~ msgid "Portfolio"
+#~ msgstr "Портфолио"
+
+#~ msgid ""
+#~ "Explore our portfolio showcasing our professional home cinema,\n"
+#~ "                 comprehensive renovation projects,"
+#~ " and more. Discover the quality and"
+#~ " expertise we bring to\n"
+#~ "                  every project we undertake."
+#~ msgstr ""
+#~ "Исследуйте наше портфолио, демонстрирующее наш"
+#~ " профессиональный домашний кинотеатр,\n"
+#~ "комплексные проекты ремонта и многое "
+#~ "другое. Откройте для себя качество\n"
+#~ "и опыт, которые мы приносим в каждый наш проект."
+
+#~ msgid "COMPREHENSIVE RENOVATION IN THE VARSHAVSKY RESIDENTIAL COMPLEX IN KYIV"
+#~ msgstr "КОМПЛЕКСНЫЙ РЕМОНТ В ЖИЛОМ КОМПЛЕКСЕ ВАРШАВСКИЙ В КИЕВЕ"
 
