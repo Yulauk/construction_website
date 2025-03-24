@@ -585,7 +585,7 @@ msgstr "IVA (BTW)"
 
 #: templates/index.html:268
 msgid "Parking"
-msgstr "Aparcamiento"
+msgstr "Parking"
 
 #: templates/index.html:270
 msgid "Furniture Assembly"

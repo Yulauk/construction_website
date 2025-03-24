@@ -1522,7 +1522,9 @@ icon-background {
         margin: 1rem 0;
     }
 
-
+.cards_button_wrapper {
+    margin-top: auto;
+}
 
 .card_link-button {
         font-weight: 600;

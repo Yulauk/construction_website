@@ -582,7 +582,7 @@ msgstr "ПДВ (BTW)"
 
 #: templates/index.html:268
 msgid "Parking"
-msgstr "Обклеювання шпалерами"
+msgstr "Поркінг"
 
 #: templates/index.html:270
 msgid "Furniture Assembly"
